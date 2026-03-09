@@ -14,12 +14,17 @@
     "Technology & Hardware": ["Hardware"],
     "Marketing": ["Marketing", "SEO"],
     "Research": ["Research"],
-    "Argument & Perspective Analysis": ["Analysis"],
+    "Argument and Perspective Exploration": ["Research", "Analysis"],
+    "Argument & Perspective Analysis": ["Research", "Analysis"],
+    "Context and Personalization": ["Configuration"],
     "Context & Personalization": ["Configuration"],
+    "Multi-Agent Tooling": ["Multi-Agent"],
     "Multi-Agent & Tooling": ["Multi-Agent"],
+    "MCP": ["MCP"],
     "MCP (Model Context Protocol)": ["MCP"],
     "Plugins": ["Plugin"],
     "Slash Commands": ["Slash Commands"],
+    "Miscellaneous": ["Documentation"],
     "Miscellaneous & Meta": ["Documentation"]
   },
 
@@ -71,6 +76,14 @@
   },
 
   "tag_overrides": {
-    "_comment": "Manual overrides: repo name -> exact tag list. Takes precedence over auto-tagging."
+    "_comment": "Manual overrides: repo name -> exact tag list. Takes precedence over auto-tagging.",
+    "Claude AI Conference": ["Research", "Documentation"],
+    "Claude Code Context Feature Requests": ["Configuration", "Documentation"],
+    "Claude Repo Retrofitter": ["Automation", "Multi-Agent", "Tool"],
+    "Claude Spec Starter": ["Configuration", "Template"],
+    "Cool Claude Code Stuff": ["Documentation", "Multi-Agent"],
+    "Ecosystem Mapper": ["Multi-Agent", "Tool"],
+    "New Turn Claude Hook": ["Automation", "Tool"],
+    "Non-Code Claude Code": ["Documentation", "Agent Workspace"]
   }
 }

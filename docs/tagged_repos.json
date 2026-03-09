@@ -4,7 +4,8 @@
     "url": "https://github.com/danielrosehill/Agent-Junction",
     "description": "MCP server enabling encrypted peer-to-peer communication between Claude Code instances on localhost or LAN.",
     "tags": [
-      "MCP"
+      "MCP",
+      "Multi-Agent"
     ],
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
@@ -49,7 +50,8 @@
     "description": "Automation workspace for batch-adding CLAUDE.md files across multiple GitHub repositories.",
     "tags": [
       "Agent Workspace",
-      "Automation"
+      "Automation",
+      "Configuration"
     ],
     "category": "Context and Personalization",
     "category_slug": "context",
@@ -125,6 +127,7 @@
     "description": "Launchpad for creating standardized workspace templates conforming to the Agent Workspace Model v1.1 spec, with slash commands to generate, validate, and publish new workspaces.",
     "tags": [
       "Agent Workspace",
+      "Multi-Agent",
       "Slash Commands"
     ],
     "category": "Multi-Agent Tooling",
@@ -140,6 +143,7 @@
     "description": "The reference template for the agent workspace pattern \u2014 a defined folder structure and Claude Code scaffolding (CLAUDE.md, slash commands, subagents, MCP configs) for using a repository as a structured workspace for any activity, not just development. Point Claude at this repo to have it scaffold new workspaces following the model.",
     "tags": [
       "Agent Workspace",
+      "Configuration",
       "Documentation",
       "MCP",
       "Multi-Agent",
@@ -158,7 +162,8 @@
     "url": "https://github.com/danielrosehill/Claude-AI-Conference",
     "description": "Simulated conference where 30+ AI personas deliver speeches on AI's impact from diverse perspectives.",
     "tags": [
-      "Documentation"
+      "Documentation",
+      "Research"
     ],
     "category": "Argument and Perspective Exploration",
     "category_slug": "argument",
@@ -279,7 +284,9 @@
     "url": "https://github.com/danielrosehill/Claude-Change-My-View",
     "description": "Workspace for challenging personal beliefs through AI-generated counterarguments and rebuttals.",
     "tags": [
-      "Agent Workspace"
+      "Agent Workspace",
+      "Analysis",
+      "Research"
     ],
     "category": "Argument and Perspective Exploration",
     "category_slug": "argument",
@@ -307,6 +314,7 @@
     "url": "https://github.com/danielrosehill/Claude-Code-Context-Feature-Requests",
     "description": "Feature requests for improving Claude Code's context handling capabilities.",
     "tags": [
+      "Configuration",
       "Documentation"
     ],
     "category": "Miscellaneous",
@@ -321,6 +329,7 @@
     "url": "https://github.com/danielrosehill/Claude-Code-Context-Toolkit",
     "description": "Bridges human-friendly CONTEXT.md files with AI-optimized CLAUDE.md briefings via slash commands.",
     "tags": [
+      "Configuration",
       "Slash Commands"
     ],
     "category": "Context and Personalization",
@@ -381,7 +390,8 @@
     "description": "Personal documentation of workflows and tips for using Claude Code on Ubuntu with KDE Plasma.",
     "tags": [
       "Automation",
-      "Documentation"
+      "Documentation",
+      "Multi-Agent"
     ],
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
@@ -439,7 +449,8 @@
     "description": "Minimal reference repository for documenting Claude Code usage patterns and workflows.",
     "tags": [
       "Automation",
-      "Documentation"
+      "Documentation",
+      "Multi-Agent"
     ],
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
@@ -1024,6 +1035,7 @@
     "url": "https://github.com/danielrosehill/Claude-Model-Identifier",
     "description": "Prompt template for verifying the correct Claude model variant at conversation start.",
     "tags": [
+      "Configuration",
       "Template"
     ],
     "category": "Context and Personalization",
@@ -1179,7 +1191,8 @@
     "url": "https://github.com/danielrosehill/Claude-Repo-Jumper",
     "description": "Skill for automating repository handovers with context-passing in multi-repo systems.",
     "tags": [
-      "Automation"
+      "Automation",
+      "Multi-Agent"
     ],
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
@@ -1193,7 +1206,9 @@
     "url": "https://github.com/danielrosehill/Claude-Repo-Retrofitter",
     "description": "Bulk-retrofit existing repositories with AI agent scaffolding (CLAUDE.md, commands, agents) in batch operations, with interactive or autonomous modes and incremental progress tracking.",
     "tags": [
-      "Documentation"
+      "Automation",
+      "Multi-Agent",
+      "Tool"
     ],
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
@@ -1333,6 +1348,7 @@
     "description": "Ideation workspace for generating and documenting new agent workspace concepts.",
     "tags": [
       "Agent Workspace",
+      "Configuration",
       "Research"
     ],
     "category": "Context and Personalization",
@@ -1347,7 +1363,8 @@
     "url": "https://github.com/danielrosehill/Claude-Spec-Starter",
     "description": "Template that transforms unstructured project descriptions into organized specifications for Claude Code.",
     "tags": [
-      "Documentation"
+      "Configuration",
+      "Template"
     ],
     "category": "Context and Personalization",
     "category_slug": "context",
@@ -1377,7 +1394,8 @@
     "url": "https://github.com/danielrosehill/Claude-Sub-Agent-Network",
     "description": "Collection of system prompts and configurations for development, operational, and creative tasks.",
     "tags": [
-      "Configuration"
+      "Configuration",
+      "Multi-Agent"
     ],
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
@@ -1423,7 +1441,8 @@
     "url": "https://github.com/danielrosehill/Claude-Task-Manager",
     "description": "Sequential task queuing system addressing context window exhaustion in agentic coding tools.",
     "tags": [
-      "Agent Workspace"
+      "Agent Workspace",
+      "Multi-Agent"
     ],
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
@@ -1468,6 +1487,7 @@
     "url": "https://github.com/danielrosehill/Claude-Think-Tank",
     "description": "Virtual think tank framework using AI agents for research and policy proposal development.",
     "tags": [
+      "Analysis",
       "Multi-Agent",
       "Research"
     ],
@@ -1534,6 +1554,7 @@
     "tags": [
       "Agent Workspace",
       "Configuration",
+      "Multi-Agent",
       "Tool"
     ],
     "category": "Multi-Agent Tooling",
@@ -1564,7 +1585,8 @@
     "url": "https://github.com/danielrosehill/CONTEXT.md",
     "description": "Workflow methodology for separating human-authored context from structured AI agent briefings.",
     "tags": [
-      "Automation"
+      "Automation",
+      "Configuration"
     ],
     "category": "Context and Personalization",
     "category_slug": "context",
@@ -1578,7 +1600,8 @@
     "url": "https://github.com/danielrosehill/Cool-Claude-Code-Stuff",
     "description": "Curated collection of Claude Code projects and resources organized by category.",
     "tags": [
-      "Documentation"
+      "Documentation",
+      "Multi-Agent"
     ],
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
@@ -1608,7 +1631,8 @@
     "url": "https://github.com/danielrosehill/Ecosystem-Mapper",
     "description": "Agent that discovers, categorizes, and visualizes technology ecosystems from keyword searches.",
     "tags": [
-      "Documentation"
+      "Multi-Agent",
+      "Tool"
     ],
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
@@ -1636,7 +1660,8 @@
     "url": "https://github.com/danielrosehill/Linux-Desktop-ClaudeMD-Seeder",
     "description": "Automatically generates contextual CLAUDE.md files across a Linux desktop filesystem.",
     "tags": [
-      "Automation"
+      "Automation",
+      "Configuration"
     ],
     "category": "Context and Personalization",
     "category_slug": "context",
@@ -1680,7 +1705,8 @@
     "url": "https://github.com/danielrosehill/New-Turn-Claude-Hook",
     "description": "Tool that determines whether to continue an AI conversation or start fresh for optimal context.",
     "tags": [
-      "Documentation"
+      "Automation",
+      "Tool"
     ],
     "category": "Miscellaneous",
     "category_slug": "misc",
@@ -1708,6 +1734,7 @@
     "url": "https://github.com/danielrosehill/Non-Code-Claude-Code",
     "description": "Showcase of creative Claude Code applications beyond traditional software development.",
     "tags": [
+      "Agent Workspace",
       "Documentation"
     ],
     "category": "Miscellaneous",
