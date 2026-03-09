@@ -600,6 +600,13 @@ Ideation workspace for generating and documenting new agent workspace concepts.
 
 ---
 
+### Claude Agent Workspace Generator
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Agent-Workspace-Generator) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Launchpad for creating, editing, and managing Claude Space templates conforming to the Claude Agent Workspace Model v1.1 specification.
+
+---
+
 ### Split Context Setup
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Split-Context-Setup) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
