@@ -359,9 +359,9 @@
           "description": "Prompt template for verifying the correct Claude model variant at conversation start."
         },
         {
-          "name": "Claude Spaces Model",
-          "url": "https://github.com/danielrosehill/Claude-Spaces-Model",
-          "description": "Documentation and catalog of the Claude Spaces pattern \u2014 the original method behind agent workspace blueprints."
+          "name": "Claude Agent Workspace Model",
+          "url": "https://github.com/danielrosehill/Claude-Agent-Workspace-Model",
+          "description": "The reference template for the agent workspace pattern \u2014 a defined folder structure and Claude Code scaffolding (CLAUDE.md, slash commands, subagents, MCP configs) for using a repository as a structured workspace for any activity, not just development. Point Claude at this repo to have it scaffold new workspaces following the model."
         },
         {
           "name": "Claude Space Self-Ideator",

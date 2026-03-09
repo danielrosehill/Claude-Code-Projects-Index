@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-03-09T21:37:01",
+  "last_built": "2026-03-09T21:55:45",
   "total_repos": 113,
   "total_tags": 23,
   "repo_manifest": {
@@ -10,6 +10,7 @@
     "Claude ADB Workspace Template": "96b2de29527e9528686a47125d2e6453",
     "Claude ADHD Research Workspace": "5341deb38363126cafd6823770608b05",
     "Claude Agent Picker Pattern": "e305d5d022924e47f07ee90fb6855b9f",
+    "Claude Agent Workspace Model": "498052c9ca11bc35bd76faf51c5aa865",
     "Claude AI Conference": "3cfbefc290bf8836f86ae8254dd4f8f8",
     "Claude App Optimiser": "efc30e1ac47ec8776755224f341ae566",
     "Claude Blog Manager": "01b10aeb1ff0bc9284eda4ae48e60238",
@@ -82,7 +83,6 @@
     "Claude Server Mgmt Template SBCs": "f9959770381931931b4e9d653242d7ff",
     "Claude Slash Commands": "f8c37eb4140b2eb635ee146c2b7002b2",
     "Claude Space Self-Ideator": "ebe3e19cbf829d4294bf5b7a7b1fb898",
-    "Claude Spaces Model": "af7a3aae74cffc504be567258febb306",
     "Claude Spec Starter": "6edf4990b7879a091e4135ba42dfbb57",
     "Claude Stack Research Workspace": "aa536c8442d7f2759e184116817180a3",
     "Claude Sub-Agent Network": "b23842375e5a6c4894afc29453b6bd75",
@@ -921,6 +921,24 @@
           "type": "added",
           "repos": [
             "Claude Salary Research Agent"
+          ]
+        }
+      ],
+      "total_repos": 113
+    },
+    {
+      "date": "2026-03-09T21:55:45",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Claude Agent Workspace Model"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Claude Spaces Model"
           ]
         }
       ],

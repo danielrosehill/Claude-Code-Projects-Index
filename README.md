@@ -24,6 +24,7 @@ This index showcases diverse applications of Claude Code as an agent workspace p
 | **Templates** | Forkable starting points you can customize for your own use | ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) |
 | **Non-Code** | Applications beyond software development (research, productivity, health, etc.) | ![Non-Code](https://img.shields.io/badge/Non--Code-teal?style=flat-square) |
 
+🧩 **[The Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model)** — The template and reference for using repositories as structured AI agent workspaces
 📖 **[What are Agent Workspaces?](./claude-spaces.md)** — The "Claude Spaces" pattern that inspired these agent workspace blueprints
 📝 **[Notes on Templates & Workspaces](./notes.md)** — Additional context on these approaches
 
@@ -44,6 +45,14 @@ For those wondering: I'm a real human ([danielrosehill.com](https://danielrosehi
 I've been using Claude Code daily for about six months, for everything from development to audio editing to SEO analysis. This is a diverse collection of repositories, but it tends to lean away from the classic code generation use cases. Instead, it explores the longer tail of what Claude Code can do — deep research, systems administration, legal workflows, health documentation, media monitoring, and more.
 
 If there's a common thread, it's treating Claude Code less as a coding assistant and more as a general-purpose agent workspace that happens to run in a terminal.
+
+## The Agent Workspace Model
+
+All of the workspaces in this index follow a common pattern defined in the **[Claude Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model)** repository. The core idea: a Git repository isn't just for code — it can serve as a complete, self-contained workspace for *any* activity. Each workspace uses a defined folder structure, a `CLAUDE.md` for agent instructions, slash commands, MCP configurations, and subagent definitions to create a purpose-built environment.
+
+This pattern has been applied to everything from sysadmin and remote server management to legal research, health documentation, and financial planning — domains that have nothing to do with software development.
+
+**Want to follow this approach?** Point Claude Code at the [model repository](https://github.com/danielrosehill/Claude-Agent-Workspace-Model) to give it context on the pattern, then ask it to scaffold a new workspace for your use case. The model repo serves as both documentation and a live reference that Claude can read to understand the conventions.
 
 ---
 
@@ -586,10 +595,10 @@ Prompt template for verifying the correct Claude model variant at conversation s
 
 ---
 
-### Claude Spaces Model
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Spaces-Model)
+### Claude Agent Workspace Model
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Agent-Workspace-Model) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
 
-Documentation and catalog of the Claude Spaces pattern — the original method behind agent workspace blueprints.
+The reference template for the agent workspace pattern — a defined folder structure and Claude Code scaffolding (CLAUDE.md, slash commands, subagents, MCP configs) for using a repository as a structured workspace for any activity, not just development. Point Claude at this repo to have it scaffold new workspaces following the model.
 
 ---
 

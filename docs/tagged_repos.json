@@ -105,6 +105,25 @@
     "created_date": "2025-10-31"
   },
   {
+    "name": "Claude Agent Workspace Model",
+    "url": "https://github.com/danielrosehill/Claude-Agent-Workspace-Model",
+    "description": "The reference template for the agent workspace pattern \u2014 a defined folder structure and Claude Code scaffolding (CLAUDE.md, slash commands, subagents, MCP configs) for using a repository as a structured workspace for any activity, not just development. Point Claude at this repo to have it scaffold new workspaces following the model.",
+    "tags": [
+      "Agent Workspace",
+      "Documentation",
+      "MCP",
+      "Multi-Agent",
+      "Slash Commands",
+      "Template"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-09",
+    "slug": "claude-agent-workspace-model",
+    "created_date": "2026-03-09"
+  },
+  {
     "name": "Claude AI Conference",
     "url": "https://github.com/danielrosehill/Claude-AI-Conference",
     "description": "Simulated conference where 30+ AI personas deliver speeches on AI's impact from diverse perspectives.",
@@ -1204,21 +1223,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-space-self-ideator",
     "created_date": "2026-01-11"
-  },
-  {
-    "name": "Claude Spaces Model",
-    "url": "https://github.com/danielrosehill/Claude-Spaces-Model",
-    "description": "Documentation and catalog of the Claude Spaces pattern \u2014 the original method behind agent workspace blueprints.",
-    "tags": [
-      "Agent Workspace",
-      "Documentation"
-    ],
-    "category": "Context and Personalization",
-    "category_slug": "context",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-03-06",
-    "slug": "claude-spaces-model",
-    "created_date": "2025-10-29"
   },
   {
     "name": "Claude Spec Starter",

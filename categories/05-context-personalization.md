@@ -32,10 +32,10 @@ Prompt template for verifying the correct Claude model variant at conversation s
 
 ---
 
-### Claude Spaces Model
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Spaces-Model)
+### Claude Agent Workspace Model
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Agent-Workspace-Model) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
 
-Documentation and catalog of the Claude Spaces pattern — the original method behind agent workspace blueprints.
+The reference template for the agent workspace pattern — a defined folder structure and Claude Code scaffolding (CLAUDE.md, slash commands, subagents, MCP configs) for using a repository as a structured workspace for any activity, not just development. Point Claude at this repo to have it scaffold new workspaces following the model.
 
 ---
 
