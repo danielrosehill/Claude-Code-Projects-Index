@@ -475,6 +475,13 @@ Structured workflow for systematic research with specialized agents across acade
 
 ---
 
+### Claude Competitor Research Agent
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Competitor-Research-Agent) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Claude Space](https://img.shields.io/badge/Claude-Space-purple?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+A Claude Code workspace for systematic competitive intelligence research using white-hat methodology. Features slash commands for onboarding, competitor scanning, pricing research, positioning analysis, landscape mapping, and formal report generation — all using only publicly available information.
+
+---
+
 ### Claude Github Shortlister
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Github-Shortlister) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Claude Space](https://img.shields.io/badge/Claude-Space-purple?style=flat-square)
 
