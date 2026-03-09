@@ -576,8 +576,13 @@ def update_site_state(tagged_repos):
         })
     history = history[-50:]
 
+    # Only update last_built timestamp when there are actual content changes
+    last_built = prev_state.get("last_built", datetime.now().strftime("%Y-%m-%dT%H:%M:%S"))
+    if changes:
+        last_built = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+
     state = {
-        "last_built": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+        "last_built": last_built,
         "total_repos": len(tagged_repos),
         "total_tags": len({t for r in tagged_repos for t in r["tags"]}),
         "repo_manifest": repo_manifest,
