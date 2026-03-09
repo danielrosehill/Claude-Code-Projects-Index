@@ -218,7 +218,12 @@
         {
           "name": "Claude Job Search Strategist",
           "url": "https://github.com/danielrosehill/Claude-Job-Search-Strategist",
-          "description": "Job search workspace with specialized agents for company research, resume tailoring, and interview preparation. Workspaces and templates for business planning, idea evaluation, and organizational continuity."
+          "description": "Job search workspace with specialized agents for company research, resume tailoring, and interview preparation."
+        },
+        {
+          "name": "Claude Salary Research Agent",
+          "url": "https://github.com/danielrosehill/Claude-Salary-Research-Agent",
+          "description": "Systematic salary and compensation research workspace using publicly available sources, with commands for role scanning, benchmarking, benefits analysis, and formal report generation. Workspaces and templates for business planning, idea evaluation, and organizational continuity."
         },
         {
           "name": "Claude Business Continuity Planner",
@@ -623,9 +628,9 @@
   ],
   "statistics": {
     "total_categories": 9,
-    "total_repositories": 112,
+    "total_repositories": 113,
     "repositories_by_category": {
-      "Systems Administration": 50,
+      "Systems Administration": 51,
       "Research": 8,
       "Argument and Perspective Exploration": 3,
       "Context and Personalization": 12,

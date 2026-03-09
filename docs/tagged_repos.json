@@ -1128,6 +1128,22 @@
     "created_date": "2025-12-14"
   },
   {
+    "name": "Claude Salary Research Agent",
+    "url": "https://github.com/danielrosehill/Claude-Salary-Research-Agent",
+    "description": "Systematic salary and compensation research workspace using publicly available sources, with commands for role scanning, benchmarking, benefits analysis, and formal report generation.",
+    "tags": [
+      "Agent Workspace",
+      "Planning",
+      "Research"
+    ],
+    "category": "Career",
+    "category_slug": "career",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-09",
+    "slug": "claude-salary-research-agent",
+    "created_date": "2026-03-09"
+  },
+  {
     "name": "Claude Server Manager Template",
     "url": "https://github.com/danielrosehill/Claude-Server-Manager-Template",
     "description": "Server administration template with 38 slash commands and 10 agents optimized for Docker deployments.",

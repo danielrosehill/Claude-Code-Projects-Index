@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-03-09T21:33:58",
-  "total_repos": 112,
+  "last_built": "2026-03-09T21:36:40",
+  "total_repos": 113,
   "total_tags": 23,
   "repo_manifest": {
     "Agent Junction": "a0fbbcae7e0e72861e7c4a3922c3b762",
@@ -77,6 +77,7 @@
     "Claude Rescue": "f4a99aee1a9ba0c7b4f87bf80e09ff60",
     "Claude Resource List Builder": "2be24616f610b8250e289adafa533c89",
     "Claude Rig Planner": "3f84ce5ecbc01d341716c00b6352d22a",
+    "Claude Salary Research Agent": "a9937e2f1a63bb991e02e464a2edb25d",
     "Claude Server Manager Template": "6817de49840779e7669b5c1dabcb73ea",
     "Claude Server Mgmt Template SBCs": "f9959770381931931b4e9d653242d7ff",
     "Claude Slash Commands": "f8c37eb4140b2eb635ee146c2b7002b2",
@@ -912,6 +913,18 @@
         }
       ],
       "total_repos": 112
+    },
+    {
+      "date": "2026-03-09T21:36:40",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Claude Salary Research Agent"
+          ]
+        }
+      ],
+      "total_repos": 113
     }
   ]
 }
