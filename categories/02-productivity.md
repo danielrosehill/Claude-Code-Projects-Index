@@ -23,6 +23,13 @@ Forkable template for daily workflow and time management planning with Claude Co
 
 ---
 
+### Claude Preparedness Planner
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Preparedness-Planner) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Workspace generating personalized preparedness strategies across physical safety, financial, and medical domains, with intake interviews and offline-ready action plans.
+
+---
+
 ### Claude Personal Development Workspace
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Personal-Development-Workspace) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
 

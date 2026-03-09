@@ -195,6 +195,13 @@ Collection of bash aliases for common Claude Code operations on Linux.
 
 ## Android
 
+### Claude MVT Workspace
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-MVT-Workspace) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Workspace orchestrating Mobile Verification Toolkit (MVT) spyware scans on Android devices via ADB, detecting indicators of compromise from targeted malware like Pegasus.
+
+---
+
 ### Claude ADB Workspace Template
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-ADB-Workspace-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
 
@@ -224,6 +231,13 @@ Analyzes decisions through seven parallel frameworks (SWOT, ICE, Regret Minimiza
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Diary-Planner-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Diary](https://img.shields.io/badge/Diary-pink?style=flat-square)
 
 Forkable template for daily workflow and time management planning with Claude Code.
+
+---
+
+### Claude Preparedness Planner
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Preparedness-Planner) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Workspace generating personalized preparedness strategies across physical safety, financial, and medical domains, with intake interviews and offline-ready action plans.
 
 ---
 
@@ -417,6 +431,13 @@ Framework for evaluating and ranking business ideas using the ICEC methodology.
 
 ---
 
+### Claude Competitor Research Agent
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Competitor-Research-Agent) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Workspace for systematic competitive intelligence research using public sources, with commands for competitor scanning, pricing analysis, and formal CI report generation.
+
+---
+
 # Privacy & Anonymity
 
 Workspaces and templates for document redaction, identity protection, and PII obfuscation.
@@ -439,10 +460,10 @@ Template for planning computer hardware upgrades with profiling, recommendations
 
 ---
 
-### Ivory PC Builder
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Ivory-Computer-Builder-V2) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+### Claude Ivory PC Builder
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Ivory-PC-Builder) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
 
-PC building assistant with real-time pricing from Ivory.co.il and scraped catalog management.
+AI-powered PC component spec generator with real-time pricing from an Israeli retailer, historical price tracking, and compatibility verification.
 
 ---
 
@@ -659,6 +680,13 @@ Components and tooling for multi-agent development and orchestration frameworks.
 
 ## Multi-Agent Systems
 
+### Claude Agent Workspace Generator
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Agent-Workspace-Generator) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
+
+Launchpad for creating standardized workspace templates conforming to the Agent Workspace Model v1.1 spec, with slash commands to generate, validate, and publish new workspaces.
+
+---
+
 ### Agent Junction
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agent-Junction) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
@@ -732,6 +760,13 @@ Curated collection of Claude Code projects and resources organized by category.
 ---
 
 ## Workspace Setup & Management
+
+### Claude Repo Retrofitter
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Retrofitter) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
+
+Bulk-retrofit existing repositories with AI agent scaffolding (CLAUDE.md, commands, agents) in batch operations, with interactive or autonomous modes and incremental progress tracking.
+
+---
 
 ### Claude Workspace Setup Helper
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Workspace-Setup-Helper) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
@@ -886,6 +921,13 @@ Methods and slash commands for documenting system changes made by Claude Code.
 
 ---
 
+### Claude MD Chunk
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-MD-Chunk) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Slash command that condenses bloated CLAUDE.md files to essentials and organizes supplementary context into a structured `agent-context/` folder.
+
+---
+
 ### Claude File Organiser Super Slash
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-File-Organiser-Super-Slash) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
@@ -912,6 +954,13 @@ Slash commands encouraging use of existing libraries instead of building custom 
 ![Misc](images/misc.png)
 
 Other projects including meta-resources, feedback, and utilities that span multiple categories.
+
+### Claude Agent Blueprints
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Agent-Blueprints)
+
+Curated collection of 75+ agent workspace templates organized by use case, demonstrating the Agent Workspace Model across code and non-code domains.
+
+---
 
 ### Claude Code Context Feature Requests
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Context-Feature-Requests)

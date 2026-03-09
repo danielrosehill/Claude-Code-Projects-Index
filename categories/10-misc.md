@@ -4,6 +4,13 @@
 
 Other projects including meta-resources, feedback, and utilities that span multiple categories.
 
+### Claude Agent Blueprints
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Agent-Blueprints)
+
+Curated collection of 75+ agent workspace templates organized by use case, demonstrating the Agent Workspace Model across code and non-code domains.
+
+---
+
 ### Claude Code Context Feature Requests
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Context-Feature-Requests)
 
