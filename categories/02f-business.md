@@ -3,7 +3,7 @@
 Workspaces and templates for business planning, idea evaluation, and organizational continuity.
 
 ### Claude Business Continuity Planner
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Business-Continuity-Planner) ![Claude Space](https://img.shields.io/badge/Claude-Space-purple?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Business-Continuity-Planner) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
 Workspace for developing ISO 22301-aligned business continuity programs with slash commands.
 

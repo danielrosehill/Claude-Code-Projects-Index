@@ -2,7 +2,7 @@
 
 ## Templates & Workspaces
 
-While Claude Code excels at software development, a significant portion of these repositories explore **template-driven workflows** for system administration, personal productivity, research, and domain-specific applications. These templates demonstrate that agentic IDEs are powerful frameworks for **any structured, iterative work** - not just coding.
+While Claude Code excels at software development, a significant portion of these repositories explore **template-driven workflows** for system administration, personal productivity, research, and domain-specific applications. These templates demonstrate that agentic IDEs are powerful frameworks for **any structured, iterative work** — not just coding.
 
 ### Understanding Templates
 
@@ -16,16 +16,16 @@ While Claude Code excels at software development, a significant portion of these
 
 Templates are marked with the ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) badge and are designed to be **immediately usable** after forking.
 
-### Claude Workspaces
+### Agent Workspaces
 
-A subset of templates I call **"Claude Workspaces"** (or **"Claude Spaces"**) focus specifically on **system administration and infrastructure management** - essentially using Claude Code as a **Conversational UI Agent (CUA)** for managing computers, networks, and services.
+A subset of templates are **agent workspaces** — what I originally called **"Claude Spaces"**. These are pre-configured repository environments designed for structured, domain-specific agentic AI workflows, essentially using Claude Code as a **Conversational UI Agent (CUA)** for managing tasks across diverse domains.
 
-Workspace characteristics:
-- **System-focused**: Designed for OS, network, or infrastructure management
-- **Administration tasks**: Monitoring, configuration, diagnostics, security
-- **Persistent state**: Organized storage for logs, configs, and documentation
-- **Remote & local**: Can manage the local machine or remote systems via SSH
+Agent workspace characteristics:
+- **Domain-focused**: Designed for a specific workflow domain (sysadmin, legal, health, research, etc.)
+- **Context-rich**: Pre-loaded with domain knowledge and structured context
+- **Persistent state**: Organized storage for logs, outputs, and documentation
+- **Task-oriented**: Slash commands and agents tailored to domain-specific operations
 
-Repositories following this pattern are marked with the ![Claude Workspace](https://img.shields.io/badge/Claude-Workspace-purple?style=flat-square) badge.
+Repositories following this pattern are marked with the ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) badge.
 
 **Why this matters**: These templates prove that Claude Code (and similar tools) transcend traditional software development. They're **general-purpose structured workflow engines** applicable to research, personal organization, financial planning, health tracking, and more. If your work involves iterative tasks, context management, and structured outputs, these templates demonstrate viable patterns.

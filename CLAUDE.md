@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This repository serves as a curated index of Claude Code-related resources and projects shared on GitHub. It provides organized, categorized listings with descriptions to help users discover relevant tools, libraries, and configurations for Claude Code workflows.
+This repository serves as a curated index of agent workspace blueprints and Claude Code-related resources shared on GitHub. It provides organized, categorized listings with descriptions to help users discover relevant tools, templates, and configurations for agentic AI workflows.
 
-Many of the repositories in this index are **Claude Spaces**—pre-configured workspaces that use Claude as a Conversational UI Agent for structured, non-development workflows. These represent a pattern where repositories serve as mini AI agent workspaces rather than traditional codebases.
+Many of the repositories in this index are **agent workspaces** — pre-configured repository environments designed for structured, domain-specific agentic AI workflows. This pattern, which I originally called "Claude Spaces," uses repository structure, context files, and Claude Code's built-in features to create effective AI work environments that go far beyond traditional codebases.
 
 ## Repository Structure
 
@@ -90,7 +90,7 @@ When Daniel adds repository URLs to `scratchpad.md`, follow this workflow:
 
 **Important**: Each repository should belong to **one primary category only**. While some repositories may touch multiple domains, choose the most appropriate single category to avoid duplication and maintenance complexity.
 
-When adding new repositories, consider whether they fit an existing category or whether a new category/subcategory should be created. The goal is to group repositories that explore Claude Code or the "Claude Workspace" model for similar purposes.
+When adding new repositories, consider whether they fit an existing category or whether a new category/subcategory should be created. The goal is to group repositories that explore Claude Code or the agent workspace model for similar purposes.
 
 ### 3. Editing the Correct Category File
 
@@ -228,7 +228,7 @@ Repositories can have multiple badges to indicate their type and purpose:
 
 | Badge | Color | Purpose |
 |-------|-------|---------|
-| `Claude Space` | Purple | Workspaces where Claude manages files/processes |
+| `Agent Workspace` | Purple | Pre-configured agent workspaces for domain-specific workflows |
 | `Agent Config` | Orange | Multi-agent configurations and orchestration |
 | `Slash Commands` | Cyan | Slash command collections |
 | `Non-Code` | Teal | Non-development use cases |
@@ -246,7 +246,7 @@ Repositories can have multiple badges to indicate their type and purpose:
 
 Badge format example:
 ```markdown
-![Claude Space](https://img.shields.io/badge/Claude-Space-purple?style=flat-square)
+![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
 ```
 
 ## Repository Discovery

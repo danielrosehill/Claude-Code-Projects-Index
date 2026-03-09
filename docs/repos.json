@@ -13,7 +13,7 @@
         {
           "name": "Claude Code LAN Manager",
           "url": "https://github.com/danielrosehill/Claude-Code-LAN-Manager",
-          "description": "Workspace for centralized management of multiple LAN-connected machines through Claude Code. GUI application for managing local network devices through isolated, device-specific Claude Spaces."
+          "description": "Workspace for centralized management of multiple LAN-connected machines through Claude Code. GUI application for managing local network devices through isolated, device-specific agent workspaces."
         },
         {
           "name": "Claude Code Security Auditor",
@@ -356,12 +356,12 @@
         {
           "name": "Claude Spaces Model",
           "url": "https://github.com/danielrosehill/Claude-Spaces-Model",
-          "description": "Documentation and catalog of the Claude Spaces pattern for non-development operational workspaces."
+          "description": "Documentation and catalog of the Claude Spaces pattern \u2014 the original method behind agent workspace blueprints."
         },
         {
           "name": "Claude Space Self-Ideator",
           "url": "https://github.com/danielrosehill/Claude-Space-Self-ideator",
-          "description": "Ideation workspace for generating and documenting new Claude Space concepts."
+          "description": "Ideation workspace for generating and documenting new agent workspace concepts."
         },
         {
           "name": "Split Context Setup",

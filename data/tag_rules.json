@@ -28,9 +28,9 @@
       "name_patterns": ["template", "Template"],
       "desc_patterns": ["template for", "forkable"]
     },
-    "Claude Space": {
+    "Agent Workspace": {
       "name_patterns": ["Space", "Workspace", "Manager"],
-      "desc_patterns": ["workspace", "claude space", "Claude Code workspace"]
+      "desc_patterns": ["workspace", "agent workspace", "claude space", "Claude Code workspace"]
     },
     "Slash Commands": {
       "name_patterns": ["Slash"],

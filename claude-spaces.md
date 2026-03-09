@@ -1,8 +1,8 @@
-# Claude Spaces
+# Agent Workspaces & The Claude Spaces Pattern
 
-Many of the repositories in this index are implementations of the "Claude Space" concept—structured workspaces that leverage repository organization to create effective environments for agentic AI workflows.
+Many of the repositories in this index are **agent workspaces** — structured repository environments designed for agentic AI workflows. The pattern I originally called "Claude Spaces" describes my specific method for creating these workspaces using repository structure, context files, and Claude Code's built-in features.
 
-The templates marked with the ![Claude Space](https://img.shields.io/badge/Claude-Space-purple?style=flat-square) badge in the main index are examples of this pattern in action.
+The repositories marked with the ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) badge in the main index are examples of this pattern in action.
 
 ---
 
@@ -12,13 +12,13 @@ The following note explains the core idea behind these workspaces.
 
 ---
 
-# The "Claude Space" Idea
+# The "Claude Space" Method
 
 *Dictated: 11-Jan-2025*
 
 Very few who are deeply involved in the agentic AI of early 2026 would disagree that agentic AI is quite complicated, although immensely powerful.
 
-Over the past few months, I have developed a pattern of using the structure of a repository to create an organized workspace for a specific project—sometimes a time-limited one, and at other times an ongoing project.
+Over the past few months, I have developed a pattern of using the structure of a repository to create an organized agent workspace for a specific project — sometimes a time-limited one, and at other times an ongoing project.
 
 Many of these are private, although some are public. I have developed my own workflow for structuring these, relying upon the simple structure of a repository to provide approximate boundaries for agents and humans to work. At its most basic, this can be a top-level folder for inputs and outputs. More elaborate structures can be easily developed based on this model.
 
@@ -40,13 +40,13 @@ My mechanism for using transcription extensively to capture contextual informati
 
 The pattern has taken on a definite contour and has remained relatively stable since I started using it, such that improvements are currently mostly incremental changes that are rolled out in concert with Claude.
 
-I see no meaningful difference in whether this approach is used in the context of systems administration, code generation, or a non-coding project entirely. I feel particularly passionate about the idea that this approach—the simple mechanism of a repository and the fantastic version control afforded by Git—provides an instructive model in workflow management that has applications far beyond software development.
+I see no meaningful difference in whether this approach is used in the context of systems administration, code generation, or a non-coding project entirely. I feel particularly passionate about the idea that this approach — the simple mechanism of a repository and the fantastic version control afforded by Git — provides an instructive model in workflow management that has applications far beyond software development.
 
-As a technical writer, I feel that this is also particularly suitable for authorship. With MCP, the foundation of a Claude workspace can be used to manage external systems, whether those be inventory tools, CRM systems, or even creating bespoke analysis based upon a connection with a web analytics dashboard.
+As a technical writer, I feel that this is also particularly suitable for authorship. With MCP, the foundation of an agent workspace can be used to manage external systems, whether those be inventory tools, CRM systems, or even creating bespoke analysis based upon a connection with a web analytics dashboard.
 
 ---
 
 ## See Also
 
-- [Main Repository Index](./README.md) - Browse all Claude Space templates and implementations
+- [Main Repository Index](./README.md) - Browse all agent workspace blueprints and implementations
 - [Notes on Templates and Workspaces](./notes.md) - Additional documentation

@@ -35,14 +35,14 @@ Prompt template for verifying the correct Claude model variant at conversation s
 ### Claude Spaces Model
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Spaces-Model)
 
-Documentation and catalog of the Claude Spaces pattern for non-development operational workspaces.
+Documentation and catalog of the Claude Spaces pattern — the original method behind agent workspace blueprints.
 
 ---
 
 ### Claude Space Self-Ideator
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Space-Self-ideator)
 
-Ideation workspace for generating and documenting new Claude Space concepts.
+Ideation workspace for generating and documenting new agent workspace concepts.
 
 ---
 

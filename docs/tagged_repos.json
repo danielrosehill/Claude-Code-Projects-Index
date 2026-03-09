@@ -33,7 +33,7 @@
     "url": "https://github.com/danielrosehill/Bash-Alias-Manager-Claude",
     "description": "Workspace for managing bash aliases with YADM synchronization support.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Sysadmin"
     ],
     "category": "Systems Administration",
@@ -48,8 +48,8 @@
     "url": "https://github.com/danielrosehill/Batch-ClaudeMD-Repo-Creator",
     "description": "Automation workspace for batch-adding CLAUDE.md files across multiple GitHub repositories.",
     "tags": [
-      "Automation",
-      "Claude Space"
+      "Agent Workspace",
+      "Automation"
     ],
     "category": "Context and Personalization",
     "category_slug": "context",
@@ -63,7 +63,7 @@
     "url": "https://github.com/danielrosehill/Claude-ADB-Workspace-Template",
     "description": "Template for managing Android devices through ADB with device profiling and package management.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Sysadmin",
       "Template"
     ],
@@ -79,7 +79,7 @@
     "url": "https://github.com/danielrosehill/Claude-ADHD-Research-Workspace",
     "description": "Research repository documenting barriers to ADHD medication access and advocacy for policy reform.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Health",
       "Research"
     ],
@@ -137,8 +137,8 @@
     "url": "https://github.com/danielrosehill/Claude-Blog-Manager",
     "description": "Template for managing blog content through headless CMS platforms with drafting and publishing workflows.",
     "tags": [
+      "Agent Workspace",
       "Automation",
-      "Claude Space",
       "Communications",
       "Template"
     ],
@@ -154,7 +154,7 @@
     "url": "https://github.com/danielrosehill/Claude-Budget-Workspace-Template",
     "description": "Template for managing household budgets and financial planning with Claude Code.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Financial",
       "Planning",
       "Template"
@@ -186,8 +186,8 @@
     "url": "https://github.com/danielrosehill/Claude-Business-Continuity-Planner",
     "description": "Workspace for developing ISO 22301-aligned business continuity programs with slash commands.",
     "tags": [
+      "Agent Workspace",
       "Business",
-      "Claude Space",
       "Slash Commands"
     ],
     "category": "Business",
@@ -230,7 +230,7 @@
     "url": "https://github.com/danielrosehill/Claude-Change-My-View",
     "description": "Workspace for challenging personal beliefs through AI-generated counterarguments and rebuttals.",
     "tags": [
-      "Claude Space"
+      "Agent Workspace"
     ],
     "category": "Argument and Perspective Exploration",
     "category_slug": "argument",
@@ -284,9 +284,9 @@
   {
     "name": "Claude Code LAN Manager",
     "url": "https://github.com/danielrosehill/Claude-LAN-Manager-0126",
-    "description": "Workspace for centralized management of multiple LAN-connected machines through Claude Code. GUI application for managing local network devices through isolated, device-specific Claude Spaces.",
+    "description": "Workspace for centralized management of multiple LAN-connected machines through Claude Code. GUI application for managing local network devices through isolated, device-specific agent workspaces.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Sysadmin",
       "Tool"
     ],
@@ -434,7 +434,7 @@
     "url": "https://github.com/danielrosehill/Claude-Code-Remote-Machine-Admin-Space",
     "description": "Template for managing individual remote machines via SSH with structured system profiles and logs.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Sysadmin",
       "Template"
     ],
@@ -450,7 +450,7 @@
     "url": "https://github.com/danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
     "description": "Pre-configured CLAUDE.md templates for managing different repository types.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Configuration"
     ],
     "category": "Context and Personalization",
@@ -465,7 +465,7 @@
     "url": "https://github.com/danielrosehill/Claude-Code-Security-Auditor",
     "description": "Multi-machine security auditing workspace covering antivirus, rootkits, permissions, and network exposure.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Sysadmin"
     ],
     "category": "Systems Administration",
@@ -495,7 +495,7 @@
     "url": "https://github.com/danielrosehill/Claude-Comms-Strategist-Template",
     "description": "Full-featured workspace for communications strategy with 12 agents and 14 slash commands.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Communications",
       "Slash Commands",
       "Template"
@@ -512,7 +512,7 @@
     "url": "https://github.com/danielrosehill/Claude-Conda-Manager",
     "description": "Workspace for managing Conda environments on Ubuntu workstations with AMD ROCm hardware.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Sysadmin"
     ],
     "category": "Systems Administration",
@@ -527,7 +527,7 @@
     "url": "https://github.com/danielrosehill/Claude-Debugging-Workspace",
     "description": "Structured debugging template supporting software bugs, process problems, and creative blocks through hypothesis-driven investigation.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Productivity"
     ],
     "category": "Productivity & Planning",
@@ -620,7 +620,7 @@
     "url": "https://github.com/danielrosehill/Claude-Docker-Manager",
     "description": "Workspace template for Docker environment management with slash commands and diagnostic agents.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Slash Commands",
       "Sysadmin",
       "Template"
@@ -665,7 +665,7 @@
     "url": "https://github.com/danielrosehill/Claude-Evidence-Assistant",
     "description": "Digital evidence management workspace with cryptographic verification and Library of Congress-compliant exports.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Legal"
     ],
     "category": "Legal",
@@ -739,7 +739,7 @@
     "url": "https://github.com/danielrosehill/Claude-Health-Helper",
     "description": "Workspace for organizing personal health documentation, visit preparation, and medical report summaries.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Documentation",
       "Health"
     ],
@@ -755,7 +755,7 @@
     "url": "https://github.com/danielrosehill/Claude-Home-Assistant-Manager-Template",
     "description": "Template for managing Home Assistant OS with 20+ slash commands and 5 specialized agents.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Multi-Agent",
       "Slash Commands",
       "Sysadmin",
@@ -819,7 +819,7 @@
     "url": "https://github.com/danielrosehill/Claude-Job-Search-Strategist",
     "description": "Job search workspace with specialized agents for company research, resume tailoring, and interview preparation.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Multi-Agent",
       "Planning",
       "Research"
@@ -850,7 +850,7 @@
     "url": "https://github.com/danielrosehill/Claude-Linux-Desktop-Manager",
     "description": "System administration interface for Linux desktop management with extensive slash commands.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Slash Commands",
       "Sysadmin",
       "Tool"
@@ -867,7 +867,7 @@
     "url": "https://github.com/danielrosehill/Claude-Linux-Server-Manager",
     "description": "Ubuntu server management template with 38 slash commands and 10 agents for routine administration.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Multi-Agent",
       "Slash Commands",
       "Sysadmin"
@@ -915,7 +915,7 @@
     "url": "https://github.com/danielrosehill/Claude-Media-Monitor",
     "description": "Workspace for systematic news collection and organization with metadata and schema validation.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Marketing",
       "SEO"
     ],
@@ -945,7 +945,7 @@
     "url": "https://github.com/danielrosehill/Claude-PR-And-Media-Monitoring-Workspace",
     "description": "Full-featured media monitoring workspace with structured data capture and batch processing.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Marketing",
       "SEO"
     ],
@@ -992,7 +992,7 @@
     "url": "https://github.com/danielrosehill/Claude-Personal-Development-Workspace",
     "description": "Workspace for tracking habits, skill acquisition, and self-improvement goals with AI coaching.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Productivity"
     ],
     "category": "Productivity & Planning",
@@ -1007,7 +1007,7 @@
     "url": "https://github.com/danielrosehill/Claude-Proxmox-Manager-Template",
     "description": "Proxmox server management template with 38 slash commands and 10 agents for low-spec hardware.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Multi-Agent",
       "Slash Commands",
       "Sysadmin",
@@ -1025,7 +1025,7 @@
     "url": "https://github.com/danielrosehill/Claude-Purchasing-Assistant",
     "description": "Structured purchasing decision workspace that evaluates products against user-defined criteria and local pricing.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Financial",
       "Planning"
     ],
@@ -1041,7 +1041,7 @@
     "url": "https://github.com/danielrosehill/Claude-Redaction-And-Obfuscation",
     "description": "Document redaction and identity protection workspace for handling sensitive information.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Privacy"
     ],
     "category": "Privacy & Anonymity",
@@ -1070,7 +1070,7 @@
     "url": "https://github.com/danielrosehill/Claude-Report-Parsing-Space-Template",
     "description": "Template for critical analysis of reports with slash commands for triage, argumentation, and source extraction.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Research",
       "Slash Commands",
       "Template"
@@ -1132,7 +1132,7 @@
     "url": "https://github.com/danielrosehill/Claude-Server-Manager-Template",
     "description": "Server administration template with 38 slash commands and 10 agents optimized for Docker deployments.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Slash Commands",
       "Sysadmin",
       "Template"
@@ -1177,9 +1177,9 @@
   {
     "name": "Claude Space Self-Ideator",
     "url": "https://github.com/danielrosehill/Claude-Space-Self-ideator",
-    "description": "Ideation workspace for generating and documenting new Claude Space concepts.",
+    "description": "Ideation workspace for generating and documenting new agent workspace concepts.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Research"
     ],
     "category": "Context and Personalization",
@@ -1192,9 +1192,9 @@
   {
     "name": "Claude Spaces Model",
     "url": "https://github.com/danielrosehill/Claude-Spaces-Model",
-    "description": "Documentation and catalog of the Claude Spaces pattern for non-development operational workspaces.",
+    "description": "Documentation and catalog of the Claude Spaces pattern \u2014 the original method behind agent workspace blueprints.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Documentation"
     ],
     "category": "Context and Personalization",
@@ -1223,7 +1223,7 @@
     "url": "https://github.com/danielrosehill/Claude-Stack-Research-Workspace",
     "description": "Environment for evaluating software solutions with specialized agents for technology comparisons.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Multi-Agent",
       "Research"
     ],
@@ -1253,7 +1253,7 @@
     "url": "https://github.com/danielrosehill/Claude-Synology-Manager",
     "description": "Template for managing Synology NAS devices through SSH and MCP with persistent context storage.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Sysadmin",
       "Template"
     ],
@@ -1285,7 +1285,7 @@
     "url": "https://github.com/danielrosehill/Claude-Task-Manager",
     "description": "Sequential task queuing system addressing context window exhaustion in agentic coding tools.",
     "tags": [
-      "Claude Space"
+      "Agent Workspace"
     ],
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
@@ -1345,7 +1345,7 @@
     "url": "https://github.com/danielrosehill/Claude-Visual-Communications-Space",
     "description": "Template for enhancing long-form content with AI-generated visuals via fal-ai MCP.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Communications",
       "Template"
     ],
@@ -1361,8 +1361,8 @@
     "url": "https://github.com/danielrosehill/Claude-Web-Analytics-Space",
     "description": "Workspace template for SEO analytics with data cleaning, analysis, and reporting workflows.",
     "tags": [
+      "Agent Workspace",
       "Automation",
-      "Claude Space",
       "Marketing",
       "SEO",
       "Template"
@@ -1394,7 +1394,7 @@
     "url": "https://github.com/danielrosehill/Claude-Workspace-Setup-Helper",
     "description": "Interactive tool for discovering, selecting, and cloning Claude Workspace templates.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Configuration",
       "Tool"
     ],
@@ -1410,7 +1410,7 @@
     "url": "https://github.com/danielrosehill/Claude-Writing-Space-Template",
     "description": "Writing workspace with sequential versioning, editing agents, and headless CMS publishing support.",
     "tags": [
-      "Claude Space",
+      "Agent Workspace",
       "Communications",
       "Template"
     ],
