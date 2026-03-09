@@ -356,7 +356,7 @@
         {
           "name": "Claude Spaces Model",
           "url": "https://github.com/danielrosehill/Claude-Spaces-Model",
-          "description": "Documentation and catalog of the Claude Spaces pattern for non-development operational workspaces."
+          "description": "Reference standard and specification for Claude Spaces — AI agent workspaces structured as Git repositories. Defines canonical folder structure, /onboard command, validation schema, and lifecycle."
         },
         {
           "name": "Claude Space Self-Ideator",
