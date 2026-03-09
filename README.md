@@ -1,4 +1,4 @@
-![Claude Code Repository Index](images/banner.png)
+![Claude Agent Blueprints](images/banner.png)
 
 ## Repository Growth
 
@@ -6,9 +6,9 @@
 
 ---
 
-# Claude Code Repository Index
+# Claude Agent Blueprints
 
-My Claude Code related repositories, organized by use case and category.
+A curated collection of agent workspace blueprints built with Claude Code, organized by use case and category.
 
 Most patterns, templates, and models are adaptable to other agentic AI CLIs and frameworks.
 
@@ -16,18 +16,18 @@ Most patterns, templates, and models are adaptable to other agentic AI CLIs and 
 
 ## Understanding This Index
 
-This index showcases diverse applications of Claude Code beyond traditional software development. Key concepts:
+This index showcases diverse applications of Claude Code as an agent workspace platform — far beyond traditional software development. Key concepts:
 
 | Type | Description | Badge |
 |------|-------------|-------|
-| **Claude Spaces** | Pre-configured workspaces using Claude as a Conversational UI Agent for structured workflows | ![Claude Space](https://img.shields.io/badge/Claude-Space-purple?style=flat-square) |
+| **Agent Workspaces** | Pre-configured repositories using Claude as a Conversational UI Agent for structured, domain-specific workflows | ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) |
 | **Templates** | Forkable starting points you can customize for your own use | ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) |
 | **Non-Code** | Applications beyond software development (research, productivity, health, etc.) | ![Non-Code](https://img.shields.io/badge/Non--Code-teal?style=flat-square) |
 
-📖 **[What are Claude Spaces?](./claude-spaces.md)** — Detailed explanation of the Claude Spaces concept
+📖 **[What are Agent Workspaces?](./claude-spaces.md)** — The "Claude Spaces" pattern that inspired these agent workspace blueprints
 📝 **[Notes on Templates & Workspaces](./notes.md)** — Additional context on these approaches
 
-![Claude Space Definition](images/claude-space.png)
+![Agent Workspace Definition](images/claude-space.png)
 
 ---
 
@@ -37,13 +37,13 @@ This index showcases diverse applications of Claude Code beyond traditional soft
 >
 > — [awesome-claude-code](https://github.com/wong2/awesome-claude-code)
 
-For those wondering: I'm a real human ([danielrosehill.com](https://danielrosehill.com)). The repos and spaces in this index are generated using Claude Code but very much human-designed and refined.
+For those wondering: I'm a real human ([danielrosehill.com](https://danielrosehill.com)). The repos and agent workspaces in this index are generated using Claude Code but very much human-designed and refined.
 
 ## Commonalities
 
 I've been using Claude Code daily for about six months, for everything from development to audio editing to SEO analysis. This is a diverse collection of repositories, but it tends to lean away from the classic code generation use cases. Instead, it explores the longer tail of what Claude Code can do — deep research, systems administration, legal workflows, health documentation, media monitoring, and more.
 
-If there's a common thread, it's treating Claude Code less as a coding assistant and more as a general-purpose AI workspace that happens to run in a terminal.
+If there's a common thread, it's treating Claude Code less as a coding assistant and more as a general-purpose agent workspace that happens to run in a terminal.
 
 ---
 
