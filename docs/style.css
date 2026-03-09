@@ -546,12 +546,10 @@ a:hover { color: var(--link-hover); }
 .tag-pill {
   font-family: inherit;
   font-size: 0.7rem;
-  font-weight: 500;
-  padding: 0.2rem 0.55rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
   border-radius: 10px;
-  border: 1px solid var(--border);
-  background: var(--bg-alt);
-  color: var(--text-muted);
+  border: 1px solid transparent;
   cursor: pointer;
   transition: all 0.15s;
   display: inline-flex;
@@ -559,16 +557,39 @@ a:hover { color: var(--link-hover); }
   gap: 3px;
 }
 
-.tag-pill:hover {
-  border-color: var(--brand);
-  color: var(--brand);
-  background: var(--brand-light);
-}
+/* Default tag style */
+.tag-pill { background: #f0f1f3; color: #4b5563; border-color: #dce0e5; }
+.tag-pill:hover { filter: brightness(0.92); }
+
+/* Colored tag variants */
+.tag-pill[data-tag="Agent Workspace"] { background: #f3e8ff; color: #7c3aed; border-color: #ddd6fe; }
+.tag-pill[data-tag="Template"] { background: #dcfce7; color: #16a34a; border-color: #bbf7d0; }
+.tag-pill[data-tag="Slash Commands"] { background: #cffafe; color: #0891b2; border-color: #a5f3fc; }
+.tag-pill[data-tag="Multi-Agent"] { background: #fef3c7; color: #b45309; border-color: #fde68a; }
+.tag-pill[data-tag="MCP"] { background: #fce7f3; color: #be185d; border-color: #fbcfe8; }
+.tag-pill[data-tag="Plugin"] { background: #e0e7ff; color: #4338ca; border-color: #c7d2fe; }
+.tag-pill[data-tag="Tool"] { background: #dbeafe; color: #2563eb; border-color: #bfdbfe; }
+.tag-pill[data-tag="Automation"] { background: #fff7ed; color: #c2410c; border-color: #fed7aa; }
+.tag-pill[data-tag="Configuration"] { background: #f0fdf4; color: #15803d; border-color: #bbf7d0; }
+.tag-pill[data-tag="Research"] { background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe; }
+.tag-pill[data-tag="Documentation"] { background: #f5f5f5; color: #525252; border-color: #e5e5e5; }
+.tag-pill[data-tag="Sysadmin"] { background: #ecfdf5; color: #047857; border-color: #a7f3d0; }
+.tag-pill[data-tag="Productivity"] { background: #faf5ff; color: #7e22ce; border-color: #e9d5ff; }
+.tag-pill[data-tag="Health"] { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
+.tag-pill[data-tag="Legal"] { background: #eef2ff; color: #3730a3; border-color: #c7d2fe; }
+.tag-pill[data-tag="Business"] { background: #fffbeb; color: #92400e; border-color: #fde68a; }
+.tag-pill[data-tag="Communications"] { background: #f0fdfa; color: #0f766e; border-color: #99f6e4; }
+.tag-pill[data-tag="Financial"] { background: #fefce8; color: #a16207; border-color: #fef08a; }
+.tag-pill[data-tag="Planning"] { background: #fdf4ff; color: #a21caf; border-color: #f0abfc; }
+.tag-pill[data-tag="Privacy"] { background: #f1f5f9; color: #334155; border-color: #cbd5e1; }
+.tag-pill[data-tag="Hardware"] { background: #f8fafc; color: #475569; border-color: #cbd5e1; }
+.tag-pill[data-tag="Marketing"] { background: #fff1f2; color: #e11d48; border-color: #fecdd3; }
+.tag-pill[data-tag="Analysis"] { background: #ede9fe; color: #6d28d9; border-color: #ddd6fe; }
 
 .tag-pill.active {
-  background: var(--brand);
-  border-color: var(--brand);
-  color: #fff;
+  background: var(--brand) !important;
+  border-color: var(--brand) !important;
+  color: #fff !important;
 }
 
 .loading {

@@ -339,7 +339,7 @@ function render() {
       dateLabel +
       '<p class="repo-desc">' + esc(repo.description) + '</p>' +
       '<div class="repo-tags">' + repo.tags.map(t =>
-        '<button class="tag-pill' + (activeTags.has(t) ? ' active' : '') + '" onclick="event.stopPropagation(); toggleTag(\'' + esc(t) + '\')">' + esc(t) + '</button>'
+        '<button class="tag-pill' + (activeTags.has(t) ? ' active' : '') + '" data-tag="' + esc(t) + '" onclick="event.stopPropagation(); toggleTag(\'' + esc(t) + '\')">' + esc(t) + '</button>'
       ).join('') + '</div>' +
     '</div>';
   });

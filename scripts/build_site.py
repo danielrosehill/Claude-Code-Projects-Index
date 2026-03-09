@@ -498,7 +498,7 @@ loadSidebar();
     for repo in tagged_repos:
         slug = slugify(repo["name"])
         tags_html = "".join(
-            f'<span class="tag-pill">{t}</span>' for t in repo["tags"]
+            f'<span class="tag-pill" data-tag="{t}">{t}</span>' for t in repo["tags"]
         )
         added = repo.get("added_date", "")
         added_html = f'<span class="repo-detail-date">Added {added}</span>' if added else ""
