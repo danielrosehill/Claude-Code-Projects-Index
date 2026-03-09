@@ -760,13 +760,6 @@ Curated collection of Claude Code projects and resources organized by category.
 
 ## Workspace Setup & Management
 
-### Claude Repo Creator
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Creator) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
-
-Claude Code workspace for creating GitHub repositories from natural language descriptions, with optional Claude Code scaffolding (CLAUDE.md, slash commands, agents).
-
----
-
 ### Claude Repo Retrofitter
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Retrofitter) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
