@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Plugins Marketplace">
+
+<div class="page">
+  <h1>Plugins Marketplace</h1>
+
+  <p>The <a href="https://github.com/danielrosehill/Claude-Code-Plugins" target="_blank"><strong>Claude Code Plugins Marketplace</strong></a> is a curated collection of plugins that extend Claude Code with specialized slash commands, agents, and workflows. Install individual plugins or grab preset bundles tailored to your role.</p>
+
+  <h2>Quick Start</h2>
+
+  <h3>1. Add the Marketplace</h3>
+
+  <p>Register the marketplace with your Claude Code installation:</p>
+
+  <pre><code>/plugin marketplace add https://github.com/danielrosehill/Claude-Code-Plugins</code></pre>
+
+  <h3>2. Install a Plugin</h3>
+
+  <pre><code>/plugin install {'{plugin-name}'}@danielrosehill</code></pre>
+
+  <p>For example:</p>
+
+  <pre><code>/plugin install ai-tools@danielrosehill
+/plugin install git-github@danielrosehill
+/plugin install writing-editing@danielrosehill</code></pre>
+
+  <h3>3. Use Installed Plugins</h3>
+
+  <p>Once installed, type <code>/</code> to see all available commands, or run <code>/help</code> to browse what's available.</p>
+
+  <h2>Preset Bundles</h2>
+
+  <p>Recommended plugin sets by role:</p>
+
+  <table style="width:100%; border-collapse:collapse; margin:1.5rem 0;">
+    <thead>
+      <tr style="text-align:left; border-bottom:2px solid #333;">
+        <th style="padding:0.75rem 1rem;">Role</th>
+        <th style="padding:0.75rem 1rem;">Plugins</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #2a2a3a;">
+        <td style="padding:0.75rem 1rem; font-weight:600;">Full Stack Developer</td>
+        <td style="padding:0.75rem 1rem;"><code>git-github</code>, <code>tech-docs</code>, <code>fix-documentation</code></td>
+      </tr>
+      <tr style="border-bottom:1px solid #2a2a3a;">
+        <td style="padding:0.75rem 1rem; font-weight:600;">AI/ML Developer</td>
+        <td style="padding:0.75rem 1rem;"><code>ai-tools</code>, <code>git-github</code></td>
+      </tr>
+      <tr style="border-bottom:1px solid #2a2a3a;">
+        <td style="padding:0.75rem 1rem; font-weight:600;">System Admin</td>
+        <td style="padding:0.75rem 1rem;"><code>linux-desktop-mgmt</code>, <code>linux-server-mgmt</code>, <code>security-checkup</code>, <code>lan-manager</code></td>
+      </tr>
+      <tr style="border-bottom:1px solid #2a2a3a;">
+        <td style="padding:0.75rem 1rem; font-weight:600;">Content Creator</td>
+        <td style="padding:0.75rem 1rem;"><code>writing-editing</code>, <code>tech-docs</code>, <code>audio-editing</code>, <code>video-editing</code>, <code>image-editing</code></td>
+      </tr>
+      <tr style="border-bottom:1px solid #2a2a3a;">
+        <td style="padding:0.75rem 1rem; font-weight:600;">Productivity</td>
+        <td style="padding:0.75rem 1rem;"><code>filesystem-organisation</code>, <code>context-toolkit</code>, <code>diary-planner</code>, <code>home-budget-helper</code></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Browse the Marketplace</h2>
+
+  <p>Visit the <a href="https://github.com/danielrosehill/Claude-Code-Plugins" target="_blank">Plugins Marketplace on GitHub</a> to browse all available plugins, read documentation, and contribute your own.</p>
+</div>
+
+</BaseLayout>

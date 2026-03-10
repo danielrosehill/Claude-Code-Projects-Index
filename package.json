@@ -1,0 +1,15 @@
+{
+  "name": "claude-code-repos-index",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build:data": "python3 scripts/build_site.py",
+    "build:site": "astro build",
+    "build": "npm run build:data && npm run build:site",
+    "dev": "astro dev",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.18.1"
+  }
+}

@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="The Model - Claude Spaces">
+
+<div class="breadcrumbs">
+  <div class="breadcrumbs-inner">
+    <a href="/">Index</a>
+    <span class="bc-sep">/</span>
+    <a href="/ideas/claude-spaces/">Claude Spaces</a>
+    <span class="bc-sep">/</span>
+    <span class="bc-current">The Model</span>
+  </div>
+</div>
+
+<div class="page">
+  <h1>The Agent Workspace Model</h1>
+
+  <img src="/images/claude-space.png" alt="Agent Workspace definition">
+
+  <div style="background: linear-gradient(135deg, #f0e6ff, #e6f0ff); border-radius: 12px; padding: 1.5rem 2rem; margin-bottom: 2rem; border-left: 4px solid #7c3aed;">
+    <h3 style="margin-top: 0; color: #5b21b6;">The Model Repository</h3>
+    <p style="margin-bottom: 0.75rem;">The <a href="https://github.com/danielrosehill/Claude-Agent-Workspace-Model" target="_blank" rel="noopener"><strong>Claude Agent Workspace Model</strong></a> is the reference template that defines this pattern. It contains the folder structure, Claude Code scaffolding, and conventions used across all the workspaces in this index.</p>
+    <a href="https://github.com/danielrosehill/Claude-Agent-Workspace-Model" target="_blank" rel="noopener" style="display: inline-block; background: #5b21b6; color: white; padding: 0.5rem 1.25rem; border-radius: 6px; text-decoration: none; font-weight: 500;">View on GitHub &rarr;</a>
+  </div>
+
+  <h2>The Core Idea</h2>
+
+  <p>A Git repository isn't just for code &mdash; it can serve as a complete, self-contained workspace for <em>any</em> activity. The agent workspace model uses a defined folder structure, a <code>CLAUDE.md</code> for agent instructions, slash commands, MCP configurations, and subagent definitions to create purpose-built environments for domains like systems administration, legal research, health documentation, financial planning, and more.</p>
+
+  <h2>How to Use the Model</h2>
+
+  <p>If you want Claude Code to scaffold a new workspace following this pattern, provide it with the model repository URL as context:</p>
+
+  <pre style="background: var(--bg-card, #1e1e2e); color: var(--text, #cdd6f4); padding: 1rem 1.25rem; border-radius: 8px; overflow-x: auto; font-size: 0.9rem;">Fetch https://github.com/danielrosehill/Claude-Agent-Workspace-Model
+and use it as a template to scaffold a workspace for [your use case].</pre>
+
+  <p>Claude will read the model's structure and conventions, then generate a tailored workspace with the appropriate folders, CLAUDE.md instructions, slash commands, and agent configurations for your specific domain.</p>
+
+  <h2>Related Tools</h2>
+
+  <p>The <a class="repo-link" href="/repos/claude-space-self-ideator/">Claude Space Self-Ideator</a> is a meta-workspace that helps you brainstorm and design new workspaces, using Claude itself to identify workflows that would benefit from this pattern.</p>
+
+  <div style="margin-top: 2rem;">
+    <a href="/?tag=Claude+Space" style="font-weight: 500;">Browse all Agent Workspaces in the index &rarr;</a>
+  </div>
+</div>
+
+</BaseLayout>

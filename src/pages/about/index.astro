@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="About">
+
+<div class="page">
+  <h1>About This Index</h1>
+
+  <img src="/images/banner.png" alt="Claude Code Repos Index banner">
+
+  <p>This index catalogues over 100 repositories that explore <strong>Claude Code</strong> in ways that go well beyond conventional code generation. It's maintained by <a href="https://danielrosehill.com">Daniel Rosehill</a>, a technology consultant and writer based in Jerusalem.</p>
+
+  <h2>Why Claude Code?</h2>
+
+  <p>Most AI coding assistants are designed to help you write software faster. Claude Code does that too, but what makes it genuinely interesting is that it's an AI agent that lives in your terminal with full access to your filesystem, your shell, and whatever tools you connect to it via MCP.</p>
+
+  <p>That means Claude Code isn't limited to writing code. It can manage servers, organise files, parse legal documents, track health data, run security audits, orchestrate multi-agent workflows, and interact with any API you point it at. The terminal becomes a general-purpose AI workspace.</p>
+
+  <p>That shift &mdash; from coding assistant to general-purpose agent &mdash; is what most of these repositories explore.</p>
+
+  <h2>The Agent Workspace Model</h2>
+
+  <p>All of these workspaces follow a common pattern defined in the <a href="https://github.com/danielrosehill/Claude-Agent-Workspace-Model" target="_blank"><strong>Claude Agent Workspace Model</strong></a> repository. The core idea: a Git repository isn't just for code &mdash; it can be a complete, self-contained workspace for <em>any</em> activity. Each workspace uses a defined folder structure, a <code>CLAUDE.md</code> for agent instructions, slash commands, MCP configurations, and subagent definitions to create a purpose-built environment.</p>
+
+  <p>Want to follow this approach? Point Claude Code at the <a href="https://github.com/danielrosehill/Claude-Agent-Workspace-Model" target="_blank">model repository</a> to give it context on the pattern, then ask it to scaffold a workspace for your use case.</p>
+
+  <h2>Explore the Ideas</h2>
+
+  <p>Two key concepts underpin much of this collection:</p>
+
+  <ul>
+    <li><a href="/ideas/claude-spaces/">Claude Spaces</a> &mdash; the pattern of using repositories as pre-configured AI agent workspaces</li>
+    <li><a href="/ideas/non-code/">Non-Code Uses</a> &mdash; applying Claude Code to problems that have nothing to do with programming</li>
+  </ul>
+
+  <h2>Claude Code for Systems Administration</h2>
+
+  <p>One of the most compelling use cases I've found is using Claude Code as a systems administration interface. When you give Claude SSH access to a machine (or run it locally), it can:</p>
+
+  <ul>
+    <li>Audit security configurations across multiple machines</li>
+    <li>Manage Docker containers, Conda environments, and system packages</li>
+    <li>Monitor network devices on your LAN</li>
+    <li>Configure and troubleshoot Home Assistant</li>
+    <li>Run backups, check logs, and diagnose hardware issues</li>
+  </ul>
+
+  <p>The advantage over traditional shell scripting is that Claude understands intent. You can say "check if anything looks wrong with my Docker setup" and it will investigate systematically, explain what it finds, and suggest fixes &mdash; all while keeping a record of what it did.</p>
+
+  <p>Several repositories in this index provide templates for these sysadmin workspaces, with pre-built slash commands and agent configurations that you can adapt to your own infrastructure.</p>
+
+  <h2>Beyond Development</h2>
+
+  <p>The broader theme across this collection is treating Claude Code less as a coding assistant and more as a general-purpose AI workspace that happens to run in a terminal. The repositories here cover:</p>
+
+  <ul>
+    <li><strong>Legal research</strong> &mdash; case tracking, document analysis, forensic timelines</li>
+    <li><strong>Health and wellbeing</strong> &mdash; medication tracking, health documentation</li>
+    <li><strong>Financial planning</strong> &mdash; budget management, tax preparation</li>
+    <li><strong>Communications</strong> &mdash; media monitoring, press release drafting, email management</li>
+    <li><strong>Research</strong> &mdash; literature reviews, geopolitical analysis, technology evaluation</li>
+    <li><strong>Productivity</strong> &mdash; task management, knowledge bases, personal planning</li>
+  </ul>
+
+  <p>If there's a common thread, it's that the terminal is an underappreciated interface for AI agents. It's fast, scriptable, composable, and &mdash; with tools like Claude Code &mdash; surprisingly good at handling workflows that most people would reach for a GUI to do.</p>
+
+  <blockquote>
+    For those wondering: I'm a real human. The repos and spaces in this index are generated using Claude Code but very much human-designed and refined.
+  </blockquote>
+
+  <h2>Get in Touch</h2>
+
+  <p>If you're interested in Claude Code, Claude Spaces, or AI-assisted workflows, I'd love to hear from you. You can reach me through my <a href="https://danielrosehill.com/contact">contact form</a>, on <a href="https://github.com/danielrosehill">GitHub</a>, or by email at <a href="mailto:public@danielrosehill.com">public@danielrosehill.com</a>.</p>
+</div>
+
+</BaseLayout>

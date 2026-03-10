@@ -522,13 +522,24 @@ loadSidebar();
 
 
 def copy_assets():
-    """Step 4b: Copy data files to docs/."""
+    """Step 4b: Copy data files to public/ for Astro and docs/ for legacy."""
+    # Copy to Astro's public/ directory (served as static files)
+    PUBLIC_DIR = REPO_ROOT / "public"
+    PUBLIC_DIR.mkdir(exist_ok=True)
+    if REPOS_JSON_PATH.exists():
+        shutil.copy2(REPOS_JSON_PATH, PUBLIC_DIR / "repos.json")
+    if CATEGORIES_JSON_PATH.exists():
+        shutil.copy2(CATEGORIES_JSON_PATH, PUBLIC_DIR / "categories.json")
+    # Also copy tagged_repos.json to public/ for runtime fetch
+    if TAGGED_REPOS_PATH.exists():
+        shutil.copy2(TAGGED_REPOS_PATH, PUBLIC_DIR / "tagged_repos.json")
+    # Keep docs/ copies for backward compatibility during transition
     DOCS_DIR.mkdir(exist_ok=True)
     if REPOS_JSON_PATH.exists():
         shutil.copy2(REPOS_JSON_PATH, DOCS_DIR / "repos.json")
     if CATEGORIES_JSON_PATH.exists():
         shutil.copy2(CATEGORIES_JSON_PATH, DOCS_DIR / "categories.json")
-    print("[4b/6] Assets copied to docs/")
+    print("[4b/6] Assets copied to public/ and docs/")
 
 
 def update_site_state(tagged_repos):

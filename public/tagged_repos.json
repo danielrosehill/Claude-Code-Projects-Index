@@ -1,0 +1,1850 @@
+[
+  {
+    "name": "Agent Junction",
+    "url": "https://github.com/danielrosehill/Agent-Junction",
+    "description": "MCP server enabling encrypted peer-to-peer communication between Claude Code instances on localhost or LAN.",
+    "tags": [
+      "MCP",
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-08",
+    "slug": "agent-junction",
+    "created_date": "2026-03-08"
+  },
+  {
+    "name": "AI-Human Attribution Adder",
+    "url": "https://github.com/danielrosehill/AI-Human-Attribution-Adder",
+    "description": "Adds AI/human attribution sections to README files for transparent tool usage documentation.",
+    "tags": [
+      "Documentation",
+      "Slash Commands"
+    ],
+    "category": "Slash Commands",
+    "category_slug": "slash-commands",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "ai-human-attribution-adder",
+    "created_date": "2025-10-31"
+  },
+  {
+    "name": "Bash Alias Manager Claude",
+    "url": "https://github.com/danielrosehill/Bash-Alias-Manager-Claude",
+    "description": "Workspace for managing bash aliases with YADM synchronization support.",
+    "tags": [
+      "Agent Workspace",
+      "Sysadmin"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "bash-alias-manager-claude",
+    "created_date": "2025-10-25"
+  },
+  {
+    "name": "Batch ClaudeMD Repo Creator",
+    "url": "https://github.com/danielrosehill/Batch-ClaudeMD-Repo-Creator",
+    "description": "Automation workspace for batch-adding CLAUDE.md files across multiple GitHub repositories.",
+    "tags": [
+      "Agent Workspace",
+      "Automation",
+      "Configuration"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "batch-claudemd-repo-creator",
+    "created_date": "2025-10-26"
+  },
+  {
+    "name": "Claude ADB Workspace Template",
+    "url": "https://github.com/danielrosehill/Claude-ADB-Workspace-Template",
+    "description": "Template for managing Android devices through ADB with device profiling and package management.",
+    "tags": [
+      "Agent Workspace",
+      "Sysadmin",
+      "Template"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-adb-workspace-template",
+    "created_date": "2025-11-12"
+  },
+  {
+    "name": "Claude ADHD Research Workspace",
+    "url": "https://github.com/danielrosehill/Claude-ADHD-Research-Workspace",
+    "description": "Research repository documenting barriers to ADHD medication access and advocacy for policy reform.",
+    "tags": [
+      "Agent Workspace",
+      "Health",
+      "Research"
+    ],
+    "category": "Health & Wellbeing",
+    "category_slug": "health",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-adhd-research-workspace",
+    "created_date": "2025-11-07"
+  },
+  {
+    "name": "Claude Agent Blueprints",
+    "url": "https://github.com/danielrosehill/Claude-Agent-Blueprints",
+    "description": "Curated collection of 75+ agent workspace templates organized by use case, demonstrating the Agent Workspace Model across code and non-code domains.",
+    "tags": [
+      "Agent Workspace",
+      "Documentation"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-03-09",
+    "slug": "claude-agent-blueprints",
+    "created_date": "2026-03-09"
+  },
+  {
+    "name": "Claude Agent Picker Pattern",
+    "url": "https://github.com/danielrosehill/Claude-Agent-Picker-Pattern",
+    "description": "Framework for assembling context-optimized multi-agent crews with minimal overlap.",
+    "tags": [
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-agent-picker-pattern",
+    "created_date": "2025-10-31"
+  },
+  {
+    "name": "Claude Agent Workspace Generator",
+    "url": "https://github.com/danielrosehill/Claude-Agent-Workspace-Generator",
+    "description": "Launchpad for creating standardized workspace templates conforming to the Agent Workspace Model v1.1 spec, with slash commands to generate, validate, and publish new workspaces.",
+    "tags": [
+      "Agent Workspace",
+      "Multi-Agent",
+      "Slash Commands"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-09",
+    "slug": "claude-agent-workspace-generator",
+    "created_date": "2026-03-09"
+  },
+  {
+    "name": "Claude Agent Workspace Model",
+    "url": "https://github.com/danielrosehill/Claude-Agent-Workspace-Model",
+    "description": "The reference template for the agent workspace pattern \u2014 a defined folder structure and Claude Code scaffolding (CLAUDE.md, slash commands, subagents, MCP configs) for using a repository as a structured workspace for any activity, not just development. Point Claude at this repo to have it scaffold new workspaces following the model.",
+    "tags": [
+      "Agent Workspace",
+      "Configuration",
+      "Documentation",
+      "MCP",
+      "Multi-Agent",
+      "Slash Commands",
+      "Template"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-09",
+    "slug": "claude-agent-workspace-model",
+    "created_date": "2026-03-09"
+  },
+  {
+    "name": "Claude AI Conference",
+    "url": "https://github.com/danielrosehill/Claude-AI-Conference",
+    "description": "Simulated conference where 30+ AI personas deliver speeches on AI's impact from diverse perspectives.",
+    "tags": [
+      "Documentation",
+      "Research"
+    ],
+    "category": "Argument and Perspective Exploration",
+    "category_slug": "argument",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-ai-conference",
+    "created_date": "2026-01-01"
+  },
+  {
+    "name": "Claude App Optimiser",
+    "url": "https://github.com/danielrosehill/Claude-App-Optimiser",
+    "description": "Slash command deploying a sub-agent for codebase optimization and dead code removal.",
+    "tags": [
+      "Slash Commands"
+    ],
+    "category": "Slash Commands",
+    "category_slug": "slash-commands",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-app-optimiser",
+    "created_date": "2025-12-23"
+  },
+  {
+    "name": "Claude Blog Manager",
+    "url": "https://github.com/danielrosehill/Claude-Blog-Manager",
+    "description": "Template for managing blog content through headless CMS platforms with drafting and publishing workflows.",
+    "tags": [
+      "Agent Workspace",
+      "Automation",
+      "Communications",
+      "Template"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-blog-manager",
+    "created_date": "2025-11-18"
+  },
+  {
+    "name": "Claude Budget Workspace Template",
+    "url": "https://github.com/danielrosehill/Claude-Budget-Workspace-Template",
+    "description": "Template for managing household budgets and financial planning with Claude Code.",
+    "tags": [
+      "Agent Workspace",
+      "Financial",
+      "Planning",
+      "Template"
+    ],
+    "category": "Financial Planning",
+    "category_slug": "financial",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-budget-workspace-template",
+    "created_date": "2025-11-07"
+  },
+  {
+    "name": "Claude Bug Catcher",
+    "url": "https://github.com/danielrosehill/Claude-Bug-Catcher",
+    "description": "Hotkey-triggered utility that launches Claude Code with relevant logs for real-time Linux debugging.",
+    "tags": [
+      "Sysadmin",
+      "Tool"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-bug-catcher",
+    "created_date": "2025-12-28"
+  },
+  {
+    "name": "Claude Business Continuity Planner",
+    "url": "https://github.com/danielrosehill/Claude-Business-Continuity-Planner",
+    "description": "Workspace for developing ISO 22301-aligned business continuity programs with slash commands.",
+    "tags": [
+      "Agent Workspace",
+      "Business",
+      "Slash Commands"
+    ],
+    "category": "Business",
+    "category_slug": "business",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-business-continuity-planner",
+    "created_date": "2026-01-14"
+  },
+  {
+    "name": "Claude Business Idea Evaluator",
+    "url": "https://github.com/danielrosehill/Claude-Business-Idea-Evaluator",
+    "description": "Framework for evaluating and ranking business ideas using the ICEC methodology.",
+    "tags": [
+      "Business"
+    ],
+    "category": "Business",
+    "category_slug": "business",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-business-idea-evaluator",
+    "created_date": "2025-11-23"
+  },
+  {
+    "name": "Claude Case File",
+    "url": "https://github.com/danielrosehill/Claude-Case-File",
+    "description": "Legal case management template with evidence tracking, chain of custody, and document organization.",
+    "tags": [
+      "Legal"
+    ],
+    "category": "Legal",
+    "category_slug": "legal",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-case-file",
+    "created_date": "2026-01-15"
+  },
+  {
+    "name": "Claude Change My View",
+    "url": "https://github.com/danielrosehill/Claude-Change-My-View",
+    "description": "Workspace for challenging personal beliefs through AI-generated counterarguments and rebuttals.",
+    "tags": [
+      "Agent Workspace",
+      "Analysis",
+      "Research"
+    ],
+    "category": "Argument and Perspective Exploration",
+    "category_slug": "argument",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-change-my-view",
+    "created_date": "2025-11-13"
+  },
+  {
+    "name": "Claude Code Bash Aliases",
+    "url": "https://github.com/danielrosehill/Claude-Code-Bash-Aliases",
+    "description": "Collection of bash aliases for common Claude Code operations on Linux.",
+    "tags": [
+      "Sysadmin"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-bash-aliases",
+    "created_date": "2025-11-09"
+  },
+  {
+    "name": "Claude Code Context Feature Requests",
+    "url": "https://github.com/danielrosehill/Claude-Code-Context-Feature-Requests",
+    "description": "Feature requests for improving Claude Code's context handling capabilities.",
+    "tags": [
+      "Configuration",
+      "Documentation"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-context-feature-requests",
+    "created_date": "2025-10-09"
+  },
+  {
+    "name": "Claude Code Context Toolkit",
+    "url": "https://github.com/danielrosehill/Claude-Code-Context-Toolkit",
+    "description": "Bridges human-friendly CONTEXT.md files with AI-optimized CLAUDE.md briefings via slash commands.",
+    "tags": [
+      "Configuration",
+      "Slash Commands"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-context-toolkit",
+    "created_date": "2025-10-27"
+  },
+  {
+    "name": "Claude Code LAN Manager",
+    "url": "https://github.com/danielrosehill/Claude-LAN-Manager-0126",
+    "description": "Workspace for centralized management of multiple LAN-connected machines through Claude Code. GUI application for managing local network devices through isolated, device-specific agent workspaces.",
+    "tags": [
+      "Agent Workspace",
+      "Sysadmin",
+      "Tool"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-lan-manager",
+    "created_date": "2026-01-09"
+  },
+  {
+    "name": "Claude Code Lawyer",
+    "url": "https://github.com/danielrosehill/Claude-Lawyer-ISR",
+    "description": "Legal research template with structured intake, evidence handling, and professional document generation. Israeli law adaptation with local court system knowledge, Hebrew support, and Israeli legal database links.",
+    "tags": [
+      "Legal",
+      "Research"
+    ],
+    "category": "Legal",
+    "category_slug": "legal",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-lawyer",
+    "created_date": "2026-01-12"
+  },
+  {
+    "name": "Claude Code Linux Desktop Slash Commands",
+    "url": "https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+    "description": "System administration slash commands for Linux desktop environments.",
+    "tags": [
+      "Slash Commands"
+    ],
+    "category": "Slash Commands",
+    "category_slug": "slash-commands",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-linux-desktop-slash-commands",
+    "created_date": "2025-10-21"
+  },
+  {
+    "name": "Claude Code Linux Notes",
+    "url": "https://github.com/danielrosehill/Claude-Code-Linux-Notes",
+    "description": "Personal documentation of workflows and tips for using Claude Code on Ubuntu with KDE Plasma.",
+    "tags": [
+      "Automation",
+      "Documentation",
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-linux-notes",
+    "created_date": "2025-10-22"
+  },
+  {
+    "name": "Claude Code Marketplace Hub",
+    "url": "https://github.com/danielrosehill/claude-code-marketplace",
+    "description": "Decentralized directory aggregating multiple community-maintained Claude Code plugin marketplaces.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-marketplace-hub",
+    "created_date": "2025-11-09"
+  },
+  {
+    "name": "Claude Code MCP Command Generator",
+    "url": "https://github.com/danielrosehill/Claude-Code-MCP-Command-Generator",
+    "description": "Generator for creating MCP server configuration commands for Claude Code.",
+    "tags": [
+      "Configuration",
+      "MCP"
+    ],
+    "category": "MCP",
+    "category_slug": "mcp",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-mcp-command-generator",
+    "created_date": "2025-10-16"
+  },
+  {
+    "name": "Claude Code MCP List",
+    "url": "https://github.com/danielrosehill/Claude-Code-MCP-List",
+    "description": "Curated index of MCP servers organized into 14+ categories for extending Claude Code.",
+    "tags": [
+      "MCP"
+    ],
+    "category": "MCP",
+    "category_slug": "mcp",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-mcp-list",
+    "created_date": "2025-10-28"
+  },
+  {
+    "name": "Claude Code Notebook",
+    "url": "https://github.com/danielrosehill/Claude-Code-Notebook",
+    "description": "Minimal reference repository for documenting Claude Code usage patterns and workflows.",
+    "tags": [
+      "Automation",
+      "Documentation",
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-notebook",
+    "created_date": "2025-10-30"
+  },
+  {
+    "name": "Claude Code Plugin",
+    "url": "https://github.com/danielrosehill/claude-code-plugin",
+    "description": "Meta-plugin for managing Claude Code configuration, slash commands, and agent development.",
+    "tags": [
+      "Configuration",
+      "Plugin",
+      "Slash Commands"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-plugin",
+    "created_date": "2025-11-15"
+  },
+  {
+    "name": "Claude Code Plugins Marketplace",
+    "url": "https://github.com/danielrosehill/Claude-Code-Plugins",
+    "description": "Centralized marketplace for discovering and installing Claude Code plugins via simple commands.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-plugins-marketplace",
+    "created_date": "2025-11-09"
+  },
+  {
+    "name": "Claude Code Remote Machine Admin Space",
+    "url": "https://github.com/danielrosehill/Claude-Code-Remote-Machine-Admin-Space",
+    "description": "Template for managing individual remote machines via SSH with structured system profiles and logs.",
+    "tags": [
+      "Agent Workspace",
+      "Sysadmin",
+      "Template"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-remote-machine-admin-space",
+    "created_date": "2025-10-29"
+  },
+  {
+    "name": "Claude Code Repo Managers ClaudeMD",
+    "url": "https://github.com/danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+    "description": "Pre-configured CLAUDE.md templates for managing different repository types.",
+    "tags": [
+      "Agent Workspace",
+      "Configuration"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-repo-managers-claudemd",
+    "created_date": "2025-10-25"
+  },
+  {
+    "name": "Claude Code Security Auditor",
+    "url": "https://github.com/danielrosehill/Claude-Code-Security-Auditor",
+    "description": "Multi-machine security auditing workspace covering antivirus, rootkits, permissions, and network exposure.",
+    "tags": [
+      "Agent Workspace",
+      "Sysadmin"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-security-auditor",
+    "created_date": "2025-10-25"
+  },
+  {
+    "name": "Claude Code Writing Squad",
+    "url": "https://github.com/danielrosehill/Claude-Code-Writing-Squad",
+    "description": "Multi-agent writing system that refines text through specialized editing agents.",
+    "tags": [
+      "Communications",
+      "Multi-Agent"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-code-writing-squad",
+    "created_date": "2025-09-16"
+  },
+  {
+    "name": "Claude Communications Strategist Template",
+    "url": "https://github.com/danielrosehill/Claude-Comms-Strategist-Template",
+    "description": "Full-featured workspace for communications strategy with 12 agents and 14 slash commands.",
+    "tags": [
+      "Agent Workspace",
+      "Communications",
+      "Slash Commands",
+      "Template"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-communications-strategist-template",
+    "created_date": "2026-01-12"
+  },
+  {
+    "name": "Claude Competitor Research Agent",
+    "url": "https://github.com/danielrosehill/Claude-Competitor-Research-Agent",
+    "description": "Workspace for systematic competitive intelligence research using public sources, with commands for competitor scanning, pricing analysis, and formal CI report generation.",
+    "tags": [
+      "Agent Workspace",
+      "Business",
+      "Research"
+    ],
+    "category": "Business",
+    "category_slug": "business",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-09",
+    "slug": "claude-competitor-research-agent",
+    "created_date": "2026-03-09"
+  },
+  {
+    "name": "Claude Conda Manager",
+    "url": "https://github.com/danielrosehill/Claude-Conda-Manager",
+    "description": "Workspace for managing Conda environments on Ubuntu workstations with AMD ROCm hardware.",
+    "tags": [
+      "Agent Workspace",
+      "Sysadmin"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-conda-manager",
+    "created_date": "2025-10-28"
+  },
+  {
+    "name": "Claude Debugging Workspace",
+    "url": "https://github.com/danielrosehill/Claude-Debugging-Workspace",
+    "description": "Structured debugging template supporting software bugs, process problems, and creative blocks through hypothesis-driven investigation.",
+    "tags": [
+      "Agent Workspace",
+      "Productivity"
+    ],
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-debugging-workspace",
+    "created_date": "2026-01-11"
+  },
+  {
+    "name": "Claude Decision Evaluation Framework",
+    "url": "https://github.com/danielrosehill/Claude-Decision-Evaluation-Framework",
+    "description": "Analyzes decisions through seven parallel frameworks (SWOT, ICE, Regret Minimization, etc.) with objective scoring.",
+    "tags": [
+      "Productivity"
+    ],
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-decision-evaluation-framework",
+    "created_date": "2025-11-23"
+  },
+  {
+    "name": "Claude Deep Research Model (Notes / Documentation)",
+    "url": "https://github.com/danielrosehill/Claude-Deep-Research-Model",
+    "description": "Framework for iterative deep research using Claude with voice pipeline and structured outputs.",
+    "tags": [
+      "Automation",
+      "Research"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-deep-research-model-notes-documentation",
+    "created_date": "2025-10-29"
+  },
+  {
+    "name": "Claude Deep Research Template (Implementation Template)",
+    "url": "https://github.com/danielrosehill/Claude-Deep-Research-Template",
+    "description": "Structured workflow for systematic research with specialized agents across academic and technical domains.",
+    "tags": [
+      "Automation",
+      "Multi-Agent",
+      "Research",
+      "Template"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-deep-research-template-implementation-template",
+    "created_date": "2025-11-01"
+  },
+  {
+    "name": "Claude Development Agents",
+    "url": "https://github.com/danielrosehill/Claude-Development-Agents",
+    "description": "Curated toolkit of 74+ Claude Code configurations for development workflows and multi-agent coordination.",
+    "tags": [
+      "Automation",
+      "Configuration",
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-development-agents",
+    "created_date": "2025-12-29"
+  },
+  {
+    "name": "Claude Diary Planner Template",
+    "url": "https://github.com/danielrosehill/Claude-Diary-Planner-Template",
+    "description": "Forkable template for daily workflow and time management planning with Claude Code.",
+    "tags": [
+      "Automation",
+      "Productivity",
+      "Template"
+    ],
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-diary-planner-template",
+    "created_date": "2025-11-07"
+  },
+  {
+    "name": "Claude Docker Manager",
+    "url": "https://github.com/danielrosehill/Claude-Docker-Manager",
+    "description": "Workspace template for Docker environment management with slash commands and diagnostic agents.",
+    "tags": [
+      "Agent Workspace",
+      "Slash Commands",
+      "Sysadmin",
+      "Template"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-docker-manager",
+    "created_date": "2025-12-07"
+  },
+  {
+    "name": "Claude Document This",
+    "url": "https://github.com/danielrosehill/Claude-Document-This",
+    "description": "Methods and slash commands for documenting system changes made by Claude Code.",
+    "tags": [
+      "Slash Commands"
+    ],
+    "category": "Slash Commands",
+    "category_slug": "slash-commands",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-document-this",
+    "created_date": "2025-11-16"
+  },
+  {
+    "name": "Claude Dork",
+    "url": "https://github.com/danielrosehill/Claude-Dork",
+    "description": "Agent that generates platform-specific search dorks across Google, Reddit, Twitter/X, and more.",
+    "tags": [
+      "Research"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-dork",
+    "created_date": "2026-03-05"
+  },
+  {
+    "name": "Claude Evidence Assistant",
+    "url": "https://github.com/danielrosehill/Claude-Evidence-Assistant",
+    "description": "Digital evidence management workspace with cryptographic verification and Library of Congress-compliant exports.",
+    "tags": [
+      "Agent Workspace",
+      "Legal"
+    ],
+    "category": "Legal",
+    "category_slug": "legal",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-evidence-assistant",
+    "created_date": "2026-01-19"
+  },
+  {
+    "name": "Claude File Organiser Super Slash",
+    "url": "https://github.com/danielrosehill/Claude-File-Organiser-Super-Slash",
+    "description": "Slash command that transforms disorganized filesystems into well-structured directories.",
+    "tags": [
+      "Slash Commands"
+    ],
+    "category": "Slash Commands",
+    "category_slug": "slash-commands",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-file-organiser-super-slash",
+    "created_date": "2025-10-29"
+  },
+  {
+    "name": "Claude Georeaction Researcher",
+    "url": "https://github.com/danielrosehill/Claude-Georeaction-Researcher",
+    "description": "Researches international reactions across 193 UN member states using Gemini with search grounding.",
+    "tags": [
+      "Research"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-08",
+    "slug": "claude-georeaction-researcher",
+    "created_date": "2026-03-04"
+  },
+  {
+    "name": "Claude Github Shortlister",
+    "url": "https://github.com/danielrosehill/Claude-Github-Shortlister",
+    "description": "Template for systematically evaluating and shortlisting GitHub repositories using AI-powered analysis.",
+    "tags": [
+      "Research",
+      "Template"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-github-shortlister",
+    "created_date": "2025-10-28"
+  },
+  {
+    "name": "Claude Google Drive Organiser",
+    "url": "https://github.com/danielrosehill/Claude-Gdrive-Organiser",
+    "description": "Template for managing and organizing Google Drive via rclone with configurable rules and slash commands.",
+    "tags": [
+      "Productivity",
+      "Slash Commands",
+      "Template"
+    ],
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-google-drive-organiser",
+    "created_date": "2026-01-12"
+  },
+  {
+    "name": "Claude Health Helper",
+    "url": "https://github.com/danielrosehill/Claude-Health-Helper",
+    "description": "Workspace for organizing personal health documentation, visit preparation, and medical report summaries.",
+    "tags": [
+      "Agent Workspace",
+      "Documentation",
+      "Health"
+    ],
+    "category": "Health & Wellbeing",
+    "category_slug": "health",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-health-helper",
+    "created_date": "2025-11-25"
+  },
+  {
+    "name": "Claude Home Assistant Manager Template",
+    "url": "https://github.com/danielrosehill/Claude-Home-Assistant-Manager-Template",
+    "description": "Template for managing Home Assistant OS with 20+ slash commands and 5 specialized agents.",
+    "tags": [
+      "Agent Workspace",
+      "Multi-Agent",
+      "Slash Commands",
+      "Sysadmin",
+      "Template"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-home-assistant-manager-template",
+    "created_date": "2025-11-01"
+  },
+  {
+    "name": "Claude Interview",
+    "url": "https://github.com/danielrosehill/Claude-Interview-062325",
+    "description": "Transcript from an Anthropic user research interview on AI tools and adoption.",
+    "tags": [
+      "Documentation",
+      "Research"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-03-06",
+    "slug": "claude-interview",
+    "created_date": "2025-12-06"
+  },
+  {
+    "name": "Claude Is Awesome",
+    "url": "https://github.com/danielrosehill/Claude-Is-Awesome",
+    "description": "Template for creating curated resource lists with automated formatting and badge generation.",
+    "tags": [
+      "Automation",
+      "Documentation",
+      "Template"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-03-06",
+    "slug": "claude-is-awesome",
+    "created_date": "2025-10-28"
+  },
+  {
+    "name": "Claude Ivory PC Builder",
+    "url": "https://github.com/danielrosehill/Claude-Ivory-PC-Builder",
+    "description": "AI-powered PC component spec generator with real-time pricing from an Israeli retailer, historical price tracking, and compatibility verification.",
+    "tags": [
+      "Hardware"
+    ],
+    "category": "Technology & Hardware",
+    "category_slug": "technology",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-09",
+    "slug": "claude-ivory-pc-builder",
+    "created_date": "2026-02-05"
+  },
+  {
+    "name": "Claude Janitor",
+    "url": "https://github.com/danielrosehill/Claude-Janitor",
+    "description": "Plugin for cleaning up repositories by removing Claude-related artifacts and configurations.",
+    "tags": [
+      "Configuration",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-janitor",
+    "created_date": "2025-12-16"
+  },
+  {
+    "name": "Claude Job Search Strategist",
+    "url": "https://github.com/danielrosehill/Claude-Job-Search-Strategist",
+    "description": "Job search workspace with specialized agents for company research, resume tailoring, and interview preparation.",
+    "tags": [
+      "Agent Workspace",
+      "Multi-Agent",
+      "Planning",
+      "Research"
+    ],
+    "category": "Career",
+    "category_slug": "career",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-job-search-strategist",
+    "created_date": "2025-11-26"
+  },
+  {
+    "name": "Claude Legal Aid Clinic",
+    "url": "https://github.com/danielrosehill/Claude-Legal-Aid-Clinic",
+    "description": "Template helping legal aid seekers understand their rights and prepare case materials.",
+    "tags": [
+      "Legal"
+    ],
+    "category": "Legal",
+    "category_slug": "legal",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-legal-aid-clinic",
+    "created_date": "2026-01-20"
+  },
+  {
+    "name": "Claude Linux Desktop Manager",
+    "url": "https://github.com/danielrosehill/Claude-Linux-Desktop-Manager",
+    "description": "System administration interface for Linux desktop management with extensive slash commands.",
+    "tags": [
+      "Agent Workspace",
+      "Slash Commands",
+      "Sysadmin",
+      "Tool"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-linux-desktop-manager",
+    "created_date": "2025-10-27"
+  },
+  {
+    "name": "Claude Linux Server Manager",
+    "url": "https://github.com/danielrosehill/Claude-Linux-Server-Manager",
+    "description": "Ubuntu server management template with 38 slash commands and 10 agents for routine administration.",
+    "tags": [
+      "Agent Workspace",
+      "Multi-Agent",
+      "Slash Commands",
+      "Sysadmin"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-linux-server-manager",
+    "created_date": "2025-11-01"
+  },
+  {
+    "name": "Claude Local AI Agent Research",
+    "url": "https://github.com/danielrosehill/Claude-Local-AI-Agent-Research",
+    "description": "Research into agentic AI tools optimized for system administration rather than code generation.",
+    "tags": [
+      "Documentation",
+      "Research"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-03-06",
+    "slug": "claude-local-ai-agent-research",
+    "created_date": "2025-11-27"
+  },
+  {
+    "name": "Claude MCP Guidelines",
+    "url": "https://github.com/danielrosehill/Claude-MCP-Guidelines",
+    "description": "Guideline snippet for directing Claude Code on MCP usage across environments.",
+    "tags": [
+      "Documentation",
+      "MCP",
+      "Tool"
+    ],
+    "category": "MCP",
+    "category_slug": "mcp",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-mcp-guidelines",
+    "created_date": "2025-11-09"
+  },
+  {
+    "name": "Claude MD Chunk",
+    "url": "https://github.com/danielrosehill/Claude-MD-Chunk",
+    "description": "Slash command that condenses bloated CLAUDE.md files to essentials and organizes supplementary context into a structured `agent-context/` folder.",
+    "tags": [
+      "Slash Commands"
+    ],
+    "category": "Slash Commands",
+    "category_slug": "slash-commands",
+    "category_group": "Technical",
+    "added_date": "2026-03-09",
+    "slug": "claude-md-chunk",
+    "created_date": "2026-03-09"
+  },
+  {
+    "name": "Claude Media Monitor",
+    "url": "https://github.com/danielrosehill/Claude-Media-Monitor",
+    "description": "Workspace for systematic news collection and organization with metadata and schema validation.",
+    "tags": [
+      "Agent Workspace",
+      "Marketing",
+      "SEO"
+    ],
+    "category": "Marketing",
+    "category_slug": "marketing",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-media-monitor",
+    "created_date": "2025-11-10"
+  },
+  {
+    "name": "Claude Model Identifier",
+    "url": "https://github.com/danielrosehill/Claude-Model-Identifier",
+    "description": "Prompt template for verifying the correct Claude model variant at conversation start.",
+    "tags": [
+      "Configuration",
+      "Template"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-model-identifier",
+    "created_date": "2025-12-21"
+  },
+  {
+    "name": "Claude MVT Workspace",
+    "url": "https://github.com/danielrosehill/Claude-MVT-Workspace",
+    "description": "Workspace orchestrating Mobile Verification Toolkit (MVT) spyware scans on Android devices via ADB, detecting indicators of compromise from targeted malware like Pegasus.",
+    "tags": [
+      "Agent Workspace",
+      "Sysadmin"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-09",
+    "slug": "claude-mvt-workspace",
+    "created_date": "2026-03-09"
+  },
+  {
+    "name": "Claude News Fetcher - Media Monitoring System",
+    "url": "https://github.com/danielrosehill/Claude-PR-And-Media-Monitoring-Workspace",
+    "description": "Full-featured media monitoring workspace with structured data capture and batch processing.",
+    "tags": [
+      "Agent Workspace",
+      "Marketing",
+      "SEO"
+    ],
+    "category": "Marketing",
+    "category_slug": "marketing",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-news-fetcher-media-monitoring-system",
+    "created_date": "2025-11-10"
+  },
+  {
+    "name": "Claude OS Sync Agent",
+    "url": "https://github.com/danielrosehill/Claude-OS-Sync-Agent",
+    "description": "Synchronization tool for maintaining consistency between desktop and laptop configurations.",
+    "tags": [
+      "Configuration",
+      "Sysadmin",
+      "Tool"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-os-sync-agent",
+    "created_date": "2025-10-22"
+  },
+  {
+    "name": "Claude OSINT Investigator",
+    "url": "https://github.com/danielrosehill/Claude-OSINT-Investigator",
+    "description": "Template for conducting open-source intelligence investigations with organized evidence management.",
+    "tags": [
+      "Research",
+      "Template"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-osint-investigator",
+    "created_date": "2026-01-11"
+  },
+  {
+    "name": "Claude Personal Development Workspace",
+    "url": "https://github.com/danielrosehill/Claude-Personal-Development-Workspace",
+    "description": "Workspace for tracking habits, skill acquisition, and self-improvement goals with AI coaching.",
+    "tags": [
+      "Agent Workspace",
+      "Productivity"
+    ],
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-personal-development-workspace",
+    "created_date": "2026-01-11"
+  },
+  {
+    "name": "Claude Preparedness Planner",
+    "url": "https://github.com/danielrosehill/Claude-Preparedness-Planner",
+    "description": "Workspace generating personalized preparedness strategies across physical safety, financial, and medical domains, with intake interviews and offline-ready action plans.",
+    "tags": [
+      "Agent Workspace",
+      "Productivity"
+    ],
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-09",
+    "slug": "claude-preparedness-planner",
+    "created_date": "2026-03-09"
+  },
+  {
+    "name": "Claude Proxmox Manager Template",
+    "url": "https://github.com/danielrosehill/Claude-Proxmox-Manager-Template",
+    "description": "Proxmox server management template with 38 slash commands and 10 agents for low-spec hardware.",
+    "tags": [
+      "Agent Workspace",
+      "Multi-Agent",
+      "Slash Commands",
+      "Sysadmin",
+      "Template"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-proxmox-manager-template",
+    "created_date": "2025-11-01"
+  },
+  {
+    "name": "Claude Purchasing Assistant",
+    "url": "https://github.com/danielrosehill/Claude-Purchasing-Assistant",
+    "description": "Structured purchasing decision workspace that evaluates products against user-defined criteria and local pricing.",
+    "tags": [
+      "Agent Workspace",
+      "Financial",
+      "Planning"
+    ],
+    "category": "Financial Planning",
+    "category_slug": "financial",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-purchasing-assistant",
+    "created_date": "2026-01-13"
+  },
+  {
+    "name": "Claude Redaction And Obfuscation",
+    "url": "https://github.com/danielrosehill/Claude-Redaction-And-Obfuscation",
+    "description": "Document redaction and identity protection workspace for handling sensitive information.",
+    "tags": [
+      "Agent Workspace",
+      "Privacy"
+    ],
+    "category": "Privacy & Anonymity",
+    "category_slug": "privacy",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-redaction-and-obfuscation",
+    "created_date": "2026-01-14"
+  },
+  {
+    "name": "Claude Repo Jumper",
+    "url": "https://github.com/danielrosehill/Claude-Repo-Jumper",
+    "description": "Skill for automating repository handovers with context-passing in multi-repo systems.",
+    "tags": [
+      "Automation",
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-repo-jumper",
+    "created_date": "2026-01-01"
+  },
+  {
+    "name": "Claude Repo Retrofitter",
+    "url": "https://github.com/danielrosehill/Claude-Repo-Retrofitter",
+    "description": "Bulk-retrofit existing repositories with AI agent scaffolding (CLAUDE.md, commands, agents) in batch operations, with interactive or autonomous modes and incremental progress tracking.",
+    "tags": [
+      "Automation",
+      "Multi-Agent",
+      "Tool"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-09",
+    "slug": "claude-repo-retrofitter",
+    "created_date": "2026-03-09"
+  },
+  {
+    "name": "Claude Report Parsing Space Template",
+    "url": "https://github.com/danielrosehill/Claude-Report-Parsing-Space-Template",
+    "description": "Template for critical analysis of reports with slash commands for triage, argumentation, and source extraction.",
+    "tags": [
+      "Agent Workspace",
+      "Research",
+      "Slash Commands",
+      "Template"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-report-parsing-space-template",
+    "created_date": "2026-01-06"
+  },
+  {
+    "name": "Claude Rescue",
+    "url": "https://github.com/danielrosehill/Claude-Rescue",
+    "description": "Concept for deploying Claude Code into recovery shell environments for AI-assisted system repair.",
+    "tags": [
+      "Research",
+      "Sysadmin"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-rescue",
+    "created_date": "2025-11-14"
+  },
+  {
+    "name": "Claude Resource List Builder",
+    "url": "https://github.com/danielrosehill/Claude-Resource-List-Builder",
+    "description": "Template for building curated resource lists with organized taxonomy and PDF export.",
+    "tags": [
+      "Documentation",
+      "Template"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-03-06",
+    "slug": "claude-resource-list-builder",
+    "created_date": "2026-01-01"
+  },
+  {
+    "name": "Claude Rig Planner",
+    "url": "https://github.com/danielrosehill/Claude-Rig-Planner",
+    "description": "Template for planning computer hardware upgrades with profiling, recommendations, and VAT-compliant estimates.",
+    "tags": [
+      "Hardware",
+      "Template"
+    ],
+    "category": "Technology & Hardware",
+    "category_slug": "technology",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-rig-planner",
+    "created_date": "2025-12-14"
+  },
+  {
+    "name": "Claude Salary Research Agent",
+    "url": "https://github.com/danielrosehill/Claude-Salary-Research-Agent",
+    "description": "Systematic salary and compensation research workspace using publicly available sources, with commands for role scanning, benchmarking, benefits analysis, and formal report generation.",
+    "tags": [
+      "Agent Workspace",
+      "Planning",
+      "Research"
+    ],
+    "category": "Career",
+    "category_slug": "career",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-09",
+    "slug": "claude-salary-research-agent",
+    "created_date": "2026-03-09"
+  },
+  {
+    "name": "Claude Server Manager Template",
+    "url": "https://github.com/danielrosehill/Claude-Server-Manager-Template",
+    "description": "Server administration template with 38 slash commands and 10 agents optimized for Docker deployments.",
+    "tags": [
+      "Agent Workspace",
+      "Slash Commands",
+      "Sysadmin",
+      "Template"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-server-manager-template",
+    "created_date": "2025-11-01"
+  },
+  {
+    "name": "Claude Server Mgmt Template SBCs",
+    "url": "https://github.com/danielrosehill/Claude-Server-Mgmt-Template-SBCs",
+    "description": "Server management template adapted for Single Board Computers and resource-constrained hardware.",
+    "tags": [
+      "Sysadmin",
+      "Template"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-server-mgmt-template-sbcs",
+    "created_date": "2025-11-01"
+  },
+  {
+    "name": "Claude Slash Commands",
+    "url": "https://github.com/danielrosehill/Claude-Slash-Commands",
+    "description": "General-purpose slash command library for various Claude Code workflows.",
+    "tags": [
+      "Automation",
+      "Slash Commands"
+    ],
+    "category": "Slash Commands",
+    "category_slug": "slash-commands",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-slash-commands",
+    "created_date": "2025-10-11"
+  },
+  {
+    "name": "Claude Space Self-Ideator",
+    "url": "https://github.com/danielrosehill/Claude-Space-Self-ideator",
+    "description": "Ideation workspace for generating and documenting new agent workspace concepts.",
+    "tags": [
+      "Agent Workspace",
+      "Configuration",
+      "Research"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-space-self-ideator",
+    "created_date": "2026-01-11"
+  },
+  {
+    "name": "Claude Spec Starter",
+    "url": "https://github.com/danielrosehill/Claude-Spec-Starter",
+    "description": "Template that transforms unstructured project descriptions into organized specifications for Claude Code.",
+    "tags": [
+      "Configuration",
+      "Template"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-spec-starter",
+    "created_date": "2025-11-06"
+  },
+  {
+    "name": "Claude Stack Research Workspace",
+    "url": "https://github.com/danielrosehill/Claude-Stack-Research-Workspace",
+    "description": "Environment for evaluating software solutions with specialized agents for technology comparisons.",
+    "tags": [
+      "Agent Workspace",
+      "Multi-Agent",
+      "Research"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-stack-research-workspace",
+    "created_date": "2025-11-03"
+  },
+  {
+    "name": "Claude Sub-Agent Network",
+    "url": "https://github.com/danielrosehill/Claude-Sub-Agent-Network",
+    "description": "Collection of system prompts and configurations for development, operational, and creative tasks.",
+    "tags": [
+      "Configuration",
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-sub-agent-network",
+    "created_date": "2025-09-09"
+  },
+  {
+    "name": "Claude Synology Manager",
+    "url": "https://github.com/danielrosehill/Claude-Synology-Manager",
+    "description": "Template for managing Synology NAS devices through SSH and MCP with persistent context storage.",
+    "tags": [
+      "Agent Workspace",
+      "Sysadmin",
+      "Template"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-synology-manager",
+    "created_date": "2025-12-03"
+  },
+  {
+    "name": "Claude System Recovery Mode",
+    "url": "https://github.com/danielrosehill/Claude-System-Recovery-Mode",
+    "description": "Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflows.",
+    "tags": [
+      "Automation",
+      "Sysadmin",
+      "Tool"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-system-recovery-mode",
+    "created_date": "2025-12-27"
+  },
+  {
+    "name": "Claude Task Manager",
+    "url": "https://github.com/danielrosehill/Claude-Task-Manager",
+    "description": "Sequential task queuing system addressing context window exhaustion in agentic coding tools.",
+    "tags": [
+      "Agent Workspace",
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-task-manager",
+    "created_date": "2025-12-28"
+  },
+  {
+    "name": "Claude Tech Research Team",
+    "url": "https://github.com/danielrosehill/Claude-Tech-Research-Team",
+    "description": "Multi-agent system for evaluating software and hardware technologies with automated reporting.",
+    "tags": [
+      "Automation",
+      "Multi-Agent",
+      "Research"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-tech-research-team",
+    "created_date": "2025-10-31"
+  },
+  {
+    "name": "Claude Therapy Tracker",
+    "url": "https://github.com/danielrosehill/Claude-Therapy-Tracker",
+    "description": "Template for tracking therapy sessions, mental health goals, and therapeutic planning.",
+    "tags": [
+      "Health",
+      "Template"
+    ],
+    "category": "Health & Wellbeing",
+    "category_slug": "health",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-therapy-tracker",
+    "created_date": "2025-11-03"
+  },
+  {
+    "name": "Claude Think Tank",
+    "url": "https://github.com/danielrosehill/Claude-Think-Tank",
+    "description": "Virtual think tank framework using AI agents for research and policy proposal development.",
+    "tags": [
+      "Analysis",
+      "Multi-Agent",
+      "Research"
+    ],
+    "category": "Argument and Perspective Exploration",
+    "category_slug": "argument",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-think-tank",
+    "created_date": "2025-11-07"
+  },
+  {
+    "name": "Claude Visual Communications Space",
+    "url": "https://github.com/danielrosehill/Claude-Visual-Communications-Space",
+    "description": "Template for enhancing long-form content with AI-generated visuals via fal-ai MCP.",
+    "tags": [
+      "Agent Workspace",
+      "Communications",
+      "Template"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-visual-communications-space",
+    "created_date": "2026-01-21"
+  },
+  {
+    "name": "Claude Web Analytics Space",
+    "url": "https://github.com/danielrosehill/Claude-Web-Analytics-Space",
+    "description": "Workspace template for SEO analytics with data cleaning, analysis, and reporting workflows.",
+    "tags": [
+      "Agent Workspace",
+      "Automation",
+      "Marketing",
+      "SEO",
+      "Template"
+    ],
+    "category": "Marketing",
+    "category_slug": "marketing",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-web-analytics-space",
+    "created_date": "2026-01-06"
+  },
+  {
+    "name": "Claude Website Update Sender",
+    "url": "https://github.com/danielrosehill/Claude-Website-Update-Sender",
+    "description": "Automated workflow for sending polished update emails about website changes via Resend MCP.",
+    "tags": [
+      "Automation",
+      "Communications"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-website-update-sender",
+    "created_date": "2025-11-13"
+  },
+  {
+    "name": "Claude Workspace Setup Helper",
+    "url": "https://github.com/danielrosehill/Claude-Workspace-Setup-Helper",
+    "description": "Interactive tool for discovering, selecting, and cloning Claude Workspace templates.",
+    "tags": [
+      "Agent Workspace",
+      "Configuration",
+      "Multi-Agent",
+      "Tool"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "claude-workspace-setup-helper",
+    "created_date": "2025-12-07"
+  },
+  {
+    "name": "Claude Writing Space Template",
+    "url": "https://github.com/danielrosehill/Claude-Writing-Space-Template",
+    "description": "Writing workspace with sequential versioning, editing agents, and headless CMS publishing support.",
+    "tags": [
+      "Agent Workspace",
+      "Communications",
+      "Template"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "claude-writing-space-template",
+    "created_date": "2025-11-12"
+  },
+  {
+    "name": "CONTEXT.md",
+    "url": "https://github.com/danielrosehill/CONTEXT.md",
+    "description": "Workflow methodology for separating human-authored context from structured AI agent briefings.",
+    "tags": [
+      "Automation",
+      "Configuration"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "context-md",
+    "created_date": "2025-10-27"
+  },
+  {
+    "name": "Cool Claude Code Stuff",
+    "url": "https://github.com/danielrosehill/Cool-Claude-Code-Stuff",
+    "description": "Curated collection of Claude Code projects and resources organized by category.",
+    "tags": [
+      "Documentation",
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "cool-claude-code-stuff",
+    "created_date": "2025-10-02"
+  },
+  {
+    "name": "Declaude",
+    "url": "https://github.com/danielrosehill/Declaude",
+    "description": "Personalized text rewriting rules that consolidate into a slash command for refining AI-generated documentation.",
+    "tags": [
+      "Communications",
+      "Documentation",
+      "Slash Commands"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "declaude",
+    "created_date": "2025-12-15"
+  },
+  {
+    "name": "Ecosystem Mapper",
+    "url": "https://github.com/danielrosehill/Ecosystem-Mapper",
+    "description": "Agent that discovers, categorizes, and visualizes technology ecosystems from keyword searches.",
+    "tags": [
+      "Multi-Agent",
+      "Tool"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "ecosystem-mapper",
+    "created_date": "2025-12-19"
+  },
+  {
+    "name": "Home Folder Claude MD",
+    "url": "https://github.com/danielrosehill/Home-Folder-Claude-MD",
+    "description": "Version-controlled CLAUDE.md for applying Claude Code settings across a home directory.",
+    "tags": [
+      "Configuration"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "home-folder-claude-md",
+    "created_date": "2025-10-23"
+  },
+  {
+    "name": "Linux Desktop ClaudeMD Seeder",
+    "url": "https://github.com/danielrosehill/Linux-Desktop-ClaudeMD-Seeder",
+    "description": "Automatically generates contextual CLAUDE.md files across a Linux desktop filesystem.",
+    "tags": [
+      "Automation",
+      "Configuration"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "linux-desktop-claudemd-seeder",
+    "created_date": "2025-10-25"
+  },
+  {
+    "name": "Make Agent Friendly",
+    "url": "https://github.com/danielrosehill/Make-Agent-Friendly",
+    "description": "Plugin that prepares human-developed codebases for agentic development with restructuring and documentation.",
+    "tags": [
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "make-agent-friendly",
+    "created_date": "2025-12-13"
+  },
+  {
+    "name": "MCPM Claude Code Docs",
+    "url": "https://github.com/danielrosehill/MCPM-Claude-Code-Docs",
+    "description": "Documentation for integrating Claude Code with MCPM external MCP server manager.",
+    "tags": [
+      "Documentation",
+      "MCP"
+    ],
+    "category": "MCP",
+    "category_slug": "mcp",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "mcpm-claude-code-docs",
+    "created_date": "2025-12-09"
+  },
+  {
+    "name": "New Turn Claude Hook",
+    "url": "https://github.com/danielrosehill/New-Turn-Claude-Hook",
+    "description": "Tool that determines whether to continue an AI conversation or start fresh for optimal context.",
+    "tags": [
+      "Automation",
+      "Tool"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-03-06",
+    "slug": "new-turn-claude-hook",
+    "created_date": "2025-12-31"
+  },
+  {
+    "name": "No Wheel Inventions",
+    "url": "https://github.com/danielrosehill/No-Wheel-Inventions",
+    "description": "Slash commands encouraging use of existing libraries instead of building custom solutions.",
+    "tags": [
+      "Slash Commands"
+    ],
+    "category": "Slash Commands",
+    "category_slug": "slash-commands",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "no-wheel-inventions",
+    "created_date": "2025-12-27"
+  },
+  {
+    "name": "Non-Code Claude Code",
+    "url": "https://github.com/danielrosehill/Non-Code-Claude-Code",
+    "description": "Showcase of creative Claude Code applications beyond traditional software development.",
+    "tags": [
+      "Agent Workspace",
+      "Documentation"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-03-06",
+    "slug": "non-code-claude-code",
+    "created_date": "2025-10-03"
+  },
+  {
+    "name": "Panel Of Claude",
+    "url": "https://github.com/danielrosehill/Panel-Of-Claude",
+    "description": "Multi-agent panel discussion simulator providing multi-dimensional analysis across expert perspectives.",
+    "tags": [
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "panel-of-claude",
+    "created_date": "2025-11-17"
+  },
+  {
+    "name": "Private And Public Claude MD",
+    "url": "https://github.com/danielrosehill/Private-And-Public-Claude-MD",
+    "description": "Tools for managing public and private CLAUDE.md files with security-focused git configuration.",
+    "tags": [
+      "Configuration"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "private-and-public-claude-md",
+    "created_date": "2025-10-22"
+  },
+  {
+    "name": "ProofMode Unpacker",
+    "url": "https://github.com/danielrosehill/Proofmode-Unpacker",
+    "description": "Utility for managing ProofMode evidence bundles with automated cloud backup and chain of custody preservation.",
+    "tags": [
+      "Automation",
+      "Legal",
+      "Tool"
+    ],
+    "category": "Legal",
+    "category_slug": "legal",
+    "category_group": "Non-Code",
+    "added_date": "2026-03-06",
+    "slug": "proofmode-unpacker",
+    "created_date": "2026-01-26"
+  },
+  {
+    "name": "QA Team Plugin",
+    "url": "https://github.com/danielrosehill/Claude-QA-Team",
+    "description": "Multi-agent quality assurance system with specialized agents for code review and validation.",
+    "tags": [
+      "Multi-Agent",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "qa-team-plugin",
+    "created_date": "2026-01-10"
+  },
+  {
+    "name": "Smithery Claude Code MCP Jumpstarter",
+    "url": "https://github.com/danielrosehill/Smithery-Claude-Code-MCP-Jumpstarter",
+    "description": "Curated collection of 35+ MCP servers with interactive installer across 15+ categories.",
+    "tags": [
+      "MCP"
+    ],
+    "category": "MCP",
+    "category_slug": "mcp",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "smithery-claude-code-mcp-jumpstarter",
+    "created_date": "2025-10-11"
+  },
+  {
+    "name": "Split Context Setup",
+    "url": "https://github.com/danielrosehill/Split-Context-Setup",
+    "description": "Slash command that scaffolds a structured context store with topic-based subfolders.",
+    "tags": [
+      "Configuration",
+      "Slash Commands"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "split-context-setup",
+    "created_date": "2026-02-17"
+  },
+  {
+    "name": "User Manual Plugin",
+    "url": "https://github.com/danielrosehill/Claude-User-Manual",
+    "description": "Plugin for generating personalized user manuals and private documentation for codebases.",
+    "tags": [
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "user-manual-plugin",
+    "created_date": "2025-12-31"
+  }
+]

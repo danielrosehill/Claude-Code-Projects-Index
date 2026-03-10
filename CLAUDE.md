@@ -17,8 +17,31 @@ Many of the repositories in this index are **agent workspaces** — pre-configur
 - **`data/repos.json`**: Programmatic representation of the index (category-based)
 - **`data/tag_rules.json`**: Auto-tagging rules mapping categories and keywords to tags
 - **`data/site_state.json`**: Tracks what has been deployed to the site (repo manifest, change history)
-- **`docs/tagged_repos.json`**: Tag-based repo data consumed by the deployed site (auto-generated)
+- **`docs/`**: Astro build output (deployed via GitHub Pages)
 - **`images/`**: Category banner images
+
+## Astro Site Architecture
+
+The deployed site is built with **Astro** (static site generator). Source files live in `src/`:
+
+- **`src/layouts/BaseLayout.astro`**: Shared HTML shell (head, fonts, CSS import)
+- **`src/components/Nav.astro`**: Shared top navigation (single source of truth)
+- **`src/components/Footer.astro`**: Shared footer
+- **`src/styles/global.css`**: All site styles
+- **`src/data/categoryIcons.ts`**: Shared category icon SVGs
+- **`src/pages/`**: All page templates (Astro generates `docs/` from these)
+  - `index.astro` — Main index with search/filter/pagination
+  - `about/index.astro` — About page
+  - `plugins/index.astro` — Plugins Marketplace page
+  - `ideas/claude-spaces/` — Claude Spaces landing + subpages
+  - `ideas/non-code/` — Non-Code Uses landing + subpages
+  - `repos/[...slug].astro` — Dynamic route generating all repo detail pages from `tagged_repos.json`
+- **`public/`**: Static assets copied to build output (images, JSON data files)
+- **`astro.config.mjs`**: Astro config (outputs to `docs/`)
+
+**To add/edit nav links, footer, or layout**: Edit the component in `src/components/` — changes apply to all 135+ pages automatically.
+
+**To add a new static page**: Create a `.astro` file in `src/pages/` using `BaseLayout`.
 
 ## Modular Category System
 
@@ -56,20 +79,19 @@ categories/
 
 ### Building the Site
 
-After editing category files, run the unified build pipeline:
+After editing category files, run the full build pipeline:
 
 ```bash
-python3 scripts/build_site.py
+npm run build
 ```
 
-This will:
-1. Build README.md from category files
-2. Update `data/repos.json` with category-based data
-3. Generate `docs/tagged_repos.json` with auto-tagged repos for the site
-4. Copy assets to `docs/`
-5. Update `data/site_state.json` with a change manifest (added/removed/modified repos)
+This runs two steps:
+1. **`npm run build:data`** (`python3 scripts/build_site.py`): Builds README.md, repos.json, tagged_repos.json, copies data to `public/`
+2. **`npm run build:site`** (`astro build`): Generates all HTML pages from Astro templates into `docs/`
 
-You can also run just the README build: `python3 scripts/build_site.py`
+For development with hot reload: `npm run dev`
+
+To run just the data pipeline (no site rebuild): `python3 scripts/build_site.py`
 
 ## Workflow for Adding New Repositories
 
@@ -98,7 +120,7 @@ When adding new repositories, consider whether they fit an existing category or 
 
 1. Identify the correct category file in `categories/`
 2. Add the repository entry in alphabetical order within that file
-3. Run `python3 scripts/build_site.py` to rebuild README, site data, and tracking
+3. Run `npm run build` to rebuild README, site data, and Astro site
 
 ### 4. Entry Format
 
@@ -170,7 +192,7 @@ Prompt: "Summarize the purpose and key features of this repository in 1-2 concis
 
 After updating category files:
 
-1. Run `python3 scripts/build_site.py` to regenerate README.md
+1. Run `npm run build` to regenerate README.md and rebuild the Astro site
 2. Review changes to ensure accuracy
 3. Commit with descriptive message: "Add [repository names] to index"
 4. Push changes to GitHub (pre-push hooks will update tracking data)
@@ -183,7 +205,7 @@ After updating category files:
 2. WebFetch the repository README
 3. Identify the correct category file
 4. Insert entry in alphabetical order within that file
-5. Run `python3 scripts/build_site.py`
+5. Run `npm run build`
 6. Commit and push
 
 ### Batch Adding Multiple Repositories
@@ -192,7 +214,7 @@ After updating category files:
 2. WebFetch all repository READMEs in parallel
 3. Categorize all repositories
 4. Edit appropriate category files, maintaining alphabetical order
-5. Run `python3 scripts/build_site.py`
+5. Run `npm run build`
 6. Commit with list of added repositories
 
 ### Reorganizing Categories
@@ -202,7 +224,7 @@ If Daniel requests category restructuring:
 2. Create new category files or rename existing ones (maintain numeric prefixes)
 3. Move repositories between category files as needed
 4. Maintain alphabetical ordering within each category
-5. Run `python3 scripts/build_site.py`
+5. Run `npm run build`
 6. Update this CLAUDE.md if the structure changes significantly
 7. Commit with descriptive reorganization message
 
@@ -211,7 +233,7 @@ If Daniel requests category restructuring:
 1. Create a new file in `categories/` with appropriate numeric prefix
 2. Add category header with title and optional image reference
 3. Add repository entries in alphabetical order
-4. Run `python3 scripts/build_site.py`
+4. Run `npm run build`
 
 ## JSON Data Files
 
@@ -220,7 +242,7 @@ If Daniel requests category restructuring:
 - `data/site_state.json` - Deployment state tracking with change history
 - `data/tag_rules.json` - Configurable rules for auto-tagging repos
 
-To regenerate all data: `python3 scripts/build_site.py`
+To regenerate all data and rebuild the site: `npm run build`
 
 ## Badge System
 
