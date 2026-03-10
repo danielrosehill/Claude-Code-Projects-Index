@@ -475,11 +475,6 @@
           "description": "Curated collection of Claude Code projects and resources organized by category."
         },
         {
-          "name": "Claude Repo Retrofitter",
-          "url": "https://github.com/danielrosehill/Claude-Repo-Retrofitter",
-          "description": "Bulk-retrofit existing repositories with AI agent scaffolding (CLAUDE.md, commands, agents) in batch operations, with interactive or autonomous modes and incremental progress tracking."
-        },
-        {
           "name": "Claude Workspace Setup Helper",
           "url": "https://github.com/danielrosehill/Claude-Workspace-Setup-Helper",
           "description": "Interactive tool for discovering, selecting, and cloning Claude Workspace templates."
@@ -555,6 +550,11 @@
           "name": "Make Agent Friendly",
           "url": "https://github.com/danielrosehill/Make-Agent-Friendly",
           "description": "Plugin that prepares human-developed codebases for agentic development with restructuring and documentation."
+        },
+        {
+          "name": "Repo Retrofitter",
+          "url": "https://github.com/danielrosehill/Claude-Repo-Retrofitter",
+          "description": "Plugin for bulk-retrofitting repositories with AI agent scaffolding (CLAUDE.md, slash commands, subagents, MCP recommendations). Supports scan, interactive, and fully autonomous modes with incremental progress tracking."
         },
         {
           "name": "QA Team Plugin",
@@ -669,9 +669,9 @@
       "Research": 8,
       "Argument and Perspective Exploration": 3,
       "Context and Personalization": 12,
-      "Multi-Agent Tooling": 15,
+      "Multi-Agent Tooling": 14,
       "MCP": 5,
-      "Plugins": 7,
+      "Plugins": 8,
       "Slash Commands": 8,
       "Misc": 8
     }

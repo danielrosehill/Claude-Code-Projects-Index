@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-03-10T00:40:43",
+  "last_built": "2026-03-10T19:32:19",
   "total_repos": 120,
   "total_tags": 24,
   "repo_manifest": {
@@ -81,7 +81,6 @@
     "Claude Purchasing Assistant": "affad2f5b3dc77d282d9c4ed6fde4276",
     "Claude Redaction And Obfuscation": "875a7b59b35daadfb3b2a8aaa429892c",
     "Claude Repo Jumper": "a69e871e4e9bb7cface01faa2aa09a18",
-    "Claude Repo Retrofitter": "bbafd1f8ec86535509a5bb136648a753",
     "Claude Report Parsing Space Template": "11160a974557b3ba335a9215d554500f",
     "Claude Rescue": "f4a99aee1a9ba0c7b4f87bf80e09ff60",
     "Claude Resource List Builder": "2be24616f610b8250e289adafa533c89",
@@ -120,6 +119,7 @@
     "Private And Public Claude MD": "9ce45ac8195ae67866f3328dcbcc0797",
     "ProofMode Unpacker": "ec5244cd36323804ba191f58a3ad573b",
     "QA Team Plugin": "2476ff18d0af6e3baf286fb2b3423f4a",
+    "Repo Retrofitter": "40a04c61b7657ac31571a2b901759683",
     "Smithery Claude Code MCP Jumpstarter": "01f067df002274e3998e42b9d019b8f5",
     "Split Context Setup": "a0909ec92d0f536e3dd410a18eb7329a",
     "User Manual Plugin": "c207fffffd078c9d9d6a5538b14e56d4"
@@ -1007,6 +1007,24 @@
             "Linux Desktop ClaudeMD Seeder",
             "New Turn Claude Hook",
             "Non-Code Claude Code"
+          ]
+        }
+      ],
+      "total_repos": 120
+    },
+    {
+      "date": "2026-03-10T19:32:19",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Repo Retrofitter"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Claude Repo Retrofitter"
           ]
         }
       ],
