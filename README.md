@@ -760,13 +760,6 @@ Curated collection of Claude Code projects and resources organized by category.
 
 ## Workspace Setup & Management
 
-### Claude Repo Retrofitter
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Retrofitter) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
-
-Bulk-retrofit existing repositories with AI agent scaffolding (CLAUDE.md, commands, agents) in batch operations, with interactive or autonomous modes and incremental progress tracking.
-
----
-
 ### Claude Workspace Setup Helper
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Workspace-Setup-Helper) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
@@ -869,6 +862,13 @@ Plugin for cleaning up repositories by removing Claude-related artifacts and con
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Make-Agent-Friendly) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
 Plugin that prepares human-developed codebases for agentic development with restructuring and documentation.
+
+---
+
+### Repo Retrofitter
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Retrofitter) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Plugin for bulk-retrofitting repositories with AI agent scaffolding (CLAUDE.md, slash commands, subagents, MCP recommendations). Supports scan, interactive, and fully autonomous modes with incremental progress tracking.
 
 ---
 

@@ -39,6 +39,13 @@ Plugin that prepares human-developed codebases for agentic development with rest
 
 ---
 
+### Repo Retrofitter
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Retrofitter) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Plugin for bulk-retrofitting repositories with AI agent scaffolding (CLAUDE.md, slash commands, subagents, MCP recommendations). Supports scan, interactive, and fully autonomous modes with incremental progress tracking.
+
+---
+
 ### QA Team Plugin
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-QA-Team) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
