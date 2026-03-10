@@ -1202,22 +1202,6 @@
     "created_date": "2026-01-01"
   },
   {
-    "name": "Claude Repo Retrofitter",
-    "url": "https://github.com/danielrosehill/Claude-Repo-Retrofitter",
-    "description": "Bulk-retrofit existing repositories with AI agent scaffolding (CLAUDE.md, commands, agents) in batch operations, with interactive or autonomous modes and incremental progress tracking.",
-    "tags": [
-      "Automation",
-      "Multi-Agent",
-      "Tool"
-    ],
-    "category": "Multi-Agent Tooling",
-    "category_slug": "multi-agent",
-    "category_group": "Technical",
-    "added_date": "2026-03-09",
-    "slug": "claude-repo-retrofitter",
-    "created_date": "2026-03-09"
-  },
-  {
     "name": "Claude Report Parsing Space Template",
     "url": "https://github.com/danielrosehill/Claude-Report-Parsing-Space-Template",
     "description": "Template for critical analysis of reports with slash commands for triage, argumentation, and source extraction.",
@@ -1802,6 +1786,22 @@
     "added_date": "2026-03-06",
     "slug": "qa-team-plugin",
     "created_date": "2026-01-10"
+  },
+  {
+    "name": "Repo Retrofitter",
+    "url": "https://github.com/danielrosehill/Claude-Repo-Retrofitter",
+    "description": "Plugin for bulk-retrofitting repositories with AI agent scaffolding (CLAUDE.md, slash commands, subagents, MCP recommendations). Supports scan, interactive, and fully autonomous modes with incremental progress tracking.",
+    "tags": [
+      "Multi-Agent",
+      "Plugin",
+      "Slash Commands"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-03-10",
+    "slug": "repo-retrofitter",
+    "created_date": "2026-03-10"
   },
   {
     "name": "Smithery Claude Code MCP Jumpstarter",
