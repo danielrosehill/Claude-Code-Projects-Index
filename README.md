@@ -767,6 +767,13 @@ Interactive tool for discovering, selecting, and cloning Claude Workspace templa
 
 ---
 
+### Claude OS Playbook
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-OS-Playbook) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+A GitHub template for provisioning development environments using Claude Code slash commands and subagents instead of Ansible. Describe your desired environment in a YAML profile, then let Claude Code provision it conversationally.
+
+---
+
 ## Documentation & Notes
 
 ### Claude Code Linux Notes
