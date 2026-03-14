@@ -467,6 +467,13 @@ Template for planning computer hardware upgrades with profiling, recommendations
 
 ---
 
+### Claude Keyboard Scanner
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Keyboard-Scanner) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Agent workspace for profiling keyboards, mapping keycodes, and discovering underused keys that can be repurposed for shortcuts and macros on Linux.
+
+---
+
 # Marketing
 
 Workspaces for SEO, web analytics, PR monitoring, and media tracking.
