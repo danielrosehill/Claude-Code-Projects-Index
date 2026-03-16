@@ -510,6 +510,13 @@ Workspace template for SEO analytics with data cleaning, analysis, and reporting
 
 ---
 
+### Claude Red Team Buyer
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Red-Team-Buyer) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Agent template that evaluates websites from a potential buyer's perspective, performing red team analysis of UI/UX, trust signals, conversion flow, and friction points, then generating a scored PDF report.
+
+---
+
 # Research
 
 ![Research](images/research.png)
