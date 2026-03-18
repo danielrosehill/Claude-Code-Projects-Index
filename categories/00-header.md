@@ -6,9 +6,9 @@
 
 ---
 
-# Claude Agent Blueprints
+# Claude Code Projects Index
 
-A curated collection of agent workspace blueprints built with Claude Code, organized by use case and category.
+A curated collection of Claude Code projects, agent workspace blueprints, and related resources, organized by use case and category.
 
 Most patterns, templates, and models are adaptable to other agentic AI CLIs and frameworks.
 
