@@ -209,6 +209,45 @@ Workspace orchestrating Mobile Verification Toolkit (MVT) spyware scans on Andro
 
 ---
 
+## Linux - KDE Plasma
+
+Projects specifically targeting KDE Plasma desktop integration and Linux desktop workflows with Claude Code.
+
+### Claude Dolphin & Konsole Actions
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Dolphin-Konsole-Actions)
+
+KDE Dolphin right-click context menu actions (service menus) for launching Claude Code in various Konsole window layouts, including single terminal, split panes, and multi-instance grids.
+
+---
+
+### Claude Linux Desktop Manager
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Linux-Desktop-Manager) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+System administration interface for Linux desktop management with extensive slash commands.
+
+---
+
+### Claude Bug Catcher
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Bug-Catcher)
+
+Hotkey-triggered utility that launches Claude Code with relevant logs for real-time Linux debugging.
+
+---
+
+### Claude System Recovery Mode
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-System-Recovery-Mode)
+
+Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflows.
+
+---
+
+### Claude OS Sync Agent
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-OS-Sync-Agent) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Synchronization tool for maintaining consistency between desktop and laptop configurations.
+
+---
+
 # Productivity & Planning
 
 Workspaces for decision-making, personal planning, file management, and general-purpose productivity workflows.
