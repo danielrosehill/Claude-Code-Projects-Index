@@ -728,6 +728,13 @@ Tools for managing public and private CLAUDE.md files with security-focused git 
 
 ---
 
+### Split CLAUDE.md Pattern
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Split-Claude-MD-Pattern) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
+
+Template for structuring `~/.claude/CLAUDE.md` as a lean entrypoint that references detailed context files in a `context/` directory, reducing context window waste.
+
+---
+
 ### Split Context Setup
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Split-Context-Setup) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
