@@ -11,6 +11,13 @@ Generator for creating MCP server configuration commands for Claude Code.
 
 ---
 
+### How-To-MCP
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/How-To-MCP)
+
+Guide for instructing AI agents on how to provision and manage MCP server connections according to user-specific preferences, with a tiered decision matrix.
+
+---
+
 ### Claude Code MCP List
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-MCP-List)
 
