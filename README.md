@@ -700,6 +700,13 @@ Template that transforms unstructured project descriptions into organized specif
 
 ---
 
+### ClaudeMD Turnstile
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/ClaudeMD-Turnstile)
+
+A turnstile pattern for CLAUDE.md that routes agents to the appropriate nested context file based on their purpose, avoiding unnecessary context ingestion in open-sourced repos.
+
+---
+
 ### CONTEXT.md
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/CONTEXT.md) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
 
