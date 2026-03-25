@@ -1053,6 +1053,13 @@ Feature requests for improving Claude Code's context handling capabilities.
 
 ---
 
+### Claude Code Notes
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Notes)
+
+Casual cliff notes and tips for using Claude Code effectively, documenting workarounds, discoveries, and patterns as the tool evolves.
+
+---
+
 ### Claude Interview
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Interview-062325)
 
