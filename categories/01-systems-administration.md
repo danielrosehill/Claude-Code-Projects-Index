@@ -4,6 +4,8 @@
 
 Projects involving using Claude for local or remote systems administration as distinct from development-related projects.
 
+> **See also:** The **[Claude Code Sysadmin Workspaces Index](https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index)** is a dedicated sub-index for all sysadmin workspace templates.
+
 ### Bash Alias Manager Claude
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Bash-Alias-Manager-Claude)
 
