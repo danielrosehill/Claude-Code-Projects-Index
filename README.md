@@ -363,6 +363,13 @@ Template for tracking therapy sessions, mental health goals, and therapeutic pla
 
 ---
 
+### I'm Not Okay
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Im-Not-Okay) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Non-Code](https://img.shields.io/badge/Non--Code-teal?style=flat-square)
+
+Voice memo processing template that transcribes, edits, and organises personal reflections into structured problem summaries — for self-clarity or sharing with a therapist or support person.
+
+---
+
 # Communications & Writing
 
 Workspaces and templates for content creation, blog management, writing workflows, and communications strategy.
