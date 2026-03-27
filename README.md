@@ -507,6 +507,13 @@ Writing workspace with sequential versioning, editing agents, and headless CMS p
 
 ---
 
+### Claude Spam Warrior
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Spam-Warrior) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Workspace template for analysing deceptive unsolicited email that evades conventional spam filters — semantic spam analysis, tracking pixel detection, and sender blocklist management.
+
+---
+
 ### Declaude
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Declaude) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
