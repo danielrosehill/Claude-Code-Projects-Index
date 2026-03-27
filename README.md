@@ -193,6 +193,13 @@ Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflo
 
 ---
 
+### Ubuntu VM Claude Manager
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/ubuntu-vm-claude-manager) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Claude Code configurations and workspace setup for Ubuntu virtual machines.
+
+---
+
 ## Android
 
 ### Claude ADB Workspace Template
@@ -248,6 +255,34 @@ Synchronization tool for maintaining consistency between desktop and laptop conf
 
 ---
 
+### KDE Claude Runner
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/KDE-Claude-Runner)
+
+WIP/plan for running Claude Code within KDE Plasma desktop workflows.
+
+---
+
+### Claude Konsole Launcher
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Konsole-Launcher)
+
+Launch utility (WIP) for using Claude Code with Konsole in KDE Plasma.
+
+---
+
+### Claude Konsole Shortcut
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/claude-konsole-shortcut)
+
+Shortcut configuration for launching Claude Code from Konsole.
+
+---
+
+### Dolphin Claude Code
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/dolphin-claude-code)
+
+Dolphin file manager integration for launching Claude Code sessions.
+
+---
+
 # Productivity & Planning
 
 Workspaces for decision-making, personal planning, file management, and general-purpose productivity workflows.
@@ -291,6 +326,62 @@ Workspace for tracking habits, skill acquisition, and self-improvement goals wit
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Preparedness-Planner) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
 
 Workspace generating personalized preparedness strategies across physical safety, financial, and medical domains, with intake interviews and offline-ready action plans.
+
+---
+
+### Claude Time Planner
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Time-Planner) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Workspace for time management and scheduling with Claude Code.
+
+---
+
+### Claude Space Planner
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Space-Planner) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Workspace for space and environment planning with Claude Code.
+
+---
+
+### Claude Life Management Repo
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Life-Management-Repo) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Centralized repository for orchestrating Claude Code across multiple areas of focus.
+
+---
+
+### Claude Career Planner
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Career-Planner) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Workspace for career development and planning with Claude Code.
+
+---
+
+### Claude Side Hustle Ideator
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Side-Hustle-Ideator) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Workspace for brainstorming and evaluating side hustle ideas.
+
+---
+
+### Claude Geolocation Helper
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Geolocation-Helper) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
+
+Claude Code pattern for assisting with geolocation tasks.
+
+---
+
+### Claude Hebrew Planner
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Hebrew-Planner) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Planning workspace for learning Hebrew with structured lessons and progress tracking.
+
+---
+
+### Parenting Planner Claude Space
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Parenting-Planner-Claude-Space) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Workspace for parenting planning and family organization.
 
 ---
 
@@ -531,6 +622,13 @@ Agent workspace for profiling keyboards, mapping keycodes, and discovering under
 
 ---
 
+### Claude Code Macropad
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Macropad)
+
+Macropad configuration and setup for streamlining Claude Code workflows with dedicated hardware keys.
+
+---
+
 # Marketing
 
 Workspaces for SEO, web analytics, PR monitoring, and media tracking.
@@ -636,6 +734,27 @@ Template for conducting public, transparent AI-assisted research with Claude Cod
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Stack-Research-Workspace) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
 Environment for evaluating software solutions with specialized agents for technology comparisons.
+
+---
+
+### Claude Research Workspace General Template
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Research-Workspace-General-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Template for iterative AI research using Claude Code with a folder-based context/prompt/output workflow and compaction loop.
+
+---
+
+### Claude Deep Research My Template Model
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Deep-Research-My-Template-Model) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
+
+Personal template model for deep research workflows with Claude Code.
+
+---
+
+### Detective Claude
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Detective-Claude) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Investigation-focused workspace using Claude Code for detective-style research and analysis.
 
 ---
 
@@ -767,6 +886,41 @@ Template for structuring `~/.claude/CLAUDE.md` as a lean entrypoint that referen
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Split-Context-Setup) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
 Slash command that scaffolds a structured context store with topic-based subfolders.
+
+---
+
+### claude-config
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/claude-config)
+
+Claude Code configuration backup including agents, commands, and settings.
+
+---
+
+### claude-md
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/claude-md)
+
+CLAUDE.md reference and configuration patterns.
+
+---
+
+### laptop-claude
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/laptop-claude)
+
+Home-level CLAUDE.md for syncing Claude Code configuration across machines.
+
+---
+
+### Claude Repo Creator
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Creator)
+
+A Claude Code workspace/wrapper for creating repositories optimised for Claude Code.
+
+---
+
+### My Claude Workspace Generator
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/My-Claude-Workspace-Generator)
+
+Workspace generator for creating new Claude Code workspace templates.
 
 ---
 
@@ -930,6 +1084,34 @@ Curated collection of 35+ MCP servers with interactive installer across 15+ cate
 
 ---
 
+### Gmail MCP Claude Code
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/gmail-mcp-claude-code)
+
+Gmail MCP configuration for Claude Code enabling email sending and reading via Gmail API.
+
+---
+
+### Claude Hannah MCP
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Hannah-MCP)
+
+MCP server configuration for Claude Code.
+
+---
+
+### Claude MCP Migration
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-MCP-Migration)
+
+Utilities for migrating MCP server configurations in Claude Code.
+
+---
+
+### Claude Connectors
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Connectors-0326)
+
+Claude Code connector configurations and integrations.
+
+---
+
 # Plugins
 
 ![Plugins](images/plugins.png)
@@ -975,6 +1157,13 @@ Plugin that prepares human-developed codebases for agentic development with rest
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Retrofitter) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Plugin for bulk-retrofitting repositories with AI agent scaffolding (CLAUDE.md, slash commands, subagents, MCP recommendations). Supports scan, interactive, and fully autonomous modes with incremental progress tracking.
+
+---
+
+### Claude Plugins Editor
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Plugins-Editor)
+
+Editor utility for managing and modifying Claude Code plugins.
 
 ---
 
@@ -1044,6 +1233,13 @@ Slash command that condenses bloated CLAUDE.md files to essentials and organizes
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Slash-Commands) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
 General-purpose slash command library for various Claude Code workflows.
+
+---
+
+### Claude Slash Commands Home
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Slash-Commands-Home) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Home-level slash commands for use across all Claude Code sessions.
 
 ---
 
@@ -1120,5 +1316,33 @@ Tool that determines whether to continue an AI conversation or start fresh for o
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Non-Code-Claude-Code)
 
 Showcase of creative Claude Code applications beyond traditional software development.
+
+---
+
+### Claude Code Account Jockey
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Account-Jockey)
+
+Utility for managing Claude Code account switching and configuration.
+
+---
+
+### Claude Email Env
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Email-Env)
+
+Claude Code environment configuration for email workflows.
+
+---
+
+### Claude To Claude
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-To-Claude)
+
+Pattern for passing context between Claude Code sessions.
+
+---
+
+### claude-code-launcher
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/claude-code-launcher)
+
+Launcher utility for starting Claude Code sessions.
 
 ---
