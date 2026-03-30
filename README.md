@@ -521,6 +521,13 @@ Personalized text rewriting rules that consolidate into a slash command for refi
 
 ---
 
+### An Ode To Claude
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/An-Ode-To-Claude)
+
+Blog post developed iteratively using Claude Code, with versioned drafts, diffs, and supporting context.
+
+---
+
 # Financial Planning
 
 Workspaces and templates for budgeting and personal finance management.
