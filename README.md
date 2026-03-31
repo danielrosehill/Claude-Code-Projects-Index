@@ -315,6 +315,13 @@ Template for managing and organizing Google Drive via rclone with configurable r
 
 ---
 
+### Claude FS Organiser
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-FS-Organiser) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
+
+Agent workspace for scanning, cleaning, and organising the local filesystem with guardrails, clutter scoring, cleanup logging, and date-based folder conventions.
+
+---
+
 ### Claude Personal Development Workspace
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Personal-Development-Workspace) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
 
