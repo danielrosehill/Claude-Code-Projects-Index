@@ -650,6 +650,13 @@ Macropad configuration and setup for streamlining Claude Code workflows with ded
 
 ---
 
+### Our Smart Home
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Our-Smart-Home) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Agent-readable smart home wiki template with interactive slash commands for documenting LAN maps, services, MCP configurations, devices, and household rules — enabling instant AI agent onboarding.
+
+---
+
 # Marketing
 
 Workspaces for SEO, web analytics, PR monitoring, and media tracking.
