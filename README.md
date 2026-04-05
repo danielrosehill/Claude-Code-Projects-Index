@@ -1167,6 +1167,13 @@ Centralized marketplace for discovering and installing Claude Code plugins via s
 
 ---
 
+### Claude Handover
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Handover)
+
+Plugin for AI agent session handover — creates structured handover documents so the next agent can seamlessly resume interrupted work.
+
+---
+
 ### Claude Janitor
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Janitor)
 
