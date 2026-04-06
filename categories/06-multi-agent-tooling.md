@@ -103,9 +103,3 @@ Personal documentation of workflows and tips for using Claude Code on Ubuntu wit
 
 ---
 
-### Claude Code Notebook
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Notebook) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
-
-Minimal reference repository for documenting Claude Code usage patterns and workflows.
-
----

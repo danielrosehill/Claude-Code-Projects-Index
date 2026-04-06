@@ -483,11 +483,6 @@
           "name": "Claude Code Linux Notes",
           "url": "https://github.com/danielrosehill/Claude-Code-Linux-Notes",
           "description": "Personal documentation of workflows and tips for using Claude Code on Ubuntu with KDE Plasma."
-        },
-        {
-          "name": "Claude Code Notebook",
-          "url": "https://github.com/danielrosehill/Claude-Code-Notebook",
-          "description": "Minimal reference repository for documenting Claude Code usage patterns and workflows."
         }
       ]
     },

@@ -1064,11 +1064,6 @@ Personal documentation of workflows and tips for using Claude Code on Ubuntu wit
 
 ---
 
-### Claude Code Notebook
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Notebook) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
-
-Minimal reference repository for documenting Claude Code usage patterns and workflows.
-
 ---
 
 # MCP
@@ -1308,7 +1303,7 @@ Feature requests for improving Claude Code's context handling capabilities.
 ### Claude Code Notes
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Notes)
 
-Casual cliff notes and tips for using Claude Code effectively, documenting workarounds, discoveries, and patterns as the tool evolves.
+Casual cliff notes, tips, patterns, and reference material for using Claude Code effectively — covers workarounds, discoveries, MCP configs, CWD/config-file behaviour, and more.
 
 ---
 
