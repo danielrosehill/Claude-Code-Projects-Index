@@ -94,6 +94,13 @@ Interactive tool for discovering, selecting, and cloning Claude Workspace templa
 
 ---
 
+### General Agent Workspace Template
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/General-Agent-Workspace-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Folder-based human/agent collaboration template with a defined inputs/context/outputs/management contract, slash commands, and a STATUS.md snapshot for stable multi-session workflows.
+
+---
+
 ## Documentation & Notes
 
 ### Claude Code Linux Notes
