@@ -826,6 +826,12 @@ Personal documentation of workflows and tips for using Claude Code on Ubuntu wit
 
 ---
 
+### Claude Israel
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Israel)
+
+Index of people and projects building with Claude (including Claude Code) in Israel.
+
+---
 
 # MCP
 
