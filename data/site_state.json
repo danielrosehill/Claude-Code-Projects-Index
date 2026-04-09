@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-03-10T19:32:19",
-  "total_repos": 120,
+  "last_built": "2026-04-09T15:45:50",
+  "total_repos": 123,
   "total_tags": 24,
   "repo_manifest": {
     "Agent Junction": "4251099ca55c99b1f616c4ca81e704cd",
@@ -49,6 +49,7 @@
     "Claude Diary Planner Template": "b5961f4424b976c88d754f6c336ac6ed",
     "Claude Docker Manager": "f4a12b15246179948a4ef016a384cf37",
     "Claude Document This": "330c1872b40456ba9521fc200805ee4b",
+    "Claude Dolphin & Konsole Actions": "ef4d85c9b55e402f7ec74554f5307e6c",
     "Claude Dork": "691d589505cd5d6157d5005bab4d94b8",
     "Claude Evidence Assistant": "2a6f2eaf65cf19b7693da9b443c60da2",
     "Claude File Organiser Super Slash": "7178de3040bbd371b0934d0d03b390e7",
@@ -93,9 +94,10 @@
     "Claude Stack Research Workspace": "aa536c8442d7f2759e184116817180a3",
     "Claude Sub-Agent Network": "84729c6a4fcd48dfeff2cf62af443c7b",
     "Claude Synology Manager": "1f0ce151a1b4c732a5354eb6220584be",
-    "Claude System Recovery Mode": "f2bcb92a324bbf78d67b66077420ddf8",
+    "Claude System Recovery Mode": "2d2f70f4ee3175bba7b6b5fb9ddee122",
     "Claude Task Manager": "59f506d978b00d9ae0c77f3e355243a4",
     "Claude Tech Research Team": "70a02be89152b5619015bf6be4b9667a",
+    "Claude Templatizer": "d39c92ddb369125ffdeba163941bbcff",
     "Claude Therapy Tracker": "3373f94c16eec451498e16da60ff477a",
     "Claude Think Tank": "3119d190625aa9fd28c39470daaf03f7",
     "Claude Visual Communications Space": "ed03440b79cf006c7c0bb506e0d33565",
@@ -103,11 +105,13 @@
     "Claude Website Update Sender": "793e804f0c8e88ea955b210847488c69",
     "Claude Workspace Setup Helper": "baaa35d22a7e7635e1ac0aefb458d705",
     "Claude Writing Space Template": "34a45b3e3bbe1393aa4c5d3310485afb",
+    "ClaudeMD Turnstile": "8763a007153a20d440879100ce69635a",
     "CONTEXT.md": "ce976b6647ab119eaa221a75c948adfb",
     "Cool Claude Code Stuff": "2f55aa29b1e2494720692bbabf23be78",
     "Declaude": "d65e21c47285dc215b1898443438bb31",
     "Ecosystem Mapper": "c9127779a1524a7454cd4cac4091c88b",
     "Home Folder Claude MD": "b73e0645ff039756049c73f1e9c5a55a",
+    "How-To-MCP": "5e0af775c5cd9a48e030f873f62dfcbf",
     "Linux Desktop ClaudeMD Seeder": "1027aa4623a63f0aee7a92e8a94d82fe",
     "Make Agent Friendly": "f15936796009cb439b20ffd48bd9a0f7",
     "MCPM Claude Code Docs": "fa5fab7f544ebc1eadb07ea4723e0010",
@@ -1022,6 +1026,27 @@
         }
       ],
       "total_repos": 120
+    },
+    {
+      "date": "2026-04-09T15:45:50",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Claude Dolphin & Konsole Actions",
+            "Claude Templatizer",
+            "ClaudeMD Turnstile",
+            "How-To-MCP"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Claude System Recovery Mode"
+          ]
+        }
+      ],
+      "total_repos": 123
     }
   ]
 }

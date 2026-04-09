@@ -444,22 +444,6 @@
     "created_date": "2025-10-28"
   },
   {
-    "name": "Claude Code Notebook",
-    "url": "https://github.com/danielrosehill/Claude-Code-Notebook",
-    "description": "Minimal reference repository for documenting Claude Code usage patterns and workflows.",
-    "tags": [
-      "Automation",
-      "Documentation",
-      "Multi-Agent"
-    ],
-    "category": "Multi-Agent Tooling",
-    "category_slug": "multi-agent",
-    "category_group": "Technical",
-    "added_date": "2026-03-06",
-    "slug": "claude-code-notebook",
-    "created_date": "2025-10-30"
-  },
-  {
     "name": "Claude Code Plugin",
     "url": "https://github.com/danielrosehill/claude-code-plugin",
     "description": "Meta-plugin for managing Claude Code configuration, slash commands, and agent development.",
@@ -721,6 +705,21 @@
     "added_date": "2026-03-06",
     "slug": "claude-document-this",
     "created_date": "2025-11-16"
+  },
+  {
+    "name": "Claude Dolphin & Konsole Actions",
+    "url": "https://github.com/danielrosehill/Claude-Dolphin-Konsole-Actions",
+    "description": "KDE Dolphin right-click context menu actions (service menus) for launching Claude Code in various Konsole window layouts, including single terminal, split panes, and multi-instance grids.",
+    "tags": [
+      "Sysadmin",
+      "Tool"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-04-09",
+    "slug": "claude-dolphin-konsole-actions",
+    "created_date": "2026-04-09"
   },
   {
     "name": "Claude Dork",
@@ -1407,7 +1406,7 @@
   {
     "name": "Claude System Recovery Mode",
     "url": "https://github.com/danielrosehill/Claude-System-Recovery-Mode",
-    "description": "Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflows.",
+    "description": "Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflows. Projects specifically targeting KDE Plasma desktop integration and Linux desktop workflows with Claude Code.",
     "tags": [
       "Automation",
       "Sysadmin",
@@ -1450,6 +1449,21 @@
     "added_date": "2026-03-06",
     "slug": "claude-tech-research-team",
     "created_date": "2025-10-31"
+  },
+  {
+    "name": "Claude Templatizer",
+    "url": "https://github.com/danielrosehill/Claude-Templatizer",
+    "description": "Plugin that turns a set of existing Claude Code workspace repos into a reusable GitHub template by extracting their commonalities and publishing as a template repository.",
+    "tags": [
+      "Agent Workspace",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-09",
+    "slug": "claude-templatizer",
+    "created_date": "2026-04-09"
   },
   {
     "name": "Claude Therapy Tracker",
@@ -1565,6 +1579,20 @@
     "created_date": "2025-11-12"
   },
   {
+    "name": "ClaudeMD Turnstile",
+    "url": "https://github.com/danielrosehill/ClaudeMD-Turnstile",
+    "description": "A turnstile pattern for CLAUDE.md that routes agents to the appropriate nested context file based on their purpose, avoiding unnecessary context ingestion in open-sourced repos.",
+    "tags": [
+      "Configuration"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-04-09",
+    "slug": "claudemd-turnstile",
+    "created_date": "2026-04-09"
+  },
+  {
     "name": "CONTEXT.md",
     "url": "https://github.com/danielrosehill/CONTEXT.md",
     "description": "Workflow methodology for separating human-authored context from structured AI agent briefings.",
@@ -1638,6 +1666,22 @@
     "added_date": "2026-03-06",
     "slug": "home-folder-claude-md",
     "created_date": "2025-10-23"
+  },
+  {
+    "name": "How-To-MCP",
+    "url": "https://github.com/danielrosehill/How-To-MCP",
+    "description": "Guide for instructing AI agents on how to provision and manage MCP server connections according to user-specific preferences, with a tiered decision matrix.",
+    "tags": [
+      "Documentation",
+      "MCP",
+      "Tool"
+    ],
+    "category": "MCP",
+    "category_slug": "mcp",
+    "category_group": "Technical",
+    "added_date": "2026-04-09",
+    "slug": "how-to-mcp",
+    "created_date": "2026-04-09"
   },
   {
     "name": "Linux Desktop ClaudeMD Seeder",

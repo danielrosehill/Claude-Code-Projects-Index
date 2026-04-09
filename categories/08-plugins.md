@@ -25,6 +25,13 @@ Centralized marketplace for discovering and installing Claude Code plugins via s
 
 ---
 
+### Claude Templatizer
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Templatizer)
+
+Plugin that turns a set of existing Claude Code workspace repos into a reusable GitHub template by extracting their commonalities and publishing as a template repository.
+
+---
+
 ### Claude Janitor
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Janitor)
 
