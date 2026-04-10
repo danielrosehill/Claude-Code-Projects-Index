@@ -4,6 +4,22 @@
 
 All plugins registered in the [danielrosehill marketplace](https://github.com/danielrosehill/Claude-Code-Plugins). Install any of these with `claude plugins install <name>@danielrosehill`.
 
+## Plugins with Associated Templates
+
+Some plugins are launchers that spawn workspace repos from a template. The plugin provides the skill/command; the template defines the workspace structure.
+
+| Plugin | Template Repo | Relationship |
+|--------|--------------|--------------|
+| [stack-search](https://github.com/danielrosehill/Stack-Search-Plugin) | [Claude-Stack-Research-Workspace](https://github.com/danielrosehill/Claude-Stack-Research-Workspace) | Plugin clones template, runs structured intake interview, creates GitHub repo |
+| [brainstorm-solutions](https://github.com/danielrosehill/brainstorm-solutions-plugin) | [Claude-Research-Workspace-General-Template](https://github.com/danielrosehill/Claude-Research-Workspace-General-Template) | Plugin spawns a research workspace from the general research template |
+| [home-budget-helper](https://github.com/danielrosehill/home-budget-helper-plugin) | [Claude-Budget-Workspace-Template](https://github.com/danielrosehill/Claude-Budget-Workspace-Template) | Plugin provides budget agents/commands; template defines workspace structure |
+| [diary-planner](https://github.com/danielrosehill/diary-planner-plugin) | [Claude-Diary-Planner-Template](https://github.com/danielrosehill/Claude-Diary-Planner-Template) | Plugin provides planning agents/commands; template defines workspace structure |
+| [home-assistant-manager](https://github.com/danielrosehill/home-assistant-manager-plugin) | [Claude-Home-Assistant-Manager-Template](https://github.com/danielrosehill/Claude-Home-Assistant-Manager-Template) | Plugin provides HA management commands; template defines workspace structure |
+| [proxmox-manager](https://github.com/danielrosehill/proxmox-manager-plugin) | [Claude-Proxmox-Manager-Template](https://github.com/danielrosehill/Claude-Proxmox-Manager-Template) | Plugin provides Proxmox commands; template defines workspace structure |
+| [new-repo-from-template](https://github.com/danielrosehill/New-Repo-From-Template-Plugin) | [Repo-Starters-And-Templates-Index](https://github.com/danielrosehill/Repo-Starters-And-Templates-Index) | Plugin fetches the template catalog live and clones any listed template |
+
+---
+
 ## Marketplace Infrastructure
 
 ### Claude Code Marketplace Hub
