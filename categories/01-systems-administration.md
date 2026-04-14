@@ -46,59 +46,10 @@ Template for managing individual remote machines via SSH with structured system 
 
 ---
 
-### Claude Code Security Auditor
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Security-Auditor) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Multi-machine security auditing workspace covering antivirus, rootkits, permissions, and network exposure.
-
----
-
 ### Claude Conda Manager
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Conda-Manager) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
 
 Workspace for managing Conda environments on Ubuntu workstations with AMD ROCm hardware.
-
----
-
-### Claude Docker Manager
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Docker-Manager) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Workspace template for Docker environment management with slash commands and diagnostic agents.
-
----
-
-### Claude Home Assistant Manager Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Home-Assistant-Manager-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Template for managing Home Assistant OS with 20+ slash commands and 5 specialized agents.
-
----
-
-### Claude Linux Desktop Manager
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Linux-Desktop-Manager) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-System administration interface for Linux desktop management with extensive slash commands.
-
----
-
-### Claude Linux Server Manager
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Linux-Server-Manager) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Ubuntu server management template with 38 slash commands and 10 agents for routine administration.
-
----
-
-### Claude OS Sync Agent
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-OS-Sync-Agent) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Synchronization tool for maintaining consistency between desktop and laptop configurations.
-
----
-
-### Claude Proxmox Manager Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Proxmox-Manager-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Proxmox server management template with 38 slash commands and 10 agents for low-spec hardware.
 
 ---
 
@@ -113,20 +64,6 @@ Concept for deploying Claude Code into recovery shell environments for AI-assist
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Server-Manager-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
 
 Server administration template with 38 slash commands and 10 agents optimized for Docker deployments.
-
----
-
-### Claude Server Mgmt Template SBCs
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Server-Mgmt-Template-SBCs) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Server management template adapted for Single Board Computers and resource-constrained hardware.
-
----
-
-### Claude Synology Manager
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Synology-Manager) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Template for managing Synology NAS devices through SSH and MCP with persistent context storage.
 
 ---
 
@@ -148,13 +85,6 @@ KDE Dolphin right-click context menu actions (service menus) for launching Claud
 
 ---
 
-### Claude Linux Desktop Manager
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Linux-Desktop-Manager) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-System administration interface for Linux desktop management with extensive slash commands.
-
----
-
 ### Claude Bug Catcher
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Bug-Catcher)
 
@@ -169,21 +99,7 @@ Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflo
 
 ---
 
-### Claude OS Sync Agent
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-OS-Sync-Agent) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Synchronization tool for maintaining consistency between desktop and laptop configurations.
-
----
-
 ## Android
-
-### Claude ADB Workspace Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-ADB-Workspace-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Template for managing Android devices through ADB with device profiling and package management.
-
----
 
 ### Claude MVT Workspace
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-MVT-Workspace) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)

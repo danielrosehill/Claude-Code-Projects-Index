@@ -3,7 +3,7 @@
     "title": "Claude Code Repos Index",
     "description": "Curated index of Claude Code-related resources and projects",
     "master_index_url": "https://github.com/danielrosehill/Github-Master-Index",
-    "generated_date": "2026-04-09"
+    "generated_date": "2026-04-14"
   },
   "categories": [
     {
@@ -36,44 +36,9 @@
           "description": "Template for managing individual remote machines via SSH with structured system profiles and logs."
         },
         {
-          "name": "Claude Code Security Auditor",
-          "url": "https://github.com/danielrosehill/Claude-Code-Security-Auditor",
-          "description": "Multi-machine security auditing workspace covering antivirus, rootkits, permissions, and network exposure."
-        },
-        {
           "name": "Claude Conda Manager",
           "url": "https://github.com/danielrosehill/Claude-Conda-Manager",
           "description": "Workspace for managing Conda environments on Ubuntu workstations with AMD ROCm hardware."
-        },
-        {
-          "name": "Claude Docker Manager",
-          "url": "https://github.com/danielrosehill/Claude-Docker-Manager",
-          "description": "Workspace template for Docker environment management with slash commands and diagnostic agents."
-        },
-        {
-          "name": "Claude Home Assistant Manager Template",
-          "url": "https://github.com/danielrosehill/Claude-Home-Assistant-Manager-Template",
-          "description": "Template for managing Home Assistant OS with 20+ slash commands and 5 specialized agents."
-        },
-        {
-          "name": "Claude Linux Desktop Manager",
-          "url": "https://github.com/danielrosehill/Claude-Linux-Desktop-Manager",
-          "description": "System administration interface for Linux desktop management with extensive slash commands."
-        },
-        {
-          "name": "Claude Linux Server Manager",
-          "url": "https://github.com/danielrosehill/Claude-Linux-Server-Manager",
-          "description": "Ubuntu server management template with 38 slash commands and 10 agents for routine administration."
-        },
-        {
-          "name": "Claude OS Sync Agent",
-          "url": "https://github.com/danielrosehill/Claude-OS-Sync-Agent",
-          "description": "Synchronization tool for maintaining consistency between desktop and laptop configurations."
-        },
-        {
-          "name": "Claude Proxmox Manager Template",
-          "url": "https://github.com/danielrosehill/Claude-Proxmox-Manager-Template",
-          "description": "Proxmox server management template with 38 slash commands and 10 agents for low-spec hardware."
         },
         {
           "name": "Claude Rescue",
@@ -86,16 +51,6 @@
           "description": "Server administration template with 38 slash commands and 10 agents optimized for Docker deployments."
         },
         {
-          "name": "Claude Server Mgmt Template SBCs",
-          "url": "https://github.com/danielrosehill/Claude-Server-Mgmt-Template-SBCs",
-          "description": "Server management template adapted for Single Board Computers and resource-constrained hardware."
-        },
-        {
-          "name": "Claude Synology Manager",
-          "url": "https://github.com/danielrosehill/Claude-Synology-Manager",
-          "description": "Template for managing Synology NAS devices through SSH and MCP with persistent context storage."
-        },
-        {
           "name": "Claude System Recovery Mode",
           "url": "https://github.com/danielrosehill/Claude-System-Recovery-Mode",
           "description": "Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflows. Projects specifically targeting KDE Plasma desktop integration and Linux desktop workflows with Claude Code."
@@ -104,11 +59,6 @@
           "name": "Claude Dolphin & Konsole Actions",
           "url": "https://github.com/danielrosehill/Claude-Dolphin-Konsole-Actions",
           "description": "KDE Dolphin right-click context menu actions (service menus) for launching Claude Code in various Konsole window layouts, including single terminal, split panes, and multi-instance grids."
-        },
-        {
-          "name": "Claude Linux Desktop Manager",
-          "url": "https://github.com/danielrosehill/Claude-Linux-Desktop-Manager",
-          "description": "System administration interface for Linux desktop management with extensive slash commands."
         },
         {
           "name": "Claude Bug Catcher",
@@ -121,69 +71,14 @@
           "description": "Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflows."
         },
         {
-          "name": "Claude OS Sync Agent",
-          "url": "https://github.com/danielrosehill/Claude-OS-Sync-Agent",
-          "description": "Synchronization tool for maintaining consistency between desktop and laptop configurations."
-        },
-        {
-          "name": "Claude ADB Workspace Template",
-          "url": "https://github.com/danielrosehill/Claude-ADB-Workspace-Template",
-          "description": "Template for managing Android devices through ADB with device profiling and package management."
-        },
-        {
           "name": "Claude MVT Workspace",
           "url": "https://github.com/danielrosehill/Claude-MVT-Workspace",
           "description": "Workspace orchestrating Mobile Verification Toolkit (MVT) spyware scans on Android devices via ADB, detecting indicators of compromise from targeted malware like Pegasus. Workspaces for decision-making, personal planning, file management, and general-purpose productivity workflows. > **See also:** The **[Claude Code Workspace Templates Index](https://github.com/danielrosehill/Claude-Code-Workspace-Templates-Index)** is a dedicated sub-index for all domain-specific workspace templates (budgeting, health, research, writing, etc.)."
         },
         {
-          "name": "Claude Debugging Workspace",
-          "url": "https://github.com/danielrosehill/Claude-Debugging-Workspace",
-          "description": "Structured debugging template supporting software bugs, process problems, and creative blocks through hypothesis-driven investigation."
-        },
-        {
-          "name": "Claude Decision Evaluation Framework",
-          "url": "https://github.com/danielrosehill/Claude-Decision-Evaluation-Framework",
-          "description": "Analyzes decisions through seven parallel frameworks (SWOT, ICE, Regret Minimization, etc.) with objective scoring."
-        },
-        {
-          "name": "Claude Diary Planner Template",
-          "url": "https://github.com/danielrosehill/Claude-Diary-Planner-Template",
-          "description": "Forkable template for daily workflow and time management planning with Claude Code."
-        },
-        {
-          "name": "Claude Google Drive Organiser",
-          "url": "https://github.com/danielrosehill/Claude-Gdrive-Organiser",
-          "description": "Template for managing and organizing Google Drive via rclone with configurable rules and slash commands."
-        },
-        {
           "name": "Claude Personal Development Workspace",
           "url": "https://github.com/danielrosehill/Claude-Personal-Development-Workspace",
-          "description": "Workspace for tracking habits, skill acquisition, and self-improvement goals with AI coaching."
-        },
-        {
-          "name": "Claude Preparedness Planner",
-          "url": "https://github.com/danielrosehill/Claude-Preparedness-Planner",
-          "description": "Workspace generating personalized preparedness strategies across physical safety, financial, and medical domains, with intake interviews and offline-ready action plans. Workspaces and templates for legal research, case management, and evidence handling workflows."
-        },
-        {
-          "name": "Claude Case File",
-          "url": "https://github.com/danielrosehill/Claude-Case-File",
-          "description": "Legal case management template with evidence tracking, chain of custody, and document organization."
-        },
-        {
-          "name": "Claude Code Lawyer",
-          "url": "https://github.com/danielrosehill/Claude-Code-Lawyer",
-          "description": "Legal research template with structured intake, evidence handling, and professional document generation. Israeli law adaptation with local court system knowledge, Hebrew support, and Israeli legal database links."
-        },
-        {
-          "name": "Claude Evidence Assistant",
-          "url": "https://github.com/danielrosehill/Claude-Evidence-Assistant",
-          "description": "Digital evidence management workspace with cryptographic verification and Library of Congress-compliant exports."
-        },
-        {
-          "name": "Claude Legal Aid Clinic",
-          "url": "https://github.com/danielrosehill/Claude-Legal-Aid-Clinic",
-          "description": "Template helping legal aid seekers understand their rights and prepare case materials."
+          "description": "Workspace for tracking habits, skill acquisition, and self-improvement goals with AI coaching. Workspaces and templates for legal research, case management, and evidence handling workflows."
         },
         {
           "name": "ProofMode Unpacker",
@@ -191,24 +86,9 @@
           "description": "Utility for managing ProofMode evidence bundles with automated cloud backup and chain of custody preservation. Workspaces and templates for health documentation, medical visit management, therapy tracking, and health-related research."
         },
         {
-          "name": "Claude ADHD Research Workspace",
-          "url": "https://github.com/danielrosehill/Claude-ADHD-Research-Workspace",
-          "description": "Research repository documenting barriers to ADHD medication access and advocacy for policy reform."
-        },
-        {
           "name": "Claude Health Helper",
           "url": "https://github.com/danielrosehill/Claude-Health-Helper",
-          "description": "Workspace for organizing personal health documentation, visit preparation, and medical report summaries."
-        },
-        {
-          "name": "Claude Therapy Tracker",
-          "url": "https://github.com/danielrosehill/Claude-Therapy-Tracker",
-          "description": "Template for tracking therapy sessions, mental health goals, and therapeutic planning. Workspaces and templates for content creation, blog management, writing workflows, and communications strategy."
-        },
-        {
-          "name": "Claude Blog Manager",
-          "url": "https://github.com/danielrosehill/Claude-Blog-Manager",
-          "description": "Template for managing blog content through headless CMS platforms with drafting and publishing workflows."
+          "description": "Workspace for organizing personal health documentation, visit preparation, and medical report summaries. Workspaces and templates for content creation, blog management, writing workflows, and communications strategy."
         },
         {
           "name": "Claude Code Writing Squad",
@@ -216,44 +96,14 @@
           "description": "Multi-agent writing system that refines text through specialized editing agents."
         },
         {
-          "name": "Claude Communications Strategist Template",
-          "url": "https://github.com/danielrosehill/Claude-Comms-Strategist-Template",
-          "description": "Full-featured workspace for communications strategy with 12 agents and 14 slash commands."
-        },
-        {
-          "name": "Claude Visual Communications Space",
-          "url": "https://github.com/danielrosehill/Claude-Visual-Communications-Space",
-          "description": "Template for enhancing long-form content with AI-generated visuals via fal-ai MCP."
-        },
-        {
           "name": "Claude Website Update Sender",
           "url": "https://github.com/danielrosehill/Claude-Website-Update-Sender",
           "description": "Automated workflow for sending polished update emails about website changes via Resend MCP."
         },
         {
-          "name": "Claude Writing Space Template",
-          "url": "https://github.com/danielrosehill/Claude-Writing-Space-Template",
-          "description": "Writing workspace with sequential versioning, editing agents, and headless CMS publishing support."
-        },
-        {
           "name": "Declaude",
           "url": "https://github.com/danielrosehill/Declaude",
-          "description": "Personalized text rewriting rules that consolidate into a slash command for refining AI-generated documentation. Workspaces and templates for budgeting, purchasing decisions, and personal finance management."
-        },
-        {
-          "name": "Claude Budget Workspace Template",
-          "url": "https://github.com/danielrosehill/Claude-Budget-Workspace-Template",
-          "description": "Template for managing household budgets and financial planning with Claude Code."
-        },
-        {
-          "name": "Claude Purchasing Assistant",
-          "url": "https://github.com/danielrosehill/Claude-Purchasing-Assistant",
-          "description": "Structured purchasing decision workspace that evaluates products against user-defined criteria and local pricing. Workspaces and templates for job searching, career planning, and professional development."
-        },
-        {
-          "name": "Claude Job Search Strategist",
-          "url": "https://github.com/danielrosehill/Claude-Job-Search-Strategist",
-          "description": "Job search workspace with specialized agents for company research, resume tailoring, and interview preparation."
+          "description": "Personalized text rewriting rules that consolidate into a slash command for refining AI-generated documentation. Workspaces and templates for budgeting, purchasing decisions, and personal finance management. Workspaces and templates for job searching, career planning, and professional development."
         },
         {
           "name": "Claude Salary Research Agent",
@@ -273,22 +123,12 @@
         {
           "name": "Claude Competitor Research Agent",
           "url": "https://github.com/danielrosehill/Claude-Competitor-Research-Agent",
-          "description": "Workspace for systematic competitive intelligence research using public sources, with commands for competitor scanning, pricing analysis, and formal CI report generation. Workspaces and templates for document redaction, identity protection, and PII obfuscation."
-        },
-        {
-          "name": "Claude Redaction And Obfuscation",
-          "url": "https://github.com/danielrosehill/Claude-Redaction-And-Obfuscation",
-          "description": "Document redaction and identity protection workspace for handling sensitive information. Workspaces for hardware planning, PC builds, and technology procurement."
+          "description": "Workspace for systematic competitive intelligence research using public sources, with commands for competitor scanning, pricing analysis, and formal CI report generation. Workspaces and templates for document redaction, identity protection, and PII obfuscation. Workspaces for hardware planning, PC builds, and technology procurement."
         },
         {
           "name": "Claude Ivory PC Builder",
           "url": "https://github.com/danielrosehill/Claude-Ivory-PC-Builder",
-          "description": "AI-powered PC component spec generator with real-time pricing from an Israeli retailer, historical price tracking, and compatibility verification."
-        },
-        {
-          "name": "Claude Rig Planner",
-          "url": "https://github.com/danielrosehill/Claude-Rig-Planner",
-          "description": "Template for planning computer hardware upgrades with profiling, recommendations, and VAT-compliant estimates. Workspaces for SEO, web analytics, PR monitoring, and media tracking."
+          "description": "AI-powered PC component spec generator with real-time pricing from an Israeli retailer, historical price tracking, and compatibility verification. Workspaces for SEO, web analytics, PR monitoring, and media tracking."
         },
         {
           "name": "Claude Media Monitor",
@@ -317,29 +157,9 @@
           "description": "Framework for iterative deep research using Claude with voice pipeline and structured outputs."
         },
         {
-          "name": "Claude Deep Research Template (Implementation Template)",
-          "url": "https://github.com/danielrosehill/Claude-Deep-Research-Template",
-          "description": "Structured workflow for systematic research with specialized agents across academic and technical domains."
-        },
-        {
           "name": "Claude Dork",
           "url": "https://github.com/danielrosehill/Claude-Dork",
           "description": "Agent that generates platform-specific search dorks across Google, Reddit, Twitter/X, and more."
-        },
-        {
-          "name": "Claude Georeaction Researcher",
-          "url": "https://github.com/danielrosehill/Claude-Georeaction-Researcher",
-          "description": "Researches international reactions across 193 UN member states using Gemini with search grounding."
-        },
-        {
-          "name": "Claude Github Shortlister",
-          "url": "https://github.com/danielrosehill/Claude-Github-Shortlister",
-          "description": "Template for systematically evaluating and shortlisting GitHub repositories using AI-powered analysis."
-        },
-        {
-          "name": "Claude OSINT Investigator",
-          "url": "https://github.com/danielrosehill/Claude-OSINT-Investigator",
-          "description": "Template for conducting open-source intelligence investigations with organized evidence management."
         },
         {
           "name": "Claude Report Parsing Space Template",
@@ -358,19 +178,9 @@
       "description": "Projects using AI for synthesized debate to explore various perspectives, including policy modeling and analysis.",
       "repositories": [
         {
-          "name": "Claude AI Conference",
-          "url": "https://github.com/danielrosehill/Claude-AI-Conference",
-          "description": "Simulated conference where 30+ AI personas deliver speeches on AI's impact from diverse perspectives."
-        },
-        {
           "name": "Claude Change My View",
           "url": "https://github.com/danielrosehill/Claude-Change-My-View",
           "description": "Workspace for challenging personal beliefs through AI-generated counterarguments and rebuttals."
-        },
-        {
-          "name": "Claude Think Tank",
-          "url": "https://github.com/danielrosehill/Claude-Think-Tank",
-          "description": "Virtual think tank framework using AI agents for research and policy proposal development."
         }
       ]
     },
@@ -404,16 +214,6 @@
           "description": "Prompt template for verifying the correct Claude model variant at conversation start."
         },
         {
-          "name": "Claude Space Self-Ideator",
-          "url": "https://github.com/danielrosehill/Claude-Space-Self-ideator",
-          "description": "Ideation workspace for generating and documenting new agent workspace concepts."
-        },
-        {
-          "name": "Claude Spec Starter",
-          "url": "https://github.com/danielrosehill/Claude-Spec-Starter",
-          "description": "Template that transforms unstructured project descriptions into organized specifications for Claude Code."
-        },
-        {
           "name": "ClaudeMD Turnstile",
           "url": "https://github.com/danielrosehill/ClaudeMD-Turnstile",
           "description": "A turnstile pattern for CLAUDE.md that routes agents to the appropriate nested context file based on their purpose, avoiding unnecessary context ingestion in open-sourced repos."
@@ -442,6 +242,11 @@
           "name": "Split Context Setup",
           "url": "https://github.com/danielrosehill/Split-Context-Setup",
           "description": "Slash command that scaffolds a structured context store with topic-based subfolders."
+        },
+        {
+          "name": "The User Voice Types",
+          "url": "https://github.com/danielrosehill/The-User-Voice-Types",
+          "description": "CLAUDE.md snippets and slash commands telling Claude to silently infer around transcription errors from voice typing and stray keystrokes from one-handed or distracted typing."
         }
       ]
     },
@@ -478,16 +283,6 @@
           "name": "Claude Tech Research Team",
           "url": "https://github.com/danielrosehill/Claude-Tech-Research-Team",
           "description": "Multi-agent system for evaluating software and hardware technologies with automated reporting."
-        },
-        {
-          "name": "Ecosystem Mapper",
-          "url": "https://github.com/danielrosehill/Ecosystem-Mapper",
-          "description": "Agent that discovers, categorizes, and visualizes technology ecosystems from keyword searches."
-        },
-        {
-          "name": "Panel Of Claude",
-          "url": "https://github.com/danielrosehill/Panel-Of-Claude",
-          "description": "Multi-agent panel discussion simulator providing multi-dimensional analysis across expert perspectives."
         },
         {
           "name": "Claude Development Agents",
@@ -599,7 +394,12 @@
         {
           "name": "User Manual Plugin",
           "url": "https://github.com/danielrosehill/Claude-User-Manual",
-          "description": "Plugin for generating personalized user manuals and private documentation for codebases."
+          "description": "Plugin for generating personalized user manuals and private documentation for codebases. Workspace scaffolds previously listed individually in this index are now provided as templates via a dedicated plugin. Rather than duplicating entries, see the plugin for the full catalogue."
+        },
+        {
+          "name": "New Repo From Template Plugin",
+          "url": "https://github.com/danielrosehill/New-Repo-From-Template-Plugin",
+          "description": "Claude Code plugin that scaffolds new Claude workspaces from a catalogue of 80+ template repositories spanning development, research, legal, finance, infrastructure, planning, writing, personal, knowledge, and simulation workflows. See the plugin's [templates manifest](https://github.com/danielrosehill/New-Repo-From-Template-Plugin/blob/master/templates/manifest.json) for the full list."
         }
       ]
     },
@@ -698,15 +498,15 @@
   ],
   "statistics": {
     "total_categories": 9,
-    "total_repositories": 127,
+    "total_repositories": 87,
     "repositories_by_category": {
-      "Systems Administration": 59,
-      "Research": 8,
-      "Argument and Perspective Exploration": 3,
-      "Context and Personalization": 13,
-      "Multi-Agent Tooling": 13,
+      "Systems Administration": 27,
+      "Research": 4,
+      "Argument and Perspective Exploration": 1,
+      "Context and Personalization": 12,
+      "Multi-Agent Tooling": 11,
       "MCP": 6,
-      "Plugins": 9,
+      "Plugins": 10,
       "Slash Commands": 8,
       "Misc": 8
     }

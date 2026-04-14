@@ -48,20 +48,6 @@ Multi-agent system for evaluating software and hardware technologies with automa
 
 ---
 
-### Ecosystem Mapper
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Ecosystem-Mapper) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
-
-Agent that discovers, categorizes, and visualizes technology ecosystems from keyword searches.
-
----
-
-### Panel Of Claude
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Panel-Of-Claude) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
-
-Multi-agent panel discussion simulator providing multi-dimensional analysis across expert perspectives.
-
----
-
 ## Agent Libraries & Collections
 
 ### Claude Development Agents
@@ -91,13 +77,6 @@ Curated collection of Claude Code projects and resources organized by category.
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Workspace-Setup-Helper) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
 Interactive tool for discovering, selecting, and cloning Claude Workspace templates.
-
----
-
-### General Agent Workspace Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/General-Agent-Workspace-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Folder-based human/agent collaboration template with a defined inputs/context/outputs/management contract, slash commands, and a STATUS.md snapshot for stable multi-session workflows.
 
 ---
 

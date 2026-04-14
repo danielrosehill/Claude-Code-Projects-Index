@@ -39,20 +39,6 @@ Prompt template for verifying the correct Claude model variant at conversation s
 
 ---
 
-### Claude Space Self-Ideator
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Space-Self-ideator)
-
-Ideation workspace for generating and documenting new agent workspace concepts.
-
----
-
-### Claude Spec Starter
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Spec-Starter) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
-
-Template that transforms unstructured project descriptions into organized specifications for Claude Code.
-
----
-
 ### ClaudeMD Turnstile
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/ClaudeMD-Turnstile)
 
@@ -92,5 +78,12 @@ Tools for managing public and private CLAUDE.md files with security-focused git 
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Split-Context-Setup) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
 Slash command that scaffolds a structured context store with topic-based subfolders.
+
+---
+
+### The User Voice Types
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/The-User-Voice-Types) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
+
+CLAUDE.md snippets and slash commands telling Claude to silently infer around transcription errors from voice typing and stray keystrokes from one-handed or distracted typing.
 
 ---
