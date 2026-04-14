@@ -1,58 +1,81 @@
 ![Claude Agent Blueprints](images/banner.png)
 
-## Repository Growth
-
-![Repository Count Over Time](charts/repo-count-chart.png)
-
----
-
 # Claude Code Projects Index
 
-A curated collection of Claude Code projects, agent workspace blueprints, and related resources, organized by use case and category.
+A curated collection of Claude Code projects, agent workspace blueprints, and related resources — organized by use case. Most patterns here adapt to other agentic AI CLIs and frameworks.
 
-Most patterns, templates, and models are adaptable to other agentic AI CLIs and frameworks.
+**[Browse online](https://claude.danielrosehill.com)** · **[Plugins Marketplace](https://github.com/danielrosehill/Claude-Code-Plugins)** · **[Documentation portal](https://docs.bydanielrosehill.com)** · **[Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model)** · **[What are Claude Spaces?](./claude-spaces.md)**
 
-**[Browse the index online](https://claude.danielrosehill.com)** | **[Documentation portal](https://docs.bydanielrosehill.com)**
-
-## Understanding This Index
-
-This index showcases diverse applications of Claude Code as an agent workspace platform — far beyond traditional software development. Key concepts:
-
-| Type | Description | Badge |
-|------|-------------|-------|
-| **Agent Workspaces** | Pre-configured repositories using Claude as a Conversational UI Agent for structured, domain-specific workflows | ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) |
-| **Templates** | Forkable starting points you can customize for your own use | ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) |
-| **Non-Code** | Applications beyond software development (research, productivity, health, etc.) | ![Non-Code](https://img.shields.io/badge/Non--Code-teal?style=flat-square) |
-
-🧩 **[The Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model)** — The template and reference for using repositories as structured AI agent workspaces
-📖 **[What are Agent Workspaces?](./claude-spaces.md)** — The "Claude Spaces" pattern that inspired these agent workspace blueprints
-📝 **[Notes on Templates & Workspaces](./notes.md)** — Additional context on these approaches
-
-![Agent Workspace Definition](images/claude-space.png)
+> 🧩 **My Claude Code Plugins Marketplace** — [danielrosehill/Claude-Code-Plugins](https://github.com/danielrosehill/Claude-Code-Plugins) — centralized marketplace bundling the plugins referenced throughout this index (including the [New-Repo-From-Template plugin](#templates--scaffolds) for scaffolding workspaces).
 
 ---
 
-## Praise For This Repo
+## Contents
 
-> *"This is either the work of a prolific genius, or a very clever bot (or both), although it hardly matters because the quality is so good - an index of 75+ Claude Code repositories published by the author - and I'm not talking about slop. CMS, system design, deep research, IoT, agentic workflows, server management, personal health... If you spot the lie, let me know, otherwise please check these out."*
->
-> — [awesome-claude-code](https://github.com/wong2/awesome-claude-code)
+**Workspaces by Domain**
+- [Systems Administration](#systems-administration)
+- [Productivity & Planning](#productivity--planning) · [Legal](#legal) · [Health & Wellbeing](#health--wellbeing) · [Communications & Writing](#communications--writing) · [Financial Planning](#financial-planning) · [Career](#career) · [Business](#business) · [Privacy & Anonymity](#privacy--anonymity) · [Technology & Hardware](#technology--hardware) · [Marketing](#marketing)
+- [Research](#research)
+- [Argument and Perspective Exploration](#argument-and-perspective-exploration)
 
-For those wondering: I'm a real human ([danielrosehill.com](https://danielrosehill.com)). The repos and agent workspaces in this index are generated using Claude Code but very much human-designed and refined.
+**Configuration & Tooling**
+- [Context and Personalization](#context-and-personalization)
+- [Multi-Agent Tooling](#multi-agent-tooling)
+- [MCP (Model Context Protocol)](#mcp-model-context-protocol)
 
-## Commonalities
+**Extensions & Scaffolds**
+- [Plugins](#plugins)
+- [Templates / Scaffolds](#templates--scaffolds) — *recommended way to spin up a new workspace*
+- [Slash Commands](#slash-commands)
 
-I've been using Claude Code daily for about six months, for everything from development to audio editing to SEO analysis. This is a diverse collection of repositories, but it tends to lean away from the classic code generation use cases. Instead, it explores the longer tail of what Claude Code can do — deep research, systems administration, legal workflows, health documentation, media monitoring, and more.
+**Other**
+- [Miscellaneous](#miscellaneous)
+
+---
+
+## About This Index
+
+I've been using Claude Code daily for about six months — for development, but also audio editing, legal research, SEO analysis, health documentation, systems administration, and a long tail of non-code use cases. This index is the result: a collection of **agent workspaces** (repositories structured as self-contained environments for a specific activity) alongside supporting tooling — plugins, context files, MCP servers, and slash commands.
 
 If there's a common thread, it's treating Claude Code less as a coding assistant and more as a general-purpose agent workspace that happens to run in a terminal.
 
-## The Agent Workspace Model
+| Type | What it is | Badge |
+|------|------------|-------|
+| **Agent Workspace** | Pre-configured repo using Claude as a conversational UI for a domain-specific workflow | ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) |
+| **Template** | Forkable starting point you can customize | ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) |
+| **Non-Code** | Applications beyond software development | ![Non-Code](https://img.shields.io/badge/Non--Code-teal?style=flat-square) |
 
-All of the workspaces in this index follow a common pattern defined in the **[Claude Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model)** repository. The core idea: a Git repository isn't just for code — it can serve as a complete, self-contained workspace for *any* activity. Each workspace uses a defined folder structure, a `CLAUDE.md` for agent instructions, slash commands, MCP configurations, and subagent definitions to create a purpose-built environment.
+![Agent Workspace Definition](images/claude-space.png)
+
+<details>
+<summary><strong>More context: the Agent Workspace Model, growth chart, praise</strong></summary>
+
+#### The Agent Workspace Model
+
+All workspaces in this index follow the pattern defined in the **[Claude Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model)** repository. The core idea: a Git repository isn't just for code — it can serve as a complete, self-contained workspace for *any* activity. Each workspace uses a defined folder structure, a `CLAUDE.md` for agent instructions, slash commands, MCP configurations, and subagent definitions to create a purpose-built environment.
 
 This pattern has been applied to everything from sysadmin and remote server management to legal research, health documentation, and financial planning — domains that have nothing to do with software development.
 
-**Want to follow this approach?** Point Claude Code at the [model repository](https://github.com/danielrosehill/Claude-Agent-Workspace-Model) to give it context on the pattern, then ask it to scaffold a new workspace for your use case. The model repo serves as both documentation and a live reference that Claude can read to understand the conventions.
+**Want to follow this approach?** Point Claude Code at the [model repository](https://github.com/danielrosehill/Claude-Agent-Workspace-Model) to give it context on the pattern, then ask it to scaffold a new workspace for your use case. Or — simpler — use the [New-Repo-From-Template plugin](#templates--scaffolds), which packages the curated templates into a one-command scaffold.
+
+#### Repository Growth
+
+![Repository Count Over Time](charts/repo-count-chart.png)
+
+#### Praise
+
+> *"This is either the work of a prolific genius, or a very clever bot (or both), although it hardly matters because the quality is so good - an index of 75+ Claude Code repositories published by the author... CMS, system design, deep research, IoT, agentic workflows, server management, personal health... If you spot the lie, let me know, otherwise please check these out."*
+>
+> — [awesome-claude-code](https://github.com/wong2/awesome-claude-code)
+
+For the record: I'm a real human ([danielrosehill.com](https://danielrosehill.com)). The repos and workspaces in this index are generated with Claude Code but human-designed and refined.
+
+#### Additional reading
+
+- 📝 **[Notes on Templates & Workspaces](./notes.md)**
+- 📖 **[What are Agent Workspaces?](./claude-spaces.md)**
+
+</details>
 
 ---
 
@@ -593,18 +616,79 @@ Curated collection of 35+ MCP servers with interactive installer across 15+ cate
 
 ![Plugins](images/plugins.png)
 
-**[View full plugins list (46 plugins)](plugins.md)** — all plugins registered in the [danielrosehill marketplace](https://github.com/danielrosehill/Claude-Code-Plugins), organized by category.
+My Plugin Marketplace enhancing capabilities in Claude.
+
+### Claude Code Marketplace Hub
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/claude-code-marketplace)
+
+Decentralized directory aggregating multiple community-maintained Claude Code plugin marketplaces.
+
+---
+
+### Claude Code Plugin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/claude-code-plugin)
+
+Meta-plugin for managing Claude Code configuration, slash commands, and agent development.
+
+---
+
+### Claude Code Plugins Marketplace
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Plugins)
+
+Centralized marketplace for discovering and installing Claude Code plugins via simple commands.
+
+---
+
+### Claude Templatizer
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Templatizer)
+
+Plugin that turns a set of existing Claude Code workspace repos into a reusable GitHub template by extracting their commonalities and publishing as a template repository.
+
+---
+
+### Claude Janitor
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Janitor)
+
+Plugin for cleaning up repositories by removing Claude-related artifacts and configurations.
+
+---
+
+### Make Agent Friendly
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Make-Agent-Friendly) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
+
+Plugin that prepares human-developed codebases for agentic development with restructuring and documentation.
+
+---
+
+### Repo Retrofitter
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Retrofitter) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Plugin for bulk-retrofitting repositories with AI agent scaffolding (CLAUDE.md, slash commands, subagents, MCP recommendations). Supports scan, interactive, and fully autonomous modes with incremental progress tracking.
+
+---
+
+### QA Team Plugin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-QA-Team) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
+
+Multi-agent quality assurance system with specialized agents for code review and validation.
+
+---
+
+### User Manual Plugin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-User-Manual)
+
+Plugin for generating personalized user manuals and private documentation for codebases.
 
 ---
 
 # Templates / Scaffolds
 
-Workspace scaffolds previously listed individually in this index are now provided as templates via a dedicated plugin. Rather than duplicating entries, see the plugin for the full catalogue.
+**Recommended entry point for spinning up a new workspace.** The workspace scaffolds that were previously listed individually in this index are still published as standalone template repositories on GitHub, but the recommended way to use them is through the **New-Repo-From-Template plugin**, which packages the curated catalogue into a one-command scaffold for Claude Code. The plugin is periodically updated as new templates are added, so it stays in sync with the standalone repos without duplicating their listings here.
 
 ### New Repo From Template Plugin
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/New-Repo-From-Template-Plugin) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
 
-Claude Code plugin that scaffolds new Claude workspaces from a catalogue of 80+ template repositories spanning development, research, legal, finance, infrastructure, planning, writing, personal, knowledge, and simulation workflows. See the plugin's [templates manifest](https://github.com/danielrosehill/New-Repo-From-Template-Plugin/blob/master/templates/manifest.json) for the full list.
+Claude Code plugin that scaffolds new workspaces from a catalogue of 80+ template repositories spanning development, research, legal, finance, infrastructure, planning, writing, personal, knowledge, and simulation workflows. Each template is also available as a standalone GitHub repo for direct forking — the plugin simply provides a faster, unified way to instantiate them locally. See the plugin's [templates manifest](https://github.com/danielrosehill/New-Repo-From-Template-Plugin/blob/master/templates/manifest.json) for the full list.
 
 ---
 

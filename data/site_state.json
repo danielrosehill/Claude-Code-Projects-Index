@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-04-14T15:09:42",
+  "last_built": "2026-04-14T15:18:39",
   "total_repos": 85,
   "total_tags": 22,
   "repo_manifest": {
@@ -76,7 +76,7 @@
     "Linux Desktop ClaudeMD Seeder": "1027aa4623a63f0aee7a92e8a94d82fe",
     "Make Agent Friendly": "f15936796009cb439b20ffd48bd9a0f7",
     "MCPM Claude Code Docs": "fa5fab7f544ebc1eadb07ea4723e0010",
-    "New Repo From Template Plugin": "c35ed94068864c848b6ff8bc0f5340c8",
+    "New Repo From Template Plugin": "b45a974b1b937892768f73f96f7883a7",
     "New Turn Claude Hook": "69e06775261d47a540621131a3097e03",
     "No Wheel Inventions": "614fc5725b5efc3d6fedb8b58a65f35d",
     "Non-Code Claude Code": "3ba4e338aa928549e7934531a98394db",
@@ -1078,6 +1078,42 @@
             "Ecosystem Mapper",
             "General Agent Workspace Template",
             "Panel Of Claude"
+          ]
+        }
+      ],
+      "total_repos": 85
+    },
+    {
+      "date": "2026-04-14T15:14:58",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Additional reading",
+            "Praise",
+            "Repository Growth",
+            "The Agent Workspace Model"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "New Repo From Template Plugin"
+          ]
+        }
+      ],
+      "total_repos": 89
+    },
+    {
+      "date": "2026-04-14T15:18:39",
+      "changes": [
+        {
+          "type": "removed",
+          "repos": [
+            "Additional reading",
+            "Praise",
+            "Repository Growth",
+            "The Agent Workspace Model"
           ]
         }
       ],

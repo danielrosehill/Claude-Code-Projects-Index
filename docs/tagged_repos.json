@@ -1117,7 +1117,7 @@
   {
     "name": "New Repo From Template Plugin",
     "url": "https://github.com/danielrosehill/New-Repo-From-Template-Plugin",
-    "description": "Claude Code plugin that scaffolds new Claude workspaces from a catalogue of 80+ template repositories spanning development, research, legal, finance, infrastructure, planning, writing, personal, knowledge, and simulation workflows. See the plugin's [templates manifest](https://github.com/danielrosehill/New-Repo-From-Template-Plugin/blob/master/templates/manifest.json) for the full list.",
+    "description": "Claude Code plugin that scaffolds new workspaces from a catalogue of 80+ template repositories spanning development, research, legal, finance, infrastructure, planning, writing, personal, knowledge, and simulation workflows. Each template is also available as a standalone GitHub repo for direct forking \u2014 the plugin simply provides a faster, unified way to instantiate them locally. See the plugin's [templates manifest](https://github.com/danielrosehill/New-Repo-From-Template-Plugin/blob/master/templates/manifest.json) for the full list.",
     "tags": [
       "Agent Workspace",
       "Automation",
