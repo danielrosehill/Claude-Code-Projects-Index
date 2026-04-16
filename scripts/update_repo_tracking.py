@@ -8,8 +8,6 @@ import json
 import re
 from datetime import datetime
 from pathlib import Path
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
 
 # Paths
 REPO_ROOT = Path(__file__).parent.parent
@@ -197,6 +195,8 @@ def update_tracking_data(count):
 
 
 def generate_chart(data):
+    import matplotlib.pyplot as plt
+    import matplotlib.dates as mdates
     """Generate visualization chart of repo count over time"""
     if not data["data_points"]:
         print("No data points to visualize yet")
