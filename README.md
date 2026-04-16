@@ -225,13 +225,6 @@ Workspace for organizing personal health documentation, visit preparation, and m
 
 ---
 
-### Claude Parenting Planner
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Parenting-Planner) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Long-running parenting planning workspace covering schedules, developmental milestones, education choices, health records, parenting philosophies, decisions, and family-meeting logs — with a family-coordinator agent flagging conflicts and upcoming events.
-
----
-
 
 # Communications & Writing
 
@@ -289,13 +282,6 @@ Workspaces and templates for business planning, idea evaluation, and organizatio
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Business-Continuity-Planner) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
 Workspace for developing ISO 22301-aligned business continuity programs with slash commands.
-
----
-
-### Claude Business Evaluator
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Business-Evaluator) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
-
-Systematically evaluates new business ideas (ICEC framework) and existing business performance (PRGX framework), optionally via a 6-persona council deliberation with blind ranking and chairman synthesis.
 
 ---
 
@@ -361,7 +347,7 @@ Workspace template for SEO analytics with data cleaning, analysis, and reporting
 
 Projects using Claude and agentic systems for deep research, report generation, and information synthesis.
 
-**[See full list in the dedicated research page →](./research.md)** (9 entries)
+**[See full list in the dedicated research page →](./research.md)** (3 entries)
 
 ---
 
@@ -375,13 +361,6 @@ Projects using AI for synthesized debate to explore various perspectives, includ
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Change-My-View) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
 Workspace for challenging personal beliefs through AI-generated counterarguments and rebuttals.
-
----
-
-### Debate Mapper Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Debate-Mapper-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Maps debates and compares policies across countries or political systems — identifies camps, key actors, and fault lines, then generates quadrant plots and cluster diagrams as PNG/SVG/JSON.
 
 ---
 
@@ -438,13 +417,6 @@ A turnstile pattern for CLAUDE.md that routes agents to the appropriate nested c
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/CONTEXT.md) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
 
 Workflow methodology for separating human-authored context from structured AI agent briefings.
-
----
-
-### Context Maintenance Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Context-Maintenance-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Maintains an external Pinecone-backed RAG vector store over time — ingests new content, cleans up duplicates and stale entries, reconciles conflicts, and audits what's stored via the Pinecone MCP server.
 
 ---
 
@@ -725,6 +697,6 @@ Slash commands encouraging use of existing libraries instead of building custom 
 
 Other projects including meta-resources, feedback, and utilities that span multiple categories.
 
-**[See full list in the dedicated misc page →](./misc.md)** (24 entries)
+**[See full list in the dedicated misc page →](./misc.md)** (19 entries)
 
 ---

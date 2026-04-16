@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-16T22:26:07",
-  "total_repos": 155,
+  "last_built": "2026-04-16T22:29:25",
+  "total_repos": 140,
   "total_tags": 22,
   "repo_manifest": {
     "Agent Junction": "4251099ca55c99b1f616c4ca81e704cd",
@@ -23,7 +23,6 @@
     "Claude Browser Automation Template": "79c93d91eab3158a4d14b58cb0d2d4c0",
     "Claude Bug Catcher": "c5403f3f00d508a79fc6d04e35c8169d",
     "Claude Business Continuity Planner": "57130af41b9c1edd29a36c155acf9759",
-    "Claude Business Evaluator": "b87eacfb775bf1ef1589cbaddc649313",
     "Claude Business Idea Evaluator": "30f87dd5d7e042108082db54b66a609a",
     "Claude Calls The Shots": "01393094e54f04e7cc87b8e05585dec2",
     "Claude Career Planning Template": "6678f884a30f42b8b068edfadf837321",
@@ -57,7 +56,6 @@
     "Claude House Search Template": "ff6d5f239add983ef17fc38a706af144",
     "Claude Interview": "f0c11bb886b3d874d630555b8eb1f1f7",
     "Claude Is Awesome": "8c93b738e23ebfc264d6a0fac3a24d55",
-    "Claude Israel Shopping Recommender Template": "6e04005a1744c0c598265f4028ccce73",
     "Claude Ivory PC Builder": "270845804449b24b99ae40681675182e",
     "Claude Janitor": "e017f635bf639d107e7de9962e60b9bd",
     "Claude Local AI Agent Research": "b81fa051dab2104f8be97a8c521f32e8",
@@ -67,24 +65,18 @@
     "Claude Model Identifier": "3073be49b8b220af340933111fa11b00",
     "Claude MVT Workspace": "df5ab0cf6f963040392aa2884150d146",
     "Claude News Fetcher - Media Monitoring System": "5d80bcb015b74f1d62ce5f4f4d482e3d",
-    "Claude Parenting Planner": "b39105639a4793bc7465a4b193a608b4",
     "Claude Personal Development Workspace": "0da52e0a12a8576dae35733e68da2541",
-    "Claude Recommendation Workspace Template": "ef9cd36be523f39608842e2a1d7547f1",
     "Claude Repo Jumper": "a69e871e4e9bb7cface01faa2aa09a18",
     "Claude Report Parsing Space Template": "11160a974557b3ba335a9215d554500f",
     "Claude Rescue": "f4a99aee1a9ba0c7b4f87bf80e09ff60",
-    "Claude Research Space Public Template": "5fb96c0593f3b39ee3cb896fa98c6ec1",
     "Claude Resource List Builder": "2be24616f610b8250e289adafa533c89",
     "Claude Salary Research Agent": "a9937e2f1a63bb991e02e464a2edb25d",
     "Claude Server Manager Template": "6817de49840779e7669b5c1dabcb73ea",
-    "Claude Single Company Research": "9018fdb0472fc40a7c4f1e6d777da429",
     "Claude Slash Commands": "f8c37eb4140b2eb635ee146c2b7002b2",
-    "Claude Stack Research Workspace": "aa536c8442d7f2759e184116817180a3",
     "Claude Sub-Agent Network": "84729c6a4fcd48dfeff2cf62af443c7b",
     "Claude System Recovery Mode": "2d2f70f4ee3175bba7b6b5fb9ddee122",
     "Claude Task Manager": "59f506d978b00d9ae0c77f3e355243a4",
     "Claude Tech Research Team": "70a02be89152b5619015bf6be4b9667a",
-    "Claude Technical Research Template": "c870f8676884c954d193d5e19155e539",
     "Claude Templatizer": "5e110063a8c8df34ca333ade4629471d",
     "Claude User Manual": "45835ba9eebfc2e142c4233cddb68288",
     "Claude User Memory": "ef02632956dd8171d426c0530142fffc",
@@ -93,22 +85,16 @@
     "Claude Workspace Setup Helper": "baaa35d22a7e7635e1ac0aefb458d705",
     "ClaudeMD Chunker": "5059b6c160fbb0da701cee86190a676c",
     "ClaudeMD Turnstile": "8763a007153a20d440879100ce69635a",
-    "Company Research": "821facbc6cf3b8ffdbfca140bb43e58d",
     "Conda Manager": "f683ecd721a58dffc443dbf6dac99a41",
-    "Context Maintenance Template": "49a38b97b466925faf562c1f510b5057",
     "Context Toolkit": "16d90dce2cfc849d44dc365cbc0f0190",
     "CONTEXT.md": "ce976b6647ab119eaa221a75c948adfb",
     "Cool Claude Code Stuff": "2f55aa29b1e2494720692bbabf23be78",
-    "Debate Mapper Template": "e8bd5aec14ac19ca39800cd3d49eb584",
     "Declaude": "d65e21c47285dc215b1898443438bb31",
     "Diary Planner": "a4f773b29a8d386ed5794ab5eefa3545",
     "Docker Manager": "7f696d7d46c62b6794ed51913092a292",
     "Ecosystem Mapper": "51bf10defdc8be104e92c85ba24e88b9",
-    "Ecosystem Mapper Template": "5bc1722e4e92d223d4d9b176f5239633",
-    "Experiment Report Template": "ab534717cc8cac3f6583bc510fecd963",
     "Filesystem Organisation": "0833547adaffa566dc33e5d5e23e5d75",
     "Fix Documentation": "fc7c062334c392e5d12f0cf6f4a30d8c",
-    "Geo Ecosystem Template": "c2602fbdb490dbd2195206dc4dfb9c6d",
     "Git & GitHub": "fa5baac670029e5a0efa91dda40e8a9f",
     "GitHub Research": "930eb25e4b894b1742acf9eb7e3c4a32",
     "Home Assistant Manager": "52f3dda8c930ef795e604cdaa161bbd9",
@@ -154,7 +140,6 @@
     "Tech Docs": "2ae6550398ced19faa6bb3cd78a113fa",
     "Tech Research": "9d60a62a673390aed41371680ace4596",
     "The User Voice Types": "eaea4f805e8773944cb9e351263b44b6",
-    "Transcript Cleanup Template": "d316a757ba5177a85d7c6b42814151c5",
     "Video Editing": "3695663c0300cc2119b1e199467e3545",
     "Workspace Setup": "907ea22b08ead8bfda4f49fa63265c0a",
     "Writing Editing": "4e03e95a63513b2c7c84d01d79958294"
@@ -1348,6 +1333,32 @@
         }
       ],
       "total_repos": 155
+    },
+    {
+      "date": "2026-04-16T22:29:25",
+      "changes": [
+        {
+          "type": "removed",
+          "repos": [
+            "Claude Business Evaluator",
+            "Claude Israel Shopping Recommender Template",
+            "Claude Parenting Planner",
+            "Claude Recommendation Workspace Template",
+            "Claude Research Space Public Template",
+            "Claude Single Company Research",
+            "Claude Stack Research Workspace",
+            "Claude Technical Research Template",
+            "Company Research",
+            "Context Maintenance Template",
+            "Debate Mapper Template",
+            "Ecosystem Mapper Template",
+            "Experiment Report Template",
+            "Geo Ecosystem Template",
+            "Transcript Cleanup Template"
+          ]
+        }
+      ],
+      "total_repos": 140
     }
   ]
 }

@@ -311,20 +311,6 @@
     "created_date": "2026-01-14"
   },
   {
-    "name": "Claude Business Evaluator",
-    "url": "https://github.com/danielrosehill/Claude-Business-Evaluator",
-    "description": "Systematically evaluates new business ideas (ICEC framework) and existing business performance (PRGX framework), optionally via a 6-persona council deliberation with blind ranking and chairman synthesis.",
-    "tags": [
-      "Business"
-    ],
-    "category": "Business",
-    "category_slug": "business",
-    "category_group": "Non-Code",
-    "added_date": "2026-04-16",
-    "slug": "claude-business-evaluator",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "Claude Business Idea Evaluator",
     "url": "https://github.com/danielrosehill/Claude-Business-Idea-Evaluator",
     "description": "Framework for evaluating and ranking business ideas using the ICEC methodology.",
@@ -826,22 +812,6 @@
     "created_date": "2025-10-28"
   },
   {
-    "name": "Claude Israel Shopping Recommender Template",
-    "url": "https://github.com/danielrosehill/Claude-Israel-Shopping-Recommender-Template",
-    "description": "Workspace template for Israel-based shopping decisions \u2014 evaluates products against user requirements with Israeli retailers first, Amazon/AliExpress fallback, 18% VAT handling, and a final PDF recommendation report.",
-    "tags": [
-      "Agent Workspace",
-      "Documentation",
-      "Template"
-    ],
-    "category": "Miscellaneous",
-    "category_slug": "misc",
-    "category_group": "Other",
-    "added_date": "2026-04-16",
-    "slug": "claude-israel-shopping-recommender-template",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "Claude Ivory PC Builder",
     "url": "https://github.com/danielrosehill/Claude-Ivory-PC-Builder",
     "description": "AI-powered PC component spec generator with real-time pricing from an Israeli retailer, historical price tracking, and compatibility verification.",
@@ -979,21 +949,6 @@
     "created_date": "2025-11-10"
   },
   {
-    "name": "Claude Parenting Planner",
-    "url": "https://github.com/danielrosehill/Claude-Parenting-Planner",
-    "description": "Long-running parenting planning workspace covering schedules, developmental milestones, education choices, health records, parenting philosophies, decisions, and family-meeting logs \u2014 with a family-coordinator agent flagging conflicts and upcoming events.",
-    "tags": [
-      "Agent Workspace",
-      "Health"
-    ],
-    "category": "Health & Wellbeing",
-    "category_slug": "health",
-    "category_group": "Non-Code",
-    "added_date": "2026-04-16",
-    "slug": "claude-parenting-planner",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "Claude Personal Development Workspace",
     "url": "https://github.com/danielrosehill/Claude-Personal-Development-Workspace",
     "description": "Workspace for tracking habits, skill acquisition, and self-improvement goals with AI coaching.",
@@ -1007,22 +962,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-personal-development-workspace",
     "created_date": "2026-01-11"
-  },
-  {
-    "name": "Claude Recommendation Workspace Template",
-    "url": "https://github.com/danielrosehill/Claude-Recommendation-Workspace-Template",
-    "description": "AI-assisted recommendation workspace that holds a taste profile and logs feedback over time for podcasts, books, films, TV, music, games, or any single format chosen during onboarding, with optional MCP-sourced metadata.",
-    "tags": [
-      "Agent Workspace",
-      "Documentation",
-      "Template"
-    ],
-    "category": "Miscellaneous",
-    "category_slug": "misc",
-    "category_group": "Other",
-    "added_date": "2026-04-16",
-    "slug": "claude-recommendation-workspace-template",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Claude Repo Jumper",
@@ -1070,22 +1009,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-rescue",
     "created_date": "2025-11-14"
-  },
-  {
-    "name": "Claude Research Space Public Template",
-    "url": "https://github.com/danielrosehill/Claude-Research-Space-Public-Template",
-    "description": "Template for conducting public, transparent AI-assisted research designed to be open-sourced from day one \u2014 ships export commands for blog posts, reports, and briefing documents plus publishing MCP integrations.",
-    "tags": [
-      "Agent Workspace",
-      "Research",
-      "Template"
-    ],
-    "category": "Research",
-    "category_slug": "research",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-04-16",
-    "slug": "claude-research-space-public-template",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Claude Resource List Builder",
@@ -1136,21 +1059,6 @@
     "created_date": "2025-11-01"
   },
   {
-    "name": "Claude Single Company Research",
-    "url": "https://github.com/danielrosehill/Claude-Single-Company-Research",
-    "description": "Targeted intelligence-gathering workspace dedicated to depth on a single company \u2014 organizes per-lens analysis (financial, product, leadership, risk), open questions, sources, timelines, and synthesized findings.",
-    "tags": [
-      "Agent Workspace",
-      "Research"
-    ],
-    "category": "Research",
-    "category_slug": "research",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-04-16",
-    "slug": "claude-single-company-research",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "Claude Slash Commands",
     "url": "https://github.com/danielrosehill/Claude-Slash-Commands",
     "description": "General-purpose slash command library for various Claude Code workflows.",
@@ -1164,22 +1072,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-slash-commands",
     "created_date": "2025-10-11"
-  },
-  {
-    "name": "Claude Stack Research Workspace",
-    "url": "https://github.com/danielrosehill/Claude-Stack-Research-Workspace",
-    "description": "Environment for evaluating software solutions with specialized agents for technology comparisons.",
-    "tags": [
-      "Agent Workspace",
-      "Multi-Agent",
-      "Research"
-    ],
-    "category": "Research",
-    "category_slug": "research",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-03-06",
-    "slug": "claude-stack-research-workspace",
-    "created_date": "2025-11-03"
   },
   {
     "name": "Claude Sub-Agent Network",
@@ -1242,23 +1134,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-tech-research-team",
     "created_date": "2025-10-31"
-  },
-  {
-    "name": "Claude Technical Research Template",
-    "url": "https://github.com/danielrosehill/Claude-Technical-Research-Template",
-    "description": "Workspace for asking an AI agent technical how-to questions and turning the conversations into a living, maintainable reference \u2014 each topic captured as paired `questions/` and `ideas/` files with revision, follow-up, and Typst-PDF consolidation commands.",
-    "tags": [
-      "Agent Workspace",
-      "Documentation",
-      "Research",
-      "Template"
-    ],
-    "category": "Research",
-    "category_slug": "research",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-04-16",
-    "slug": "claude-technical-research-template",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Claude Templatizer",
@@ -1384,20 +1259,6 @@
     "created_date": "2026-04-09"
   },
   {
-    "name": "Company Research",
-    "url": "https://github.com/danielrosehill/Company-Research",
-    "description": "Systematically researches companies through a user-defined lens (job hunter, investor, BD, vendor evaluator, journalist), tailoring research dimensions, weighting, and scoring to the captured purpose before bundling Typst PDF reports.",
-    "tags": [
-      "Research"
-    ],
-    "category": "Research",
-    "category_slug": "research",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-04-14",
-    "slug": "company-research",
-    "created_date": "2026-04-14"
-  },
-  {
     "name": "Conda Manager",
     "url": "https://github.com/danielrosehill/conda-manager-plugin",
     "description": "Claude Code plugin for managing, auditing, and optimising Conda environments \u2014 list, validate, compare, backup, and clean up environments with AI assistance.",
@@ -1410,22 +1271,6 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "conda-manager",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Context Maintenance Template",
-    "url": "https://github.com/danielrosehill/Context-Maintenance-Template",
-    "description": "Maintains an external Pinecone-backed RAG vector store over time \u2014 ingests new content, cleans up duplicates and stale entries, reconciles conflicts, and audits what's stored via the Pinecone MCP server.",
-    "tags": [
-      "Configuration",
-      "MCP",
-      "Template"
-    ],
-    "category": "Context and Personalization",
-    "category_slug": "context",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-04-16",
-    "slug": "context-maintenance-template",
     "created_date": "2026-04-16"
   },
   {
@@ -1472,22 +1317,6 @@
     "added_date": "2026-03-06",
     "slug": "cool-claude-code-stuff",
     "created_date": "2025-10-02"
-  },
-  {
-    "name": "Debate Mapper Template",
-    "url": "https://github.com/danielrosehill/Debate-Mapper-Template",
-    "description": "Maps debates and compares policies across countries or political systems \u2014 identifies camps, key actors, and fault lines, then generates quadrant plots and cluster diagrams as PNG/SVG/JSON.",
-    "tags": [
-      "Analysis",
-      "Research",
-      "Template"
-    ],
-    "category": "Argument and Perspective Exploration",
-    "category_slug": "argument",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-04-16",
-    "slug": "debate-mapper-template",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Declaude",
@@ -1554,38 +1383,6 @@
     "created_date": "2025-12-19"
   },
   {
-    "name": "Ecosystem Mapper Template",
-    "url": "https://github.com/danielrosehill/Ecosystem-Mapper-Template",
-    "description": "Topic-scoped directory template for cataloguing the entities that make up a technology ecosystem (protocols, frameworks, tools, models, companies, people, capital), with geography as an optional overlay.",
-    "tags": [
-      "Documentation",
-      "Template",
-      "Tool"
-    ],
-    "category": "Miscellaneous",
-    "category_slug": "misc",
-    "category_group": "Other",
-    "added_date": "2026-04-16",
-    "slug": "ecosystem-mapper-template",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Experiment Report Template",
-    "url": "https://github.com/danielrosehill/Experiment-Report-Template",
-    "description": "Structured workspace for designing experiments, running trials, analyzing results, and generating reports \u2014 enforces a design \u2192 execute \u2192 analyze \u2192 report lifecycle for tool comparisons, benchmarks, and A/B tests.",
-    "tags": [
-      "Agent Workspace",
-      "Research",
-      "Template"
-    ],
-    "category": "Research",
-    "category_slug": "research",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-04-16",
-    "slug": "experiment-report-template",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "Filesystem Organisation",
     "url": "https://github.com/danielrosehill/filesystem-org-plugin",
     "description": "Claude Code plugin for file system organization, folder structure optimization, and file management automation workflows.",
@@ -1615,23 +1412,6 @@
     "added_date": "2026-04-16",
     "slug": "fix-documentation",
     "created_date": "2025-11-16"
-  },
-  {
-    "name": "Geo Ecosystem Template",
-    "url": "https://github.com/danielrosehill/Geo-Ecosystem-Template",
-    "description": "Geography-scoped directory template for cataloguing a region's tech/industry ecosystem \u2014 VCs, accelerators, companies, communities, events, government bodies, hubs, research institutions, and notable people \u2014 with lens-based consolidation reports.",
-    "tags": [
-      "Documentation",
-      "Research",
-      "Template",
-      "Tool"
-    ],
-    "category": "Miscellaneous",
-    "category_slug": "misc",
-    "category_group": "Other",
-    "added_date": "2026-04-16",
-    "slug": "geo-ecosystem-template",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Git & GitHub",
@@ -2322,22 +2102,6 @@
     "added_date": "2026-04-14",
     "slug": "the-user-voice-types",
     "created_date": "2026-04-14"
-  },
-  {
-    "name": "Transcript Cleanup Template",
-    "url": "https://github.com/danielrosehill/Transcript-Cleanup-Template",
-    "description": "Processes audio recordings into clean, readable transcripts via a raw \u2192 cleaned \u2192 exported pipeline with speaker diarisation, filler removal, and Markdown/PDF/plain-text export.",
-    "tags": [
-      "Automation",
-      "Documentation",
-      "Template"
-    ],
-    "category": "Miscellaneous",
-    "category_slug": "misc",
-    "category_group": "Other",
-    "added_date": "2026-04-16",
-    "slug": "transcript-cleanup-template",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Video Editing",

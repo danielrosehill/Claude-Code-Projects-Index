@@ -9,10 +9,3 @@ Workspace for organizing personal health documentation, visit preparation, and m
 
 ---
 
-### Claude Parenting Planner
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Parenting-Planner) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Long-running parenting planning workspace covering schedules, developmental milestones, education choices, health records, parenting philosophies, decisions, and family-meeting logs — with a family-coordinator agent flagging conflicts and upcoming events.
-
----
-

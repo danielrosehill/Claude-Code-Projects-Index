@@ -53,13 +53,6 @@ Workflow methodology for separating human-authored context from structured AI ag
 
 ---
 
-### Context Maintenance Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Context-Maintenance-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Maintains an external Pinecone-backed RAG vector store over time — ingests new content, cleans up duplicates and stale entries, reconciles conflicts, and audits what's stored via the Pinecone MCP server.
-
----
-
 ### Home Folder Claude MD
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Home-Folder-Claude-MD) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
 
