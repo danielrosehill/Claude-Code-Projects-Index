@@ -613,6 +613,6 @@ Slash commands encouraging use of existing libraries instead of building custom 
 
 Other projects including meta-resources, feedback, and utilities that span multiple categories.
 
-**[See full list in the dedicated misc page →](./misc.md)** (19 entries)
+**[See full list in the dedicated misc page →](./misc.md)** (17 entries)
 
 ---

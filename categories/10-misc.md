@@ -25,13 +25,6 @@ Curated collection of 75+ agent workspace templates organized by use case, demon
 
 ---
 
-### Claude Browser Automation Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Browser-Automation-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Uses BrowserMCP plus Playwright to reverse-engineer and script browser automation tasks — drives a real browser once, captures network/DOM/auth flow, then writes and verifies the simplest viable automation script.
-
----
-
 ### Claude Code Bugs And FRs
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Bugs-And-FRs)
 
@@ -64,13 +57,6 @@ Centralized marketplace for discovering and installing Claude Code plugins — s
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Context-Feature-Requests)
 
 Feature requests for improving Claude Code's context handling capabilities.
-
----
-
-### Claude House Search Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-House-Search-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Manages a property search (rent, first-time buyer, or buyer mode) with a strict listing pipeline, viewing notes, area research, comparables, offers, and scoring against user criteria — each mode unlocks the relevant folders and commands.
 
 ---
 

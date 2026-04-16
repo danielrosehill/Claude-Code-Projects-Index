@@ -244,22 +244,6 @@
     "created_date": "2025-12-23"
   },
   {
-    "name": "Claude Browser Automation Template",
-    "url": "https://github.com/danielrosehill/Claude-Browser-Automation-Template",
-    "description": "Uses BrowserMCP plus Playwright to reverse-engineer and script browser automation tasks \u2014 drives a real browser once, captures network/DOM/auth flow, then writes and verifies the simplest viable automation script.",
-    "tags": [
-      "Automation",
-      "Documentation",
-      "Template"
-    ],
-    "category": "Miscellaneous",
-    "category_slug": "misc",
-    "category_group": "Other",
-    "added_date": "2026-04-16",
-    "slug": "claude-browser-automation-template",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "Claude Bug Catcher",
     "url": "https://github.com/danielrosehill/Claude-Bug-Catcher",
     "description": "Hotkey-triggered utility that launches Claude Code with relevant logs for real-time Linux debugging.",
@@ -696,23 +680,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-health-helper",
     "created_date": "2025-11-25"
-  },
-  {
-    "name": "Claude House Search Template",
-    "url": "https://github.com/danielrosehill/Claude-House-Search-Template",
-    "description": "Manages a property search (rent, first-time buyer, or buyer mode) with a strict listing pipeline, viewing notes, area research, comparables, offers, and scoring against user criteria \u2014 each mode unlocks the relevant folders and commands.",
-    "tags": [
-      "Automation",
-      "Documentation",
-      "Research",
-      "Template"
-    ],
-    "category": "Miscellaneous",
-    "category_slug": "misc",
-    "category_group": "Other",
-    "added_date": "2026-04-16",
-    "slug": "claude-house-search-template",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Claude Interview",
