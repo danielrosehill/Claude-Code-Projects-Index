@@ -39,13 +39,6 @@ GUI application for managing local network devices through isolated, device-spec
 
 ---
 
-### Claude Code Remote Machine Admin Space
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Remote-Machine-Admin-Space) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Template for managing individual remote machines via SSH with structured system profiles and logs.
-
----
-
 ### Claude Conda Manager
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Conda-Manager) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
 

@@ -230,26 +230,6 @@
     "created_date": "2026-03-09"
   },
   {
-    "name": "Claude Agent Workspace Model",
-    "url": "https://github.com/danielrosehill/Claude-Agent-Workspace-Model",
-    "description": "The reference template for the agent workspace pattern \u2014 a defined folder structure and Claude Code scaffolding (CLAUDE.md, slash commands, subagents, MCP configs) for using a repository as a structured workspace for any activity, not just development. Point Claude at this repo to have it scaffold new workspaces following the model.",
-    "tags": [
-      "Agent Workspace",
-      "Configuration",
-      "Documentation",
-      "MCP",
-      "Multi-Agent",
-      "Slash Commands",
-      "Template"
-    ],
-    "category": "Context and Personalization",
-    "category_slug": "context",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-03-09",
-    "slug": "claude-agent-workspace-model",
-    "created_date": "2026-03-09"
-  },
-  {
     "name": "Claude App Optimiser",
     "url": "https://github.com/danielrosehill/Claude-App-Optimiser",
     "description": "Slash command deploying a sub-agent for codebase optimization and dead code removal.",
@@ -309,20 +289,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-business-continuity-planner",
     "created_date": "2026-01-14"
-  },
-  {
-    "name": "Claude Business Idea Evaluator",
-    "url": "https://github.com/danielrosehill/Claude-Business-Idea-Evaluator",
-    "description": "Framework for evaluating and ranking business ideas using the ICEC methodology.",
-    "tags": [
-      "Business"
-    ],
-    "category": "Business",
-    "category_slug": "business",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-06",
-    "slug": "claude-business-idea-evaluator",
-    "created_date": "2025-11-23"
   },
   {
     "name": "Claude Calls The Shots",
@@ -566,22 +532,6 @@
     "created_date": "2025-11-09"
   },
   {
-    "name": "Claude Code Remote Machine Admin Space",
-    "url": "https://github.com/danielrosehill/Claude-Code-Remote-Machine-Admin-Space",
-    "description": "Template for managing individual remote machines via SSH with structured system profiles and logs.",
-    "tags": [
-      "Agent Workspace",
-      "Sysadmin",
-      "Template"
-    ],
-    "category": "Systems Administration",
-    "category_slug": "sysadmin",
-    "category_group": "Technical",
-    "added_date": "2026-03-06",
-    "slug": "claude-code-remote-machine-admin-space",
-    "created_date": "2025-10-29"
-  },
-  {
     "name": "Claude Code Repo Managers ClaudeMD",
     "url": "https://github.com/danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
     "description": "Pre-configured CLAUDE.md templates for managing different repository types.",
@@ -627,22 +577,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-code-writing-squad",
     "created_date": "2025-09-16"
-  },
-  {
-    "name": "Claude Competitor Research Agent",
-    "url": "https://github.com/danielrosehill/Claude-Competitor-Research-Agent",
-    "description": "Workspace for systematic competitive intelligence research using public sources, with commands for competitor scanning, pricing analysis, and formal CI report generation.",
-    "tags": [
-      "Agent Workspace",
-      "Business",
-      "Research"
-    ],
-    "category": "Business",
-    "category_slug": "business",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-09",
-    "slug": "claude-competitor-research-agent",
-    "created_date": "2026-03-09"
   },
   {
     "name": "Claude Conda Manager",
@@ -857,22 +791,6 @@
     "created_date": "2025-11-27"
   },
   {
-    "name": "Claude MCP Guidelines",
-    "url": "https://github.com/danielrosehill/Claude-MCP-Guidelines",
-    "description": "Guideline snippet for directing Claude Code on MCP usage across environments.",
-    "tags": [
-      "Documentation",
-      "MCP",
-      "Tool"
-    ],
-    "category": "MCP",
-    "category_slug": "mcp",
-    "category_group": "Technical",
-    "added_date": "2026-03-06",
-    "slug": "claude-mcp-guidelines",
-    "created_date": "2025-11-09"
-  },
-  {
     "name": "Claude MD Chunk",
     "url": "https://github.com/danielrosehill/Claude-MD-Chunk",
     "description": "Slash command that condenses bloated CLAUDE.md files to essentials and organizes supplementary context into a structured `agent-context/` folder.",
@@ -964,38 +882,6 @@
     "created_date": "2026-01-11"
   },
   {
-    "name": "Claude Repo Jumper",
-    "url": "https://github.com/danielrosehill/Claude-Repo-Jumper",
-    "description": "Skill for automating repository handovers with context-passing in multi-repo systems.",
-    "tags": [
-      "Automation",
-      "Multi-Agent"
-    ],
-    "category": "Multi-Agent Tooling",
-    "category_slug": "multi-agent",
-    "category_group": "Technical",
-    "added_date": "2026-03-06",
-    "slug": "claude-repo-jumper",
-    "created_date": "2026-01-01"
-  },
-  {
-    "name": "Claude Report Parsing Space Template",
-    "url": "https://github.com/danielrosehill/Claude-Report-Parsing-Space-Template",
-    "description": "Template for critical analysis of reports with slash commands for triage, argumentation, and source extraction.",
-    "tags": [
-      "Agent Workspace",
-      "Research",
-      "Slash Commands",
-      "Template"
-    ],
-    "category": "Research",
-    "category_slug": "research",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-03-06",
-    "slug": "claude-report-parsing-space-template",
-    "created_date": "2026-01-06"
-  },
-  {
     "name": "Claude Rescue",
     "url": "https://github.com/danielrosehill/Claude-Rescue",
     "description": "Concept for deploying Claude Code into recovery shell environments for AI-assisted system repair.",
@@ -1024,22 +910,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-resource-list-builder",
     "created_date": "2026-01-01"
-  },
-  {
-    "name": "Claude Salary Research Agent",
-    "url": "https://github.com/danielrosehill/Claude-Salary-Research-Agent",
-    "description": "Systematic salary and compensation research workspace using publicly available sources, with commands for role scanning, benchmarking, benefits analysis, and formal report generation.",
-    "tags": [
-      "Agent Workspace",
-      "Planning",
-      "Research"
-    ],
-    "category": "Career",
-    "category_slug": "career",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-09",
-    "slug": "claude-salary-research-agent",
-    "created_date": "2026-03-09"
   },
   {
     "name": "Claude Server Manager Template",
@@ -1120,22 +990,6 @@
     "created_date": "2025-12-28"
   },
   {
-    "name": "Claude Tech Research Team",
-    "url": "https://github.com/danielrosehill/Claude-Tech-Research-Team",
-    "description": "Multi-agent system for evaluating software and hardware technologies with automated reporting.",
-    "tags": [
-      "Automation",
-      "Multi-Agent",
-      "Research"
-    ],
-    "category": "Multi-Agent Tooling",
-    "category_slug": "multi-agent",
-    "category_group": "Technical",
-    "added_date": "2026-03-06",
-    "slug": "claude-tech-research-team",
-    "created_date": "2025-10-31"
-  },
-  {
     "name": "Claude Templatizer",
     "url": "https://github.com/danielrosehill/Claude-Templatizer",
     "description": "Turn a set of existing Claude Code workspace repos into a reusable GitHub template repo by extracting their commonalities.",
@@ -1178,24 +1032,6 @@
     "added_date": "2026-04-16",
     "slug": "claude-user-memory",
     "created_date": "2026-04-16"
-  },
-  {
-    "name": "Claude Web Analytics Space",
-    "url": "https://github.com/danielrosehill/Claude-Web-Analytics-Space",
-    "description": "Workspace template for SEO analytics with data cleaning, analysis, and reporting workflows.",
-    "tags": [
-      "Agent Workspace",
-      "Automation",
-      "Marketing",
-      "SEO",
-      "Template"
-    ],
-    "category": "Marketing",
-    "category_slug": "marketing",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-06",
-    "slug": "claude-web-analytics-space",
-    "created_date": "2026-01-06"
   },
   {
     "name": "Claude Website Update Sender",
@@ -1243,20 +1079,6 @@
     "added_date": "2026-04-16",
     "slug": "claudemd-chunker",
     "created_date": "2026-04-16"
-  },
-  {
-    "name": "ClaudeMD Turnstile",
-    "url": "https://github.com/danielrosehill/ClaudeMD-Turnstile",
-    "description": "A turnstile pattern for CLAUDE.md that routes agents to the appropriate nested context file based on their purpose, avoiding unnecessary context ingestion in open-sourced repos.",
-    "tags": [
-      "Configuration"
-    ],
-    "category": "Context and Personalization",
-    "category_slug": "context",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-04-09",
-    "slug": "claudemd-turnstile",
-    "created_date": "2026-04-09"
   },
   {
     "name": "Conda Manager",
@@ -1478,20 +1300,6 @@
     "added_date": "2026-04-16",
     "slug": "home-budget-helper",
     "created_date": "2026-04-16"
-  },
-  {
-    "name": "Home Folder Claude MD",
-    "url": "https://github.com/danielrosehill/Home-Folder-Claude-MD",
-    "description": "Version-controlled CLAUDE.md for applying Claude Code settings across a home directory.",
-    "tags": [
-      "Configuration"
-    ],
-    "category": "Context and Personalization",
-    "category_slug": "context",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-03-06",
-    "slug": "home-folder-claude-md",
-    "created_date": "2025-10-23"
   },
   {
     "name": "How-To-MCP",
@@ -2005,21 +1813,6 @@
     "added_date": "2026-04-16",
     "slug": "spec-starter",
     "created_date": "2026-04-16"
-  },
-  {
-    "name": "Split Context Setup",
-    "url": "https://github.com/danielrosehill/Split-Context-Setup",
-    "description": "Slash command that scaffolds a structured context store with topic-based subfolders.",
-    "tags": [
-      "Configuration",
-      "Slash Commands"
-    ],
-    "category": "Context and Personalization",
-    "category_slug": "context",
-    "category_group": "Research & Ideas",
-    "added_date": "2026-03-06",
-    "slug": "split-context-setup",
-    "created_date": "2026-02-17"
   },
   {
     "name": "Stack Search",

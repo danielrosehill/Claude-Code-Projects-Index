@@ -15,10 +15,3 @@ Workspace for systematic news collection and organization with metadata and sche
 Full-featured media monitoring workspace with structured data capture and batch processing.
 
 ---
-
-### Claude Web Analytics Space
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Web-Analytics-Space) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Workspace template for SEO analytics with data cleaning, analysis, and reporting workflows.
-
----

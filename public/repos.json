@@ -31,11 +31,6 @@
           "description": "Workspace for centralized management of multiple LAN-connected machines through Claude Code. GUI application for managing local network devices through isolated, device-specific agent workspaces."
         },
         {
-          "name": "Claude Code Remote Machine Admin Space",
-          "url": "https://github.com/danielrosehill/Claude-Code-Remote-Machine-Admin-Space",
-          "description": "Template for managing individual remote machines via SSH with structured system profiles and logs."
-        },
-        {
           "name": "Claude Conda Manager",
           "url": "https://github.com/danielrosehill/Claude-Conda-Manager",
           "description": "Workspace for managing Conda environments on Ubuntu workstations with AMD ROCm hardware."
@@ -108,27 +103,12 @@
         {
           "name": "Claude Career Planning Template",
           "url": "https://github.com/danielrosehill/Claude-Career-Planning-Template",
-          "description": "Continuous professional development workspace tracking career goals, skills gap analysis, CPD log, courses, certifications, conferences, and quarterly learning plans \u2014 produces CV/LinkedIn-ready career narratives."
-        },
-        {
-          "name": "Claude Salary Research Agent",
-          "url": "https://github.com/danielrosehill/Claude-Salary-Research-Agent",
-          "description": "Systematic salary and compensation research workspace using publicly available sources, with commands for role scanning, benchmarking, benefits analysis, and formal report generation. Workspaces and templates for business planning, idea evaluation, and organizational continuity."
+          "description": "Continuous professional development workspace tracking career goals, skills gap analysis, CPD log, courses, certifications, conferences, and quarterly learning plans \u2014 produces CV/LinkedIn-ready career narratives. Workspaces and templates for business planning, idea evaluation, and organizational continuity."
         },
         {
           "name": "Claude Business Continuity Planner",
           "url": "https://github.com/danielrosehill/Claude-Business-Continuity-Planner",
-          "description": "Workspace for developing ISO 22301-aligned business continuity programs with slash commands."
-        },
-        {
-          "name": "Claude Business Idea Evaluator",
-          "url": "https://github.com/danielrosehill/Claude-Business-Idea-Evaluator",
-          "description": "Framework for evaluating and ranking business ideas using the ICEC methodology."
-        },
-        {
-          "name": "Claude Competitor Research Agent",
-          "url": "https://github.com/danielrosehill/Claude-Competitor-Research-Agent",
-          "description": "Workspace for systematic competitive intelligence research using public sources, with commands for competitor scanning, pricing analysis, and formal CI report generation. Workspaces and templates for document redaction, identity protection, and PII obfuscation. Workspaces for hardware planning, PC builds, and technology procurement."
+          "description": "Workspace for developing ISO 22301-aligned business continuity programs with slash commands. Workspaces and templates for document redaction, identity protection, and PII obfuscation. Workspaces for hardware planning, PC builds, and technology procurement."
         },
         {
           "name": "Claude Ivory PC Builder",
@@ -144,11 +124,6 @@
           "name": "Claude News Fetcher - Media Monitoring System",
           "url": "https://github.com/danielrosehill/Claude-PR-And-Media-Monitoring-Workspace",
           "description": "Full-featured media monitoring workspace with structured data capture and batch processing."
-        },
-        {
-          "name": "Claude Web Analytics Space",
-          "url": "https://github.com/danielrosehill/Claude-Web-Analytics-Space",
-          "description": "Workspace template for SEO analytics with data cleaning, analysis, and reporting workflows."
         }
       ]
     },
@@ -173,11 +148,6 @@
           "description": "Automation workspace for batch-adding CLAUDE.md files across multiple GitHub repositories."
         },
         {
-          "name": "Claude Agent Workspace Model",
-          "url": "https://github.com/danielrosehill/Claude-Agent-Workspace-Model",
-          "description": "The reference template for the agent workspace pattern \u2014 a defined folder structure and Claude Code scaffolding (CLAUDE.md, slash commands, subagents, MCP configs) for using a repository as a structured workspace for any activity, not just development. Point Claude at this repo to have it scaffold new workspaces following the model."
-        },
-        {
           "name": "Claude Code Context Toolkit",
           "url": "https://github.com/danielrosehill/Claude-Code-Context-Toolkit",
           "description": "Bridges human-friendly CONTEXT.md files with AI-optimized CLAUDE.md briefings via slash commands."
@@ -193,19 +163,9 @@
           "description": "Prompt template for verifying the correct Claude model variant at conversation start."
         },
         {
-          "name": "ClaudeMD Turnstile",
-          "url": "https://github.com/danielrosehill/ClaudeMD-Turnstile",
-          "description": "A turnstile pattern for CLAUDE.md that routes agents to the appropriate nested context file based on their purpose, avoiding unnecessary context ingestion in open-sourced repos."
-        },
-        {
           "name": "CONTEXT.md",
           "url": "https://github.com/danielrosehill/CONTEXT.md",
           "description": "Workflow methodology for separating human-authored context from structured AI agent briefings."
-        },
-        {
-          "name": "Home Folder Claude MD",
-          "url": "https://github.com/danielrosehill/Home-Folder-Claude-MD",
-          "description": "Version-controlled CLAUDE.md for applying Claude Code settings across a home directory."
         },
         {
           "name": "Linux Desktop ClaudeMD Seeder",
@@ -216,11 +176,6 @@
           "name": "Private And Public Claude MD",
           "url": "https://github.com/danielrosehill/Private-And-Public-Claude-MD",
           "description": "Tools for managing public and private CLAUDE.md files with security-focused git configuration."
-        },
-        {
-          "name": "Split Context Setup",
-          "url": "https://github.com/danielrosehill/Split-Context-Setup",
-          "description": "Slash command that scaffolds a structured context store with topic-based subfolders."
         },
         {
           "name": "The User Voice Types",
@@ -249,19 +204,9 @@
           "description": "Launchpad for creating standardized workspace templates conforming to the Agent Workspace Model v1.1 spec, with slash commands to generate, validate, and publish new workspaces."
         },
         {
-          "name": "Claude Repo Jumper",
-          "url": "https://github.com/danielrosehill/Claude-Repo-Jumper",
-          "description": "Skill for automating repository handovers with context-passing in multi-repo systems."
-        },
-        {
           "name": "Claude Task Manager",
           "url": "https://github.com/danielrosehill/Claude-Task-Manager",
           "description": "Sequential task queuing system addressing context window exhaustion in agentic coding tools."
-        },
-        {
-          "name": "Claude Tech Research Team",
-          "url": "https://github.com/danielrosehill/Claude-Tech-Research-Team",
-          "description": "Multi-agent system for evaluating software and hardware technologies with automated reporting."
         },
         {
           "name": "Claude Development Agents",
@@ -308,11 +253,6 @@
           "name": "Claude Code MCP List",
           "url": "https://github.com/danielrosehill/Claude-Code-MCP-List",
           "description": "Curated index of MCP servers organized into 14+ categories for extending Claude Code."
-        },
-        {
-          "name": "Claude MCP Guidelines",
-          "url": "https://github.com/danielrosehill/Claude-MCP-Guidelines",
-          "description": "Guideline snippet for directing Claude Code on MCP usage across environments."
         },
         {
           "name": "MCPM Claude Code Docs",
@@ -391,13 +331,13 @@
   ],
   "statistics": {
     "total_categories": 7,
-    "total_repositories": 68,
+    "total_repositories": 56,
     "repositories_by_category": {
-      "Systems Administration": 28,
+      "Systems Administration": 23,
       "Argument and Perspective Exploration": 1,
-      "Context and Personalization": 12,
-      "Multi-Agent Tooling": 11,
-      "MCP": 6,
+      "Context and Personalization": 8,
+      "Multi-Agent Tooling": 9,
+      "MCP": 5,
       "Plugins": 1,
       "Slash Commands": 9
     }

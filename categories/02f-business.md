@@ -8,17 +8,3 @@ Workspaces and templates for business planning, idea evaluation, and organizatio
 Workspace for developing ISO 22301-aligned business continuity programs with slash commands.
 
 ---
-
-### Claude Business Idea Evaluator
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Business-Idea-Evaluator) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
-
-Framework for evaluating and ranking business ideas using the ICEC methodology.
-
----
-
-### Claude Competitor Research Agent
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Competitor-Research-Agent) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Workspace for systematic competitive intelligence research using public sources, with commands for competitor scanning, pricing analysis, and formal CI report generation.
-
----

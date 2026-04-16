@@ -27,24 +27,10 @@ Launchpad for creating standardized workspace templates conforming to the Agent 
 
 ---
 
-### Claude Repo Jumper
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Jumper)
-
-Skill for automating repository handovers with context-passing in multi-repo systems.
-
----
-
 ### Claude Task Manager
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Task-Manager) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
 Sequential task queuing system addressing context window exhaustion in agentic coding tools.
-
----
-
-### Claude Tech Research Team
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Tech-Research-Team) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
-
-Multi-agent system for evaluating software and hardware technologies with automated reporting.
 
 ---
 
