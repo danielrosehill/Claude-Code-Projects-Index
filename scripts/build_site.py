@@ -32,22 +32,89 @@ CATEGORIES_JSON_PATH = DATA_DIR / "categories.json"
 TAGGED_REPOS_PATH = DOCS_DIR / "tagged_repos.json"
 SITE_STATE_PATH = DATA_DIR / "site_state.json"
 CREATED_DATES_PATH = DATA_DIR / "repo_created_dates.json"
+SPLIT_PAGES_PATH = DATA_DIR / "split_pages.json"
+SPLIT_PAGE_BANNER = "<!-- GENERATED from categories/{source} — do not edit directly. Run `npm run build`. -->"
+
+
+def load_split_config() -> dict:
+    """Load data/split_pages.json mapping category file → standalone output file."""
+    if not SPLIT_PAGES_PATH.exists():
+        return {}
+    with open(SPLIT_PAGES_PATH, "r", encoding="utf-8") as f:
+        cfg = json.load(f)
+    return {s["category_file"]: s for s in cfg.get("splits", [])}
+
+
+def split_category_into_teaser(content: str, output_file: str, category_filename: str) -> tuple[str, str]:
+    """Return (teaser_for_readme, full_page_content) for a split category.
+
+    The teaser keeps the heading, banner image, and any intro paragraphs before
+    the first repo entry, then appends a link to the dedicated page. The full
+    page is the original content with a generated-file banner.
+    """
+    lines = content.split("\n")
+    cut = next((i for i, line in enumerate(lines) if line.lstrip().startswith("### ")), len(lines))
+
+    teaser_body = "\n".join(lines[:cut]).rstrip()
+    repo_count = sum(1 for line in lines[cut:] if line.lstrip().startswith("### "))
+
+    page_slug = output_file.rsplit(".", 1)[0]
+    count_note = f" ({repo_count} entries)" if repo_count else ""
+    teaser = (
+        f"{teaser_body}\n\n"
+        f"**[See full list in the dedicated {page_slug} page →](./{output_file})**{count_note}\n\n"
+        "---\n"
+    )
+
+    banner = SPLIT_PAGE_BANNER.format(source=category_filename)
+    page = f"{banner}\n\n{content.lstrip()}"
+    return teaser, page
+
+
+def emit_split_pages(split_config: dict) -> dict[str, str]:
+    """Write standalone <output>.md files at the repo root for each split category.
+
+    Returns a map of category filename → teaser text for use in the README.
+    """
+    teasers: dict[str, str] = {}
+    for cat_filename, entry in split_config.items():
+        cat_path = CATEGORIES_DIR / cat_filename
+        if not cat_path.exists():
+            print(f"  warning: split config references missing {cat_filename}")
+            continue
+        content = cat_path.read_text(encoding="utf-8")
+        teaser, page = split_category_into_teaser(content, entry["output"], cat_filename)
+        (REPO_ROOT / entry["output"]).write_text(page, encoding="utf-8")
+        teasers[cat_filename] = teaser
+        print(f"  emitted {entry['output']} ({cat_filename})")
+    return teasers
 
 
 def build_readme():
-    """Step 1: Concatenate category files into README.md."""
+    """Step 1: Concatenate category files into README.md with teasers for split categories."""
     category_files = sorted(CATEGORIES_DIR.glob("*.md"))
     if not category_files:
         print("Error: No category files found")
         sys.exit(1)
 
+    split_config = load_split_config()
+    if split_config:
+        print(f"[1a/6] Emitting {len(split_config)} split page(s)")
+        teasers = emit_split_pages(split_config)
+    else:
+        teasers = {}
+
     content_parts = []
     for cat_file in category_files:
-        content_parts.append(cat_file.read_text(encoding="utf-8"))
+        if cat_file.name in teasers:
+            content_parts.append(teasers[cat_file.name])
+        else:
+            content_parts.append(cat_file.read_text(encoding="utf-8"))
 
     full_content = "\n".join(content_parts)
     README_PATH.write_text(full_content, encoding="utf-8")
-    print(f"[1/6] README.md built from {len(category_files)} category files")
+    split_note = f" ({len(teasers)} as teasers)" if teasers else ""
+    print(f"[1/6] README.md built from {len(category_files)} category files{split_note}")
     return full_content
 
 
@@ -623,11 +690,24 @@ def update_site_state(tagged_repos):
             print(f"       - {name}")
 
 
+def sync_marketplace_step():
+    """Step 0: Sync marketplace manifest → regenerate categories/08-plugins.md."""
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+    try:
+        from sync_marketplace import sync as run_sync
+    except ImportError as e:
+        print(f"[0/6] skipped marketplace sync: {e}")
+        return
+    print("[0/6] Syncing marketplace manifest")
+    run_sync()
+
+
 def main():
     print("=" * 60)
     print("Claude Code Repos Index - Site Build Pipeline")
     print("=" * 60 + "\n")
 
+    sync_marketplace_step()
     readme_content = build_readme()
     repos_data = parse_readme_to_repos_json()
     tagged = generate_tagged_repos(repos_data)

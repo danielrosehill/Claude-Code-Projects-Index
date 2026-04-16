@@ -1,0 +1,17 @@
+{
+  "_comment": "Categories listed here get a standalone <output>.md emitted at the repo root. The README shows a short teaser (category title + image + intro paragraph) with a 'see dedicated page' link instead of the full list. Edit only the category file — both outputs regenerate on build.",
+  "splits": [
+    {
+      "category_file": "03-research.md",
+      "output": "research.md"
+    },
+    {
+      "category_file": "08-plugins.md",
+      "output": "plugins.md"
+    },
+    {
+      "category_file": "10-misc.md",
+      "output": "misc.md"
+    }
+  ]
+}
