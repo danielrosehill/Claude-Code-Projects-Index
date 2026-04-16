@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-16T22:40:39",
-  "total_repos": 125,
+  "last_built": "2026-04-16T22:46:16",
+  "total_repos": 120,
   "total_tags": 22,
   "repo_manifest": {
     "Agent Junction": "4251099ca55c99b1f616c4ca81e704cd",
@@ -29,7 +29,6 @@
     "Claude Code Context Feature Requests": "135a854f6ca9dbd8b3e9de5768447f16",
     "Claude Code Context Toolkit": "24573ff117dab7bce3a4d55318ceac90",
     "Claude Code Feedback": "b0e43a47d2adf1d932bf159b8100391f",
-    "Claude Code LAN Manager": "492ee4e8063cdb3c6571d4971ae9f534",
     "Claude Code Linux Desktop Slash Commands": "5554dbe5b2497f4cf5f53149303ff511",
     "Claude Code Linux Notes": "f07b588313f2d76a2e66058e81d4d0cd",
     "Claude Code Marketplace Hub": "4fd01c91aaf06329ee19f87298e72cb9",
@@ -40,7 +39,6 @@
     "Claude Code Repo Managers ClaudeMD": "66d19e814aa0c7cfb59864009598f2ce",
     "Claude Code What Thing": "5ec3ef36f66ba0cdbbe13c9152d12310",
     "Claude Code Writing Squad": "4694d9b4c248e94f89371f9b47b0c727",
-    "Claude Conda Manager": "4f0ba850b60b910cf31f3a8d3db177ea",
     "Claude Deep Research Model (Notes / Documentation)": "3ba2ee36ca149edc7ecae26ae983907a",
     "Claude Development Agents": "1471b9bc65a649101974399fb091c09d",
     "Claude Document This": "330c1872b40456ba9521fc200805ee4b",
@@ -57,11 +55,8 @@
     "Claude Media Monitor": "ce5855ef79b78b52b024d1a21cbbd47b",
     "Claude Model Identifier": "3073be49b8b220af340933111fa11b00",
     "Claude MVT Workspace": "df5ab0cf6f963040392aa2884150d146",
-    "Claude News Fetcher - Media Monitoring System": "5d80bcb015b74f1d62ce5f4f4d482e3d",
     "Claude Personal Development Workspace": "0da52e0a12a8576dae35733e68da2541",
     "Claude Rescue": "f4a99aee1a9ba0c7b4f87bf80e09ff60",
-    "Claude Resource List Builder": "2be24616f610b8250e289adafa533c89",
-    "Claude Server Manager Template": "6817de49840779e7669b5c1dabcb73ea",
     "Claude Slash Commands": "f8c37eb4140b2eb635ee146c2b7002b2",
     "Claude Sub-Agent Network": "84729c6a4fcd48dfeff2cf62af443c7b",
     "Claude System Recovery Mode": "2d2f70f4ee3175bba7b6b5fb9ddee122",
@@ -1381,6 +1376,22 @@
         }
       ],
       "total_repos": 125
+    },
+    {
+      "date": "2026-04-16T22:46:16",
+      "changes": [
+        {
+          "type": "removed",
+          "repos": [
+            "Claude Code LAN Manager",
+            "Claude Conda Manager",
+            "Claude News Fetcher - Media Monitoring System",
+            "Claude Resource List Builder",
+            "Claude Server Manager Template"
+          ]
+        }
+      ],
+      "total_repos": 120
     }
   ]
 }

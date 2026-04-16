@@ -81,13 +81,6 @@ Research into agentic AI tools optimized for system administration rather than c
 
 ---
 
-### Claude Resource List Builder
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Resource-List-Builder) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
-
-Template for building curated resource lists with organized taxonomy and PDF export.
-
----
-
 ### Claude User Manual
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-User-Manual)
 

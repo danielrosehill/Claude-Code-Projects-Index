@@ -27,36 +27,10 @@ Collection of bash aliases for common Claude Code operations on Linux.
 
 ---
 
-### Claude Code LAN Manager
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-LAN-Manager) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![LAN Manager](https://img.shields.io/badge/LAN-Manager-blue?style=flat-square)
-
-Workspace for centralized management of multiple LAN-connected machines through Claude Code.
-
-#### Claude LAN Manager GUI
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-LAN-Manager-0126)
-
-GUI application for managing local network devices through isolated, device-specific agent workspaces.
-
----
-
-### Claude Conda Manager
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Conda-Manager) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Workspace for managing Conda environments on Ubuntu workstations with AMD ROCm hardware.
-
----
-
 ### Claude Rescue
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Rescue)
 
 Concept for deploying Claude Code into recovery shell environments for AI-assisted system repair.
-
----
-
-### Claude Server Manager Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Server-Manager-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Server administration template with 38 slash commands and 10 agents optimized for Docker deployments.
 
 ---
 

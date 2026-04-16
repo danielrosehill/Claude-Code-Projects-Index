@@ -394,22 +394,6 @@
     "created_date": "2026-04-16"
   },
   {
-    "name": "Claude Code LAN Manager",
-    "url": "https://github.com/danielrosehill/Claude-LAN-Manager-0126",
-    "description": "Workspace for centralized management of multiple LAN-connected machines through Claude Code. GUI application for managing local network devices through isolated, device-specific agent workspaces.",
-    "tags": [
-      "Agent Workspace",
-      "Sysadmin",
-      "Tool"
-    ],
-    "category": "Systems Administration",
-    "category_slug": "sysadmin",
-    "category_group": "Technical",
-    "added_date": "2026-03-06",
-    "slug": "claude-code-lan-manager",
-    "created_date": "2026-01-09"
-  },
-  {
     "name": "Claude Code Linux Desktop Slash Commands",
     "url": "https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
     "description": "System administration slash commands for Linux desktop environments.",
@@ -561,21 +545,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-code-writing-squad",
     "created_date": "2025-09-16"
-  },
-  {
-    "name": "Claude Conda Manager",
-    "url": "https://github.com/danielrosehill/Claude-Conda-Manager",
-    "description": "Workspace for managing Conda environments on Ubuntu workstations with AMD ROCm hardware.",
-    "tags": [
-      "Agent Workspace",
-      "Sysadmin"
-    ],
-    "category": "Systems Administration",
-    "category_slug": "sysadmin",
-    "category_group": "Technical",
-    "added_date": "2026-03-06",
-    "slug": "claude-conda-manager",
-    "created_date": "2025-10-28"
   },
   {
     "name": "Claude Deep Research Model (Notes / Documentation)",
@@ -818,22 +787,6 @@
     "created_date": "2026-03-09"
   },
   {
-    "name": "Claude News Fetcher - Media Monitoring System",
-    "url": "https://github.com/danielrosehill/Claude-PR-And-Media-Monitoring-Workspace",
-    "description": "Full-featured media monitoring workspace with structured data capture and batch processing.",
-    "tags": [
-      "Agent Workspace",
-      "Marketing",
-      "SEO"
-    ],
-    "category": "Marketing",
-    "category_slug": "marketing",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-06",
-    "slug": "claude-news-fetcher-media-monitoring-system",
-    "created_date": "2025-11-10"
-  },
-  {
     "name": "Claude Personal Development Workspace",
     "url": "https://github.com/danielrosehill/Claude-Personal-Development-Workspace",
     "description": "Workspace for tracking habits, skill acquisition, and self-improvement goals with AI coaching.",
@@ -862,38 +815,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-rescue",
     "created_date": "2025-11-14"
-  },
-  {
-    "name": "Claude Resource List Builder",
-    "url": "https://github.com/danielrosehill/Claude-Resource-List-Builder",
-    "description": "Template for building curated resource lists with organized taxonomy and PDF export.",
-    "tags": [
-      "Documentation",
-      "Template"
-    ],
-    "category": "Miscellaneous",
-    "category_slug": "misc",
-    "category_group": "Other",
-    "added_date": "2026-03-06",
-    "slug": "claude-resource-list-builder",
-    "created_date": "2026-01-01"
-  },
-  {
-    "name": "Claude Server Manager Template",
-    "url": "https://github.com/danielrosehill/Claude-Server-Manager-Template",
-    "description": "Server administration template with 38 slash commands and 10 agents optimized for Docker deployments.",
-    "tags": [
-      "Agent Workspace",
-      "Slash Commands",
-      "Sysadmin",
-      "Template"
-    ],
-    "category": "Systems Administration",
-    "category_slug": "sysadmin",
-    "category_group": "Technical",
-    "added_date": "2026-03-06",
-    "slug": "claude-server-manager-template",
-    "created_date": "2025-11-01"
   },
   {
     "name": "Claude Slash Commands",

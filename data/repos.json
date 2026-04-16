@@ -26,24 +26,9 @@
           "description": "Collection of bash aliases for common Claude Code operations on Linux."
         },
         {
-          "name": "Claude Code LAN Manager",
-          "url": "https://github.com/danielrosehill/Claude-Code-LAN-Manager",
-          "description": "Workspace for centralized management of multiple LAN-connected machines through Claude Code. GUI application for managing local network devices through isolated, device-specific agent workspaces."
-        },
-        {
-          "name": "Claude Conda Manager",
-          "url": "https://github.com/danielrosehill/Claude-Conda-Manager",
-          "description": "Workspace for managing Conda environments on Ubuntu workstations with AMD ROCm hardware."
-        },
-        {
           "name": "Claude Rescue",
           "url": "https://github.com/danielrosehill/Claude-Rescue",
           "description": "Concept for deploying Claude Code into recovery shell environments for AI-assisted system repair."
-        },
-        {
-          "name": "Claude Server Manager Template",
-          "url": "https://github.com/danielrosehill/Claude-Server-Manager-Template",
-          "description": "Server administration template with 38 slash commands and 10 agents optimized for Docker deployments."
         },
         {
           "name": "Claude System Recovery Mode",
@@ -119,11 +104,6 @@
           "name": "Claude Media Monitor",
           "url": "https://github.com/danielrosehill/Claude-Media-Monitor",
           "description": "Workspace for systematic news collection and organization with metadata and schema validation."
-        },
-        {
-          "name": "Claude News Fetcher - Media Monitoring System",
-          "url": "https://github.com/danielrosehill/Claude-PR-And-Media-Monitoring-Workspace",
-          "description": "Full-featured media monitoring workspace with structured data capture and batch processing."
         }
       ]
     },
@@ -331,9 +311,9 @@
   ],
   "statistics": {
     "total_categories": 7,
-    "total_repositories": 56,
+    "total_repositories": 52,
     "repositories_by_category": {
-      "Systems Administration": 23,
+      "Systems Administration": 19,
       "Argument and Perspective Exploration": 1,
       "Context and Personalization": 8,
       "Multi-Agent Tooling": 9,
