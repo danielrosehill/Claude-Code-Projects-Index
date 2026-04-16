@@ -443,6 +443,21 @@
     "created_date": "2025-10-27"
   },
   {
+    "name": "Claude Code Feedback",
+    "url": "https://github.com/danielrosehill/Claude-Code-Feedback-Plugin",
+    "description": "Self-healing helper for filing well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live GitHub issue-form templates on every run so submissions always match Anthropic's current required fields.",
+    "tags": [
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "claude-code-feedback",
+    "created_date": "2026-04-16"
+  },
+  {
     "name": "Claude Code LAN Manager",
     "url": "https://github.com/danielrosehill/Claude-LAN-Manager-0126",
     "description": "Workspace for centralized management of multiple LAN-connected machines through Claude Code. GUI application for managing local network devices through isolated, device-specific agent workspaces.",

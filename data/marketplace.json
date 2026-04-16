@@ -37,7 +37,7 @@
         "repo": "danielrosehill/context-toolkit-plugin"
       },
       "description": "A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1048,6 +1048,29 @@
         "context",
         "personalization",
         "mcp"
+      ]
+    },
+    {
+      "name": "claude-code-feedback",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Code-Feedback-Plugin"
+      },
+      "description": "Self-healing helper for filing well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live GitHub issue-form templates on every run so submissions always match Anthropic's current required fields.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "claude-code",
+        "github-issues",
+        "bug-report",
+        "feature-request",
+        "feedback",
+        "self-healing"
       ]
     }
   ]

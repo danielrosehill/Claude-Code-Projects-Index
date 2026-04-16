@@ -87,6 +87,13 @@ Claude Code plugin for managing a Synology NAS via SSH — guided first-run setu
 
 ## Development & Scaffolding
 
+### Claude Code Feedback
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Feedback-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Self-healing helper for filing well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live GitHub issue-form templates on every run so submissions always match Anthropic's current required fields.
+
+---
+
 ### Claude Janitor
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Janitor) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 

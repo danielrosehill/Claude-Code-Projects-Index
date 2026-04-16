@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-16T22:14:35",
-  "total_repos": 154,
+  "last_built": "2026-04-16T22:26:07",
+  "total_repos": 155,
   "total_tags": 22,
   "repo_manifest": {
     "Agent Junction": "4251099ca55c99b1f616c4ca81e704cd",
@@ -32,6 +32,7 @@
     "Claude Code Bugs And FRs": "f2497ea42c6593d5fc088992b33facc4",
     "Claude Code Context Feature Requests": "135a854f6ca9dbd8b3e9de5768447f16",
     "Claude Code Context Toolkit": "24573ff117dab7bce3a4d55318ceac90",
+    "Claude Code Feedback": "b0e43a47d2adf1d932bf159b8100391f",
     "Claude Code LAN Manager": "492ee4e8063cdb3c6571d4971ae9f534",
     "Claude Code Linux Desktop Slash Commands": "5554dbe5b2497f4cf5f53149303ff511",
     "Claude Code Linux Notes": "f07b588313f2d76a2e66058e81d4d0cd",
@@ -1335,6 +1336,18 @@
         }
       ],
       "total_repos": 154
+    },
+    {
+      "date": "2026-04-16T22:26:07",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Claude Code Feedback"
+          ]
+        }
+      ],
+      "total_repos": 155
     }
   ]
 }
