@@ -48,32 +48,7 @@
         {
           "name": "Claude System Recovery Mode",
           "url": "https://github.com/danielrosehill/Claude-System-Recovery-Mode",
-          "description": "Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflows."
-        },
-        {
-          "name": "Claude MVT Workspace",
-          "url": "https://github.com/danielrosehill/Claude-MVT-Workspace",
-          "description": "Workspace orchestrating Mobile Verification Toolkit (MVT) spyware scans on Android devices via ADB, detecting indicators of compromise from targeted malware like Pegasus. Workspaces for decision-making, personal planning, file management, and general-purpose productivity workflows. > **See also:** The **[Claude Code Workspace Templates Index](https://github.com/danielrosehill/Claude-Code-Workspace-Templates-Index)** is a dedicated sub-index for all domain-specific workspace templates (budgeting, health, research, writing, etc.)."
-        },
-        {
-          "name": "Claude Personal Development Workspace",
-          "url": "https://github.com/danielrosehill/Claude-Personal-Development-Workspace",
-          "description": "Workspace for tracking habits, skill acquisition, and self-improvement goals with AI coaching. Workspaces and templates for legal research, case management, and evidence handling workflows."
-        },
-        {
-          "name": "ProofMode Unpacker",
-          "url": "https://github.com/danielrosehill/Proofmode-Unpacker",
-          "description": "Utility for managing ProofMode evidence bundles with automated cloud backup and chain of custody preservation. Workspaces and templates for health documentation, medical visit management, therapy tracking, and health-related research."
-        },
-        {
-          "name": "Claude Health Helper",
-          "url": "https://github.com/danielrosehill/Claude-Health-Helper",
-          "description": "Workspace for organizing personal health documentation, visit preparation, and medical report summaries. Workspaces and templates for content creation, blog management, writing workflows, and communications strategy."
-        },
-        {
-          "name": "Claude Code Writing Squad",
-          "url": "https://github.com/danielrosehill/Claude-Code-Writing-Squad",
-          "description": "Multi-agent writing system that refines text through specialized editing agents."
+          "description": "Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflows. Workspaces for decision-making, personal planning, file management, and general-purpose productivity workflows. > **See also:** The **[Claude Code Workspace Templates Index](https://github.com/danielrosehill/Claude-Code-Workspace-Templates-Index)** is a dedicated sub-index for all domain-specific workspace templates (budgeting, health, research, writing, etc.). Workspaces and templates for legal research, case management, and evidence handling workflows. Workspaces and templates for health documentation, medical visit management, therapy tracking, and health-related research. Workspaces and templates for content creation, blog management, writing workflows, and communications strategy."
         },
         {
           "name": "Claude Website Update Sender",
@@ -83,27 +58,7 @@
         {
           "name": "Declaude",
           "url": "https://github.com/danielrosehill/Declaude",
-          "description": "Personalized text rewriting rules that consolidate into a slash command for refining AI-generated documentation. Workspaces and templates for budgeting, purchasing decisions, and personal finance management. Workspaces and templates for job searching, career planning, and professional development."
-        },
-        {
-          "name": "Claude Career Planning Template",
-          "url": "https://github.com/danielrosehill/Claude-Career-Planning-Template",
-          "description": "Continuous professional development workspace tracking career goals, skills gap analysis, CPD log, courses, certifications, conferences, and quarterly learning plans \u2014 produces CV/LinkedIn-ready career narratives. Workspaces and templates for business planning, idea evaluation, and organizational continuity."
-        },
-        {
-          "name": "Claude Business Continuity Planner",
-          "url": "https://github.com/danielrosehill/Claude-Business-Continuity-Planner",
-          "description": "Workspace for developing ISO 22301-aligned business continuity programs with slash commands. Workspaces and templates for document redaction, identity protection, and PII obfuscation. Workspaces for hardware planning, PC builds, and technology procurement."
-        },
-        {
-          "name": "Claude Ivory PC Builder",
-          "url": "https://github.com/danielrosehill/Claude-Ivory-PC-Builder",
-          "description": "AI-powered PC component spec generator with real-time pricing from an Israeli retailer, historical price tracking, and compatibility verification. Workspaces for SEO, web analytics, PR monitoring, and media tracking."
-        },
-        {
-          "name": "Claude Media Monitor",
-          "url": "https://github.com/danielrosehill/Claude-Media-Monitor",
-          "description": "Workspace for systematic news collection and organization with metadata and schema validation."
+          "description": "Personalized text rewriting rules that consolidate into a slash command for refining AI-generated documentation. Workspaces and templates for budgeting, purchasing decisions, and personal finance management. Workspaces and templates for job searching, career planning, and professional development. Workspaces and templates for business planning, idea evaluation, and organizational continuity. Workspaces and templates for document redaction, identity protection, and PII obfuscation. Workspaces for hardware planning, PC builds, and technology procurement. Workspaces for SEO, web analytics, PR monitoring, and media tracking."
         }
       ]
     },
@@ -311,9 +266,9 @@
   ],
   "statistics": {
     "total_categories": 7,
-    "total_repositories": 52,
+    "total_repositories": 43,
     "repositories_by_category": {
-      "Systems Administration": 19,
+      "Systems Administration": 10,
       "Argument and Perspective Exploration": 1,
       "Context and Personalization": 8,
       "Multi-Agent Tooling": 9,

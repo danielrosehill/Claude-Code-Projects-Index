@@ -1,7 +1,7 @@
 {
-  "last_built": "2026-04-16T22:46:16",
-  "total_repos": 120,
-  "total_tags": 22,
+  "last_built": "2026-04-16T22:46:56",
+  "total_repos": 111,
+  "total_tags": 14,
   "repo_manifest": {
     "Agent Junction": "4251099ca55c99b1f616c4ca81e704cd",
     "AI Attribution": "aed18a9c2ba453ffc0dbfb976bf26365",
@@ -20,9 +20,7 @@
     "Claude Agent Workspace Generator": "ec3520a6b51d7a238fefeb4967e7a25c",
     "Claude App Optimiser": "efc30e1ac47ec8776755224f341ae566",
     "Claude Bug Catcher": "c5403f3f00d508a79fc6d04e35c8169d",
-    "Claude Business Continuity Planner": "57130af41b9c1edd29a36c155acf9759",
     "Claude Calls The Shots": "01393094e54f04e7cc87b8e05585dec2",
-    "Claude Career Planning Template": "6678f884a30f42b8b068edfadf837321",
     "Claude Change My View": "9c0fe2635ca7e202f1c34d77e3e4ea88",
     "Claude Code Bash Aliases": "f495b7e8e3957647e9e634a04d68bb2a",
     "Claude Code Bugs And FRs": "f2497ea42c6593d5fc088992b33facc4",
@@ -38,24 +36,18 @@
     "Claude Code Plugins Marketplace": "ea09e65724d874d54add5339a36a00c3",
     "Claude Code Repo Managers ClaudeMD": "66d19e814aa0c7cfb59864009598f2ce",
     "Claude Code What Thing": "5ec3ef36f66ba0cdbbe13c9152d12310",
-    "Claude Code Writing Squad": "4694d9b4c248e94f89371f9b47b0c727",
     "Claude Deep Research Model (Notes / Documentation)": "3ba2ee36ca149edc7ecae26ae983907a",
     "Claude Development Agents": "1471b9bc65a649101974399fb091c09d",
     "Claude Document This": "330c1872b40456ba9521fc200805ee4b",
     "Claude Dolphin & Konsole Actions": "ef4d85c9b55e402f7ec74554f5307e6c",
     "Claude Dork": "691d589505cd5d6157d5005bab4d94b8",
     "Claude File Organiser Super Slash": "7178de3040bbd371b0934d0d03b390e7",
-    "Claude Health Helper": "1498fdb820995a3771b7addcae0ef179",
     "Claude Interview": "f0c11bb886b3d874d630555b8eb1f1f7",
     "Claude Is Awesome": "8c93b738e23ebfc264d6a0fac3a24d55",
-    "Claude Ivory PC Builder": "270845804449b24b99ae40681675182e",
     "Claude Janitor": "e017f635bf639d107e7de9962e60b9bd",
     "Claude Local AI Agent Research": "b81fa051dab2104f8be97a8c521f32e8",
     "Claude MD Chunk": "5394c5eddcb97d5e7da765dcce93d819",
-    "Claude Media Monitor": "ce5855ef79b78b52b024d1a21cbbd47b",
     "Claude Model Identifier": "3073be49b8b220af340933111fa11b00",
-    "Claude MVT Workspace": "df5ab0cf6f963040392aa2884150d146",
-    "Claude Personal Development Workspace": "0da52e0a12a8576dae35733e68da2541",
     "Claude Rescue": "f4a99aee1a9ba0c7b4f87bf80e09ff60",
     "Claude Slash Commands": "f8c37eb4140b2eb635ee146c2b7002b2",
     "Claude Sub-Agent Network": "84729c6a4fcd48dfeff2cf62af443c7b",
@@ -104,7 +96,6 @@
     "Non-Code Claude Code": "3ba4e338aa928549e7934531a98394db",
     "Open Router Model Research": "a980ab504b9ee1cd0530c7eaf2b55ef6",
     "Private And Public Claude MD": "9ce45ac8195ae67866f3328dcbcc0797",
-    "ProofMode Unpacker": "ec5244cd36323804ba191f58a3ad573b",
     "Proxmox Manager": "d780d3b57704b3fc52d044d38ab1cd88",
     "QA Team": "96cf55eb7d27b72852f82e75f86840e9",
     "Redaction": "ee2bf41e2137db53f4f89f2dc702960d",
@@ -1392,6 +1383,26 @@
         }
       ],
       "total_repos": 120
+    },
+    {
+      "date": "2026-04-16T22:46:56",
+      "changes": [
+        {
+          "type": "removed",
+          "repos": [
+            "Claude Business Continuity Planner",
+            "Claude Career Planning Template",
+            "Claude Code Writing Squad",
+            "Claude Health Helper",
+            "Claude Ivory PC Builder",
+            "Claude MVT Workspace",
+            "Claude Media Monitor",
+            "Claude Personal Development Workspace",
+            "ProofMode Unpacker"
+          ]
+        }
+      ],
+      "total_repos": 111
     }
   ]
 }

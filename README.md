@@ -149,12 +149,6 @@ Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflo
 
 ## Android
 
-### Claude MVT Workspace
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-MVT-Workspace) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Workspace orchestrating Mobile Verification Toolkit (MVT) spyware scans on Android devices via ADB, detecting indicators of compromise from targeted malware like Pegasus.
-
----
 
 # Productivity & Planning
 
@@ -162,47 +156,20 @@ Workspaces for decision-making, personal planning, file management, and general-
 
 > **See also:** The **[Claude Code Workspace Templates Index](https://github.com/danielrosehill/Claude-Code-Workspace-Templates-Index)** is a dedicated sub-index for all domain-specific workspace templates (budgeting, health, research, writing, etc.).
 
-### Claude Personal Development Workspace
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Personal-Development-Workspace) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Workspace for tracking habits, skill acquisition, and self-improvement goals with AI coaching.
-
----
-
 
 # Legal
 
 Workspaces and templates for legal research, case management, and evidence handling workflows.
 
-### ProofMode Unpacker
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Proofmode-Unpacker) ![Legal](https://img.shields.io/badge/Legal-navy?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
-
-Utility for managing ProofMode evidence bundles with automated cloud backup and chain of custody preservation.
-
----
 
 # Health & Wellbeing
 
 Workspaces and templates for health documentation, medical visit management, therapy tracking, and health-related research.
 
-### Claude Health Helper
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Health-Helper) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Health](https://img.shields.io/badge/Health-red?style=flat-square)
-
-Workspace for organizing personal health documentation, visit preparation, and medical report summaries.
-
----
-
 
 # Communications & Writing
 
 Workspaces and templates for content creation, blog management, writing workflows, and communications strategy.
-
-### Claude Code Writing Squad
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Writing-Squad) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
-
-Multi-agent writing system that refines text through specialized editing agents.
-
----
 
 ### Claude Website Update Sender
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Website-Update-Sender)
@@ -227,23 +194,11 @@ Workspaces and templates for budgeting, purchasing decisions, and personal finan
 
 Workspaces and templates for job searching, career planning, and professional development.
 
-### Claude Career Planning Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Career-Planning-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Continuous professional development workspace tracking career goals, skills gap analysis, CPD log, courses, certifications, conferences, and quarterly learning plans — produces CV/LinkedIn-ready career narratives.
-
----
 
 # Business
 
 Workspaces and templates for business planning, idea evaluation, and organizational continuity.
 
-### Claude Business Continuity Planner
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Business-Continuity-Planner) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
-
-Workspace for developing ISO 22301-aligned business continuity programs with slash commands.
-
----
 
 # Privacy & Anonymity
 
@@ -254,24 +209,11 @@ Workspaces and templates for document redaction, identity protection, and PII ob
 
 Workspaces for hardware planning, PC builds, and technology procurement.
 
-### Claude Ivory PC Builder
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Ivory-PC-Builder) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-AI-powered PC component spec generator with real-time pricing from an Israeli retailer, historical price tracking, and compatibility verification.
-
----
-
 
 # Marketing
 
 Workspaces for SEO, web analytics, PR monitoring, and media tracking.
 
-### Claude Media Monitor
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Media-Monitor) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
-
-Workspace for systematic news collection and organization with metadata and schema validation.
-
----
 
 # Research
 

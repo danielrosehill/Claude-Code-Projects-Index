@@ -259,22 +259,6 @@
     "created_date": "2025-12-28"
   },
   {
-    "name": "Claude Business Continuity Planner",
-    "url": "https://github.com/danielrosehill/Claude-Business-Continuity-Planner",
-    "description": "Workspace for developing ISO 22301-aligned business continuity programs with slash commands.",
-    "tags": [
-      "Agent Workspace",
-      "Business",
-      "Slash Commands"
-    ],
-    "category": "Business",
-    "category_slug": "business",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-06",
-    "slug": "claude-business-continuity-planner",
-    "created_date": "2026-01-14"
-  },
-  {
     "name": "Claude Calls The Shots",
     "url": "https://github.com/danielrosehill/Claude-Calls-The-Shots",
     "description": "Flips Claude Code into autonomous, action-first mode \u2014 ships a per-session `/calls-the-shots` slash command plus an optional always-on snippet injected into `~/.claude/CLAUDE.md`.",
@@ -286,22 +270,6 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "claude-calls-the-shots",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Claude Career Planning Template",
-    "url": "https://github.com/danielrosehill/Claude-Career-Planning-Template",
-    "description": "Continuous professional development workspace tracking career goals, skills gap analysis, CPD log, courses, certifications, conferences, and quarterly learning plans \u2014 produces CV/LinkedIn-ready career narratives.",
-    "tags": [
-      "Agent Workspace",
-      "Planning",
-      "Template"
-    ],
-    "category": "Career",
-    "category_slug": "career",
-    "category_group": "Non-Code",
-    "added_date": "2026-04-16",
-    "slug": "claude-career-planning-template",
     "created_date": "2026-04-16"
   },
   {
@@ -532,21 +500,6 @@
     "created_date": "2026-04-16"
   },
   {
-    "name": "Claude Code Writing Squad",
-    "url": "https://github.com/danielrosehill/Claude-Code-Writing-Squad",
-    "description": "Multi-agent writing system that refines text through specialized editing agents.",
-    "tags": [
-      "Communications",
-      "Multi-Agent"
-    ],
-    "category": "Communications & Writing",
-    "category_slug": "communications",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-06",
-    "slug": "claude-code-writing-squad",
-    "created_date": "2025-09-16"
-  },
-  {
     "name": "Claude Deep Research Model (Notes / Documentation)",
     "url": "https://github.com/danielrosehill/Claude-Deep-Research-Model",
     "description": "Framework for iterative deep research using Claude with voice pipeline and structured outputs.",
@@ -635,22 +588,6 @@
     "created_date": "2025-10-29"
   },
   {
-    "name": "Claude Health Helper",
-    "url": "https://github.com/danielrosehill/Claude-Health-Helper",
-    "description": "Workspace for organizing personal health documentation, visit preparation, and medical report summaries.",
-    "tags": [
-      "Agent Workspace",
-      "Documentation",
-      "Health"
-    ],
-    "category": "Health & Wellbeing",
-    "category_slug": "health",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-06",
-    "slug": "claude-health-helper",
-    "created_date": "2025-11-25"
-  },
-  {
     "name": "Claude Interview",
     "url": "https://github.com/danielrosehill/Claude-Interview-062325",
     "description": "Transcript from an Anthropic user research interview on AI tools and adoption.",
@@ -680,20 +617,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-is-awesome",
     "created_date": "2025-10-28"
-  },
-  {
-    "name": "Claude Ivory PC Builder",
-    "url": "https://github.com/danielrosehill/Claude-Ivory-PC-Builder",
-    "description": "AI-powered PC component spec generator with real-time pricing from an Israeli retailer, historical price tracking, and compatibility verification.",
-    "tags": [
-      "Hardware"
-    ],
-    "category": "Technology & Hardware",
-    "category_slug": "technology",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-09",
-    "slug": "claude-ivory-pc-builder",
-    "created_date": "2026-02-05"
   },
   {
     "name": "Claude Janitor",
@@ -741,22 +664,6 @@
     "created_date": "2026-03-09"
   },
   {
-    "name": "Claude Media Monitor",
-    "url": "https://github.com/danielrosehill/Claude-Media-Monitor",
-    "description": "Workspace for systematic news collection and organization with metadata and schema validation.",
-    "tags": [
-      "Agent Workspace",
-      "Marketing",
-      "SEO"
-    ],
-    "category": "Marketing",
-    "category_slug": "marketing",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-06",
-    "slug": "claude-media-monitor",
-    "created_date": "2025-11-10"
-  },
-  {
     "name": "Claude Model Identifier",
     "url": "https://github.com/danielrosehill/Claude-Model-Identifier",
     "description": "Prompt template for verifying the correct Claude model variant at conversation start.",
@@ -770,36 +677,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-model-identifier",
     "created_date": "2025-12-21"
-  },
-  {
-    "name": "Claude MVT Workspace",
-    "url": "https://github.com/danielrosehill/Claude-MVT-Workspace",
-    "description": "Workspace orchestrating Mobile Verification Toolkit (MVT) spyware scans on Android devices via ADB, detecting indicators of compromise from targeted malware like Pegasus.",
-    "tags": [
-      "Agent Workspace",
-      "Sysadmin"
-    ],
-    "category": "Systems Administration",
-    "category_slug": "sysadmin",
-    "category_group": "Technical",
-    "added_date": "2026-03-09",
-    "slug": "claude-mvt-workspace",
-    "created_date": "2026-03-09"
-  },
-  {
-    "name": "Claude Personal Development Workspace",
-    "url": "https://github.com/danielrosehill/Claude-Personal-Development-Workspace",
-    "description": "Workspace for tracking habits, skill acquisition, and self-improvement goals with AI coaching.",
-    "tags": [
-      "Agent Workspace",
-      "Productivity"
-    ],
-    "category": "Productivity & Planning",
-    "category_slug": "productivity",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-06",
-    "slug": "claude-personal-development-workspace",
-    "created_date": "2026-01-11"
   },
   {
     "name": "Claude Rescue",
@@ -1530,22 +1407,6 @@
     "added_date": "2026-03-06",
     "slug": "private-and-public-claude-md",
     "created_date": "2025-10-22"
-  },
-  {
-    "name": "ProofMode Unpacker",
-    "url": "https://github.com/danielrosehill/Proofmode-Unpacker",
-    "description": "Utility for managing ProofMode evidence bundles with automated cloud backup and chain of custody preservation.",
-    "tags": [
-      "Automation",
-      "Legal",
-      "Tool"
-    ],
-    "category": "Legal",
-    "category_slug": "legal",
-    "category_group": "Non-Code",
-    "added_date": "2026-03-06",
-    "slug": "proofmode-unpacker",
-    "created_date": "2026-01-26"
   },
   {
     "name": "Proxmox Manager",
