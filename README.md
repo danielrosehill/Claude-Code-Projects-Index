@@ -430,7 +430,7 @@ All plugins registered in the [danielrosehill marketplace](https://github.com/da
 
 ## Systems Administration
 
-**[See full list in the dedicated plugins page →](./plugins.md)** (52 entries)
+**[See full list in the dedicated plugins page →](./plugins.md)** (21 entries)
 
 ---
 

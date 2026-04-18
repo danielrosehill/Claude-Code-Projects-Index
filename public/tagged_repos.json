@@ -57,24 +57,6 @@
     "created_date": "2026-04-16"
   },
   {
-    "name": "AI Tools",
-    "url": "https://github.com/danielrosehill/ai-tools-plugin",
-    "description": "Claude Code plugin for AI tool management, MCP server configuration, and AI workflow automation slash commands and agents.",
-    "tags": [
-      "Automation",
-      "Configuration",
-      "MCP",
-      "Plugin",
-      "Slash Commands"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "ai-tools",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "AI-Human Attribution Adder",
     "url": "https://github.com/danielrosehill/AI-Human-Attribution-Adder",
     "description": "Adds AI/human attribution sections to README files for transparent tool usage documentation.",
@@ -88,21 +70,6 @@
     "added_date": "2026-03-06",
     "slug": "ai-human-attribution-adder",
     "created_date": "2025-10-31"
-  },
-  {
-    "name": "Audio Editing",
-    "url": "https://github.com/danielrosehill/audio-editing-plugin",
-    "description": "Claude Code plugin for audio editing, conversion, processing, and microphone management slash commands and agents.",
-    "tags": [
-      "Plugin",
-      "Slash Commands"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "audio-editing",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Bash Alias Manager",
@@ -152,22 +119,6 @@
     "added_date": "2026-03-06",
     "slug": "batch-claudemd-repo-creator",
     "created_date": "2025-10-26"
-  },
-  {
-    "name": "Brainstorm Solutions",
-    "url": "https://github.com/danielrosehill/brainstorm-solutions-plugin",
-    "description": "When you hit a wall, spin up a research workspace to brainstorm solutions \u2014 captures the blocker, seeds context, and kicks off deep research.",
-    "tags": [
-      "Agent Workspace",
-      "Plugin",
-      "Research"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "brainstorm-solutions",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Bug Catcher",
@@ -846,36 +797,6 @@
     "created_date": "2026-04-16"
   },
   {
-    "name": "Conda Manager",
-    "url": "https://github.com/danielrosehill/conda-manager-plugin",
-    "description": "Claude Code plugin for managing, auditing, and optimising Conda environments \u2014 list, validate, compare, backup, and clean up environments with AI assistance.",
-    "tags": [
-      "Agent Workspace",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "conda-manager",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Context Toolkit",
-    "url": "https://github.com/danielrosehill/context-toolkit-plugin",
-    "description": "A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "context-toolkit",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "CONTEXT.md",
     "url": "https://github.com/danielrosehill/CONTEXT.md",
     "description": "Workflow methodology for separating human-authored context from structured AI agent briefings.",
@@ -922,69 +843,6 @@
     "created_date": "2025-12-15"
   },
   {
-    "name": "Diary Planner",
-    "url": "https://github.com/danielrosehill/diary-planner-plugin",
-    "description": "A workflow planning and time management template with agent definitions and slash commands for managing daily, weekly, and monthly schedules while maintaining connections between immediate tasks and longer-term objectives.",
-    "tags": [
-      "Automation",
-      "Plugin",
-      "Slash Commands"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "diary-planner",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Docker Manager",
-    "url": "https://github.com/danielrosehill/docker-manager-plugin",
-    "description": "Slash commands and subagents for managing Docker containers, Compose stacks, volumes, networks, and multi-environment deployments.",
-    "tags": [
-      "Agent Workspace",
-      "Multi-Agent",
-      "Plugin",
-      "Slash Commands"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "docker-manager",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Ecosystem Mapper",
-    "url": "https://github.com/danielrosehill/Ecosystem-Mapper",
-    "description": "Discover, categorize, and publish technology ecosystem maps as GitHub repositories with structured READMEs, dynamic badges, and alphabetical organization.",
-    "tags": [
-      "Multi-Agent",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-03-06",
-    "slug": "ecosystem-mapper",
-    "created_date": "2025-12-19"
-  },
-  {
-    "name": "Filesystem Organisation",
-    "url": "https://github.com/danielrosehill/filesystem-org-plugin",
-    "description": "Claude Code plugin for file system organization, folder structure optimization, and file management automation workflows.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "filesystem-organisation",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "Fix Documentation",
     "url": "https://github.com/danielrosehill/Claude-Document-This",
     "description": "Claude Code plugin for automated technical documentation generation and code documentation workflows.",
@@ -999,72 +857,6 @@
     "added_date": "2026-04-16",
     "slug": "fix-documentation",
     "created_date": "2025-11-16"
-  },
-  {
-    "name": "Git & GitHub",
-    "url": "https://github.com/danielrosehill/git-github-plugin",
-    "description": "Claude Code plugin for Git version control, GitHub repository management, and collaborative development workflows.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "git-github",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "GitHub Research",
-    "url": "https://github.com/danielrosehill/github-research-plugin",
-    "description": "Research existing GitHub repositories before building \u2014 search, rank, and evaluate candidate tools via gh CLI with careful attention to stars, recency, and maintenance quality. Five skills for finding, comparing, and documenting tooling options so you can decide whether to use, fork, or build.",
-    "tags": [
-      "Plugin",
-      "Research",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "github-research",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Home Assistant Manager",
-    "url": "https://github.com/danielrosehill/home-assistant-manager-plugin",
-    "description": "A comprehensive Home Assistant OS management template with 20+ slash commands for health monitoring, backup management, integration support, network diagnostics, maintenance operations, device management, and automation assistance.",
-    "tags": [
-      "Agent Workspace",
-      "Automation",
-      "Plugin",
-      "Slash Commands"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "home-assistant-manager",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Home Budget Helper",
-    "url": "https://github.com/danielrosehill/home-budget-helper-plugin",
-    "description": "A workspace template for household budget management using Claude Code CLI with predefined agents, slash commands, and directory structures for transaction processing, budget creation, expense analysis, goal tracking, and report generation.",
-    "tags": [
-      "Agent Workspace",
-      "Plugin",
-      "Slash Commands",
-      "Template",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "home-budget-helper",
-    "created_date": "2026-04-16"
   },
   {
     "name": "How-To-MCP",
@@ -1097,78 +889,6 @@
     "created_date": "2026-04-16"
   },
   {
-    "name": "Ideation",
-    "url": "https://github.com/danielrosehill/ideation-plugin",
-    "description": "Claude Code plugin for brainstorming, idea generation, project planning, and creative problem-solving workflows.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "ideation",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Image Editing",
-    "url": "https://github.com/danielrosehill/image-editing-plugin",
-    "description": "Claude Code plugin for image processing, photo editing, batch image operations, and visual media management.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "image-editing",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Israeli Tech Shopping",
-    "url": "https://github.com/danielrosehill/Israeli-Tech-Shopping-MCP",
-    "description": "Comparison shop Israeli tech retailers using BrowserMCP \u2014 search KSP, Ivory, Bug, TMS and more with real browser sessions",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "israeli-tech-shopping",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "LAN Manager",
-    "url": "https://github.com/danielrosehill/lan-manager-plugin",
-    "description": "A specialized workspace for network system administration on local area networks, providing tools and scripts for LAN scanning, device discovery, device management, and network operations with context-aware topology information.",
-    "tags": [
-      "Agent Workspace",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "lan-manager",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Learning",
-    "url": "https://github.com/danielrosehill/learning-plugin",
-    "description": "Claude Code plugin for learning resources, skill development, educational content creation, and knowledge management.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "learning",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "Linux Desktop ClaudeMD Seeder",
     "url": "https://github.com/danielrosehill/Linux-Desktop-ClaudeMD-Seeder",
     "description": "Automatically generates contextual CLAUDE.md files across a Linux desktop filesystem.",
@@ -1182,36 +902,6 @@
     "added_date": "2026-03-06",
     "slug": "linux-desktop-claudemd-seeder",
     "created_date": "2025-10-25"
-  },
-  {
-    "name": "Linux Desktop Management",
-    "url": "https://github.com/danielrosehill/linux-desktop-plugin",
-    "description": "Claude Code plugin for Linux desktop environment management, KDE/Plasma configuration, and desktop system administration.",
-    "tags": [
-      "Configuration",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "linux-desktop-management",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Linux Server Management",
-    "url": "https://github.com/danielrosehill/linux-server-plugin",
-    "description": "Claude Code plugin for Linux server administration, service management, and server infrastructure workflows.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "linux-server-management",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Local Claude Plugin Install Research",
@@ -1275,23 +965,9 @@
     "created_date": "2025-12-09"
   },
   {
-    "name": "Model Identifier",
-    "url": "https://github.com/danielrosehill/model-identifier-plugin",
-    "description": "Injects a model self-identification instruction block into CLAUDE.md so Claude announces its model name and API identifier at the start of every conversation.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "model-identifier",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "New Repo From Template",
     "url": "https://github.com/danielrosehill/New-Repo-From-Template-Plugin",
-    "description": "Create a new GitHub repo from 80+ template scaffolds. Single skill matches natural-language intent against the manifest and uses gh repo create --template. Manifest-only \u2014 no bundled scaffold copies.",
+    "description": "Create new GitHub repos from a built-in curated template library AND the user's own templates (GitHub public/private or local directories). Match-by-intent and recommendation skills search both pools; configure-template-sources skill discovers and caches user templates.",
     "tags": [
       "Plugin",
       "Template"
@@ -1380,21 +1056,6 @@
     "created_date": "2025-10-03"
   },
   {
-    "name": "Open Router Model Research",
-    "url": "https://github.com/danielrosehill/Open-Router-Model-Research-Plugin",
-    "description": "Research, filter, compare, and evaluate AI models on OpenRouter \u2014 discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.",
-    "tags": [
-      "Plugin",
-      "Research"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "open-router-model-research",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "Private And Public Claude MD",
     "url": "https://github.com/danielrosehill/Private-And-Public-Claude-MD",
     "description": "Tools for managing public and private CLAUDE.md files with security-focused git configuration.",
@@ -1407,21 +1068,6 @@
     "added_date": "2026-03-06",
     "slug": "private-and-public-claude-md",
     "created_date": "2025-10-22"
-  },
-  {
-    "name": "Proxmox Manager",
-    "url": "https://github.com/danielrosehill/proxmox-manager-plugin",
-    "description": "Claude Code plugin for managing Ubuntu VMs hosted on Proxmox. Covers Proxmox host inspection, VM lifecycle, Docker deployments, XFS storage, Cloudflare Tunnels, backups, and system health \u2014 with a setup wizard to tailor the environment to any server.",
-    "tags": [
-      "Agent Workspace",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "proxmox-manager",
-    "created_date": "2026-04-16"
   },
   {
     "name": "QA Team",
@@ -1438,24 +1084,6 @@
     "added_date": "2026-04-16",
     "slug": "qa-team",
     "created_date": "2026-01-10"
-  },
-  {
-    "name": "Redaction",
-    "url": "https://github.com/danielrosehill/redaction-plugin",
-    "description": "Human-guided document redaction, identity obfuscation, alias management, and metadata scrubbing for whistleblowing, source protection, anonymous publishing, and research anonymization workflows.",
-    "tags": [
-      "Automation",
-      "Documentation",
-      "Plugin",
-      "Research",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "redaction",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Repo Retrofitter",
@@ -1487,21 +1115,6 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "security-checkup",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "SEO",
-    "url": "https://github.com/danielrosehill/seo-plugin",
-    "description": "Claude Code plugin for SEO optimization, meta tag management, and search engine optimization workflows.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "seo",
     "created_date": "2026-04-16"
   },
   {
@@ -1549,54 +1162,6 @@
     "created_date": "2025-10-11"
   },
   {
-    "name": "Spec Starter",
-    "url": "https://github.com/danielrosehill/spec-starter-plugin",
-    "description": "Spec-driven development workflow for Claude Code: transforms free-form project descriptions into structured specifications, context files, and decision records.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "spec-starter",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Stack Search",
-    "url": "https://github.com/danielrosehill/Stack-Search-Plugin",
-    "description": "Spawn a new stack search workspace from the Claude-Stack-Research-Workspace template \u2014 clone, name, create GitHub repo, run Tavily landscape scan, and kick off the structured 27-question intake interview.",
-    "tags": [
-      "Agent Workspace",
-      "Plugin",
-      "Research"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "stack-search",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Synology Manager",
-    "url": "https://github.com/danielrosehill/synology-manager-plugin",
-    "description": "Claude Code plugin for managing a Synology NAS via SSH \u2014 guided first-run setup, persistent NAS context, and commands for shared folders, volumes, mounts, and storage monitoring.",
-    "tags": [
-      "Agent Workspace",
-      "Documentation",
-      "Plugin",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "synology-manager",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "Tech Docs",
     "url": "https://github.com/danielrosehill/documentation-plugin",
     "description": "Claude Code plugin for documentation generation, technical writing, README creation, and documentation management workflows.",
@@ -1610,23 +1175,6 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "tech-docs",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Tech Research",
-    "url": "https://github.com/danielrosehill/tech-research-plugin",
-    "description": "Claude Code plugin for technology research, competitive analysis, technical documentation retrieval, and research workflows.",
-    "tags": [
-      "Automation",
-      "Documentation",
-      "Plugin",
-      "Research"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "tech-research",
     "created_date": "2026-04-16"
   },
   {
@@ -1646,21 +1194,6 @@
     "created_date": "2026-04-14"
   },
   {
-    "name": "Video Editing",
-    "url": "https://github.com/danielrosehill/video-editing-plugin",
-    "description": "Claude Code plugin for video editing, transcoding, video processing, and multimedia workflow automation.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "video-editing",
-    "created_date": "2026-04-16"
-  },
-  {
     "name": "Workspace Setup",
     "url": "https://github.com/danielrosehill/workspace-setup-plugin",
     "description": "Interactive assistant for discovering and cloning Claude Code workspace templates. Asks about your objectives, recommends relevant workspaces from a curated catalog, and clones them to a directory of your choice.",
@@ -1674,21 +1207,6 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "workspace-setup",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Writing Editing",
-    "url": "https://github.com/danielrosehill/writing-editing-plugin",
-    "description": "Claude Code plugin for writing assistance, proofreading, style editing, and text transformation workflows.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "writing-editing",
     "created_date": "2026-04-16"
   }
 ]

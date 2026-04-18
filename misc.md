@@ -27,13 +27,6 @@ Curated collection of 75+ agent workspace templates organized by use case, demon
 
 ---
 
-### Claude Browser Automation Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Browser-Automation-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Uses BrowserMCP plus Playwright to reverse-engineer and script browser automation tasks — drives a real browser once, captures network/DOM/auth flow, then writes and verifies the simplest viable automation script.
-
----
-
 ### Claude Code Bugs And FRs
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Bugs-And-FRs)
 
@@ -69,13 +62,6 @@ Feature requests for improving Claude Code's context handling capabilities.
 
 ---
 
-### Claude House Search Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-House-Search-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Manages a property search (rent, first-time buyer, or buyer mode) with a strict listing pipeline, viewing notes, area research, comparables, offers, and scoring against user criteria — each mode unlocks the relevant folders and commands.
-
----
-
 ### Claude Interview
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Interview-062325)
 
@@ -90,13 +76,6 @@ Template for creating curated resource lists with automated formatting and badge
 
 ---
 
-### Claude Israel Shopping Recommender Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Israel-Shopping-Recommender-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Workspace template for Israel-based shopping decisions — evaluates products against user requirements with Israeli retailers first, Amazon/AliExpress fallback, 18% VAT handling, and a final PDF recommendation report.
-
----
-
 ### Claude Local AI Agent Research
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Local-AI-Agent-Research)
 
@@ -104,38 +83,10 @@ Research into agentic AI tools optimized for system administration rather than c
 
 ---
 
-### Claude Recommendation Workspace Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Recommendation-Workspace-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-AI-assisted recommendation workspace that holds a taste profile and logs feedback over time for podcasts, books, films, TV, music, games, or any single format chosen during onboarding, with optional MCP-sourced metadata.
-
----
-
-### Claude Resource List Builder
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Resource-List-Builder) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
-
-Template for building curated resource lists with organized taxonomy and PDF export.
-
----
-
 ### Claude User Manual
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-User-Manual)
 
 Plugin for generating personalized user manuals and private documentation for codebases.
-
----
-
-### Ecosystem Mapper Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Ecosystem-Mapper-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Topic-scoped directory template for cataloguing the entities that make up a technology ecosystem (protocols, frameworks, tools, models, companies, people, capital), with geography as an optional overlay.
-
----
-
-### Geo Ecosystem Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Geo-Ecosystem-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Geography-scoped directory template for cataloguing a region's tech/industry ecosystem — VCs, accelerators, companies, communities, events, government bodies, hubs, research institutions, and notable people — with lens-based consolidation reports.
 
 ---
 
@@ -164,12 +115,5 @@ Showcase of creative Claude Code applications beyond traditional software develo
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Skill-Creation-Research)
 
 Research and notes on designing and authoring Claude Code skills.
-
----
-
-### Transcript Cleanup Template
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Transcript-Cleanup-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
-
-Processes audio recordings into clean, readable transcripts via a raw → cleaned → exported pipeline with speaker diarisation, filler removal, and Markdown/PDF/plain-text export.
 
 ---
