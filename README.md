@@ -4,9 +4,9 @@
 
 A curated collection of Claude Code projects, agent workspace blueprints, and related resources — organized by use case. Most patterns here adapt to other agentic AI CLIs and frameworks.
 
-**[Browse online](https://claude.danielrosehill.com)** · **[Plugins Marketplace](https://github.com/danielrosehill/Claude-Code-Plugins)** · **[Documentation portal](https://docs.bydanielrosehill.com)** · **[Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model)** · **[What are Claude Spaces?](./claude-spaces.md)**
+**[Browse online](https://claude.danielrosehill.com)** · **[Plugins Marketplace](https://github.com/danielrosehill/Claude-Code-Plugins)** · **[Documentation portal](https://docs.bydanielrosehill.com)** · **[What are Claude Spaces?](./claude-spaces.md)**
 
-> 🧩 **My Claude Code Plugins Marketplace** — [danielrosehill/Claude-Code-Plugins](https://github.com/danielrosehill/Claude-Code-Plugins) — centralized marketplace bundling the plugins referenced throughout this index (including the [New-Repo-From-Template plugin](#templates--scaffolds) for scaffolding workspaces).
+> 🧩 **My Claude Code Plugins Marketplace** — [danielrosehill/Claude-Code-Plugins](https://github.com/danielrosehill/Claude-Code-Plugins) — 28 focused **cluster plugins** covering workflows across sysadmin, research, media, writing, planning, and more. Each plugin ships the domain primitives (commands, skills, agents) globally and provisions per-project scaffolds on demand — so you install the plugin once and scaffold new workspaces from it as needed, rather than cloning a separate template repo per workflow.
 
 ---
 
@@ -50,13 +50,13 @@ If there's a common thread, it's treating Claude Code less as a coding assistant
 <details>
 <summary><strong>More context: the Agent Workspace Model, growth chart, praise</strong></summary>
 
-#### The Agent Workspace Model
+#### The Agent Workspace Pattern
 
-All workspaces in this index follow the pattern defined in the **[Claude Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model)** repository. The core idea: a Git repository isn't just for code — it can serve as a complete, self-contained workspace for *any* activity. Each workspace uses a defined folder structure, a `CLAUDE.md` for agent instructions, slash commands, MCP configurations, and subagent definitions to create a purpose-built environment.
+All workspaces in this index follow the same pattern: a Git repository isn't just for code — it can serve as a complete, self-contained workspace for *any* activity. Each workspace uses a defined folder structure, a `CLAUDE.md` for agent instructions, slash commands, MCP configurations, and subagent definitions to create a purpose-built environment.
 
 This pattern has been applied to everything from sysadmin and remote server management to legal research, health documentation, and financial planning — domains that have nothing to do with software development.
 
-**Want to follow this approach?** Point Claude Code at the [model repository](https://github.com/danielrosehill/Claude-Agent-Workspace-Model) to give it context on the pattern, then ask it to scaffold a new workspace for your use case. Or — simpler — use the [New-Repo-From-Template plugin](#templates--scaffolds), which packages the curated templates into a one-command scaffold.
+**Primitives globally, scaffolds per-cluster.** The tooling has been consolidated into **28 cluster plugins** (see [Plugins](#plugins)) — each one ships the domain primitives globally (commands, skills, agents for that cluster) and provisions a project scaffold on demand. So rather than forking a separate template repo for each new workflow, you install the relevant cluster plugin once and ask Claude Code to provision a scaffold wherever you need one.
 
 #### Repository Growth
 
@@ -154,17 +154,21 @@ Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflo
 
 Workspaces for decision-making, personal planning, file management, and general-purpose productivity workflows.
 
-> **See also:** The **[Claude Code Workspace Templates Index](https://github.com/danielrosehill/Claude-Code-Workspace-Templates-Index)** is a dedicated sub-index for all domain-specific workspace templates (budgeting, health, research, writing, etc.).
+> **See also:** The [Budgeting](https://github.com/danielrosehill/Claude-Budgeting-Plugin), [Personal Planning](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin), [Career](https://github.com/danielrosehill/Claude-Career-Plugin), [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin), [Shopping](https://github.com/danielrosehill/Claude-Shopping-Plugin), and [Ideation & Planning](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) cluster plugins in the [Plugins](#plugins) section cover these domains.
 
 
 # Legal
 
 Workspaces and templates for legal research, case management, and evidence handling workflows.
 
+> **See also:** The [Legal & Investigative](https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin) cluster plugin in the [Plugins](#plugins) section covers this domain — evidence logging, document analysis, redaction, and brief generation.
+
 
 # Health & Wellbeing
 
 Workspaces and templates for health documentation, medical visit management, therapy tracking, and health-related research.
+
+> **See also:** The [Personal Planning](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin) cluster plugin in the [Plugins](#plugins) section covers this domain — diary, health, therapy, preparedness, and personal development variants.
 
 
 # Communications & Writing
@@ -189,30 +193,42 @@ Personalized text rewriting rules that consolidate into a slash command for refi
 
 Workspaces and templates for budgeting, purchasing decisions, and personal finance management.
 
+> **See also:** The [Budgeting](https://github.com/danielrosehill/Claude-Budgeting-Plugin), [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin), and [Shopping](https://github.com/danielrosehill/Claude-Shopping-Plugin) cluster plugins in the [Plugins](#plugins) section cover these domains.
+
 
 # Career
 
 Workspaces and templates for job searching, career planning, and professional development.
+
+> **See also:** The [Career](https://github.com/danielrosehill/Claude-Career-Plugin) cluster plugin in the [Plugins](#plugins) section covers this domain — role logging, offer comparison, application tracking, and salary benchmarking.
 
 
 # Business
 
 Workspaces and templates for business planning, idea evaluation, and organizational continuity.
 
+> **See also:** The [Ideation & Planning](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) cluster plugin in the [Plugins](#plugins) section covers business idea evaluation, decision frameworks, and simulation workflows.
+
 
 # Privacy & Anonymity
 
 Workspaces and templates for document redaction, identity protection, and PII obfuscation.
+
+> **See also:** The [Legal & Investigative](https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin) cluster plugin in the [Plugins](#plugins) section includes redaction and document-obfuscation workflows. For broader system hardening see the [Security Checkup](https://github.com/danielrosehill/Claude-Security-Checkup-Plugin) plugin.
 
 
 # Technology & Hardware
 
 Workspaces for hardware planning, PC builds, and technology procurement.
 
+> **See also:** The [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin) (includes a tech-procurement variant), [Sysadmin & Homelab](https://github.com/danielrosehill/Claude-Sysadmin-Homelab-Plugin), and [HP5200 Printer](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) plugins in the [Plugins](#plugins) section cover these domains.
+
 
 # Marketing
 
 Workspaces for SEO, web analytics, PR monitoring, and media tracking.
+
+> **See also:** The [PR & Media Work](https://github.com/danielrosehill/Claude-PR-Media-Work-Plugin) cluster plugin in the [Plugins](#plugins) section covers coverage scanning, press summarisation, response drafting, and comms strategy.
 
 
 # Research
@@ -220,6 +236,8 @@ Workspaces for SEO, web analytics, PR monitoring, and media tracking.
 ![Research](images/research.png)
 
 Projects using Claude and agentic systems for deep research, report generation, and information synthesis.
+
+> **See also:** The [Research Space](https://github.com/danielrosehill/Claude-Research-Space-Plugin) cluster plugin in the [Plugins](#plugins) section covers deep research, technical research, OSINT, geo-reaction, stack, ecosystem, and competitor research workflows.
 
 **[See full list in the dedicated research page →](./research.md)** (2 entries)
 
@@ -430,18 +448,17 @@ All plugins registered in the [danielrosehill marketplace](https://github.com/da
 
 ## Systems Administration
 
-**[See full list in the dedicated plugins page →](./plugins.md)** (21 entries)
+**[See full list in the dedicated plugins page →](./plugins.md)** (29 entries)
 
 ---
 
 # Templates / Scaffolds
 
-**Recommended entry point for spinning up a new workspace.** The workspace scaffolds that were previously listed individually in this index are still published as standalone template repositories on GitHub, but the recommended way to use them is through the **New-Repo-From-Template plugin**, which packages the curated catalogue into a one-command scaffold for Claude Code. The plugin is periodically updated as new templates are added, so it stays in sync with the standalone repos without duplicating their listings here.
+Scaffolds used to be distributed as ~100 standalone template repos and a `New-Repo-From-Template` plugin. That pattern was retired in the April 2026 reshape.
 
-### New Repo From Template Plugin
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/New-Repo-From-Template-Plugin) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
+**Scaffolds now live inside the [cluster plugins](#plugins).** Each of the 28 cluster plugins bundles the workspace primitives for its domain (commands, skills, agents, MCP configs) and exposes a provisioning skill that writes a fresh per-project scaffold on demand — so instead of cloning a template repo, you install the relevant plugin once and ask Claude Code to scaffold a new workspace for whatever project you're starting.
 
-Claude Code plugin that scaffolds new workspaces from a catalogue of 80+ template repositories spanning development, research, legal, finance, infrastructure, planning, writing, personal, knowledge, and simulation workflows. Each template is also available as a standalone GitHub repo for direct forking — the plugin simply provides a faster, unified way to instantiate them locally. See the plugin's [templates manifest](https://github.com/danielrosehill/New-Repo-From-Template-Plugin/blob/master/templates/manifest.json) for the full list.
+See the [Plugins](#plugins) section above for the full cluster list.
 
 ---
 
@@ -478,13 +495,6 @@ Flips Claude Code into autonomous, action-first mode — ships a per-session `/c
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
 System administration slash commands for Linux desktop environments.
-
----
-
-### Claude Document This
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Document-This) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
-
-Methods and slash commands for documenting system changes made by Claude Code.
 
 ---
 

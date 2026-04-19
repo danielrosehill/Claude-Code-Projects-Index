@@ -48,7 +48,7 @@
         {
           "name": "Claude System Recovery Mode",
           "url": "https://github.com/danielrosehill/Claude-System-Recovery-Mode",
-          "description": "Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflows. Workspaces for decision-making, personal planning, file management, and general-purpose productivity workflows. > **See also:** The **[Claude Code Workspace Templates Index](https://github.com/danielrosehill/Claude-Code-Workspace-Templates-Index)** is a dedicated sub-index for all domain-specific workspace templates (budgeting, health, research, writing, etc.). Workspaces and templates for legal research, case management, and evidence handling workflows. Workspaces and templates for health documentation, medical visit management, therapy tracking, and health-related research. Workspaces and templates for content creation, blog management, writing workflows, and communications strategy."
+          "description": "Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflows. Workspaces for decision-making, personal planning, file management, and general-purpose productivity workflows. > **See also:** The [Budgeting](https://github.com/danielrosehill/Claude-Budgeting-Plugin), [Personal Planning](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin), [Career](https://github.com/danielrosehill/Claude-Career-Plugin), [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin), [Shopping](https://github.com/danielrosehill/Claude-Shopping-Plugin), and [Ideation & Planning](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) cluster plugins in the [Plugins](#plugins) section cover these domains. Workspaces and templates for legal research, case management, and evidence handling workflows. > **See also:** The [Legal & Investigative](https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin) cluster plugin in the [Plugins](#plugins) section covers this domain \u2014 evidence logging, document analysis, redaction, and brief generation. Workspaces and templates for health documentation, medical visit management, therapy tracking, and health-related research. > **See also:** The [Personal Planning](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin) cluster plugin in the [Plugins](#plugins) section covers this domain \u2014 diary, health, therapy, preparedness, and personal development variants. Workspaces and templates for content creation, blog management, writing workflows, and communications strategy."
         },
         {
           "name": "Claude Website Update Sender",
@@ -58,7 +58,7 @@
         {
           "name": "Declaude",
           "url": "https://github.com/danielrosehill/Declaude",
-          "description": "Personalized text rewriting rules that consolidate into a slash command for refining AI-generated documentation. Workspaces and templates for budgeting, purchasing decisions, and personal finance management. Workspaces and templates for job searching, career planning, and professional development. Workspaces and templates for business planning, idea evaluation, and organizational continuity. Workspaces and templates for document redaction, identity protection, and PII obfuscation. Workspaces for hardware planning, PC builds, and technology procurement. Workspaces for SEO, web analytics, PR monitoring, and media tracking."
+          "description": "Personalized text rewriting rules that consolidate into a slash command for refining AI-generated documentation. Workspaces and templates for budgeting, purchasing decisions, and personal finance management. > **See also:** The [Budgeting](https://github.com/danielrosehill/Claude-Budgeting-Plugin), [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin), and [Shopping](https://github.com/danielrosehill/Claude-Shopping-Plugin) cluster plugins in the [Plugins](#plugins) section cover these domains. Workspaces and templates for job searching, career planning, and professional development. > **See also:** The [Career](https://github.com/danielrosehill/Claude-Career-Plugin) cluster plugin in the [Plugins](#plugins) section covers this domain \u2014 role logging, offer comparison, application tracking, and salary benchmarking. Workspaces and templates for business planning, idea evaluation, and organizational continuity. > **See also:** The [Ideation & Planning](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) cluster plugin in the [Plugins](#plugins) section covers business idea evaluation, decision frameworks, and simulation workflows. Workspaces and templates for document redaction, identity protection, and PII obfuscation. > **See also:** The [Legal & Investigative](https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin) cluster plugin in the [Plugins](#plugins) section includes redaction and document-obfuscation workflows. For broader system hardening see the [Security Checkup](https://github.com/danielrosehill/Claude-Security-Checkup-Plugin) plugin. Workspaces for hardware planning, PC builds, and technology procurement. > **See also:** The [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin) (includes a tech-procurement variant), [Sysadmin & Homelab](https://github.com/danielrosehill/Claude-Sysadmin-Homelab-Plugin), and [HP5200 Printer](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) plugins in the [Plugins](#plugins) section cover these domains. Workspaces for SEO, web analytics, PR monitoring, and media tracking. > **See also:** The [PR & Media Work](https://github.com/danielrosehill/Claude-PR-Media-Work-Plugin) cluster plugin in the [Plugins](#plugins) section covers coverage scanning, press summarisation, response drafting, and comms strategy."
         }
       ]
     },
@@ -202,17 +202,6 @@
       ]
     },
     {
-      "name": "Plugins",
-      "description": "All plugins registered in the [danielrosehill marketplace](https://github.com/danielrosehill/Claude-Code-Plugins). Install any of these with `/plugin install <name>@danielrosehill`.",
-      "repositories": [
-        {
-          "name": "New Repo From Template Plugin",
-          "url": "https://github.com/danielrosehill/New-Repo-From-Template-Plugin",
-          "description": "Claude Code plugin that scaffolds new workspaces from a catalogue of 80+ template repositories spanning development, research, legal, finance, infrastructure, planning, writing, personal, knowledge, and simulation workflows. Each template is also available as a standalone GitHub repo for direct forking \u2014 the plugin simply provides a faster, unified way to instantiate them locally. See the plugin's [templates manifest](https://github.com/danielrosehill/New-Repo-From-Template-Plugin/blob/master/templates/manifest.json) for the full list."
-        }
-      ]
-    },
-    {
       "name": "Slash Commands",
       "description": "Individual slash commands, sometimes integrated into other plugins or sometimes just for use at the user level.",
       "repositories": [
@@ -235,11 +224,6 @@
           "name": "Claude Code Linux Desktop Slash Commands",
           "url": "https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
           "description": "System administration slash commands for Linux desktop environments."
-        },
-        {
-          "name": "Claude Document This",
-          "url": "https://github.com/danielrosehill/Claude-Document-This",
-          "description": "Methods and slash commands for documenting system changes made by Claude Code."
         },
         {
           "name": "Claude File Organiser Super Slash",
@@ -265,16 +249,15 @@
     }
   ],
   "statistics": {
-    "total_categories": 7,
-    "total_repositories": 43,
+    "total_categories": 6,
+    "total_repositories": 41,
     "repositories_by_category": {
       "Systems Administration": 10,
       "Argument and Perspective Exploration": 1,
       "Context and Personalization": 8,
       "Multi-Agent Tooling": 9,
       "MCP": 5,
-      "Plugins": 1,
-      "Slash Commands": 9
+      "Slash Commands": 8
     }
   }
 }

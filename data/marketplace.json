@@ -7,17 +7,17 @@
     "url": "https://danielrosehill.com"
   },
   "metadata": {
-    "description": "A comprehensive collection of Claude Code plugins for system administration, development, and productivity workflows",
-    "version": "1.0.0"
+    "description": "A consolidated collection of Claude Code plugins for workflows across research, media, sysadmin, personal planning, dev tools, and more. Each plugin bundles primitives + a provisioning skill for domain-specific workspaces.",
+    "version": "2.0.0"
   },
   "plugins": [
     {
-      "name": "claude-janitor",
+      "name": "filesystem-organiser",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Janitor"
+        "repo": "danielrosehill/Claude-Filesystem-Organiser-Plugin"
       },
-      "description": "Repository cleanup toolkit with automated operations for removing clutter, organizing structure, and polishing documentation.",
+      "description": "Claude Code plugin: filesystem organisation workflow \u2014 scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -26,261 +26,19 @@
       },
       "license": "MIT",
       "tags": [
-        "development",
-        "repository-cleanup"
-      ]
-    },
-    {
-      "name": "tech-docs",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/documentation-plugin"
-      },
-      "description": "Claude Code plugin for documentation generation, technical writing, README creation, and documentation management workflows.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "misc",
-        "documentation"
-      ]
-    },
-    {
-      "name": "fix-documentation",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Document-This"
-      },
-      "description": "Claude Code plugin for automated technical documentation generation and code documentation workflows.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "misc",
-        "documentation"
-      ]
-    },
-    {
-      "name": "security-checkup",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/security-checkup-plugin"
-      },
-      "description": "Claude Code plugin for security audits, vulnerability scanning, firewall configuration, and system security hardening workflows.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "sysadmin",
-        "security-checkup"
-      ]
-    },
-    {
-      "name": "repo-retrofitter",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Repo-Retrofitter"
-      },
-      "description": "Bulk-retrofit repositories with AI agent scaffolding (CLAUDE.md, slash commands, subagents, MCP recommendations). Supports scan, interactive, and fully autonomous modes.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "development",
-        "retrofitting",
-        "scaffolding"
-      ]
-    },
-    {
-      "name": "make-agent-friendly",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Make-Agent-Friendly"
-      },
-      "description": "Prepares human-developed codebases for agentic development with structured refactoring, CLAUDE.md creation, and agent-friendly infrastructure.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "development",
-        "agentic-development"
-      ]
-    },
-    {
-      "name": "qa-team",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-QA-Team"
-      },
-      "description": "A multi-agent QA system for comprehensive code review and quality validation with specialized agents for general QA, cleanup, documentation, API review, performance optimization, and deployment review.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "development",
-        "qa",
-        "code-review"
-      ]
-    },
-    {
-      "name": "claude-templatizer",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Templatizer"
-      },
-      "description": "Turn a set of existing Claude Code workspace repos into a reusable GitHub template repo by extracting their commonalities.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "development",
-        "template",
-        "scaffolding"
-      ]
-    },
-    {
-      "name": "session-transfer",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Session-Transfer"
-      },
-      "description": "Transfer a Claude Code session to a fresh instance \u2014 full context transfer via a structured HANDOVER.md (with a dedicated writer subagent), or quick-jump skills for spawning a sibling Konsole/Claude window at the current directory.",
-      "version": "2.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "development",
-        "session-transfer",
-        "agent-handover",
-        "session-continuity"
-      ]
-    },
-    {
-      "name": "new-repo-from-template",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/New-Repo-From-Template-Plugin"
-      },
-      "description": "Create new GitHub repos from a built-in curated template library AND the user's own templates (GitHub public/private or local directories). Match-by-intent and recommendation skills search both pools; configure-template-sources skill discovers and caches user templates.",
-      "version": "3.3.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "development",
-        "scaffolding",
-        "templates",
-        "github"
-      ]
-    },
-    {
-      "name": "bug-catcher",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/bug-catcher-plugin"
-      },
-      "description": "Slash commands for rapid Linux system bug capture and diagnosis \u2014 check fresh logs the moment an issue occurs.",
-      "version": "0.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "sysadmin",
-        "linux",
-        "debugging",
-        "logs",
-        "diagnostics"
-      ]
-    },
-    {
-      "name": "mcp-command-generator",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/mcp-command-generator-plugin"
-      },
-      "description": "Natural language MCP server installation assistant for Claude Code. Generates and optionally executes valid 'claude mcp add' commands from plain English descriptions, backed by a curated server catalog and syntax reference.",
-      "version": "0.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "mcp",
-        "claude-code",
-        "integrations",
-        "developer-tools"
-      ]
-    },
-    {
-      "name": "claudemd-chunker",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/claudemd-chunker-plugin"
-      },
-      "description": "Slash command that prunes bloated CLAUDE.md files to their essentials and offloads supplementary context into an agent-context/ folder.",
-      "version": "0.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "claude-md",
-        "context",
+        "filesystem",
         "organisation",
-        "cleanup",
-        "developer-tools"
+        "cleanup"
       ]
     },
     {
-      "name": "bash-alias-manager",
+      "name": "desktop-manager",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/bash-alias-manager-plugin"
+        "repo": "danielrosehill/Claude-Desktop-Manager-Plugin"
       },
-      "description": "Claude Code plugin for managing bash aliases \u2014 add, edit, delete, prune, ideate, and back up ~/.bash_aliases using a guided workflow.",
-      "version": "0.1.0",
+      "description": "Claude Code plugin: Linux desktop management workflow \u2014 check system, install packages, apply config, troubleshoot hardware, review logs, update system.",
+      "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -289,20 +47,18 @@
       "license": "MIT",
       "tags": [
         "sysadmin",
-        "bash",
-        "aliases",
-        "dotfiles",
-        "shell"
+        "desktop",
+        "linux"
       ]
     },
     {
-      "name": "workspace-setup",
+      "name": "budgeting",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/workspace-setup-plugin"
+        "repo": "danielrosehill/Claude-Budgeting-Plugin"
       },
-      "description": "Interactive assistant for discovering and cloning Claude Code workspace templates. Asks about your objectives, recommends relevant workspaces from a curated catalog, and clones them to a directory of your choice.",
-      "version": "0.1.0",
+      "description": "Claude Code plugin: personal budgeting workflow \u2014 log transactions, categorize, forecast, track goals, monthly reports.",
+      "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -310,21 +66,279 @@
       },
       "license": "MIT",
       "tags": [
-        "workspace",
-        "setup",
-        "templates",
-        "scaffolding",
-        "claude-code"
+        "finance",
+        "budgeting",
+        "personal"
       ]
     },
     {
-      "name": "ai-attribution",
+      "name": "shopping",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/ai-attribution-plugin"
+        "repo": "danielrosehill/Claude-Shopping-Plugin"
       },
-      "description": "Adds a transparent human-AI attribution section to a project README, documenting which parts of the work were human-authored and which were AI-assisted or AI-generated.",
-      "version": "0.1.0",
+      "description": "Claude Code plugin: consumer shopping workflow \u2014 find product, compare vendors, check availability, with Israel and generic region variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "shopping",
+        "consumer",
+        "regional"
+      ]
+    },
+    {
+      "name": "ai-engineering",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-AI-Engineering-Plugin"
+      },
+      "description": "Claude Code plugin: prompt engineering workflow \u2014 craft, eval, catalog, version, search prompts, with library/factory variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "ai",
+        "prompts",
+        "llm"
+      ]
+    },
+    {
+      "name": "media-library",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Media-Library-Plugin"
+      },
+      "description": "Claude Code plugin: media library workflow \u2014 catalog, tag, search, sort, dedupe assets.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "media",
+        "library",
+        "cataloging"
+      ]
+    },
+    {
+      "name": "audio-production",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Audio-Production-Plugin"
+      },
+      "description": "Claude Code plugin: audio production workflow \u2014 normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "audio",
+        "media",
+        "podcast",
+        "vad"
+      ]
+    },
+    {
+      "name": "video-production",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Video-Production-Plugin"
+      },
+      "description": "Claude Code plugin: video production workflow \u2014 transcode, organise, dedupe, ComfyUI generation, cover art, with editing/generative/cover-art variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "video",
+        "media",
+        "generative"
+      ]
+    },
+    {
+      "name": "pr-media-work",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-PR-Media-Work-Plugin"
+      },
+      "description": "Claude Code plugin: PR and media monitoring workflow \u2014 scan coverage, summarize press, draft responses, comms strategy, with monitoring/response/strategy variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "pr",
+        "media",
+        "comms",
+        "work"
+      ]
+    },
+    {
+      "name": "smart-home",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Smart-Home-Plugin"
+      },
+      "description": "Claude Code plugin: smart home workflow \u2014 Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "smart-home",
+        "home-assistant",
+        "iot"
+      ]
+    },
+    {
+      "name": "debugging",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Debugging-Plugin"
+      },
+      "description": "Claude Code plugin: debugging workflow \u2014 capture logs, isolate issue, diagnose error, track bugs, with code/system/issue variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "debugging",
+        "development"
+      ]
+    },
+    {
+      "name": "content-writing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Content-Writing-Plugin"
+      },
+      "description": "Claude Code plugin: content writing workflow \u2014 draft, proofread, version, publish, style guides, with writing/blog/opinion/document variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "writing",
+        "content",
+        "blog"
+      ]
+    },
+    {
+      "name": "career",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Career-Plugin"
+      },
+      "description": "Claude Code plugin: career planning workflow \u2014 log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "career",
+        "personal"
+      ]
+    },
+    {
+      "name": "purchasing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Purchasing-Plugin"
+      },
+      "description": "Claude Code plugin: purchasing workflow \u2014 intake, compare products, evaluate options, recommend, with general/tech-procurement/recommendations variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "purchasing",
+        "procurement",
+        "decision"
+      ]
+    },
+    {
+      "name": "research-space",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Research-Space-Plugin"
+      },
+      "description": "Claude Code plugin: research workflow \u2014 source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "research",
+        "osint",
+        "investigation"
+      ]
+    },
+    {
+      "name": "legal-investigative",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Legal-Investigative-Plugin"
+      },
+      "description": "Claude Code plugin: legal and investigative workflow \u2014 log evidence, analyze documents, redact, generate briefs, with legal-research/evidence/osint/document-analysis variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "legal",
+        "investigation",
+        "evidence"
+      ]
+    },
+    {
+      "name": "knowledge-documentation",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Knowledge-Documentation-Plugin"
+      },
+      "description": "Claude Code plugin: knowledge documentation workflow \u2014 index, cross-link, build taxonomy, version docs, with wiki/resource-library/process-docs/experiment-report variants.",
+      "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -333,39 +347,17 @@
       "license": "MIT",
       "tags": [
         "documentation",
-        "attribution",
-        "ai-transparency",
-        "readme"
+        "knowledge",
+        "wiki"
       ]
     },
     {
-      "name": "new-turn-hook",
+      "name": "personal-planning",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/new-turn-hook-plugin"
+        "repo": "danielrosehill/Claude-Personal-Planning-Plugin"
       },
-      "description": "Evaluates whether the current conversation context is still useful or whether the user should start a fresh conversation to avoid context bloat and degraded performance.",
-      "version": "0.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "context-management",
-        "conversation",
-        "productivity",
-        "hooks"
-      ]
-    },
-    {
-      "name": "hp5200-printer",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-HP5200-Skill-plugin"
-      },
-      "description": "HP DeskJet 5200 printer and scanner operations \u2014 ink levels, color/B&W printing, scanning, auto-discovery. A simple demo of local AI agent hardware integration.",
+      "description": "Claude Code plugin: personal life planning workflow \u2014 log entries, review progress, set goals, with diary/health/family/house-search/preparedness/therapy/personal-dev/inbox variants.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -374,22 +366,19 @@
       },
       "license": "MIT",
       "tags": [
-        "hardware",
-        "printer",
-        "scanner",
-        "hp",
-        "cups",
-        "ipp"
+        "personal",
+        "planning",
+        "wellbeing"
       ]
     },
     {
-      "name": "what-thing",
+      "name": "ideation-planning",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Code-What-Thing"
+        "repo": "danielrosehill/Claude-Ideation-Planning-Plugin"
       },
-      "description": "Decision support for choosing the right Claude Code primitive \u2014 skill, subagent, slash command, plugin, MCP server, hook, or output style \u2014 based on what you're trying to build. Grounded in the official Anthropic docs, personalised by stored user context.",
-      "version": "0.1.0",
+      "description": "Claude Code plugin: ideation and planning workflow \u2014 capture, evaluate, rank, simulate, with ideation/single-eval/multi-ranking/feature/decision/simulation/capture variants.",
+      "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -397,20 +386,139 @@
       },
       "license": "MIT",
       "tags": [
-        "claude-code",
+        "ideation",
+        "planning",
+        "decision"
+      ]
+    },
+    {
+      "name": "technical-docs",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Technical-Docs-Plugin"
+      },
+      "description": "Claude Code plugin: technical documentation workflow \u2014 READMEs, reference docs, changelogs, environment docs, with api-reference/code-docs/environment-docs/dev-notebook variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "documentation",
+        "technical",
+        "readme"
+      ]
+    },
+    {
+      "name": "sysadmin-homelab",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Sysadmin-Homelab-Plugin"
+      },
+      "description": "Claude Code plugin: sysadmin and homelab workflow \u2014 diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "sysadmin",
+        "homelab",
+        "remote-admin"
+      ]
+    },
+    {
+      "name": "dev-tools",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Dev-Tools-Plugin"
+      },
+      "description": "Claude Code plugin: dev tools workflow \u2014 scaffold repos, retrofit for agents, QA code review, templatize, session continuity, with 7 variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "development",
+        "scaffolding",
+        "qa",
+        "retrofit"
+      ]
+    },
+    {
+      "name": "workspace-foundational",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Workspace-Foundational-Plugin"
+      },
+      "description": "Claude Code plugin: foundational workspace workflow \u2014 setup, context management, report parsing, inventory, template discovery, with 6 variants.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "workspace",
+        "foundational",
+        "setup"
+      ]
+    },
+    {
+      "name": "meta-tools",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Meta-Tools-Plugin"
+      },
+      "description": "Claude Code plugin: meta-tooling workflow \u2014 context management, MCP integration, feedback filing, primitive selection for Claude Code itself.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
         "meta",
-        "decision-support",
-        "primitives"
+        "claude-code",
+        "mcp"
+      ]
+    },
+    {
+      "name": "security-checkup",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Security-Checkup-Plugin"
+      },
+      "description": "Claude Code plugin: security and compliance workflow \u2014 vulnerability scanning, system hardening, config audits.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "security",
+        "compliance"
       ]
     },
     {
       "name": "claude-user-memory",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-User-Memory-plugin"
+        "repo": "danielrosehill/Claude-User-Memory-Plugin"
       },
-      "description": "Persistent cross-session memory about the user, backed by Mem0. Two isolated contexts (personal and work) with three skills for recall, save, and end-of-session commit.",
-      "version": "1.0.2",
+      "description": "Claude Code plugin: user memory and personalization workflow \u2014 recall, save, and inject persistent facts across sessions.",
+      "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -419,20 +527,17 @@
       "license": "MIT",
       "tags": [
         "memory",
-        "mem0",
-        "context",
-        "personalization",
-        "mcp"
+        "personalization"
       ]
     },
     {
-      "name": "claude-code-feedback",
+      "name": "ai-attribution",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Code-Feedback-Plugin"
+        "repo": "danielrosehill/Claude-AI-Attribution-Plugin"
       },
-      "description": "Self-healing helper for filing well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live GitHub issue-form templates on every run so submissions always match Anthropic's current required fields.",
-      "version": "0.1.0",
+      "description": "Claude Code plugin: AI transparency workflow \u2014 document human vs AI contributions, add attribution, audit provenance.",
+      "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -440,12 +545,51 @@
       },
       "license": "MIT",
       "tags": [
-        "claude-code",
-        "github-issues",
-        "bug-report",
-        "feature-request",
-        "feedback",
-        "self-healing"
+        "attribution",
+        "transparency",
+        "ai"
+      ]
+    },
+    {
+      "name": "claude-transcription",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Transcription-Plugin"
+      },
+      "description": "Claude Code plugin: audio transcription workflow \u2014 denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "transcription",
+        "audio",
+        "whisper",
+        "gemini"
+      ]
+    },
+    {
+      "name": "hp5200-printer",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-HP5200-Skill-plugin"
+      },
+      "description": "Claude Code plugin: HP DeskJet 5200 printer and scanner operations \u2014 ink levels, color/B&W printing, scanning, auto-discovery.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "printer",
+        "scanner",
+        "hardware",
+        "hp"
       ]
     }
   ]

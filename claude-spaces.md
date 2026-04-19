@@ -2,7 +2,7 @@
 
 Many of the repositories in this index are **agent workspaces** — structured repository environments designed for agentic AI workflows. The pattern I originally called "Claude Spaces" describes my specific method for creating these workspaces using repository structure, context files, and Claude Code's built-in features.
 
-**The reference template for this pattern is the [Claude Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model) repository.** It defines the folder structure, Claude Code scaffolding (CLAUDE.md, slash commands, subagents, MCP configs), and conventions for turning a repository into a purpose-built AI workspace for any domain — sysadmin, legal research, health documentation, financial planning, and more. To create your own workspace following this pattern, point Claude Code at the model repo for context and ask it to scaffold one for your use case.
+**The pattern is now packaged as [cluster plugins](https://github.com/danielrosehill/Claude-Code-Plugins)** — each plugin ships the folder structure, CLAUDE.md template, slash commands, subagents, and MCP configs for a specific domain (sysadmin, legal research, health documentation, financial planning, and more) and provisions a per-project scaffold on demand. To spin up your own workspace, install the relevant cluster plugin and ask Claude Code to scaffold one where you need it.
 
 The repositories marked with the ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) badge in the main index are examples of this pattern in action.
 
