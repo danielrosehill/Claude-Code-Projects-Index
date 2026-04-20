@@ -77,7 +77,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Shopping-Plugin"
       },
-      "description": "Claude Code plugin: consumer shopping workflow \u2014 find product, compare vendors, check availability, with Israel and generic region variants.",
+      "description": "Claude Code plugin: consumer shopping workflow \u2014 find product, compare vendors, check availability. Region-specific commands (e.g. Israel) now live in dedicated plugins like israel-skills.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -438,7 +438,7 @@
         "repo": "danielrosehill/Claude-Dev-Tools-Plugin"
       },
       "description": "Claude Code plugin: dev tools workflow \u2014 scaffold repos, retrofit for agents, QA code review, templatize, session continuity, with 7 variants.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -590,6 +590,93 @@
         "scanner",
         "hardware",
         "hp"
+      ]
+    },
+    {
+      "name": "repo-to-docs",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Repo-To-Docs-plugin"
+      },
+      "description": "Convert GitHub repos into polished documents (PDF, blog post, white paper, internal doc) via Typst, with optional AI banner generation and multi-target publishing.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "docs",
+        "pdf",
+        "typst",
+        "publishing",
+        "repo-to-doc"
+      ]
+    },
+    {
+      "name": "israel-skills",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Israel-Skills-Plugin"
+      },
+      "description": "Israel-specific Claude Code agent skills and commands \u2014 Hebrew term resolution, Israeli retail (Zap, KSP, Ivory, etc.), ILS currency, and regional utilities.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "israel",
+        "hebrew",
+        "localization",
+        "skills",
+        "shopping"
+      ]
+    },
+    {
+      "name": "test-project-ideator",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/test-project-ideator-plugin"
+      },
+      "description": "Generates specifications for practice/dummy development projects tailored to the user's learning objectives, technology stack, and proficiency level in each language or tool.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "learning",
+        "project-ideation",
+        "practice-projects",
+        "education"
+      ]
+    },
+    {
+      "name": "teach-this-repo",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/teach-this-repo-plugin"
+      },
+      "description": "Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with code samples drawn from the source, and supports an interactive Q&A mode.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "education",
+        "teaching",
+        "repo-analysis",
+        "learning",
+        "curriculum"
       ]
     }
   ]

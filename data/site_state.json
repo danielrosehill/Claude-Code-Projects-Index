@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-19T16:48:03",
-  "total_repos": 86,
+  "last_built": "2026-04-20T15:00:52",
+  "total_repos": 90,
   "total_tags": 14,
   "repo_manifest": {
     "Agent Junction": "4251099ca55c99b1f616c4ca81e704cd",
@@ -64,6 +64,7 @@
     "How-To-MCP": "5e0af775c5cd9a48e030f873f62dfcbf",
     "HP5200 Printer": "37ccb3833f3591642da74b9b9ac7f1b6",
     "Ideation Planning": "26f089149d87e9e57ce6d28438e84e5c",
+    "Israel Skills": "f12e29eff10ea05f21147bae2e13ebdf",
     "Knowledge Documentation": "e0a666f2c861a98ef68396196501672f",
     "Legal Investigative": "bf11e055e731e22e3f6ea73e3d366526",
     "Linux Desktop ClaudeMD Seeder": "1027aa4623a63f0aee7a92e8a94d82fe",
@@ -78,14 +79,17 @@
     "PR & Media Work": "538011492be4b6110e47f57d69215af3",
     "Private And Public Claude MD": "9ce45ac8195ae67866f3328dcbcc0797",
     "Purchasing": "ea85f19fbef79f813aa19f64e01ae3ee",
+    "Repo To Docs": "5e1fbc74e57fa89b9fa590cd17f1d1a4",
     "Research Space": "ecf3c156ef08f6ab1d1afc8dd4549173",
     "Security Checkup": "d5aea7e3825d76559eec57e0b07c2476",
-    "Shopping": "c54333fe0a7e2ce6a8bb19da29dc993f",
+    "Shopping": "e7a68a1099804491415e0a5c716d5e06",
     "Skill Creation Research": "88f0c50ab8e90e60823d055a1fcf2523",
     "Smart Home": "1dacbc928dd77978bdc9869e3848a267",
     "Smithery Claude Code MCP Jumpstarter": "01f067df002274e3998e42b9d019b8f5",
     "Sysadmin Homelab": "8a9532f19370c2150f9903d7b45f5ef4",
+    "Teach This Repo": "0b7235a9fefa74ff0dcc5b025693af2b",
     "Technical Docs": "5dbd6eab0607c0feb8831bcb9c601938",
+    "Test Project Ideator": "4241e7117e115efcaf40bffe28fa8dad",
     "The User Voice Types": "eaea4f805e8773944cb9e351263b44b6",
     "Video Production": "3142a664e24a13d1a16b04f5042164c4",
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
@@ -1496,6 +1500,27 @@
         }
       ],
       "total_repos": 86
+    },
+    {
+      "date": "2026-04-20T15:00:52",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Israel Skills",
+            "Repo To Docs",
+            "Teach This Repo",
+            "Test Project Ideator"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Shopping"
+          ]
+        }
+      ],
+      "total_repos": 90
     }
   ]
 }

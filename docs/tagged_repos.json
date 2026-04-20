@@ -920,6 +920,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Israel Skills",
+    "url": "https://github.com/danielrosehill/Israel-Skills-Plugin",
+    "description": "Israel-specific Claude Code agent skills and commands \u2014 Hebrew term resolution, Israeli retail (Zap, KSP, Ivory, etc.), ILS currency, and regional utilities.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-20",
+    "slug": "israel-skills",
+    "created_date": "2026-04-20"
+  },
+  {
     "name": "Knowledge Documentation",
     "url": "https://github.com/danielrosehill/Claude-Knowledge-Documentation-Plugin",
     "description": "Claude Code plugin: knowledge documentation workflow \u2014 index, cross-link, build taxonomy, version docs, with wiki/resource-library/process-docs/experiment-report variants.",
@@ -1131,6 +1145,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Repo To Docs",
+    "url": "https://github.com/danielrosehill/Repo-To-Docs-plugin",
+    "description": "Convert GitHub repos into polished documents (PDF, blog post, white paper, internal doc) via Typst, with optional AI banner generation and multi-target publishing.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-20",
+    "slug": "repo-to-docs",
+    "created_date": "2026-04-20"
+  },
+  {
     "name": "Research Space",
     "url": "https://github.com/danielrosehill/Claude-Research-Space-Plugin",
     "description": "Claude Code plugin: research workflow \u2014 source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor variants.",
@@ -1165,7 +1193,7 @@
   {
     "name": "Shopping",
     "url": "https://github.com/danielrosehill/Claude-Shopping-Plugin",
-    "description": "Claude Code plugin: consumer shopping workflow \u2014 find product, compare vendors, check availability, with Israel and generic region variants.",
+    "description": "Claude Code plugin: consumer shopping workflow \u2014 find product, compare vendors, check availability. Region-specific commands (e.g. Israel) now live in dedicated plugins like israel-skills.",
     "tags": [
       "Automation",
       "Plugin"
@@ -1237,6 +1265,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Teach This Repo",
+    "url": "https://github.com/danielrosehill/teach-this-repo-plugin",
+    "description": "Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with code samples drawn from the source, and supports an interactive Q&A mode.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-20",
+    "slug": "teach-this-repo",
+    "created_date": "2026-04-20"
+  },
+  {
     "name": "Technical Docs",
     "url": "https://github.com/danielrosehill/Claude-Technical-Docs-Plugin",
     "description": "Claude Code plugin: technical documentation workflow \u2014 READMEs, reference docs, changelogs, environment docs, with api-reference/code-docs/environment-docs/dev-notebook variants.",
@@ -1251,6 +1293,20 @@
     "added_date": "2026-04-19",
     "slug": "technical-docs",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Test Project Ideator",
+    "url": "https://github.com/danielrosehill/test-project-ideator-plugin",
+    "description": "Generates specifications for practice/dummy development projects tailored to the user's learning objectives, technology stack, and proficiency level in each language or tool.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-20",
+    "slug": "test-project-ideator",
+    "created_date": "2026-04-20"
   },
   {
     "name": "The User Voice Types",

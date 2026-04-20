@@ -202,7 +202,7 @@ Claude Code plugin: purchasing workflow — intake, compare products, evaluate o
 ### Shopping
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Shopping-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability, with Israel and generic region variants.
+Claude Code plugin: consumer shopping workflow — find product, compare vendors, check availability. Region-specific commands (e.g. Israel) now live in dedicated plugins like israel-skills.
 
 ---
 
@@ -228,5 +228,41 @@ Claude Code plugin: smart home workflow — Home Assistant, Snapcast multi-room 
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Claude Code plugin: filesystem organisation workflow — scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants.
+
+---
+
+## Docs
+
+### Repo To Docs
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Repo-To-Docs-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Convert GitHub repos into polished documents (PDF, blog post, white paper, internal doc) via Typst, with optional AI banner generation and multi-target publishing.
+
+---
+
+## Education
+
+### Teach This Repo
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/teach-this-repo-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with code samples drawn from the source, and supports an interactive Q&A mode.
+
+---
+
+## Israel
+
+### Israel Skills
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Skills-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Israel-specific Claude Code agent skills and commands — Hebrew term resolution, Israeli retail (Zap, KSP, Ivory, etc.), ILS currency, and regional utilities.
+
+---
+
+## Learning
+
+### Test Project Ideator
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/test-project-ideator-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Generates specifications for practice/dummy development projects tailored to the user's learning objectives, technology stack, and proficiency level in each language or tool.
 
 ---
