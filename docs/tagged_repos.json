@@ -1265,6 +1265,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Resume Typesetter",
+    "url": "https://github.com/danielrosehill/Resume-Typesetter",
+    "description": "Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-21",
+    "slug": "resume-typesetter",
+    "created_date": "2026-04-21"
+  },
+  {
     "name": "Security Checkup",
     "url": "https://github.com/danielrosehill/Claude-Security-Checkup-Plugin",
     "description": "Claude Code plugin: security and compliance workflow \u2014 vulnerability scanning, system hardening, config audits.",

@@ -833,6 +833,28 @@
         "mjml",
         "templates"
       ]
+    },
+    {
+      "name": "resume-typesetter",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Resume-Typesetter"
+      },
+      "description": "Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "resume",
+        "cv",
+        "typst",
+        "json-resume",
+        "typesetting"
+      ]
     }
   ]
 }

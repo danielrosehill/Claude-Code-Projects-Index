@@ -767,6 +767,15 @@ Generates specifications for practice/dummy development projects tailored to the
 
 ---
 
+## Resume
+
+### Resume Typesetter
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Resume-Typesetter) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.
+
+---
+
 ## Task Management
 
 ### Task Queuer
