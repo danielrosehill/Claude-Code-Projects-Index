@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-20T17:33:15",
-  "total_repos": 93,
+  "last_built": "2026-04-20T17:42:12",
+  "total_repos": 94,
   "total_tags": 14,
   "repo_manifest": {
     "Agent Junction": "4251099ca55c99b1f616c4ca81e704cd",
@@ -63,6 +63,7 @@
     "Dev Tools": "154402dac5c6b0db81f94d04609655d8",
     "Filesystem Organiser": "28f4bdb5689a436b3584bd8a50d31597",
     "Github Explorer": "a9530d8b20f5936104bb80d1f750ad5d",
+    "Greeninvoice Ops": "f80b1eb0064c0911944fe4c5981476c4",
     "How-To-MCP": "5e0af775c5cd9a48e030f873f62dfcbf",
     "HP5200 Printer": "37ccb3833f3591642da74b9b9ac7f1b6",
     "Ideation Planning": "26f089149d87e9e57ce6d28438e84e5c",
@@ -1572,6 +1573,18 @@
         }
       ],
       "total_repos": 93
+    },
+    {
+      "date": "2026-04-20T17:42:12",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Greeninvoice Ops"
+          ]
+        }
+      ],
+      "total_repos": 94
     }
   ]
 }

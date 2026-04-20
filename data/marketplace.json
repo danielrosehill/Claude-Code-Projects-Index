@@ -745,6 +745,28 @@
         "borg",
         "rclone"
       ]
+    },
+    {
+      "name": "greeninvoice-ops",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/greeninvoice-ops-plugin"
+      },
+      "description": "Operational commands and a skill for working with the Green Invoice MCP server \u2014 invoices, clients, expenses, and monthly summaries.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "greeninvoice",
+        "accounting",
+        "invoicing",
+        "israel",
+        "mcp"
+      ]
     }
   ]
 }

@@ -715,6 +715,15 @@ Semantic GitHub repo discovery for reusable components. Search, rank, overview, 
 
 ---
 
+## Greeninvoice
+
+### Greeninvoice Ops
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/greeninvoice-ops-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Operational commands and a skill for working with the Green Invoice MCP server — invoices, clients, expenses, and monthly summaries.
+
+---
+
 ## Israel
 
 ### Israel Skills

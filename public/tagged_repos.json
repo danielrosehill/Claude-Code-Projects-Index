@@ -903,6 +903,22 @@
     "created_date": "2026-04-20"
   },
   {
+    "name": "Greeninvoice Ops",
+    "url": "https://github.com/danielrosehill/greeninvoice-ops-plugin",
+    "description": "Operational commands and a skill for working with the Green Invoice MCP server \u2014 invoices, clients, expenses, and monthly summaries.",
+    "tags": [
+      "MCP",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-20",
+    "slug": "greeninvoice-ops",
+    "created_date": "2026-04-20"
+  },
+  {
     "name": "How-To-MCP",
     "url": "https://github.com/danielrosehill/How-To-MCP",
     "description": "Guide for instructing AI agents on how to provision and manage MCP server connections according to user-specific preferences, with a tiered decision matrix.",
