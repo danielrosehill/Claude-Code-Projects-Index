@@ -104,6 +104,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Backup Planner",
+    "url": "https://github.com/danielrosehill/Backup-Planner",
+    "description": "Plan, document, and implement a backup and data-protection strategy for the current project \u2014 from architecture discovery through script generation and restore drills.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-20",
+    "slug": "backup-planner",
+    "created_date": "2026-04-20"
+  },
+  {
     "name": "Bash Alias Manager Claude",
     "url": "https://github.com/danielrosehill/Bash-Alias-Manager-Claude",
     "description": "Workspace for managing bash aliases with YADM synchronization support.",

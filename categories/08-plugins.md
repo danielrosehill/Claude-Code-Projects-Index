@@ -229,6 +229,15 @@ Claude Code plugin: filesystem organisation workflow — scan, dedupe, cleanup, 
 
 ---
 
+## Backup
+
+### Backup Planner
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Backup-Planner) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Plan, document, and implement a backup and data-protection strategy for the current project — from architecture discovery through script generation and restore drills.
+
+---
+
 ## Docs
 
 ### Repo To Docs

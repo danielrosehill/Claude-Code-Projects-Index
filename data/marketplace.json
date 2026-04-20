@@ -722,6 +722,29 @@
         "open-source",
         "component-search"
       ]
+    },
+    {
+      "name": "backup-planner",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Backup-Planner"
+      },
+      "description": "Plan, document, and implement a backup and data-protection strategy for the current project \u2014 from architecture discovery through script generation and restore drills.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "backup",
+        "data-protection",
+        "disaster-recovery",
+        "restic",
+        "borg",
+        "rclone"
+      ]
     }
   ]
 }

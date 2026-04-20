@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-20T17:19:06",
-  "total_repos": 92,
+  "last_built": "2026-04-20T17:33:15",
+  "total_repos": 93,
   "total_tags": 14,
   "repo_manifest": {
     "Agent Junction": "4251099ca55c99b1f616c4ca81e704cd",
@@ -10,6 +10,7 @@
     "AI Memory Planning 0426": "e611e292c57b3b7184bd62ad18f033a6",
     "AI-Human Attribution Adder": "0f8c884ee31a88612916cc412b208443",
     "Audio Production": "53263687c817cdf24b4c871b9eaf5bb9",
+    "Backup Planner": "b4fa57f2830be79f91b9dab5e5bcb6c9",
     "Bash Alias Manager Claude": "22b7f92646f7baf85170424537d3512b",
     "Batch ClaudeMD Repo Creator": "16273bde7f75761a1b3c815888174e4a",
     "Budgeting": "2c4813804b79d5c85272ff7fc006801f",
@@ -1559,6 +1560,18 @@
         }
       ],
       "total_repos": 92
+    },
+    {
+      "date": "2026-04-20T17:33:15",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Backup Planner"
+          ]
+        }
+      ],
+      "total_repos": 93
     }
   ]
 }
