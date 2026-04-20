@@ -678,6 +678,28 @@
         "learning",
         "curriculum"
       ]
+    },
+    {
+      "name": "task-queuer",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Task-Queuer-Plugin"
+      },
+      "description": "Repo-based task queueing system with categorisation and prioritisation. Scaffolds a planning/ folder, logs tasks, buckets them by category, and hands prioritised work off to the repo's orchestration agent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "task-management",
+        "queue",
+        "planning",
+        "repo-scaffold",
+        "orchestration"
+      ]
     }
   ]
 }

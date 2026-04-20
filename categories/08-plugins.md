@@ -264,3 +264,12 @@ Israel-specific Claude Code agent skills and commands — Hebrew term resolution
 Generates specifications for practice/dummy development projects tailored to the user's learning objectives, technology stack, and proficiency level in each language or tool.
 
 ---
+
+## Task Management
+
+### Task Queuer
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Task-Queuer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Repo-based task queueing system with categorisation and prioritisation. Scaffolds a planning/ folder, logs tasks, buckets them by category, and hands prioritised work off to the repo's orchestration agent.
+
+---

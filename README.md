@@ -715,6 +715,15 @@ Generates specifications for practice/dummy development projects tailored to the
 
 ---
 
+## Task Management
+
+### Task Queuer
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Task-Queuer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Repo-based task queueing system with categorisation and prioritisation. Scaffolds a planning/ folder, logs tasks, buckets them by category, and hands prioritised work off to the repo's orchestration agent.
+
+---
+
 # Templates / Scaffolds
 
 Scaffolds used to be distributed as ~100 standalone template repos and a `New-Repo-From-Template` plugin. That pattern was retired in the April 2026 reshape.

@@ -1265,6 +1265,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Task Queuer",
+    "url": "https://github.com/danielrosehill/Claude-Task-Queuer-Plugin",
+    "description": "Repo-based task queueing system with categorisation and prioritisation. Scaffolds a planning/ folder, logs tasks, buckets them by category, and hands prioritised work off to the repo's orchestration agent.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-20",
+    "slug": "task-queuer",
+    "created_date": "2026-04-20"
+  },
+  {
     "name": "Teach This Repo",
     "url": "https://github.com/danielrosehill/teach-this-repo-plugin",
     "description": "Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with code samples drawn from the source, and supports an interactive Q&A mode.",
