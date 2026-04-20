@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-20T22:02:34",
-  "total_repos": 96,
+  "last_built": "2026-04-21T00:44:44",
+  "total_repos": 97,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "906a8750b4bc5dd20a1bdd14da7072c6",
@@ -67,6 +67,7 @@
     "Greeninvoice Ops": "43f54468e0caf3feadd51f14a415d201",
     "How-To-MCP": "5e0af775c5cd9a48e030f873f62dfcbf",
     "HP5200 Printer": "37ccb3833f3591642da74b9b9ac7f1b6",
+    "Html Email Designer": "f483d93d394b9c0a230358de346791dd",
     "Ideation Planning": "26f089149d87e9e57ce6d28438e84e5c",
     "Israel Shopping": "222ef03b959054819663ce5f16756114",
     "Knowledge Documentation": "e0a666f2c861a98ef68396196501672f",
@@ -1625,6 +1626,18 @@
         }
       ],
       "total_repos": 96
+    },
+    {
+      "date": "2026-04-21T00:44:44",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Html Email Designer"
+          ]
+        }
+      ],
+      "total_repos": 97
     }
   ]
 }

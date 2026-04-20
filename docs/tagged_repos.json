@@ -963,6 +963,21 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Html Email Designer",
+    "url": "https://github.com/danielrosehill/html-email-designer-plugin",
+    "description": "Design and build responsive HTML email templates using Foundation for Emails, Maizzle, or MJML. Framework-agnostic authoring with email-client compatibility baked in.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-21",
+    "slug": "html-email-designer",
+    "created_date": "2026-04-21"
+  },
+  {
     "name": "Ideation Planning",
     "url": "https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin",
     "description": "Claude Code plugin: ideation and planning workflow \u2014 capture, evaluate, rank, simulate, with ideation/single-eval/multi-ranking/feature/decision/simulation/capture variants.",

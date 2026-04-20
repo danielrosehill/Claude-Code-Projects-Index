@@ -810,6 +810,29 @@
         "automation",
         "device-management"
       ]
+    },
+    {
+      "name": "html-email-designer",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/html-email-designer-plugin"
+      },
+      "description": "Design and build responsive HTML email templates using Foundation for Emails, Maizzle, or MJML. Framework-agnostic authoring with email-client compatibility baked in.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "email",
+        "html",
+        "foundation",
+        "maizzle",
+        "mjml",
+        "templates"
+      ]
     }
   ]
 }

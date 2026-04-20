@@ -267,6 +267,15 @@ Uses a real code repository in reverse for developer education: assesses the lea
 
 ---
 
+## Email
+
+### Html Email Designer
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/html-email-designer-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Design and build responsive HTML email templates using Foundation for Emails, Maizzle, or MJML. Framework-agnostic authoring with email-client compatibility baked in.
+
+---
+
 ## Github
 
 ### Github Explorer
