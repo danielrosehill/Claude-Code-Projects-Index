@@ -700,6 +700,28 @@
         "repo-scaffold",
         "orchestration"
       ]
+    },
+    {
+      "name": "github-explorer",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Github-Explorer-Plugin"
+      },
+      "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos \u2014 Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "github",
+        "discovery",
+        "search",
+        "open-source",
+        "component-search"
+      ]
     }
   ]
 }

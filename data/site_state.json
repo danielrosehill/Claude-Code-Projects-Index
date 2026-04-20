@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-20T17:11:24",
-  "total_repos": 91,
+  "last_built": "2026-04-20T17:19:06",
+  "total_repos": 92,
   "total_tags": 14,
   "repo_manifest": {
     "Agent Junction": "4251099ca55c99b1f616c4ca81e704cd",
@@ -61,6 +61,7 @@
     "Desktop Manager": "83e2057a4a3e8add10c9c58da977fb7b",
     "Dev Tools": "154402dac5c6b0db81f94d04609655d8",
     "Filesystem Organiser": "28f4bdb5689a436b3584bd8a50d31597",
+    "Github Explorer": "a9530d8b20f5936104bb80d1f750ad5d",
     "How-To-MCP": "5e0af775c5cd9a48e030f873f62dfcbf",
     "HP5200 Printer": "37ccb3833f3591642da74b9b9ac7f1b6",
     "Ideation Planning": "26f089149d87e9e57ce6d28438e84e5c",
@@ -1546,6 +1547,18 @@
         }
       ],
       "total_repos": 91
+    },
+    {
+      "date": "2026-04-20T17:19:06",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Github Explorer"
+          ]
+        }
+      ],
+      "total_repos": 92
     }
   ]
 }

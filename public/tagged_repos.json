@@ -875,6 +875,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Github Explorer",
+    "url": "https://github.com/danielrosehill/Claude-Github-Explorer-Plugin",
+    "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos \u2014 Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-20",
+    "slug": "github-explorer",
+    "created_date": "2026-04-20"
+  },
+  {
     "name": "How-To-MCP",
     "url": "https://github.com/danielrosehill/How-To-MCP",
     "description": "Guide for instructing AI agents on how to provision and manage MCP server connections according to user-specific preferences, with a tiered decision matrix.",

@@ -247,6 +247,15 @@ Uses a real code repository in reverse for developer education: assesses the lea
 
 ---
 
+## Github
+
+### Github Explorer
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Github-Explorer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos — Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.
+
+---
+
 ## Israel
 
 ### Israel Skills
