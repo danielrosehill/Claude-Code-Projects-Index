@@ -1267,7 +1267,7 @@
   {
     "name": "Task Queuer",
     "url": "https://github.com/danielrosehill/Claude-Task-Queuer-Plugin",
-    "description": "Repo-based task queueing system with categorisation and prioritisation. Scaffolds a planning/ folder, logs tasks, buckets them by category, and hands prioritised work off to the repo's orchestration agent.",
+    "description": "Repo-based task queueing system with categorisation and prioritisation. Scaffolds a planning/ folder, logs tasks (single, batch list, or voice-transcribed), buckets them by category, and hands prioritised work off to the repo's orchestration agent.",
     "tags": [
       "Plugin"
     ],

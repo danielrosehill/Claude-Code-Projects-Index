@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-04-20T17:07:05",
+  "last_built": "2026-04-20T17:11:24",
   "total_repos": 91,
   "total_tags": 14,
   "repo_manifest": {
@@ -87,7 +87,7 @@
     "Smart Home": "1dacbc928dd77978bdc9869e3848a267",
     "Smithery Claude Code MCP Jumpstarter": "01f067df002274e3998e42b9d019b8f5",
     "Sysadmin Homelab": "8a9532f19370c2150f9903d7b45f5ef4",
-    "Task Queuer": "24d720db480f2c92663db0be0ad50907",
+    "Task Queuer": "72bc01386d56ff7202b305be7a5ed115",
     "Teach This Repo": "0b7235a9fefa74ff0dcc5b025693af2b",
     "Technical Docs": "5dbd6eab0607c0feb8831bcb9c601938",
     "Test Project Ideator": "4241e7117e115efcaf40bffe28fa8dad",
@@ -1528,6 +1528,18 @@
       "changes": [
         {
           "type": "added",
+          "repos": [
+            "Task Queuer"
+          ]
+        }
+      ],
+      "total_repos": 91
+    },
+    {
+      "date": "2026-04-20T17:11:24",
+      "changes": [
+        {
+          "type": "modified",
           "repos": [
             "Task Queuer"
           ]
