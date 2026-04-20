@@ -1,5 +1,19 @@
 [
   {
+    "name": "Adb Ops",
+    "url": "https://github.com/danielrosehill/adb-ops-plugin",
+    "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-20",
+    "slug": "adb-ops",
+    "created_date": "2026-04-20"
+  },
+  {
     "name": "Agent Junction",
     "url": "https://github.com/danielrosehill/Agent-Junction",
     "description": "MCP server enabling encrypted peer-to-peer communication between Claude Code instances on localhost or LAN.",
@@ -861,7 +875,7 @@
   {
     "name": "Dev Tools",
     "url": "https://github.com/danielrosehill/Claude-Dev-Tools-Plugin",
-    "description": "Claude Code plugin: dev tools workflow \u2014 scaffold repos, retrofit for agents, QA code review, templatize, session continuity, with 7 variants.",
+    "description": "Claude Code plugin: dev tools workflow \u2014 scaffold repos, QA code review, templatize, session continuity. Retrofit-* and janitor-* skills moved to the repo-mgmt plugin in 2.0.0.",
     "tags": [
       "Automation",
       "Plugin"
@@ -964,17 +978,18 @@
     "created_date": "2026-04-19"
   },
   {
-    "name": "Israel Skills",
-    "url": "https://github.com/danielrosehill/Israel-Skills-Plugin",
-    "description": "Israel-specific Claude Code agent skills and commands \u2014 Hebrew term resolution, Israeli retail (Zap, KSP, Ivory, etc.), ILS currency, and regional utilities.",
+    "name": "Israel Shopping",
+    "url": "https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin",
+    "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP/market checks, and grocery/pharmacy search.",
     "tags": [
+      "Automation",
       "Plugin"
     ],
     "category": "Plugins",
     "category_slug": "plugins",
     "category_group": "Technical",
     "added_date": "2026-04-20",
-    "slug": "israel-skills",
+    "slug": "israel-shopping",
     "created_date": "2026-04-20"
   },
   {
@@ -1187,6 +1202,21 @@
     "added_date": "2026-04-19",
     "slug": "purchasing",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Repo Mgmt",
+    "url": "https://github.com/danielrosehill/Repo-Mgmt",
+    "description": "Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, and spin off breakaway or parallel-private repos. Includes a preferences layer that remembers where different repo types live on disk.",
+    "tags": [
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-20",
+    "slug": "repo-mgmt",
+    "created_date": "2026-04-20"
   },
   {
     "name": "Repo To Docs",

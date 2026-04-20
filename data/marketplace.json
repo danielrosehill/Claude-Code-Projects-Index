@@ -437,8 +437,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Dev-Tools-Plugin"
       },
-      "description": "Claude Code plugin: dev tools workflow \u2014 scaffold repos, retrofit for agents, QA code review, templatize, session continuity, with 7 variants.",
-      "version": "1.0.1",
+      "description": "Claude Code plugin: dev tools workflow \u2014 scaffold repos, QA code review, templatize, session continuity. Retrofit-* and janitor-* skills moved to the repo-mgmt plugin in 2.0.0.",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -615,13 +615,13 @@
       ]
     },
     {
-      "name": "israel-skills",
+      "name": "israel-shopping",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Israel-Skills-Plugin"
+        "repo": "danielrosehill/Claude-Israel-Shopping-Plugin"
       },
-      "description": "Israel-specific Claude Code agent skills and commands \u2014 Hebrew term resolution, Israeli retail (Zap, KSP, Ivory, etc.), ILS currency, and regional utilities.",
-      "version": "1.0.0",
+      "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP/market checks, and grocery/pharmacy search.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -766,6 +766,49 @@
         "invoicing",
         "israel",
         "mcp"
+      ]
+    },
+    {
+      "name": "repo-mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Repo-Mgmt"
+      },
+      "description": "Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, and spin off breakaway or parallel-private repos. Includes a preferences layer that remembers where different repo types live on disk.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "github",
+        "repo-management",
+        "retrofit",
+        "janitor",
+        "huggingface"
+      ]
+    },
+    {
+      "name": "adb-ops",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/adb-ops-plugin"
+      },
+      "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "adb",
+        "android",
+        "automation",
+        "device-management"
       ]
     }
   ]

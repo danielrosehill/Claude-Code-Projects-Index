@@ -1,8 +1,9 @@
 {
-  "last_built": "2026-04-20T17:43:12",
-  "total_repos": 94,
+  "last_built": "2026-04-20T22:02:34",
+  "total_repos": 96,
   "total_tags": 14,
   "repo_manifest": {
+    "Adb Ops": "906a8750b4bc5dd20a1bdd14da7072c6",
     "Agent Junction": "4251099ca55c99b1f616c4ca81e704cd",
     "AI Attribution": "b7757a88811a9a21055d90d90e78d409",
     "AI Engineering": "9b88e7c8e5e5cff472dcd20bbada21b0",
@@ -60,14 +61,14 @@
     "Debugging": "85f4f37502be4ae66fae6c8605ba8256",
     "Declaude": "d65e21c47285dc215b1898443438bb31",
     "Desktop Manager": "83e2057a4a3e8add10c9c58da977fb7b",
-    "Dev Tools": "154402dac5c6b0db81f94d04609655d8",
+    "Dev Tools": "706e38391112bf03a86ac6c2b1d1d65d",
     "Filesystem Organiser": "28f4bdb5689a436b3584bd8a50d31597",
     "Github Explorer": "a9530d8b20f5936104bb80d1f750ad5d",
     "Greeninvoice Ops": "43f54468e0caf3feadd51f14a415d201",
     "How-To-MCP": "5e0af775c5cd9a48e030f873f62dfcbf",
     "HP5200 Printer": "37ccb3833f3591642da74b9b9ac7f1b6",
     "Ideation Planning": "26f089149d87e9e57ce6d28438e84e5c",
-    "Israel Skills": "f12e29eff10ea05f21147bae2e13ebdf",
+    "Israel Shopping": "222ef03b959054819663ce5f16756114",
     "Knowledge Documentation": "e0a666f2c861a98ef68396196501672f",
     "Legal Investigative": "bf11e055e731e22e3f6ea73e3d366526",
     "Linux Desktop ClaudeMD Seeder": "1027aa4623a63f0aee7a92e8a94d82fe",
@@ -82,6 +83,7 @@
     "PR & Media Work": "538011492be4b6110e47f57d69215af3",
     "Private And Public Claude MD": "9ce45ac8195ae67866f3328dcbcc0797",
     "Purchasing": "ea85f19fbef79f813aa19f64e01ae3ee",
+    "Repo Mgmt": "ce17d68852f51adb9070b14b16174aff",
     "Repo To Docs": "5e1fbc74e57fa89b9fa590cd17f1d1a4",
     "Research Space": "ecf3c156ef08f6ab1d1afc8dd4549173",
     "Security Checkup": "d5aea7e3825d76559eec57e0b07c2476",
@@ -1597,6 +1599,32 @@
         }
       ],
       "total_repos": 94
+    },
+    {
+      "date": "2026-04-20T22:02:34",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Adb Ops",
+            "Israel Shopping",
+            "Repo Mgmt"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Israel Skills"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Dev Tools"
+          ]
+        }
+      ],
+      "total_repos": 96
     }
   ]
 }

@@ -491,7 +491,7 @@ Claude Code plugin: debugging workflow — capture logs, isolate issue, diagnose
 ### Dev Tools
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Dev-Tools-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude Code plugin: dev tools workflow — scaffold repos, retrofit for agents, QA code review, templatize, session continuity, with 7 variants.
+Claude Code plugin: dev tools workflow — scaffold repos, QA code review, templatize, session continuity. Retrofit-* and janitor-* skills moved to the repo-mgmt plugin in 2.0.0.
 
 ---
 
@@ -679,6 +679,15 @@ Claude Code plugin: filesystem organisation workflow — scan, dedupe, cleanup, 
 
 ---
 
+## Adb
+
+### Adb Ops
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/adb-ops-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.
+
+---
+
 ## Backup
 
 ### Backup Planner
@@ -715,6 +724,13 @@ Semantic GitHub repo discovery for reusable components. Search, rank, overview, 
 
 ---
 
+### Repo Mgmt
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Repo-Mgmt) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, and spin off breakaway or parallel-private repos. Includes a preferences layer that remembers where different repo types live on disk.
+
+---
+
 ## Greeninvoice
 
 ### Greeninvoice Ops
@@ -726,10 +742,10 @@ Operational commands and a skill for working with the Green Invoice MCP server �
 
 ## Israel
 
-### Israel Skills
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Skills-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Israel Shopping
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Israel-specific Claude Code agent skills and commands — Hebrew term resolution, Israeli retail (Zap, KSP, Ivory, etc.), ILS currency, and regional utilities.
+Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP/market checks, and grocery/pharmacy search.
 
 ---
 
