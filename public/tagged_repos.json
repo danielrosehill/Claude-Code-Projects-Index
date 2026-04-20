@@ -904,7 +904,7 @@
   },
   {
     "name": "Greeninvoice Ops",
-    "url": "https://github.com/danielrosehill/greeninvoice-ops-plugin",
+    "url": "https://github.com/danielrosehill/Claude-Green-Invoice-Ops-Plugin",
     "description": "Operational commands and a skill for working with the Green Invoice MCP server \u2014 invoices, clients, expenses, and monthly summaries.",
     "tags": [
       "MCP",

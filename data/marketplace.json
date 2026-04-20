@@ -750,7 +750,7 @@
       "name": "greeninvoice-ops",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/greeninvoice-ops-plugin"
+        "repo": "danielrosehill/Claude-Green-Invoice-Ops-Plugin"
       },
       "description": "Operational commands and a skill for working with the Green Invoice MCP server \u2014 invoices, clients, expenses, and monthly summaries.",
       "version": "1.0.0",
