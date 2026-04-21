@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-21T00:47:17",
-  "total_repos": 98,
+  "last_built": "2026-04-21T14:05:53",
+  "total_repos": 99,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "906a8750b4bc5dd20a1bdd14da7072c6",
@@ -99,6 +99,7 @@
     "Technical Docs": "5dbd6eab0607c0feb8831bcb9c601938",
     "Test Project Ideator": "4241e7117e115efcaf40bffe28fa8dad",
     "The User Voice Types": "eaea4f805e8773944cb9e351263b44b6",
+    "User Claude MD": "8d3ea90d4e333fd456a9224b0444d4f0",
     "Video Production": "3142a664e24a13d1a16b04f5042164c4",
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
@@ -1651,6 +1652,18 @@
         }
       ],
       "total_repos": 98
+    },
+    {
+      "date": "2026-04-21T14:05:53",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "User Claude MD"
+          ]
+        }
+      ],
+      "total_repos": 99
     }
   ]
 }

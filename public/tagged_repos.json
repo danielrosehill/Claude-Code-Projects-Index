@@ -1442,6 +1442,20 @@
     "created_date": "2026-04-14"
   },
   {
+    "name": "User Claude MD",
+    "url": "https://github.com/danielrosehill/User-Claude-MD-Plugin",
+    "description": "Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory \u2014 audit, chunk, list, and edit global Claude Code user context for token efficiency.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-21",
+    "slug": "user-claude-md",
+    "created_date": "2026-04-21"
+  },
+  {
     "name": "Video Production",
     "url": "https://github.com/danielrosehill/Claude-Video-Production-Plugin",
     "description": "Claude Code plugin: video production workflow \u2014 transcode, organise, dedupe, ComfyUI generation, cover art, with editing/generative/cover-art variants.",

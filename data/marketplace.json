@@ -855,6 +855,28 @@
         "json-resume",
         "typesetting"
       ]
+    },
+    {
+      "name": "user-claude-md",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/User-Claude-MD-Plugin"
+      },
+      "description": "Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory \u2014 audit, chunk, list, and edit global Claude Code user context for token efficiency.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "claude-md",
+        "context-management",
+        "user-config",
+        "meta",
+        "token-efficiency"
+      ]
     }
   ]
 }

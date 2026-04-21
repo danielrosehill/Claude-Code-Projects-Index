@@ -247,6 +247,15 @@ Plan, document, and implement a backup and data-protection strategy for the curr
 
 ---
 
+## Claude MD
+
+### User Claude MD
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/User-Claude-MD-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory — audit, chunk, list, and edit global Claude Code user context for token efficiency.
+
+---
+
 ## Docs
 
 ### Repo To Docs
