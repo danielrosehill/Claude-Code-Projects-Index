@@ -476,6 +476,20 @@
     "created_date": "2025-10-25"
   },
   {
+    "name": "Claude Data Analyst",
+    "url": "https://github.com/danielrosehill/Claude-Data-Analyst-plugin",
+    "description": "First-pass data analysis toolkit: correlations, PII flagging, anomalies, hypothesis tests, data dictionaries, and trend analysis on a dataset in a folder.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-23",
+    "slug": "claude-data-analyst",
+    "created_date": "2026-04-23"
+  },
+  {
     "name": "Claude Data Wrangler",
     "url": "https://github.com/danielrosehill/Claude-Data-Wrangler-plugin",
     "description": "Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 28 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, incremental upstream sync, and Typst-rendered PDF documents of the data.",

@@ -258,6 +258,15 @@ Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ dir
 
 ---
 
+## Data Analysis
+
+### Claude Data Analyst
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Data-Analyst-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+First-pass data analysis toolkit: correlations, PII flagging, anomalies, hypothesis tests, data dictionaries, and trend analysis on a dataset in a folder.
+
+---
+
 ## Data Cleaning
 
 ### Claude Data Wrangler
