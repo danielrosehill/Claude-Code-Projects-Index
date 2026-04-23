@@ -1010,6 +1010,28 @@
         "iso4217",
         "pii"
       ]
+    },
+    {
+      "name": "data-visualisation-and-publishing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Data-Visualisation-And-Publishing-plugin"
+      },
+      "description": "Create static and interactive data visualisations for reports, repos, and data storytelling \u2014 prioritising a curated inventory of open-source tools (Matplotlib, Bokeh, Chart.js, ECharts, D3, visx, Vizzu, VChart, Plotly Dash, Lightweight Charts, fl_chart, Constellation, DataWarrior, Iris, react-globe.gl, and more).",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "data-visualisation",
+        "data-storytelling",
+        "charts",
+        "reporting",
+        "publishing"
+      ]
     }
   ]
 }

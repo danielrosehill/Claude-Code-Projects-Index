@@ -267,6 +267,15 @@ Data cleaning, enrichment, restructuring, packaging, and documentation skills fo
 
 ---
 
+## Data Visualisation
+
+### Data Visualisation And Publishing
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Data-Visualisation-And-Publishing-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Create static and interactive data visualisations for reports, repos, and data storytelling — prioritising a curated inventory of open-source tools (Matplotlib, Bokeh, Chart.js, ECharts, D3, visx, Vizzu, VChart, Plotly Dash, Lightweight Charts, fl_chart, Constellation, DataWarrior, Iris, react-globe.gl, and more).
+
+---
+
 ## Docs
 
 ### Repo To Docs

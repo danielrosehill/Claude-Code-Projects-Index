@@ -841,6 +841,20 @@
     "created_date": "2025-10-02"
   },
   {
+    "name": "Data Visualisation And Publishing",
+    "url": "https://github.com/danielrosehill/Data-Visualisation-And-Publishing-plugin",
+    "description": "Create static and interactive data visualisations for reports, repos, and data storytelling \u2014 prioritising a curated inventory of open-source tools (Matplotlib, Bokeh, Chart.js, ECharts, D3, visx, Vizzu, VChart, Plotly Dash, Lightweight Charts, fl_chart, Constellation, DataWarrior, Iris, react-globe.gl, and more).",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-23",
+    "slug": "data-visualisation-and-publishing",
+    "created_date": "2026-04-23"
+  },
+  {
     "name": "Debugging",
     "url": "https://github.com/danielrosehill/Claude-Debugging-Plugin",
     "description": "Claude Code plugin: debugging workflow \u2014 capture logs, isolate issue, diagnose error, track bugs, with code/system/issue variants.",
