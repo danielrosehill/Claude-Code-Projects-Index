@@ -476,6 +476,20 @@
     "created_date": "2025-10-25"
   },
   {
+    "name": "Claude Data Wrangler",
+    "url": "https://github.com/danielrosehill/Claude-Data-Wrangler-plugin",
+    "description": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets (no visualisation). 27 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, and incremental upstream sync.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-23",
+    "slug": "claude-data-wrangler",
+    "created_date": "2026-04-23"
+  },
+  {
     "name": "Claude Deep Research Model (Notes / Documentation)",
     "url": "https://github.com/danielrosehill/Claude-Deep-Research-Model",
     "description": "Framework for iterative deep research using Claude with voice pipeline and structured outputs.",
@@ -993,6 +1007,35 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Image Production",
+    "url": "https://github.com/danielrosehill/Claude-Image-Production-Plugin",
+    "description": "Claude Code plugin: image production \u2014 editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-23",
+    "slug": "image-production",
+    "created_date": "2026-04-23"
+  },
+  {
+    "name": "Israel Agent Skills",
+    "url": "https://github.com/danielrosehill/Israel-Agent-Skills-Plugin",
+    "description": "Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups.",
+    "tags": [
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-23",
+    "slug": "israel-agent-skills",
+    "created_date": "2026-04-23"
+  },
+  {
     "name": "Israel Shopping",
     "url": "https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin",
     "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP/market checks, and grocery/pharmacy search.",
@@ -1055,6 +1098,20 @@
     "created_date": "2025-10-25"
   },
   {
+    "name": "Llm Council Creator",
+    "url": "https://github.com/danielrosehill/LLM-Council-Creator",
+    "description": "Scaffold new LLM Council projects from existing templates (Template, Grounded, Decide) or build bespoke council repos for specific purposes.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-23",
+    "slug": "llm-council-creator",
+    "created_date": "2026-04-23"
+  },
+  {
     "name": "Local Claude Plugin Install Research",
     "url": "https://github.com/danielrosehill/Local-Claude-Plugin-Install-Research",
     "description": "Research and notes on installing Claude Code plugins locally rather than through the marketplace.",
@@ -1071,6 +1128,20 @@
     "created_date": "2026-04-16"
   },
   {
+    "name": "Local Web Capture",
+    "url": "https://github.com/danielrosehill/Local-Web-Capture",
+    "description": "Capture geo-restricted web content (articles, prices) via the user's own localhost so requests exit via the user's IP. Headless-first escalation ladder (Scrapling static -> stealth -> Playwright -> real Chrome via bb-browser). Project-local save (in-repo captures/) with global fallback. Batch capture with human + agent summaries, Typst PDF compilation, and arbitrary-language capture+translate (default Hebrew -> English).",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-23",
+    "slug": "local-web-capture",
+    "created_date": "2026-04-23"
+  },
+  {
     "name": "MCPM Claude Code Docs",
     "url": "https://github.com/danielrosehill/MCPM-Claude-Code-Docs",
     "description": "Documentation for integrating Claude Code with MCPM external MCP server manager.",
@@ -1084,6 +1155,20 @@
     "added_date": "2026-03-06",
     "slug": "mcpm-claude-code-docs",
     "created_date": "2025-12-09"
+  },
+  {
+    "name": "Media Assistant Ops",
+    "url": "https://github.com/danielrosehill/media-assistant-ops-plugin",
+    "description": "Interface with a Music Assistant server via its local API \u2014 onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-23",
+    "slug": "media-assistant-ops",
+    "created_date": "2026-04-23"
   },
   {
     "name": "Media Library",

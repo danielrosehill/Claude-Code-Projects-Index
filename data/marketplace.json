@@ -153,6 +153,27 @@
       ]
     },
     {
+      "name": "image-production",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Image-Production-Plugin"
+      },
+      "description": "Claude Code plugin: image production \u2014 editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.",
+      "version": "2.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "image",
+        "media",
+        "exif",
+        "organisation"
+      ]
+    },
+    {
       "name": "video-production",
       "source": {
         "source": "github",
@@ -708,7 +729,7 @@
         "repo": "danielrosehill/Claude-Github-Explorer-Plugin"
       },
       "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos \u2014 Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -876,6 +897,118 @@
         "user-config",
         "meta",
         "token-efficiency"
+      ]
+    },
+    {
+      "name": "media-assistant-ops",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/media-assistant-ops-plugin"
+      },
+      "description": "Interface with a Music Assistant server via its local API \u2014 onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "music-assistant",
+        "home-audio",
+        "smart-home",
+        "dsp",
+        "automation"
+      ]
+    },
+    {
+      "name": "LLM-Council-Creator",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/LLM-Council-Creator"
+      },
+      "description": "Scaffold new LLM Council projects from existing templates (Template, Grounded, Decide) or build bespoke council repos for specific purposes.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "llm-council",
+        "scaffolding",
+        "multi-agent",
+        "deliberation"
+      ]
+    },
+    {
+      "name": "Local-Web-Capture",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Local-Web-Capture"
+      },
+      "description": "Capture geo-restricted web content (articles, prices) via the user's own localhost so requests exit via the user's IP. Headless-first escalation ladder (Scrapling static -> stealth -> Playwright -> real Chrome via bb-browser). Project-local save (in-repo captures/) with global fallback. Batch capture with human + agent summaries, Typst PDF compilation, and arbitrary-language capture+translate (default Hebrew -> English).",
+      "version": "0.3.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "scraping",
+        "web-capture",
+        "georestricted",
+        "translation",
+        "headless"
+      ]
+    },
+    {
+      "name": "israel-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Israel-Agent-Skills-Plugin"
+      },
+      "description": "Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "israel",
+        "hebrew",
+        "regional"
+      ]
+    },
+    {
+      "name": "Claude-Data-Wrangler",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Data-Wrangler-plugin"
+      },
+      "description": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets (no visualisation). 27 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, and incremental upstream sync.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "data-cleaning",
+        "data-enrichment",
+        "etl",
+        "csv",
+        "json",
+        "parquet",
+        "huggingface",
+        "iso3166",
+        "iso4217",
+        "pii"
       ]
     }
   ]

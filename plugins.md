@@ -258,6 +258,15 @@ Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ dir
 
 ---
 
+## Data Cleaning
+
+### Claude Data Wrangler
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Data-Wrangler-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets (no visualisation). 27 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, and incremental upstream sync.
+
+---
+
 ## Docs
 
 ### Repo To Docs
@@ -310,7 +319,23 @@ Operational commands and a skill for working with the Green Invoice MCP server �
 
 ---
 
+## Image
+
+### Image Production
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Image-Production-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Claude Code plugin: image production — editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.
+
+---
+
 ## Israel
+
+### Israel Agent Skills
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Agent-Skills-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups.
+
+---
 
 ### Israel Shopping
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
@@ -328,12 +353,39 @@ Generates specifications for practice/dummy development projects tailored to the
 
 ---
 
+## Llm Council
+
+### Llm Council Creator
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/LLM-Council-Creator) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Scaffold new LLM Council projects from existing templates (Template, Grounded, Decide) or build bespoke council repos for specific purposes.
+
+---
+
+## Music Assistant
+
+### Media Assistant Ops
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/media-assistant-ops-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.
+
+---
+
 ## Resume
 
 ### Resume Typesetter
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Resume-Typesetter) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.
+
+---
+
+## Scraping
+
+### Local Web Capture
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Local-Web-Capture) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Capture geo-restricted web content (articles, prices) via the user's own localhost so requests exit via the user's IP. Headless-first escalation ladder (Scrapling static -> stealth -> Playwright -> real Chrome via bb-browser). Project-local save (in-repo captures/) with global fallback. Batch capture with human + agent summaries, Typst PDF compilation, and arbitrary-language capture+translate (default Hebrew -> English).
 
 ---
 

@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-21T14:05:53",
-  "total_repos": 99,
+  "last_built": "2026-04-23T17:17:43",
+  "total_repos": 105,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "906a8750b4bc5dd20a1bdd14da7072c6",
@@ -35,6 +35,7 @@
     "Claude Code Plugin (Meta)": "996ae34983372eec4949a326c3058e87",
     "Claude Code Plugins Marketplace": "ea09e65724d874d54add5339a36a00c3",
     "Claude Code Repo Managers ClaudeMD": "66d19e814aa0c7cfb59864009598f2ce",
+    "Claude Data Wrangler": "7e48a17a96ba9afe4a9faf08e252a78b",
     "Claude Deep Research Model (Notes / Documentation)": "3ba2ee36ca149edc7ecae26ae983907a",
     "Claude Development Agents": "1471b9bc65a649101974399fb091c09d",
     "Claude Dolphin & Konsole Actions": "ef4d85c9b55e402f7ec74554f5307e6c",
@@ -69,12 +70,17 @@
     "HP5200 Printer": "37ccb3833f3591642da74b9b9ac7f1b6",
     "Html Email Designer": "f483d93d394b9c0a230358de346791dd",
     "Ideation Planning": "26f089149d87e9e57ce6d28438e84e5c",
+    "Image Production": "d53fff7d7038d89581257b8ea3792408",
+    "Israel Agent Skills": "2cf548325baccbea31f0d70b9b5fe8a0",
     "Israel Shopping": "222ef03b959054819663ce5f16756114",
     "Knowledge Documentation": "e0a666f2c861a98ef68396196501672f",
     "Legal Investigative": "bf11e055e731e22e3f6ea73e3d366526",
     "Linux Desktop ClaudeMD Seeder": "1027aa4623a63f0aee7a92e8a94d82fe",
+    "Llm Council Creator": "aefdd607f12c041a353f37cb1defafb4",
     "Local Claude Plugin Install Research": "5e26771c96a0289997d0ee1e5817cd01",
+    "Local Web Capture": "a703656dbfab4f3a62c2107519823f96",
     "MCPM Claude Code Docs": "fa5fab7f544ebc1eadb07ea4723e0010",
+    "Media Assistant Ops": "567a520a41b8429c33e3058aa5112d94",
     "Media Library": "44148a2b21ef279ed89ed27e13a7463f",
     "Meta Tools": "6ebd42f656e3842edcafeaa355688d08",
     "New Turn Claude Hook": "69e06775261d47a540621131a3097e03",
@@ -1664,6 +1670,23 @@
         }
       ],
       "total_repos": 99
+    },
+    {
+      "date": "2026-04-23T17:17:43",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Claude Data Wrangler",
+            "Image Production",
+            "Israel Agent Skills",
+            "Llm Council Creator",
+            "Local Web Capture",
+            "Media Assistant Ops"
+          ]
+        }
+      ],
+      "total_repos": 105
     }
   ]
 }
