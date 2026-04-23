@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-04-23T17:28:56",
+  "last_built": "2026-04-23T17:35:15",
   "total_repos": 106,
   "total_tags": 14,
   "repo_manifest": {
@@ -59,7 +59,7 @@
     "Content Writing": "a2de6730f888c3a6f45d6778a139b1a7",
     "CONTEXT.md": "ce976b6647ab119eaa221a75c948adfb",
     "Cool Claude Code Stuff": "2f55aa29b1e2494720692bbabf23be78",
-    "Data Visualisation And Publishing": "83878ea74ef5626655c38320b9fd9008",
+    "Data Visualisation And Publishing": "43576e05e026d3a0814430cbab24955a",
     "Debugging": "85f4f37502be4ae66fae6c8605ba8256",
     "Declaude": "d65e21c47285dc215b1898443438bb31",
     "Desktop Manager": "83e2057a4a3e8add10c9c58da977fb7b",
@@ -1706,6 +1706,18 @@
       "changes": [
         {
           "type": "added",
+          "repos": [
+            "Data Visualisation And Publishing"
+          ]
+        }
+      ],
+      "total_repos": 106
+    },
+    {
+      "date": "2026-04-23T17:35:15",
+      "changes": [
+        {
+          "type": "modified",
           "repos": [
             "Data Visualisation And Publishing"
           ]
