@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-04-23T17:17:43",
+  "last_built": "2026-04-23T17:20:23",
   "total_repos": 105,
   "total_tags": 14,
   "repo_manifest": {
@@ -35,7 +35,7 @@
     "Claude Code Plugin (Meta)": "996ae34983372eec4949a326c3058e87",
     "Claude Code Plugins Marketplace": "ea09e65724d874d54add5339a36a00c3",
     "Claude Code Repo Managers ClaudeMD": "66d19e814aa0c7cfb59864009598f2ce",
-    "Claude Data Wrangler": "7e48a17a96ba9afe4a9faf08e252a78b",
+    "Claude Data Wrangler": "d4dea491f7b980478fefbde83becf862",
     "Claude Deep Research Model (Notes / Documentation)": "3ba2ee36ca149edc7ecae26ae983907a",
     "Claude Development Agents": "1471b9bc65a649101974399fb091c09d",
     "Claude Dolphin & Konsole Actions": "ef4d85c9b55e402f7ec74554f5307e6c",
@@ -1683,6 +1683,18 @@
             "Llm Council Creator",
             "Local Web Capture",
             "Media Assistant Ops"
+          ]
+        }
+      ],
+      "total_repos": 105
+    },
+    {
+      "date": "2026-04-23T17:20:23",
+      "changes": [
+        {
+          "type": "modified",
+          "repos": [
+            "Claude Data Wrangler"
           ]
         }
       ],

@@ -990,7 +990,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Data-Wrangler-plugin"
       },
-      "description": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets (no visualisation). 27 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, and incremental upstream sync.",
+      "description": "Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 28 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, incremental upstream sync, and Typst-rendered PDF documents of the data.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
