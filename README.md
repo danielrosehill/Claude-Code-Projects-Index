@@ -507,7 +507,7 @@ Claude Code plugin: foundational workspace workflow — setup, context managemen
 ### Claude User Memory
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-User-Memory-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude Code plugin: user memory and personalization workflow — recall, save, and inject persistent facts across sessions.
+Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.
 
 ---
 
@@ -633,6 +633,13 @@ Claude Code plugin: career planning workflow — log roles, compare offers, trac
 
 ---
 
+### Daniel Rosehill
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Daniel-Rosehill-Claude-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Personal-use skills and slash commands for Daniel Rosehill — released publicly for convenience.
+
+---
+
 ### Personal Planning
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -688,6 +695,15 @@ ADB (Android Debug Bridge) operations — onboard a phone, map folders, import m
 
 ---
 
+## Awesome List
+
+### Resource List Builder
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Resource-List-Builder-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Claude Code plugin: build, maintain, and audit curated GitHub resource lists (Awesome-style indexes) with AI-driven categorisation, alphabetised tables, and dynamic shields.io badges.
+
+---
+
 ## Backup
 
 ### Backup Planner
@@ -720,7 +736,7 @@ First-pass data analysis toolkit: correlations, PII flagging, anomalies, hypothe
 ### Claude Data Wrangler
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Data-Wrangler-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 28 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, incremental upstream sync, and Typst-rendered PDF documents of the data.
+Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 31 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, header & numeric-precision standardisation, multilingual header localisation, incremental upstream sync, and Typst-rendered PDF documents of the data.
 
 ---
 
@@ -834,6 +850,15 @@ Scaffold new LLM Council projects from existing templates (Template, Grounded, D
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/media-assistant-ops-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.
+
+---
+
+## Nlp
+
+### Text Corpus Analysis
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Text-Corpus-Analysis) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Skills for analyzing large text corpora — topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata↔content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness: mandatory pre-run estimates for >1k-doc LLM passes, two-pass cheap→premium pattern, embeddings+clustering preferred over pairwise LLM comparison.
 
 ---
 

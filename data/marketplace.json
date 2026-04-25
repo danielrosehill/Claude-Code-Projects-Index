@@ -538,8 +538,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-User-Memory-Plugin"
       },
-      "description": "Claude Code plugin: user memory and personalization workflow \u2014 recall, save, and inject persistent facts across sessions.",
-      "version": "1.0.0",
+      "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -990,8 +990,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Data-Wrangler-plugin"
       },
-      "description": "Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 28 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, incremental upstream sync, and Typst-rendered PDF documents of the data.",
-      "version": "1.0.0",
+      "description": "Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 31 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, header & numeric-precision standardisation, multilingual header localisation, incremental upstream sync, and Typst-rendered PDF documents of the data.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1040,7 +1040,7 @@
         "repo": "danielrosehill/Claude-Data-Analyst-plugin"
       },
       "description": "First-pass data analysis toolkit: correlations, PII flagging, anomalies, hypothesis tests, data dictionaries, and trend analysis on a dataset in a folder.",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1054,6 +1054,72 @@
         "pii",
         "anomaly-detection",
         "data-dictionary"
+      ]
+    },
+    {
+      "name": "text-corpus-analysis",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Text-Corpus-Analysis"
+      },
+      "description": "Skills for analyzing large text corpora \u2014 topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata\u2194content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness: mandatory pre-run estimates for >1k-doc LLM passes, two-pass cheap\u2192premium pattern, embeddings+clustering preferred over pairwise LLM comparison.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "nlp",
+        "text-analysis",
+        "topic-modeling",
+        "ner",
+        "taxonomy",
+        "categorization",
+        "corpus",
+        "llm"
+      ]
+    },
+    {
+      "name": "resource-list-builder",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Resource-List-Builder-Plugin"
+      },
+      "description": "Claude Code plugin: build, maintain, and audit curated GitHub resource lists (Awesome-style indexes) with AI-driven categorisation, alphabetised tables, and dynamic shields.io badges.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "awesome-list",
+        "resource-list",
+        "curation",
+        "indexing",
+        "github"
+      ]
+    },
+    {
+      "name": "Daniel-Rosehill",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Daniel-Rosehill-Claude-Plugin"
+      },
+      "description": "Personal-use skills and slash commands for Daniel Rosehill \u2014 released publicly for convenience.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "personal",
+        "danielrosehill"
       ]
     }
   ]

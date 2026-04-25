@@ -492,7 +492,7 @@
   {
     "name": "Claude Data Wrangler",
     "url": "https://github.com/danielrosehill/Claude-Data-Wrangler-plugin",
-    "description": "Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 28 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, incremental upstream sync, and Typst-rendered PDF documents of the data.",
+    "description": "Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 31 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, header & numeric-precision standardisation, multilingual header localisation, incremental upstream sync, and Typst-rendered PDF documents of the data.",
     "tags": [
       "Documentation",
       "Plugin"
@@ -763,9 +763,9 @@
   {
     "name": "Claude User Memory",
     "url": "https://github.com/danielrosehill/Claude-User-Memory-Plugin",
-    "description": "Claude Code plugin: user memory and personalization workflow \u2014 recall, save, and inject persistent facts across sessions.",
+    "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.",
     "tags": [
-      "Automation",
+      "Agent Workspace",
       "Plugin"
     ],
     "category": "Plugins",
@@ -853,6 +853,21 @@
     "added_date": "2026-03-06",
     "slug": "cool-claude-code-stuff",
     "created_date": "2025-10-02"
+  },
+  {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill/Daniel-Rosehill-Claude-Plugin",
+    "description": "Personal-use skills and slash commands for Daniel Rosehill \u2014 released publicly for convenience.",
+    "tags": [
+      "Plugin",
+      "Slash Commands"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-25",
+    "slug": "daniel-rosehill",
+    "created_date": "2026-04-25"
   },
   {
     "name": "Data Visualisation And Publishing",
@@ -1379,6 +1394,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Resource List Builder",
+    "url": "https://github.com/danielrosehill/Claude-Resource-List-Builder-Plugin",
+    "description": "Claude Code plugin: build, maintain, and audit curated GitHub resource lists (Awesome-style indexes) with AI-driven categorisation, alphabetised tables, and dynamic shields.io badges.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-25",
+    "slug": "resource-list-builder",
+    "created_date": "2026-04-25"
+  },
+  {
     "name": "Resume Typesetter",
     "url": "https://github.com/danielrosehill/Resume-Typesetter",
     "description": "Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.",
@@ -1538,6 +1567,20 @@
     "added_date": "2026-04-20",
     "slug": "test-project-ideator",
     "created_date": "2026-04-20"
+  },
+  {
+    "name": "Text Corpus Analysis",
+    "url": "https://github.com/danielrosehill/Text-Corpus-Analysis",
+    "description": "Skills for analyzing large text corpora \u2014 topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata\u2194content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness: mandatory pre-run estimates for >1k-doc LLM passes, two-pass cheap\u2192premium pattern, embeddings+clustering preferred over pairwise LLM comparison.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-25",
+    "slug": "text-corpus-analysis",
+    "created_date": "2026-04-25"
   },
   {
     "name": "The User Voice Types",
