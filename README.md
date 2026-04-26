@@ -559,8 +559,8 @@ Claude Code plugin: prompt engineering workflow — craft, eval, catalog, versio
 
 ## Media & Content
 
-### AI Video Production Lifecycle
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Video-Production-Lifecycle) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### AI Video Producer
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Video-Producer) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export.
 

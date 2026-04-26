@@ -1123,13 +1123,13 @@
       ]
     },
     {
-      "name": "ai-video-production-lifecycle",
+      "name": "ai-video-producer",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/AI-Video-Production-Lifecycle"
+        "repo": "danielrosehill/AI-Video-Producer"
       },
       "description": "Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
