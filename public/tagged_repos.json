@@ -87,6 +87,22 @@
     "created_date": "2026-04-16"
   },
   {
+    "name": "AI Video Production Lifecycle",
+    "url": "https://github.com/danielrosehill/AI-Video-Production-Lifecycle",
+    "description": "Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export.",
+    "tags": [
+      "Automation",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-26",
+    "slug": "ai-video-production-lifecycle",
+    "created_date": "2026-04-26"
+  },
+  {
     "name": "AI-Human Attribution Adder",
     "url": "https://github.com/danielrosehill/AI-Human-Attribution-Adder",
     "description": "Adds AI/human attribution sections to README files for transparent tool usage documentation.",
@@ -1082,9 +1098,10 @@
   {
     "name": "Israel Shopping",
     "url": "https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin",
-    "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP/market checks, and grocery/pharmacy search.",
+    "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).",
     "tags": [
       "Automation",
+      "Documentation",
       "Plugin"
     ],
     "category": "Plugins",

@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-25T12:54:27",
-  "total_repos": 110,
+  "last_built": "2026-04-26T17:48:20",
+  "total_repos": 111,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "906a8750b4bc5dd20a1bdd14da7072c6",
@@ -9,6 +9,7 @@
     "AI Engineering": "9b88e7c8e5e5cff472dcd20bbada21b0",
     "AI Ideation Runs": "5504076aef215e4129a63bd1bcedf2cf",
     "AI Memory Planning 0426": "e611e292c57b3b7184bd62ad18f033a6",
+    "AI Video Production Lifecycle": "034d9891b38ee97195523f0bbf36cd88",
     "AI-Human Attribution Adder": "0f8c884ee31a88612916cc412b208443",
     "Audio Production": "53263687c817cdf24b4c871b9eaf5bb9",
     "Backup Planner": "b4fa57f2830be79f91b9dab5e5bcb6c9",
@@ -75,7 +76,7 @@
     "Ideation Planning": "26f089149d87e9e57ce6d28438e84e5c",
     "Image Production": "d53fff7d7038d89581257b8ea3792408",
     "Israel Agent Skills": "2cf548325baccbea31f0d70b9b5fe8a0",
-    "Israel Shopping": "222ef03b959054819663ce5f16756114",
+    "Israel Shopping": "1c7296b2061da51bcb7746a65f0d7b85",
     "Knowledge Documentation": "e0a666f2c861a98ef68396196501672f",
     "Legal Investigative": "bf11e055e731e22e3f6ea73e3d366526",
     "Linux Desktop ClaudeMD Seeder": "1027aa4623a63f0aee7a92e8a94d82fe",
@@ -115,126 +116,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-03-06T00:48:27",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "AI-Human Attribution Adder",
-            "Bash Alias Manager Claude",
-            "Batch ClaudeMD Repo Creator",
-            "CONTEXT.md",
-            "Claude ADB Workspace Template",
-            "Claude ADHD Research Workspace",
-            "Claude AI Conference",
-            "Claude Agent Picker Pattern",
-            "Claude App Optimiser",
-            "Claude Blog Manager",
-            "Claude Budget Workspace Template",
-            "Claude Bug Catcher",
-            "Claude Business Continuity Planner",
-            "Claude Business Idea Evaluator",
-            "Claude Case File",
-            "Claude Change My View",
-            "Claude Code Bash Aliases",
-            "Claude Code Context Feature Requests",
-            "Claude Code Context Toolkit",
-            "Claude Code LAN Manager",
-            "Claude Code Lawyer",
-            "Claude Code Linux Desktop Slash Commands",
-            "Claude Code Linux Notes",
-            "Claude Code MCP Command Generator",
-            "Claude Code MCP List",
-            "Claude Code Marketplace Hub",
-            "Claude Code Plugin",
-            "Claude Code Plugins Marketplace",
-            "Claude Code Remote Machine Admin Space",
-            "Claude Code Repo Managers ClaudeMD",
-            "Claude Code Security Auditor",
-            "Claude Code Writing Squad",
-            "Claude Communications Strategist Template",
-            "Claude Conda Manager",
-            "Claude Debugging Workspace",
-            "Claude Decision Evaluation Framework",
-            "Claude Deep Research Model (Notes / Documentation)",
-            "Claude Deep Research Template (Implementation Template)",
-            "Claude Development Agents",
-            "Claude Diary Planner Template",
-            "Claude Docker Manager",
-            "Claude Document This",
-            "Claude Dork",
-            "Claude Evidence Assistant",
-            "Claude File Organiser Super Slash",
-            "Claude Github Shortlister",
-            "Claude Google Drive Organiser",
-            "Claude Health Helper",
-            "Claude Home Assistant Manager Template",
-            "Claude Interview",
-            "Claude Is Awesome",
-            "Claude Janitor",
-            "Claude Job Search Strategist",
-            "Claude Legal Aid Clinic",
-            "Claude Linux Desktop Manager",
-            "Claude Linux Server Manager",
-            "Claude Local AI Agent Research",
-            "Claude MCP Guidelines",
-            "Claude Media Monitor",
-            "Claude Model Identifier",
-            "Claude News Fetcher - Media Monitoring System",
-            "Claude OS Sync Agent",
-            "Claude OSINT Investigator",
-            "Claude Personal Development Workspace",
-            "Claude Proxmox Manager Template",
-            "Claude Purchasing Assistant",
-            "Claude Redaction And Obfuscation",
-            "Claude Repo Jumper",
-            "Claude Report Parsing Space Template",
-            "Claude Rescue",
-            "Claude Resource List Builder",
-            "Claude Rig Planner",
-            "Claude Server Manager Template",
-            "Claude Server Mgmt Template SBCs",
-            "Claude Slash Commands",
-            "Claude Space Self-Ideator",
-            "Claude Spaces Model",
-            "Claude Spec Starter",
-            "Claude Stack Research Workspace",
-            "Claude Sub-Agent Network",
-            "Claude Synology Manager",
-            "Claude System Recovery Mode",
-            "Claude Task Manager",
-            "Claude Tech Research Team",
-            "Claude Therapy Tracker",
-            "Claude Think Tank",
-            "Claude Visual Communications Space",
-            "Claude Web Analytics Space",
-            "Claude Website Update Sender",
-            "Claude Workspace Setup Helper",
-            "Claude Writing Space Template",
-            "Cool Claude Code Stuff",
-            "Declaude",
-            "Ecosystem Mapper",
-            "Home Folder Claude MD",
-            "Ivory PC Builder",
-            "Linux Desktop ClaudeMD Seeder",
-            "MCPM Claude Code Docs",
-            "Make Agent Friendly",
-            "New Turn Claude Hook",
-            "No Wheel Inventions",
-            "Non-Code Claude Code",
-            "Panel Of Claude",
-            "Private And Public Claude MD",
-            "ProofMode Unpacker",
-            "QA Team Plugin",
-            "Smithery Claude Code MCP Jumpstarter",
-            "Split Context Setup",
-            "User Manual Plugin"
-          ]
-        }
-      ],
-      "total_repos": 110
-    },
     {
       "date": "2026-03-06T00:49:18",
       "changes": [
@@ -1761,6 +1642,24 @@
         }
       ],
       "total_repos": 110
+    },
+    {
+      "date": "2026-04-26T17:48:20",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "AI Video Production Lifecycle"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Israel Shopping"
+          ]
+        }
+      ],
+      "total_repos": 111
     }
   ]
 }

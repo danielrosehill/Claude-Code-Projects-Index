@@ -641,8 +641,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Israel-Shopping-Plugin"
       },
-      "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP/market checks, and grocery/pharmacy search.",
-      "version": "1.1.0",
+      "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).",
+      "version": "1.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1110,7 +1110,7 @@
         "repo": "danielrosehill/Daniel-Rosehill-Claude-Plugin"
       },
       "description": "Personal-use skills and slash commands for Daniel Rosehill \u2014 released publicly for convenience.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1120,6 +1120,30 @@
       "tags": [
         "personal",
         "danielrosehill"
+      ]
+    },
+    {
+      "name": "ai-video-production-lifecycle",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/AI-Video-Production-Lifecycle"
+      },
+      "description": "Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "video",
+        "generative-ai",
+        "lifecycle",
+        "pipeline",
+        "fal",
+        "replicate",
+        "elevenlabs"
       ]
     }
   ]

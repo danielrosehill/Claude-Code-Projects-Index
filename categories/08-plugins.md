@@ -109,6 +109,13 @@ Claude Code plugin: prompt engineering workflow — craft, eval, catalog, versio
 
 ## Media & Content
 
+### AI Video Production Lifecycle
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Video-Production-Lifecycle) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export.
+
+---
+
 ### Audio Production
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Audio-Production-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -372,7 +379,7 @@ Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew transl
 ### Israel Shopping
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP/market checks, and grocery/pharmacy search.
+Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).
 
 ---
 
