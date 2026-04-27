@@ -1191,6 +1191,29 @@
         "document-prep",
         "prepress"
       ]
+    },
+    {
+      "name": "programmatic-doc-generation",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/programmatic-doc-generation-plugin"
+      },
+      "description": "Build programmatic document generation pipelines \u2014 Typst templates for local batch rendering, plus integration scaffolding for n8n and cloud rendering services (Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen).",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "typst",
+        "document-generation",
+        "pdf",
+        "n8n",
+        "automation",
+        "templating"
+      ]
     }
   ]
 }

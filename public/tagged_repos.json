@@ -1379,6 +1379,21 @@
     "created_date": "2025-10-22"
   },
   {
+    "name": "Programmatic Doc Generation",
+    "url": "https://github.com/danielrosehill/programmatic-doc-generation-plugin",
+    "description": "Build programmatic document generation pipelines \u2014 Typst templates for local batch rendering, plus integration scaffolding for n8n and cloud rendering services (Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen).",
+    "tags": [
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-27",
+    "slug": "programmatic-doc-generation",
+    "created_date": "2026-04-27"
+  },
+  {
     "name": "Purchasing",
     "url": "https://github.com/danielrosehill/Claude-Purchasing-Plugin",
     "description": "Claude Code plugin: purchasing workflow \u2014 intake, compare products, evaluate options, recommend, with general/tech-procurement/recommendations variants.",

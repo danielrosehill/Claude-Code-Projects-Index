@@ -914,6 +914,15 @@ Repo-based task queueing system with categorisation and prioritisation. Scaffold
 
 ---
 
+## Typst
+
+### Programmatic Doc Generation
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/programmatic-doc-generation-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Build programmatic document generation pipelines — Typst templates for local batch rendering, plus integration scaffolding for n8n and cloud rendering services (Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen).
+
+---
+
 # Templates / Scaffolds
 
 Scaffolds used to be distributed as ~100 standalone template repos and a `New-Repo-From-Template` plugin. That pattern was retired in the April 2026 reshape.
