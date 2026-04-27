@@ -105,7 +105,7 @@ Claude Code plugin: prompt engineering workflow — craft, eval, catalog, versio
 ## Media & Content
 
 ### AI Video Producer
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Video-Producer) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export. Ships fal.ai/Replicate/MiniMax MCP servers and fal-js + WaveSpeed Python SDK runners.
 
@@ -241,7 +241,7 @@ Claude Code plugin: filesystem organisation workflow — scan, dedupe, cleanup, 
 ## Adb
 
 ### Adb Ops
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/adb-ops-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-ADB-Ops-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.
 
@@ -259,7 +259,7 @@ Claude Code plugin: build, maintain, and audit curated GitHub resource lists (Aw
 ## Backup
 
 ### Backup Planner
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Backup-Planner) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Backup-Planner-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Plan, document, and implement a backup and data-protection strategy for the current project — from architecture discovery through script generation and restore drills.
 
@@ -304,7 +304,7 @@ Data cleaning, enrichment, restructuring, packaging, and documentation skills fo
 ## Data Visualisation
 
 ### Data Visualisation And Publishing
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Data-Visualisation-And-Publishing-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Create static and interactive data visualisations for reports, repos, and data storytelling. Purpose-organised inventory of 60+ validated open-source tools as a head start — static figures (Matplotlib, Seaborn, ggplot2), web charts (Chart.js, ECharts, Plotly.js, ApexCharts, Highcharts), high-perf (uPlot, Perspective, Lightweight Charts), bespoke (D3, Observable Plot, Vega/Vega-Lite, visx, Victory), Python/R apps (Bokeh, Dash, Altair, Streamlit, Gradio, Shiny, D-Tale, Briefer, Preswald), storytelling (Vizzu, VChart, vue-data-ui, SandDance), graphs (G6, sigma.js, Cytoscape, Gephi, Graphviz, GoJS, 3d-force-graph, Constellation), maps (deck.gl, react-map-gl, Leaflet, MapLibre, OpenLayers, folium, react-globe.gl), mobile (fl_chart, F2), BI (Superset, Metabase, Grafana, Kibana, Redash, Chartbrew), diagrams-as-code (Mermaid, PlantUML), domain-specific (Iris, QuantInvestStrats, XCharts, BizCharts, Tablesaw).
 
@@ -322,7 +322,7 @@ End-to-end data annotation toolkit. Prep raw data, design annotation schemas, an
 ## Docs
 
 ### Repo To Content
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Repo-To-Content) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-To-Content-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.
 
@@ -331,7 +331,7 @@ Convert GitHub repos into polished content (PDF, white paper, internal doc, publ
 ## Education
 
 ### Teach This Repo
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/teach-this-repo-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Teach-This-Repo-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with code samples drawn from the source, and supports an interactive Q&A mode.
 
@@ -340,7 +340,7 @@ Uses a real code repository in reverse for developer education: assesses the lea
 ## Email
 
 ### Html Email Designer
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/html-email-designer-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Design and build responsive HTML email templates using Foundation for Emails, Maizzle, or MJML. Framework-agnostic authoring with email-client compatibility baked in.
 
@@ -356,7 +356,7 @@ Semantic GitHub repo discovery for reusable components. Search, rank, overview, 
 ---
 
 ### Repo Mgmt
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Repo-Mgmt) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Mgmt-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, and spin off breakaway or parallel-private repos. Includes a preferences layer that remembers where different repo types live on disk.
 
@@ -383,7 +383,7 @@ Claude Code plugin: image production — editing, format conversion, batch ops, 
 ## Israel
 
 ### Israel Agent Skills
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Agent-Skills-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Israel-Agent-Skills-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups.
 
@@ -399,7 +399,7 @@ Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price 
 ## Kde
 
 ### Kde Plasmoid Dev
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Skill) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) — scaffold, debug, package, install, and migrate Plasma 5 → 6.
 
@@ -408,7 +408,7 @@ Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widget
 ## Learning
 
 ### Test Project Ideator
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/test-project-ideator-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Test-Project-Ideator-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Generates specifications for practice/dummy development projects tailored to the user's learning objectives, technology stack, and proficiency level in each language or tool.
 
@@ -417,7 +417,7 @@ Generates specifications for practice/dummy development projects tailored to the
 ## Llm Council
 
 ### Llm Council Creator
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/LLM-Council-Creator) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-LLM-Council-Creator-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Scaffold new LLM Council projects from existing templates (Template, Grounded, Decide) or build bespoke council repos for specific purposes.
 
@@ -426,7 +426,7 @@ Scaffold new LLM Council projects from existing templates (Template, Grounded, D
 ## Music Assistant
 
 ### Media Assistant Ops
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/media-assistant-ops-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Media-Assistant-Ops-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.
 
@@ -435,7 +435,7 @@ Interface with a Music Assistant server via its local API — onboard a deployme
 ## Nlp
 
 ### Text Corpus Analysis
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Text-Corpus-Analysis) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Text-Corpus-Analysis-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Skills for analyzing large text corpora — topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata↔content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness: mandatory pre-run estimates for >1k-doc LLM passes, two-pass cheap→premium pattern, embeddings+clustering preferred over pairwise LLM comparison.
 
@@ -444,7 +444,7 @@ Skills for analyzing large text corpora — topic modeling (BERTopic with tempor
 ## Openrouter
 
 ### Open Router Model Research
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Open-Router-Model-Research-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Open-Router-Model-Research-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Research, filter, compare, and evaluate AI models on OpenRouter — discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.
 
@@ -453,7 +453,7 @@ Research, filter, compare, and evaluate AI models on OpenRouter — discover mod
 ## Pdf
 
 ### Digital Printing
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Digital-Printing-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Digital-Printing-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Skills and an orchestrator agent for preparing PDFs for digital printing — resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.
 
@@ -462,7 +462,7 @@ Skills and an orchestrator agent for preparing PDFs for digital printing — res
 ## Resume
 
 ### Resume Typesetter
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Resume-Typesetter) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Resume-Typesetter-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.
 
@@ -471,7 +471,7 @@ Manage a resume as JSON Resume schema data and render it with custom Typst templ
 ## Scraping
 
 ### Local Web Capture
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Local-Web-Capture) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Capture geo-restricted web content (articles, prices) via the user's own localhost so requests exit via the user's IP. Headless-first escalation ladder (Scrapling static -> stealth -> Playwright -> real Chrome via bb-browser). Project-local save (in-repo captures/) with global fallback. Batch capture with human + agent summaries, Typst PDF compilation, and arbitrary-language capture+translate (default Hebrew -> English).
 
@@ -489,7 +489,7 @@ Repo-based task queueing system with categorisation and prioritisation. Scaffold
 ## Typst
 
 ### Programmatic Doc Generation
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/programmatic-doc-generation-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Programmatic-Doc-Generation-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Build programmatic document generation pipelines — Typst templates for local batch rendering, plus integration scaffolding for n8n and cloud rendering services (Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen).
 

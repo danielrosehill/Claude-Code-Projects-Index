@@ -619,7 +619,7 @@
       "name": "repo-to-content",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Repo-To-Content"
+        "repo": "danielrosehill/Claude-Repo-To-Content-Plugin"
       },
       "description": "Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.",
       "version": "1.1.0",
@@ -664,7 +664,7 @@
       "name": "test-project-ideator",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/test-project-ideator-plugin"
+        "repo": "danielrosehill/Claude-Test-Project-Ideator-Plugin"
       },
       "description": "Generates specifications for practice/dummy development projects tailored to the user's learning objectives, technology stack, and proficiency level in each language or tool.",
       "version": "1.0.0",
@@ -685,7 +685,7 @@
       "name": "teach-this-repo",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/teach-this-repo-plugin"
+        "repo": "danielrosehill/Claude-Teach-This-Repo-Plugin"
       },
       "description": "Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons with code samples drawn from the source, and supports an interactive Q&A mode.",
       "version": "1.0.0",
@@ -751,7 +751,7 @@
       "name": "backup-planner",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Backup-Planner"
+        "repo": "danielrosehill/Claude-Backup-Planner-Plugin"
       },
       "description": "Plan, document, and implement a backup and data-protection strategy for the current project \u2014 from architecture discovery through script generation and restore drills.",
       "version": "1.0.0",
@@ -796,7 +796,7 @@
       "name": "repo-mgmt",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Repo-Mgmt"
+        "repo": "danielrosehill/Claude-Repo-Mgmt-Plugin"
       },
       "description": "Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, and spin off breakaway or parallel-private repos. Includes a preferences layer that remembers where different repo types live on disk.",
       "version": "1.0.0",
@@ -818,7 +818,7 @@
       "name": "adb-ops",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/adb-ops-plugin"
+        "repo": "danielrosehill/Claude-ADB-Ops-Plugin"
       },
       "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.",
       "version": "1.0.0",
@@ -839,7 +839,7 @@
       "name": "html-email-designer",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/html-email-designer-plugin"
+        "repo": "danielrosehill/Claude-HTML-Email-Designer-Plugin"
       },
       "description": "Design and build responsive HTML email templates using Foundation for Emails, Maizzle, or MJML. Framework-agnostic authoring with email-client compatibility baked in.",
       "version": "1.0.0",
@@ -862,7 +862,7 @@
       "name": "resume-typesetter",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Resume-Typesetter"
+        "repo": "danielrosehill/Claude-Resume-Typesetter-Plugin"
       },
       "description": "Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.",
       "version": "1.0.0",
@@ -906,7 +906,7 @@
       "name": "media-assistant-ops",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/media-assistant-ops-plugin"
+        "repo": "danielrosehill/Claude-Media-Assistant-Ops-Plugin"
       },
       "description": "Interface with a Music Assistant server via its local API \u2014 onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.",
       "version": "1.1.0",
@@ -928,7 +928,7 @@
       "name": "LLM-Council-Creator",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/LLM-Council-Creator"
+        "repo": "danielrosehill/Claude-LLM-Council-Creator-Plugin"
       },
       "description": "Scaffold new LLM Council projects from existing templates (Template, Grounded, Decide) or build bespoke council repos for specific purposes.",
       "version": "0.2.0",
@@ -949,7 +949,7 @@
       "name": "Local-Web-Capture",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Local-Web-Capture"
+        "repo": "danielrosehill/Claude-Local-Web-Capture-Plugin"
       },
       "description": "Capture geo-restricted web content (articles, prices) via the user's own localhost so requests exit via the user's IP. Headless-first escalation ladder (Scrapling static -> stealth -> Playwright -> real Chrome via bb-browser). Project-local save (in-repo captures/) with global fallback. Batch capture with human + agent summaries, Typst PDF compilation, and arbitrary-language capture+translate (default Hebrew -> English).",
       "version": "0.3.0",
@@ -971,7 +971,7 @@
       "name": "israel-agent-skills",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Israel-Agent-Skills-Plugin"
+        "repo": "danielrosehill/Claude-Israel-Agent-Skills-Plugin"
       },
       "description": "Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups.",
       "version": "1.0.0",
@@ -1018,7 +1018,7 @@
       "name": "data-visualisation-and-publishing",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Data-Visualisation-And-Publishing-plugin"
+        "repo": "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin"
       },
       "description": "Create static and interactive data visualisations for reports, repos, and data storytelling. Purpose-organised inventory of 60+ validated open-source tools as a head start \u2014 static figures (Matplotlib, Seaborn, ggplot2), web charts (Chart.js, ECharts, Plotly.js, ApexCharts, Highcharts), high-perf (uPlot, Perspective, Lightweight Charts), bespoke (D3, Observable Plot, Vega/Vega-Lite, visx, Victory), Python/R apps (Bokeh, Dash, Altair, Streamlit, Gradio, Shiny, D-Tale, Briefer, Preswald), storytelling (Vizzu, VChart, vue-data-ui, SandDance), graphs (G6, sigma.js, Cytoscape, Gephi, Graphviz, GoJS, 3d-force-graph, Constellation), maps (deck.gl, react-map-gl, Leaflet, MapLibre, OpenLayers, folium, react-globe.gl), mobile (fl_chart, F2), BI (Superset, Metabase, Grafana, Kibana, Redash, Chartbrew), diagrams-as-code (Mermaid, PlantUML), domain-specific (Iris, QuantInvestStrats, XCharts, BizCharts, Tablesaw).",
       "version": "1.1.0",
@@ -1063,7 +1063,7 @@
       "name": "text-corpus-analysis",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Text-Corpus-Analysis"
+        "repo": "danielrosehill/Claude-Text-Corpus-Analysis-Plugin"
       },
       "description": "Skills for analyzing large text corpora \u2014 topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata\u2194content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness: mandatory pre-run estimates for >1k-doc LLM passes, two-pass cheap\u2192premium pattern, embeddings+clustering preferred over pairwise LLM comparison.",
       "version": "0.1.0",
@@ -1129,7 +1129,7 @@
       "name": "ai-video-producer",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/AI-Video-Producer"
+        "repo": "danielrosehill/Claude-AI-Video-Producer-Plugin"
       },
       "description": "Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export. Ships fal.ai/Replicate/MiniMax MCP servers and fal-js + WaveSpeed Python SDK runners.",
       "version": "1.3.0",
@@ -1156,7 +1156,7 @@
       "name": "kde-plasmoid-dev",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-KDE-Plasmoid-Dev-Skill"
+        "repo": "danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin"
       },
       "description": "Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) \u2014 scaffold, debug, package, install, and migrate Plasma 5 \u2192 6.",
       "version": "1.0.0",
@@ -1178,7 +1178,7 @@
       "name": "digital-printing",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Digital-Printing-Plugin"
+        "repo": "danielrosehill/Claude-Digital-Printing-Plugin"
       },
       "description": "Skills and an orchestrator agent for preparing PDFs for digital printing \u2014 resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.",
       "version": "1.0.0",
@@ -1199,7 +1199,7 @@
       "name": "programmatic-doc-generation",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/programmatic-doc-generation-plugin"
+        "repo": "danielrosehill/Claude-Programmatic-Doc-Generation-Plugin"
       },
       "description": "Build programmatic document generation pipelines \u2014 Typst templates for local batch rendering, plus integration scaffolding for n8n and cloud rendering services (Carbone, PDFMonkey, APITemplate, DocRaptor, Docmosis, Adobe Doc Gen).",
       "version": "1.0.0",
@@ -1222,7 +1222,7 @@
       "name": "open-router-model-research",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Open-Router-Model-Research-Plugin"
+        "repo": "danielrosehill/Claude-Open-Router-Model-Research-Plugin"
       },
       "description": "Research, filter, compare, and evaluate AI models on OpenRouter \u2014 discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.",
       "version": "1.0.0",
