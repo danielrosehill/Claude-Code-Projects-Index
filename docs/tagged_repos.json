@@ -89,9 +89,10 @@
   {
     "name": "AI Video Producer",
     "url": "https://github.com/danielrosehill/AI-Video-Producer",
-    "description": "Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export.",
+    "description": "Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export. Ships fal.ai/Replicate/MiniMax MCP servers and fal-js + WaveSpeed Python SDK runners.",
     "tags": [
       "Automation",
+      "MCP",
       "Plugin",
       "Tool"
     ],
@@ -113,7 +114,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "ai-human-attribution-adder",
     "created_date": "2025-10-31"
   },
@@ -158,7 +159,7 @@
     "category": "Systems Administration",
     "category_slug": "sysadmin",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "bash-alias-manager-claude",
     "created_date": "2025-10-25"
   },
@@ -174,7 +175,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "batch-claudemd-repo-creator",
     "created_date": "2025-10-26"
   },
@@ -233,7 +234,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-agent-picker-pattern",
     "created_date": "2025-10-31"
   },
@@ -263,7 +264,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-app-optimiser",
     "created_date": "2025-12-23"
   },
@@ -278,7 +279,7 @@
     "category": "Systems Administration",
     "category_slug": "sysadmin",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-bug-catcher",
     "created_date": "2025-12-28"
   },
@@ -308,7 +309,7 @@
     "category": "Argument and Perspective Exploration",
     "category_slug": "argument",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-change-my-view",
     "created_date": "2025-11-13"
   },
@@ -322,7 +323,7 @@
     "category": "Systems Administration",
     "category_slug": "sysadmin",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-code-bash-aliases",
     "created_date": "2025-11-09"
   },
@@ -351,7 +352,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-code-context-feature-requests",
     "created_date": "2025-10-09"
   },
@@ -366,7 +367,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-code-context-toolkit",
     "created_date": "2025-10-27"
   },
@@ -380,7 +381,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-code-linux-desktop-slash-commands",
     "created_date": "2025-10-21"
   },
@@ -396,7 +397,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-code-linux-notes",
     "created_date": "2025-10-22"
   },
@@ -426,7 +427,7 @@
     "category": "MCP",
     "category_slug": "mcp",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-code-mcp-command-generator",
     "created_date": "2025-10-16"
   },
@@ -440,7 +441,7 @@
     "category": "MCP",
     "category_slug": "mcp",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-code-mcp-list",
     "created_date": "2025-10-28"
   },
@@ -487,7 +488,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-code-repo-managers-claudemd",
     "created_date": "2025-10-25"
   },
@@ -531,7 +532,7 @@
     "category": "Research",
     "category_slug": "research",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-deep-research-model-notes-documentation",
     "created_date": "2025-10-29"
   },
@@ -547,7 +548,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-development-agents",
     "created_date": "2025-12-29"
   },
@@ -576,7 +577,7 @@
     "category": "Research",
     "category_slug": "research",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-dork",
     "created_date": "2026-03-05"
   },
@@ -590,7 +591,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-file-organiser-super-slash",
     "created_date": "2025-10-29"
   },
@@ -605,7 +606,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-interview",
     "created_date": "2025-12-06"
   },
@@ -621,7 +622,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-is-awesome",
     "created_date": "2025-10-28"
   },
@@ -636,7 +637,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-local-ai-agent-research",
     "created_date": "2025-11-27"
   },
@@ -665,7 +666,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-model-identifier",
     "created_date": "2025-12-21"
   },
@@ -680,7 +681,7 @@
     "category": "Systems Administration",
     "category_slug": "sysadmin",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-rescue",
     "created_date": "2025-11-14"
   },
@@ -695,7 +696,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-slash-commands",
     "created_date": "2025-10-11"
   },
@@ -710,7 +711,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-sub-agent-network",
     "created_date": "2025-09-09"
   },
@@ -726,7 +727,7 @@
     "category": "Systems Administration",
     "category_slug": "sysadmin",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-system-recovery-mode",
     "created_date": "2025-12-27"
   },
@@ -741,7 +742,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-task-manager",
     "created_date": "2025-12-28"
   },
@@ -802,7 +803,7 @@
     "category": "Communications & Writing",
     "category_slug": "communications",
     "category_group": "Non-Code",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-website-update-sender",
     "created_date": "2025-11-13"
   },
@@ -819,7 +820,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "claude-workspace-setup-helper",
     "created_date": "2025-12-07"
   },
@@ -851,7 +852,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "context-md",
     "created_date": "2025-10-27"
   },
@@ -866,7 +867,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "cool-claude-code-stuff",
     "created_date": "2025-10-02"
   },
@@ -926,7 +927,7 @@
     "category": "Communications & Writing",
     "category_slug": "communications",
     "category_group": "Non-Code",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "declaude",
     "created_date": "2025-12-15"
   },
@@ -1112,6 +1113,20 @@
     "created_date": "2026-04-20"
   },
   {
+    "name": "Kde Plasmoid Dev",
+    "url": "https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Skill",
+    "description": "Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) \u2014 scaffold, debug, package, install, and migrate Plasma 5 \u2192 6.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-27",
+    "slug": "kde-plasmoid-dev",
+    "created_date": "2026-04-27"
+  },
+  {
     "name": "Knowledge Documentation",
     "url": "https://github.com/danielrosehill/Claude-Knowledge-Documentation-Plugin",
     "description": "Claude Code plugin: knowledge documentation workflow \u2014 index, cross-link, build taxonomy, version docs, with wiki/resource-library/process-docs/experiment-report variants.",
@@ -1154,7 +1169,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "linux-desktop-claudemd-seeder",
     "created_date": "2025-10-25"
   },
@@ -1213,7 +1228,7 @@
     "category": "MCP",
     "category_slug": "mcp",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "mcpm-claude-code-docs",
     "created_date": "2025-12-09"
   },
@@ -1272,7 +1287,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "new-turn-claude-hook",
     "created_date": "2025-12-31"
   },
@@ -1286,7 +1301,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "no-wheel-inventions",
     "created_date": "2025-12-27"
   },
@@ -1301,7 +1316,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "non-code-claude-code",
     "created_date": "2025-10-03"
   },
@@ -1345,7 +1360,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "private-and-public-claude-md",
     "created_date": "2025-10-22"
   },
@@ -1508,7 +1523,7 @@
     "category": "MCP",
     "category_slug": "mcp",
     "category_group": "Technical",
-    "added_date": "2026-04-26",
+    "added_date": "2026-04-27",
     "slug": "smithery-claude-code-mcp-jumpstarter",
     "created_date": "2025-10-11"
   },
