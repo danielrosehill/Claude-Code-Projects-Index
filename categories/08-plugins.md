@@ -428,6 +428,15 @@ Skills for analyzing large text corpora — topic modeling (BERTopic with tempor
 
 ---
 
+## Pdf
+
+### Digital Printing
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Digital-Printing-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Skills and an orchestrator agent for preparing PDFs for digital printing — resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.
+
+---
+
 ## Resume
 
 ### Resume Typesetter

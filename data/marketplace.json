@@ -1170,6 +1170,27 @@
         "qml",
         "linux"
       ]
+    },
+    {
+      "name": "digital-printing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Digital-Printing-Plugin"
+      },
+      "description": "Skills and an orchestrator agent for preparing PDFs for digital printing \u2014 resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "pdf",
+        "printing",
+        "document-prep",
+        "prepress"
+      ]
     }
   ]
 }

@@ -963,6 +963,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Digital Printing",
+    "url": "https://github.com/danielrosehill/Digital-Printing-Plugin",
+    "description": "Skills and an orchestrator agent for preparing PDFs for digital printing \u2014 resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-27",
+    "slug": "digital-printing",
+    "created_date": "2026-04-27"
+  },
+  {
     "name": "Filesystem Organiser",
     "url": "https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin",
     "description": "Claude Code plugin: filesystem organisation workflow \u2014 scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants.",
