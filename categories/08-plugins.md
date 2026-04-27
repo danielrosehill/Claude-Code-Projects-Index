@@ -61,13 +61,6 @@ Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/com
 
 ---
 
-### Meta Tools
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Meta-Tools-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Claude Code plugin: meta-tooling workflow — context management, MCP integration, feedback filing, primitive selection for Claude Code itself.
-
----
-
 ## Research & Investigation
 
 ### Ideation Planning
@@ -270,6 +263,15 @@ Plan, document, and implement a backup and data-protection strategy for the curr
 
 ---
 
+## Claude Code
+
+### Claude Rudder
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Meta-Tools-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Claude-Rudder — collection of utilities to smoothen the Claude Code UI/UX. Session handover, context-gate workflow, terminal helpers, plugin/MCP/workspace primitives, and the canonical user-data storage convention.
+
+---
+
 ## Claude MD
 
 ### User Claude MD
@@ -306,12 +308,21 @@ Create static and interactive data visualisations for reports, repos, and data s
 
 ---
 
+## Datasets
+
+### Data Annotation
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Data-Annotation-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.
+
+---
+
 ## Docs
 
-### Repo To Docs
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Repo-To-Docs-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Repo To Content
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Repo-To-Content) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Convert GitHub repos into polished documents (PDF, blog post, white paper, internal doc) via Typst, with optional AI banner generation and multi-target publishing.
+Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.
 
 ---
 
@@ -425,6 +436,15 @@ Interface with a Music Assistant server via its local API — onboard a deployme
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Text-Corpus-Analysis) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Skills for analyzing large text corpora — topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata↔content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness: mandatory pre-run estimates for >1k-doc LLM passes, two-pass cheap→premium pattern, embeddings+clustering preferred over pairwise LLM comparison.
+
+---
+
+## Openrouter
+
+### Open Router Model Research
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Open-Router-Model-Research-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Research, filter, compare, and evaluate AI models on OpenRouter — discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.
 
 ---
 

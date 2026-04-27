@@ -686,6 +686,22 @@
     "created_date": "2025-11-14"
   },
   {
+    "name": "Claude Rudder",
+    "url": "https://github.com/danielrosehill/Claude-Meta-Tools-Plugin",
+    "description": "Claude-Rudder \u2014 collection of utilities to smoothen the Claude Code UI/UX. Session handover, context-gate workflow, terminal helpers, plugin/MCP/workspace primitives, and the canonical user-data storage convention.",
+    "tags": [
+      "Agent Workspace",
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-27",
+    "slug": "claude-rudder",
+    "created_date": "2026-04-27"
+  },
+  {
     "name": "Claude Slash Commands",
     "url": "https://github.com/danielrosehill/Claude-Slash-Commands",
     "description": "General-purpose slash command library for various Claude Code workflows.",
@@ -885,6 +901,20 @@
     "added_date": "2026-04-25",
     "slug": "daniel-rosehill",
     "created_date": "2026-04-25"
+  },
+  {
+    "name": "Data Annotation",
+    "url": "https://github.com/danielrosehill/Claude-Data-Annotation-Plugin",
+    "description": "End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-27",
+    "slug": "data-annotation",
+    "created_date": "2026-04-27"
   },
   {
     "name": "Data Visualisation And Publishing",
@@ -1276,21 +1306,6 @@
     "created_date": "2026-04-19"
   },
   {
-    "name": "Meta Tools",
-    "url": "https://github.com/danielrosehill/Claude-Meta-Tools-Plugin",
-    "description": "Claude Code plugin: meta-tooling workflow \u2014 context management, MCP integration, feedback filing, primitive selection for Claude Code itself.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-19",
-    "slug": "meta-tools",
-    "created_date": "2026-04-19"
-  },
-  {
     "name": "New Turn Claude Hook",
     "url": "https://github.com/danielrosehill/New-Turn-Claude-Hook",
     "description": "Tool that determines whether to continue an AI conversation or start fresh for optimal context.",
@@ -1333,6 +1348,21 @@
     "added_date": "2026-04-27",
     "slug": "non-code-claude-code",
     "created_date": "2025-10-03"
+  },
+  {
+    "name": "Open Router Model Research",
+    "url": "https://github.com/danielrosehill/Open-Router-Model-Research-Plugin",
+    "description": "Research, filter, compare, and evaluate AI models on OpenRouter \u2014 discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.",
+    "tags": [
+      "Plugin",
+      "Research"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "open-router-model-research",
+    "created_date": "2026-04-16"
   },
   {
     "name": "Personal Planning",
@@ -1424,18 +1454,18 @@
     "created_date": "2026-04-20"
   },
   {
-    "name": "Repo To Docs",
-    "url": "https://github.com/danielrosehill/Repo-To-Docs-plugin",
-    "description": "Convert GitHub repos into polished documents (PDF, blog post, white paper, internal doc) via Typst, with optional AI banner generation and multi-target publishing.",
+    "name": "Repo To Content",
+    "url": "https://github.com/danielrosehill/Repo-To-Content",
+    "description": "Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.",
     "tags": [
       "Plugin"
     ],
     "category": "Plugins",
     "category_slug": "plugins",
     "category_group": "Technical",
-    "added_date": "2026-04-20",
-    "slug": "repo-to-docs",
-    "created_date": "2026-04-20"
+    "added_date": "2026-04-27",
+    "slug": "repo-to-content",
+    "created_date": "2026-04-27"
   },
   {
     "name": "Research Space",

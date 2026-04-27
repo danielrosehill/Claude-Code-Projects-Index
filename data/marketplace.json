@@ -459,7 +459,7 @@
         "repo": "danielrosehill/Claude-Dev-Tools-Plugin"
       },
       "description": "Claude Code plugin: dev tools workflow \u2014 scaffold repos, QA code review, templatize, session continuity. Retrofit-* and janitor-* skills moved to the repo-mgmt plugin in 2.0.0.",
-      "version": "2.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -494,13 +494,13 @@
       ]
     },
     {
-      "name": "meta-tools",
+      "name": "claude-rudder",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Meta-Tools-Plugin"
       },
-      "description": "Claude Code plugin: meta-tooling workflow \u2014 context management, MCP integration, feedback filing, primitive selection for Claude Code itself.",
-      "version": "1.0.0",
+      "description": "Claude-Rudder \u2014 collection of utilities to smoothen the Claude Code UI/UX. Session handover, context-gate workflow, terminal helpers, plugin/MCP/workspace primitives, and the canonical user-data storage convention.",
+      "version": "2.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -508,9 +508,11 @@
       },
       "license": "MIT",
       "tags": [
-        "meta",
         "claude-code",
-        "mcp"
+        "session-handover",
+        "context-management",
+        "mcp",
+        "ux"
       ]
     },
     {
@@ -614,13 +616,13 @@
       ]
     },
     {
-      "name": "repo-to-docs",
+      "name": "repo-to-content",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Repo-To-Docs-plugin"
+        "repo": "danielrosehill/Repo-To-Content"
       },
-      "description": "Convert GitHub repos into polished documents (PDF, blog post, white paper, internal doc) via Typst, with optional AI banner generation and multi-target publishing.",
-      "version": "1.0.0",
+      "description": "Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -632,7 +634,8 @@
         "pdf",
         "typst",
         "publishing",
-        "repo-to-doc"
+        "content",
+        "repo-to-content"
       ]
     },
     {
@@ -1213,6 +1216,51 @@
         "n8n",
         "automation",
         "templating"
+      ]
+    },
+    {
+      "name": "open-router-model-research",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Open-Router-Model-Research-Plugin"
+      },
+      "description": "Research, filter, compare, and evaluate AI models on OpenRouter \u2014 discover models by capability (tool use, vision, audio), get cost/context-aware recommendations, run head-to-head comparisons, and conduct deep research that goes beyond the OpenRouter catalog.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "openrouter",
+        "ai-models",
+        "model-research",
+        "model-comparison",
+        "llm"
+      ]
+    },
+    {
+      "name": "data-annotation",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Data-Annotation-Plugin"
+      },
+      "description": "End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "datasets",
+        "annotation",
+        "huggingface",
+        "data-prep",
+        "gemini",
+        "pii"
       ]
     }
   ]
