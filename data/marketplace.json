@@ -1262,6 +1262,27 @@
         "gemini",
         "pii"
       ]
+    },
+    {
+      "name": "social-feedback",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Social-Feedback-Plugin"
+      },
+      "description": "Check what people are actually saying about a topic, product, or provider by searching curated social-discourse sources (Reddit, Hacker News, Stack Exchange, Trustpilot, YouTube, Lobsters).",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "research",
+        "social-discourse",
+        "reviews",
+        "search"
+      ]
     }
   ]
 }

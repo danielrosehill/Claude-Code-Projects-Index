@@ -84,6 +84,13 @@ Claude Code plugin: research workflow — source log, summarize, deep-dive, expo
 
 ---
 
+### Social Feedback
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Social-Feedback-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Check what people are actually saying about a topic, product, or provider by searching curated social-discourse sources (Reddit, Hacker News, Stack Exchange, Trustpilot, YouTube, Lobsters).
+
+---
+
 ## AI & Prompts
 
 ### AI Attribution

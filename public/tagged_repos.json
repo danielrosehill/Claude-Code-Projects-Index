@@ -1587,6 +1587,20 @@
     "created_date": "2025-10-11"
   },
   {
+    "name": "Social Feedback",
+    "url": "https://github.com/danielrosehill/Social-Feedback-Plugin",
+    "description": "Check what people are actually saying about a topic, product, or provider by searching curated social-discourse sources (Reddit, Hacker News, Stack Exchange, Trustpilot, YouTube, Lobsters).",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-27",
+    "slug": "social-feedback",
+    "created_date": "2026-04-27"
+  },
+  {
     "name": "Sysadmin Homelab",
     "url": "https://github.com/danielrosehill/Claude-Sysadmin-Homelab-Plugin",
     "description": "Claude Code plugin: sysadmin and homelab workflow \u2014 diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.",

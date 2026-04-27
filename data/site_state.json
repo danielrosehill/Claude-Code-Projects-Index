@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-27T20:43:11",
-  "total_repos": 116,
+  "last_built": "2026-04-27T22:20:41",
+  "total_repos": 117,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -109,6 +109,7 @@
     "Skill Creation Research": "88f0c50ab8e90e60823d055a1fcf2523",
     "Smart Home": "1dacbc928dd77978bdc9869e3848a267",
     "Smithery Claude Code MCP Jumpstarter": "1f6ce546bfeb8ad52bb8bbfa515a8710",
+    "Social Feedback": "3eca5fe20d7b8de6a4c5ddbe4bbf0e10",
     "Sysadmin Homelab": "8a9532f19370c2150f9903d7b45f5ef4",
     "Task Queuer": "72bc01386d56ff7202b305be7a5ed115",
     "Teach This Repo": "92d1510ed8cfa274d95d0c87de7e5d99",
@@ -121,18 +122,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-03-08T02:25:44",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Agent Junction"
-          ]
-        }
-      ],
-      "total_repos": 112
-    },
     {
       "date": "2026-03-08T02:44:30",
       "changes": [
@@ -1433,6 +1422,18 @@
         }
       ],
       "total_repos": 116
+    },
+    {
+      "date": "2026-04-27T22:20:41",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Social Feedback"
+          ]
+        }
+      ],
+      "total_repos": 117
     }
   ]
 }
