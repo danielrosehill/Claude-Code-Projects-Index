@@ -24,9 +24,9 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-03-08",
+    "added_date": "2026-04-27",
     "slug": "agent-junction",
-    "created_date": "2026-03-08"
+    "created_date": "2026-04-27"
   },
   {
     "name": "AI Attribution",
@@ -1216,6 +1216,21 @@
     "added_date": "2026-04-27",
     "slug": "linux-desktop-claudemd-seeder",
     "created_date": "2025-10-25"
+  },
+  {
+    "name": "Linux Packaging",
+    "url": "https://github.com/danielrosehill/Linux-Packaging-Plugin",
+    "description": "Linux packaging and release workflows \u2014 Debian/.deb builds, npm publishing, GitHub release creation, agent deploy scripts, and local debugging",
+    "tags": [
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-27",
+    "slug": "linux-packaging",
+    "created_date": "2026-04-27"
   },
   {
     "name": "Llm Council Creator",

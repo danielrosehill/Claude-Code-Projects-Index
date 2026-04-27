@@ -1283,6 +1283,28 @@
         "reviews",
         "search"
       ]
+    },
+    {
+      "name": "linux-packaging",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Linux-Packaging-Plugin"
+      },
+      "description": "Linux packaging and release workflows \u2014 Debian/.deb builds, npm publishing, GitHub release creation, agent deploy scripts, and local debugging",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "linux",
+        "packaging",
+        "debian",
+        "npm",
+        "release"
+      ]
     }
   ]
 }

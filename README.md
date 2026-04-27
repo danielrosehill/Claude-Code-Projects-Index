@@ -869,6 +869,15 @@ Generates specifications for practice/dummy development projects tailored to the
 
 ---
 
+## Linux
+
+### Linux Packaging
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Linux-Packaging-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Linux packaging and release workflows — Debian/.deb builds, npm publishing, GitHub release creation, agent deploy scripts, and local debugging
+
+---
+
 ## Llm Council
 
 ### Llm Council Creator
