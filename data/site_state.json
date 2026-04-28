@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-04-28T15:19:52",
+  "last_built": "2026-04-28T20:29:20",
   "total_repos": 133,
   "total_tags": 14,
   "repo_manifest": {
@@ -132,71 +132,12 @@
     "Technical Docs": "5dbd6eab0607c0feb8831bcb9c601938",
     "Test Project Ideator": "dc073bb52b5224043f0d1895151a92f2",
     "Text Corpus Analysis": "051ff9156af718ff612ccae39dda9124",
-    "The User Voice Types": "eaea4f805e8773944cb9e351263b44b6",
+    "The User Voice Types": "a8fe1c490578a7f50025518a04694cfe",
     "User Claude MD": "8d3ea90d4e333fd456a9224b0444d4f0",
     "Video Production": "3142a664e24a13d1a16b04f5042164c4",
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-04-14T15:09:42",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "New Repo From Template Plugin"
-          ]
-        },
-        {
-          "type": "removed",
-          "repos": [
-            "Claude ADB Workspace Template",
-            "Claude ADHD Research Workspace",
-            "Claude AI Conference",
-            "Claude Blog Manager",
-            "Claude Budget Workspace Template",
-            "Claude Case File",
-            "Claude Code Lawyer",
-            "Claude Code Security Auditor",
-            "Claude Communications Strategist Template",
-            "Claude Debugging Workspace",
-            "Claude Decision Evaluation Framework",
-            "Claude Deep Research Template (Implementation Template)",
-            "Claude Diary Planner Template",
-            "Claude Docker Manager",
-            "Claude Evidence Assistant",
-            "Claude Georeaction Researcher",
-            "Claude Github Shortlister",
-            "Claude Google Drive Organiser",
-            "Claude Home Assistant Manager Template",
-            "Claude Job Search Strategist",
-            "Claude Legal Aid Clinic",
-            "Claude Linux Desktop Manager",
-            "Claude Linux Server Manager",
-            "Claude OS Sync Agent",
-            "Claude OSINT Investigator",
-            "Claude Preparedness Planner",
-            "Claude Proxmox Manager Template",
-            "Claude Purchasing Assistant",
-            "Claude Redaction And Obfuscation",
-            "Claude Rig Planner",
-            "Claude Server Mgmt Template SBCs",
-            "Claude Space Self-Ideator",
-            "Claude Spec Starter",
-            "Claude Synology Manager",
-            "Claude Therapy Tracker",
-            "Claude Think Tank",
-            "Claude Visual Communications Space",
-            "Claude Writing Space Template",
-            "Company Research",
-            "Ecosystem Mapper",
-            "General Agent Workspace Template",
-            "Panel Of Claude"
-          ]
-        }
-      ],
-      "total_repos": 85
-    },
     {
       "date": "2026-04-14T15:14:58",
       "changes": [
@@ -1288,6 +1229,18 @@
             "Claude Dolphin & Konsole Actions",
             "How-To-MCP",
             "Image Annotation"
+          ]
+        }
+      ],
+      "total_repos": 133
+    },
+    {
+      "date": "2026-04-28T20:29:20",
+      "changes": [
+        {
+          "type": "modified",
+          "repos": [
+            "The User Voice Types"
           ]
         }
       ],
