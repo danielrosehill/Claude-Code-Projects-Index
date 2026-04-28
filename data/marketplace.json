@@ -398,8 +398,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Ideation-Planning-Plugin"
       },
-      "description": "Claude Code plugin: ideation and planning workflow \u2014 capture, evaluate, rank, simulate, with ideation/single-eval/multi-ranking/feature/decision/simulation/capture variants.",
-      "version": "1.0.0",
+      "description": "Claude Code plugin: ideation and planning workflow \u2014 capture, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -408,8 +408,7 @@
       "license": "MIT",
       "tags": [
         "ideation",
-        "planning",
-        "decision"
+        "planning"
       ]
     },
     {
@@ -1555,6 +1554,28 @@
         "analysis",
         "typst",
         "pdf"
+      ]
+    },
+    {
+      "name": "image-annotation",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Image-Annotation-Plugin"
+      },
+      "description": "Capture screenshots and apply annotations (arrows, text callouts, boxes, highlights, blur/redaction) on Linux via ImageMagick, Pillow, spectacle, grim+slurp, and flameshot.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "image",
+        "annotation",
+        "screenshot",
+        "linux",
+        "imagemagick"
       ]
     }
   ]

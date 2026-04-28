@@ -235,9 +235,9 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-03-09",
+    "added_date": "2026-04-28",
     "slug": "claude-agent-blueprints",
-    "created_date": "2026-03-09"
+    "created_date": "2026-04-28"
   },
   {
     "name": "Claude Agent Picker Pattern",
@@ -265,9 +265,9 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-03-09",
+    "added_date": "2026-04-28",
     "slug": "claude-agent-workspace-generator",
-    "created_date": "2026-03-09"
+    "created_date": "2026-04-28"
   },
   {
     "name": "Claude App Optimiser",
@@ -682,9 +682,9 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-03-09",
+    "added_date": "2026-04-28",
     "slug": "claude-md-chunk",
-    "created_date": "2026-03-09"
+    "created_date": "2026-04-28"
   },
   {
     "name": "Claude Model Identifier",
@@ -1175,7 +1175,7 @@
   {
     "name": "Ideation Planning",
     "url": "https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin",
-    "description": "Claude Code plugin: ideation and planning workflow \u2014 capture, evaluate, rank, simulate, with ideation/single-eval/multi-ranking/feature/decision/simulation/capture variants.",
+    "description": "Claude Code plugin: ideation and planning workflow \u2014 capture, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants.",
     "tags": [
       "Automation",
       "Plugin"
@@ -1186,6 +1186,20 @@
     "added_date": "2026-04-19",
     "slug": "ideation-planning",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Image Annotation",
+    "url": "https://github.com/danielrosehill/Claude-Image-Annotation-Plugin",
+    "description": "Capture screenshots and apply annotations (arrows, text callouts, boxes, highlights, blur/redaction) on Linux via ImageMagick, Pillow, spectacle, grim+slurp, and flameshot.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "image-annotation",
+    "created_date": "2026-04-28"
   },
   {
     "name": "Image Production",

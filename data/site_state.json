@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-28T14:52:12",
-  "total_repos": 129,
+  "last_built": "2026-04-28T14:54:57",
+  "total_repos": 130,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -18,9 +18,9 @@
     "Browser Data Capture": "bd7083920f101b9f308f5d04399ce8a1",
     "Budgeting": "2c4813804b79d5c85272ff7fc006801f",
     "Career": "21be806b046cb77c798c30c05855bd5a",
-    "Claude Agent Blueprints": "6bda853900c64af50704cec3c558eca4",
+    "Claude Agent Blueprints": "99345e7c29cb002441a5690cff6c8097",
     "Claude Agent Picker Pattern": "7e5390b49d36a5619389a74a5ac31826",
-    "Claude Agent Workspace Generator": "ec3520a6b51d7a238fefeb4967e7a25c",
+    "Claude Agent Workspace Generator": "2a2b782623141b8fec0ee9af95442fc6",
     "Claude App Optimiser": "77075f083524f7dc4e425e413d920e3e",
     "Claude Bug Catcher": "773b7d81d86db1b60f8b881829ffe288",
     "Claude Calls The Shots": "01393094e54f04e7cc87b8e05585dec2",
@@ -48,7 +48,7 @@
     "Claude Interview": "6bb785508622a9fbe4624e1a5680aae3",
     "Claude Is Awesome": "c1d68260f538fda3c57dad5facf0278d",
     "Claude Local AI Agent Research": "a0165e550859f9ca979b7f1d72b10c6b",
-    "Claude MD Chunk": "5394c5eddcb97d5e7da765dcce93d819",
+    "Claude MD Chunk": "740599e346c995d5d9b8344126e7428e",
     "Claude Model Identifier": "ecdcc781b626410916263655ac5d6c64",
     "Claude Rescue": "b750dc8fc8a66fbe34f24529f1366db4",
     "Claude Rudder": "e15df9a7c78cf5207b0c0a7e2bf5af4a",
@@ -81,7 +81,8 @@
     "How-To-MCP": "5e0af775c5cd9a48e030f873f62dfcbf",
     "HP5200 Printer": "37ccb3833f3591642da74b9b9ac7f1b6",
     "Html Email Designer": "6d4c22766e034ea0cdf296260cb896d4",
-    "Ideation Planning": "26f089149d87e9e57ce6d28438e84e5c",
+    "Ideation Planning": "f5b4e24223a7ed83c86cb722978c682a",
+    "Image Annotation": "ce281951dee4888a763686ca516bc0c9",
     "Image Production": "d53fff7d7038d89581257b8ea3792408",
     "Israel Agent Skills": "64cf01528c2d57e9972e2aa836abd235",
     "Israel Shopping": "1c7296b2061da51bcb7746a65f0d7b85",
@@ -134,41 +135,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-03-10T00:40:43",
-      "changes": [
-        {
-          "type": "modified",
-          "repos": [
-            "Agent Junction",
-            "Batch ClaudeMD Repo Creator",
-            "CONTEXT.md",
-            "Claude AI Conference",
-            "Claude Agent Workspace Generator",
-            "Claude Agent Workspace Model",
-            "Claude Change My View",
-            "Claude Code Context Feature Requests",
-            "Claude Code Context Toolkit",
-            "Claude Code Linux Notes",
-            "Claude Model Identifier",
-            "Claude Repo Jumper",
-            "Claude Repo Retrofitter",
-            "Claude Space Self-Ideator",
-            "Claude Spec Starter",
-            "Claude Sub-Agent Network",
-            "Claude Task Manager",
-            "Claude Think Tank",
-            "Claude Workspace Setup Helper",
-            "Cool Claude Code Stuff",
-            "Ecosystem Mapper",
-            "Linux Desktop ClaudeMD Seeder",
-            "New Turn Claude Hook",
-            "Non-Code Claude Code"
-          ]
-        }
-      ],
-      "total_repos": 120
-    },
     {
       "date": "2026-03-10T19:32:19",
       "changes": [
@@ -1305,6 +1271,27 @@
         }
       ],
       "total_repos": 129
+    },
+    {
+      "date": "2026-04-28T14:54:57",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Image Annotation"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Claude Agent Blueprints",
+            "Claude Agent Workspace Generator",
+            "Claude MD Chunk",
+            "Ideation Planning"
+          ]
+        }
+      ],
+      "total_repos": 130
     }
   ]
 }
