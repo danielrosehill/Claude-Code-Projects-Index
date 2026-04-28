@@ -1204,6 +1204,22 @@
     "created_date": "2026-04-20"
   },
   {
+    "name": "Jewish Texts Reference",
+    "url": "https://github.com/danielrosehill/Jewish-Texts-Reference-Plugin",
+    "description": "Look up Jewish texts and references via the Sefaria MCP server \u2014 Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Bundles two skills (find-text, find-reference) and the official Sefaria SSE MCP endpoint.",
+    "tags": [
+      "Documentation",
+      "MCP",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "jewish-texts-reference",
+    "created_date": "2026-04-28"
+  },
+  {
     "name": "Kde Plasmoid Dev",
     "url": "https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin",
     "description": "Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) \u2014 scaffold, debug, package, install, and migrate Plasma 5 \u2192 6.",

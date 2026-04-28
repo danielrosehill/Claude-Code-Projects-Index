@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-28T13:47:37",
-  "total_repos": 124,
+  "last_built": "2026-04-28T13:49:33",
+  "total_repos": 125,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -83,6 +83,7 @@
     "Image Production": "d53fff7d7038d89581257b8ea3792408",
     "Israel Agent Skills": "64cf01528c2d57e9972e2aa836abd235",
     "Israel Shopping": "1c7296b2061da51bcb7746a65f0d7b85",
+    "Jewish Texts Reference": "5c1801e2d22029b891f9b857ca72e4c7",
     "Kde Plasmoid Dev": "889a56701582aa93f4e588a09c205e67",
     "Knowledge Documentation": "e0a666f2c861a98ef68396196501672f",
     "Legal Investigative": "bf11e055e731e22e3f6ea73e3d366526",
@@ -129,20 +130,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-03-09T21:28:51",
-      "changes": [
-        {
-          "type": "modified",
-          "repos": [
-            "Claude Code LAN Manager",
-            "Claude Space Self-Ideator",
-            "Claude Spaces Model"
-          ]
-        }
-      ],
-      "total_repos": 112
-    },
     {
       "date": "2026-03-09T21:29:16",
       "changes": [
@@ -1358,6 +1345,18 @@
         }
       ],
       "total_repos": 124
+    },
+    {
+      "date": "2026-04-28T13:49:33",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Jewish Texts Reference"
+          ]
+        }
+      ],
+      "total_repos": 125
     }
   ]
 }

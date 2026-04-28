@@ -876,6 +876,15 @@ Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price 
 
 ---
 
+## Jewish
+
+### Jewish Texts Reference
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Jewish-Texts-Reference-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Look up Jewish texts and references via the Sefaria MCP server — Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Bundles two skills (find-text, find-reference) and the official Sefaria SSE MCP endpoint.
+
+---
+
 ## Kde
 
 ### Kde Plasmoid Dev
