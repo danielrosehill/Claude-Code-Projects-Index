@@ -1325,6 +1325,21 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Linux Debugging",
+    "url": "https://github.com/danielrosehill/Linux-Debugging-Plugin",
+    "description": "Linux desktop debugging toolkit \u2014 targeted journal/boot/log inspection skills plus proactive logging instrumentation (persistent journald, kdump, sysstat, OOM protection) so AI agents can analyze hard crashes, freezes, and runtime issues. Targets Ubuntu + Wayland; forkable for other distros.",
+    "tags": [
+      "Plugin",
+      "Template"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "linux-debugging",
+    "created_date": "2026-04-28"
+  },
+  {
     "name": "Linux Desktop ClaudeMD Seeder",
     "url": "https://github.com/danielrosehill/Linux-Desktop-ClaudeMD-Seeder",
     "description": "Automatically generates contextual CLAUDE.md files across a Linux desktop filesystem.",

@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-28T14:54:57",
-  "total_repos": 130,
+  "last_built": "2026-04-28T14:58:22",
+  "total_repos": 131,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -91,6 +91,7 @@
     "Kde Plasmoid Dev": "889a56701582aa93f4e588a09c205e67",
     "Knowledge Documentation": "e0a666f2c861a98ef68396196501672f",
     "Legal Investigative": "bf11e055e731e22e3f6ea73e3d366526",
+    "Linux Debugging": "fe7fb8761458afdf87aca4facf8f6b3b",
     "Linux Desktop ClaudeMD Seeder": "33ceb550a7d70d4a83e9c42c5b1129c3",
     "Linux Packaging": "5e09c8d0a8ad3f2e8266e5ac700f5792",
     "Llm Council Creator": "1ea05f6d60d0af2bfd4a0b1e6b2f1301",
@@ -135,24 +136,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-03-10T19:32:19",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Repo Retrofitter"
-          ]
-        },
-        {
-          "type": "removed",
-          "repos": [
-            "Claude Repo Retrofitter"
-          ]
-        }
-      ],
-      "total_repos": 120
-    },
     {
       "date": "2026-04-09T15:45:50",
       "changes": [
@@ -1292,6 +1275,18 @@
         }
       ],
       "total_repos": 130
+    },
+    {
+      "date": "2026-04-28T14:58:22",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Linux Debugging"
+          ]
+        }
+      ],
+      "total_repos": 131
     }
   ]
 }

@@ -1577,6 +1577,32 @@
         "linux",
         "imagemagick"
       ]
+    },
+    {
+      "name": "linux-debugging",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Linux-Debugging-Plugin"
+      },
+      "description": "Linux desktop debugging toolkit \u2014 targeted journal/boot/log inspection skills plus proactive logging instrumentation (persistent journald, kdump, sysstat, OOM protection) so AI agents can analyze hard crashes, freezes, and runtime issues. Targets Ubuntu + Wayland; forkable for other distros.",
+      "version": "2.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "linux",
+        "debugging",
+        "journalctl",
+        "systemd",
+        "ubuntu",
+        "wayland",
+        "logging",
+        "oom",
+        "sysadmin"
+      ]
     }
   ]
 }

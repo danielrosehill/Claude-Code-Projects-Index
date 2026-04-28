@@ -937,6 +937,13 @@ Generates specifications for practice/dummy development projects tailored to the
 
 ## Linux
 
+### Linux Debugging
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Linux-Debugging-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Linux desktop debugging toolkit — targeted journal/boot/log inspection skills plus proactive logging instrumentation (persistent journald, kdump, sysstat, OOM protection) so AI agents can analyze hard crashes, freezes, and runtime issues. Targets Ubuntu + Wayland; forkable for other distros.
+
+---
+
 ### Linux Packaging
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Linux-Packaging-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
