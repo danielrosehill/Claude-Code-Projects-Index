@@ -270,6 +270,15 @@ Plan, document, and implement a backup and data-protection strategy for the curr
 
 ---
 
+## Business
+
+### Business Idea Eval
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Business-Idea-Eval-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Evaluate, refine, and develop business ideas through structured lenses — VC review, TAM, B2B/B2C fit, assumptions, objections, hardware feasibility, dev specs, timelines, social impact — plus an LLM council pattern (subagents or Karpathy clone), synthesis, and Typst PDF outputs for internal and public-facing docs.
+
+---
+
 ## Claude Code
 
 ### Claude Code Feedback
@@ -424,7 +433,7 @@ Manage a Home Assistant instance via SSH and the HA REST API — guided first-ru
 ### Image Annotation
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Image-Annotation-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Capture screenshots and apply annotations (arrows, text callouts, boxes, highlights, blur/redaction) on Linux via ImageMagick, Pillow, spectacle, grim+slurp, and flameshot.
+Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, blur/redaction) on Linux via Pillow + ImageMagick, with batch WebP conversion and PDF bundling. Originals are never modified.
 
 ---
 

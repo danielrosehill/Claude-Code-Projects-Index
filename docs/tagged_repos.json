@@ -210,6 +210,21 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Business Idea Eval",
+    "url": "https://github.com/danielrosehill/Claude-Business-Idea-Eval-Plugin",
+    "description": "Evaluate, refine, and develop business ideas through structured lenses \u2014 VC review, TAM, B2B/B2C fit, assumptions, objections, hardware feasibility, dev specs, timelines, social impact \u2014 plus an LLM council pattern (subagents or Karpathy clone), synthesis, and Typst PDF outputs for internal and public-facing docs.",
+    "tags": [
+      "Multi-Agent",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "business-idea-eval",
+    "created_date": "2026-04-28"
+  },
+  {
     "name": "Career",
     "url": "https://github.com/danielrosehill/Claude-Career-Plugin",
     "description": "Claude Code plugin: career planning workflow \u2014 log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
@@ -594,9 +609,9 @@
     "category": "Systems Administration",
     "category_slug": "sysadmin",
     "category_group": "Technical",
-    "added_date": "2026-04-09",
+    "added_date": "2026-04-28",
     "slug": "claude-dolphin-konsole-actions",
-    "created_date": "2026-04-09"
+    "created_date": "2026-04-28"
   },
   {
     "name": "Claude Dork",
@@ -1153,9 +1168,9 @@
     "category": "MCP",
     "category_slug": "mcp",
     "category_group": "Technical",
-    "added_date": "2026-04-09",
+    "added_date": "2026-04-28",
     "slug": "how-to-mcp",
-    "created_date": "2026-04-09"
+    "created_date": "2026-04-28"
   },
   {
     "name": "HP5200 Printer",
@@ -1204,7 +1219,7 @@
   {
     "name": "Image Annotation",
     "url": "https://github.com/danielrosehill/Claude-Image-Annotation-Plugin",
-    "description": "Capture screenshots and apply annotations (arrows, text callouts, boxes, highlights, blur/redaction) on Linux via ImageMagick, Pillow, spectacle, grim+slurp, and flameshot.",
+    "description": "Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, blur/redaction) on Linux via Pillow + ImageMagick, with batch WebP conversion and PDF bundling. Originals are never modified.",
     "tags": [
       "Plugin"
     ],
