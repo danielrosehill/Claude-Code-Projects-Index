@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-28T14:38:20",
-  "total_repos": 127,
+  "last_built": "2026-04-28T14:48:38",
+  "total_repos": 128,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -15,6 +15,7 @@
     "Backup Planner": "6d71b5559a4988abc7d0ef406089c001",
     "Bash Alias Manager Claude": "9e206526ed7d7cc4008fc972df06f47a",
     "Batch ClaudeMD Repo Creator": "18e18195693bf85aac1f138a06d5bfb0",
+    "Browser Data Capture": "bd7083920f101b9f308f5d04399ce8a1",
     "Budgeting": "2c4813804b79d5c85272ff7fc006801f",
     "Career": "21be806b046cb77c798c30c05855bd5a",
     "Claude Agent Blueprints": "6bda853900c64af50704cec3c558eca4",
@@ -132,24 +133,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-03-09T21:55:45",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Claude Agent Workspace Model"
-          ]
-        },
-        {
-          "type": "removed",
-          "repos": [
-            "Claude Spaces Model"
-          ]
-        }
-      ],
-      "total_repos": 113
-    },
     {
       "date": "2026-03-09T22:19:38",
       "changes": [
@@ -1322,6 +1305,18 @@
         }
       ],
       "total_repos": 127
+    },
+    {
+      "date": "2026-04-28T14:48:38",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Browser Data Capture"
+          ]
+        }
+      ],
+      "total_repos": 128
     }
   ]
 }

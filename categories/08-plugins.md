@@ -313,6 +313,15 @@ Data cleaning, enrichment, restructuring, packaging, and documentation skills fo
 
 ---
 
+## Data Ingestion
+
+### Browser Data Capture
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Browser-Data-Capture-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Streamline programmatic data ingestion against sites and apps that don't ship a documented API — capture network traffic (HAR, mitmproxy, or live tab via claude-in-chrome), map endpoints, infer schemas, and produce a draft OpenAPI spec you can build a stable client against. Ships skills for per-domain map documents, version-controlled storage in a private GitHub repo, and good-faith vulnerability disclosure if a finding turns up incidentally. White-hat use only.
+
+---
+
 ## Data Visualisation
 
 ### Data Visualisation And Publishing

@@ -180,6 +180,21 @@
     "created_date": "2025-10-26"
   },
   {
+    "name": "Browser Data Capture",
+    "url": "https://github.com/danielrosehill/Claude-Browser-Data-Capture-Plugin",
+    "description": "Streamline programmatic data ingestion against sites and apps that don't ship a documented API \u2014 capture network traffic (HAR, mitmproxy, or live tab via claude-in-chrome), map endpoints, infer schemas, and produce a draft OpenAPI spec you can build a stable client against. Ships skills for per-domain map documents, version-controlled storage in a private GitHub repo, and good-faith vulnerability disclosure if a finding turns up incidentally. White-hat use only.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "browser-data-capture",
+    "created_date": "2026-04-28"
+  },
+  {
     "name": "Budgeting",
     "url": "https://github.com/danielrosehill/Claude-Budgeting-Plugin",
     "description": "Claude Code plugin: personal budgeting workflow \u2014 log transactions, categorize, forecast, track goals, monthly reports.",

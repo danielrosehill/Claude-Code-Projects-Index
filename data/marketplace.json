@@ -1511,6 +1511,29 @@
         "torah",
         "hebcal"
       ]
+    },
+    {
+      "name": "browser-data-capture",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Browser-Data-Capture-Plugin"
+      },
+      "description": "Streamline programmatic data ingestion against sites and apps that don't ship a documented API \u2014 capture network traffic (HAR, mitmproxy, or live tab via claude-in-chrome), map endpoints, infer schemas, and produce a draft OpenAPI spec you can build a stable client against. Ships skills for per-domain map documents, version-controlled storage in a private GitHub repo, and good-faith vulnerability disclosure if a finding turns up incidentally. White-hat use only.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "data-ingestion",
+        "network-monitoring",
+        "endpoint-mapping",
+        "openapi",
+        "har",
+        "mitmproxy"
+      ]
     }
   ]
 }
