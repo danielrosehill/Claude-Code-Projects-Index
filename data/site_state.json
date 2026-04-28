@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-04-28T13:49:33",
+  "last_built": "2026-04-28T14:01:29",
   "total_repos": 125,
   "total_tags": 14,
   "repo_manifest": {
@@ -83,7 +83,7 @@
     "Image Production": "d53fff7d7038d89581257b8ea3792408",
     "Israel Agent Skills": "64cf01528c2d57e9972e2aa836abd235",
     "Israel Shopping": "1c7296b2061da51bcb7746a65f0d7b85",
-    "Jewish Texts Reference": "5c1801e2d22029b891f9b857ca72e4c7",
+    "Jewish Texts Reference": "a77b35c5be6b4073d067055660c66e72",
     "Kde Plasmoid Dev": "889a56701582aa93f4e588a09c205e67",
     "Knowledge Documentation": "e0a666f2c861a98ef68396196501672f",
     "Legal Investigative": "bf11e055e731e22e3f6ea73e3d366526",
@@ -130,56 +130,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-03-09T21:29:16",
-      "changes": [
-        {
-          "type": "modified",
-          "repos": [
-            "Bash Alias Manager Claude",
-            "Batch ClaudeMD Repo Creator",
-            "Claude ADB Workspace Template",
-            "Claude ADHD Research Workspace",
-            "Claude Blog Manager",
-            "Claude Budget Workspace Template",
-            "Claude Business Continuity Planner",
-            "Claude Change My View",
-            "Claude Code LAN Manager",
-            "Claude Code Remote Machine Admin Space",
-            "Claude Code Repo Managers ClaudeMD",
-            "Claude Code Security Auditor",
-            "Claude Communications Strategist Template",
-            "Claude Conda Manager",
-            "Claude Debugging Workspace",
-            "Claude Docker Manager",
-            "Claude Evidence Assistant",
-            "Claude Health Helper",
-            "Claude Home Assistant Manager Template",
-            "Claude Job Search Strategist",
-            "Claude Linux Desktop Manager",
-            "Claude Linux Server Manager",
-            "Claude Media Monitor",
-            "Claude News Fetcher - Media Monitoring System",
-            "Claude Personal Development Workspace",
-            "Claude Proxmox Manager Template",
-            "Claude Purchasing Assistant",
-            "Claude Redaction And Obfuscation",
-            "Claude Report Parsing Space Template",
-            "Claude Server Manager Template",
-            "Claude Space Self-Ideator",
-            "Claude Spaces Model",
-            "Claude Stack Research Workspace",
-            "Claude Synology Manager",
-            "Claude Task Manager",
-            "Claude Visual Communications Space",
-            "Claude Web Analytics Space",
-            "Claude Workspace Setup Helper",
-            "Claude Writing Space Template"
-          ]
-        }
-      ],
-      "total_repos": 112
-    },
     {
       "date": "2026-03-09T21:36:40",
       "changes": [
@@ -1351,6 +1301,18 @@
       "changes": [
         {
           "type": "added",
+          "repos": [
+            "Jewish Texts Reference"
+          ]
+        }
+      ],
+      "total_repos": 125
+    },
+    {
+      "date": "2026-04-28T14:01:29",
+      "changes": [
+        {
+          "type": "modified",
           "repos": [
             "Jewish Texts Reference"
           ]

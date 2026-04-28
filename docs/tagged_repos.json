@@ -1206,7 +1206,7 @@
   {
     "name": "Jewish Texts Reference",
     "url": "https://github.com/danielrosehill/Jewish-Texts-Reference-Plugin",
-    "description": "Look up Jewish texts and references via the Sefaria MCP server \u2014 Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Bundles two skills (find-text, find-reference) and the official Sefaria SSE MCP endpoint.",
+    "description": "Look up Jewish texts and references via the Sefaria MCP server \u2014 Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).",
     "tags": [
       "Documentation",
       "MCP",
