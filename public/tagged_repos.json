@@ -1220,6 +1220,22 @@
     "created_date": "2026-04-28"
   },
   {
+    "name": "Jewish Utilities",
+    "url": "https://github.com/danielrosehill/Claude-Jewish-Utilities-Plugin",
+    "description": "Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR\"A + MG\"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Wraps zmanim-mcp-server and hebcal MCP. Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.",
+    "tags": [
+      "Documentation",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "jewish-utilities",
+    "created_date": "2026-04-28"
+  },
+  {
     "name": "Kde Plasmoid Dev",
     "url": "https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin",
     "description": "Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) \u2014 scaffold, debug, package, install, and migrate Plasma 5 \u2192 6.",
@@ -1622,6 +1638,21 @@
     "added_date": "2026-04-21",
     "slug": "resume-typesetter",
     "created_date": "2026-04-21"
+  },
+  {
+    "name": "Schedule Manager",
+    "url": "https://github.com/danielrosehill/Claude-Schedule-Manager-Plugin",
+    "description": "Personal schedule, task, and meeting management. Routes mixed brain-dumps into Google Calendar (events) and Todoist (tasks); manages agenda/minutes Google Docs linked to events; produces wrapup logs and morning briefs. 22 skills covering Calendar/Todoist CRUD, firehose routing, task<->event migration, priority/date hygiene, and agenda/minutes lifecycle.",
+    "tags": [
+      "Agent Workspace",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "schedule-manager",
+    "created_date": "2026-04-28"
   },
   {
     "name": "Security Checkup",

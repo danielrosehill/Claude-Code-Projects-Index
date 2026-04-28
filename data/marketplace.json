@@ -1464,6 +1464,53 @@
         "reference",
         "mcp"
       ]
+    },
+    {
+      "name": "schedule-manager",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Schedule-Manager-Plugin"
+      },
+      "description": "Personal schedule, task, and meeting management. Routes mixed brain-dumps into Google Calendar (events) and Todoist (tasks); manages agenda/minutes Google Docs linked to events; produces wrapup logs and morning briefs. 22 skills covering Calendar/Todoist CRUD, firehose routing, task<->event migration, priority/date hygiene, and agenda/minutes lifecycle.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "productivity",
+        "calendar",
+        "todoist",
+        "google-workspace",
+        "meetings",
+        "scheduling"
+      ]
+    },
+    {
+      "name": "jewish-utilities",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Jewish-Utilities-Plugin"
+      },
+      "description": "Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR\"A + MG\"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Wraps zmanim-mcp-server and hebcal MCP. Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "jewish",
+        "judaism",
+        "hebrew",
+        "shabbat",
+        "zmanim",
+        "torah",
+        "hebcal"
+      ]
     }
   ]
 }
