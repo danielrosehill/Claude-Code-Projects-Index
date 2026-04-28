@@ -1264,6 +1264,28 @@
       ]
     },
     {
+      "name": "claude-code-feedback",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Code-Feedback"
+      },
+      "description": "File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "claude-code",
+        "feedback",
+        "bug-report",
+        "feature-request",
+        "github-issues"
+      ]
+    },
+    {
       "name": "social-feedback",
       "source": {
         "source": "github",
@@ -1304,6 +1326,119 @@
         "debian",
         "npm",
         "release"
+      ]
+    },
+    {
+      "name": "opnsense-mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Opnsense-Mgmt-Plugin"
+      },
+      "description": "Manage an OPNsense router/firewall via SSH and the OPNsense API \u2014 guided first-run onboarding, firewall rule inspection, network debugging, and host/log diagnostics. Per-host config is stored outside the plugin so the same install works across multiple environments.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "opnsense",
+        "firewall",
+        "network",
+        "router",
+        "homelab",
+        "sysadmin"
+      ]
+    },
+    {
+      "name": "synology-mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Synology-Mgmt-Plugin"
+      },
+      "description": "Manage a Synology NAS via SSH \u2014 guided first-run onboarding, share/volume inspection, storage health, and file operations. Per-host config is stored outside the plugin so the same install works across multiple NAS environments.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "synology",
+        "nas",
+        "dsm",
+        "storage",
+        "homelab",
+        "sysadmin"
+      ]
+    },
+    {
+      "name": "proxmox-mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Proxmox-Mgmt-Plugin"
+      },
+      "description": "Manage a Proxmox VE host via SSH and the Proxmox API \u2014 guided first-run onboarding, VM/CT lifecycle, storage and ZFS inspection, log review, and update workflows. Per-host config is stored outside the plugin so the same install works across multiple Proxmox environments.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "proxmox",
+        "virtualization",
+        "homelab",
+        "sysadmin",
+        "vm",
+        "lxc"
+      ]
+    },
+    {
+      "name": "home-assistant-mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Home-Assistant-Mgmt-Plugin"
+      },
+      "description": "Manage a Home Assistant instance via SSH and the HA REST API \u2014 guided first-run onboarding, automation/entity authoring, service calls, TTS testing, and log review. Per-host config is stored outside the plugin so the same install works across multiple Home Assistant environments.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "home-assistant",
+        "homelab",
+        "smart-home",
+        "automation",
+        "iot"
+      ]
+    },
+    {
+      "name": "geopol-sim",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Geopol-Sim-Plugin"
+      },
+      "description": "Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bundles, and grades simulations from multiple decoupled upstream templates (lean LLM-council and snowglobe-style actor-simulation variants).",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "forecasting",
+        "geopolitics",
+        "simulation",
+        "llm-council",
+        "snowglobe"
       ]
     }
   ]

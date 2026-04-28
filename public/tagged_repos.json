@@ -24,9 +24,9 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "agent-junction",
-    "created_date": "2026-04-27"
+    "created_date": "2026-04-28"
   },
   {
     "name": "AI Attribution",
@@ -114,7 +114,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "ai-human-attribution-adder",
     "created_date": "2025-10-31"
   },
@@ -159,7 +159,7 @@
     "category": "Systems Administration",
     "category_slug": "sysadmin",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "bash-alias-manager-claude",
     "created_date": "2025-10-25"
   },
@@ -175,7 +175,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "batch-claudemd-repo-creator",
     "created_date": "2025-10-26"
   },
@@ -234,7 +234,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-agent-picker-pattern",
     "created_date": "2025-10-31"
   },
@@ -264,7 +264,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-app-optimiser",
     "created_date": "2025-12-23"
   },
@@ -279,7 +279,7 @@
     "category": "Systems Administration",
     "category_slug": "sysadmin",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-bug-catcher",
     "created_date": "2025-12-28"
   },
@@ -309,7 +309,7 @@
     "category": "Argument and Perspective Exploration",
     "category_slug": "argument",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-change-my-view",
     "created_date": "2025-11-13"
   },
@@ -323,7 +323,7 @@
     "category": "Systems Administration",
     "category_slug": "sysadmin",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-code-bash-aliases",
     "created_date": "2025-11-09"
   },
@@ -352,7 +352,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-code-context-feature-requests",
     "created_date": "2025-10-09"
   },
@@ -367,9 +367,25 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-code-context-toolkit",
     "created_date": "2025-10-27"
+  },
+  {
+    "name": "Claude Code Feedback",
+    "url": "https://github.com/danielrosehill/Claude-Code-Feedback",
+    "description": "File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.",
+    "tags": [
+      "Documentation",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "claude-code-feedback",
+    "created_date": "2026-04-16"
   },
   {
     "name": "Claude Code Linux Desktop Slash Commands",
@@ -381,7 +397,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-code-linux-desktop-slash-commands",
     "created_date": "2025-10-21"
   },
@@ -397,7 +413,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-code-linux-notes",
     "created_date": "2025-10-22"
   },
@@ -427,7 +443,7 @@
     "category": "MCP",
     "category_slug": "mcp",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-code-mcp-command-generator",
     "created_date": "2025-10-16"
   },
@@ -441,7 +457,7 @@
     "category": "MCP",
     "category_slug": "mcp",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-code-mcp-list",
     "created_date": "2025-10-28"
   },
@@ -488,7 +504,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-code-repo-managers-claudemd",
     "created_date": "2025-10-25"
   },
@@ -532,7 +548,7 @@
     "category": "Research",
     "category_slug": "research",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-deep-research-model-notes-documentation",
     "created_date": "2025-10-29"
   },
@@ -548,7 +564,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-development-agents",
     "created_date": "2025-12-29"
   },
@@ -577,7 +593,7 @@
     "category": "Research",
     "category_slug": "research",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-dork",
     "created_date": "2026-03-05"
   },
@@ -591,7 +607,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-file-organiser-super-slash",
     "created_date": "2025-10-29"
   },
@@ -606,7 +622,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-interview",
     "created_date": "2025-12-06"
   },
@@ -622,7 +638,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-is-awesome",
     "created_date": "2025-10-28"
   },
@@ -637,7 +653,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-local-ai-agent-research",
     "created_date": "2025-11-27"
   },
@@ -666,7 +682,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-model-identifier",
     "created_date": "2025-12-21"
   },
@@ -681,7 +697,7 @@
     "category": "Systems Administration",
     "category_slug": "sysadmin",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-rescue",
     "created_date": "2025-11-14"
   },
@@ -712,7 +728,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-slash-commands",
     "created_date": "2025-10-11"
   },
@@ -727,7 +743,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-sub-agent-network",
     "created_date": "2025-09-09"
   },
@@ -743,7 +759,7 @@
     "category": "Systems Administration",
     "category_slug": "sysadmin",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-system-recovery-mode",
     "created_date": "2025-12-27"
   },
@@ -758,7 +774,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-task-manager",
     "created_date": "2025-12-28"
   },
@@ -819,7 +835,7 @@
     "category": "Communications & Writing",
     "category_slug": "communications",
     "category_group": "Non-Code",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-website-update-sender",
     "created_date": "2025-11-13"
   },
@@ -836,7 +852,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "claude-workspace-setup-helper",
     "created_date": "2025-12-07"
   },
@@ -868,7 +884,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "context-md",
     "created_date": "2025-10-27"
   },
@@ -883,7 +899,7 @@
     "category": "Multi-Agent Tooling",
     "category_slug": "multi-agent",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "cool-claude-code-stuff",
     "created_date": "2025-10-02"
   },
@@ -957,7 +973,7 @@
     "category": "Communications & Writing",
     "category_slug": "communications",
     "category_group": "Non-Code",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "declaude",
     "created_date": "2025-12-15"
   },
@@ -1022,6 +1038,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Geopol Sim",
+    "url": "https://github.com/danielrosehill/Geopol-Sim-Plugin",
+    "description": "Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bundles, and grades simulations from multiple decoupled upstream templates (lean LLM-council and snowglobe-style actor-simulation variants).",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "geopol-sim",
+    "created_date": "2026-04-28"
+  },
+  {
     "name": "Github Explorer",
     "url": "https://github.com/danielrosehill/Claude-Github-Explorer-Plugin",
     "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos \u2014 Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
@@ -1050,6 +1080,23 @@
     "added_date": "2026-04-20",
     "slug": "greeninvoice-ops",
     "created_date": "2026-04-20"
+  },
+  {
+    "name": "Home Assistant Mgmt",
+    "url": "https://github.com/danielrosehill/Home-Assistant-Mgmt-Plugin",
+    "description": "Manage a Home Assistant instance via SSH and the HA REST API \u2014 guided first-run onboarding, automation/entity authoring, service calls, TTS testing, and log review. Per-host config is stored outside the plugin so the same install works across multiple Home Assistant environments.",
+    "tags": [
+      "Automation",
+      "Documentation",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "home-assistant-mgmt",
+    "created_date": "2026-04-28"
   },
   {
     "name": "How-To-MCP",
@@ -1213,7 +1260,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "linux-desktop-claudemd-seeder",
     "created_date": "2025-10-25"
   },
@@ -1287,7 +1334,7 @@
     "category": "MCP",
     "category_slug": "mcp",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "mcpm-claude-code-docs",
     "created_date": "2025-12-09"
   },
@@ -1331,7 +1378,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "new-turn-claude-hook",
     "created_date": "2025-12-31"
   },
@@ -1345,7 +1392,7 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "no-wheel-inventions",
     "created_date": "2025-12-27"
   },
@@ -1360,7 +1407,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "non-code-claude-code",
     "created_date": "2025-10-03"
   },
@@ -1378,6 +1425,22 @@
     "added_date": "2026-04-16",
     "slug": "open-router-model-research",
     "created_date": "2026-04-16"
+  },
+  {
+    "name": "Opnsense Mgmt",
+    "url": "https://github.com/danielrosehill/Opnsense-Mgmt-Plugin",
+    "description": "Manage an OPNsense router/firewall via SSH and the OPNsense API \u2014 guided first-run onboarding, firewall rule inspection, network debugging, and host/log diagnostics. Per-host config is stored outside the plugin so the same install works across multiple environments.",
+    "tags": [
+      "Documentation",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "opnsense-mgmt",
+    "created_date": "2026-04-28"
   },
   {
     "name": "Personal Planning",
@@ -1419,7 +1482,7 @@
     "category": "Context and Personalization",
     "category_slug": "context",
     "category_group": "Research & Ideas",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "private-and-public-claude-md",
     "created_date": "2025-10-22"
   },
@@ -1437,6 +1500,23 @@
     "added_date": "2026-04-27",
     "slug": "programmatic-doc-generation",
     "created_date": "2026-04-27"
+  },
+  {
+    "name": "Proxmox Mgmt",
+    "url": "https://github.com/danielrosehill/Proxmox-Mgmt-Plugin",
+    "description": "Manage a Proxmox VE host via SSH and the Proxmox API \u2014 guided first-run onboarding, VM/CT lifecycle, storage and ZFS inspection, log review, and update workflows. Per-host config is stored outside the plugin so the same install works across multiple Proxmox environments.",
+    "tags": [
+      "Automation",
+      "Documentation",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "proxmox-mgmt",
+    "created_date": "2026-04-28"
   },
   {
     "name": "Purchasing",
@@ -1597,7 +1677,7 @@
     "category": "MCP",
     "category_slug": "mcp",
     "category_group": "Technical",
-    "added_date": "2026-04-27",
+    "added_date": "2026-04-28",
     "slug": "smithery-claude-code-mcp-jumpstarter",
     "created_date": "2025-10-11"
   },
@@ -1614,6 +1694,22 @@
     "added_date": "2026-04-27",
     "slug": "social-feedback",
     "created_date": "2026-04-27"
+  },
+  {
+    "name": "Synology Mgmt",
+    "url": "https://github.com/danielrosehill/Synology-Mgmt-Plugin",
+    "description": "Manage a Synology NAS via SSH \u2014 guided first-run onboarding, share/volume inspection, storage health, and file operations. Per-host config is stored outside the plugin so the same install works across multiple NAS environments.",
+    "tags": [
+      "Documentation",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "synology-mgmt",
+    "created_date": "2026-04-28"
   },
   {
     "name": "Sysadmin Homelab",
