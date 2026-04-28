@@ -1443,6 +1443,20 @@
     "created_date": "2026-04-23"
   },
   {
+    "name": "Loose Tasks",
+    "url": "https://github.com/danielrosehill/Loose-Tasks-Plugin",
+    "description": "Loose skills that will be migrated into other plugins later. Recommended not to enable/use this!",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "loose-tasks",
+    "created_date": "2026-04-28"
+  },
+  {
     "name": "MCPM Claude Code Docs",
     "url": "https://github.com/danielrosehill/MCPM-Claude-Code-Docs",
     "description": "Documentation for integrating Claude Code with MCPM external MCP server manager.",
@@ -1564,7 +1578,7 @@
   {
     "name": "Personal Planning",
     "url": "https://github.com/danielrosehill/Claude-Personal-Planning-Plugin",
-    "description": "Claude Code plugin: personal life planning workflow \u2014 log entries, review progress, set goals, with diary/health/family/house-search/preparedness/therapy/personal-dev/inbox variants.",
+    "description": "Claude Code plugin: personal life planning workflow \u2014 log entries, review progress, set goals, with diary/health/family/house-search/preparedness/personal-dev/inbox variants.",
     "tags": [
       "Automation",
       "Plugin"
@@ -1946,6 +1960,22 @@
     "category_group": "Research & Ideas",
     "added_date": "2026-04-28",
     "slug": "the-user-voice-types",
+    "created_date": "2026-04-28"
+  },
+  {
+    "name": "Therapy Tracking",
+    "url": "https://github.com/danielrosehill/Therapy-Tracking-Plugin",
+    "description": "Claude Code plugin for organising therapy reflections \u2014 pre/post-session notes, goal tracking, and turning voice-memo transcripts into structured problem summaries. Not therapy: organises notes only. Workspace data lives outside the plugin so the same install survives plugin updates.",
+    "tags": [
+      "Agent Workspace",
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "therapy-tracking",
     "created_date": "2026-04-28"
   },
   {

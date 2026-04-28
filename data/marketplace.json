@@ -378,8 +378,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Personal-Planning-Plugin"
       },
-      "description": "Claude Code plugin: personal life planning workflow \u2014 log entries, review progress, set goals, with diary/health/family/house-search/preparedness/therapy/personal-dev/inbox variants.",
-      "version": "1.0.0",
+      "description": "Claude Code plugin: personal life planning workflow \u2014 log entries, review progress, set goals, with diary/health/family/house-search/preparedness/personal-dev/inbox variants.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -390,6 +390,27 @@
         "personal",
         "planning",
         "wellbeing"
+      ]
+    },
+    {
+      "name": "therapy-tracking",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Therapy-Tracking-Plugin"
+      },
+      "description": "Claude Code plugin for organising therapy reflections \u2014 pre/post-session notes, goal tracking, and turning voice-memo transcripts into structured problem summaries. Not therapy: organises notes only. Workspace data lives outside the plugin so the same install survives plugin updates.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "personal",
+        "wellbeing",
+        "journaling",
+        "reflection"
       ]
     },
     {
@@ -1649,6 +1670,26 @@
         "vc",
         "council",
         "synthesis"
+      ]
+    },
+    {
+      "name": "loose-tasks",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Loose-Tasks-Plugin"
+      },
+      "description": "Loose skills that will be migrated into other plugins later. Recommended not to enable/use this!",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "staging",
+        "wip",
+        "miscellaneous"
       ]
     }
   ]

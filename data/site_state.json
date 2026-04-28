@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-28T20:29:20",
-  "total_repos": 133,
+  "last_built": "2026-04-28T23:10:13",
+  "total_repos": 135,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -99,6 +99,7 @@
     "Llm Council Creator": "1ea05f6d60d0af2bfd4a0b1e6b2f1301",
     "Local Claude Plugin Install Research": "5e26771c96a0289997d0ee1e5817cd01",
     "Local Web Capture": "f93ea164638e9ea4c27ab98dba3ff81d",
+    "Loose Tasks": "a5d3f1f6d47787d9fb53dd86dcd529f5",
     "MCPM Claude Code Docs": "e52d1ce2138d9b8cf6e0656d250fb926",
     "Media Assistant Ops": "fb6004e58418f91f1d51c6a6f34cb808",
     "Media Library": "44148a2b21ef279ed89ed27e13a7463f",
@@ -107,7 +108,7 @@
     "Non-Code Claude Code": "c30413926d8012d5326407f5129c4f87",
     "Open Router Model Research": "ebe5b2df8cd3a35aeaee857256624d9c",
     "Opnsense Mgmt": "0179b329bed4bc81ae31cd621571226d",
-    "Personal Planning": "c857ea55a026eef6a59a613ddf64b4c3",
+    "Personal Planning": "f2dedddf89a7528d00f4486bc68f7fb5",
     "PR & Media Work": "538011492be4b6110e47f57d69215af3",
     "Private And Public Claude MD": "f0a3fb97d4bb75acc247d621b84f4069",
     "Programmatic Doc Generation": "213cb643413b00dc56f68d2af85f0a3e",
@@ -133,32 +134,12 @@
     "Test Project Ideator": "dc073bb52b5224043f0d1895151a92f2",
     "Text Corpus Analysis": "051ff9156af718ff612ccae39dda9124",
     "The User Voice Types": "a8fe1c490578a7f50025518a04694cfe",
+    "Therapy Tracking": "61c8815eb1bc85baab5a5a2e56159f95",
     "User Claude MD": "8d3ea90d4e333fd456a9224b0444d4f0",
     "Video Production": "3142a664e24a13d1a16b04f5042164c4",
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-04-14T15:14:58",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Additional reading",
-            "Praise",
-            "Repository Growth",
-            "The Agent Workspace Model"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "New Repo From Template Plugin"
-          ]
-        }
-      ],
-      "total_repos": 89
-    },
     {
       "date": "2026-04-14T15:18:39",
       "changes": [
@@ -1245,6 +1226,25 @@
         }
       ],
       "total_repos": 133
+    },
+    {
+      "date": "2026-04-28T23:10:13",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Loose Tasks",
+            "Therapy Tracking"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Personal Planning"
+          ]
+        }
+      ],
+      "total_repos": 135
     }
   ]
 }
