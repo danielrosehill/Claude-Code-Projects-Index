@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-28T14:58:22",
-  "total_repos": 131,
+  "last_built": "2026-04-28T15:06:25",
+  "total_repos": 132,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -70,6 +70,7 @@
     "Debugging": "85f4f37502be4ae66fae6c8605ba8256",
     "Decision Evaluation Framework": "4b92ef13f512620aab55a9d67077b4c7",
     "Declaude": "1ce644eda6e985ea79d956b7634fa911",
+    "Declutter Genie": "77ffe2a78edf5647183771fa3968ea35",
     "Desktop Manager": "83e2057a4a3e8add10c9c58da977fb7b",
     "Dev Tools": "706e38391112bf03a86ac6c2b1d1d65d",
     "Digital Printing": "014d0f450aef3bb1b52a24f7931e3f6a",
@@ -111,7 +112,7 @@
     "Programmatic Doc Generation": "213cb643413b00dc56f68d2af85f0a3e",
     "Proxmox Mgmt": "4d7042ee212ed7bc8cc14761dc63362f",
     "Purchasing": "ea85f19fbef79f813aa19f64e01ae3ee",
-    "Repo Mgmt": "660103bb22491453dff404ea7a822f6a",
+    "Repo Mgmt": "30ab353d4ed03911077cff435db8ccd4",
     "Repo To Content": "466980e09d4c7f2c9b708ef0d02c105f",
     "Research Space": "ecf3c156ef08f6ab1d1afc8dd4549173",
     "Resource List Builder": "040130dd94759b867438d6d9ecb01c12",
@@ -136,27 +137,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-04-09T15:45:50",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Claude Dolphin & Konsole Actions",
-            "Claude Templatizer",
-            "ClaudeMD Turnstile",
-            "How-To-MCP"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Claude System Recovery Mode"
-          ]
-        }
-      ],
-      "total_repos": 123
-    },
     {
       "date": "2026-04-14T15:02:46",
       "changes": [
@@ -1287,6 +1267,24 @@
         }
       ],
       "total_repos": 131
+    },
+    {
+      "date": "2026-04-28T15:06:25",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Declutter Genie"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Repo Mgmt"
+          ]
+        }
+      ],
+      "total_repos": 132
     }
   ]
 }

@@ -1007,6 +1007,20 @@
     "created_date": "2025-12-15"
   },
   {
+    "name": "Declutter Genie",
+    "url": "https://github.com/danielrosehill/Claude-Declutter-Genie-Plugin",
+    "description": "Inventory analysis and decluttering assistant \u2014 import a household inventory in any format, then identify discards, duplicates, resale targets, donation targets (geo-aware), insurance-worthy items, and generate throw-out / giveaway lists as CSV or PDF.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-28",
+    "slug": "declutter-genie",
+    "created_date": "2026-04-28"
+  },
+  {
     "name": "Desktop Manager",
     "url": "https://github.com/danielrosehill/Claude-Desktop-Manager-Plugin",
     "description": "Claude Code plugin: Linux desktop management workflow \u2014 check system, install packages, apply config, troubleshoot hardware, review logs, update system.",
@@ -1626,7 +1640,7 @@
   {
     "name": "Repo Mgmt",
     "url": "https://github.com/danielrosehill/Claude-Repo-Mgmt-Plugin",
-    "description": "Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, and spin off breakaway or parallel-private repos. Includes a preferences layer that remembers where different repo types live on disk.",
+    "description": "Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, spin off breakaway or parallel-private repos; scan for dead remotes, missing clones, visibility risks, stale archive candidates, and PII leaks (gitleaks + Presidio with personal-inventory matching); bulk git ops across folders of clones. Includes a preferences layer that remembers where different repo types live on disk.",
     "tags": [
       "Documentation",
       "Plugin"

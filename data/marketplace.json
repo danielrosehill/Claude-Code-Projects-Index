@@ -797,8 +797,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Repo-Mgmt-Plugin"
       },
-      "description": "Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, and spin off breakaway or parallel-private repos. Includes a preferences layer that remembers where different repo types live on disk.",
-      "version": "1.0.0",
+      "description": "Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, spin off breakaway or parallel-private repos; scan for dead remotes, missing clones, visibility risks, stale archive candidates, and PII leaks (gitleaks + Presidio with personal-inventory matching); bulk git ops across folders of clones. Includes a preferences layer that remembers where different repo types live on disk.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1602,6 +1602,30 @@
         "logging",
         "oom",
         "sysadmin"
+      ]
+    },
+    {
+      "name": "declutter-genie",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Declutter-Genie-Plugin"
+      },
+      "description": "Inventory analysis and decluttering assistant \u2014 import a household inventory in any format, then identify discards, duplicates, resale targets, donation targets (geo-aware), insurance-worthy items, and generate throw-out / giveaway lists as CSV or PDF.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "inventory",
+        "decluttering",
+        "possessions",
+        "donation",
+        "resale",
+        "insurance",
+        "household"
       ]
     }
   ]
