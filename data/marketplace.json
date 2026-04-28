@@ -1534,6 +1534,28 @@
         "har",
         "mitmproxy"
       ]
+    },
+    {
+      "name": "decision-evaluation-framework",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin"
+      },
+      "description": "Apply 20+ classical decision-making frameworks (cost-benefit, pre-mortem, MCDA, decision tree, reversibility, regret minimization, OODA, Eisenhower, SWOT, second-order, opportunity cost, 10/10/10, inversion, base rates, Kepner-Tregoe, six hats, Cynefin, red-team, stakeholder map, time-horizon) to any major decision \u2014 parallel multi-lens analysis, synthesis, and Typst PDF export.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "decision-making",
+        "frameworks",
+        "analysis",
+        "typst",
+        "pdf"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-28T14:48:38",
-  "total_repos": 128,
+  "last_built": "2026-04-28T14:52:12",
+  "total_repos": 129,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -68,6 +68,7 @@
     "Data Annotation": "5a29664b94aed82804d16bf7a5c4830e",
     "Data Visualisation And Publishing": "df8495ad6f5f3ae65685ba67aa574826",
     "Debugging": "85f4f37502be4ae66fae6c8605ba8256",
+    "Decision Evaluation Framework": "4b92ef13f512620aab55a9d67077b4c7",
     "Declaude": "1ce644eda6e985ea79d956b7634fa911",
     "Desktop Manager": "83e2057a4a3e8add10c9c58da977fb7b",
     "Dev Tools": "706e38391112bf03a86ac6c2b1d1d65d",
@@ -133,31 +134,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-03-09T22:19:38",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Claude Agent Blueprints",
-            "Claude Agent Workspace Generator",
-            "Claude Competitor Research Agent",
-            "Claude Ivory PC Builder",
-            "Claude MD Chunk",
-            "Claude MVT Workspace",
-            "Claude Preparedness Planner",
-            "Claude Repo Retrofitter"
-          ]
-        },
-        {
-          "type": "removed",
-          "repos": [
-            "Ivory PC Builder"
-          ]
-        }
-      ],
-      "total_repos": 120
-    },
     {
       "date": "2026-03-10T00:40:43",
       "changes": [
@@ -1317,6 +1293,18 @@
         }
       ],
       "total_repos": 128
+    },
+    {
+      "date": "2026-04-28T14:52:12",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Decision Evaluation Framework"
+          ]
+        }
+      ],
+      "total_repos": 129
     }
   ]
 }
