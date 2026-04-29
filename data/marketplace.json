@@ -840,7 +840,7 @@
         "repo": "danielrosehill/Claude-Repo-Mgmt-Plugin"
       },
       "description": "Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, spin off breakaway or parallel-private repos; scan for dead remotes, missing clones, visibility risks, stale archive candidates, and PII leaks (gitleaks + Presidio with personal-inventory matching); bulk git ops across folders of clones. Includes a preferences layer that remembers where different repo types live on disk.",
-      "version": "1.1.0",
+      "version": "1.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
