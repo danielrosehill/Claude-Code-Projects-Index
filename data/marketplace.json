@@ -1739,8 +1739,8 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Buttondown-Mgmt-Plugin"
       },
-      "description": "Manage Buttondown newsletters from Claude Code \u2014 drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.",
-      "version": "1.0.0",
+      "description": "Manage one or more Buttondown newsletters from Claude Code \u2014 multi-newsletter config, reusable email templates, drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

@@ -300,7 +300,7 @@ Evaluate, refine, and develop business ideas through structured lenses — VC re
 ### Buttondown Mgmt
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Buttondown-Mgmt-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Manage Buttondown newsletters from Claude Code — drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.
+Manage one or more Buttondown newsletters from Claude Code — multi-newsletter config, reusable email templates, drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.
 
 ---
 

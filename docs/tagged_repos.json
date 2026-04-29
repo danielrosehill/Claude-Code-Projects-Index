@@ -227,7 +227,7 @@
   {
     "name": "Buttondown Mgmt",
     "url": "https://github.com/danielrosehill/Claude-Buttondown-Mgmt-Plugin",
-    "description": "Manage Buttondown newsletters from Claude Code \u2014 drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.",
+    "description": "Manage one or more Buttondown newsletters from Claude Code \u2014 multi-newsletter config, reusable email templates, drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.",
     "tags": [
       "Plugin"
     ],
@@ -472,7 +472,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "claude-code-marketplace-hub",
     "created_date": "2025-11-09"
   },
@@ -518,7 +518,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "claude-code-plugin-meta",
     "created_date": "2025-11-15"
   },
@@ -533,7 +533,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "claude-code-plugins-marketplace",
     "created_date": "2025-11-09"
   },
@@ -864,7 +864,7 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "claude-user-manual",
     "created_date": "2025-12-31"
   },

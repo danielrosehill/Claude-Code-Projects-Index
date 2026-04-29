@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-04-29T14:07:29",
+  "last_built": "2026-04-29T14:12:52",
   "total_repos": 138,
   "total_tags": 14,
   "repo_manifest": {
@@ -18,7 +18,7 @@
     "Browser Data Capture": "bd7083920f101b9f308f5d04399ce8a1",
     "Budgeting": "2c4813804b79d5c85272ff7fc006801f",
     "Business Idea Eval": "f4b53e0bfca42c28d3362909339dd11b",
-    "Buttondown Mgmt": "955fe71b00a8ecbe9790d75757f0d833",
+    "Buttondown Mgmt": "8daa989cbe344cb51805b8af1654d62e",
     "Career": "21be806b046cb77c798c30c05855bd5a",
     "Claude Agent Blueprints": "9be40b2f5f02f9cd39f24d4af23abbd2",
     "Claude Agent Picker Pattern": "7190f8822aa390976ca5d86f8878bb57",
@@ -34,11 +34,11 @@
     "Claude Code Feedback": "774fc6e5fa998061d5bc0aa1f5a8241e",
     "Claude Code Linux Desktop Slash Commands": "364b34b70145a1be3514991e13d1f7bb",
     "Claude Code Linux Notes": "6b7fe2d22d845da30de931f1789eed06",
-    "Claude Code Marketplace Hub": "59f186fbf6d569443bb126e4305fbcd2",
+    "Claude Code Marketplace Hub": "2d4af2ce81078512c04f4df30af7b041",
     "Claude Code MCP Command Generator": "9d7a5bb0712b43f80f2c6119d3592737",
     "Claude Code MCP List": "612ad8c856ba67f72d8dc016777dd45a",
-    "Claude Code Plugin (Meta)": "996ae34983372eec4949a326c3058e87",
-    "Claude Code Plugins Marketplace": "bdbca56b13ccf1b520bce6bfeea55aa1",
+    "Claude Code Plugin (Meta)": "493aa023554fea111583bab3b55cf821",
+    "Claude Code Plugins Marketplace": "ef1a363e4484ae3aeac5b3efbb3c0ff9",
     "Claude Code Repo Managers ClaudeMD": "3b3a6f6568933f4959a9a1247b0b8088",
     "Claude Data Analyst": "f917fd4af9ee53aacff2ab169938726d",
     "Claude Data Wrangler": "1ab0dceb101511c777e93438f87b8cbc",
@@ -60,7 +60,7 @@
     "Claude System Recovery Mode": "66f00b2efa4fd9cf5819f54fcc53ac59",
     "Claude Task Manager": "61177097d202a4a6230d2da57bb603e6",
     "Claude Transcription": "38d6ec2409e6d138f9bc9dac447ce8d9",
-    "Claude User Manual": "45835ba9eebfc2e142c4233cddb68288",
+    "Claude User Manual": "b3b9f216f0dc337dc8fd754837b2b16c",
     "Claude User Memory": "967fd456bbbdd250905b42a5fb067cca",
     "Claude Vault": "f6753b5071358c661e9f768232d1c76e",
     "Claude Website Update Sender": "850894e33bab05401de471b0a17a262d",
@@ -143,18 +143,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-04-16T22:26:07",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Claude Code Feedback"
-          ]
-        }
-      ],
-      "total_repos": 155
-    },
     {
       "date": "2026-04-16T22:29:25",
       "changes": [
@@ -1197,6 +1185,22 @@
           "repos": [
             "AI Attribution",
             "Security Checkup"
+          ]
+        }
+      ],
+      "total_repos": 138
+    },
+    {
+      "date": "2026-04-29T14:12:52",
+      "changes": [
+        {
+          "type": "modified",
+          "repos": [
+            "Buttondown Mgmt",
+            "Claude Code Marketplace Hub",
+            "Claude Code Plugin (Meta)",
+            "Claude Code Plugins Marketplace",
+            "Claude User Manual"
           ]
         }
       ],
