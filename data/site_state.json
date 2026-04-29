@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-04-29T16:30:06",
+  "last_built": "2026-04-29T16:36:26",
   "total_repos": 140,
   "total_tags": 14,
   "repo_manifest": {
@@ -81,7 +81,7 @@
     "Digital Printing": "014d0f450aef3bb1b52a24f7931e3f6a",
     "Filesystem Organiser": "28f4bdb5689a436b3584bd8a50d31597",
     "Geopol Sim": "589e6ae39300a3bb2e510a966eb92d0e",
-    "Gist Writer": "945e96ca7dd23ae61f8a54a851b7ed37",
+    "Gist Writer": "c5a9248917a7cc4d3faf869ad5249e45",
     "Github Explorer": "a9530d8b20f5936104bb80d1f750ad5d",
     "Greeninvoice Ops": "43f54468e0caf3feadd51f14a415d201",
     "Home Assistant Mgmt": "f140da001f7a437204a939278148b944",
@@ -145,19 +145,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-04-16T22:40:39",
-      "changes": [
-        {
-          "type": "removed",
-          "repos": [
-            "Claude Browser Automation Template",
-            "Claude House Search Template"
-          ]
-        }
-      ],
-      "total_repos": 125
-    },
     {
       "date": "2026-04-16T22:46:16",
       "changes": [
@@ -1183,6 +1170,18 @@
           "type": "added",
           "repos": [
             "Claude Pipewire Skills"
+          ]
+        }
+      ],
+      "total_repos": 140
+    },
+    {
+      "date": "2026-04-29T16:36:26",
+      "changes": [
+        {
+          "type": "modified",
+          "repos": [
+            "Gist Writer"
           ]
         }
       ],

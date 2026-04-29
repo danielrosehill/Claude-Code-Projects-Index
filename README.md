@@ -879,7 +879,7 @@ Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bun
 ### Gist Writer
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Write content to GitHub gists (public or private) via the gh CLI.
+Publish content to GitHub gists with clear AI authorship — Claude-authored solution gists and collaborative debug write-ups, both with model+date attribution, environment context, and a PII pre-flight scrub for public publishes. Visibility is a per-call parameter with a configurable default.
 
 ---
 

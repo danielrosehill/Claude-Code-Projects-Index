@@ -1170,10 +1170,9 @@
   {
     "name": "Gist Writer",
     "url": "https://github.com/danielrosehill/Claude-Gist-Writer-Plugin",
-    "description": "Write content to GitHub gists (public or private) via the gh CLI.",
+    "description": "Publish content to GitHub gists with clear AI authorship \u2014 Claude-authored solution gists and collaborative debug write-ups, both with model+date attribution, environment context, and a PII pre-flight scrub for public publishes. Visibility is a per-call parameter with a configurable default.",
     "tags": [
-      "Plugin",
-      "Tool"
+      "Plugin"
     ],
     "category": "Plugins",
     "category_slug": "plugins",
