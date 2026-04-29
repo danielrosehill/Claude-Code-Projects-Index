@@ -1,11 +1,11 @@
 {
-  "last_built": "2026-04-29T12:44:51",
-  "total_repos": 137,
+  "last_built": "2026-04-29T14:07:29",
+  "total_repos": 138,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
     "Agent Junction": "cf5c438f6c8eb878ac627d01ff97ae7f",
-    "AI Attribution": "b7757a88811a9a21055d90d90e78d409",
+    "AI Attribution": "ee0430af6ea0e6e6f143075a3acfaf96",
     "AI Engineering": "9b88e7c8e5e5cff472dcd20bbada21b0",
     "AI Ideation Runs": "c23036de8ce9a608f10235d17866b953",
     "AI Memory Planning 0426": "409efeb0aacf4cf49465d3b4a292f1d7",
@@ -18,6 +18,7 @@
     "Browser Data Capture": "bd7083920f101b9f308f5d04399ce8a1",
     "Budgeting": "2c4813804b79d5c85272ff7fc006801f",
     "Business Idea Eval": "f4b53e0bfca42c28d3362909339dd11b",
+    "Buttondown Mgmt": "955fe71b00a8ecbe9790d75757f0d833",
     "Career": "21be806b046cb77c798c30c05855bd5a",
     "Claude Agent Blueprints": "9be40b2f5f02f9cd39f24d4af23abbd2",
     "Claude Agent Picker Pattern": "7190f8822aa390976ca5d86f8878bb57",
@@ -122,7 +123,7 @@
     "Resource List Builder": "040130dd94759b867438d6d9ecb01c12",
     "Resume Typesetter": "da8de6c280825f4a1dccca6486e074ed",
     "Schedule Manager": "cfd91d0ed938158ef83ea6914df3da31",
-    "Security Checkup": "d5aea7e3825d76559eec57e0b07c2476",
+    "Security Checkup": "793fc12d66cfcbabbfea46ec13ad64b9",
     "Shopping": "e7a68a1099804491415e0a5c716d5e06",
     "Skill Creation Research": "95925274f5b6748b38ccaa538fad43dd",
     "Smart Home": "1dacbc928dd77978bdc9869e3848a267",
@@ -142,38 +143,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-04-16T22:14:35",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Claude Code Marketplace Hub",
-            "Claude Code Plugin (Meta)",
-            "Claude Code Plugins Marketplace",
-            "Claude Code What Thing",
-            "Claude User Manual",
-            "ClaudeMD Chunker",
-            "Git & GitHub",
-            "GitHub Research",
-            "Linux Desktop Management",
-            "Linux Server Management"
-          ]
-        },
-        {
-          "type": "removed",
-          "repos": [
-            "Claudemd Chunker",
-            "Git Github",
-            "Github Research",
-            "Linux Desktop Mgmt",
-            "Linux Server Mgmt",
-            "What Thing"
-          ]
-        }
-      ],
-      "total_repos": 154
-    },
     {
       "date": "2026-04-16T22:26:07",
       "changes": [
@@ -1213,6 +1182,25 @@
         }
       ],
       "total_repos": 137
+    },
+    {
+      "date": "2026-04-29T14:07:29",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Buttondown Mgmt"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "AI Attribution",
+            "Security Checkup"
+          ]
+        }
+      ],
+      "total_repos": 138
     }
   ]
 }

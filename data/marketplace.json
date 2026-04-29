@@ -1732,6 +1732,28 @@
         "vault",
         "context-engineering"
       ]
+    },
+    {
+      "name": "buttondown-mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Buttondown-Mgmt-Plugin"
+      },
+      "description": "Manage Buttondown newsletters from Claude Code \u2014 drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "buttondown",
+        "newsletter",
+        "email",
+        "publishing",
+        "cms"
+      ]
     }
   ]
 }

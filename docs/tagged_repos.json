@@ -39,9 +39,9 @@
     "category": "Plugins",
     "category_slug": "plugins",
     "category_group": "Technical",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "ai-attribution",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-29"
   },
   {
     "name": "AI Engineering",
@@ -223,6 +223,20 @@
     "added_date": "2026-04-28",
     "slug": "business-idea-eval",
     "created_date": "2026-04-28"
+  },
+  {
+    "name": "Buttondown Mgmt",
+    "url": "https://github.com/danielrosehill/Claude-Buttondown-Mgmt-Plugin",
+    "description": "Manage Buttondown newsletters from Claude Code \u2014 drafts, sends, subscribers, and API ops grounded in a locally cached copy of the official Buttondown docs.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-29",
+    "slug": "buttondown-mgmt",
+    "created_date": "2026-04-29"
   },
   {
     "name": "Career",
@@ -1796,9 +1810,9 @@
     "category": "Plugins",
     "category_slug": "plugins",
     "category_group": "Technical",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "security-checkup",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-29"
   },
   {
     "name": "Shopping",
