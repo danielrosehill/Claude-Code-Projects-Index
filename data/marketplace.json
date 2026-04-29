@@ -1774,6 +1774,28 @@
         "gist",
         "gh-cli"
       ]
+    },
+    {
+      "name": "claude-pipewire-skills",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Pipewire-Skills-plugin"
+      },
+      "description": "Claude Code skills for taming Pipewire/Wireplumber audio on Linux \u2014 manage default devices, persistent device-priority rules, per-app routing, mic level checks, and EasyEffects bindings.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "pipewire",
+        "wireplumber",
+        "audio",
+        "linux",
+        "easyeffects"
+      ]
     }
   ]
 }

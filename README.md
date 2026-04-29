@@ -1060,6 +1060,15 @@ Skills and an orchestrator agent for preparing PDFs for digital printing — res
 
 ---
 
+## Pipewire
+
+### Claude Pipewire Skills
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Pipewire-Skills-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Claude Code skills for taming Pipewire/Wireplumber audio on Linux — manage default devices, persistent device-priority rules, per-app routing, mic level checks, and EasyEffects bindings.
+
+---
+
 ## Productivity
 
 ### Schedule Manager

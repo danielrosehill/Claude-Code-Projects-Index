@@ -747,6 +747,20 @@
     "created_date": "2025-12-21"
   },
   {
+    "name": "Claude Pipewire Skills",
+    "url": "https://github.com/danielrosehill/Claude-Pipewire-Skills-plugin",
+    "description": "Claude Code skills for taming Pipewire/Wireplumber audio on Linux \u2014 manage default devices, persistent device-priority rules, per-app routing, mic level checks, and EasyEffects bindings.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-29",
+    "slug": "claude-pipewire-skills",
+    "created_date": "2026-04-29"
+  },
+  {
     "name": "Claude Rescue",
     "url": "https://github.com/danielrosehill/Claude-Rescue",
     "description": "Concept for deploying Claude Code into recovery shell environments for AI-assisted system repair.",

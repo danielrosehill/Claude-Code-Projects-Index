@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-29T16:08:44",
-  "total_repos": 139,
+  "last_built": "2026-04-29T16:30:06",
+  "total_repos": 140,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -53,6 +53,7 @@
     "Claude Local AI Agent Research": "903b31474afd5581a26486fd214ebd01",
     "Claude MD Chunk": "860e6a00f22ecce109bc90818e85ca31",
     "Claude Model Identifier": "726d02c9c213492e1dab07e2722e3896",
+    "Claude Pipewire Skills": "edaad65981add45a02213fc8fc162383",
     "Claude Rescue": "b877405fee13aa8b00a8d0e846390872",
     "Claude Rudder": "c66946e0fda3fd4ac8439354039b7dab",
     "Claude Slash Commands": "0f0e1da29dbf5dc35eb8d48461e01d4b",
@@ -144,30 +145,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-04-16T22:35:31",
-      "changes": [
-        {
-          "type": "removed",
-          "repos": [
-            "Claude Agent Workspace Model",
-            "Claude Business Idea Evaluator",
-            "Claude Code Remote Machine Admin Space",
-            "Claude Competitor Research Agent",
-            "Claude MCP Guidelines",
-            "Claude Repo Jumper",
-            "Claude Report Parsing Space Template",
-            "Claude Salary Research Agent",
-            "Claude Tech Research Team",
-            "Claude Web Analytics Space",
-            "ClaudeMD Turnstile",
-            "Home Folder Claude MD",
-            "Split Context Setup"
-          ]
-        }
-      ],
-      "total_repos": 127
-    },
     {
       "date": "2026-04-16T22:40:39",
       "changes": [
@@ -1198,6 +1175,18 @@
         }
       ],
       "total_repos": 139
+    },
+    {
+      "date": "2026-04-29T16:30:06",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Claude Pipewire Skills"
+          ]
+        }
+      ],
+      "total_repos": 140
     }
   ]
 }
