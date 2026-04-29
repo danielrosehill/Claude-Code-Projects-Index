@@ -1762,7 +1762,7 @@
         "repo": "danielrosehill/Claude-Gist-Writer-Plugin"
       },
       "description": "Publish content to GitHub gists with clear AI authorship \u2014 Claude-authored solution gists and collaborative debug write-ups, both with model+date attribution, environment context, and a PII pre-flight scrub for public publishes. Visibility is a per-call parameter with a configurable default.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
