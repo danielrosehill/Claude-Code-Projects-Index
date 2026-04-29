@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-04-29T14:12:52",
-  "total_repos": 138,
+  "last_built": "2026-04-29T16:08:44",
+  "total_repos": 139,
   "total_tags": 14,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -31,7 +31,7 @@
     "Claude Code Bugs And FRs": "174123edd94873fcb6b5b08b43c94783",
     "Claude Code Context Feature Requests": "f6f798e39105fc27d0982081bcd9ee47",
     "Claude Code Context Toolkit": "e061127164fc5bd388e8baf8b448b507",
-    "Claude Code Feedback": "774fc6e5fa998061d5bc0aa1f5a8241e",
+    "Claude Code Feedback": "e1c0161c775d6e9839aafe3eb249d206",
     "Claude Code Linux Desktop Slash Commands": "364b34b70145a1be3514991e13d1f7bb",
     "Claude Code Linux Notes": "6b7fe2d22d845da30de931f1789eed06",
     "Claude Code Marketplace Hub": "2d4af2ce81078512c04f4df30af7b041",
@@ -80,6 +80,7 @@
     "Digital Printing": "014d0f450aef3bb1b52a24f7931e3f6a",
     "Filesystem Organiser": "28f4bdb5689a436b3584bd8a50d31597",
     "Geopol Sim": "589e6ae39300a3bb2e510a966eb92d0e",
+    "Gist Writer": "945e96ca7dd23ae61f8a54a851b7ed37",
     "Github Explorer": "a9530d8b20f5936104bb80d1f750ad5d",
     "Greeninvoice Ops": "43f54468e0caf3feadd51f14a415d201",
     "Home Assistant Mgmt": "f140da001f7a437204a939278148b944",
@@ -143,32 +144,6 @@
     "Workspace Foundational": "30ca58a180891eb3ba019ae4b0cc3b8d"
   },
   "history": [
-    {
-      "date": "2026-04-16T22:29:25",
-      "changes": [
-        {
-          "type": "removed",
-          "repos": [
-            "Claude Business Evaluator",
-            "Claude Israel Shopping Recommender Template",
-            "Claude Parenting Planner",
-            "Claude Recommendation Workspace Template",
-            "Claude Research Space Public Template",
-            "Claude Single Company Research",
-            "Claude Stack Research Workspace",
-            "Claude Technical Research Template",
-            "Company Research",
-            "Context Maintenance Template",
-            "Debate Mapper Template",
-            "Ecosystem Mapper Template",
-            "Experiment Report Template",
-            "Geo Ecosystem Template",
-            "Transcript Cleanup Template"
-          ]
-        }
-      ],
-      "total_repos": 140
-    },
     {
       "date": "2026-04-16T22:35:31",
       "changes": [
@@ -1205,6 +1180,24 @@
         }
       ],
       "total_repos": 138
+    },
+    {
+      "date": "2026-04-29T16:08:44",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Gist Writer"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Claude Code Feedback"
+          ]
+        }
+      ],
+      "total_repos": 139
     }
   ]
 }

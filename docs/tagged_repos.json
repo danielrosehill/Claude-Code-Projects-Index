@@ -427,9 +427,9 @@
     "category": "Plugins",
     "category_slug": "plugins",
     "category_group": "Technical",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-28",
     "slug": "claude-code-feedback",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-28"
   },
   {
     "name": "Claude Code Linux Desktop Slash Commands",
@@ -1152,6 +1152,21 @@
     "added_date": "2026-04-28",
     "slug": "geopol-sim",
     "created_date": "2026-04-28"
+  },
+  {
+    "name": "Gist Writer",
+    "url": "https://github.com/danielrosehill/Claude-Gist-Writer-Plugin",
+    "description": "Write content to GitHub gists (public or private) via the gh CLI.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-29",
+    "slug": "gist-writer",
+    "created_date": "2026-04-29"
   },
   {
     "name": "Github Explorer",

@@ -1754,6 +1754,26 @@
         "publishing",
         "cms"
       ]
+    },
+    {
+      "name": "gist-writer",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Gist-Writer-Plugin"
+      },
+      "description": "Write content to GitHub gists (public or private) via the gh CLI.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "github",
+        "gist",
+        "gh-cli"
+      ]
     }
   ]
 }
