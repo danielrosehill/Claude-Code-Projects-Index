@@ -222,6 +222,15 @@ a:hover { color: var(--link-hover); }
   margin: 0 auto;
 }
 
+.hero-banner {
+  display: block;
+  max-width: 100%;
+  width: min(720px, 100%);
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto 1rem;
+}
+
 .hero h1 {
   font-size: 2rem;
   font-weight: 700;
@@ -601,6 +610,14 @@ a:hover { color: var(--link-hover); }
 /* === Repo Detail Page === */
 .repo-detail {
   max-width: 780px;
+}
+
+.repo-detail-banner {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: block;
 }
 
 .repo-detail h1 {

@@ -292,12 +292,21 @@ def generate_tagged_repos(_repos_data):
     # Add dates and slugs
     added_dates = derive_added_dates(tagged)
     created_dates = load_created_dates()
+    banners_dir = REPO_ROOT / "public" / "banners"
+    banner_exts = (".png", ".jpg", ".jpeg", ".webp", ".gif")
     for repo in tagged:
         repo["added_date"] = added_dates.get(repo["name"], datetime.now().strftime("%Y-%m-%d"))
         repo["slug"] = slugify(repo["name"])
         # Look up created_date by GitHub repo name from URL
         gh_name = repo["url"].rstrip("/").split("/")[-1] if repo["url"] else ""
         repo["created_date"] = created_dates.get(gh_name, repo["added_date"])
+        # Detect optional banner: public/banners/<slug>.<ext>
+        if banners_dir.exists():
+            for ext in banner_exts:
+                candidate = banners_dir / f"{repo['slug']}{ext}"
+                if candidate.exists():
+                    repo["banner"] = f"/banners/{candidate.name}"
+                    break
 
     # Sort repos alphabetically by name
     tagged.sort(key=lambda r: r["name"].lower())

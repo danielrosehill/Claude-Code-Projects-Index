@@ -4,7 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 <BaseLayout title="Plugins Marketplace">
 
 <div class="page">
-  <h1>Plugins Marketplace</h1>
+  <img src="/plugin-lib-banner.png" alt="Daniel's Claude plugin library" style="width:100%; max-width:780px; height:auto; border-radius:8px; margin-bottom:1.5rem; display:block;" />
 
   <p>The <a href="https://github.com/danielrosehill/Claude-Code-Plugins" target="_blank"><strong>Claude Code Plugins Marketplace</strong></a> is a curated collection of plugins that extend Claude Code with specialized slash commands, agents, and workflows. Install individual plugins or grab preset bundles tailored to your role.</p>
 
@@ -22,9 +22,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
   <p>For example:</p>
 
-  <pre><code>/plugin install ai-tools@danielrosehill
-/plugin install git-github@danielrosehill
-/plugin install writing-editing@danielrosehill</code></pre>
+  <pre><code>/plugin install ai-engineering@danielrosehill
+/plugin install repo-mgmt@danielrosehill
+/plugin install content-writing@danielrosehill</code></pre>
 
   <h3>3. Use Installed Plugins</h3>
 
@@ -44,23 +44,27 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <tbody>
       <tr style="border-bottom:1px solid #2a2a3a;">
         <td style="padding:0.75rem 1rem; font-weight:600;">Full Stack Developer</td>
-        <td style="padding:0.75rem 1rem;"><code>git-github</code>, <code>tech-docs</code>, <code>fix-documentation</code></td>
+        <td style="padding:0.75rem 1rem;"><code>repo-mgmt</code>, <code>dev-tools</code>, <code>technical-docs</code>, <code>debugging</code></td>
       </tr>
       <tr style="border-bottom:1px solid #2a2a3a;">
         <td style="padding:0.75rem 1rem; font-weight:600;">AI/ML Developer</td>
-        <td style="padding:0.75rem 1rem;"><code>ai-tools</code>, <code>git-github</code></td>
+        <td style="padding:0.75rem 1rem;"><code>ai-engineering</code>, <code>repo-mgmt</code>, <code>open-router-model-research</code></td>
       </tr>
       <tr style="border-bottom:1px solid #2a2a3a;">
         <td style="padding:0.75rem 1rem; font-weight:600;">System Admin</td>
-        <td style="padding:0.75rem 1rem;"><code>linux-desktop-mgmt</code>, <code>linux-server-mgmt</code>, <code>security-checkup</code>, <code>lan-manager</code></td>
+        <td style="padding:0.75rem 1rem;"><code>desktop-manager</code>, <code>sysadmin-homelab</code>, <code>security-checkup</code>, <code>linux-debugging</code></td>
       </tr>
       <tr style="border-bottom:1px solid #2a2a3a;">
         <td style="padding:0.75rem 1rem; font-weight:600;">Content Creator</td>
-        <td style="padding:0.75rem 1rem;"><code>writing-editing</code>, <code>tech-docs</code>, <code>audio-editing</code>, <code>video-editing</code>, <code>image-editing</code></td>
+        <td style="padding:0.75rem 1rem;"><code>content-writing</code>, <code>technical-docs</code>, <code>audio-production</code>, <code>video-production</code>, <code>image-production</code></td>
       </tr>
       <tr style="border-bottom:1px solid #2a2a3a;">
         <td style="padding:0.75rem 1rem; font-weight:600;">Productivity</td>
-        <td style="padding:0.75rem 1rem;"><code>filesystem-organisation</code>, <code>context-toolkit</code>, <code>diary-planner</code>, <code>home-budget-helper</code></td>
+        <td style="padding:0.75rem 1rem;"><code>filesystem-organiser</code>, <code>personal-planning</code>, <code>schedule-manager</code>, <code>budgeting</code></td>
+      </tr>
+      <tr style="border-bottom:1px solid #2a2a3a;">
+        <td style="padding:0.75rem 1rem; font-weight:600;">Session Continuity</td>
+        <td style="padding:0.75rem 1rem;"><code>claude-rudder</code>, <code>claude-hopper</code>, <code>claude-user-memory</code></td>
       </tr>
     </tbody>
   </table>

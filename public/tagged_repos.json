@@ -68,9 +68,9 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "ai-ideation-runs",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-29"
   },
   {
     "name": "AI Memory Planning 0426",
@@ -82,9 +82,9 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "ai-memory-planning-0426",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-29"
   },
   {
     "name": "AI Video Producer",
@@ -323,9 +323,9 @@
     "category": "Slash Commands",
     "category_slug": "slash-commands",
     "category_group": "Technical",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "claude-calls-the-shots",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-29"
   },
   {
     "name": "Claude Change My View",
@@ -367,9 +367,9 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "claude-code-bugs-and-frs",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-29"
   },
   {
     "name": "Claude Code Context Feature Requests",
@@ -654,7 +654,8 @@
     "category_group": "Technical",
     "added_date": "2026-04-29",
     "slug": "claude-hopper",
-    "created_date": "2026-04-29"
+    "created_date": "2026-04-29",
+    "banner": "/banners/claude-hopper.png"
   },
   {
     "name": "Claude Interview",
@@ -864,9 +865,9 @@
     "category": "Plugins",
     "category_slug": "plugins",
     "category_group": "Technical",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "claude-user-memory",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-29"
   },
   {
     "name": "Claude Vault",
@@ -1453,9 +1454,9 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "local-claude-plugin-install-research",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-29"
   },
   {
     "name": "Local Web Capture",
@@ -1584,9 +1585,9 @@
     "category": "Plugins",
     "category_slug": "plugins",
     "category_group": "Technical",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-27",
     "slug": "open-router-model-research",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-27"
   },
   {
     "name": "Opnsense Mgmt",
@@ -1825,9 +1826,9 @@
     "category": "Miscellaneous",
     "category_slug": "misc",
     "category_group": "Other",
-    "added_date": "2026-04-16",
+    "added_date": "2026-04-29",
     "slug": "skill-creation-research",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-29"
   },
   {
     "name": "Smart Home",

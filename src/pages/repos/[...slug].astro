@@ -52,6 +52,7 @@ const categoryIconsJson = JSON.stringify(CATEGORY_ICONS);
   </aside>
 
   <div class="repo-detail">
+    {repo.banner && <img src={repo.banner} alt={`${repo.name} banner`} class="repo-detail-banner" />}
     <h1>{repo.name}</h1>
     <div class="repo-detail-meta">
       <span class="repo-detail-category">{repo.category_group} &rsaquo; {repo.category}</span>
