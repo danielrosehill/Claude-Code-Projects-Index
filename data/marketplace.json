@@ -517,10 +517,31 @@
       "name": "claude-rudder",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Meta-Tools-Plugin"
+        "repo": "danielrosehill/Claude-Rudder"
       },
-      "description": "Claude-Rudder \u2014 collection of utilities to smoothen the Claude Code UI/UX. Session handover, context-gate workflow, terminal helpers, plugin/MCP/workspace primitives, and the canonical user-data storage convention.",
-      "version": "2.4.0",
+      "description": "Claude-Rudder \u2014 collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
+      "version": "2.5.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "claude-code",
+        "context-management",
+        "mcp",
+        "ux"
+      ]
+    },
+    {
+      "name": "claude-hopper",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Hopper"
+      },
+      "description": "Claude-Hopper \u2014 skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.",
+      "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -530,8 +551,8 @@
       "tags": [
         "claude-code",
         "session-handover",
-        "context-management",
-        "mcp",
+        "terminal",
+        "linux",
         "ux"
       ]
     },
@@ -1690,6 +1711,26 @@
         "staging",
         "wip",
         "miscellaneous"
+      ]
+    },
+    {
+      "name": "claude-vault",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Vault"
+      },
+      "description": "Meta-plugin for per-project activation of dormant plugins and MCP servers from a personal vault. Mitigates user-level eager skill description loading.",
+      "version": "0.0.1",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "meta",
+        "vault",
+        "context-engineering"
       ]
     }
   ]

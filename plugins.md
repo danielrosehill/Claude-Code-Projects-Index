@@ -63,6 +63,13 @@ Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/com
 
 ---
 
+### Claude Vault
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Vault) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Meta-plugin for per-project activation of dormant plugins and MCP servers from a personal vault. Mitigates user-level eager skill description loading.
+
+---
+
 ## Research & Investigation
 
 ### Ideation Planning
@@ -297,10 +304,17 @@ File well-formed bug reports, feature requests, model-behavior reports, and docu
 
 ---
 
-### Claude Rudder
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Meta-Tools-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Claude Hopper
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Hopper) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude-Rudder — collection of utilities to smoothen the Claude Code UI/UX. Session handover, context-gate workflow, terminal helpers, plugin/MCP/workspace primitives, and the canonical user-data storage convention.
+Claude-Hopper — skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.
+
+---
+
+### Claude Rudder
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Rudder) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)
 
 ---
 
