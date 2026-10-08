@@ -10,124 +10,34 @@
     "ai-engineering": "AI Engineering",
     "ai-attribution": "AI Attribution"
   },
-  "sysadmin": {
-    "label": "Systems Administration",
-    "order": 10
-  },
-  "security": {
-    "label": "Systems Administration",
-    "order": 10
-  },
-  "debugging": {
-    "label": "Development & Debugging",
-    "order": 20
-  },
-  "development": {
-    "label": "Development & Debugging",
-    "order": 20
-  },
-  "workspace": {
-    "label": "Development & Debugging",
-    "order": 20
-  },
-  "kaizen": {
-    "label": "Development & Debugging",
-    "order": 20
-  },
-  "meta": {
-    "label": "Meta & Context",
-    "order": 30
-  },
-  "memory": {
-    "label": "Meta & Context",
-    "order": 30
-  },
-  "research": {
-    "label": "Research & Investigation",
-    "order": 40
-  },
-  "legal": {
-    "label": "Research & Investigation",
-    "order": 40
-  },
-  "ideation": {
-    "label": "Research & Investigation",
-    "order": 40
-  },
-  "ai": {
-    "label": "AI & Prompts",
-    "order": 50
-  },
-  "attribution": {
-    "label": "AI & Prompts",
-    "order": 50
-  },
-  "media": {
-    "label": "Media & Content",
-    "order": 60
-  },
-  "audio": {
-    "label": "Media & Content",
-    "order": 60
-  },
-  "transcription": {
-    "label": "Media & Content",
-    "order": 60
-  },
-  "video": {
-    "label": "Media & Content",
-    "order": 60
-  },
-  "pr": {
-    "label": "Media & Content",
-    "order": 60
-  },
-  "writing": {
-    "label": "Writing & Documentation",
-    "order": 70
-  },
-  "documentation": {
-    "label": "Writing & Documentation",
-    "order": 70
-  },
-  "finance": {
-    "label": "Personal & Planning",
-    "order": 80
-  },
-  "shopping": {
-    "label": "Personal & Planning",
-    "order": 80
-  },
-  "purchasing": {
-    "label": "Personal & Planning",
-    "order": 80
-  },
-  "career": {
-    "label": "Personal & Planning",
-    "order": 80
-  },
-  "personal": {
-    "label": "Personal & Planning",
-    "order": 80
-  },
-  "smart-home": {
-    "label": "Home & Hardware",
-    "order": 90
-  },
-  "printer": {
-    "label": "Home & Hardware",
-    "order": 90
-  },
-  "filesystem": {
-    "label": "Filesystem & Organisation",
-    "order": 100
-  },
-  "mcp": {
-    "label": "MCP & Infrastructure",
-    "order": 110
-  },
-  "misc": {
-    "label": "Miscellaneous",
-    "order": 200
-  }
+  "sysadmin": {"label": "Systems Administration", "order": 10},
+  "security": {"label": "Systems Administration", "order": 10},
+  "debugging": {"label": "Development & Debugging", "order": 20},
+  "development": {"label": "Development & Debugging", "order": 20},
+  "workspace": {"label": "Development & Debugging", "order": 20},
+  "kaizen": {"label": "Development & Debugging", "order": 20},
+  "meta": {"label": "Meta & Context", "order": 30},
+  "memory": {"label": "Meta & Context", "order": 30},
+  "research": {"label": "Research & Investigation", "order": 40},
+  "legal": {"label": "Research & Investigation", "order": 40},
+  "ideation": {"label": "Research & Investigation", "order": 40},
+  "ai": {"label": "AI & Prompts", "order": 50},
+  "attribution": {"label": "AI & Prompts", "order": 50},
+  "media": {"label": "Media & Content", "order": 60},
+  "audio": {"label": "Media & Content", "order": 60},
+  "transcription": {"label": "Media & Content", "order": 60},
+  "video": {"label": "Media & Content", "order": 60},
+  "pr": {"label": "Media & Content", "order": 60},
+  "writing": {"label": "Writing & Documentation", "order": 70},
+  "documentation": {"label": "Writing & Documentation", "order": 70},
+  "finance": {"label": "Personal & Planning", "order": 80},
+  "shopping": {"label": "Personal & Planning", "order": 80},
+  "purchasing": {"label": "Personal & Planning", "order": 80},
+  "career": {"label": "Personal & Planning", "order": 80},
+  "personal": {"label": "Personal & Planning", "order": 80},
+  "smart-home": {"label": "Home & Hardware", "order": 90},
+  "printer": {"label": "Home & Hardware", "order": 90},
+  "filesystem": {"label": "Filesystem & Organisation", "order": 100},
+  "mcp": {"label": "MCP & Infrastructure", "order": 110},
+  "misc": {"label": "Miscellaneous", "order": 200}
 }
