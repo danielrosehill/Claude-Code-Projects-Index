@@ -59,6 +59,13 @@ Dev-tools — scaffold repos, multi-agent QA review, templatize. Session-handove
 
 ---
 
+### Kaizen
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Kaizen) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Kaizen for mature codebases: atomic improvements, one commit each, tracked pass by pass from a baseline. Init, intake, step, pass skills.
+
+---
+
 ### Workspace Foundational
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Workspace-Foundational-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -716,6 +723,13 @@ Inventory analysis and decluttering assistant — import a household inventory i
 ---
 
 ## Israel
+
+### Ikea Israel
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-IKEA-Israel-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Stock counts, aisle/bin and prices across IKEA Israel's 5 branches.
+
+---
 
 ### Israel Agent Skills
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Israel-Agent-Skills-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)

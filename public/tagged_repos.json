@@ -192,14 +192,13 @@
   {
     "name": "Aliexpress Shopper",
     "url": "https://github.com/danielrosehill/Aliexpress-Shopper",
-    "description": "Claude Code plugin for browser-driven AliExpress shopping via Claude in Chrome \u2014 search, read listings, compare tabs, filter, and find similar, plus bundled userscripts.",
+    "description": "Browser-driven AliExpress shopping assistant for Claude in Chrome. Bundles userscripts (Find Similar, Hide Combo Deals) and skills/commands that drive aliexpress.com directly in the user's browser session \u2014 search, read current listing, compare open tabs, apply filters, hide bundles, and find similar items. Scope is global aliexpress.com (any locale/currency) and visual/interactive shopping, not headless scraping or programmatic API flows.",
     "tags": [
-      "Documentation",
       "Plugin"
     ],
-    "category": "Miscellaneous",
-    "category_slug": "misc",
-    "category_group": "Other",
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
     "added_date": "2026-08-10",
     "slug": "aliexpress-shopper",
     "created_date": "2026-05-02"
@@ -250,6 +249,20 @@
     "created_date": "2026-05-01"
   },
   {
+    "name": "Anonymisation Assistant",
+    "url": "https://github.com/danielrosehill/Claude-Anonymisation-Assistant-Plugin",
+    "description": "Anonymise sensitive documents (whistleblower disclosures, harassment diaries, incident reports) by replacing identifying details while preserving narrative integrity.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "anonymisation-assistant",
+    "created_date": "2024-12-16"
+  },
+  {
     "name": "Audio Production",
     "url": "https://github.com/danielrosehill/Claude-Audio-Production-Plugin",
     "description": "Audio production \u2014 normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
@@ -263,6 +276,20 @@
     "added_date": "2026-04-19",
     "slug": "audio-production",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Audio Voice Id",
+    "url": "https://github.com/danielrosehill/audio-voice-id-plugin",
+    "description": "Speaker diarization, voice enrollment, and identification for audio files \u2014 builds a local voiceprint library with optional cloud replication.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "audio-voice-id",
+    "created_date": "2026-10-08"
   },
   {
     "name": "Background Removal",
@@ -357,6 +384,22 @@
     "created_date": "2026-08-20"
   },
   {
+    "name": "Brainstorm Solutions",
+    "url": "https://github.com/danielrosehill/brainstorm-solutions-plugin",
+    "description": "When you hit a wall, spin up a research workspace to brainstorm solutions \u2014 captures the blocker, what you tried, and kicks off deep research",
+    "tags": [
+      "Agent Workspace",
+      "Plugin",
+      "Research"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "brainstorm-solutions",
+    "created_date": "2026-04-16"
+  },
+  {
     "name": "Breakout Claude",
     "url": "https://github.com/danielrosehill/Claude-Breakout",
     "description": "Route an idea that surfaces mid-task but does not belong to the current repository into its own repo and its own agent, without derailing the work in flight. Uses the cross-session SendMessage/ListAgents layer for a push-model handoff \u2014 the seed brief is written to disk in the new repo and the message carries a pointer to it. Companion to interrupt-claude (same-repo interruption routing) and claude-hopper (session spawning and handover); breakout splits tracks rather than work or time. WIP.",
@@ -441,6 +484,22 @@
     "added_date": "2026-04-19",
     "slug": "career",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Chatgpt Importer",
+    "url": "https://github.com/danielrosehill/Claude-ChatGPT-Importer-Plugin",
+    "description": "Import a ChatGPT conversation into local files via the browser. Captures the full thread from a chatgpt.com URL, a shared link, or an official export archive, then normalizes it to JSON and renders Markdown or a styled Typst PDF with user and assistant turns marked, artifacts (canvas docs, images, code) extracted, cited sources collected, and conversation metadata recorded. Includes a two-pass redaction skill and a conversation-to-context workflow that writes transcripts into a repo's context/ folder.",
+    "tags": [
+      "Automation",
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "chatgpt-importer",
+    "created_date": "2026-10-08"
   },
   {
     "name": "Claude A2A Research",
@@ -1566,6 +1625,21 @@
     "created_date": "2026-03-24"
   },
   {
+    "name": "Conda Manager",
+    "url": "https://github.com/danielrosehill/conda-manager-plugin",
+    "description": "Claude Code plugin for managing, auditing, and optimising Conda environments \u2014 list, validate, compare, backup, and clean up environments with AI assistance.",
+    "tags": [
+      "Agent Workspace",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "conda-manager",
+    "created_date": "2026-04-16"
+  },
+  {
     "name": "Contact Support",
     "url": "https://github.com/danielrosehill/contact-support-plugin",
     "description": "Contact a vendor's support desk from a registry of verified, dated contact routes rather than recalled ones \u2014 ticket URLs and which support plans can reach them, abuse and fraud addresses taken from mailto hrefs rather than page text, per-tier response windows, priority vocabulary, escalation ladders with SLA claim deadlines, pre-contact checks, and the plausible routes that turn out to be dead. Records the user's account identity and where credentials live (a pointer, never the secret), drafts the request with the identifiers the desk will demand, sends it through whichever channel is actually reachable, logs the ticket and chases it when the window elapses. Ships verified for Twilio only; extend with support-add-service. Work in progress \u2014 concept stage.",
@@ -1595,6 +1669,21 @@
     "added_date": "2026-04-19",
     "slug": "content-writing",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Context Toolkit",
+    "url": "https://github.com/danielrosehill/context-toolkit-plugin",
+    "description": "A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.",
+    "tags": [
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "context-toolkit",
+    "created_date": "2026-04-16"
   },
   {
     "name": "CONTEXT.md",
@@ -1790,6 +1879,22 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Diary Planner",
+    "url": "https://github.com/danielrosehill/diary-planner-plugin",
+    "description": "A workflow planning and time management template with agent definitions and slash commands for managing daily, weekly, and monthly schedules while maintaining connections between immediate tasks and longer-term objectives.",
+    "tags": [
+      "Automation",
+      "Plugin",
+      "Slash Commands"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "diary-planner",
+    "created_date": "2026-04-16"
+  },
+  {
     "name": "Digital Evidence",
     "url": "https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin",
     "description": "General-purpose digital-evidence processing: capture, hash, OpenTimestamps, ExifTool/MediaInfo metadata, BagIt packaging, immutable sync. Layers with legal-investigative for full chain-of-custody workflows.",
@@ -1817,6 +1922,23 @@
     "added_date": "2026-04-27",
     "slug": "digital-printing",
     "created_date": "2026-04-27"
+  },
+  {
+    "name": "Docker Manager",
+    "url": "https://github.com/danielrosehill/docker-manager-plugin",
+    "description": "Slash commands and subagents for managing Docker containers, Compose stacks, volumes, networks, and multi-environment deployments.",
+    "tags": [
+      "Agent Workspace",
+      "Multi-Agent",
+      "Plugin",
+      "Slash Commands"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "docker-manager",
+    "created_date": "2026-04-16"
   },
   {
     "name": "Document As You Go",
@@ -1878,6 +2000,36 @@
     "created_date": "2026-05-06"
   },
   {
+    "name": "Eml Toolkit",
+    "url": "https://github.com/danielrosehill/Claude-Eml-Toolkit",
+    "description": "Process .eml email exports \u2014 reconstruct a thread from loose .eml files, render the chain to a single PDF with correct right-to-left handling for Hebrew and Arabic, extract attachments, export Markdown, redact before sharing, and build numbered evidence bundles.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "eml-toolkit",
+    "created_date": "2026-10-08"
+  },
+  {
+    "name": "Eval Runner",
+    "url": "https://github.com/danielrosehill/Claude-Eval-Runner-Plugin",
+    "description": "Scaffolding, running, documenting, and publishing AI evaluations. Ships skills and commands for setting up eval workspaces, creating custom evals (or adapting existing frameworks/benchmarks), running them, and publishing evals or datasets. Bundles a curated ground-truth list of open-source eval tools and benchmarks as a reference data source.",
+    "tags": [
+      "Agent Workspace",
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "eval-runner",
+    "created_date": "2026-10-08"
+  },
+  {
     "name": "Favorite Plugins Installers",
     "url": "https://github.com/danielrosehill/Claude-Favorite-Plugins-Installers-Plugin",
     "description": "Curated batches of third-party Claude Code plugins, grouped by type/theme, installable in one command.",
@@ -1890,6 +2042,21 @@
     "added_date": "2026-04-30",
     "slug": "favorite-plugins-installers",
     "created_date": "2026-04-30"
+  },
+  {
+    "name": "Filesystem Organisation",
+    "url": "https://github.com/danielrosehill/filesystem-org-plugin",
+    "description": "Claude Code plugin for file system organization, folder structure optimization, and file management automation workflows.",
+    "tags": [
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "filesystem-organisation",
+    "created_date": "2026-04-16"
   },
   {
     "name": "Filesystem Organiser",
@@ -1991,6 +2158,22 @@
     "created_date": "2026-04-20"
   },
   {
+    "name": "Github Research",
+    "url": "https://github.com/danielrosehill/github-research-plugin",
+    "description": "Research existing GitHub repositories before building \u2014 search, rank, and evaluate candidate tools via gh CLI with careful attention to stars, recency, and maintenance quality",
+    "tags": [
+      "Plugin",
+      "Research",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "github-research",
+    "created_date": "2026-10-08"
+  },
+  {
     "name": "Gpg Ops",
     "url": "https://github.com/danielrosehill/Claude-GPG-Ops-Plugin",
     "description": "GPG operations: generate keypairs, export public keys, encrypt, decrypt, sign, and verify files or text using the local GnuPG keyring.",
@@ -2003,6 +2186,21 @@
     "added_date": "2026-04-30",
     "slug": "gpg-ops",
     "created_date": "2026-04-30"
+  },
+  {
+    "name": "Grainger",
+    "url": "https://github.com/danielrosehill/Claude-Grainger-Plugin",
+    "description": "Claude Code plugin: Grainger.com (US industrial MRO) product research \u2014 typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.",
+    "tags": [
+      "Plugin",
+      "Research"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "grainger",
+    "created_date": "2026-10-08"
   },
   {
     "name": "Greeninvoice Ops",
@@ -2062,6 +2260,21 @@
     "added_date": "2026-04-30",
     "slug": "hardware-spec-assembly",
     "created_date": "2026-04-30"
+  },
+  {
+    "name": "Hebrew Correspondence",
+    "url": "https://github.com/danielrosehill/Claude-Hebrew-Correspondence-Plugin",
+    "description": "One home for correspondence in Hebrew \u2014 send RTL email that renders correctly in every client, typeset formal letters to PDF with David Libre via Typst, turn incoming .eml threads into readable PDFs, and verify a render before it goes out.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "hebrew-correspondence",
+    "created_date": "2026-10-08"
   },
   {
     "name": "Home Assistant Mgmt",
@@ -2154,6 +2367,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Ikea Israel",
+    "url": "https://github.com/danielrosehill/Claude-IKEA-Israel-Plugin",
+    "description": "Stock counts, aisle/bin and prices across IKEA Israel's 5 branches.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "ikea-israel",
+    "created_date": "2026-10-08"
+  },
+  {
     "name": "Image Annotation",
     "url": "https://github.com/danielrosehill/Claude-Image-Annotation-Plugin",
     "description": "Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, blur/redaction) on Linux via Pillow + ImageMagick, with batch WebP conversion and PDF bundling. Originals are never modified.",
@@ -2184,7 +2411,7 @@
   {
     "name": "Israel Agent Skills",
     "url": "https://github.com/danielrosehill/Claude-Israel-Agent-Skills-Plugin",
-    "description": "Claude Code agent skills for Israel and Hebrew-specific workflows: Hebrew translation, Hebrew typography, emergency readiness utilities, and regional lookups.",
+    "description": "Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the hebrew-correspondence plugin.",
     "tags": [
       "Automation",
       "Plugin"
@@ -2273,6 +2500,20 @@
     "added_date": "2026-04-28",
     "slug": "jewish-utilities",
     "created_date": "2026-04-28"
+  },
+  {
+    "name": "Kaizen",
+    "url": "https://github.com/danielrosehill/Claude-Kaizen",
+    "description": "Kaizen for mature codebases: atomic improvements, one commit each, tracked pass by pass from a baseline. Init, intake, step, pass skills.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "kaizen",
+    "created_date": "2026-10-08"
   },
   {
     "name": "KDE Claude Runner",
@@ -2375,6 +2616,20 @@
     "created_date": "2026-07-30"
   },
   {
+    "name": "Learning",
+    "url": "https://github.com/danielrosehill/learning-plugin",
+    "description": "Claude Code plugin for learning resources, skill development, educational content creation, and knowledge management.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "learning",
+    "created_date": "2026-04-16"
+  },
+  {
     "name": "Legal Investigative",
     "url": "https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin",
     "description": "Legal and investigative \u2014 log evidence, analyze documents, redact, generate briefs, with legal-research/evidence/osint/document-analysis variants.",
@@ -2449,6 +2704,21 @@
     "created_date": "2025-10-25"
   },
   {
+    "name": "Linux Desktop Mgmt",
+    "url": "https://github.com/danielrosehill/linux-desktop-plugin",
+    "description": "Claude Code plugin for Linux desktop environment management, KDE/Plasma configuration, and desktop system administration.",
+    "tags": [
+      "Configuration",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "linux-desktop-mgmt",
+    "created_date": "2026-10-08"
+  },
+  {
     "name": "Linux Packaging",
     "url": "https://github.com/danielrosehill/Linux-Packaging-Plugin",
     "description": "Linux packaging and release workflows \u2014 Debian/.deb builds, npm publishing, GitHub release creation, agent deploy scripts, and local debugging",
@@ -2462,6 +2732,21 @@
     "added_date": "2026-04-27",
     "slug": "linux-packaging",
     "created_date": "2026-04-27"
+  },
+  {
+    "name": "Linux Server Mgmt",
+    "url": "https://github.com/danielrosehill/linux-server-plugin",
+    "description": "Claude Code plugin for Linux server administration, service management, and server infrastructure workflows.",
+    "tags": [
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "linux-server-mgmt",
+    "created_date": "2026-10-08"
   },
   {
     "name": "Linux System Optimisation",
@@ -2577,6 +2862,20 @@
     "added_date": "2026-04-19",
     "slug": "media-library",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Mqtt Observability",
+    "url": "https://github.com/danielrosehill/mqtt-observability-plugin",
+    "description": "Observe and interact with an MQTT broker \u2014 monitor all payloads, watch a specific topic, and publish messages. Stores broker credentials once and reuses them.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "mqtt-observability",
+    "created_date": "2026-10-08"
   },
   {
     "name": "Nano Tech Diagrams",
@@ -2841,8 +3140,8 @@
   },
   {
     "name": "Procurement Tools",
-    "url": "https://github.com/danielrosehill/Claude-Purchasing-Plugin",
-    "description": "Marketplace-agnostic purchasing and procurement process \u2014 spec definition from a vague want or a photograph, annotated search vocabulary, intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory, hardware-rig profiling primitives, with general/market-landscape/tech-procurement/recommendations variants.",
+    "url": "https://github.com/danielrosehill/procurement-tools-plugin",
+    "description": "Product research and procurement skills with a particular focus on technical specification conformance \u2014 does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
     "tags": [
       "Documentation",
       "Plugin",
@@ -2853,7 +3152,7 @@
     "category_group": "Technical",
     "added_date": "2026-08-20",
     "slug": "procurement-tools",
-    "created_date": "2026-04-19"
+    "created_date": "2026-08-20"
   },
   {
     "name": "Programmatic Doc Generation",
@@ -3226,6 +3525,22 @@
     "created_date": "2026-07-30"
   },
   {
+    "name": "Stack Search",
+    "url": "https://github.com/danielrosehill/Stack-Search-Plugin",
+    "description": "Spawn a new stack search workspace from the Claude-Stack-Research-Workspace template \u2014 clone, name, create GitHub repo, and kick off the structured intake interview",
+    "tags": [
+      "Agent Workspace",
+      "Plugin",
+      "Research"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "stack-search",
+    "created_date": "2026-04-16"
+  },
+  {
     "name": "State Of Claude Context 0426",
     "url": "https://github.com/danielrosehill/State-Of-Claude-Context-0426",
     "description": "Q&A notes on where context bloat accrues given the current shape of the Claude Code harness and its primitives.",
@@ -3357,6 +3672,23 @@
     "created_date": "2026-04-20"
   },
   {
+    "name": "Tech Research",
+    "url": "https://github.com/danielrosehill/tech-research-plugin",
+    "description": "Claude Code plugin for technology research, competitive analysis, technical documentation retrieval, and research workflows.",
+    "tags": [
+      "Automation",
+      "Documentation",
+      "Plugin",
+      "Research"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-04-16",
+    "slug": "tech-research",
+    "created_date": "2026-04-16"
+  },
+  {
     "name": "Technical Docs",
     "url": "https://github.com/danielrosehill/Claude-Technical-Docs-Plugin",
     "description": "Technical documentation \u2014 READMEs, reference docs, changelogs, environment docs, with api-reference/code-docs/environment-docs/dev-notebook variants.",
@@ -3446,6 +3778,20 @@
     "created_date": "2026-04-28"
   },
   {
+    "name": "Timemark",
+    "url": "https://github.com/danielrosehill/Claude-Timemark-Plugin",
+    "description": "Timemark stamp-camera photo import that recovers the field data the app withholds. No Timemark export carries both the full-resolution image and the values, so imports are gated on having the originals and the Photosheet XLSX, then joined on capture timestamp. Outputs are XMP burned into the files or a self-contained archive of images, JSON sidecars and an index.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "timemark",
+    "created_date": "2026-10-08"
+  },
+  {
     "name": "Travel Packing",
     "url": "https://github.com/danielrosehill/Claude-Travel-Packing-Assistant-Plugin",
     "description": "Make optimal use of a baggage allowance on an international itinerary \u2014 research each carrier's real checked, cabin and personal-item allowance per segment with a source and a confidence level for every figure, compute the binding limit that governs the journey, inventory what is carried by weight, reconcile scale readings against the inventory, solve the allocation to bags and packing cubes, price every way out of being over, and rank an emergency leave-behind list by cost per kilogram saved. Renders a one-page airport counter card and a per-bag packing list as PDF via Typst and as Markdown. One trip workspace per itinerary.",
@@ -3489,6 +3835,22 @@
     "added_date": "2026-04-21",
     "slug": "user-claude-md",
     "created_date": "2026-04-21"
+  },
+  {
+    "name": "User Manual",
+    "url": "https://github.com/danielrosehill/user-manual-plugin",
+    "description": "Claude Code plugin for generating personal user manuals and private documentation for codebases. Creates personalized, private reference guides with PDF output support.",
+    "tags": [
+      "Documentation",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-08",
+    "slug": "user-manual",
+    "created_date": "2025-12-31"
   },
   {
     "name": "Userscript Development",

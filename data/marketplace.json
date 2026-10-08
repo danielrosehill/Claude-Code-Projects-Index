@@ -3126,7 +3126,7 @@
       },
       "description": "AliExpress shopping skills for Israel-based buyers \u2014 Choice-first search in ILS via a local browser, free-shipping filter, Israeli-reviews filter, single-listing landed-cost parse, and a running cart-value VAT-threshold nudge ($75 de-minimis).",
       "category": "Personal Productivity",
-      "version": "1.6.1",
+      "version": "1.7.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3967,6 +3967,54 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT"
+    },
+    {
+      "name": "ikea-israel",
+      "displayName": "IKEA Israel",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-IKEA-Israel-Plugin"
+      },
+      "description": "Stock counts, aisle/bin and prices across IKEA Israel's 5 branches.",
+      "category": "Regional",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "israel",
+        "ikea",
+        "hebrew",
+        "retail",
+        "stock-check"
+      ]
+    },
+    {
+      "name": "kaizen",
+      "displayName": "Kaizen",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Kaizen"
+      },
+      "description": "Kaizen for mature codebases: atomic improvements, one commit each, tracked pass by pass from a baseline. Init, intake, step, pass skills.",
+      "category": "Repo Scaffolding & Retrofitting",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "kaizen",
+        "continuous-improvement",
+        "refactoring",
+        "code-quality",
+        "atomic-commits"
+      ]
     }
   ]
 }
