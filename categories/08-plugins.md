@@ -588,6 +588,15 @@ Send email in right-to-left scripts (Hebrew, Arabic, Farsi, Urdu) that actually 
 
 ---
 
+## Fine Tuning
+
+### Custom Model Planning
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Custom-Model-Planning-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.
+
+---
+
 ## Forecasting
 
 ### Geopol Sim
@@ -992,7 +1001,7 @@ When you hit a wall, spin up a research workspace to brainstorm solutions — ca
 ### Conda Manager
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/conda-manager-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude Code plugin for managing, auditing, and optimising Conda environments — list, validate, compare, backup, and clean up environments with AI assistance.
+Conda environments — list, validate, compare, back up, audit and clean up environments with AI assistance.
 
 ---
 
@@ -1034,7 +1043,7 @@ Scaffolding, running, documenting, and publishing AI evaluations. Ships skills a
 ### Filesystem Organisation
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/filesystem-org-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude Code plugin for file system organization, folder structure optimization, and file management automation workflows.
+File system organisation — folder structure optimisation and file management automation.
 
 ---
 
@@ -1048,7 +1057,7 @@ Research existing GitHub repositories before building — search, rank, and eval
 ### Grainger
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Grainger-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude Code plugin: Grainger.com (US industrial MRO) product research — typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.
+Grainger.com (US industrial MRO) product research — typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.
 
 ---
 
@@ -1062,21 +1071,21 @@ One home for correspondence in Hebrew — send RTL email that renders correctly 
 ### Learning
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/learning-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude Code plugin for learning resources, skill development, educational content creation, and knowledge management.
+Learning resources, skill development, educational content creation and knowledge management.
 
 ---
 
 ### Linux Desktop Mgmt
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/linux-desktop-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude Code plugin for Linux desktop environment management, KDE/Plasma configuration, and desktop system administration.
+Linux desktop management — KDE/Plasma configuration and desktop system administration.
 
 ---
 
 ### Linux Server Mgmt
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/linux-server-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude Code plugin for Linux server administration, service management, and server infrastructure workflows.
+Linux server administration — service management and server infrastructure workflows.
 
 ---
 
@@ -1097,14 +1106,14 @@ Spawn a new stack search workspace from the Claude-Stack-Research-Workspace temp
 ### Tech Research
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/tech-research-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude Code plugin for technology research, competitive analysis, technical documentation retrieval, and research workflows.
+Technology research — competitive analysis, technical documentation retrieval and research workflows.
 
 ---
 
 ### User Manual
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/user-manual-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude Code plugin for generating personal user manuals and private documentation for codebases. Creates personalized, private reference guides with PDF output support.
+Personal user manuals and private documentation for codebases, with PDF output.
 
 ---
 

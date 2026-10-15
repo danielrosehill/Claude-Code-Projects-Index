@@ -3614,11 +3614,13 @@
     },
     {
       "name": "eml-toolkit",
+      "displayName": "EML Toolkit",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Eml-Toolkit"
       },
       "description": "Process .eml email exports \u2014 reconstruct a thread from loose .eml files, render the chain to a single PDF with correct right-to-left handling for Hebrew and Arabic, extract attachments, export Markdown, redact before sharing, and build numbered evidence bundles.",
+      "category": "Documentation & Writing",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -3640,11 +3642,13 @@
     },
     {
       "name": "hebrew-correspondence",
+      "displayName": "Hebrew Correspondence",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Hebrew-Correspondence-Plugin"
       },
       "description": "One home for correspondence in Hebrew \u2014 send RTL email that renders correctly in every client, typeset formal letters to PDF with David Libre via Typst, turn incoming .eml threads into readable PDFs, and verify a render before it goes out.",
+      "category": "Regional",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -3666,6 +3670,7 @@
     },
     {
       "name": "anonymisation-assistant",
+      "displayName": "Anonymisation Assistant",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Anonymisation-Assistant-Plugin"
@@ -3682,6 +3687,7 @@
     },
     {
       "name": "audio-voice-id",
+      "displayName": "Audio Voice ID",
       "source": {
         "source": "github",
         "repo": "danielrosehill/audio-voice-id-plugin"
@@ -3698,6 +3704,7 @@
     },
     {
       "name": "brainstorm-solutions",
+      "displayName": "Brainstorm Solutions",
       "source": {
         "source": "github",
         "repo": "danielrosehill/brainstorm-solutions-plugin"
@@ -3714,11 +3721,12 @@
     },
     {
       "name": "conda-manager",
+      "displayName": "Conda Manager",
       "source": {
         "source": "github",
         "repo": "danielrosehill/conda-manager-plugin"
       },
-      "description": "Claude Code plugin for managing, auditing, and optimising Conda environments \u2014 list, validate, compare, backup, and clean up environments with AI assistance.",
+      "description": "Conda environments \u2014 list, validate, compare, back up, audit and clean up environments with AI assistance.",
       "category": "Linux Sysadmin",
       "version": "0.1.0",
       "author": {
@@ -3730,6 +3738,7 @@
     },
     {
       "name": "context-toolkit",
+      "displayName": "Context Toolkit",
       "source": {
         "source": "github",
         "repo": "danielrosehill/context-toolkit-plugin"
@@ -3746,6 +3755,7 @@
     },
     {
       "name": "diary-planner",
+      "displayName": "Diary Planner",
       "source": {
         "source": "github",
         "repo": "danielrosehill/diary-planner-plugin"
@@ -3762,6 +3772,7 @@
     },
     {
       "name": "docker-manager",
+      "displayName": "Docker Manager",
       "source": {
         "source": "github",
         "repo": "danielrosehill/docker-manager-plugin"
@@ -3778,6 +3789,7 @@
     },
     {
       "name": "eval-runner",
+      "displayName": "Eval Runner",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Eval-Runner-Plugin"
@@ -3794,11 +3806,12 @@
     },
     {
       "name": "filesystem-organisation",
+      "displayName": "Filesystem Organisation",
       "source": {
         "source": "github",
         "repo": "danielrosehill/filesystem-org-plugin"
       },
-      "description": "Claude Code plugin for file system organization, folder structure optimization, and file management automation workflows.",
+      "description": "File system organisation \u2014 folder structure optimisation and file management automation.",
       "category": "Linux Sysadmin",
       "version": "1.0.0",
       "author": {
@@ -3810,6 +3823,7 @@
     },
     {
       "name": "github-research",
+      "displayName": "GitHub Research",
       "source": {
         "source": "github",
         "repo": "danielrosehill/github-research-plugin"
@@ -3826,11 +3840,12 @@
     },
     {
       "name": "grainger",
+      "displayName": "Grainger",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Claude-Grainger-Plugin"
       },
-      "description": "Claude Code plugin: Grainger.com (US industrial MRO) product research \u2014 typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.",
+      "description": "Grainger.com (US industrial MRO) product research \u2014 typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.",
       "category": "Marketing & Shopping",
       "version": "0.1.0",
       "author": {
@@ -3842,11 +3857,12 @@
     },
     {
       "name": "learning",
+      "displayName": "Learning",
       "source": {
         "source": "github",
         "repo": "danielrosehill/learning-plugin"
       },
-      "description": "Claude Code plugin for learning resources, skill development, educational content creation, and knowledge management.",
+      "description": "Learning resources, skill development, educational content creation and knowledge management.",
       "category": "Research & Learning",
       "version": "1.0.0",
       "author": {
@@ -3858,11 +3874,12 @@
     },
     {
       "name": "linux-desktop-mgmt",
+      "displayName": "Linux Desktop Management",
       "source": {
         "source": "github",
         "repo": "danielrosehill/linux-desktop-plugin"
       },
-      "description": "Claude Code plugin for Linux desktop environment management, KDE/Plasma configuration, and desktop system administration.",
+      "description": "Linux desktop management \u2014 KDE/Plasma configuration and desktop system administration.",
       "category": "Linux Sysadmin",
       "version": "2.1.0",
       "author": {
@@ -3874,11 +3891,12 @@
     },
     {
       "name": "linux-server-mgmt",
+      "displayName": "Linux Server Management",
       "source": {
         "source": "github",
         "repo": "danielrosehill/linux-server-plugin"
       },
-      "description": "Claude Code plugin for Linux server administration, service management, and server infrastructure workflows.",
+      "description": "Linux server administration \u2014 service management and server infrastructure workflows.",
       "category": "Linux Sysadmin",
       "version": "1.0.0",
       "author": {
@@ -3890,6 +3908,7 @@
     },
     {
       "name": "mqtt-observability",
+      "displayName": "MQTT Observability",
       "source": {
         "source": "github",
         "repo": "danielrosehill/mqtt-observability-plugin"
@@ -3906,6 +3925,7 @@
     },
     {
       "name": "stack-search",
+      "displayName": "Stack Search",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Stack-Search-Plugin"
@@ -3922,11 +3942,12 @@
     },
     {
       "name": "tech-research",
+      "displayName": "Tech Research",
       "source": {
         "source": "github",
         "repo": "danielrosehill/tech-research-plugin"
       },
-      "description": "Claude Code plugin for technology research, competitive analysis, technical documentation retrieval, and research workflows.",
+      "description": "Technology research \u2014 competitive analysis, technical documentation retrieval and research workflows.",
       "category": "Research & Learning",
       "version": "1.0.0",
       "author": {
@@ -3938,11 +3959,12 @@
     },
     {
       "name": "user-manual",
+      "displayName": "User Manual",
       "source": {
         "source": "github",
         "repo": "danielrosehill/user-manual-plugin"
       },
-      "description": "Claude Code plugin for generating personal user manuals and private documentation for codebases. Creates personalized, private reference guides with PDF output support.",
+      "description": "Personal user manuals and private documentation for codebases, with PDF output.",
       "category": "Documentation & Writing",
       "version": "1.0.0",
       "author": {
@@ -3954,6 +3976,7 @@
     },
     {
       "name": "aliexpress-shopper",
+      "displayName": "AliExpress Shopper",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Aliexpress-Shopper"
@@ -4014,6 +4037,31 @@
         "refactoring",
         "code-quality",
         "atomic-commits"
+      ]
+    },
+    {
+      "name": "custom-model-planning",
+      "displayName": "Custom Model Planning",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Custom-Model-Planning-Plugin"
+      },
+      "description": "Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.",
+      "category": "AI & Context",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "fine-tuning",
+        "small-models",
+        "classifiers",
+        "hugging-face",
+        "model-research",
+        "model-spec"
       ]
     }
   ]

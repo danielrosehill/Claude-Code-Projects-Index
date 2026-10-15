@@ -1627,7 +1627,7 @@
   {
     "name": "Conda Manager",
     "url": "https://github.com/danielrosehill/conda-manager-plugin",
-    "description": "Claude Code plugin for managing, auditing, and optimising Conda environments \u2014 list, validate, compare, backup, and clean up environments with AI assistance.",
+    "description": "Conda environments \u2014 list, validate, compare, back up, audit and clean up environments with AI assistance.",
     "tags": [
       "Agent Workspace",
       "Plugin"
@@ -1730,6 +1730,21 @@
     "added_date": "2026-04-30",
     "slug": "copyq-scripting",
     "created_date": "2026-04-30"
+  },
+  {
+    "name": "Custom Model Planning",
+    "url": "https://github.com/danielrosehill/Claude-Custom-Model-Planning-Plugin",
+    "description": "Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.",
+    "tags": [
+      "Plugin",
+      "Research"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-15",
+    "slug": "custom-model-planning",
+    "created_date": "2026-10-15"
   },
   {
     "name": "Daniel Rosehill",
@@ -2046,7 +2061,7 @@
   {
     "name": "Filesystem Organisation",
     "url": "https://github.com/danielrosehill/filesystem-org-plugin",
-    "description": "Claude Code plugin for file system organization, folder structure optimization, and file management automation workflows.",
+    "description": "File system organisation \u2014 folder structure optimisation and file management automation.",
     "tags": [
       "Automation",
       "Plugin"
@@ -2190,7 +2205,7 @@
   {
     "name": "Grainger",
     "url": "https://github.com/danielrosehill/Claude-Grainger-Plugin",
-    "description": "Claude Code plugin: Grainger.com (US industrial MRO) product research \u2014 typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.",
+    "description": "Grainger.com (US industrial MRO) product research \u2014 typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.",
     "tags": [
       "Plugin",
       "Research"
@@ -2618,7 +2633,7 @@
   {
     "name": "Learning",
     "url": "https://github.com/danielrosehill/learning-plugin",
-    "description": "Claude Code plugin for learning resources, skill development, educational content creation, and knowledge management.",
+    "description": "Learning resources, skill development, educational content creation and knowledge management.",
     "tags": [
       "Plugin"
     ],
@@ -2706,7 +2721,7 @@
   {
     "name": "Linux Desktop Mgmt",
     "url": "https://github.com/danielrosehill/linux-desktop-plugin",
-    "description": "Claude Code plugin for Linux desktop environment management, KDE/Plasma configuration, and desktop system administration.",
+    "description": "Linux desktop management \u2014 KDE/Plasma configuration and desktop system administration.",
     "tags": [
       "Configuration",
       "Plugin"
@@ -2736,7 +2751,7 @@
   {
     "name": "Linux Server Mgmt",
     "url": "https://github.com/danielrosehill/linux-server-plugin",
-    "description": "Claude Code plugin for Linux server administration, service management, and server infrastructure workflows.",
+    "description": "Linux server administration \u2014 service management and server infrastructure workflows.",
     "tags": [
       "Automation",
       "Plugin"
@@ -3674,7 +3689,7 @@
   {
     "name": "Tech Research",
     "url": "https://github.com/danielrosehill/tech-research-plugin",
-    "description": "Claude Code plugin for technology research, competitive analysis, technical documentation retrieval, and research workflows.",
+    "description": "Technology research \u2014 competitive analysis, technical documentation retrieval and research workflows.",
     "tags": [
       "Automation",
       "Documentation",
@@ -3839,11 +3854,10 @@
   {
     "name": "User Manual",
     "url": "https://github.com/danielrosehill/user-manual-plugin",
-    "description": "Claude Code plugin for generating personal user manuals and private documentation for codebases. Creates personalized, private reference guides with PDF output support.",
+    "description": "Personal user manuals and private documentation for codebases, with PDF output.",
     "tags": [
       "Documentation",
-      "Plugin",
-      "Tool"
+      "Plugin"
     ],
     "category": "Plugins",
     "category_slug": "plugins",

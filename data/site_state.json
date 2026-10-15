@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-10-08T11:43:14",
-  "total_repos": 265,
+  "last_built": "2026-10-15T12:30:31",
+  "total_repos": 266,
   "total_tags": 20,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -112,13 +112,14 @@
     "Claude Website Update Sender": "793e804f0c8e88ea955b210847488c69",
     "Claude Workspace Setup Helper": "baaa35d22a7e7635e1ac0aefb458d705",
     "ClaudeMD Turnstile": "58fadf20184c94acc8f394e9a3482025",
-    "Conda Manager": "f683ecd721a58dffc443dbf6dac99a41",
+    "Conda Manager": "b419b434be8b32a2e8706f2bfc828260",
     "Contact Support": "e89313bf35f3be344e51b02f5f23f2f6",
     "Content Writing": "ca04e748822a52daccd217f2c345b0fd",
     "Context Toolkit": "16d90dce2cfc849d44dc365cbc0f0190",
     "CONTEXT.md": "ce976b6647ab119eaa221a75c948adfb",
     "Cool Claude Code Stuff": "2f55aa29b1e2494720692bbabf23be78",
     "Copyq Scripting": "1b01a6b99355e7331f07f721e87c2a10",
+    "Custom Model Planning": "4b8d90ffb216550e8ae4cd8745c0e21f",
     "Daniel Rosehill": "0c766ca41941ad8745889686e07a1835",
     "Data Annotation": "5a29664b94aed82804d16bf7a5c4830e",
     "Data Visualisation And Publishing": "df8495ad6f5f3ae65685ba67aa574826",
@@ -140,7 +141,7 @@
     "Eml Toolkit": "61b1fa89c6e151dd8c752eb617c02330",
     "Eval Runner": "5b159be7f6d66b7d3af4b99633bb7f4e",
     "Favorite Plugins Installers": "37d8b975768462a89afc0f122599194e",
-    "Filesystem Organisation": "0833547adaffa566dc33e5d5e23e5d75",
+    "Filesystem Organisation": "e59a78bad960d452a359de3b3bd1c605",
     "Filesystem Organiser": "77017bd64020cd801ec153cb8bd43b8f",
     "Freight Vol Calculator": "dceb7d9ec335154216e610eb7c3078b9",
     "Geopol Sim": "589e6ae39300a3bb2e510a966eb92d0e",
@@ -150,7 +151,7 @@
     "Github Explorer": "a9530d8b20f5936104bb80d1f750ad5d",
     "Github Research": "58961e0af1818faa8ef2d05b16d99f77",
     "Gpg Ops": "6de7fedde850480ce5555fc272982baa",
-    "Grainger": "eb8a36f4fd70f9a1ce9cdb9e0744c6c3",
+    "Grainger": "fdef1b4f8127be509c6d6a6625211e35",
     "Greeninvoice Ops": "43f54468e0caf3feadd51f14a415d201",
     "Habits Of Claude": "b9becd956f1b4daf203e4016ff339617",
     "Hardware Id Annotation": "9a7fea455678d47632e1ce0da185919f",
@@ -179,15 +180,15 @@
     "Keyboard Scanner": "36957e387aa9fbf773cf44a542bf3aec",
     "Knowledge Documentation": "1fe7a5449377b3d49396171fa3425400",
     "Label Printer": "e41a01294c0ebe2d9c9cd5b8fb52d72b",
-    "Learning": "dda39d88d86accf35b38a76de1de17b1",
+    "Learning": "9684a93fccd2b9aa048ac2a4a34de0d6",
     "Legal Investigative": "81e63590037a6a40de7d2185dfcc215b",
     "License Populator": "fcf20414f2c6e6a22d4f0ca60aa0915b",
     "Linux Av Manager": "f1b250ea246ad24cff397c37198e2c12",
     "Linux Debugging": "30b8fae640bd9abcd105f32ce96bf00f",
     "Linux Desktop ClaudeMD Seeder": "1027aa4623a63f0aee7a92e8a94d82fe",
-    "Linux Desktop Mgmt": "2eecb78668430018f2ef926ceb9ad31d",
+    "Linux Desktop Mgmt": "521ba13fba5b8396b268083899da49af",
     "Linux Packaging": "5e09c8d0a8ad3f2e8266e5ac700f5792",
-    "Linux Server Mgmt": "615755f173e49cf844133666e8cc1e24",
+    "Linux Server Mgmt": "9793b5c189e5baa47e63a40017c02b7f",
     "Linux System Optimisation": "753434f9e8d8c961837da1edea87f9e8",
     "Llm Council Creator": "1ea05f6d60d0af2bfd4a0b1e6b2f1301",
     "Local Claude Plugin Install Research": "c4d3d6b075a1e0e64aa01facd746ceae",
@@ -251,7 +252,7 @@
     "Task Queuer": "72bc01386d56ff7202b305be7a5ed115",
     "Taxonomy Creation": "e057e1a0d53bc9ee8ecb3404080856ea",
     "Teach This Repo": "96067f394d2e0e3ee6b11024123477e0",
-    "Tech Research": "9d60a62a673390aed41371680ace4596",
+    "Tech Research": "0e42ab7c39b8f6ce64476620afd9e7aa",
     "Technical Docs": "183c03734fa45acd796bd453af3293cd",
     "Test Project Ideator": "dc073bb52b5224043f0d1895151a92f2",
     "Text Corpus Analysis": "58308cb1cded69bccdb3356173af9693",
@@ -262,7 +263,7 @@
     "Travel Packing": "8a83adb8e3e98341d9ccc66e7c74da29",
     "Unofficial MCP Builder": "48c02b5797a3f35b1a981eae86f7d984",
     "User Claude MD": "8d3ea90d4e333fd456a9224b0444d4f0",
-    "User Manual": "0e3de683dee47b773d87ba3f03cce496",
+    "User Manual": "034955400a0aca14580b1248ca4f1d2b",
     "Userscript Development": "73c1a32f92b4a3416d9896de76076d16",
     "Video Editing": "f092452f563bf0f6678583f0a04a5bcf",
     "Visual Communications": "3dadd30a17d80a1950b203101223e273",
@@ -270,25 +271,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T16:35:23",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Obs Mgmt"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Desktop Manager",
-            "Dev Tools"
-          ]
-        }
-      ],
-      "total_repos": 144
-    },
     {
       "date": "2026-04-30T18:33:25",
       "changes": [
@@ -2367,6 +2349,31 @@
         }
       ],
       "total_repos": 265
+    },
+    {
+      "date": "2026-10-15T12:30:31",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Custom Model Planning"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Conda Manager",
+            "Filesystem Organisation",
+            "Grainger",
+            "Learning",
+            "Linux Desktop Mgmt",
+            "Linux Server Mgmt",
+            "Tech Research",
+            "User Manual"
+          ]
+        }
+      ],
+      "total_repos": 266
     }
   ]
 }
