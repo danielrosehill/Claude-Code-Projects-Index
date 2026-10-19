@@ -1271,6 +1271,23 @@
     "created_date": "2026-04-09"
   },
   {
+    "name": "Claude KDE Agent Workspace Plugin",
+    "url": "https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin",
+    "description": "Claude Code plugin that gives the agent its own KDE Plasma virtual desktop to launch and test real GUI or terminal apps without taking over the user's screen (AT-SPI input, KWin window capture), optionally bound to its own monitor via per-output desktops on Plasma 6.7+.",
+    "tags": [
+      "Agent Workspace",
+      "Plugin",
+      "Sysadmin",
+      "Tool"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "claude-kde-agent-workspace-plugin",
+    "created_date": "2026-10-19"
+  },
+  {
     "name": "Claude Konsole Launcher",
     "url": "https://github.com/danielrosehill/Claude-Konsole-Launcher",
     "description": "Launch utility for pairing Claude Code with Konsole on KDE Plasma.",

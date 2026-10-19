@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-10-19T14:17:44",
-  "total_repos": 322,
+  "last_built": "2026-10-19T14:31:44",
+  "total_repos": 323,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -88,6 +88,7 @@
     "Claude Interview": "f0c11bb886b3d874d630555b8eb1f1f7",
     "Claude Is Awesome": "8c93b738e23ebfc264d6a0fac3a24d55",
     "Claude Israel": "b21f08e356a5cf32cfe306edb6fe1e27",
+    "Claude KDE Agent Workspace Plugin": "aa1f7c60ef7cebb372b28ab48788eaf7",
     "Claude Konsole Launcher": "6b6e993a96be798aa670dc66b3c0d891",
     "Claude LAN Manager 0126": "5ac2d78cd91bc4e9da8b7ddf30f693d4",
     "Claude Linux Desktop Manager Notes 0426": "3cf2cb93287673d8f27f3ca55eea73f6",
@@ -327,18 +328,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T18:39:20",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Copyq Scripting"
-          ]
-        }
-      ],
-      "total_repos": 146
-    },
     {
       "date": "2026-04-30T18:40:18",
       "changes": [
@@ -2547,6 +2536,18 @@
         }
       ],
       "total_repos": 322
+    },
+    {
+      "date": "2026-10-19T14:31:44",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Claude KDE Agent Workspace Plugin"
+          ]
+        }
+      ],
+      "total_repos": 323
     }
   ]
 }

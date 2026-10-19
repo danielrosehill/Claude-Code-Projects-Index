@@ -1,6 +1,6 @@
 # Claude Code Projects Index
 
-> A curated index of 322 open-source Claude Code repositories by Daniel Rosehill —
+> A curated index of 323 open-source Claude Code repositories by Daniel Rosehill —
 > agent workspaces, plugins, slash commands and MCP tooling, spanning software
 > development and non-code domains such as sysadmin, legal, health and research.
 > Site: https://claude.danielrosehill.com
@@ -379,6 +379,7 @@ Install guide: https://claude.danielrosehill.com/plugins/
 - [Bash Alias Manager Claude](https://github.com/danielrosehill/Bash-Alias-Manager-Claude): Workspace for managing bash aliases with YADM synchronization support.
 - [Claude Code Bash Aliases](https://github.com/danielrosehill/Claude-Code-Bash-Aliases): Collection of bash aliases for common Claude Code operations on Linux.
 - [Claude Dolphin & Konsole Actions](https://github.com/danielrosehill/Claude-Dolphin-Konsole-Actions): KDE Dolphin right-click context menu actions (service menus) for launching Claude Code in various Konsole window layouts, including single terminal, split panes, and multi-instance grids.
+- [Claude KDE Agent Workspace Plugin](https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin): Claude Code plugin that gives the agent its own KDE Plasma virtual desktop to launch and test real GUI or terminal apps without taking over the user's screen (AT-SPI input, KWin window capture), optionally bound to its own monitor via per-output desktops on Plasma 6.7+.
 - [Claude Konsole Launcher](https://github.com/danielrosehill/Claude-Konsole-Launcher): Launch utility for pairing Claude Code with Konsole on KDE Plasma.
 - [Claude LAN Manager 0126](https://github.com/danielrosehill/Claude-LAN-Manager-0126): GUI concept for Claude-driven LAN management, covering device discovery and network operations.
 - [Claude Linux Desktop Manager Notes 0426](https://github.com/danielrosehill/Claude-Linux-Desktop-Manager-Notes-0426): Planning workspace for managing a Linux desktop with an agentic CLI, running raw notes through a refine/analyse/workflow pipeline.
