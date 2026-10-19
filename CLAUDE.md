@@ -295,12 +295,16 @@ python3 scripts/discover_new_repos.py --all    # every public repo
 
 Results are written to `data/unindexed_repos.json`.
 
-Two traps this script has already fallen into, both fixed — do not reintroduce
-either:
+Three traps this script has already fallen into, all fixed — do not reintroduce
+any:
 
 - **`gh repo list --limit` must exceed the account's total public repo count**
-  (>1050 as of Aug 2026). `gh` truncates silently, so a limit of 500 returned a
+  (1121 as of Oct 2026). `gh` truncates silently, so a limit of 500 returned a
   plausible-looking list while hiding every older candidate.
+- **Do not filter with `--source` or `--no-archived`.** With either flag, gh
+  2.46 caps at exactly 1000 results whatever `--limit` says (1000 returned vs
+  1035 eligible on 2026-10-19; the 35 oldest were dropped). Fetch `isFork` and
+  `isArchived` and filter in Python.
 - **The default pattern only matches `claude` in the repo *name*.** Genuinely
   Claude Code-related repos named otherwise — `Document-As-You-Go`,
   `Aliexpress-Shopper`, `Android-Media-Importer`, `Israel-Phonebook-Manager` —

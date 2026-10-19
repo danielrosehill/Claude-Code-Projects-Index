@@ -56,16 +56,20 @@ def get_github_repos(pattern=None):
     """Fetch public repos from GitHub using gh CLI."""
     # Limit must stay above the account's total public repo count (>1050 as of
     # Aug 2026) — gh truncates silently, which used to hide older candidates.
+    # Forks and archived repos are filtered here rather than with --source /
+    # --no-archived: with either flag set, gh 2.46 stops at 1000 results
+    # regardless of --limit (verified 2026-10-19: 1000 vs 1035 expected).
     cmd = [
         "gh", "repo", "list", "danielrosehill",
-        "--limit", "2000",
+        "--limit", "5000",
         "--visibility", "public",
-        "--no-archived",
-        "--source",  # exclude forks
-        "--json", "name,description,url",
+        "--json", "name,description,url,isFork,isArchived",
     ]
     result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-    repos = json.loads(result.stdout)
+    repos = [
+        r for r in json.loads(result.stdout)
+        if not r["isFork"] and not r["isArchived"]
+    ]
 
     if pattern:
         regex = re.compile(pattern, re.IGNORECASE)
