@@ -4,6 +4,27 @@
 
 Projects exploring using Claude and related tooling for personalized user engagement, including through RAG, interviewing methods, and context injection.
 
+### AI Dev Repo Template 1
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Dev-Repo-Template-1) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
+
+GitHub template repository pre-seeded with every AI Dev Workspace Primitive as a stub, with instructions for the user or agent to fill each one in.
+
+---
+
+### AI Dev Repo Template Oct 2025
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Dev-Repo-Template-Oct-2025) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
+
+October 2025 template for AI-assisted development with a layered `CLAUDE.md` hierarchy that guides the agent through project stages.
+
+---
+
+### AI Dev Workspace Primitives
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Dev-Workspace-Primitives)
+
+Index of root-level `UPPERCASE.md` context primitives for AI-assisted repos (`SPEC.md`, `RULES.md`, `TOOLS.md`, `SECRETS.md`, `GROUNDING.md` and more), each published as its own repo and injectable via `CLAUDE.md`/`AGENTS.md`.
+
+---
+
 ### Batch ClaudeMD Repo Creator
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Batch-ClaudeMD-Repo-Creator)
 
@@ -22,6 +43,13 @@ Pre-configured CLAUDE.md templates for managing different repository types.
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Context-Analysis-0526)
 
 Redacted point-in-time dump of `/context` from a heavily-pluginned Claude Code session, analysing where the context budget actually goes and what is eagerly versus lazily loaded.
+
+---
+
+### Claude Foundations
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Foundations)
+
+Index of the user-level layer of a Claude Code setup, treated as one system — entrypoint, reference context, habits and discovery — covering what loads before any task is known.
 
 ---
 
@@ -71,6 +99,13 @@ Working CLAUDE.md for a home directory on an Ubuntu Linux desktop.
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Linux-Desktop-ClaudeMD-Seeder) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
 
 Automatically generates contextual CLAUDE.md files across a Linux desktop filesystem.
+
+---
+
+### My Tone Of Voice
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/My-Tone-Of-Voice)
+
+Annotated corpus of writing samples used as ground truth for a personal writing style, with reusable methodology for building a tone-of-voice reference for AI agents.
 
 ---
 

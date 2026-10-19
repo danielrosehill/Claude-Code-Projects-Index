@@ -6,6 +6,13 @@
 
 Other projects including meta-resources, feedback, and utilities that span multiple categories.
 
+### Agent Reference Workflows
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agent-Reference-Workflows)
+
+Index of repositories that each record one agentic workflow being run end to end on a real task, including the wrong turns, as reference material for designing plugins.
+
+---
+
 ### AI Ideation Runs
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Ideation-Runs)
 
@@ -17,6 +24,13 @@ Public archive of structured AI ideation sessions run via Claude Code — each `
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Memory-Planning-0426)
 
 Planning notes and architecture diagrams exploring three complementary methods for building a personal AI memory system over a vector store — passive distillation from chat, agentic interviews, and manual curation.
+
+---
+
+### AliExpress Israel Skill
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AliExpress-Israel-Skill)
+
+Staging repo for AliExpress skills (Israel buyer focus) before they ship in the Israel Shopping plugin: scraper changes, locale handling and Affiliate API signing.
 
 ---
 
@@ -153,6 +167,27 @@ Notes on the Claude Code voice mode feature.
 
 ---
 
+### Claude Workspace Reshaping 190426
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426)
+
+Plan and records from the April 2026 refactor that turned roughly 100 standalone Claude workspace template repos into cluster plugins: inventory, clusters, conversion log and deletion list.
+
+---
+
+### Github Index Maintainer
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Index-Maintainer) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
+
+Claude Code-powered maintenance tool, with agents and slash commands, for a hierarchy of GitHub index repos (master index, index of indices and subindices).
+
+---
+
+### Israel Agent Skills Dev Index
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Agent-Skills-Dev-Index)
+
+Index of the Israel agent-skills ecosystem: released Claude Code plugins, the work-in-progress skills workspaces that feed them, and related indexes.
+
+---
+
 ### Israel Phonebook Manager
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Phonebook-Manager)
 
@@ -178,6 +213,13 @@ Tool that determines whether to continue an AI conversation or start fresh for o
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Non-Code-Claude-Code)
 
 Showcase of creative Claude Code applications beyond traditional software development.
+
+---
+
+### Responsible Agent Skill Development
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Responsible-Agent-Skill-Development)
+
+Draft code of practice for publishing agent skills that touch the open web, separating the runtime information a skill needs from the research an author gathered about a site's defences.
 
 ---
 

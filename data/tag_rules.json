@@ -24,6 +24,7 @@
     "MCP (Model Context Protocol)": ["MCP"],
     "Plugins": ["Plugin"],
     "Slash Commands": ["Slash Commands"],
+    "Ideas & WIP": ["Ideas"],
     "Miscellaneous": ["Documentation"],
     "Miscellaneous & Meta": ["Documentation"]
   },

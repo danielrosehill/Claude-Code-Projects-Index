@@ -87,10 +87,52 @@ Launch utility for pairing Claude Code with Konsole on KDE Plasma.
 
 ---
 
+### Conda Management Plugin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/conda-management-plugin) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Early standalone Claude Code plugin with slash commands for managing Conda environments and packages.
+
+---
+
+### Desktop Ops Workspace Template
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/desktop-ops-workspace-template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
+
+Per-machine, local-first SQLite log of everything the agent installed, fixed or diagnosed on a Linux desktop, so later sessions can query history before acting. Pairs with `linux-desktop-plugin`.
+
+---
+
+### Dolphin AI Actions
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Dolphin-AI-Actions)
+
+KDE Dolphin right-click service menus that open the selected directory in Claude Code or Codex, in normal or permissive mode.
+
+---
+
 ### KDE Claude Runner
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/KDE-Claude-Runner)
 
 Plan for a KDE-native runner that starts and supervises Claude Code sessions from the desktop.
+
+---
+
+### LAN Manager Plugin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/lan-manager-plugin) ![LAN Manager](https://img.shields.io/badge/LAN-Manager-blue?style=flat-square) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
+
+Claude Code plugin that turns a LAN into working memory: devices, services, operating systems, ports and topology captured in a greppable knowledge store that grows as you and Claude discover things.
+
+---
+
+### Server Management Plugin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/server-management-plugin) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Early standalone Claude Code plugin with slash commands for server monitoring, deployment and administration.
+
+---
+
+### Synology Manager Plugin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/synology-manager-plugin)
+
+Claude Code plugin for administering a Synology NAS over SSH, with guided first-run setup, persistent context and commands for shares, volumes, mounts and storage monitoring.
 
 ---
 

@@ -4,6 +4,13 @@
 
 Projects related to Claude and MCP tooling and setup.
 
+### AI Tools Plugin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/ai-tools-plugin) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Early standalone Claude Code plugin with slash commands for AI tool management and MCP server configuration.
+
+---
+
 ### Claude Code MCP Command Generator
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-MCP-Command-Generator)
 

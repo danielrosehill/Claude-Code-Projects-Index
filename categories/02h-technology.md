@@ -11,3 +11,17 @@ Dedicated macropad for driving Claude Code — approve, stop, new session, trans
 
 ---
 
+### Claude Monitor Research
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Monitor-Research) ![Rig](https://img.shields.io/badge/Rig-gray?style=flat-square)
+
+Ergonomic and geometric research into a display for running a grid of at least eight concurrent Claude Code sessions, measured in text cells rather than inches, plus the software layer for navigating the grid.
+
+---
+
+### Home Media Planner
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Home-Media-Planner) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Non-Code](https://img.shields.io/badge/Non--Code-teal?style=flat-square)
+
+Non-code planning workspace for a home media setup: ideas, voice notes and reference material refined into requirements and decisions.
+
+---
+

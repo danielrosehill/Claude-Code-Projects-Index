@@ -11,3 +11,17 @@ Claude Code workspace for FX pair analysis — historical data, quant and vol mo
 
 ---
 
+### Israel Mortgage Research Skills
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Mortgage-Research-Skills)
+
+Work-in-progress skills basket for buyer-side Israeli residential mortgage research — track mix, Bank of Israel rules, DSR/LTV limits and bank quirks — before verified skills are folded into the Israel agent-skills plugin.
+
+---
+
+### Israel Property Research Skills
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Property-Research-Skills)
+
+Work-in-progress skills basket for Israeli property due diligence (Tabu extracts, building files, usage permits, comparables), aimed at non-professional buyers and tenants.
+
+---
+

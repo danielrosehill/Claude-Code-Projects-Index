@@ -597,7 +597,7 @@
       ]
     },
     {
-      "name": "claude-rudder",
+      "name": "rudder",
       "displayName": "Claude Rudder",
       "source": {
         "source": "github",
@@ -605,7 +605,7 @@
       },
       "description": "Claude-Rudder \u2014 collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
       "category": "QA & Agent Sessions",
-      "version": "2.7.0",
+      "version": "2.8.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -620,7 +620,7 @@
       ]
     },
     {
-      "name": "claude-hopper",
+      "name": "session-hopper",
       "displayName": "Claude Hopper",
       "source": {
         "source": "github",
@@ -628,7 +628,7 @@
       },
       "description": "Claude-Hopper \u2014 skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.",
       "category": "QA & Agent Sessions",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -665,7 +665,7 @@
       ]
     },
     {
-      "name": "claude-user-memory",
+      "name": "user-memory",
       "displayName": "Claude User Memory",
       "source": {
         "source": "github",
@@ -673,7 +673,7 @@
       },
       "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.",
       "category": "AI & Context",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -708,7 +708,7 @@
       ]
     },
     {
-      "name": "claude-transcription",
+      "name": "transcription-pipeline",
       "displayName": "Claude Transcription",
       "source": {
         "source": "github",
@@ -716,7 +716,7 @@
       },
       "description": "Audio transcription \u2014 denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
       "category": "Media Editing",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1046,7 +1046,7 @@
       ]
     },
     {
-      "name": "user-claude-md",
+      "name": "user-context-file",
       "displayName": "User-Claude-MD",
       "source": {
         "source": "github",
@@ -1054,7 +1054,7 @@
       },
       "description": "Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory \u2014 audit, chunk, list, and edit global Claude Code user context for token efficiency.",
       "category": "AI & Context",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1094,7 +1094,7 @@
       ]
     },
     {
-      "name": "LLM-Council-Creator",
+      "name": "llm-council-creator",
       "displayName": "LLM Council Creator",
       "source": {
         "source": "github",
@@ -1102,7 +1102,7 @@
       },
       "description": "Scaffold new LLM Council projects from existing templates (Template, Grounded, Decide) or build bespoke council repos for specific purposes.",
       "category": "AI & Context",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1117,7 +1117,7 @@
       ]
     },
     {
-      "name": "Local-Web-Capture",
+      "name": "local-web-capture",
       "displayName": "Local Web Capture",
       "source": {
         "source": "github",
@@ -1125,7 +1125,7 @@
       },
       "description": "Capture geo-restricted web content (articles, prices) via the user's own localhost so requests exit via the user's IP. Headless-first escalation ladder (Scrapling static -> stealth -> Playwright -> real Chrome via bb-browser). Project-local save (in-repo captures/) with global fallback. Batch capture with human + agent summaries, Typst PDF compilation, and arbitrary-language capture+translate (default Hebrew -> English).",
       "category": "Data Discovery",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1163,7 +1163,7 @@
       ]
     },
     {
-      "name": "Claude-Data-Wrangler",
+      "name": "data-wrangler",
       "displayName": "Claude Data Wrangler",
       "source": {
         "source": "github",
@@ -1171,7 +1171,7 @@
       },
       "description": "Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 31 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, header & numeric-precision standardisation, multilingual header localisation, incremental upstream sync, and Typst-rendered PDF documents of the data.",
       "category": "Data & Datasets",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1216,7 +1216,7 @@
       ]
     },
     {
-      "name": "claude-data-analyst",
+      "name": "data-analyst",
       "displayName": "Claude Data Analyst",
       "source": {
         "source": "github",
@@ -1224,7 +1224,7 @@
       },
       "description": "First-pass data analysis toolkit: correlations, PII flagging, anomalies, hypothesis tests, data dictionaries, and trend analysis on a dataset in a folder.",
       "category": "Data & Datasets",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1292,7 +1292,7 @@
       ]
     },
     {
-      "name": "Daniel-Rosehill",
+      "name": "daniel-rosehill",
       "displayName": "Daniel Rosehill \u2014 Profiles & Work",
       "source": {
         "source": "github",
@@ -1300,7 +1300,7 @@
       },
       "description": "Jump to Daniel Rosehill's public work from Claude Code \u2014 profiles (LinkedIn, X, GitHub, YouTube, npm, Kaggle, DeviantArt, Pexels), blog, Hugging Face, public repos by recency/stars/A\u2013Z, bio, resume download, and contact/newsletter pages. Also refreshes this marketplace's local cache. A directory of one person's published output, not personal configuration.",
       "category": "Personal Productivity",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1468,7 +1468,7 @@
       ]
     },
     {
-      "name": "claude-code-feedback",
+      "name": "feedback-filer",
       "displayName": "Claude Code Feedback",
       "source": {
         "source": "github",
@@ -1476,7 +1476,7 @@
       },
       "description": "File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.",
       "category": "Git & GitHub",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1913,7 +1913,7 @@
       ]
     },
     {
-      "name": "claude-vault",
+      "name": "plugin-vault",
       "displayName": "Claude Vault",
       "source": {
         "source": "github",
@@ -1921,7 +1921,7 @@
       },
       "description": "Meta-plugin for per-project activation of dormant plugins and MCP servers from a personal vault. Mitigates user-level eager skill description loading.",
       "category": "Privacy & Security",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1981,7 +1981,7 @@
       ]
     },
     {
-      "name": "claude-pipewire-skills",
+      "name": "pipewire-audio",
       "displayName": "Pipewire Skills",
       "source": {
         "source": "github",
@@ -1989,7 +1989,7 @@
       },
       "description": "Claude Code skills for taming Pipewire/Wireplumber audio on Linux \u2014 manage default devices, persistent device-priority rules, per-app routing, mic level checks, and EasyEffects bindings.",
       "category": "Linux Sysadmin",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2005,7 +2005,7 @@
       ]
     },
     {
-      "name": "claude-md-tester",
+      "name": "context-file-tester",
       "displayName": "CLAUDE.md Tester",
       "source": {
         "source": "github",
@@ -2013,7 +2013,7 @@
       },
       "description": "Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only restore that does not depend on the Claude harness, so a hostile test config can never trap you.",
       "category": "AI & Context",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2443,7 +2443,7 @@
       ]
     },
     {
-      "name": "claude-pa",
+      "name": "passive-aggressive-pa",
       "displayName": "Claude PA",
       "source": {
         "source": "github",
@@ -2451,7 +2451,7 @@
       },
       "description": "Passive-aggressive PA system. Claude barks status updates over a speaker; if ignored, escalates across the house via Home Assistant or MQTT. Includes pre-recorded voice packs, RGB signal bulb, full-screen flash overlay, and a quiet-mode skill that translates natural-language pause/schedule requests.",
       "category": "QA & Agent Sessions",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3072,7 +3072,7 @@
       ]
     },
     {
-      "name": "claude-document-nudge",
+      "name": "document-nudge",
       "displayName": "Document Nudge",
       "source": {
         "source": "github",
@@ -3080,7 +3080,7 @@
       },
       "description": "Nudges Claude to document decisions, todos, sprints, and handovers into a structured planning/ tree by default \u2014 without being asked each turn. Ships a home-level CLAUDE.md snippet plus /nudge-install and /nudge-scaffold slash commands.",
       "category": "Documentation & Writing",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3094,7 +3094,7 @@
       ]
     },
     {
-      "name": "Easy-Effects-Manager",
+      "name": "easy-effects-manager",
       "displayName": "Easy Effects Manager",
       "source": {
         "source": "github",
@@ -3102,7 +3102,7 @@
       },
       "description": "Manage Easy Effects on Linux: maintain a preset library, install/export presets, bind autoload to specific mics, test input levels, and set up clean voice-dictation chains. Works with Flatpak or native installs.",
       "category": "Linux Sysadmin",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3370,7 +3370,7 @@
       ]
     },
     {
-      "name": "claude-sops",
+      "name": "sop-library",
       "displayName": "Claude SOPs",
       "source": {
         "source": "github",
@@ -3378,7 +3378,7 @@
       },
       "description": "Keep your own standard operating procedures \u2014 the recurring things you do a particular way \u2014 as a private, versioned library of markdown files the agent reads on demand and follows. Distinct from sop-writer, which authors printed SOP documents for other people; these are procedures an agent executes. One delimited block in your CLAUDE.md points at the library, a generated INDEX.md carries id, title and a 'use when' trigger for each procedure, and exactly one file is read once a situation matches \u2014 so a library of forty procedures costs one table to consult rather than forty resident skill descriptions. Seven skills cover setup, run, write, edit, list, retire and sync. Procedures live in ~/.claude-user-data/sops/ as flat readable files inside a private git repo, mirrored across machines; the plugin repo never holds one. Each SOP declares an autonomy level (auto, confirm, confirm-each, manual) that records a default rather than granting permission, and a last_verified date meaning the procedure was seen to work rather than that the file was edited.",
       "category": "AI & Context",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3515,7 +3515,7 @@
       ]
     },
     {
-      "name": "breakout-claude",
+      "name": "idea-breakout",
       "displayName": "Claude Breakout",
       "source": {
         "source": "github",
@@ -3523,7 +3523,7 @@
       },
       "description": "Route an idea that surfaces mid-task but does not belong to the current repository into its own repo and its own agent, without derailing the work in flight. Uses the cross-session SendMessage/ListAgents layer for a push-model handoff \u2014 the seed brief is written to disk in the new repo and the message carries a pointer to it. Companion to interrupt-claude (same-repo interruption routing) and claude-hopper (session spawning and handover); breakout splits tracks rather than work or time. WIP.",
       "category": "QA & Agent Sessions",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4048,7 +4048,7 @@
       },
       "description": "Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.",
       "category": "AI & Context",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4062,6 +4062,34 @@
         "hugging-face",
         "model-research",
         "model-spec"
+      ]
+    },
+    {
+      "name": "modular-research",
+      "displayName": "Modular Research",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Modular-Research-Plugin"
+      },
+      "description": "Modular research task: brief in, PDF + podcast out. Takes a (dictated) brief through a GitHub repo as research notebook, parallel-subagent research with a source log, a Typst PDF report and a two-host educational podcast (Gemini TTS), then Google Drive and email. Every output module is optional and runs alone; the repo can stay a one-off or keep growing in follow-up rounds.",
+      "category": "Research & Learning",
+      "version": "1.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "research",
+        "deep-research",
+        "modular",
+        "pdf",
+        "typst",
+        "podcast",
+        "tts",
+        "google-drive",
+        "email"
       ]
     }
   ]

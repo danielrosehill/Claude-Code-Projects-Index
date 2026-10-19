@@ -30,7 +30,8 @@
       "categories": [
         {"name": "Research", "slug": "research"},
         {"name": "Argument and Perspective Exploration", "slug": "argument"},
-        {"name": "Context and Personalization", "slug": "context"}
+        {"name": "Context and Personalization", "slug": "context"},
+        {"name": "Ideas & WIP", "slug": "ideas-wip"}
       ]
     },
     {

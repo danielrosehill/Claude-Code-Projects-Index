@@ -55,9 +55,30 @@ Drop-in system prompt and slash command that make coding agents capture what the
 
 ---
 
+### General Dev Plugin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/general-dev-plugin) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Early standalone Claude Code plugin with slash commands and agents for code generation, refactoring and general development.
+
+---
+
+### Git GitHub Plugin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/git-github-plugin) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Early standalone Claude Code plugin with slash commands and agents for Git version control and GitHub repository management.
+
+---
+
 ### No Wheel Inventions
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/No-Wheel-Inventions) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
 Slash commands encouraging use of existing libraries instead of building custom solutions.
+
+---
+
+### Split Context Setup
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Split-Context-Setup) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
+
+Slash command that prunes a repo's `CLAUDE.md` to essentials and scaffolds a topic-based `context/` store, an ingestion pipeline for raw materials, and subagents for context maintenance.
 
 ---

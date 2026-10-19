@@ -28,6 +28,34 @@
     "created_date": "2026-07-30"
   },
   {
+    "name": "Agent Context Harness",
+    "url": "https://github.com/danielrosehill/Agent-Context-Harness",
+    "description": "Idea: a per-turn router that sends each message to the current task, an existing parallel worker or a new session, keeping unrelated tasks out of one agent's context.",
+    "tags": [
+      "Ideas"
+    ],
+    "category": "Ideas & WIP",
+    "category_slug": "ideas-wip",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "agent-context-harness",
+    "created_date": "2026-10-16"
+  },
+  {
+    "name": "Agent Handover Demo",
+    "url": "https://github.com/danielrosehill/Agent-Handover-Demo",
+    "description": "Pattern for handing tasks between code-generation agents working on different machines through shared handover docs, giving supervising humans an audit trail of what each agent did.",
+    "tags": [
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "agent-handover-demo",
+    "created_date": "2025-08-11"
+  },
+  {
     "name": "Agent Junction",
     "url": "https://github.com/danielrosehill/Agent-Junction",
     "description": "MCP server enabling encrypted peer-to-peer communication between Claude Code instances on localhost or LAN.",
@@ -41,6 +69,22 @@
     "added_date": "2026-03-08",
     "slug": "agent-junction",
     "created_date": "2026-02-17"
+  },
+  {
+    "name": "Agent Reference Workflows",
+    "url": "https://github.com/danielrosehill/Agent-Reference-Workflows",
+    "description": "Index of repositories that each record one agentic workflow being run end to end on a real task, including the wrong turns, as reference material for designing plugins.",
+    "tags": [
+      "Automation",
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-10-19",
+    "slug": "agent-reference-workflows",
+    "created_date": "2026-08-10"
   },
   {
     "name": "Agent Relay",
@@ -58,6 +102,51 @@
     "created_date": "2026-05-03"
   },
   {
+    "name": "Agent-Assisted Purchase Research Index",
+    "url": "https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index",
+    "description": "Index of templates, skills and demos for agent-driven purchase research, built on decoupling the requirements spec from the current market.",
+    "tags": [
+      "Productivity",
+      "Research"
+    ],
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "agent-assisted-purchase-research-index",
+    "created_date": "2026-04-16"
+  },
+  {
+    "name": "Agentic Book Writing",
+    "url": "https://github.com/danielrosehill/Agentic-Book-Writing",
+    "description": "Pattern spec for writing full-length reference and instructional books with Claude Code, using teams of subagents and the repository as shared memory, through to a print-on-demand paperback.",
+    "tags": [
+      "Communications",
+      "Documentation",
+      "Multi-Agent"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "agentic-book-writing",
+    "created_date": "2026-08-19"
+  },
+  {
+    "name": "Agentic Purchase Pipeline",
+    "url": "https://github.com/danielrosehill/Agentic-Purchase-Pipeline",
+    "description": "Staged, agent-supported process for evaluating any purchase over about $50: capture the spec, find the requirements, survey the market, then score candidates against the spec.",
+    "tags": [
+      "Productivity"
+    ],
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "agentic-purchase-pipeline",
+    "created_date": "2026-08-10"
+  },
+  {
     "name": "AI Attribution",
     "url": "https://github.com/danielrosehill/Claude-AI-Attribution-Plugin",
     "description": "AI transparency \u2014 document human vs AI contributions, add attribution, audit provenance.",
@@ -70,6 +159,54 @@
     "added_date": "2026-04-16",
     "slug": "ai-attribution",
     "created_date": "2026-04-09"
+  },
+  {
+    "name": "AI Dev Repo Template 1",
+    "url": "https://github.com/danielrosehill/AI-Dev-Repo-Template-1",
+    "description": "GitHub template repository pre-seeded with every AI Dev Workspace Primitive as a stub, with instructions for the user or agent to fill each one in.",
+    "tags": [
+      "Agent Workspace",
+      "Configuration",
+      "Template"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "ai-dev-repo-template-1",
+    "created_date": "2026-04-28"
+  },
+  {
+    "name": "AI Dev Repo Template Oct 2025",
+    "url": "https://github.com/danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+    "description": "October 2025 template for AI-assisted development with a layered `CLAUDE.md` hierarchy that guides the agent through project stages.",
+    "tags": [
+      "Configuration",
+      "Documentation",
+      "Template",
+      "Tool"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "ai-dev-repo-template-oct-2025",
+    "created_date": "2025-10-29"
+  },
+  {
+    "name": "AI Dev Workspace Primitives",
+    "url": "https://github.com/danielrosehill/AI-Dev-Workspace-Primitives",
+    "description": "Index of root-level `UPPERCASE.md` context primitives for AI-assisted repos (`SPEC.md`, `RULES.md`, `TOOLS.md`, `SECRETS.md`, `GROUNDING.md` and more), each published as its own repo and injectable via `CLAUDE.md`/`AGENTS.md`.",
+    "tags": [
+      "Agent Workspace",
+      "Configuration"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "ai-dev-workspace-primitives",
+    "created_date": "2026-04-28"
   },
   {
     "name": "AI Engineering",
@@ -130,6 +267,23 @@
     "created_date": "2026-04-30"
   },
   {
+    "name": "AI Tools Plugin",
+    "url": "https://github.com/danielrosehill/ai-tools-plugin",
+    "description": "Early standalone Claude Code plugin with slash commands for AI tool management and MCP server configuration.",
+    "tags": [
+      "Configuration",
+      "MCP",
+      "Plugin",
+      "Slash Commands"
+    ],
+    "category": "MCP",
+    "category_slug": "mcp",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "ai-tools-plugin",
+    "created_date": "2025-11-15"
+  },
+  {
     "name": "AI Video Producer",
     "url": "https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin",
     "description": "Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export. Ships fal.ai/Replicate/MiniMax MCP servers and fal-js + WaveSpeed Python SDK runners.",
@@ -144,6 +298,24 @@
     "category_group": "Technical",
     "added_date": "2026-04-26",
     "slug": "ai-video-producer",
+    "created_date": "2026-04-26"
+  },
+  {
+    "name": "AI Video Production Template",
+    "url": "https://github.com/danielrosehill/AI-Video-Production-Template",
+    "description": "Per-project workspace skeleton for producing one AI-generated video; the state half of a pair whose operational half is the `ai-video-producer` plugin (scripting, image-to-video and lip-sync pipelines).",
+    "tags": [
+      "Agent Workspace",
+      "Automation",
+      "Communications",
+      "Plugin",
+      "Template"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "ai-video-production-template",
     "created_date": "2026-04-26"
   },
   {
@@ -174,6 +346,21 @@
     "added_date": "2026-04-30",
     "slug": "air-quality-toolkit",
     "created_date": "2026-04-30"
+  },
+  {
+    "name": "AliExpress Israel Skill",
+    "url": "https://github.com/danielrosehill/AliExpress-Israel-Skill",
+    "description": "Staging repo for AliExpress skills (Israel buyer focus) before they ship in the Israel Shopping plugin: scraper changes, locale handling and Affiliate API signing.",
+    "tags": [
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-10-19",
+    "slug": "aliexpress-israel-skill",
+    "created_date": "2026-04-25"
   },
   {
     "name": "Aliexpress Israel Skills",
@@ -216,7 +403,7 @@
     "category_group": "Technical",
     "added_date": "2026-08-20",
     "slug": "amazon",
-    "created_date": "2026-08-20"
+    "created_date": "2026-08-16"
   },
   {
     "name": "An Ode To Claude",
@@ -289,7 +476,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "audio-voice-id",
-    "created_date": "2026-10-08"
+    "created_date": "2026-04-19"
   },
   {
     "name": "Background Removal",
@@ -381,7 +568,7 @@
     "category_group": "Technical",
     "added_date": "2026-08-20",
     "slug": "book-writing",
-    "created_date": "2026-08-20"
+    "created_date": "2026-08-19"
   },
   {
     "name": "Brainstorm Solutions",
@@ -397,21 +584,7 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "brainstorm-solutions",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Breakout Claude",
-    "url": "https://github.com/danielrosehill/Claude-Breakout",
-    "description": "Route an idea that surfaces mid-task but does not belong to the current repository into its own repo and its own agent, without derailing the work in flight. Uses the cross-session SendMessage/ListAgents layer for a push-model handoff \u2014 the seed brief is written to disk in the new repo and the message carries a pointer to it. Companion to interrupt-claude (same-repo interruption routing) and claude-hopper (session spawning and handover); breakout splits tracks rather than work or time. WIP.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-08-20",
-    "slug": "breakout-claude",
-    "created_date": "2026-08-20"
+    "created_date": "2026-04-10"
   },
   {
     "name": "Browser Data Capture",
@@ -499,7 +672,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "chatgpt-importer",
-    "created_date": "2026-10-08"
+    "created_date": "2026-08-24"
   },
   {
     "name": "Claude A2A Research",
@@ -562,6 +735,36 @@
     "created_date": "2026-03-09"
   },
   {
+    "name": "Claude AI Conference",
+    "url": "https://github.com/danielrosehill/Claude-AI-Conference",
+    "description": "Simulated conference in which agentic personas (HR leads, CEOs, doctors, artists, sceptics) each deliver a three-minute talk on \"AI in 2026\", rendered with TTS.",
+    "tags": [
+      "Documentation",
+      "Research"
+    ],
+    "category": "Argument and Perspective Exploration",
+    "category_slug": "argument",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-03-06",
+    "slug": "claude-ai-conference",
+    "created_date": "2026-01-01"
+  },
+  {
+    "name": "Claude Air Traffic Control",
+    "url": "https://github.com/danielrosehill/Claude-Air-Traffic-Control",
+    "description": "Workspace model for one operator running agentic AI across many repositories all day, borrowed from air traffic control: a voice-first shift manager routes work across concurrent Claude Code sessions. Published as a 26-page typeset document.",
+    "tags": [
+      "Agent Workspace",
+      "Multi-Agent"
+    ],
+    "category": "Multi-Agent Tooling",
+    "category_slug": "multi-agent",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "claude-air-traffic-control",
+    "created_date": "2026-08-19"
+  },
+  {
     "name": "Claude Anonymisation Assistant Plugin",
     "url": "https://github.com/danielrosehill/Claude-Anonymisation-Assistant-Plugin",
     "description": "Assistant configuration for redacting personally identifiable details from documents.",
@@ -590,6 +793,39 @@
     "added_date": "2026-03-06",
     "slug": "claude-app-optimiser",
     "created_date": "2025-12-23"
+  },
+  {
+    "name": "Claude Background Hook Planner",
+    "url": "https://github.com/danielrosehill/Claude-Background-Hook-Planner",
+    "description": "Placeholder for planning a Claude Code background hook.",
+    "tags": [
+      "Ideas"
+    ],
+    "category": "Ideas & WIP",
+    "category_slug": "ideas-wip",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "claude-background-hook-planner",
+    "created_date": "2026-07-24"
+  },
+  {
+    "name": "Claude Book Workspace Template",
+    "url": "https://github.com/danielrosehill/Claude-Book-Workspace-Template",
+    "description": "Workspace scaffold implementing the Agentic Book Writing pattern: a `book.toml` manifest, spec and interview folders, binding prose and graphics style guides, and a status script for subagent-driven drafting.",
+    "tags": [
+      "Agent Workspace",
+      "Communications",
+      "Documentation",
+      "Multi-Agent",
+      "Template",
+      "Tool"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "claude-book-workspace-template",
+    "created_date": "2026-08-19"
   },
   {
     "name": "Claude Calls The Shots",
@@ -692,22 +928,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-code-context-feature-requests",
     "created_date": "2025-10-09"
-  },
-  {
-    "name": "Claude Code Feedback",
-    "url": "https://github.com/danielrosehill/Claude-Code-Feedback",
-    "description": "File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.",
-    "tags": [
-      "Documentation",
-      "Plugin",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "claude-code-feedback",
-    "created_date": "2026-04-20"
   },
   {
     "name": "Claude Code Hacks",
@@ -843,33 +1063,18 @@
     "created_date": "2026-05-04"
   },
   {
-    "name": "Claude Data Analyst",
-    "url": "https://github.com/danielrosehill/Claude-Data-Analyst-plugin",
-    "description": "First-pass data analysis toolkit: correlations, PII flagging, anomalies, hypothesis tests, data dictionaries, and trend analysis on a dataset in a folder.",
+    "name": "Claude Decision Mapper",
+    "url": "https://github.com/danielrosehill/Claude-Decision-Mapper",
+    "description": "Codifies the iterative spec-refinement loop used with Claude for builds, hardware purchases and home-lab decisions \u2014 draft spec, correction, refinement \u2014 as reusable skills.",
     "tags": [
-      "Plugin"
+      "Productivity"
     ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-23",
-    "slug": "claude-data-analyst",
-    "created_date": "2026-04-23"
-  },
-  {
-    "name": "Claude Data Wrangler",
-    "url": "https://github.com/danielrosehill/Claude-Data-Wrangler-plugin",
-    "description": "Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 31 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, header & numeric-precision standardisation, multilingual header localisation, incremental upstream sync, and Typst-rendered PDF documents of the data.",
-    "tags": [
-      "Documentation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-23",
-    "slug": "claude-data-wrangler",
-    "created_date": "2026-04-23"
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "claude-decision-mapper",
+    "created_date": "2026-05-06"
   },
   {
     "name": "Claude Deep Research Model (Notes / Documentation)",
@@ -901,21 +1106,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-development-agents",
     "created_date": "2025-12-29"
-  },
-  {
-    "name": "Claude Document Nudge",
-    "url": "https://github.com/danielrosehill/Claude-Document-Nudge",
-    "description": "Nudges Claude to document decisions, todos, sprints, and handovers into a structured planning/ tree by default \u2014 without being asked each turn. Ships a home-level CLAUDE.md snippet plus /nudge-install and /nudge-scaffold slash commands.",
-    "tags": [
-      "Plugin",
-      "Slash Commands"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-05-13",
-    "slug": "claude-document-nudge",
-    "created_date": "2026-05-06"
   },
   {
     "name": "Claude Dolphin & Konsole Actions",
@@ -961,6 +1151,20 @@
     "created_date": "2026-08-10"
   },
   {
+    "name": "Claude For Mayor",
+    "url": "https://github.com/danielrosehill/Claude-For-Mayor",
+    "description": "AI-assisted municipal platform for a candidate who doesn't exist: a researched, cited and costed Jerusalem mayoral manifesto built with Claude Code. Sibling of MK Claude.",
+    "tags": [
+      "Research"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "claude-for-mayor",
+    "created_date": "2026-08-10"
+  },
+  {
     "name": "Claude For OS Mgmt Research",
     "url": "https://github.com/danielrosehill/Claude-For-OS-Mgmt-Research",
     "description": "Research workspace on using Claude and Claude Code for operating system management.",
@@ -974,6 +1178,21 @@
     "added_date": "2026-08-10",
     "slug": "claude-for-os-mgmt-research",
     "created_date": "2026-04-21"
+  },
+  {
+    "name": "Claude Foundations",
+    "url": "https://github.com/danielrosehill/Claude-Foundations",
+    "description": "Index of the user-level layer of a Claude Code setup, treated as one system \u2014 entrypoint, reference context, habits and discovery \u2014 covering what loads before any task is known.",
+    "tags": [
+      "Configuration",
+      "Documentation"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "claude-foundations",
+    "created_date": "2026-08-12"
   },
   {
     "name": "Claude Friction Points",
@@ -1005,22 +1224,6 @@
     "added_date": "2026-08-10",
     "slug": "claude-fx-pair-analyst-template",
     "created_date": "2026-04-19"
-  },
-  {
-    "name": "Claude Hopper",
-    "url": "https://github.com/danielrosehill/Claude-Hopper",
-    "description": "Claude-Hopper \u2014 skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.",
-    "tags": [
-      "Plugin",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-29",
-    "slug": "claude-hopper",
-    "created_date": "2026-04-29",
-    "banner": "/banners/claude-hopper.png"
   },
   {
     "name": "Claude Interview",
@@ -1161,18 +1364,35 @@
     "created_date": "2026-02-17"
   },
   {
-    "name": "Claude MD Tester",
-    "url": "https://github.com/danielrosehill/Claude-MD-Tester",
-    "description": "Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only restore that does not depend on the Claude harness, so a hostile test config can never trap you.",
+    "name": "Claude MD Experiments",
+    "url": "https://github.com/danielrosehill/Claude-MD-Experiments",
+    "description": "Empty placeholder for experiments with `CLAUDE.md` structure.",
     "tags": [
-      "Plugin"
+      "Ideas"
     ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-30",
-    "slug": "claude-md-tester",
-    "created_date": "2026-04-29"
+    "category": "Ideas & WIP",
+    "category_slug": "ideas-wip",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "claude-md-experiments",
+    "created_date": "2026-04-27"
+  },
+  {
+    "name": "Claude Mental Health Templates Index",
+    "url": "https://github.com/danielrosehill/Claude-Mental-Health-Templates-Index",
+    "description": "Subindex of Claude Code templates, plugins and workspaces for mental health work a person does on their own material: organising events, tracking therapy, preparing for appointments.",
+    "tags": [
+      "Agent Workspace",
+      "Health",
+      "Plugin",
+      "Template"
+    ],
+    "category": "Health & Wellbeing",
+    "category_slug": "health",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "claude-mental-health-templates-index",
+    "created_date": "2026-08-14"
   },
   {
     "name": "Claude Meta Dorker",
@@ -1220,6 +1440,21 @@
     "created_date": "2025-12-21"
   },
   {
+    "name": "Claude Monitor Research",
+    "url": "https://github.com/danielrosehill/Claude-Monitor-Research",
+    "description": "Ergonomic and geometric research into a display for running a grid of at least eight concurrent Claude Code sessions, measured in text cells rather than inches, plus the software layer for navigating the grid.",
+    "tags": [
+      "Hardware",
+      "Research"
+    ],
+    "category": "Technology & Hardware",
+    "category_slug": "technology",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "claude-monitor-research",
+    "created_date": "2026-08-12"
+  },
+  {
     "name": "Claude Open Router Model Research Plugin",
     "url": "https://github.com/danielrosehill/Claude-Open-Router-Model-Research-Plugin",
     "description": "Claude Code plugin for researching, filtering, comparing, and evaluating models on OpenRouter, pulling the live catalogue without an API key.",
@@ -1263,34 +1498,6 @@
     "added_date": "2026-08-10",
     "slug": "claude-os-playbook",
     "created_date": "2026-03-12"
-  },
-  {
-    "name": "Claude Pa",
-    "url": "https://github.com/danielrosehill/Claude-PA",
-    "description": "Passive-aggressive PA system. Claude barks status updates over a speaker; if ignored, escalates across the house via Home Assistant or MQTT. Includes pre-recorded voice packs, RGB signal bulb, full-screen flash overlay, and a quiet-mode skill that translates natural-language pause/schedule requests.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-30",
-    "slug": "claude-pa",
-    "created_date": "2026-04-30"
-  },
-  {
-    "name": "Claude Pipewire Skills",
-    "url": "https://github.com/danielrosehill/Claude-Pipewire-Skills-plugin",
-    "description": "Claude Code skills for taming Pipewire/Wireplumber audio on Linux \u2014 manage default devices, persistent device-priority rules, per-app routing, mic level checks, and EasyEffects bindings.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-29",
-    "slug": "claude-pipewire-skills",
-    "created_date": "2026-04-29"
   },
   {
     "name": "Claude Plugin Workspace Vault",
@@ -1353,19 +1560,34 @@
     "created_date": "2026-04-09"
   },
   {
-    "name": "Claude Rudder",
-    "url": "https://github.com/danielrosehill/Claude-Rudder",
-    "description": "Claude-Rudder \u2014 collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
+    "name": "Claude Shopping Demo 2",
+    "url": "https://github.com/danielrosehill/Claude-Shopping-Demo--2",
+    "description": "Model workspace for a Claude shopping research tool customised by shop whitelist and task, with input and output folders.",
     "tags": [
-      "Automation",
-      "Plugin"
+      "Agent Workspace",
+      "Productivity",
+      "Research"
     ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-27",
-    "slug": "claude-rudder",
-    "created_date": "2026-04-19"
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "claude-shopping-demo-2",
+    "created_date": "2026-05-06"
+  },
+  {
+    "name": "Claude Shopping Eval Demo",
+    "url": "https://github.com/danielrosehill/Claude-Shopping-Eval-Demo",
+    "description": "Demo of Claude Code as a consumer purchasing assistant: a written spec plus retailer catalogue screenshots go in, a ranked recommendation report comes out (worked example: a portable Bluetooth speaker).",
+    "tags": [
+      "Productivity"
+    ],
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "claude-shopping-eval-demo",
+    "created_date": "2026-08-10"
   },
   {
     "name": "Claude Skill Definer",
@@ -1383,6 +1605,21 @@
     "created_date": "2026-04-23"
   },
   {
+    "name": "Claude Skills Model 0526",
+    "url": "https://github.com/danielrosehill/Claude-Skills-Model-0526",
+    "description": "Stub for planning notes on the plugins and skills mechanism (May 2026).",
+    "tags": [
+      "Ideas",
+      "Plugin"
+    ],
+    "category": "Ideas & WIP",
+    "category_slug": "ideas-wip",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "claude-skills-model-0526",
+    "created_date": "2026-05-03"
+  },
+  {
     "name": "Claude Slash Commands",
     "url": "https://github.com/danielrosehill/Claude-Slash-Commands",
     "description": "General-purpose slash command library for various Claude Code workflows.",
@@ -1396,20 +1633,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-slash-commands",
     "created_date": "2025-10-11"
-  },
-  {
-    "name": "Claude Sops",
-    "url": "https://github.com/danielrosehill/Claude-SOPs",
-    "description": "Keep your own standard operating procedures \u2014 the recurring things you do a particular way \u2014 as a private, versioned library of markdown files the agent reads on demand and follows. Distinct from sop-writer, which authors printed SOP documents for other people; these are procedures an agent executes. One delimited block in your CLAUDE.md points at the library, a generated INDEX.md carries id, title and a 'use when' trigger for each procedure, and exactly one file is read once a situation matches \u2014 so a library of forty procedures costs one table to consult rather than forty resident skill descriptions. Seven skills cover setup, run, write, edit, list, retire and sync. Procedures live in ~/.claude-user-data/sops/ as flat readable files inside a private git repo, mirrored across machines; the plugin repo never holds one. Each SOP declares an autonomy level (auto, confirm, confirm-each, manual) that records a default rather than granting permission, and a last_verified date meaning the procedure was seen to work rather than that the file was edited.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-08-20",
-    "slug": "claude-sops",
-    "created_date": "2026-08-20"
   },
   {
     "name": "Claude Spec Starter",
@@ -1458,6 +1681,22 @@
     "created_date": "2025-12-27"
   },
   {
+    "name": "Claude Therapy Workspace Template",
+    "url": "https://github.com/danielrosehill/Claude-Therapy-Workspace-Template",
+    "description": "GitHub template for working through one bounded personal issue with Claude Code \u2014 a career situation, a relationship, a bereavement \u2014 with sessions, threads and timelines kept in one workspace per issue.",
+    "tags": [
+      "Agent Workspace",
+      "Health",
+      "Template"
+    ],
+    "category": "Health & Wellbeing",
+    "category_slug": "health",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "claude-therapy-workspace-template",
+    "created_date": "2026-08-14"
+  },
+  {
     "name": "Claude Tooling Prior Art",
     "url": "https://github.com/danielrosehill/Claude-Tooling-Prior-Art",
     "description": "Public record of build-vs-adopt scans for Claude Code tooling: does a plugin, MCP server or skill already exist for a given requirement, or is it blue sky? Each scan keeps the searches \u2014 including the empty ones \u2014 against a closed verdict set with dated decay.",
@@ -1472,21 +1711,6 @@
     "added_date": "2026-08-12",
     "slug": "claude-tooling-prior-art",
     "created_date": "2026-08-12"
-  },
-  {
-    "name": "Claude Transcription",
-    "url": "https://github.com/danielrosehill/Claude-Transcription-Plugin",
-    "description": "Audio transcription \u2014 denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
-    "tags": [
-      "Documentation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-19",
-    "slug": "claude-transcription",
-    "created_date": "2026-04-19"
   },
   {
     "name": "Claude User Context Pattern",
@@ -1519,36 +1743,6 @@
     "created_date": "2025-12-31"
   },
   {
-    "name": "Claude User Memory",
-    "url": "https://github.com/danielrosehill/Claude-User-Memory-Plugin",
-    "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.",
-    "tags": [
-      "Agent Workspace",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "claude-user-memory",
-    "created_date": "2026-04-16"
-  },
-  {
-    "name": "Claude Vault",
-    "url": "https://github.com/danielrosehill/Claude-Vault",
-    "description": "Meta-plugin for per-project activation of dormant plugins and MCP servers from a personal vault. Mitigates user-level eager skill description loading.",
-    "tags": [
-      "MCP",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-29",
-    "slug": "claude-vault",
-    "created_date": "2026-04-26"
-  },
-  {
     "name": "Claude Vault Idea",
     "url": "https://github.com/danielrosehill/Claude-Vault-Idea",
     "description": "Idea capture for a meta-plugin holding a personal vault of plugins and MCP servers, activated selectively per project to mitigate eager plugin description loading at user level.",
@@ -1579,6 +1773,20 @@
     "created_date": "2026-04-30"
   },
   {
+    "name": "Claude Voice Notifier",
+    "url": "https://github.com/danielrosehill/Claude-Voice-Notifier",
+    "description": "Planning repo for Claude placing a real outbound phone call to deliver a one-time, task-specific spoken message on the user's behalf.",
+    "tags": [
+      "Ideas"
+    ],
+    "category": "Ideas & WIP",
+    "category_slug": "ideas-wip",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "claude-voice-notifier",
+    "created_date": "2026-08-12"
+  },
+  {
     "name": "Claude Website Update Sender",
     "url": "https://github.com/danielrosehill/Claude-Website-Update-Sender",
     "description": "Automated workflow for sending polished update emails about website changes via Resend MCP.",
@@ -1592,6 +1800,22 @@
     "added_date": "2026-03-06",
     "slug": "claude-website-update-sender",
     "created_date": "2025-11-13"
+  },
+  {
+    "name": "Claude Workspace Reshaping 190426",
+    "url": "https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426",
+    "description": "Plan and records from the April 2026 refactor that turned roughly 100 standalone Claude workspace template repos into cluster plugins: inventory, clusters, conversion log and deletion list.",
+    "tags": [
+      "Agent Workspace",
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-10-19",
+    "slug": "claude-workspace-reshaping-190426",
+    "created_date": "2026-04-19"
   },
   {
     "name": "Claude Workspace Setup Helper",
@@ -1625,6 +1849,22 @@
     "created_date": "2026-03-24"
   },
   {
+    "name": "Conda Management Plugin",
+    "url": "https://github.com/danielrosehill/conda-management-plugin",
+    "description": "Early standalone Claude Code plugin with slash commands for managing Conda environments and packages.",
+    "tags": [
+      "Plugin",
+      "Slash Commands",
+      "Sysadmin"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "conda-management-plugin",
+    "created_date": "2025-11-15"
+  },
+  {
     "name": "Conda Manager",
     "url": "https://github.com/danielrosehill/conda-manager-plugin",
     "description": "Conda environments \u2014 list, validate, compare, back up, audit and clean up environments with AI assistance.",
@@ -1637,7 +1877,7 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "conda-manager",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-09"
   },
   {
     "name": "Contact Support",
@@ -1671,6 +1911,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Context File Tester",
+    "url": "https://github.com/danielrosehill/Claude-MD-Tester",
+    "description": "Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only restore that does not depend on the Claude harness, so a hostile test config can never trap you.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "context-file-tester",
+    "created_date": "2026-04-29"
+  },
+  {
     "name": "Context Toolkit",
     "url": "https://github.com/danielrosehill/context-toolkit-plugin",
     "description": "A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.",
@@ -1683,7 +1937,7 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "context-toolkit",
-    "created_date": "2026-04-16"
+    "created_date": "2025-11-15"
   },
   {
     "name": "CONTEXT.md",
@@ -1762,6 +2016,20 @@
     "created_date": "2026-04-25"
   },
   {
+    "name": "Data Analyst",
+    "url": "https://github.com/danielrosehill/Claude-Data-Analyst-plugin",
+    "description": "First-pass data analysis toolkit: correlations, PII flagging, anomalies, hypothesis tests, data dictionaries, and trend analysis on a dataset in a folder.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "data-analyst",
+    "created_date": "2026-04-23"
+  },
+  {
     "name": "Data Annotation",
     "url": "https://github.com/danielrosehill/Claude-Data-Annotation-Plugin",
     "description": "End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.",
@@ -1787,6 +2055,21 @@
     "category_group": "Technical",
     "added_date": "2026-04-23",
     "slug": "data-visualisation-and-publishing",
+    "created_date": "2026-04-23"
+  },
+  {
+    "name": "Data Wrangler",
+    "url": "https://github.com/danielrosehill/Claude-Data-Wrangler-plugin",
+    "description": "Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 31 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, header & numeric-precision standardisation, multilingual header localisation, incremental upstream sync, and Typst-rendered PDF documents of the data.",
+    "tags": [
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "data-wrangler",
     "created_date": "2026-04-23"
   },
   {
@@ -1864,6 +2147,23 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Desktop Ops Workspace Template",
+    "url": "https://github.com/danielrosehill/desktop-ops-workspace-template",
+    "description": "Per-machine, local-first SQLite log of everything the agent installed, fixed or diagnosed on a Linux desktop, so later sessions can query history before acting. Pairs with `linux-desktop-plugin`.",
+    "tags": [
+      "Agent Workspace",
+      "Plugin",
+      "Sysadmin",
+      "Template"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "desktop-ops-workspace-template",
+    "created_date": "2026-04-17"
+  },
+  {
     "name": "Dev Debugger",
     "url": "https://github.com/danielrosehill/dev-debugger-plugin",
     "description": "Bug-ticket workflow for development repos \u2014 capture bugs into planning/bugs/, dispatch specialist remediation agents (reproducer, diagnoser, patcher, fix-documenter), document fixes, and ship releases.",
@@ -1907,7 +2207,7 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "diary-planner",
-    "created_date": "2026-04-16"
+    "created_date": "2025-11-15"
   },
   {
     "name": "Digital Evidence",
@@ -1953,7 +2253,7 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "docker-manager",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-09"
   },
   {
     "name": "Document As You Go",
@@ -1968,6 +2268,21 @@
     "added_date": "2026-08-10",
     "slug": "document-as-you-go",
     "created_date": "2026-07-25"
+  },
+  {
+    "name": "Document Nudge",
+    "url": "https://github.com/danielrosehill/Claude-Document-Nudge",
+    "description": "Nudges Claude to document decisions, todos, sprints, and handovers into a structured planning/ tree by default \u2014 without being asked each turn. Ships a home-level CLAUDE.md snippet plus /nudge-install and /nudge-scaffold slash commands.",
+    "tags": [
+      "Plugin",
+      "Slash Commands"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "document-nudge",
+    "created_date": "2026-05-06"
   },
   {
     "name": "Document To Markdown",
@@ -1985,6 +2300,21 @@
     "created_date": "2026-04-30"
   },
   {
+    "name": "Dolphin AI Actions",
+    "url": "https://github.com/danielrosehill/Dolphin-AI-Actions",
+    "description": "KDE Dolphin right-click service menus that open the selected directory in Claude Code or Codex, in normal or permissive mode.",
+    "tags": [
+      "Sysadmin",
+      "Tool"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "dolphin-ai-actions",
+    "created_date": "2026-03-10"
+  },
+  {
     "name": "Donetick",
     "url": "https://github.com/danielrosehill/Claude-Donetick-Plugin",
     "description": "Companion plugin for the donetick-mcp server. Bundles the MCP and adds skills for chore management against a self-hosted Donetick instance \u2014 daily brief, list/create/complete chores, label management.",
@@ -1998,6 +2328,22 @@
     "added_date": "2026-04-30",
     "slug": "donetick",
     "created_date": "2026-04-30"
+  },
+  {
+    "name": "DVR Transcriber",
+    "url": "https://github.com/danielrosehill/DVR-Transcriber",
+    "description": "Work-in-progress CLI and workspace for importing recordings from a digital voice recorder, organising them into dated folders, classifying them with AI and transcribing them.",
+    "tags": [
+      "Agent Workspace",
+      "Productivity",
+      "Tool"
+    ],
+    "category": "Productivity & Planning",
+    "category_slug": "productivity",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "dvr-transcriber",
+    "created_date": "2026-01-26"
   },
   {
     "name": "Easy Effects Manager",
@@ -2026,7 +2372,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "eml-toolkit",
-    "created_date": "2026-10-08"
+    "created_date": "2026-09-01"
   },
   {
     "name": "Eval Runner",
@@ -2042,7 +2388,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "eval-runner",
-    "created_date": "2026-10-08"
+    "created_date": "2026-04-24"
   },
   {
     "name": "Favorite Plugins Installers",
@@ -2059,6 +2405,22 @@
     "created_date": "2026-04-30"
   },
   {
+    "name": "Feedback Filer",
+    "url": "https://github.com/danielrosehill/Claude-Code-Feedback",
+    "description": "File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.",
+    "tags": [
+      "Documentation",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "feedback-filer",
+    "created_date": "2026-04-20"
+  },
+  {
     "name": "Filesystem Organisation",
     "url": "https://github.com/danielrosehill/filesystem-org-plugin",
     "description": "File system organisation \u2014 folder structure optimisation and file management automation.",
@@ -2071,7 +2433,7 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "filesystem-organisation",
-    "created_date": "2026-04-16"
+    "created_date": "2025-11-15"
   },
   {
     "name": "Filesystem Organiser",
@@ -2100,6 +2462,22 @@
     "added_date": "2026-08-03",
     "slug": "freight-vol-calculator",
     "created_date": "2026-07-30"
+  },
+  {
+    "name": "General Dev Plugin",
+    "url": "https://github.com/danielrosehill/general-dev-plugin",
+    "description": "Early standalone Claude Code plugin with slash commands and agents for code generation, refactoring and general development.",
+    "tags": [
+      "Multi-Agent",
+      "Plugin",
+      "Slash Commands"
+    ],
+    "category": "Slash Commands",
+    "category_slug": "slash-commands",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "general-dev-plugin",
+    "created_date": "2025-11-15"
   },
   {
     "name": "Geopol Sim",
@@ -2159,6 +2537,22 @@
     "created_date": "2026-04-29"
   },
   {
+    "name": "Git GitHub Plugin",
+    "url": "https://github.com/danielrosehill/git-github-plugin",
+    "description": "Early standalone Claude Code plugin with slash commands and agents for Git version control and GitHub repository management.",
+    "tags": [
+      "Multi-Agent",
+      "Plugin",
+      "Slash Commands"
+    ],
+    "category": "Slash Commands",
+    "category_slug": "slash-commands",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "git-github-plugin",
+    "created_date": "2025-11-15"
+  },
+  {
     "name": "Github Explorer",
     "url": "https://github.com/danielrosehill/Claude-Github-Explorer-Plugin",
     "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos \u2014 Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
@@ -2171,6 +2565,36 @@
     "added_date": "2026-04-20",
     "slug": "github-explorer",
     "created_date": "2026-04-20"
+  },
+  {
+    "name": "Github Index Maintainer",
+    "url": "https://github.com/danielrosehill/Github-Index-Maintainer",
+    "description": "Claude Code-powered maintenance tool, with agents and slash commands, for a hierarchy of GitHub index repos (master index, index of indices and subindices).",
+    "tags": [
+      "Documentation",
+      "Slash Commands"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-10-19",
+    "slug": "github-index-maintainer",
+    "created_date": "2026-03-27"
+  },
+  {
+    "name": "Github Repo Org Question",
+    "url": "https://github.com/danielrosehill/Github-Repo-Org-Question",
+    "description": "Ongoing research notebook, built on the Claude research workspace template, on managing a large personal GitHub fleet: organisation, multi-machine sync, bulk lifecycle operations and launcher UX.",
+    "tags": [
+      "Agent Workspace",
+      "Research"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "github-repo-org-question",
+    "created_date": "2026-04-09"
   },
   {
     "name": "Github Research",
@@ -2186,7 +2610,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "github-research",
-    "created_date": "2026-10-08"
+    "created_date": "2026-04-16"
   },
   {
     "name": "Gpg Ops",
@@ -2215,7 +2639,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "grainger",
-    "created_date": "2026-10-08"
+    "created_date": "2026-08-17"
   },
   {
     "name": "Greeninvoice Ops",
@@ -2289,7 +2713,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "hebrew-correspondence",
-    "created_date": "2026-10-08"
+    "created_date": "2026-09-01"
   },
   {
     "name": "Home Assistant Mgmt",
@@ -2321,6 +2745,22 @@
     "added_date": "2026-03-06",
     "slug": "home-folder-claude-md",
     "created_date": "2025-10-23"
+  },
+  {
+    "name": "Home Media Planner",
+    "url": "https://github.com/danielrosehill/Home-Media-Planner",
+    "description": "Non-code planning workspace for a home media setup: ideas, voice notes and reference material refined into requirements and decisions.",
+    "tags": [
+      "Agent Workspace",
+      "Documentation",
+      "Hardware"
+    ],
+    "category": "Technology & Hardware",
+    "category_slug": "technology",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "home-media-planner",
+    "created_date": "2026-04-18"
   },
   {
     "name": "How-To-MCP",
@@ -2368,6 +2808,20 @@
     "created_date": "2026-04-20"
   },
   {
+    "name": "Idea Breakout",
+    "url": "https://github.com/danielrosehill/Claude-Breakout",
+    "description": "Route an idea that surfaces mid-task but does not belong to the current repository into its own repo and its own agent, without derailing the work in flight. Uses the cross-session SendMessage/ListAgents layer for a push-model handoff \u2014 the seed brief is written to disk in the new repo and the message carries a pointer to it. Companion to interrupt-claude (same-repo interruption routing) and claude-hopper (session spawning and handover); breakout splits tracks rather than work or time. WIP.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "idea-breakout",
+    "created_date": "2026-08-12"
+  },
+  {
     "name": "Ideation Planning",
     "url": "https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin",
     "description": "Ideation and planning \u2014 capture, generate, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants and Typst PDF deliverables.",
@@ -2393,7 +2847,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "ikea-israel",
-    "created_date": "2026-10-08"
+    "created_date": "2026-09-17"
   },
   {
     "name": "Image Annotation",
@@ -2439,6 +2893,56 @@
     "created_date": "2026-04-23"
   },
   {
+    "name": "Israel Agent Skills Dev Index",
+    "url": "https://github.com/danielrosehill/Israel-Agent-Skills-Dev-Index",
+    "description": "Index of the Israel agent-skills ecosystem: released Claude Code plugins, the work-in-progress skills workspaces that feed them, and related indexes.",
+    "tags": [
+      "Agent Workspace",
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-10-19",
+    "slug": "israel-agent-skills-dev-index",
+    "created_date": "2026-05-06"
+  },
+  {
+    "name": "Israel Medication Research Skills",
+    "url": "https://github.com/danielrosehill/Israel-Medication-Research-Skills",
+    "description": "Stub workspace for agent skills that check medication availability in Israel for patients, to be folded into the Israel agent-skills plugin.",
+    "tags": [
+      "Agent Workspace",
+      "Ideas",
+      "Plugin",
+      "Research"
+    ],
+    "category": "Ideas & WIP",
+    "category_slug": "ideas-wip",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "israel-medication-research-skills",
+    "created_date": "2026-04-29"
+  },
+  {
+    "name": "Israel Mortgage Research Skills",
+    "url": "https://github.com/danielrosehill/Israel-Mortgage-Research-Skills",
+    "description": "Work-in-progress skills basket for buyer-side Israeli residential mortgage research \u2014 track mix, Bank of Israel rules, DSR/LTV limits and bank quirks \u2014 before verified skills are folded into the Israel agent-skills plugin.",
+    "tags": [
+      "Financial",
+      "Planning",
+      "Plugin",
+      "Research"
+    ],
+    "category": "Financial Planning",
+    "category_slug": "financial",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "israel-mortgage-research-skills",
+    "created_date": "2026-05-06"
+  },
+  {
     "name": "Israel Opening Hours",
     "url": "https://github.com/danielrosehill/Claude-Israel-Opening-Hours-Plugin",
     "description": "Check opening hours for Israeli businesses, including hours stated relative to Shabbat and yom tov. Combines Google Business and easy.co.il for stated hours with Hebcal candle-lighting/havdalah times, resolving phrasing like 'reopens an hour after Shabbat' into concrete clock times. Bundles 56 Israeli locations with verified per-city candle-lighting customs.",
@@ -2467,6 +2971,39 @@
     "added_date": "2026-08-10",
     "slug": "israel-phonebook-manager",
     "created_date": "2026-08-03"
+  },
+  {
+    "name": "Israel Property Research Skills",
+    "url": "https://github.com/danielrosehill/Israel-Property-Research-Skills",
+    "description": "Work-in-progress skills basket for Israeli property due diligence (Tabu extracts, building files, usage permits, comparables), aimed at non-professional buyers and tenants.",
+    "tags": [
+      "Financial",
+      "Planning",
+      "Research"
+    ],
+    "category": "Financial Planning",
+    "category_slug": "financial",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "israel-property-research-skills",
+    "created_date": "2026-05-06"
+  },
+  {
+    "name": "Israel Research Skills",
+    "url": "https://github.com/danielrosehill/Israel-Research-Skills",
+    "description": "Instruction-only plugin of Israel-specific research skills \u2014 Kol Zchut rights, Home Front Command guidelines, travel warnings, medicines, government offices and opening hours \u2014 that runs in Claude and ChatGPT.",
+    "tags": [
+      "Documentation",
+      "Plugin",
+      "Research",
+      "Tool"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "israel-research-skills",
+    "created_date": "2026-10-16"
   },
   {
     "name": "Israel Shopping",
@@ -2584,7 +3121,7 @@
     "category_group": "Technical",
     "added_date": "2026-08-20",
     "slug": "kdp-publishing",
-    "created_date": "2026-08-20"
+    "created_date": "2026-08-12"
   },
   {
     "name": "Keyboard Scanner",
@@ -2631,6 +3168,22 @@
     "created_date": "2026-07-30"
   },
   {
+    "name": "LAN Manager Plugin",
+    "url": "https://github.com/danielrosehill/lan-manager-plugin",
+    "description": "Claude Code plugin that turns a LAN into working memory: devices, services, operating systems, ports and topology captured in a greppable knowledge store that grows as you and Claude discover things.",
+    "tags": [
+      "Agent Workspace",
+      "Plugin",
+      "Sysadmin"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "lan-manager-plugin",
+    "created_date": "2025-11-15"
+  },
+  {
     "name": "Learning",
     "url": "https://github.com/danielrosehill/learning-plugin",
     "description": "Learning resources, skill development, educational content creation and knowledge management.",
@@ -2642,7 +3195,7 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "learning",
-    "created_date": "2026-04-16"
+    "created_date": "2025-11-15"
   },
   {
     "name": "Legal Investigative",
@@ -2731,7 +3284,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "linux-desktop-mgmt",
-    "created_date": "2026-10-08"
+    "created_date": "2025-11-15"
   },
   {
     "name": "Linux Packaging",
@@ -2761,7 +3314,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "linux-server-mgmt",
-    "created_date": "2026-10-08"
+    "created_date": "2025-11-15"
   },
   {
     "name": "Linux System Optimisation",
@@ -2776,6 +3329,22 @@
     "added_date": "2026-05-03",
     "slug": "linux-system-optimisation",
     "created_date": "2026-05-03"
+  },
+  {
+    "name": "Live Typing UX Research",
+    "url": "https://github.com/danielrosehill/Live-Typing-UX-Research",
+    "description": "Claude-assisted research workspace cataloguing the UX of live voice typing as a keyboard replacement on the desktop: interaction patterns, inference approaches and tool comparisons.",
+    "tags": [
+      "Agent Workspace",
+      "Research",
+      "Tool"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "live-typing-ux-research",
+    "created_date": "2026-04-14"
   },
   {
     "name": "Llm Council Creator",
@@ -2879,6 +3448,36 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "MK Claude",
+    "url": "https://github.com/danielrosehill/MK-Claude",
+    "description": "AI-assisted political platform experiment for Israel: a detailed, researched and costed manifesto for a party that doesn't exist, written in public with Claude Code.",
+    "tags": [
+      "Research"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "mk-claude",
+    "created_date": "2026-07-23"
+  },
+  {
+    "name": "Modular Research",
+    "url": "https://github.com/danielrosehill/Claude-Modular-Research-Plugin",
+    "description": "Modular research task: brief in, PDF + podcast out. Takes a (dictated) brief through a GitHub repo as research notebook, parallel-subagent research with a source log, a Typst PDF report and a two-host educational podcast (Gemini TTS), then Google Drive and email. Every output module is optional and runs alone; the repo can stay a one-off or keep growing in follow-up rounds.",
+    "tags": [
+      "Multi-Agent",
+      "Plugin",
+      "Research"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "modular-research",
+    "created_date": "2026-10-19"
+  },
+  {
     "name": "Mqtt Observability",
     "url": "https://github.com/danielrosehill/mqtt-observability-plugin",
     "description": "Observe and interact with an MQTT broker \u2014 monitor all payloads, watch a specific topic, and publish messages. Stores broker credentials once and reuses them.",
@@ -2890,7 +3489,22 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "mqtt-observability",
-    "created_date": "2026-10-08"
+    "created_date": "2026-04-18"
+  },
+  {
+    "name": "My Tone Of Voice",
+    "url": "https://github.com/danielrosehill/My-Tone-Of-Voice",
+    "description": "Annotated corpus of writing samples used as ground truth for a personal writing style, with reusable methodology for building a tone-of-voice reference for AI agents.",
+    "tags": [
+      "Configuration",
+      "Documentation"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "my-tone-of-voice",
+    "created_date": "2026-03-25"
   },
   {
     "name": "Nano Tech Diagrams",
@@ -3020,7 +3634,7 @@
     "category_group": "Technical",
     "added_date": "2026-08-20",
     "slug": "obd-diagnostics",
-    "created_date": "2026-08-20"
+    "created_date": "2026-08-16"
   },
   {
     "name": "Obs Mgmt",
@@ -3036,6 +3650,21 @@
     "added_date": "2026-04-30",
     "slug": "obs-mgmt",
     "created_date": "2026-04-30"
+  },
+  {
+    "name": "Obsidian Research Vault Template",
+    "url": "https://github.com/danielrosehill/Obsidian-Research-Vault-Template",
+    "description": "GitHub template for AI-assisted research that produces a working Obsidian vault: frontmatter and wikilink conventions are set up so the agent's notes populate the graph, backlinks and properties.",
+    "tags": [
+      "Research",
+      "Template"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "obsidian-research-vault-template",
+    "created_date": "2026-08-12"
   },
   {
     "name": "Opnsense Mgmt",
@@ -3083,6 +3712,20 @@
     "created_date": "2025-11-17"
   },
   {
+    "name": "Passive Aggressive Pa",
+    "url": "https://github.com/danielrosehill/Claude-PA",
+    "description": "Passive-aggressive PA system. Claude barks status updates over a speaker; if ignored, escalates across the house via Home Assistant or MQTT. Includes pre-recorded voice packs, RGB signal bulb, full-screen flash overlay, and a quiet-mode skill that translates natural-language pause/schedule requests.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "passive-aggressive-pa",
+    "created_date": "2026-04-30"
+  },
+  {
     "name": "Personal Context",
     "url": "https://github.com/danielrosehill/Claude-Personal-Context-Plugin",
     "description": "Builds and maintains a persistent, portable background context layer about the user \u2014 intake interview, ingestion of material they already have, gap analysis, scoped retrieval, maintenance and export. Plain markdown entries in a store the user owns, read through declared scopes and sensitivity levels; explicitly does not use model-managed memory. Ships the Portable Context Contract so issue-scoped workspaces can read it without re-asking who the person is.",
@@ -3095,7 +3738,7 @@
     "category_group": "Technical",
     "added_date": "2026-08-20",
     "slug": "personal-context",
-    "created_date": "2026-08-20"
+    "created_date": "2026-08-14"
   },
   {
     "name": "Personal Planning",
@@ -3112,6 +3755,22 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Perspective Finder Prompt",
+    "url": "https://github.com/danielrosehill/Perspective-Finder-Prompt",
+    "description": "Claude Code workspace for finding people who hold specific viewpoints within a policy debate, surfacing voices that keyword search misses.",
+    "tags": [
+      "Agent Workspace",
+      "Analysis",
+      "Research"
+    ],
+    "category": "Argument and Perspective Exploration",
+    "category_slug": "argument",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "perspective-finder-prompt",
+    "created_date": "2026-03-04"
+  },
+  {
     "name": "Pii Scanner",
     "url": "https://github.com/danielrosehill/Claude-PII-Scanner-Plugin",
     "description": "Scan files, directories, or git repositories for personally identifiable information \u2014 credentials (gitleaks), generic PII (Microsoft Presidio), and matches against a user-maintained personal PII inventory (names, addresses, family, IDs) stored locally.",
@@ -3124,6 +3783,35 @@
     "added_date": "2026-05-01",
     "slug": "pii-scanner",
     "created_date": "2026-04-30"
+  },
+  {
+    "name": "Pipewire Audio",
+    "url": "https://github.com/danielrosehill/Claude-Pipewire-Skills-plugin",
+    "description": "Claude Code skills for taming Pipewire/Wireplumber audio on Linux \u2014 manage default devices, persistent device-priority rules, per-app routing, mic level checks, and EasyEffects bindings.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "pipewire-audio",
+    "created_date": "2026-04-29"
+  },
+  {
+    "name": "Plugin Vault",
+    "url": "https://github.com/danielrosehill/Claude-Vault",
+    "description": "Meta-plugin for per-project activation of dormant plugins and MCP servers from a personal vault. Mitigates user-level eager skill description loading.",
+    "tags": [
+      "MCP",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "plugin-vault",
+    "created_date": "2026-04-26"
   },
   {
     "name": "PR & Media Work",
@@ -3167,7 +3855,7 @@
     "category_group": "Technical",
     "added_date": "2026-08-20",
     "slug": "procurement-tools",
-    "created_date": "2026-08-20"
+    "created_date": "2026-04-19"
   },
   {
     "name": "Programmatic Doc Generation",
@@ -3276,6 +3964,21 @@
     "created_date": "2026-04-24"
   },
   {
+    "name": "Responsible Agent Skill Development",
+    "url": "https://github.com/danielrosehill/Responsible-Agent-Skill-Development",
+    "description": "Draft code of practice for publishing agent skills that touch the open web, separating the runtime information a skill needs from the research an author gathered about a site's defences.",
+    "tags": [
+      "Documentation",
+      "Research"
+    ],
+    "category": "Miscellaneous",
+    "category_slug": "misc",
+    "category_group": "Other",
+    "added_date": "2026-10-19",
+    "slug": "responsible-agent-skill-development",
+    "created_date": "2026-04-25"
+  },
+  {
     "name": "Resume Typesetter",
     "url": "https://github.com/danielrosehill/Claude-Resume-Typesetter-Plugin",
     "description": "Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.",
@@ -3288,6 +3991,20 @@
     "added_date": "2026-04-21",
     "slug": "resume-typesetter",
     "created_date": "2026-04-20"
+  },
+  {
+    "name": "RTL Conformity Skills",
+    "url": "https://github.com/danielrosehill/RTL-Conformity-Skills",
+    "description": "Instruction-only agent skills that keep Hebrew, Arabic, Farsi and Urdu text right-to-left on every surface an agent writes to (Gmail, Resend, Google Docs/Sheets/Slides) and verify the setting took. Works in Claude and ChatGPT.",
+    "tags": [
+      "Communications"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "rtl-conformity-skills",
+    "created_date": "2026-10-16"
   },
   {
     "name": "Rtl Email",
@@ -3305,6 +4022,21 @@
     "added_date": "2026-08-10",
     "slug": "rtl-email",
     "created_date": "2026-08-05"
+  },
+  {
+    "name": "Rudder",
+    "url": "https://github.com/danielrosehill/Claude-Rudder",
+    "description": "Claude-Rudder \u2014 collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
+    "tags": [
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "rudder",
+    "created_date": "2026-04-19"
   },
   {
     "name": "Schedule Manager",
@@ -3350,6 +4082,37 @@
     "created_date": "2025-11-15"
   },
   {
+    "name": "Server Management Plugin",
+    "url": "https://github.com/danielrosehill/server-management-plugin",
+    "description": "Early standalone Claude Code plugin with slash commands for server monitoring, deployment and administration.",
+    "tags": [
+      "Plugin",
+      "Slash Commands",
+      "Sysadmin"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "server-management-plugin",
+    "created_date": "2025-11-15"
+  },
+  {
+    "name": "Session Hopper",
+    "url": "https://github.com/danielrosehill/Claude-Hopper",
+    "description": "Claude-Hopper \u2014 skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "session-hopper",
+    "created_date": "2026-04-29"
+  },
+  {
     "name": "Shopping",
     "url": "https://github.com/danielrosehill/Claude-Shopping-Plugin",
     "description": "Region-specific consumer shopping primitives \u2014 find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon US, AliExpress Israel) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.",
@@ -3377,7 +4140,7 @@
     "category_group": "Technical",
     "added_date": "2026-08-20",
     "slug": "site-skill-builder",
-    "created_date": "2026-08-20"
+    "created_date": "2026-08-19"
   },
   {
     "name": "Skill Creation Research",
@@ -3449,6 +4212,20 @@
     "added_date": "2026-04-27",
     "slug": "social-feedback",
     "created_date": "2026-04-27"
+  },
+  {
+    "name": "Sop Library",
+    "url": "https://github.com/danielrosehill/Claude-SOPs",
+    "description": "Keep your own standard operating procedures \u2014 the recurring things you do a particular way \u2014 as a private, versioned library of markdown files the agent reads on demand and follows. Distinct from sop-writer, which authors printed SOP documents for other people; these are procedures an agent executes. One delimited block in your CLAUDE.md points at the library, a generated INDEX.md carries id, title and a 'use when' trigger for each procedure, and exactly one file is read once a situation matches \u2014 so a library of forty procedures costs one table to consult rather than forty resident skill descriptions. Seven skills cover setup, run, write, edit, list, retire and sync. Procedures live in ~/.claude-user-data/sops/ as flat readable files inside a private git repo, mirrored across machines; the plugin repo never holds one. Each SOP declares an autonomy level (auto, confirm, confirm-each, manual) that records a default rather than granting permission, and a last_verified date meaning the procedure was seen to work rather than that the file was edited.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "sop-library",
+    "created_date": "2026-08-12"
   },
   {
     "name": "Sop Writer",
@@ -3526,6 +4303,23 @@
     "created_date": "2026-03-20"
   },
   {
+    "name": "Split Context Setup",
+    "url": "https://github.com/danielrosehill/Split-Context-Setup",
+    "description": "Slash command that prunes a repo's `CLAUDE.md` to essentials and scaffolds a topic-based `context/` store, an ingestion pipeline for raw materials, and subagents for context maintenance.",
+    "tags": [
+      "Automation",
+      "Configuration",
+      "Multi-Agent",
+      "Slash Commands"
+    ],
+    "category": "Slash Commands",
+    "category_slug": "slash-commands",
+    "category_group": "Technical",
+    "added_date": "2026-03-06",
+    "slug": "split-context-setup",
+    "created_date": "2026-02-17"
+  },
+  {
     "name": "Stack Evaluator",
     "url": "https://github.com/danielrosehill/stack-evaluator-plugin",
     "description": "Component-level review of a project's technology stack, not its code \u2014 records the stack to docs/stack/ with the run date, checks each component for end-of-life and currency, finds architectural gaps (caching, backups, queues, rate limiting, observability), flags redundancy and over-engineering against the real workload, then emits a sequenced revision proposal and an execution brief. Re-runnable per repo with persistent decisions and finding history.",
@@ -3553,7 +4347,7 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "stack-search",
-    "created_date": "2026-04-16"
+    "created_date": "2026-04-10"
   },
   {
     "name": "State Of Claude Context 0426",
@@ -3582,6 +4376,24 @@
     "added_date": "2026-04-30",
     "slug": "style-switcher",
     "created_date": "2026-04-29"
+  },
+  {
+    "name": "Synology Manager Plugin",
+    "url": "https://github.com/danielrosehill/synology-manager-plugin",
+    "description": "Claude Code plugin for administering a Synology NAS over SSH, with guided first-run setup, persistent context and commands for shares, volumes, mounts and storage monitoring.",
+    "tags": [
+      "Agent Workspace",
+      "Documentation",
+      "Plugin",
+      "Sysadmin",
+      "Tool"
+    ],
+    "category": "Systems Administration",
+    "category_slug": "sysadmin",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "synology-manager-plugin",
+    "created_date": "2026-04-09"
   },
   {
     "name": "Synology Mgmt",
@@ -3701,7 +4513,7 @@
     "category_group": "Technical",
     "added_date": "2026-04-16",
     "slug": "tech-research",
-    "created_date": "2026-04-16"
+    "created_date": "2025-11-15"
   },
   {
     "name": "Technical Docs",
@@ -3804,7 +4616,22 @@
     "category_group": "Technical",
     "added_date": "2026-10-08",
     "slug": "timemark",
-    "created_date": "2026-10-08"
+    "created_date": "2026-09-01"
+  },
+  {
+    "name": "Transcription Pipeline",
+    "url": "https://github.com/danielrosehill/Claude-Transcription-Plugin",
+    "description": "Audio transcription \u2014 denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
+    "tags": [
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "transcription-pipeline",
+    "created_date": "2026-04-19"
   },
   {
     "name": "Travel Packing",
@@ -3820,7 +4647,7 @@
     "category_group": "Technical",
     "added_date": "2026-08-20",
     "slug": "travel-packing",
-    "created_date": "2026-08-20"
+    "created_date": "2026-08-16"
   },
   {
     "name": "Unofficial MCP Builder",
@@ -3838,7 +4665,7 @@
     "created_date": "2026-07-25"
   },
   {
-    "name": "User Claude MD",
+    "name": "User Context File",
     "url": "https://github.com/danielrosehill/User-Claude-MD-Plugin",
     "description": "Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory \u2014 audit, chunk, list, and edit global Claude Code user context for token efficiency.",
     "tags": [
@@ -3847,8 +4674,8 @@
     "category": "Plugins",
     "category_slug": "plugins",
     "category_group": "Technical",
-    "added_date": "2026-04-21",
-    "slug": "user-claude-md",
+    "added_date": "2026-10-19",
+    "slug": "user-context-file",
     "created_date": "2026-04-21"
   },
   {
@@ -3865,6 +4692,21 @@
     "added_date": "2026-10-08",
     "slug": "user-manual",
     "created_date": "2025-12-31"
+  },
+  {
+    "name": "User Memory",
+    "url": "https://github.com/danielrosehill/Claude-User-Memory-Plugin",
+    "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.",
+    "tags": [
+      "Agent Workspace",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-19",
+    "slug": "user-memory",
+    "created_date": "2026-04-16"
   },
   {
     "name": "Userscript Development",
@@ -3912,6 +4754,22 @@
     "created_date": "2026-01-21"
   },
   {
+    "name": "Voice Note Task Classifier",
+    "url": "https://github.com/danielrosehill/Voice-Note-Task-Classifier",
+    "description": "Planned multi-label classifier that routes voice-note transcripts to task-specific subagents (email, calendar, shopping list, to-do, dev spec), each holding one MCP tool.",
+    "tags": [
+      "Documentation",
+      "Ideas",
+      "Multi-Agent"
+    ],
+    "category": "Ideas & WIP",
+    "category_slug": "ideas-wip",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-19",
+    "slug": "voice-note-task-classifier",
+    "created_date": "2026-10-16"
+  },
+  {
     "name": "Workspace Foundational",
     "url": "https://github.com/danielrosehill/Claude-Workspace-Foundational-Plugin",
     "description": "Foundational workspace \u2014 setup, context management, report parsing, inventory, template discovery, with 6 variants.",
@@ -3925,6 +4783,22 @@
     "added_date": "2026-04-19",
     "slug": "workspace-foundational",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Writing Editing Plugin",
+    "url": "https://github.com/danielrosehill/writing-editing-plugin",
+    "description": "Early standalone Claude Code plugin with slash commands for proofreading, style editing and text transformation.",
+    "tags": [
+      "Communications",
+      "Plugin",
+      "Slash Commands"
+    ],
+    "category": "Communications & Writing",
+    "category_slug": "communications",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "writing-editing-plugin",
+    "created_date": "2025-11-15"
   },
   {
     "name": "Zigbee Home Maintenance",
