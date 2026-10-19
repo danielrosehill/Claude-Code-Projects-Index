@@ -80,13 +80,6 @@ KDE Dolphin right-click context menu actions (service menus) for launching Claud
 
 ---
 
-### Claude KDE Agent Workspace Plugin
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Claude Code plugin that gives the agent its own KDE Plasma virtual desktop to launch and test real GUI or terminal apps without taking over the user's screen (AT-SPI input, KWin window capture), optionally bound to its own monitor via per-output desktops on Plasma 6.7+.
-
----
-
 ### Claude Konsole Launcher
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Konsole-Launcher)
 

@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-10-19T14:31:44",
+  "last_built": "2026-10-19T14:32:36",
   "total_repos": 323,
   "total_tags": 22,
   "repo_manifest": {
@@ -88,7 +88,6 @@
     "Claude Interview": "f0c11bb886b3d874d630555b8eb1f1f7",
     "Claude Is Awesome": "8c93b738e23ebfc264d6a0fac3a24d55",
     "Claude Israel": "b21f08e356a5cf32cfe306edb6fe1e27",
-    "Claude KDE Agent Workspace Plugin": "aa1f7c60ef7cebb372b28ab48788eaf7",
     "Claude Konsole Launcher": "6b6e993a96be798aa670dc66b3c0d891",
     "Claude LAN Manager 0126": "5ac2d78cd91bc4e9da8b7ddf30f693d4",
     "Claude Linux Desktop Manager Notes 0426": "3cf2cb93287673d8f27f3ca55eea73f6",
@@ -208,6 +207,7 @@
     "Jewish Texts Reference": "a77b35c5be6b4073d067055660c66e72",
     "Jewish Utilities": "27378f97a5a4123851b15dde88976153",
     "Kaizen": "167068d1bd01adc2c1a544c1f811e290",
+    "Kde Agent Workspace": "3c0fe511ca4468be1337b838ac45cd84",
     "KDE Claude Runner": "4f9e1b5182bbc9c1a360e8585d71dc0e",
     "Kde Plasma": "26e1381701d7284bf4bd447131c8345c",
     "Kde Plasmoid Dev": "889a56701582aa93f4e588a09c205e67",
@@ -328,48 +328,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T18:40:18",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Favorite Plugins Installers",
-            "Kde Plasma"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "AI Engineering",
-            "Audio Production",
-            "Budgeting",
-            "Career",
-            "Claude Transcription",
-            "Content Writing",
-            "Debugging",
-            "Desktop Manager",
-            "Dev Tools",
-            "Filesystem Organiser",
-            "HP5200 Printer",
-            "Ideation Planning",
-            "Knowledge Documentation",
-            "Legal Investigative",
-            "Media Library",
-            "PR & Media Work",
-            "Personal Planning",
-            "Purchasing",
-            "Research Space",
-            "Shopping",
-            "Smart Home",
-            "Sysadmin Homelab",
-            "Technical Docs",
-            "Workspace Foundational"
-          ]
-        }
-      ],
-      "total_repos": 148
-    },
     {
       "date": "2026-04-30T18:40:33",
       "changes": [
@@ -2542,6 +2500,24 @@
       "changes": [
         {
           "type": "added",
+          "repos": [
+            "Claude KDE Agent Workspace Plugin"
+          ]
+        }
+      ],
+      "total_repos": 323
+    },
+    {
+      "date": "2026-10-19T14:32:36",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Kde Agent Workspace"
+          ]
+        },
+        {
+          "type": "removed",
           "repos": [
             "Claude KDE Agent Workspace Plugin"
           ]

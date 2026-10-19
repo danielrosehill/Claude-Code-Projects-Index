@@ -793,6 +793,13 @@ Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR"A + MG"
 
 ## Kde
 
+### Kde Agent Workspace
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Give Claude its own KDE Plasma desktop to test apps in. Creates a "Claude" or "AI Agents" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture — without taking over the user's screen — and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+).
+
+---
+
 ### Kde Plasma
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-KDE-Plasma-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 

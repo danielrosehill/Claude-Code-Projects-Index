@@ -2159,7 +2159,7 @@
       },
       "description": "KDE Plasma (Wayland) runtime utilities \u2014 KWin scripting, plasmoid management, panel layout backup, virtual desktops & activities, KGlobalAccel shortcuts, theme/look-and-feel switching, KDE Connect, Klipper, Baloo, kwriteconfig safe-edit, plasma-restart helpers, qdbus introspection, kscreen save/apply, KWallet ops. Complements generic Linux desktop-management plugins.",
       "category": "Linux Sysadmin",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2173,6 +2173,33 @@
         "wayland",
         "linux",
         "desktop"
+      ]
+    },
+    {
+      "name": "kde-agent-workspace",
+      "displayName": "KDE Agent Workspace",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-KDE-Agent-Workspace-Plugin"
+      },
+      "description": "Give Claude its own KDE Plasma desktop to test apps in. Creates a \"Claude\" or \"AI Agents\" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture \u2014 without taking over the user's screen \u2014 and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+).",
+      "category": "Linux Sysadmin",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "kde",
+        "plasma",
+        "kwin",
+        "wayland",
+        "virtual-desktops",
+        "agent-workspace",
+        "gui-testing",
+        "at-spi"
       ]
     },
     {
