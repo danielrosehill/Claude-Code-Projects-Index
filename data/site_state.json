@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-10-19T14:32:36",
-  "total_repos": 323,
+  "last_built": "2026-10-21T18:54:19",
+  "total_repos": 327,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -170,6 +170,7 @@
     "General Dev Plugin": "32455802bf42d53b19c150a64bff59e1",
     "Geopol Sim": "589e6ae39300a3bb2e510a966eb92d0e",
     "Get Toony": "8b092d550b3461934ca3bf8e65b31cb7",
+    "Gh Ops": "f00bd5d79b938329c02ee08220d311fe",
     "Gimp": "7e2f71fc58de6454ff24357c4f693a0b",
     "Gist Writer": "c5a9248917a7cc4d3faf869ad5249e45",
     "Git GitHub Plugin": "eb33710406ffa8a7d3a8f4f48d1fda13",
@@ -220,6 +221,7 @@
     "Legal Investigative": "81e63590037a6a40de7d2185dfcc215b",
     "License Populator": "fcf20414f2c6e6a22d4f0ca60aa0915b",
     "Linux Av Manager": "f1b250ea246ad24cff397c37198e2c12",
+    "Linux Bt": "0ebe576de91d8a5df495f3f57fa90958",
     "Linux Debugging": "30b8fae640bd9abcd105f32ce96bf00f",
     "Linux Desktop ClaudeMD Seeder": "1027aa4623a63f0aee7a92e8a94d82fe",
     "Linux Desktop Mgmt": "4bd923c520d5eb93e98e08e782922d74",
@@ -231,6 +233,8 @@
     "Local Claude Plugin Install Research": "c4d3d6b075a1e0e64aa01facd746ceae",
     "Local Web Capture": "f93ea164638e9ea4c27ab98dba3ff81d",
     "Loose Tasks": "a5d3f1f6d47787d9fb53dd86dcd529f5",
+    "Maccabi Online Skills": "cb02af098f5efdbf0f6d471b4962fd9f",
+    "Marketplace Guide": "ee78ee2f74c3a7581e557102755aed71",
     "MCPM Claude Code Docs": "fa5fab7f544ebc1eadb07ea4723e0010",
     "Media Assistant Ops": "8b742ae3eb8c4cb36ddd847846bd2fa9",
     "Media Library": "86137205a6409fac1303a8bb2aeed276",
@@ -328,19 +332,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T18:40:33",
-      "changes": [
-        {
-          "type": "modified",
-          "repos": [
-            "Teach This Repo",
-            "Test Project Ideator"
-          ]
-        }
-      ],
-      "total_repos": 148
-    },
     {
       "date": "2026-04-30T18:45:44",
       "changes": [
@@ -2524,6 +2515,21 @@
         }
       ],
       "total_repos": 323
+    },
+    {
+      "date": "2026-10-21T18:54:19",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Gh Ops",
+            "Linux Bt",
+            "Maccabi Online Skills",
+            "Marketplace Guide"
+          ]
+        }
+      ],
+      "total_repos": 327
     }
   ]
 }

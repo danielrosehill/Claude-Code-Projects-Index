@@ -373,6 +373,15 @@ Plan, document, and implement a backup and data-protection strategy for the curr
 
 ---
 
+## Bluetooth
+
+### Linux Bt
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Linux-BT-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Bluetooth on Linux from the command line, because the desktop pairing dialogs are unreliable. Diagnose the adapter, scan, pair + trust + connect in one non-interactive bluetoothctl session, manage known devices (connect, disconnect, forget, battery) and reset the stack.
+
+---
+
 ## Book
 
 ### Book Writing
@@ -554,6 +563,15 @@ Generate, transform, and clean up tech diagrams and whiteboard photos via the Na
 
 ---
 
+## Discovery
+
+### Marketplace Guide
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Marketplace-Guide-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Start here: browse these plugins by theme, find one for a task, see what's new. Reads the live manifest.
+
+---
+
 ## Docs
 
 ### Repo To Content
@@ -643,6 +661,13 @@ Bare-bones GIMP CLI wrapper for Linux: detect install (native/Flatpak/Snap/AppIm
 ---
 
 ## Github
+
+### Gh Ops
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-GH-Ops-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+GitHub repo primitives and cleanup: exists, visibility, create, full listing without truncation, PAT-backed delete that never asks for gh auth refresh, and stale-repo triage with a multi-select menu.
+
+---
 
 ### Gist Writer
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
@@ -767,6 +792,13 @@ Check opening hours for Israeli businesses, including hours stated relative to S
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).
+
+---
+
+### Maccabi Online Skills
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Maccabi-Online-Skills) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Maccabi Online (Israel health fund) portal: meds, appointments, doctor messages, results, hitchaivut, refunds. Unofficial; needs your signed-in Chrome.
 
 ---
 

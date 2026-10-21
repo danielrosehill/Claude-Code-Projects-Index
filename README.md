@@ -6,7 +6,7 @@ A curated collection of Claude Code projects, agent workspace blueprints, and re
 
 **[Browse online](https://claude.danielrosehill.com)** · **[Plugins Marketplace](https://github.com/danielrosehill/Claude-Code-Plugins)** · **[Documentation portal](https://docs.bydanielrosehill.com)** · **[What are Claude Spaces?](./claude-spaces.md)**
 
-> 🧩 **My Claude Code Plugins Marketplace** — [danielrosehill/Claude-Code-Plugins](https://github.com/danielrosehill/Claude-Code-Plugins) — 28 focused **cluster plugins** covering workflows across sysadmin, research, media, writing, planning, and more. Each plugin ships the domain primitives (commands, skills, agents) globally and provisions per-project scaffolds on demand — so you install the plugin once and scaffold new workspaces from it as needed, rather than cloning a separate template repo per workflow.
+> 🧭 **Start here: [Marketplace Guide](https://github.com/danielrosehill/Claude-Marketplace-Guide-Plugin)**. This is the suggested way into my [Claude Code Plugins Marketplace](https://github.com/danielrosehill/Claude-Code-Plugins). Install it (`/plugin install marketplace-guide@danielrosehill`) and ask Claude *"what's in the marketplace?"* or *"is there a plugin for X?"*. It browses every plugin by theme (Israel & Hebrew, homelab, Linux desktop, Claude Code tooling, shopping, writing…), recommends plugins for a task and shows what's new, all read live from the marketplace manifest.
 
 ---
 
@@ -824,7 +824,7 @@ All plugins registered in the [danielrosehill marketplace](https://github.com/da
 
 ## Systems Administration
 
-**[See full list in the dedicated plugins page →](./plugins.md)** (175 entries)
+**[See full list in the dedicated plugins page →](./plugins.md)** (179 entries)
 
 ---
 

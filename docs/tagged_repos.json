@@ -2508,6 +2508,20 @@
     "created_date": "2026-04-30"
   },
   {
+    "name": "Gh Ops",
+    "url": "https://github.com/danielrosehill/Claude-GH-Ops-Plugin",
+    "description": "GitHub repo primitives and cleanup: exists, visibility, create, full listing without truncation, PAT-backed delete that never asks for gh auth refresh, and stale-repo triage with a multi-select menu.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-21",
+    "slug": "gh-ops",
+    "created_date": "2026-10-21"
+  },
+  {
     "name": "Gimp",
     "url": "https://github.com/danielrosehill/Claude-GIMP-Plugin",
     "description": "Bare-bones GIMP CLI wrapper for Linux: detect install (native/Flatpak/Snap/AppImage), persist a per-user profile, run Script-Fu batch ops, export images, install/list GIMP-side plugins.",
@@ -3258,6 +3272,20 @@
     "created_date": "2026-05-03"
   },
   {
+    "name": "Linux Bt",
+    "url": "https://github.com/danielrosehill/Claude-Linux-BT-Plugin",
+    "description": "Bluetooth on Linux from the command line, because the desktop pairing dialogs are unreliable. Diagnose the adapter, scan, pair + trust + connect in one non-interactive bluetoothctl session, manage known devices (connect, disconnect, forget, battery) and reset the stack.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-21",
+    "slug": "linux-bt",
+    "created_date": "2026-10-21"
+  },
+  {
     "name": "Linux Debugging",
     "url": "https://github.com/danielrosehill/Linux-Debugging-Plugin",
     "description": "Linux desktop debugging toolkit \u2014 targeted journal/boot/log inspection skills plus proactive logging instrumentation (persistent journald, kdump, sysstat, OOM protection) so AI agents can analyze hard crashes, freezes, and runtime issues. Targets Ubuntu + Wayland; forkable for other distros.",
@@ -3419,6 +3447,34 @@
     "added_date": "2026-04-28",
     "slug": "loose-tasks",
     "created_date": "2026-04-28"
+  },
+  {
+    "name": "Maccabi Online Skills",
+    "url": "https://github.com/danielrosehill/Maccabi-Online-Skills",
+    "description": "Maccabi Online (Israel health fund) portal: meds, appointments, doctor messages, results, hitchaivut, refunds. Unofficial; needs your signed-in Chrome.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-21",
+    "slug": "maccabi-online-skills",
+    "created_date": "2026-10-21"
+  },
+  {
+    "name": "Marketplace Guide",
+    "url": "https://github.com/danielrosehill/Claude-Marketplace-Guide-Plugin",
+    "description": "Start here: browse these plugins by theme, find one for a task, see what's new. Reads the live manifest.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-21",
+    "slug": "marketplace-guide",
+    "created_date": "2026-10-21"
   },
   {
     "name": "MCPM Claude Code Docs",
