@@ -128,7 +128,7 @@ def parse_readme_to_json():
         "metadata": {
             "title": "Claude Code Repos Index",
             "description": "Curated index of Claude Code-related resources and projects",
-            "master_index_url": "https://github.com/danielrosehill/Github-Master-Index",
+            "master_index_url": "https://github.com/danielrosehill/Start-Here",
             "generated_date": datetime.now().strftime("%Y-%m-%d")
         },
         "categories": categories,
