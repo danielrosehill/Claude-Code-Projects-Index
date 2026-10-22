@@ -42,6 +42,20 @@
     "created_date": "2026-10-16"
   },
   {
+    "name": "Agent Exchange",
+    "url": "https://github.com/danielrosehill/Claude-Agent-Exchange",
+    "description": "Two-way file exchange between you and Claude: from-human/ and from-agent/ folders, a CLAUDE.md block so Claude uses them unprompted, and a small explorer app (with launcher) locked to that folder, with new-file badges and read receipts.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-22",
+    "slug": "agent-exchange",
+    "created_date": "2026-10-22"
+  },
+  {
     "name": "Agent Handover Demo",
     "url": "https://github.com/danielrosehill/Agent-Handover-Demo",
     "description": "Pattern for handing tasks between code-generation agents working on different machines through shared handover docs, giving supervising humans an audit trail of what each agent did.",
@@ -85,21 +99,6 @@
     "added_date": "2026-10-19",
     "slug": "agent-reference-workflows",
     "created_date": "2026-08-10"
-  },
-  {
-    "name": "Agent Relay",
-    "url": "https://github.com/danielrosehill/Claude-Agent-Relay-Plugin",
-    "description": "Direct agent-to-agent communication and coordination within a LAN. Two Claude instances on different machines exchange messages and files via a shared MCP relay server. Includes the relay server (Python/FastMCP, SQLite, content-addressed blob storage) and skills to deploy and connect clients. Trust-based, LAN-scoped.",
-    "tags": [
-      "Plugin",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-05-03",
-    "slug": "agent-relay",
-    "created_date": "2026-05-03"
   },
   {
     "name": "Agent-Assisted Purchase Research Index",
@@ -477,6 +476,20 @@
     "added_date": "2026-10-08",
     "slug": "audio-voice-id",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Avp Music Video",
+    "url": "https://github.com/danielrosehill/Claude-AVP-Music-Video-Plugin",
+    "description": "Audio \u2192 branded music video (avp): waveform, logo, karaoke. Install audio-visualizer-python, pull logo/colours/font from a repo into a brand kit, render an MP3 (e.g. from Suno) through JSON templates (waveform, spectrum bars, logo pulse, 9:16), burn in karaoke lyrics from LRC/SRT, and encode small with AV1 by default.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-22",
+    "slug": "avp-music-video",
+    "created_date": "2026-10-22"
   },
   {
     "name": "Background Removal",
@@ -1925,21 +1938,6 @@
     "created_date": "2026-04-29"
   },
   {
-    "name": "Context Toolkit",
-    "url": "https://github.com/danielrosehill/context-toolkit-plugin",
-    "description": "A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "context-toolkit",
-    "created_date": "2025-11-15"
-  },
-  {
     "name": "CONTEXT.md",
     "url": "https://github.com/danielrosehill/CONTEXT.md",
     "description": "Workflow methodology for separating human-authored context from structured AI agent briefings.",
@@ -2071,6 +2069,20 @@
     "added_date": "2026-10-19",
     "slug": "data-wrangler",
     "created_date": "2026-04-23"
+  },
+  {
+    "name": "Dead Drop",
+    "url": "https://github.com/danielrosehill/Claude-Dead-Drop",
+    "description": "Asynchronous agent-to-agent messages between Claude Code sessions working in different repositories. Agent A writes a markdown message into repo B's a2a/ folder and pings B by SendMessage if it is running; B's SessionStart hook lists open messages, B acts on them, sets any reminders the message asks for in its own scheduler, and records what it did in the same file. For long tasks the sender keeps one living message current (revision: counter) and asks the reader to re-check it on an interval (watch: 30m). No server and no shared meeting place: the target repo's folder is the mailbox. Breakout (an idea that needs its own new repo) and same-repo handover are message kinds.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-22",
+    "slug": "dead-drop",
+    "created_date": "2026-10-22"
   },
   {
     "name": "Debugging",
@@ -2777,6 +2789,20 @@
     "created_date": "2026-04-18"
   },
   {
+    "name": "Hotkey Builder",
+    "url": "https://github.com/danielrosehill/Claude-Ubuntu-Hotkey-Builder",
+    "description": "Free-key finder + shortcut builder for Ubuntu: probe keys, audit bindings, bind text macros. Checks and installs ydotool/input-remapper, records lsusb IDs, finds non-conflicting keys across KDE, GNOME, input-remapper, keyd and hwdb, and binds by the route that works on X11 or Wayland, then verifies.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-22",
+    "slug": "hotkey-builder",
+    "created_date": "2026-10-22"
+  },
+  {
     "name": "How-To-MCP",
     "url": "https://github.com/danielrosehill/How-To-MCP",
     "description": "Guide for instructing AI agents on how to provision and manage MCP server connections according to user-specific preferences, with a tiered decision matrix.",
@@ -2793,20 +2819,6 @@
     "created_date": "2026-03-22"
   },
   {
-    "name": "HP5200 Printer",
-    "url": "https://github.com/danielrosehill/Claude-HP5200-Skill-plugin",
-    "description": "HP DeskJet 5200 printer and scanner operations \u2014 ink levels, color/B&W printing, scanning, auto-discovery.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-19",
-    "slug": "hp5200-printer",
-    "created_date": "2026-04-13"
-  },
-  {
     "name": "Html Email Designer",
     "url": "https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin",
     "description": "Design and build responsive HTML email templates using Foundation for Emails, Maizzle, or MJML. Framework-agnostic authoring with email-client compatibility baked in.",
@@ -2820,20 +2832,6 @@
     "added_date": "2026-04-21",
     "slug": "html-email-designer",
     "created_date": "2026-04-20"
-  },
-  {
-    "name": "Idea Breakout",
-    "url": "https://github.com/danielrosehill/Claude-Breakout",
-    "description": "Route an idea that surfaces mid-task but does not belong to the current repository into its own repo and its own agent, without derailing the work in flight. Uses the cross-session SendMessage/ListAgents layer for a push-model handoff \u2014 the seed brief is written to disk in the new repo and the message carries a pointer to it. Companion to interrupt-claude (same-repo interruption routing) and claude-hopper (session spawning and handover); breakout splits tracks rather than work or time. WIP.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-19",
-    "slug": "idea-breakout",
-    "created_date": "2026-08-12"
   },
   {
     "name": "Ideation Planning",
@@ -3623,6 +3621,20 @@
     "created_date": "2026-04-30"
   },
   {
+    "name": "Network Tmp",
+    "url": "https://github.com/danielrosehill/Claude-Network-Tmp-Plugin",
+    "description": "Overflow /tmp to a capped, self-wiping NFS share on a home server. For laptops whose /tmp is a small tmpfs (RAM) or whose disk is tight: an ext4 image exported over NFS, mounted on demand with a local-disk fallback, expired hourly after 24 h. Skills to set it up, route large temporary files there, and report and clean it.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-22",
+    "slug": "network-tmp",
+    "created_date": "2026-10-22"
+  },
+  {
     "name": "New Turn Claude Hook",
     "url": "https://github.com/danielrosehill/New-Turn-Claude-Hook",
     "description": "Tool that determines whether to continue an AI conversation or start fresh for optimal context.",
@@ -3737,6 +3749,20 @@
     "added_date": "2026-10-19",
     "slug": "obsidian-research-vault-template",
     "created_date": "2026-08-12"
+  },
+  {
+    "name": "Onepassword Feedback",
+    "url": "https://github.com/danielrosehill/Claude-1Password-Feedback-Plugin",
+    "description": "1Password feature requests, bug reports and Community posts: dedupe-search the forum and release notes, post Feature Request or [Bug] topics from your browser, reply to threads, and track them to shipped.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-22",
+    "slug": "onepassword-feedback",
+    "created_date": "2026-10-22"
   },
   {
     "name": "Opnsense Mgmt",
@@ -3871,6 +3897,20 @@
     "created_date": "2026-04-29"
   },
   {
+    "name": "Planning Docs",
+    "url": "https://github.com/danielrosehill/Claude-Planning-Docs-Plugin",
+    "description": "Keep a repo's decision log and plans lean: record numbered decisions, and compact old decisions and plans into in-place summaries so agents read the live state, not the history.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-22",
+    "slug": "planning-docs",
+    "created_date": "2026-10-22"
+  },
+  {
     "name": "Plugin Vault",
     "url": "https://github.com/danielrosehill/Claude-Vault",
     "description": "Meta-plugin for per-project activation of dormant plugins and MCP servers from a personal vault. Mitigates user-level eager skill description loading.",
@@ -3962,20 +4002,18 @@
     "created_date": "2026-04-27"
   },
   {
-    "name": "Repo Mgmt",
-    "url": "https://github.com/danielrosehill/Claude-Repo-Mgmt-Plugin",
-    "description": "Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, spin off breakaway or parallel-private repos; scan for dead remotes, missing clones, visibility risks, and stale archive candidates; bulk git ops across folders of clones plus an interactive PyQt6 prune GUI. Includes a preferences layer that remembers where different repo types live on disk. (PII scanning has moved to the standalone `pii-scanner` plugin.)",
+    "name": "Pseudospam Filter",
+    "url": "https://github.com/danielrosehill/Claude-Pseudospam-Filter-Plugin",
+    "description": "A second spam filter for pseudospam (outreach produced at scale, dressed up as personal): parallel Haiku judges taught by your own Gmail example labels, a review-queue label instead of deletion, a reply queue for genuine mail, plus sender blocks, unsubscribe replies and tracking-pixel/DNS blocking.",
     "tags": [
-      "Documentation",
-      "Plugin",
-      "Tool"
+      "Plugin"
     ],
     "category": "Plugins",
     "category_slug": "plugins",
     "category_group": "Technical",
-    "added_date": "2026-04-20",
-    "slug": "repo-mgmt",
-    "created_date": "2026-04-10"
+    "added_date": "2026-10-22",
+    "slug": "pseudospam-filter",
+    "created_date": "2026-10-22"
   },
   {
     "name": "Repo To Content",
@@ -4230,6 +4268,21 @@
     "created_date": "2026-04-16"
   },
   {
+    "name": "Skill Or Not",
+    "url": "https://github.com/danielrosehill/To-Skill-Or-Not-To-Skill",
+    "description": "Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it) plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
+    "tags": [
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-22",
+    "slug": "skill-or-not",
+    "created_date": "2026-10-22"
+  },
+  {
     "name": "Smart Home",
     "url": "https://github.com/danielrosehill/Claude-Smart-Home-Plugin",
     "description": "Smart home \u2014 Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.",
@@ -4312,20 +4365,6 @@
     "added_date": "2026-04-30",
     "slug": "sop-writer",
     "created_date": "2026-04-30"
-  },
-  {
-    "name": "Spamhole",
-    "url": "https://github.com/danielrosehill/Claude-SpamHole-Plugin",
-    "description": "AI-assisted defenses against pseudo-personalised wide-scrape outreach, AI-faked impersonation, and tracking-pixel surveillance. Capture spam to a personal corpus, analyse intent, suggest filter patterns, scan for tracking + ad-tracker pixels, draft unsubscribe replies, push server-side Gmail blocks via an email MCP, push DNS-level blocks to AdGuard Home, and contribute redacted findings to public anti-tracking lists. Bundles a stub AdGuard Home MCP.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-30",
-    "slug": "spamhole",
-    "created_date": "2026-03-27"
   },
   {
     "name": "Spec Led Certification",
@@ -4420,6 +4459,20 @@
     "added_date": "2026-04-16",
     "slug": "stack-search",
     "created_date": "2026-04-10"
+  },
+  {
+    "name": "Start Here",
+    "url": "https://github.com/danielrosehill/Start-Here",
+    "description": "Find, navigate and download Daniel Rosehill's GitHub repositories: search all 1,000+ public repos, find the curated topic index for a subject, and clone one repo or a filtered set. Reads the Start-Here index JSON instead of crawling GitHub.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-22",
+    "slug": "start-here",
+    "created_date": "2026-10-22"
   },
   {
     "name": "State Of Claude Context 0426",
@@ -4768,7 +4821,7 @@
   {
     "name": "User Memory",
     "url": "https://github.com/danielrosehill/Claude-User-Memory-Plugin",
-    "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.",
+    "description": "Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; defaults to the `memory` upstream on an MCP gateway, or bring your own memory MCP via a workspace memory-config.md.",
     "tags": [
       "Agent Workspace",
       "Plugin"

@@ -92,7 +92,7 @@ Meta-plugin for per-project activation of dormant plugins and MCP servers from a
 ### User Memory
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-User-Memory-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; bring your own memory MCP (Pinecone, Mem0, or other) via a workspace memory-config.md.
+Backend-agnostic persistent user memory for Claude Code. Ships a save/recall/commit contract with personal/work context routing; defaults to the `memory` upstream on an MCP gateway, or bring your own memory MCP via a workspace memory-config.md.
 
 ---
 
@@ -269,13 +269,6 @@ Organising therapy reflections — pre/post-session notes, goal tracking, and tu
 
 ## Home & Hardware
 
-### HP5200 Printer
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-HP DeskJet 5200 printer and scanner operations — ink levels, color/B&W printing, scanning, auto-discovery.
-
----
-
 ### Smart Home
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Smart-Home-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -294,17 +287,19 @@ Filesystem organisation — scan, dedupe, cleanup, rename, sort for local direct
 
 ## MCP & Infrastructure
 
-### Agent Relay
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Direct agent-to-agent communication and coordination within a LAN. Two Claude instances on different machines exchange messages and files via a shared MCP relay server. Includes the relay server (Python/FastMCP, SQLite, content-addressed blob storage) and skills to deploy and connect clients. Trust-based, LAN-scoped.
-
----
-
 ### Unofficial MCP Builder
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Unofficial-MCP-Builder-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Author and maintain unofficial MCP servers for third-party APIs that don't ship one. Generate a server from the vendor's API docs verified against the live API with your own key, detect upstream drift on a schedule, and smoke-test against real operations. Bound by a committed api-surface.yaml recording what the API actually does versus what its docs claim. Publishes to npm.
+
+---
+
+## 1password
+
+### Onepassword Feedback
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-1Password-Feedback-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+1Password feature requests, bug reports and Community posts: dedupe-search the forum and release notes, post Feature Request or [Bug] topics from your browser, reply to threads, and track them to shipped.
 
 ---
 
@@ -317,12 +312,21 @@ ADB (Android Debug Bridge) operations — onboard a phone, map folders, import m
 
 ---
 
+## Adguard
+
+### Pseudospam Filter
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Pseudospam-Filter-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+A second spam filter for pseudospam (outreach produced at scale, dressed up as personal): parallel Haiku judges taught by your own Gmail example labels, a review-queue label instead of deletion, a reply queue for genuine mail, plus sender blocks, unsubscribe replies and tracking-pixel/DNS blocking.
+
+---
+
 ## Agent To Agent
 
-### Idea Breakout
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Breakout) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Dead Drop
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Dead-Drop) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Route an idea that surfaces mid-task but does not belong to the current repository into its own repo and its own agent, without derailing the work in flight. Uses the cross-session SendMessage/ListAgents layer for a push-model handoff — the seed brief is written to disk in the new repo and the message carries a pointer to it. Companion to interrupt-claude (same-repo interruption routing) and claude-hopper (session spawning and handover); breakout splits tracks rather than work or time. WIP.
+Asynchronous agent-to-agent messages between Claude Code sessions working in different repositories. Agent A writes a markdown message into repo B's a2a/ folder and pings B by SendMessage if it is running; B's SessionStart hook lists open messages, B acts on them, sets any reminders the message asks for in its own scheduler, and records what it did in the same file. For long tasks the sender keeps one living message current (revision: counter) and asks the reader to re-check it on an interval (watch: 30m). No server and no shared meeting place: the target repo's folder is the mailbox. Breakout (an idea that needs its own new repo) and same-repo handover are message kinds.
 
 ---
 
@@ -350,6 +354,15 @@ AliExpress shopping skills for Israel-based buyers — Choice-first search in IL
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Report-Analyst-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Skeptical analyst toolkit for long reports — READ/SKIM/SKIP verdicts, structured extraction (arguments, findings, stats, case studies, key snippets), and an opinionated executive summary. Built-in Jaded Report Reader persona that refuses credit for filler.
+
+---
+
+## Avp
+
+### Avp Music Video
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-AVP-Music-Video-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Audio → branded music video (avp): waveform, logo, karaoke. Install audio-visualizer-python, pull logo/colours/font from a repo into a brand kit, render an MP3 (e.g. from Suno) through JSON templates (waveform, spectrum bars, logo pulse, 9:16), burn in karaoke lyrics from LRC/SRT, and encode small with AV1 by default.
 
 ---
 
@@ -613,6 +626,15 @@ Send email in right-to-left scripts (Hebrew, Arabic, Farsi, Urdu) that actually 
 
 ---
 
+## Exchange
+
+### Agent Exchange
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Agent-Exchange) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Two-way file exchange between you and Claude: from-human/ and from-agent/ folders, a CLAUDE.md block so Claude uses them unprompted, and a small explorer app (with launcher) locked to that folder, with new-file badges and read receipts.
+
+---
+
 ## Fine Tuning
 
 ### Custom Model Planning
@@ -681,10 +703,10 @@ Semantic GitHub repo discovery for reusable components. Search, rank, overview, 
 
 ---
 
-### Repo Mgmt
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Mgmt-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Start Here
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Start-Here) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Repository management toolkit: organise and dedupe local repos, retrofit codebases with AI agent primitives, janitor-style cleanup, convert to Claude plugins, spin off breakaway or parallel-private repos; scan for dead remotes, missing clones, visibility risks, and stale archive candidates; bulk git ops across folders of clones plus an interactive PyQt6 prune GUI. Includes a preferences layer that remembers where different repo types live on disk. (PII scanning has moved to the standalone `pii-scanner` plugin.)
+Find, navigate and download Daniel Rosehill's GitHub repositories: search all 1,000+ public repos, find the curated topic index for a subject, and clone one repo or a filtered set. Reads the Start-Here index JSON instead of crawling GitHub.
 
 ---
 
@@ -891,6 +913,13 @@ Manage Easy Effects on Linux: maintain a preset library, install/export presets,
 
 ---
 
+### Hotkey Builder
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Ubuntu-Hotkey-Builder) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Free-key finder + shortcut builder for Ubuntu: probe keys, audit bindings, bind text macros. Checks and installs ydotool/input-remapper, records lsusb IDs, finds non-conflicting keys across KDE, GNOME, input-remapper, keyd and hwdb, and binds by the route that works on X11 or Wayland, then verifies.
+
+---
+
 ### Keyboard Scanner
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Keyboard-Scanner) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1051,13 +1080,6 @@ Conda environments — list, validate, compare, back up, audit and clean up envi
 
 ---
 
-### Context Toolkit
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/context-toolkit-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-A comprehensive toolkit implementing the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings, bridging natural expression and AI-optimized formats.
-
----
-
 ### Diary Planner
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/diary-planner-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1197,6 +1219,13 @@ Nudges Claude to document decisions, todos, sprints, and handovers into a struct
 
 ---
 
+### Planning Docs
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Planning-Docs-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Keep a repo's decision log and plans lean: record numbered decisions, and compact old decisions and plans into in-place summaries so agents read the live state, not the history.
+
+---
+
 ## Plugin Authoring
 
 ### Site Skill Builder
@@ -1278,6 +1307,15 @@ Capture geo-restricted web content (articles, prices) via the user's own localho
 
 ---
 
+## Skills
+
+### Skill Or Not
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/To-Skill-Or-Not-To-Skill) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it) plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.
+
+---
+
 ## Sop
 
 ### Sop Library
@@ -1291,15 +1329,6 @@ Keep your own standard operating procedures — the recurring things you do a pa
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-SOP-Writer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Project-scoped authoring tools for Standard Operating Procedures and decision flowcharts. Scaffold from templates, embed Mermaid/D2 diagrams, compile to printable PDFs via Typst, and assemble multi-document binders with TOC and page numbers.
-
----
-
-## Spam
-
-### Spamhole
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-SpamHole-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-AI-assisted defenses against pseudo-personalised wide-scrape outreach, AI-faked impersonation, and tracking-pixel surveillance. Capture spam to a personal corpus, analyse intent, suggest filter patterns, scan for tracking + ad-tracker pixels, draft unsubscribe replies, push server-side Gmail blocks via an email MCP, push DNS-level blocks to AdGuard Home, and contribute redacted findings to public anti-tracking lists. Bundles a stub AdGuard Home MCP.
 
 ---
 
@@ -1390,6 +1419,15 @@ Rewrite text in deliberately ridiculous styles — Shakespearean, medieval, arch
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Timemark-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Timemark stamp-camera photo import that recovers the field data the app withholds. No Timemark export carries both the full-resolution image and the values, so imports are gated on having the originals and the Photosheet XLSX, then joined on capture timestamp. Outputs are XMP burned into the files or a self-contained archive of images, JSON sidecars and an index.
+
+---
+
+## Tmp
+
+### Network Tmp
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Network-Tmp-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Overflow /tmp to a capped, self-wiping NFS share on a home server. For laptops whose /tmp is a small tmpfs (RAM) or whose disk is tight: an ext4 image exported over NFS, mounted on demand with a local-disk fallback, expired hourly after 24 h. Skills to set it up, route large temporary files there, and report and clean it.
 
 ---
 

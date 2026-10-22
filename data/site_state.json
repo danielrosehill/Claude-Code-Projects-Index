@@ -1,15 +1,15 @@
 {
-  "last_built": "2026-10-21T18:54:19",
-  "total_repos": 327,
+  "last_built": "2026-10-22T22:02:01",
+  "total_repos": 331,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
     "Agent Briefing Gateway": "cc9e87f4bfb30ef852462d6bf06460eb",
     "Agent Context Harness": "ee2f630bc3b45e3f9bf4349aac74eef0",
+    "Agent Exchange": "a4515eea6600fbe906d160f4b4183244",
     "Agent Handover Demo": "29a6e948debe2bc8324f8dfb9205a2a7",
     "Agent Junction": "e4a3472c566c421a3ae0e4c6b3dc3276",
     "Agent Reference Workflows": "84249bc123e362edad3c10742c0df7f4",
-    "Agent Relay": "f4a7b8b64940d03266a1bc699c7c039d",
     "Agent-Assisted Purchase Research Index": "a0a3dcfe225e5f6f0d67af3b04f8dca0",
     "Agentic Book Writing": "b784e2fb846e277f67eb8e3201627578",
     "Agentic Purchase Pipeline": "46ed227ea875479d33200d3ea2160293",
@@ -35,6 +35,7 @@
     "Anonymisation Assistant": "e597173846d1bb39612647c5b49e9e6a",
     "Audio Production": "cf30b214be46f858a187eec9108eff26",
     "Audio Voice Id": "842dbb86ff21e351f1acf9ea183080ba",
+    "Avp Music Video": "611250c44dacf459e91673e4a98fc4c2",
     "Background Removal": "c767b293ede07ee91ac10d3821b4e84e",
     "Backup Planner": "6d71b5559a4988abc7d0ef406089c001",
     "Bash Alias Manager Claude": "22b7f92646f7baf85170424537d3512b",
@@ -131,7 +132,6 @@
     "Contact Support": "e89313bf35f3be344e51b02f5f23f2f6",
     "Content Writing": "ca04e748822a52daccd217f2c345b0fd",
     "Context File Tester": "982361ee7e1baaf556e3cd55ef6c113d",
-    "Context Toolkit": "ce1e59b48c150891fe34e334cb81a434",
     "CONTEXT.md": "ce976b6647ab119eaa221a75c948adfb",
     "Cool Claude Code Stuff": "2f55aa29b1e2494720692bbabf23be78",
     "Copyq Scripting": "1b01a6b99355e7331f07f721e87c2a10",
@@ -141,6 +141,7 @@
     "Data Annotation": "5a29664b94aed82804d16bf7a5c4830e",
     "Data Visualisation And Publishing": "df8495ad6f5f3ae65685ba67aa574826",
     "Data Wrangler": "6adc5a7c8d88b06511d4c43a8d99cacd",
+    "Dead Drop": "1dc9b01fddebbb53c0df5a2adbe75f90",
     "Debugging": "e7e1b5067a5cd1a87b08bb4f65c473da",
     "Decision Evaluation Framework": "4b92ef13f512620aab55a9d67077b4c7",
     "Declaude": "d65e21c47285dc215b1898443438bb31",
@@ -188,10 +189,9 @@
     "Home Assistant Mgmt": "e0969d8c4b1ed27ce6d7e2e381d0078a",
     "Home Folder Claude MD": "8e7493a949dd49650b312776b34a557f",
     "Home Media Planner": "fdb3bf5ea0542063d6a49b710970b326",
+    "Hotkey Builder": "c5746ef6a6025ff47a8ebdc9d32533b3",
     "How-To-MCP": "5b50f1d411b6effa9a00c14457a6383d",
-    "HP5200 Printer": "3d03d4c1fb3fc090db8735242de04959",
     "Html Email Designer": "7c0eceb8bde7d5bc3c6c4bb1e6fdf094",
-    "Idea Breakout": "339f983dde38b03ce9dbfc76535fb04e",
     "Ideation Planning": "cce213dee7e20f23ecf74b51ace6c18b",
     "Ikea Israel": "6007b18ce7c9d22d95a9bc53178871ee",
     "Image Annotation": "b47aed5ace3de158afeb66fd7ac16da8",
@@ -245,6 +245,7 @@
     "Nano Tech Diagrams": "871043c43dd20d766119f7c13be34ef5",
     "Netek Disconnect": "c2a61c0ac564fed716bfe90307d9fd75",
     "Network Cups": "db99001e9330e0478bef1f76a0545e98",
+    "Network Tmp": "cf7be0d2bfbbdc5f87caab4335158a7a",
     "New Turn Claude Hook": "69e06775261d47a540621131a3097e03",
     "Nfc Ops": "5544aa35d39ac7d727060b9f01fb74e5",
     "No Wheel Inventions": "614fc5725b5efc3d6fedb8b58a65f35d",
@@ -253,6 +254,7 @@
     "Obd Diagnostics": "38855030276e0fe3191602de86e4ff0f",
     "Obs Mgmt": "291a8e8da5ff6a10742e760d9b317134",
     "Obsidian Research Vault Template": "d5a19744fe579b919417bf2c03155cda",
+    "Onepassword Feedback": "0688bcc44b7a674308bebebd7a4298d1",
     "Opnsense Mgmt": "89c7b8fbf6e6ff6dd6cfe2ea4a45aa11",
     "Os Sync Agent": "f7a275ef525ad89bd6e4cf4f19d565c1",
     "Panel Of Claude": "1b6d7bf8a1abef8eee45423b4c389f7e",
@@ -262,13 +264,14 @@
     "Perspective Finder Prompt": "4d4cfbac30d8f064e291934e8e32ca4a",
     "Pii Scanner": "3fc6f5713c1b4d3a89e965e6df4c2c6f",
     "Pipewire Audio": "579c0230ef9b687b967a9619063c1e00",
+    "Planning Docs": "fe3fde7f7a1a2588bcdb2b48f090e88c",
     "Plugin Vault": "f087cc7a66bec4e08c1e3f63b1d52a97",
     "PR & Media Work": "344e9495f091a75a7ee98f8813a8cf07",
     "Private And Public Claude MD": "9ce45ac8195ae67866f3328dcbcc0797",
     "Procurement Tools": "a9cd327e64a00eac051b6c491f7cd219",
     "Programmatic Doc Generation": "213cb643413b00dc56f68d2af85f0a3e",
     "Proxmox Mgmt": "8352d6cf5ebe933848c0d9e107058874",
-    "Repo Mgmt": "17a04162fdf9f11e22d7c7e9c8f6dffc",
+    "Pseudospam Filter": "a84a6a3bdb9604923613d6e89605bb7a",
     "Repo To Content": "d11de6b0fa6f92c5f90fbbe171d9301c",
     "Report Analyst": "9a8dcbe58d47d4d6c27e2b1b1c97ec2a",
     "Research Space": "213a469c75ea32deae4bfa1a6a300212",
@@ -286,19 +289,20 @@
     "Shopping": "bd1b20741df42f76d9702be42ee56d87",
     "Site Skill Builder": "a18a6c16517d2b75e3c8bb00b7b240c3",
     "Skill Creation Research": "88f0c50ab8e90e60823d055a1fcf2523",
+    "Skill Or Not": "45c59af228dc8ba09b4cb49d8e188b00",
     "Smart Home": "7b09f9bd419aae845ed47c4cb3eb93e3",
     "Smithery Claude Code MCP Jumpstarter": "01f067df002274e3998e42b9d019b8f5",
     "Snap It": "8870924ec11cff9758a741ae306599c0",
     "Social Feedback": "3eca5fe20d7b8de6a4c5ddbe4bbf0e10",
     "Sop Library": "e5fc7c83a15343e3ed223fabc939c244",
     "Sop Writer": "5e51471ac1c5f43bb6c36883fad54e1c",
-    "Spamhole": "bce866ed6bcd49b06fddeff4c12193bc",
     "Spec Led Certification": "3b0542b21c3e252f8442d052501f2caa",
     "Spec Starter": "f8b138138d87d12bb0a5ccd4922d42d2",
     "Split Claude MD Pattern": "a10a8366f7d3f0ab45c0dbe2ec00f316",
     "Split Context Setup": "92247254197c7fcbb1be67f1aadb5f19",
     "Stack Evaluator": "09e98f857f67754bc9f94e4eeb113ea3",
     "Stack Search": "5ad9af4e661a091610be8e7d0aa6222a",
+    "Start Here": "18253756df1c9f8adde5c4777e128453",
     "State Of Claude Context 0426": "d1954ace494ebcf5c241dc0518ff125e",
     "Style Switcher": "a19ce335d9769ba05a27a69176b924b5",
     "Synology Manager Plugin": "ef37282d35d5dddfe8c21c5f053e88a5",
@@ -322,7 +326,7 @@
     "Unofficial MCP Builder": "48c02b5797a3f35b1a981eae86f7d984",
     "User Context File": "be91631aa141bcb4b5c3c43cef1c198b",
     "User Manual": "034955400a0aca14580b1248ca4f1d2b",
-    "User Memory": "21c80bfd4c4bd374c65fac1210c67da5",
+    "User Memory": "911261b9942daebab26c7ee291a10244",
     "Userscript Development": "73c1a32f92b4a3416d9896de76076d16",
     "Video Editing": "f092452f563bf0f6678583f0a04a5bcf",
     "Visual Communications": "3dadd30a17d80a1950b203101223e273",
@@ -332,24 +336,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T18:45:44",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Gimp"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Task Queuer"
-          ]
-        }
-      ],
-      "total_repos": 149
-    },
     {
       "date": "2026-04-30T19:00:19",
       "changes": [
@@ -2530,6 +2516,44 @@
         }
       ],
       "total_repos": 327
+    },
+    {
+      "date": "2026-10-22T22:02:01",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Agent Exchange",
+            "Avp Music Video",
+            "Dead Drop",
+            "Hotkey Builder",
+            "Network Tmp",
+            "Onepassword Feedback",
+            "Planning Docs",
+            "Pseudospam Filter",
+            "Skill Or Not",
+            "Start Here"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Agent Relay",
+            "Context Toolkit",
+            "HP5200 Printer",
+            "Idea Breakout",
+            "Repo Mgmt",
+            "Spamhole"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "User Memory"
+          ]
+        }
+      ],
+      "total_repos": 331
     }
   ]
 }
