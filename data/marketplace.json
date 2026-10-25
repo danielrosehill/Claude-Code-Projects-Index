@@ -2090,9 +2090,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-KDE-Agent-Workspace-Plugin"
       },
-      "description": "Give Claude its own KDE Plasma desktop to test apps in. Creates a \"Claude\" or \"AI Agents\" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture \u2014 without taking over the user's screen \u2014 and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+).",
+      "description": "Give Claude its own KDE Plasma desktop to test apps in. Creates a \"Claude\" or \"AI Agents\" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture \u2014 without taking over the user's screen \u2014 and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+). Or test in a headless sandbox KWin on a private bus, off your screen entirely.",
       "category": "Linux Sysadmin",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4308,6 +4308,32 @@
         "quadrant",
         "typst",
         "markdown"
+      ]
+    },
+    {
+      "name": "session-restore",
+      "displayName": "Session Restore",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Session-Restore"
+      },
+      "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also restores the last N or picked sessions.",
+      "category": "QA & Agent Sessions",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "session",
+        "restore",
+        "resume",
+        "crash-recovery",
+        "konsole",
+        "kde",
+        "terminal"
       ]
     }
   ]

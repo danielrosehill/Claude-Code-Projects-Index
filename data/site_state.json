@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-10-25T12:32:20",
-  "total_repos": 329,
+  "last_built": "2026-10-25T15:38:47",
+  "total_repos": 330,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -209,7 +209,7 @@
     "Jewish Utilities": "27378f97a5a4123851b15dde88976153",
     "Kaizen": "167068d1bd01adc2c1a544c1f811e290",
     "Kaizen Please": "ff81fffee9ffe5b728e24afeea973dac",
-    "Kde Agent Workspace": "3c0fe511ca4468be1337b838ac45cd84",
+    "Kde Agent Workspace": "f4f091af920aa5460ab517ffe05c0204",
     "KDE Claude Runner": "4f9e1b5182bbc9c1a360e8585d71dc0e",
     "Kde Plasma": "26e1381701d7284bf4bd447131c8345c",
     "Kde Plasmoid Dev": "889a56701582aa93f4e588a09c205e67",
@@ -283,6 +283,7 @@
     "Security Auditor": "77317fdc048c7c0e5682c6980b34894a",
     "Server Management Plugin": "f1f0f1f09e8834f41cb0a8e80657c04a",
     "Session Hopper": "0dc2f0ecb995ba5319ab83c4e971d2e4",
+    "Session Restore": "77b9218945344b6f3c4e5be3ad292ff4",
     "Shopping": "bd1b20741df42f76d9702be42ee56d87",
     "Site Skill Builder": "a18a6c16517d2b75e3c8bb00b7b240c3",
     "Skill Creation Research": "88f0c50ab8e90e60823d055a1fcf2523",
@@ -334,24 +335,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T20:13:33",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Batch Optical Archivist"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Github Explorer"
-          ]
-        }
-      ],
-      "total_repos": 151
-    },
     {
       "date": "2026-04-30T21:28:09",
       "changes": [
@@ -2572,6 +2555,24 @@
         }
       ],
       "total_repos": 329
+    },
+    {
+      "date": "2026-10-25T15:38:47",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Session Restore"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Kde Agent Workspace"
+          ]
+        }
+      ],
+      "total_repos": 330
     }
   ]
 }

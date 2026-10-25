@@ -3094,7 +3094,7 @@
   {
     "name": "Kde Agent Workspace",
     "url": "https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin",
-    "description": "Give Claude its own KDE Plasma desktop to test apps in. Creates a \"Claude\" or \"AI Agents\" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture \u2014 without taking over the user's screen \u2014 and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+).",
+    "description": "Give Claude its own KDE Plasma desktop to test apps in. Creates a \"Claude\" or \"AI Agents\" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture \u2014 without taking over the user's screen \u2014 and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+). Or test in a headless sandbox KWin on a private bus, off your screen entirely.",
     "tags": [
       "Agent Workspace",
       "Plugin",
@@ -4174,6 +4174,20 @@
     "added_date": "2026-10-19",
     "slug": "session-hopper",
     "created_date": "2026-04-29"
+  },
+  {
+    "name": "Session Restore",
+    "url": "https://github.com/danielrosehill/Session-Restore",
+    "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also restores the last N or picked sessions.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-25",
+    "slug": "session-restore",
+    "created_date": "2026-10-25"
   },
   {
     "name": "Shopping",

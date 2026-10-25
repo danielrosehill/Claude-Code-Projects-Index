@@ -849,7 +849,7 @@ Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR"A + MG"
 ### Kde Agent Workspace
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Give Claude its own KDE Plasma desktop to test apps in. Creates a "Claude" or "AI Agents" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture — without taking over the user's screen — and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+).
+Give Claude its own KDE Plasma desktop to test apps in. Creates a "Claude" or "AI Agents" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture — without taking over the user's screen — and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+). Or test in a headless sandbox KWin on a private bus, off your screen entirely.
 
 ---
 
@@ -1282,6 +1282,15 @@ Manage a resume as JSON Resume schema data and render it with custom Typst templ
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Capture geo-restricted web content (articles, prices) via the user's own localhost so requests exit via the user's IP. Headless-first escalation ladder (Scrapling static -> stealth -> Playwright -> real Chrome via bb-browser). Project-local save (in-repo captures/) with global fallback. Batch capture with human + agent summaries, Typst PDF compilation, and arbitrary-language capture+translate (default Hebrew -> English).
+
+---
+
+## Session
+
+### Session Restore
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Session-Restore) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also restores the last N or picked sessions.
 
 ---
 
