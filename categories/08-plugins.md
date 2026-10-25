@@ -22,20 +22,6 @@ Register machines and run repeatable Claude-Code-driven security audits over SSH
 
 ---
 
-### Security Checkup
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Security-Checkup-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Security and compliance — vulnerability scanning, system hardening, config audits.
-
----
-
-### Sysadmin Homelab
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Sysadmin-Homelab-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Sysadmin and homelab — diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.
-
----
-
 ## Development & Debugging
 
 ### Debugging
@@ -63,6 +49,13 @@ Dev-tools — scaffold repos, multi-agent QA review, templatize. Session-handove
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Kaizen) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Kaizen for mature codebases: atomic improvements, one commit each, tracked pass by pass from a baseline. Init, intake, step, pass skills.
+
+---
+
+### Kaizen Please
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Kaizen-Please) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Kaizen for any project, not just code: small steps, a shared journal, reviews, the agent's Kaizen thoughts as PDF.
 
 ---
 
@@ -294,15 +287,6 @@ Author and maintain unofficial MCP servers for third-party APIs that don't ship 
 
 ---
 
-## 1password
-
-### Onepassword Feedback
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-1Password-Feedback-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-1Password feature requests, bug reports and Community posts: dedupe-search the forum and release notes, post Feature Request or [Bug] topics from your browser, reply to threads, and track them to shipped.
-
----
-
 ## Adb
 
 ### Adb Ops
@@ -449,13 +433,6 @@ Import a ChatGPT conversation into local files via the browser. Captures the ful
 
 ## Claude Code
 
-### Feedback Filer
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Feedback) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.
-
----
-
 ### Rudder
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Rudder) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -490,6 +467,15 @@ Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/User-Claude-MD-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory — audit, chunk, list, and edit global Claude Code user context for token efficiency.
+
+---
+
+## Comparison
+
+### Comparison Artifacts
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Comparison-Artifacts) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Software evaluation tables, scoring and quadrants: tick/cross or short-descriptor feature tables, weighted scoring from your stated priorities, and 2x2 quadrant charts, rendered to Markdown, Typst or SVG from one data file and written into the document you're drafting.
 
 ---
 
@@ -682,13 +668,6 @@ Bare-bones GIMP CLI wrapper for Linux: detect install (native/Flatpak/Snap/AppIm
 
 ## Github
 
-### Gh Ops
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-GH-Ops-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-GitHub repo primitives and cleanup: exists, visibility, create, full listing without truncation, PAT-backed delete that never asks for gh auth refresh, and stale-repo triage with a multi-select menu.
-
----
-
 ### Gist Writer
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Gist-Writer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -728,6 +707,15 @@ Operational commands and a skill for working with the Green Invoice MCP server �
 
 ---
 
+## Habits
+
+### Habits
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agent-Habits) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Habits (rules, always-on or triggered) and SOPs (procedures) as one markdown file each, in a private folder, with one small CLAUDE.md block. Library of example habits to adopt. Replaces sop-library.
+
+---
+
 ## Hardware
 
 ### Hardware Id Annotation
@@ -750,6 +738,15 @@ Define hardware project BOMs with ESP32-first focus — onboarding captures loca
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Home-Assistant-Mgmt-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Manage a Home Assistant instance via SSH and the HA REST API — guided first-run onboarding, automation/entity authoring, service calls, TTS testing, and log review. Per-host config is stored outside the plugin so the same install works across multiple Home Assistant environments.
+
+---
+
+## Hooks
+
+### New Task Split
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/New-Task-Split) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Auto-/clear on a new task: local ONNX classifier moves unrelated prompts to a fresh session. claudehook trial launcher, install, toggle, update-model, remove.
 
 ---
 
@@ -924,13 +921,6 @@ Free-key finder + shortcut builder for Ubuntu: probe keys, audit bindings, bind 
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Keyboard-Scanner) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Profile Linux keyboards, scan keycodes, and surface underused keys for remapping. Walks intake → keycode dump (xmodmap/XKB/evdev/libinput, X11 + Wayland) → tailored remap suggestions referencing keyd, kmonad, xremap, xmodmap, xbindkeys, input-remapper, autokey.
-
----
-
-### Linux Av Manager
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Manage antivirus, rootkit-detection, and UFW host firewall on a Linux desktop — install ClamAV/ClamTk/rkhunter (core) plus optional advanced tools (Lynis, chkrootkit, AIDE, debsecan), keep definitions current, run scans, schedule periodic runs, and configure conservative desktop-tuned UFW rules. Scan results stored in a user-defined folder set up on first run.
 
 ---
 
@@ -1143,20 +1133,6 @@ Learning resources, skill development, educational content creation and knowledg
 
 ---
 
-### Linux Desktop Mgmt
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/linux-desktop-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Linux desktop management — KDE/Plasma configuration and desktop system administration.
-
----
-
-### Linux Server Mgmt
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/linux-server-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Linux server administration — service management and server infrastructure workflows.
-
----
-
 ### Mqtt Observability
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/mqtt-observability-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1318,13 +1294,6 @@ Ask 'should this become a skill?' before every task: a five-step checklist (repe
 
 ## Sop
 
-### Sop Library
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-SOPs) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Keep your own standard operating procedures — the recurring things you do a particular way — as a private, versioned library of markdown files the agent reads on demand and follows. Distinct from sop-writer, which authors printed SOP documents for other people; these are procedures an agent executes. One delimited block in your CLAUDE.md points at the library, a generated INDEX.md carries id, title and a 'use when' trigger for each procedure, and exactly one file is read once a situation matches — so a library of forty procedures costs one table to consult rather than forty resident skill descriptions. Seven skills cover setup, run, write, edit, list, retire and sync. Procedures live in ~/.claude-user-data/sops/ as flat readable files inside a private git repo, mirrored across machines; the plugin repo never holds one. Each SOP declares an autonomy level (auto, confirm, confirm-each, manual) that records a default rather than granting permission, and a last_verified date meaning the procedure was seen to work rather than that the file was edited.
-
----
-
 ### Sop Writer
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-SOP-Writer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1467,12 +1436,37 @@ Build programmatic document generation pipelines — Typst templates for local b
 
 ---
 
+## Ubuntu
+
+### Ubuntu Admin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Ubuntu-Admin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Administer Ubuntu machines, desktop or server, locally or over SSH: health and diagnosis, packages (apt/snap/flatpak), systemd services and logs, Docker, storage and backups, networking, hardware and GPU drivers, displays, fonts, codecs, shell and dev environments. Supersedes linux-desktop-mgmt, linux-server-mgmt and sysadmin-homelab.
+
+---
+
+### Ubuntu Security
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Ubuntu-Security) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, YubiKey and fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.
+
+---
+
 ## Userscript
 
 ### Userscript Development
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Userscript-Development-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Develop, test, and publish Tampermonkey userscripts — scaffolding, in-browser validation via Claude in Chrome, README generation, and version bumping.
+
+---
+
+## Vendor
+
+### Vendor Liaison
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Vendor-Liaison) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Report bugs, request features, disclose security to vendors: per-vendor channel data with routing rules, a private overlay for your preferred channels and personal contacts, duplicate checks before filing. Vendors: Claude Code, 1Password, Whisperian.
 
 ---
 

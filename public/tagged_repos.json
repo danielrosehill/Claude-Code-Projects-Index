@@ -1862,6 +1862,20 @@
     "created_date": "2026-03-24"
   },
   {
+    "name": "Comparison Artifacts",
+    "url": "https://github.com/danielrosehill/Comparison-Artifacts",
+    "description": "Software evaluation tables, scoring and quadrants: tick/cross or short-descriptor feature tables, weighted scoring from your stated priorities, and 2x2 quadrant charts, rendered to Markdown, Typst or SVG from one data file and written into the document you're drafting.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-25",
+    "slug": "comparison-artifacts",
+    "created_date": "2026-10-25"
+  },
+  {
     "name": "Conda Management Plugin",
     "url": "https://github.com/danielrosehill/conda-management-plugin",
     "description": "Early standalone Claude Code plugin with slash commands for managing Conda environments and packages.",
@@ -2417,22 +2431,6 @@
     "created_date": "2026-04-30"
   },
   {
-    "name": "Feedback Filer",
-    "url": "https://github.com/danielrosehill/Claude-Code-Feedback",
-    "description": "File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.",
-    "tags": [
-      "Documentation",
-      "Plugin",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-19",
-    "slug": "feedback-filer",
-    "created_date": "2026-04-20"
-  },
-  {
     "name": "Filesystem Organisation",
     "url": "https://github.com/danielrosehill/filesystem-org-plugin",
     "description": "File system organisation \u2014 folder structure optimisation and file management automation.",
@@ -2518,20 +2516,6 @@
     "added_date": "2026-04-30",
     "slug": "get-toony",
     "created_date": "2026-04-30"
-  },
-  {
-    "name": "Gh Ops",
-    "url": "https://github.com/danielrosehill/Claude-GH-Ops-Plugin",
-    "description": "GitHub repo primitives and cleanup: exists, visibility, create, full listing without truncation, PAT-backed delete that never asks for gh auth refresh, and stale-repo triage with a multi-select menu.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-21",
-    "slug": "gh-ops",
-    "created_date": "2026-10-21"
   },
   {
     "name": "Gimp",
@@ -2682,6 +2666,20 @@
     "added_date": "2026-04-20",
     "slug": "greeninvoice-ops",
     "created_date": "2026-04-20"
+  },
+  {
+    "name": "Habits",
+    "url": "https://github.com/danielrosehill/Agent-Habits",
+    "description": "Habits (rules, always-on or triggered) and SOPs (procedures) as one markdown file each, in a private folder, with one small CLAUDE.md block. Library of example habits to adopt. Replaces sop-library.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-25",
+    "slug": "habits",
+    "created_date": "2026-10-25"
   },
   {
     "name": "Habits Of Claude",
@@ -3080,6 +3078,20 @@
     "created_date": "2026-10-08"
   },
   {
+    "name": "Kaizen Please",
+    "url": "https://github.com/danielrosehill/Kaizen-Please",
+    "description": "Kaizen for any project, not just code: small steps, a shared journal, reviews, the agent's Kaizen thoughts as PDF.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-25",
+    "slug": "kaizen-please",
+    "created_date": "2026-10-25"
+  },
+  {
     "name": "Kde Agent Workspace",
     "url": "https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin",
     "description": "Give Claude its own KDE Plasma desktop to test apps in. Creates a \"Claude\" or \"AI Agents\" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture \u2014 without taking over the user's screen \u2014 and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+).",
@@ -3255,21 +3267,6 @@
     "created_date": "2026-04-30"
   },
   {
-    "name": "Linux Av Manager",
-    "url": "https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin",
-    "description": "Manage antivirus, rootkit-detection, and UFW host firewall on a Linux desktop \u2014 install ClamAV/ClamTk/rkhunter (core) plus optional advanced tools (Lynis, chkrootkit, AIDE, debsecan), keep definitions current, run scans, schedule periodic runs, and configure conservative desktop-tuned UFW rules. Scan results stored in a user-defined folder set up on first run.",
-    "tags": [
-      "Agent Workspace",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-05-03",
-    "slug": "linux-av-manager",
-    "created_date": "2026-05-03"
-  },
-  {
     "name": "Linux Bt",
     "url": "https://github.com/danielrosehill/Claude-Linux-BT-Plugin",
     "description": "Bluetooth on Linux from the command line, because the desktop pairing dialogs are unreliable. Diagnose the adapter, scan, pair + trust + connect in one non-interactive bluetoothctl session, manage known devices (connect, disconnect, forget, battery) and reset the stack.",
@@ -3314,21 +3311,6 @@
     "created_date": "2025-10-25"
   },
   {
-    "name": "Linux Desktop Mgmt",
-    "url": "https://github.com/danielrosehill/linux-desktop-plugin",
-    "description": "Linux desktop management \u2014 KDE/Plasma configuration and desktop system administration.",
-    "tags": [
-      "Configuration",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-08",
-    "slug": "linux-desktop-mgmt",
-    "created_date": "2025-11-15"
-  },
-  {
     "name": "Linux Packaging",
     "url": "https://github.com/danielrosehill/Linux-Packaging-Plugin",
     "description": "Linux packaging and release workflows \u2014 Debian/.deb builds, npm publishing, GitHub release creation, agent deploy scripts, and local debugging",
@@ -3342,21 +3324,6 @@
     "added_date": "2026-04-27",
     "slug": "linux-packaging",
     "created_date": "2026-04-27"
-  },
-  {
-    "name": "Linux Server Mgmt",
-    "url": "https://github.com/danielrosehill/linux-server-plugin",
-    "description": "Linux server administration \u2014 service management and server infrastructure workflows.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-08",
-    "slug": "linux-server-mgmt",
-    "created_date": "2025-11-15"
   },
   {
     "name": "Linux System Optimisation",
@@ -3635,6 +3602,20 @@
     "created_date": "2026-10-22"
   },
   {
+    "name": "New Task Split",
+    "url": "https://github.com/danielrosehill/New-Task-Split",
+    "description": "Auto-/clear on a new task: local ONNX classifier moves unrelated prompts to a fresh session. claudehook trial launcher, install, toggle, update-model, remove.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-25",
+    "slug": "new-task-split",
+    "created_date": "2026-10-25"
+  },
+  {
     "name": "New Turn Claude Hook",
     "url": "https://github.com/danielrosehill/New-Turn-Claude-Hook",
     "description": "Tool that determines whether to continue an AI conversation or start fresh for optimal context.",
@@ -3749,20 +3730,6 @@
     "added_date": "2026-10-19",
     "slug": "obsidian-research-vault-template",
     "created_date": "2026-08-12"
-  },
-  {
-    "name": "Onepassword Feedback",
-    "url": "https://github.com/danielrosehill/Claude-1Password-Feedback-Plugin",
-    "description": "1Password feature requests, bug reports and Community posts: dedupe-search the forum and release notes, post Feature Request or [Bug] topics from your browser, reply to threads, and track them to shipped.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-22",
-    "slug": "onepassword-feedback",
-    "created_date": "2026-10-22"
   },
   {
     "name": "Opnsense Mgmt",
@@ -4178,20 +4145,6 @@
     "created_date": "2025-10-25"
   },
   {
-    "name": "Security Checkup",
-    "url": "https://github.com/danielrosehill/Claude-Security-Checkup-Plugin",
-    "description": "Security and compliance \u2014 vulnerability scanning, system hardening, config audits.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "security-checkup",
-    "created_date": "2025-11-15"
-  },
-  {
     "name": "Server Management Plugin",
     "url": "https://github.com/danielrosehill/server-management-plugin",
     "description": "Early standalone Claude Code plugin with slash commands for server monitoring, deployment and administration.",
@@ -4337,20 +4290,6 @@
     "added_date": "2026-04-27",
     "slug": "social-feedback",
     "created_date": "2026-04-27"
-  },
-  {
-    "name": "Sop Library",
-    "url": "https://github.com/danielrosehill/Claude-SOPs",
-    "description": "Keep your own standard operating procedures \u2014 the recurring things you do a particular way \u2014 as a private, versioned library of markdown files the agent reads on demand and follows. Distinct from sop-writer, which authors printed SOP documents for other people; these are procedures an agent executes. One delimited block in your CLAUDE.md points at the library, a generated INDEX.md carries id, title and a 'use when' trigger for each procedure, and exactly one file is read once a situation matches \u2014 so a library of forty procedures costs one table to consult rather than forty resident skill descriptions. Seven skills cover setup, run, write, edit, list, retire and sync. Procedures live in ~/.claude-user-data/sops/ as flat readable files inside a private git repo, mirrored across machines; the plugin repo never holds one. Each SOP declares an autonomy level (auto, confirm, confirm-each, manual) that records a default rather than granting permission, and a last_verified date meaning the procedure was seen to work rather than that the file was edited.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-19",
-    "slug": "sop-library",
-    "created_date": "2026-08-12"
   },
   {
     "name": "Sop Writer",
@@ -4549,20 +4488,6 @@
     "added_date": "2026-04-30",
     "slug": "synthetic-data",
     "created_date": "2026-04-30"
-  },
-  {
-    "name": "Sysadmin Homelab",
-    "url": "https://github.com/danielrosehill/Claude-Sysadmin-Homelab-Plugin",
-    "description": "Sysadmin and homelab \u2014 diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-19",
-    "slug": "sysadmin-homelab",
-    "created_date": "2026-04-19"
   },
   {
     "name": "System Recovery Mode",
@@ -4775,6 +4700,34 @@
     "created_date": "2026-08-16"
   },
   {
+    "name": "Ubuntu Admin",
+    "url": "https://github.com/danielrosehill/Ubuntu-Admin",
+    "description": "Administer Ubuntu machines, desktop or server, locally or over SSH: health and diagnosis, packages (apt/snap/flatpak), systemd services and logs, Docker, storage and backups, networking, hardware and GPU drivers, displays, fonts, codecs, shell and dev environments. Supersedes linux-desktop-mgmt, linux-server-mgmt and sysadmin-homelab.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-25",
+    "slug": "ubuntu-admin",
+    "created_date": "2026-10-25"
+  },
+  {
+    "name": "Ubuntu Security",
+    "url": "https://github.com/danielrosehill/Ubuntu-Security",
+    "description": "Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, YubiKey and fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-25",
+    "slug": "ubuntu-security",
+    "created_date": "2026-10-25"
+  },
+  {
     "name": "Unofficial MCP Builder",
     "url": "https://github.com/danielrosehill/Unofficial-MCP-Builder-Plugin",
     "description": "Author and maintain unofficial MCP servers for third-party APIs that don't ship one. Generate a server from the vendor's API docs verified against the live API with your own key, detect upstream drift on a schedule, and smoke-test against real operations. Bound by a committed api-surface.yaml recording what the API actually does versus what its docs claim. Publishes to npm.",
@@ -4846,6 +4799,20 @@
     "added_date": "2026-05-02",
     "slug": "userscript-development",
     "created_date": "2026-05-02"
+  },
+  {
+    "name": "Vendor Liaison",
+    "url": "https://github.com/danielrosehill/Vendor-Liaison",
+    "description": "Report bugs, request features, disclose security to vendors: per-vendor channel data with routing rules, a private overlay for your preferred channels and personal contacts, duplicate checks before filing. Vendors: Claude Code, 1Password, Whisperian.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-25",
+    "slug": "vendor-liaison",
+    "created_date": "2026-10-25"
   },
   {
     "name": "Video Editing",

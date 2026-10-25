@@ -8,7 +8,7 @@
   },
   "metadata": {
     "description": "A consolidated collection of Claude Code plugins for workflows across research, media, sysadmin, personal planning, dev tools, and more. Each plugin bundles primitives + a provisioning skill for domain-specific workspaces.",
-    "version": "2.0.1"
+    "version": "2.0.2"
   },
   "plugins": [
     {
@@ -198,7 +198,7 @@
       },
       "description": "Audio production \u2014 normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
       "category": "Media Editing",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -221,7 +221,7 @@
       },
       "description": "Image production \u2014 editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.",
       "category": "Media Editing",
-      "version": "2.3.1",
+      "version": "2.3.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -354,7 +354,7 @@
       },
       "description": "Career planning \u2014 log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
       "category": "Staging",
-      "version": "2.3.0",
+      "version": "2.3.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -375,7 +375,7 @@
       },
       "description": "Product research and procurement skills with a particular focus on technical specification conformance \u2014 does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
       "category": "Marketing & Shopping",
-      "version": "2.3.1",
+      "version": "2.3.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -552,28 +552,6 @@
       ]
     },
     {
-      "name": "sysadmin-homelab",
-      "displayName": "Sysadmin Homelab",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Sysadmin-Homelab-Plugin"
-      },
-      "description": "Sysadmin and homelab \u2014 diagnose, status, update config, backup, with linux/docker/conda/proxmox/nas/adb/sbc/remote-admin/lan variants.",
-      "category": "Linux Sysadmin",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "sysadmin",
-        "homelab",
-        "remote-admin"
-      ]
-    },
-    {
       "name": "dev-tools",
       "displayName": "Dev Tools",
       "source": {
@@ -605,7 +583,7 @@
       },
       "description": "Foundational workspace \u2014 setup, context management, report parsing, inventory, template discovery, with 6 variants.",
       "category": "Repo Scaffolding & Retrofitting",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -627,7 +605,7 @@
       },
       "description": "Claude-Rudder \u2014 collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
       "category": "QA & Agent Sessions",
-      "version": "2.8.1",
+      "version": "2.9.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -663,27 +641,6 @@
         "terminal",
         "linux",
         "ux"
-      ]
-    },
-    {
-      "name": "security-checkup",
-      "displayName": "Security Checkup",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Security-Checkup-Plugin"
-      },
-      "description": "Security and compliance \u2014 vulnerability scanning, system hardening, config audits.",
-      "category": "Linux Sysadmin",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "security",
-        "compliance"
       ]
     },
     {
@@ -738,7 +695,7 @@
       },
       "description": "Audio transcription \u2014 denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
       "category": "Media Editing",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1005,7 +962,7 @@
       },
       "description": "Manage a resume as JSON Resume schema data and render it with custom Typst templates. Onboard, iterate, fork variants, and version.",
       "category": "Documentation & Writing",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1124,7 +1081,7 @@
       },
       "description": "Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the hebrew-correspondence plugin.",
       "category": "Regional",
-      "version": "1.0.3",
+      "version": "1.0.5",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1352,7 +1309,7 @@
       },
       "description": "Skills and an orchestrator agent for preparing PDFs for digital printing \u2014 resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.",
       "category": "Documentation & Writing",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1426,7 +1383,7 @@
       },
       "description": "End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.",
       "category": "Data & Datasets",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1440,30 +1397,6 @@
         "data-prep",
         "gemini",
         "pii"
-      ]
-    },
-    {
-      "name": "feedback-filer",
-      "displayName": "Claude Code Feedback",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Code-Feedback"
-      },
-      "description": "File well-formed bug reports, feature requests, model-behavior reports, and documentation issues against anthropics/claude-code. Fetches the live issue templates, gathers required fields, and submits via gh CLI.",
-      "category": "Git & GitHub",
-      "version": "1.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "claude-code",
-        "feedback",
-        "bug-report",
-        "feature-request",
-        "github-issues"
       ]
     },
     {
@@ -1722,7 +1655,7 @@
       },
       "description": "Streamline programmatic data ingestion against sites and apps that don't ship a documented API \u2014 capture network traffic (HAR, mitmproxy, or live tab via claude-in-chrome), map endpoints, infer schemas, and produce a draft OpenAPI spec you can build a stable client against. Ships skills for per-domain map documents, version-controlled storage in a private GitHub repo, and good-faith vulnerability disclosure if a finding turns up incidentally. White-hat use only.",
       "category": "Data Discovery",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1849,7 +1782,7 @@
       },
       "description": "Evaluate, refine, and develop business ideas through structured lenses \u2014 VC review, TAM, B2B/B2C fit, assumptions, objections, hardware feasibility, dev specs, timelines, social impact \u2014 plus an LLM council pattern (subagents or Karpathy clone), synthesis, and Typst PDF outputs for internal and public-facing docs.",
       "category": "Personal Productivity",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2159,7 +2092,7 @@
       },
       "description": "Give Claude its own KDE Plasma desktop to test apps in. Creates a \"Claude\" or \"AI Agents\" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture \u2014 without taking over the user's screen \u2014 and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+).",
       "category": "Linux Sysadmin",
-      "version": "0.1.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2429,7 +2362,7 @@
       },
       "description": "Plan and prompt-engineer AI-generated visuals (images, diagrams, video) for whitepapers, blog posts, and long-form content. Six skills cover project onboarding, visual ideation, prompt generation, project listing, fal-ai execution, and a resolution/style reference.",
       "category": "Media Editing",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2453,7 +2386,7 @@
       },
       "description": "Passive-aggressive PA system. Claude barks status updates over a speaker; if ignored, escalates across the house via Home Assistant or MQTT. Includes pre-recorded voice packs, RGB signal bulb, full-screen flash overlay, and a quiet-mode skill that translates natural-language pause/schedule requests.",
       "category": "QA & Agent Sessions",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2552,7 +2485,7 @@
       },
       "description": "Generate, transform, and clean up tech diagrams and whiteboard photos via the Nano Banana 2 model (Fal AI). Wraps the nano-tech-diagrams MCP server with a curated prompt library across 5 diagram families and 28+ visual styles.",
       "category": "Media Editing",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2908,7 +2841,7 @@
       },
       "description": "Develop, test, and publish Tampermonkey userscripts \u2014 scaffolding, in-browser validation via Claude in Chrome, README generation, and version bumping.",
       "category": "Repo Scaffolding & Retrofitting",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2948,33 +2881,6 @@
         "disk-usage",
         "btrfs",
         "cleanup"
-      ]
-    },
-    {
-      "name": "linux-av-manager",
-      "displayName": "Linux AV Manager",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Linux-AV-Manager-Plugin"
-      },
-      "description": "Manage antivirus, rootkit-detection, and UFW host firewall on a Linux desktop \u2014 install ClamAV/ClamTk/rkhunter (core) plus optional advanced tools (Lynis, chkrootkit, AIDE, debsecan), keep definitions current, run scans, schedule periodic runs, and configure conservative desktop-tuned UFW rules. Scan results stored in a user-defined folder set up on first run.",
-      "category": "Privacy & Security",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "linux",
-        "security",
-        "antivirus",
-        "clamav",
-        "rootkit",
-        "lynis",
-        "ufw",
-        "firewall"
       ]
     },
     {
@@ -3106,7 +3012,7 @@
       },
       "description": "AliExpress shopping skills for Israel-based buyers \u2014 Choice-first search in ILS via a local browser, free-shipping filter, Israeli-reviews filter, single-listing landed-cost parse, and a running cart-value VAT-threshold nudge ($75 de-minimis).",
       "category": "Personal Productivity",
-      "version": "1.7.0",
+      "version": "1.8.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3155,7 +3061,7 @@
       },
       "description": "Check opening hours for Israeli businesses, including hours stated relative to Shabbat and yom tov. Combines Google Business and easy.co.il for stated hours with Hebcal candle-lighting/havdalah times, resolving phrasing like 'reopens an hour after Shabbat' into concrete clock times. Bundles 56 Israeli locations with verified per-city candle-lighting customs.",
       "category": "Regional",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3233,7 +3139,7 @@
       },
       "description": "Component-level review of a project's technology stack, not its code \u2014 records the stack to docs/stack/ with the run date, checks each component for end-of-life and currency, finds architectural gaps (caching, backups, queues, rate limiting, observability), flags redundancy and over-engineering against the real workload, then emits a sequenced revision proposal and an execution brief. Re-runnable per repo with persistent decisions and finding history.",
       "category": "Repo Scaffolding & Retrofitting",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3350,30 +3256,6 @@
       ]
     },
     {
-      "name": "sop-library",
-      "displayName": "Claude SOPs",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-SOPs"
-      },
-      "description": "Keep your own standard operating procedures \u2014 the recurring things you do a particular way \u2014 as a private, versioned library of markdown files the agent reads on demand and follows. Distinct from sop-writer, which authors printed SOP documents for other people; these are procedures an agent executes. One delimited block in your CLAUDE.md points at the library, a generated INDEX.md carries id, title and a 'use when' trigger for each procedure, and exactly one file is read once a situation matches \u2014 so a library of forty procedures costs one table to consult rather than forty resident skill descriptions. Seven skills cover setup, run, write, edit, list, retire and sync. Procedures live in ~/.claude-user-data/sops/ as flat readable files inside a private git repo, mirrored across machines; the plugin repo never holds one. Each SOP declares an autonomy level (auto, confirm, confirm-each, manual) that records a default rather than granting permission, and a last_verified date meaning the procedure was seen to work rather than that the file was edited.",
-      "category": "AI & Context",
-      "version": "0.2.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "sop",
-        "workflow",
-        "runbook",
-        "context-management",
-        "memory"
-      ]
-    },
-    {
       "name": "kdp-publishing",
       "displayName": "KDP Publishing",
       "source": {
@@ -3456,7 +3338,7 @@
       },
       "description": "Make optimal use of a baggage allowance on an international itinerary \u2014 research each carrier's real checked, cabin and personal-item allowance per segment with a source and a confidence level for every figure, compute the binding limit that governs the journey, inventory what is carried by weight, reconcile scale readings against the inventory, solve the allocation to bags and packing cubes, price every way out of being over, and rank an emergency leave-behind list by cost per kilogram saved. Renders a one-page airport counter card and a per-bag packing list as PDF via Typst and as Markdown. One trip workspace per itinerary.",
       "category": "Personal Productivity",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3692,7 +3574,7 @@
       },
       "description": "When you hit a wall, spin up a research workspace to brainstorm solutions \u2014 captures the blocker, what you tried, and kicks off deep research",
       "category": "Personal Productivity",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3811,7 +3693,7 @@
       },
       "description": "Grainger.com (US industrial MRO) product research \u2014 typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.",
       "category": "Marketing & Shopping",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3828,40 +3710,6 @@
       },
       "description": "Learning resources, skill development, educational content creation and knowledge management.",
       "category": "Research & Learning",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT"
-    },
-    {
-      "name": "linux-desktop-mgmt",
-      "displayName": "Linux Desktop Management",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/linux-desktop-plugin"
-      },
-      "description": "Linux desktop management \u2014 KDE/Plasma configuration and desktop system administration.",
-      "category": "Linux Sysadmin",
-      "version": "2.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT"
-    },
-    {
-      "name": "linux-server-mgmt",
-      "displayName": "Linux Server Management",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/linux-server-plugin"
-      },
-      "description": "Linux server administration \u2014 service management and server infrastructure workflows.",
-      "category": "Linux Sysadmin",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -3920,6 +3768,62 @@
         "url": "https://danielrosehill.com"
       },
       "license": "MIT"
+    },
+    {
+      "name": "ubuntu-admin",
+      "displayName": "Ubuntu Admin",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Ubuntu-Admin"
+      },
+      "description": "Administer Ubuntu machines, desktop or server, locally or over SSH: health and diagnosis, packages (apt/snap/flatpak), systemd services and logs, Docker, storage and backups, networking, hardware and GPU drivers, displays, fonts, codecs, shell and dev environments. Supersedes linux-desktop-mgmt, linux-server-mgmt and sysadmin-homelab.",
+      "category": "Linux Sysadmin",
+      "version": "1.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "ubuntu",
+        "linux",
+        "sysadmin",
+        "desktop",
+        "server",
+        "ssh",
+        "systemd",
+        "apt",
+        "docker"
+      ]
+    },
+    {
+      "name": "ubuntu-security",
+      "displayName": "Ubuntu Security",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Ubuntu-Security"
+      },
+      "description": "Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, YubiKey and fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.",
+      "category": "Privacy & Security",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "ubuntu",
+        "linux",
+        "security",
+        "ufw",
+        "firewall",
+        "clamav",
+        "ssh",
+        "fail2ban",
+        "audit"
+      ]
     },
     {
       "name": "user-manual",
@@ -4004,6 +3908,31 @@
       ]
     },
     {
+      "name": "kaizen-please",
+      "displayName": "Kaizen Please",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Kaizen-Please"
+      },
+      "description": "Kaizen for any project, not just code: small steps, a shared journal, reviews, the agent's Kaizen thoughts as PDF.",
+      "category": "Personal Productivity",
+      "version": "0.2.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "kaizen",
+        "continuous-improvement",
+        "productivity",
+        "task-breakdown",
+        "journal",
+        "typst"
+      ]
+    },
+    {
       "name": "custom-model-planning",
       "displayName": "Custom Model Planning",
       "source": {
@@ -4012,7 +3941,7 @@
       },
       "description": "Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.",
       "category": "AI & Context",
-      "version": "1.1.0",
+      "version": "1.5.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4037,7 +3966,7 @@
       },
       "description": "Modular research task: brief in, PDF + podcast out. Takes a (dictated) brief through a GitHub repo as research notebook, parallel-subagent research with a source log, a Typst PDF report and a two-host educational podcast (Gemini TTS), then Google Drive and email. Every output module is optional and runs alone; the repo can stay a one-off or keep growing in follow-up rounds.",
       "category": "Research & Learning",
-      "version": "1.1.0",
+      "version": "1.3.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4054,31 +3983,6 @@
         "tts",
         "google-drive",
         "email"
-      ]
-    },
-    {
-      "name": "gh-ops",
-      "displayName": "GH Ops",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-GH-Ops-Plugin"
-      },
-      "description": "GitHub repo primitives and cleanup: exists, visibility, create, full listing without truncation, PAT-backed delete that never asks for gh auth refresh, and stale-repo triage with a multi-select menu.",
-      "category": "Repo Scaffolding & Retrofitting",
-      "version": "1.3.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "github",
-        "gh-cli",
-        "repo-management",
-        "visibility",
-        "delete-repo",
-        "stale-repos"
       ]
     },
     {
@@ -4115,7 +4019,7 @@
       },
       "description": "Maccabi Online (Israel health fund) portal: meds, appointments, doctor messages, results, hitchaivut, refunds. Unofficial; needs your signed-in Chrome.",
       "category": "Regional",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4204,15 +4108,15 @@
       "category": "Personal Productivity"
     },
     {
-      "name": "onepassword-feedback",
-      "displayName": "1Password Feedback",
+      "name": "vendor-liaison",
+      "displayName": "Vendor Liaison",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-1Password-Feedback-Plugin"
+        "repo": "danielrosehill/Vendor-Liaison"
       },
-      "description": "1Password feature requests, bug reports and Community posts: dedupe-search the forum and release notes, post Feature Request or [Bug] topics from your browser, reply to threads, and track them to shipped.",
+      "description": "Report bugs, request features, disclose security to vendors: per-vendor channel data with routing rules, a private overlay for your preferred channels and personal contacts, duplicate checks before filing. Vendors: Claude Code, 1Password, Whisperian.",
       "category": "Personal Productivity",
-      "version": "0.3.0",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4220,11 +4124,13 @@
       },
       "license": "MIT",
       "tags": [
-        "1password",
+        "vendor",
+        "feedback",
+        "bug-report",
         "feature-request",
-        "community",
-        "forum",
-        "feedback"
+        "security-disclosure",
+        "claude-code",
+        "1password"
       ]
     },
     {
@@ -4327,6 +4233,81 @@
         "adr",
         "documentation",
         "context-management"
+      ]
+    },
+    {
+      "name": "habits",
+      "displayName": "Habits",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Agent-Habits"
+      },
+      "description": "Habits (rules, always-on or triggered) and SOPs (procedures) as one markdown file each, in a private folder, with one small CLAUDE.md block. Library of example habits to adopt. Replaces sop-library.",
+      "category": "AI & Context",
+      "version": "1.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "habits",
+        "sop",
+        "system-prompt",
+        "preferences",
+        "context"
+      ]
+    },
+    {
+      "name": "new-task-split",
+      "displayName": "New Task Split",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/New-Task-Split"
+      },
+      "description": "Auto-/clear on a new task: local ONNX classifier moves unrelated prompts to a fresh session. claudehook trial launcher, install, toggle, update-model, remove.",
+      "category": "AI & Context",
+      "version": "0.2.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "hooks",
+        "context",
+        "clear",
+        "classifier",
+        "onnx"
+      ]
+    },
+    {
+      "name": "comparison-artifacts",
+      "displayName": "Comparison Artifacts",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Comparison-Artifacts"
+      },
+      "description": "Software evaluation tables, scoring and quadrants: tick/cross or short-descriptor feature tables, weighted scoring from your stated priorities, and 2x2 quadrant charts, rendered to Markdown, Typst or SVG from one data file and written into the document you're drafting.",
+      "category": "Documentation & Writing",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "comparison",
+        "evaluation",
+        "software-selection",
+        "feature-matrix",
+        "weighted-scoring",
+        "quadrant",
+        "typst",
+        "markdown"
       ]
     }
   ]

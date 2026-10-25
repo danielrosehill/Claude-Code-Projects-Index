@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-10-22T22:02:01",
-  "total_repos": 331,
+  "last_built": "2026-10-25T12:32:20",
+  "total_repos": 329,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -127,6 +127,7 @@
     "Claude Workspace Reshaping 190426": "cf2f954465c10e790fa300fc286d5111",
     "Claude Workspace Setup Helper": "baaa35d22a7e7635e1ac0aefb458d705",
     "ClaudeMD Turnstile": "58fadf20184c94acc8f394e9a3482025",
+    "Comparison Artifacts": "8a862ce660a4db0d739a60506c0f4def",
     "Conda Management Plugin": "43511558236a55fe52e344633432abb5",
     "Conda Manager": "dc83e93ec47ae42783dfe55004c19d5e",
     "Contact Support": "e89313bf35f3be344e51b02f5f23f2f6",
@@ -164,14 +165,12 @@
     "Eml Toolkit": "007568b2e974f006f7707d5cf88fd7d9",
     "Eval Runner": "a335625df8fe7491375eee3983aad893",
     "Favorite Plugins Installers": "37d8b975768462a89afc0f122599194e",
-    "Feedback Filer": "f7abdbe8f30c94cfffb4635837115224",
     "Filesystem Organisation": "13e52dfd2650c299703844b69ec26659",
     "Filesystem Organiser": "77017bd64020cd801ec153cb8bd43b8f",
     "Freight Vol Calculator": "dceb7d9ec335154216e610eb7c3078b9",
     "General Dev Plugin": "32455802bf42d53b19c150a64bff59e1",
     "Geopol Sim": "589e6ae39300a3bb2e510a966eb92d0e",
     "Get Toony": "8b092d550b3461934ca3bf8e65b31cb7",
-    "Gh Ops": "f00bd5d79b938329c02ee08220d311fe",
     "Gimp": "7e2f71fc58de6454ff24357c4f693a0b",
     "Gist Writer": "c5a9248917a7cc4d3faf869ad5249e45",
     "Git GitHub Plugin": "eb33710406ffa8a7d3a8f4f48d1fda13",
@@ -182,6 +181,7 @@
     "Gpg Ops": "6de7fedde850480ce5555fc272982baa",
     "Grainger": "d840e099d570ed7b27caf8200c8e35a2",
     "Greeninvoice Ops": "43f54468e0caf3feadd51f14a415d201",
+    "Habits": "b14521e5cf150274f73d066ad35376c8",
     "Habits Of Claude": "b9becd956f1b4daf203e4016ff339617",
     "Hardware Id Annotation": "9a7fea455678d47632e1ce0da185919f",
     "Hardware Spec Assembly": "e1f98860f643a9b5f5dafe20dc6c2ce9",
@@ -208,6 +208,7 @@
     "Jewish Texts Reference": "a77b35c5be6b4073d067055660c66e72",
     "Jewish Utilities": "27378f97a5a4123851b15dde88976153",
     "Kaizen": "167068d1bd01adc2c1a544c1f811e290",
+    "Kaizen Please": "ff81fffee9ffe5b728e24afeea973dac",
     "Kde Agent Workspace": "3c0fe511ca4468be1337b838ac45cd84",
     "KDE Claude Runner": "4f9e1b5182bbc9c1a360e8585d71dc0e",
     "Kde Plasma": "26e1381701d7284bf4bd447131c8345c",
@@ -220,13 +221,10 @@
     "Learning": "bdd5fc3bf3541fd8ce6c699c6bbd7dcc",
     "Legal Investigative": "81e63590037a6a40de7d2185dfcc215b",
     "License Populator": "fcf20414f2c6e6a22d4f0ca60aa0915b",
-    "Linux Av Manager": "f1b250ea246ad24cff397c37198e2c12",
     "Linux Bt": "0ebe576de91d8a5df495f3f57fa90958",
     "Linux Debugging": "30b8fae640bd9abcd105f32ce96bf00f",
     "Linux Desktop ClaudeMD Seeder": "1027aa4623a63f0aee7a92e8a94d82fe",
-    "Linux Desktop Mgmt": "4bd923c520d5eb93e98e08e782922d74",
     "Linux Packaging": "5e09c8d0a8ad3f2e8266e5ac700f5792",
-    "Linux Server Mgmt": "1a8cf15a636b360d159ca4d1afd67d27",
     "Linux System Optimisation": "753434f9e8d8c961837da1edea87f9e8",
     "Live Typing UX Research": "ead4a1a68cdd3ef89caf5903880f7b04",
     "Llm Council Creator": "1ea05f6d60d0af2bfd4a0b1e6b2f1301",
@@ -246,6 +244,7 @@
     "Netek Disconnect": "c2a61c0ac564fed716bfe90307d9fd75",
     "Network Cups": "db99001e9330e0478bef1f76a0545e98",
     "Network Tmp": "cf7be0d2bfbbdc5f87caab4335158a7a",
+    "New Task Split": "6b899ef2b11092a053146f64bdf57c20",
     "New Turn Claude Hook": "69e06775261d47a540621131a3097e03",
     "Nfc Ops": "5544aa35d39ac7d727060b9f01fb74e5",
     "No Wheel Inventions": "614fc5725b5efc3d6fedb8b58a65f35d",
@@ -254,7 +253,6 @@
     "Obd Diagnostics": "38855030276e0fe3191602de86e4ff0f",
     "Obs Mgmt": "291a8e8da5ff6a10742e760d9b317134",
     "Obsidian Research Vault Template": "d5a19744fe579b919417bf2c03155cda",
-    "Onepassword Feedback": "0688bcc44b7a674308bebebd7a4298d1",
     "Opnsense Mgmt": "89c7b8fbf6e6ff6dd6cfe2ea4a45aa11",
     "Os Sync Agent": "f7a275ef525ad89bd6e4cf4f19d565c1",
     "Panel Of Claude": "1b6d7bf8a1abef8eee45423b4c389f7e",
@@ -283,7 +281,6 @@
     "Rudder": "7377247197757a93bf4bd1d7ac641e6d",
     "Schedule Manager": "cfd91d0ed938158ef83ea6914df3da31",
     "Security Auditor": "77317fdc048c7c0e5682c6980b34894a",
-    "Security Checkup": "490b08c5a03c70cc237262349ba97a6a",
     "Server Management Plugin": "f1f0f1f09e8834f41cb0a8e80657c04a",
     "Session Hopper": "0dc2f0ecb995ba5319ab83c4e971d2e4",
     "Shopping": "bd1b20741df42f76d9702be42ee56d87",
@@ -294,7 +291,6 @@
     "Smithery Claude Code MCP Jumpstarter": "01f067df002274e3998e42b9d019b8f5",
     "Snap It": "8870924ec11cff9758a741ae306599c0",
     "Social Feedback": "3eca5fe20d7b8de6a4c5ddbe4bbf0e10",
-    "Sop Library": "e5fc7c83a15343e3ed223fabc939c244",
     "Sop Writer": "5e51471ac1c5f43bb6c36883fad54e1c",
     "Spec Led Certification": "3b0542b21c3e252f8442d052501f2caa",
     "Spec Starter": "f8b138138d87d12bb0a5ccd4922d42d2",
@@ -308,7 +304,6 @@
     "Synology Manager Plugin": "ef37282d35d5dddfe8c21c5f053e88a5",
     "Synology Mgmt": "53d362861bcb1d7228f846ef286bb079",
     "Synthetic Data": "a57ca3d0bc23e7ff50bcc81745752b3b",
-    "Sysadmin Homelab": "fdd2b5b9663bbb966309d46b6c0e47e1",
     "System Recovery Mode": "e4b1bf9ffc77ed4ee768e4d57e2ef632",
     "Task Queuer": "72bc01386d56ff7202b305be7a5ed115",
     "Taxonomy Creation": "e057e1a0d53bc9ee8ecb3404080856ea",
@@ -323,11 +318,14 @@
     "Timemark": "78b7750184830d33b851a392d3339dae",
     "Transcription Pipeline": "80c8b549bea8fc5a6a597948967b624e",
     "Travel Packing": "cc8d06af178d31ad9565332773198ede",
+    "Ubuntu Admin": "5f0d9d76dff9e52e8b9782581b3ac3f5",
+    "Ubuntu Security": "679ddb12320745a0744e53a148bb5130",
     "Unofficial MCP Builder": "48c02b5797a3f35b1a981eae86f7d984",
     "User Context File": "be91631aa141bcb4b5c3c43cef1c198b",
     "User Manual": "034955400a0aca14580b1248ca4f1d2b",
     "User Memory": "911261b9942daebab26c7ee291a10244",
     "Userscript Development": "73c1a32f92b4a3416d9896de76076d16",
+    "Vendor Liaison": "34fcf5d09067820c336a9aedb7c973cf",
     "Video Editing": "f092452f563bf0f6678583f0a04a5bcf",
     "Visual Communications": "3dadd30a17d80a1950b203101223e273",
     "Voice Note Task Classifier": "2ee4638619d34a2b26fb8f5fa9deb643",
@@ -336,18 +334,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T19:00:19",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Sop Writer"
-          ]
-        }
-      ],
-      "total_repos": 150
-    },
     {
       "date": "2026-04-30T20:13:33",
       "changes": [
@@ -2554,6 +2540,38 @@
         }
       ],
       "total_repos": 331
+    },
+    {
+      "date": "2026-10-25T12:32:20",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Comparison Artifacts",
+            "Habits",
+            "Kaizen Please",
+            "New Task Split",
+            "Ubuntu Admin",
+            "Ubuntu Security",
+            "Vendor Liaison"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Feedback Filer",
+            "Gh Ops",
+            "Linux Av Manager",
+            "Linux Desktop Mgmt",
+            "Linux Server Mgmt",
+            "Onepassword Feedback",
+            "Security Checkup",
+            "Sop Library",
+            "Sysadmin Homelab"
+          ]
+        }
+      ],
+      "total_repos": 329
     }
   ]
 }
