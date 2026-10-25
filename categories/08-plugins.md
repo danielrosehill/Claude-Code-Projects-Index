@@ -1509,7 +1509,7 @@ Passive-aggressive PA system. Claude barks status updates over a speaker; if ign
 ### Voicenotes
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Voicenotes-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Voicenotes.com notes: search, read transcripts, list by date or tag, add text notes. Official MCP; early placeholder.
+Voicenotes.com: search, transcripts, create; unofficial tag editing, audio import, bulk export. Not affiliated.
 
 ---
 

@@ -4906,7 +4906,7 @@
   {
     "name": "Voicenotes",
     "url": "https://github.com/danielrosehill/Voicenotes-Plugin",
-    "description": "Voicenotes.com notes: search, read transcripts, list by date or tag, add text notes. Official MCP; early placeholder.",
+    "description": "Voicenotes.com: search, transcripts, create; unofficial tag editing, audio import, bulk export. Not affiliated.",
     "tags": [
       "Documentation",
       "Plugin"

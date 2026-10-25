@@ -4367,9 +4367,9 @@
         "source": "github",
         "repo": "danielrosehill/Voicenotes-Plugin"
       },
-      "description": "Voicenotes.com notes: search, read transcripts, list by date or tag, add text notes. Official MCP; early placeholder.",
+      "description": "Voicenotes.com: search, transcripts, create; unofficial tag editing, audio import, bulk export. Not affiliated.",
       "category": "Personal Productivity",
-      "version": "0.1.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4381,7 +4381,11 @@
         "voice-notes",
         "transcripts",
         "notes",
-        "mcp"
+        "mcp",
+        "export",
+        "backup",
+        "tags",
+        "transcription"
       ]
     }
   ]
