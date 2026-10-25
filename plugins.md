@@ -807,6 +807,13 @@ Check opening hours for Israeli businesses, including hours stated relative to S
 
 ---
 
+### Israel Post
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Post-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Israel Post (דואר ישראל) appointments, branch search and parcel tracking: book, check or cancel a counter slot.
+
+---
+
 ### Israel Shopping
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 

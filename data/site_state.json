@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-10-25T15:48:45",
-  "total_repos": 331,
+  "last_built": "2026-10-25T17:19:29",
+  "total_repos": 332,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
@@ -203,6 +203,7 @@
     "Israel Mortgage Research Skills": "e1cb503821b107881d56016e4ec2b15c",
     "Israel Opening Hours": "37c39f13d3039319d90a8ddfaf829af2",
     "Israel Phonebook Manager": "4167d8dd7283b2849d8bfc589ce6b3a1",
+    "Israel Post": "ca75c47cb0d879b5ce953adf91ea272b",
     "Israel Property Research Skills": "88ce078357d5850cb071ee0b22c7e34c",
     "Israel Research Skills": "a6eb328bce649ef1e9c3516e0d451450",
     "Israel Shopping": "1c7296b2061da51bcb7746a65f0d7b85",
@@ -336,24 +337,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T21:28:47",
-      "changes": [
-        {
-          "type": "removed",
-          "repos": [
-            "Claude Bug Catcher"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Greeninvoice Ops"
-          ]
-        }
-      ],
-      "total_repos": 150
-    },
     {
       "date": "2026-04-30T21:52:06",
       "changes": [
@@ -2598,6 +2581,18 @@
         }
       ],
       "total_repos": 331
+    },
+    {
+      "date": "2026-10-25T17:19:29",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Israel Post"
+          ]
+        }
+      ],
+      "total_repos": 332
     }
   ]
 }

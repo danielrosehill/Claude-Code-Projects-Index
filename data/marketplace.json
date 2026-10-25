@@ -1081,7 +1081,7 @@
       },
       "description": "Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the hebrew-correspondence plugin.",
       "category": "Regional",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4319,7 +4319,7 @@
       },
       "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Or pick sessions from a menu.",
       "category": "QA & Agent Sessions",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4334,6 +4334,30 @@
         "konsole",
         "kde",
         "terminal"
+      ]
+    },
+    {
+      "name": "israel-post",
+      "displayName": "Israel Post",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Israel-Post-Plugin"
+      },
+      "description": "Israel Post (\u05d3\u05d5\u05d0\u05e8 \u05d9\u05e9\u05e8\u05d0\u05dc) appointments, branch search and parcel tracking: book, check or cancel a counter slot.",
+      "category": "Regional",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "israel",
+        "israel-post",
+        "doar",
+        "appointments",
+        "parcel-tracking"
       ]
     }
   ]

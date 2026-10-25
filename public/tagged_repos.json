@@ -2997,6 +2997,20 @@
     "created_date": "2026-08-03"
   },
   {
+    "name": "Israel Post",
+    "url": "https://github.com/danielrosehill/Israel-Post-Plugin",
+    "description": "Israel Post (\u05d3\u05d5\u05d0\u05e8 \u05d9\u05e9\u05e8\u05d0\u05dc) appointments, branch search and parcel tracking: book, check or cancel a counter slot.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-25",
+    "slug": "israel-post",
+    "created_date": "2026-10-25"
+  },
+  {
     "name": "Israel Property Research Skills",
     "url": "https://github.com/danielrosehill/Israel-Property-Research-Skills",
     "description": "Work-in-progress skills basket for Israeli property due diligence (Tabu extracts, building files, usage permits, comparables), aimed at non-professional buyers and tenants.",
