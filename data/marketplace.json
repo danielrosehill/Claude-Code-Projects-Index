@@ -4367,9 +4367,9 @@
         "source": "github",
         "repo": "danielrosehill/Voicenotes-Plugin"
       },
-      "description": "Voicenotes.com: search, transcripts, create; unofficial tag editing, audio import, bulk export. Not affiliated.",
+      "description": "Voicenotes.com: search, read, create; unofficial text and date-range export, tags, audio import. Not affiliated.",
       "category": "Personal Productivity",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
