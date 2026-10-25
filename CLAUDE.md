@@ -356,6 +356,15 @@ repositories…" and finds no repo links at all. `/browse/` is the static
 counterpart that puts all 236 in the initial HTML. Keep it working; do not fold it
 into the client-rendered index.
 
+### Downstream consumer: ai.danielrosehill.com/claude-code
+
+Since 2026-10-25, `https://claude.danielrosehill.com/tagged_repos.json` feeds `/claude-code` on
+ai.danielrosehill.com (monorepo `danielrosehill/danielrosehilldotcom`, loader `shared/data/claude-index.ts`).
+It reads `name`, `url`, `description`, `category`, `category_group`, `tags`, `slug` and `created_date`, and
+leaves out category `Plugins`. Renaming or dropping those fields breaks that page (it falls back to a snapshot).
+An index push reaches the AI site through that repo's daily `refresh-claude-index.yml` (04:30 UTC); to publish
+at once, run `gh workflow run refresh-claude-index.yml -R danielrosehill/danielrosehilldotcom` after deploying.
+
 ### Dates: both are persisted, deliberately
 
 `created_date` (real GitHub creation date, `data/repo_created_dates.json`, filled
