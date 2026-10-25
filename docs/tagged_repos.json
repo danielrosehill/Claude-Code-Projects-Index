@@ -53,7 +53,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-22",
     "slug": "agent-exchange",
-    "created_date": "2026-10-22"
+    "created_date": "2026-10-21"
   },
   {
     "name": "Agent Handover Demo",
@@ -1333,21 +1333,6 @@
     "created_date": "2026-04-17"
   },
   {
-    "name": "Claude Macropad V2",
-    "url": "https://github.com/danielrosehill/Claude-Macropad-V2",
-    "description": "Dedicated macropad for driving Claude Code \u2014 approve, stop, new session, transcript navigation \u2014 with a host-driven status LED that lights when Claude is waiting on you.",
-    "tags": [
-      "Documentation",
-      "Hardware"
-    ],
-    "category": "Technology & Hardware",
-    "category_slug": "technology",
-    "category_group": "Non-Code",
-    "added_date": "2026-08-10",
-    "slug": "claude-macropad-v2",
-    "created_date": "2026-04-20"
-  },
-  {
     "name": "Claude MCP Guidelines",
     "url": "https://github.com/danielrosehill/Claude-MCP-Guidelines",
     "description": "Home-folder CLAUDE.md snippet giving an agent guidance on which MCP server to reach for.",
@@ -1513,6 +1498,21 @@
     "created_date": "2026-03-12"
   },
   {
+    "name": "Claude Pad",
+    "url": "https://github.com/danielrosehill/Claude-Pad",
+    "description": "Dedicated macropad for driving Claude Code \u2014 approve, stop, new session, transcript navigation \u2014 with a host-driven status LED that lights when Claude is waiting on you.",
+    "tags": [
+      "Documentation",
+      "Hardware"
+    ],
+    "category": "Technology & Hardware",
+    "category_slug": "technology",
+    "category_group": "Non-Code",
+    "added_date": "2026-08-10",
+    "slug": "claude-pad",
+    "created_date": "2026-04-20"
+  },
+  {
     "name": "Claude Plugin Workspace Vault",
     "url": "https://github.com/danielrosehill/Claude-Plugin-Workspace-Vault",
     "description": "Architecture for Claude Code plugins that do sustained work: a public plugin, a private workspace instantiated from a template repo, and a vault at `~/.claude-plugins/<name>/` for user data.",
@@ -1661,6 +1661,20 @@
     "added_date": "2026-03-06",
     "slug": "claude-spec-starter",
     "created_date": "2025-11-06"
+  },
+  {
+    "name": "Claude Spend Approval Limit",
+    "url": "https://github.com/danielrosehill/Claude-Spend-Approval-Limit",
+    "description": "Paste-ready CLAUDE.md / AGENTS.md snippet that gives an agent a spending approval limit: it spends freely on paid APIs below a tunable threshold, and above it must estimate the cost, offer a cheaper route and wait for approval.",
+    "tags": [
+      "Configuration"
+    ],
+    "category": "Context and Personalization",
+    "category_slug": "context",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-25",
+    "slug": "claude-spend-approval-limit",
+    "created_date": "2026-10-22"
   },
   {
     "name": "Claude Sub-Agent Network",
@@ -2096,7 +2110,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-22",
     "slug": "dead-drop",
-    "created_date": "2026-10-22"
+    "created_date": "2026-08-12"
   },
   {
     "name": "Debugging",
@@ -2679,7 +2693,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-25",
     "slug": "habits",
-    "created_date": "2026-10-25"
+    "created_date": "2026-08-03"
   },
   {
     "name": "Habits Of Claude",
@@ -3089,7 +3103,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-25",
     "slug": "kaizen-please",
-    "created_date": "2026-10-25"
+    "created_date": "2026-10-24"
   },
   {
     "name": "Kde Agent Workspace",
@@ -3599,7 +3613,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-22",
     "slug": "network-tmp",
-    "created_date": "2026-10-22"
+    "created_date": "2026-10-21"
   },
   {
     "name": "New Task Split",
@@ -3613,7 +3627,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-25",
     "slug": "new-task-split",
-    "created_date": "2026-10-25"
+    "created_date": "2026-10-24"
   },
   {
     "name": "New Turn Claude Hook",
@@ -3980,7 +3994,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-22",
     "slug": "pseudospam-filter",
-    "created_date": "2026-10-22"
+    "created_date": "2026-10-21"
   },
   {
     "name": "Repo To Content",
@@ -4178,7 +4192,7 @@
   {
     "name": "Session Restore",
     "url": "https://github.com/danielrosehill/Session-Restore",
-    "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also restores the last N or picked sessions.",
+    "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Or pick sessions from a menu.",
     "tags": [
       "Plugin"
     ],
@@ -4247,7 +4261,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-22",
     "slug": "skill-or-not",
-    "created_date": "2026-10-22"
+    "created_date": "2026-10-21"
   },
   {
     "name": "Smart Home",
@@ -4425,7 +4439,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-22",
     "slug": "start-here",
-    "created_date": "2026-10-22"
+    "created_date": "2025-02-22"
   },
   {
     "name": "State Of Claude Context 0426",
@@ -4725,7 +4739,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-25",
     "slug": "ubuntu-admin",
-    "created_date": "2026-10-25"
+    "created_date": "2026-10-23"
   },
   {
     "name": "Ubuntu Security",
@@ -4739,7 +4753,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-25",
     "slug": "ubuntu-security",
-    "created_date": "2026-10-25"
+    "created_date": "2026-10-23"
   },
   {
     "name": "Unofficial MCP Builder",
@@ -4826,7 +4840,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-25",
     "slug": "vendor-liaison",
-    "created_date": "2026-10-25"
+    "created_date": "2026-10-22"
   },
   {
     "name": "Video Editing",

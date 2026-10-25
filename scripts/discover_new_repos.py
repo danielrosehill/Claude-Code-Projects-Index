@@ -36,6 +36,7 @@ SKIP_REPOS = {
     "Claude-Agent-Blueprints",     # Former name of this repo (rename redirect)
     "claude-code",                 # Anthropic's Claude Code (fork)
     "awesome-claude-code",         # Curated list, not a project repo
+    "Claude-Linux-AV-Manager-Plugin",  # Superseded by Ubuntu-Security (2026-10-23)
 }
 
 

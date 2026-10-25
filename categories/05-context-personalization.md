@@ -60,6 +60,13 @@ Prompt template for verifying the correct Claude model variant at conversation s
 
 ---
 
+### Claude Spend Approval Limit
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Spend-Approval-Limit) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
+
+Paste-ready CLAUDE.md / AGENTS.md snippet that gives an agent a spending approval limit: it spends freely on paid APIs below a tunable threshold, and above it must estimate the cost, offer a cheaper route and wait for approval.
+
+---
+
 ### Claude User Context Pattern
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-User-Context-Pattern) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
 

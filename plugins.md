@@ -1290,7 +1290,7 @@ Capture geo-restricted web content (articles, prices) via the user's own localho
 ### Session Restore
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Session-Restore) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also restores the last N or picked sessions.
+Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Or pick sessions from a menu.
 
 ---
 

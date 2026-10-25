@@ -206,8 +206,8 @@
           "description": "Assistant configuration for redacting personally identifiable details from documents. Workspaces for hardware planning, PC builds, and technology procurement. > **See also:** The [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin) (includes a tech-procurement variant), [Sysadmin & Homelab](https://github.com/danielrosehill/Claude-Sysadmin-Homelab-Plugin), and [HP5200 Printer](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) plugins in the [Plugins](#plugins) section cover these domains."
         },
         {
-          "name": "Claude Macropad V2",
-          "url": "https://github.com/danielrosehill/Claude-Macropad-V2",
+          "name": "Claude Pad",
+          "url": "https://github.com/danielrosehill/Claude-Pad",
           "description": "Dedicated macropad for driving Claude Code \u2014 approve, stop, new session, transcript navigation \u2014 with a host-driven status LED that lights when Claude is waiting on you."
         },
         {
@@ -291,6 +291,11 @@
           "name": "Claude Model Identifier",
           "url": "https://github.com/danielrosehill/Claude-Model-Identifier",
           "description": "Prompt template for verifying the correct Claude model variant at conversation start."
+        },
+        {
+          "name": "Claude Spend Approval Limit",
+          "url": "https://github.com/danielrosehill/Claude-Spend-Approval-Limit",
+          "description": "Paste-ready CLAUDE.md / AGENTS.md snippet that gives an agent a spending approval limit: it spends freely on paid APIs below a tunable threshold, and above it must estimate the cost, offer a cheaper route and wait for approval."
         },
         {
           "name": "Claude User Context Pattern",
@@ -576,11 +581,11 @@
   ],
   "statistics": {
     "total_categories": 7,
-    "total_repositories": 105,
+    "total_repositories": 106,
     "repositories_by_category": {
       "Systems Administration": 42,
       "Argument and Perspective Exploration": 4,
-      "Context and Personalization": 19,
+      "Context and Personalization": 20,
       "Multi-Agent Tooling": 14,
       "MCP": 8,
       "Slash Commands": 11,
