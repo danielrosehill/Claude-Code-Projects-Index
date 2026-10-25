@@ -1081,7 +1081,7 @@
       },
       "description": "Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the hebrew-correspondence plugin.",
       "category": "Regional",
-      "version": "1.0.6",
+      "version": "1.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4345,7 +4345,7 @@
       },
       "description": "Israel Post (\u05d3\u05d5\u05d0\u05e8 \u05d9\u05e9\u05e8\u05d0\u05dc) appointments, branch search and parcel tracking: book, check or cancel a counter slot.",
       "category": "Regional",
-      "version": "0.1.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4358,6 +4358,30 @@
         "doar",
         "appointments",
         "parcel-tracking"
+      ]
+    },
+    {
+      "name": "voicenotes",
+      "displayName": "Voicenotes",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Voicenotes-Plugin"
+      },
+      "description": "Voicenotes.com notes: search, read transcripts, list by date or tag, add text notes. Official MCP; early placeholder.",
+      "category": "Personal Productivity",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "voicenotes",
+        "voice-notes",
+        "transcripts",
+        "notes",
+        "mcp"
       ]
     }
   ]

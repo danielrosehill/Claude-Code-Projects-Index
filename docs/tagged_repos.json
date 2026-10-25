@@ -4904,6 +4904,21 @@
     "created_date": "2026-10-16"
   },
   {
+    "name": "Voicenotes",
+    "url": "https://github.com/danielrosehill/Voicenotes-Plugin",
+    "description": "Voicenotes.com notes: search, read transcripts, list by date or tag, add text notes. Official MCP; early placeholder.",
+    "tags": [
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-25",
+    "slug": "voicenotes",
+    "created_date": "2026-10-25"
+  },
+  {
     "name": "Workspace Foundational",
     "url": "https://github.com/danielrosehill/Claude-Workspace-Foundational-Plugin",
     "description": "Foundational workspace \u2014 setup, context management, report parsing, inventory, template discovery, with 6 variants.",

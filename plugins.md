@@ -1506,6 +1506,15 @@ Passive-aggressive PA system. Claude barks status updates over a speaker; if ign
 
 ---
 
+## Voicenotes
+
+### Voicenotes
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Voicenotes-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Voicenotes.com notes: search, read transcripts, list by date or tag, add text notes. Official MCP; early placeholder.
+
+---
+
 ## Zigbee
 
 ### Zigbee Home Maintenance
