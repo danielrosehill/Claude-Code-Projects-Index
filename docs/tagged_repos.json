@@ -2,8 +2,9 @@
   {
     "name": "Adb Ops",
     "url": "https://github.com/danielrosehill/Claude-ADB-Ops-Plugin",
-    "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.",
+    "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.",
     "tags": [
+      "Automation",
       "Plugin"
     ],
     "category": "Plugins",
@@ -130,6 +131,21 @@
     "added_date": "2026-10-19",
     "slug": "agentic-book-writing",
     "created_date": "2026-08-19"
+  },
+  {
+    "name": "Agentic Dev Workflows",
+    "url": "https://github.com/danielrosehill/Agentic-Dev-Workflows",
+    "description": "Agent dev workflows: UI friction fixes, release patterns. Any platform: options-then-build for UI friction, sprint or release-to-test release patterns pinned to CLAUDE.md.",
+    "tags": [
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-29",
+    "slug": "agentic-dev-workflows",
+    "created_date": "2026-10-29"
   },
   {
     "name": "Agentic Purchase Pipeline",
@@ -364,8 +380,9 @@
   {
     "name": "Aliexpress Israel Skills",
     "url": "https://github.com/danielrosehill/Aliexpress-Israel-Skills",
-    "description": "AliExpress shopping skills for Israel-based buyers \u2014 Choice-first search in ILS via a local browser, free-shipping filter, Israeli-reviews filter, single-listing landed-cost parse, and a running cart-value VAT-threshold nudge ($75 de-minimis).",
+    "description": "AliExpress shopping skills for Israel-based buyers \u2014 honest deep search that resolves true SKU prices behind anchored and bundle cards, fast-delivery-to-Israel filter, locale preference with drift guard (default EN/USD), Choice-first search, Israeli-reviews filter, landed cost, findings export (JSON/Markdown/PDF) and the $75 de-minimis across listings and cart.",
     "tags": [
+      "Documentation",
       "Plugin"
     ],
     "category": "Plugins",
@@ -3122,7 +3139,7 @@
   {
     "name": "Kde Agent Workspace",
     "url": "https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin",
-    "description": "Give Claude its own KDE Plasma desktop to test apps in. Creates a \"Claude\" or \"AI Agents\" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture \u2014 without taking over the user's screen \u2014 and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+). Or test in a headless sandbox KWin on a private bus, off your screen entirely.",
+    "description": "Give Claude its own KDE Plasma virtual desktop, or a headless sandbox KWin on a private bus: list desktops, create a \"Claude\" or \"AI Agents\" desktop, launch and test GUI or terminal apps there without taking over the user's screen (AT-SPI input, KWin window capture), bind the agent desktop to its own display output. Plasma 6 on Wayland.",
     "tags": [
       "Agent Workspace",
       "Plugin",
@@ -3687,6 +3704,21 @@
     "created_date": "2025-12-27"
   },
   {
+    "name": "Noise Pollution Analysis",
+    "url": "https://github.com/danielrosehill/Noise-Pollution-Analysis",
+    "description": "Document indoor noise pollution and analyse recordings at the frequency level: hums, tones, low-frequency drone, cycling, with reports per sample.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-29",
+    "slug": "noise-pollution-analysis",
+    "created_date": "2026-10-29"
+  },
+  {
     "name": "Non-Code Claude Code",
     "url": "https://github.com/danielrosehill/Non-Code-Claude-Code",
     "description": "Showcase of creative Claude Code applications beyond traditional software development.",
@@ -4206,7 +4238,7 @@
   {
     "name": "Session Restore",
     "url": "https://github.com/danielrosehill/Session-Restore",
-    "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Or pick sessions from a menu.",
+    "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also keeps Konsole asking before a window close kills them.",
     "tags": [
       "Plugin"
     ],
@@ -4236,7 +4268,7 @@
   {
     "name": "Site Skill Builder",
     "url": "https://github.com/danielrosehill/Claude-Site-Skill-Builder-Plugin",
-    "description": "Site skills built by watching a site in your own signed-in Chrome \u2014 observe pages and endpoints, propose a skill roster for approval, then author skills that survive UI changes and probe for drift. Semantic handles only, never pixel coordinates. Every observation is classified publishable, private, or never-recorded, with a stop rule for incidental security findings.",
+    "description": "Site skills built by watching a site in your own signed-in Chrome \u2014 network-first discovery, a surface survey or your own URL list, a skill roster for approval, then skills that survive UI changes, keep the session alive, clean up after themselves and probe for drift. Semantic handles only. Every observation is classified publishable, private, or never-recorded.",
     "tags": [
       "Plugin"
     ],

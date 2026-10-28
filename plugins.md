@@ -26,6 +26,13 @@ Register machines and run repeatable Claude-Code-driven security audits over SSH
 
 ## Development & Debugging
 
+### Agentic Dev Workflows
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agentic-Dev-Workflows) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Agent dev workflows: UI friction fixes, release patterns. Any platform: options-then-build for UI friction, sprint or release-to-test release patterns pinned to CLAUDE.md.
+
+---
+
 ### Debugging
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Debugging-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -294,7 +301,7 @@ Author and maintain unofficial MCP servers for third-party APIs that don't ship 
 ### Adb Ops
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-ADB-Ops-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.
+ADB (Android Debug Bridge) operations — onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.
 
 ---
 
@@ -330,7 +337,7 @@ Look up current and historical air quality, calculate AQI from raw pollutant rea
 ### Aliexpress Israel Skills
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Aliexpress-Israel-Skills) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-AliExpress shopping skills for Israel-based buyers — Choice-first search in ILS via a local browser, free-shipping filter, Israeli-reviews filter, single-listing landed-cost parse, and a running cart-value VAT-threshold nudge ($75 de-minimis).
+AliExpress shopping skills for Israel-based buyers — honest deep search that resolves true SKU prices behind anchored and bundle cards, fast-delivery-to-Israel filter, locale preference with drift guard (default EN/USD), Choice-first search, Israeli-reviews filter, landed cost, findings export (JSON/Markdown/PDF) and the $75 de-minimis across listings and cart.
 
 ---
 
@@ -856,7 +863,7 @@ Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR"A + MG"
 ### Kde Agent Workspace
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-KDE-Agent-Workspace-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Give Claude its own KDE Plasma desktop to test apps in. Creates a "Claude" or "AI Agents" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture — without taking over the user's screen — and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+). Or test in a headless sandbox KWin on a private bus, off your screen entirely.
+Give Claude its own KDE Plasma virtual desktop, or a headless sandbox KWin on a private bus: list desktops, create a "Claude" or "AI Agents" desktop, launch and test GUI or terminal apps there without taking over the user's screen (AT-SPI input, KWin window capture), bind the agent desktop to its own display output. Plasma 6 on Wayland.
 
 ---
 
@@ -994,6 +1001,15 @@ NFC tag operations using libnfc — read, write, inspect, password-protect, and 
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Text-Corpus-Analysis-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Skills for analyzing large text corpora — topic modeling (BERTopic with temporal evolution), NER, categorization into fixed taxonomies, bottom-up category derivation, multi-level taxonomy design, word frequency, synonym clustering for voice-note/STT corpora, parametric stats, and metadata↔content correlation. Three execution lanes (classical NLP, local LLM via Ollama, cloud LLM via OpenRouter) with explicit cost-awareness: mandatory pre-run estimates for >1k-doc LLM passes, two-pass cheap→premium pattern, embeddings+clustering preferred over pairwise LLM comparison.
+
+---
+
+## Noise
+
+### Noise Pollution Analysis
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Noise-Pollution-Analysis) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Document indoor noise pollution and analyse recordings at the frequency level: hums, tones, low-frequency drone, cycling, with reports per sample.
 
 ---
 
@@ -1216,7 +1232,7 @@ Keep a repo's decision log and plans lean: record numbered decisions, and compac
 ### Site Skill Builder
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Site-Skill-Builder-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Site skills built by watching a site in your own signed-in Chrome — observe pages and endpoints, propose a skill roster for approval, then author skills that survive UI changes and probe for drift. Semantic handles only, never pixel coordinates. Every observation is classified publishable, private, or never-recorded, with a stop rule for incidental security findings.
+Site skills built by watching a site in your own signed-in Chrome — network-first discovery, a surface survey or your own URL list, a skill roster for approval, then skills that survive UI changes, keep the session alive, clean up after themselves and probe for drift. Semantic handles only. Every observation is classified publishable, private, or never-recorded.
 
 ---
 
@@ -1297,7 +1313,7 @@ Capture geo-restricted web content (articles, prices) via the user's own localho
 ### Session Restore
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Session-Restore) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Or pick sessions from a menu.
+Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also keeps Konsole asking before a window close kills them.
 
 ---
 

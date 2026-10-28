@@ -1,9 +1,9 @@
 {
-  "last_built": "2026-10-25T19:33:08",
-  "total_repos": 333,
+  "last_built": "2026-10-29T00:00:19",
+  "total_repos": 335,
   "total_tags": 22,
   "repo_manifest": {
-    "Adb Ops": "855fbda816f42cab8a0cf9efa1c0a9e3",
+    "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
     "Agent Briefing Gateway": "cc9e87f4bfb30ef852462d6bf06460eb",
     "Agent Context Harness": "ee2f630bc3b45e3f9bf4349aac74eef0",
     "Agent Exchange": "2478749de36b824f1a2004ee277c8696",
@@ -12,6 +12,7 @@
     "Agent Reference Workflows": "84249bc123e362edad3c10742c0df7f4",
     "Agent-Assisted Purchase Research Index": "a0a3dcfe225e5f6f0d67af3b04f8dca0",
     "Agentic Book Writing": "b784e2fb846e277f67eb8e3201627578",
+    "Agentic Dev Workflows": "33b37739ad1bf5849e916a83de3b1cca",
     "Agentic Purchase Pipeline": "46ed227ea875479d33200d3ea2160293",
     "AI Attribution": "efc292eaf20f427ebddc2edc9ea3a50a",
     "AI Dev Repo Template 1": "9c89ec511fa0e751fdd1dc908bda7832",
@@ -27,7 +28,7 @@
     "AI-Human Attribution Adder": "0f8c884ee31a88612916cc412b208443",
     "Air Quality Toolkit": "d8f31dae90df0b1915c0ca5d7ccc5648",
     "AliExpress Israel Skill": "2d3056b59359df9ed8d8bf391053e540",
-    "Aliexpress Israel Skills": "8988e0e3717972e018ff6009f18f1311",
+    "Aliexpress Israel Skills": "f0720a3b953d282c52eee5d51f68ae05",
     "Aliexpress Shopper": "25526c71577e36de8d08bb485337b596",
     "Amazon": "d8ca80f97f2ed4338619ff7338aa09e4",
     "An Ode To Claude": "422143d78a3227a2cbee891c66497559",
@@ -211,7 +212,7 @@
     "Jewish Utilities": "27378f97a5a4123851b15dde88976153",
     "Kaizen": "167068d1bd01adc2c1a544c1f811e290",
     "Kaizen Please": "bc08d46e68f569835dbcbe84c6c94b6a",
-    "Kde Agent Workspace": "f4f091af920aa5460ab517ffe05c0204",
+    "Kde Agent Workspace": "25d5a6eeb039b042d7c299f41ec81e3a",
     "KDE Claude Runner": "4f9e1b5182bbc9c1a360e8585d71dc0e",
     "Kde Plasma": "26e1381701d7284bf4bd447131c8345c",
     "Kde Plasmoid Dev": "889a56701582aa93f4e588a09c205e67",
@@ -250,6 +251,7 @@
     "New Turn Claude Hook": "69e06775261d47a540621131a3097e03",
     "Nfc Ops": "5544aa35d39ac7d727060b9f01fb74e5",
     "No Wheel Inventions": "614fc5725b5efc3d6fedb8b58a65f35d",
+    "Noise Pollution Analysis": "174c2ebeb85222b135ab47d07518d7cb",
     "Non-Code Claude Code": "3ba4e338aa928549e7934531a98394db",
     "Novelty Text Editor": "3fb14bc82bd53d49087d05849e53d5fa",
     "Obd Diagnostics": "38855030276e0fe3191602de86e4ff0f",
@@ -285,9 +287,9 @@
     "Security Auditor": "77317fdc048c7c0e5682c6980b34894a",
     "Server Management Plugin": "f1f0f1f09e8834f41cb0a8e80657c04a",
     "Session Hopper": "0dc2f0ecb995ba5319ab83c4e971d2e4",
-    "Session Restore": "37755a463d2ad3edcb6758d24a3907e6",
+    "Session Restore": "41e92ade4ef95891738cb899563be10b",
     "Shopping": "bd1b20741df42f76d9702be42ee56d87",
-    "Site Skill Builder": "a18a6c16517d2b75e3c8bb00b7b240c3",
+    "Site Skill Builder": "3e2174a83c1a8818efaa688ae19b2136",
     "Skill Creation Research": "88f0c50ab8e90e60823d055a1fcf2523",
     "Skill Or Not": "ef63156c7c7e6aa9f687ce1f52237d8a",
     "Smart Home": "7b09f9bd419aae845ed47c4cb3eb93e3",
@@ -338,26 +340,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:01:33",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Spec Starter",
-            "System Recovery Mode"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Research Space",
-            "Resume Typesetter"
-          ]
-        }
-      ],
-      "total_repos": 155
-    },
     {
       "date": "2026-04-30T22:09:29",
       "changes": [
@@ -2579,6 +2561,29 @@
         }
       ],
       "total_repos": 333
+    },
+    {
+      "date": "2026-10-29T00:00:19",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Agentic Dev Workflows",
+            "Noise Pollution Analysis"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Adb Ops",
+            "Aliexpress Israel Skills",
+            "Kde Agent Workspace",
+            "Session Restore",
+            "Site Skill Builder"
+          ]
+        }
+      ],
+      "total_repos": 335
     }
   ]
 }

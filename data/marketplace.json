@@ -912,9 +912,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-ADB-Ops-Plugin"
       },
-      "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, and manage bloatware with a persistent log.",
+      "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.",
       "category": "Network & Smart Home",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2090,9 +2090,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-KDE-Agent-Workspace-Plugin"
       },
-      "description": "Give Claude its own KDE Plasma desktop to test apps in. Creates a \"Claude\" or \"AI Agents\" virtual desktop, launches real GUI or terminal apps there and drives them via AT-SPI with KWin window capture \u2014 without taking over the user's screen \u2014 and binds the agent desktop to its own monitor (per-output desktops on Plasma 6.7+). Or test in a headless sandbox KWin on a private bus, off your screen entirely.",
+      "description": "Give Claude its own KDE Plasma virtual desktop, or a headless sandbox KWin on a private bus: list desktops, create a \"Claude\" or \"AI Agents\" desktop, launch and test GUI or terminal apps there without taking over the user's screen (AT-SPI input, KWin window capture), bind the agent desktop to its own display output. Plasma 6 on Wayland.",
       "category": "Linux Sysadmin",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3010,9 +3010,9 @@
         "source": "github",
         "repo": "danielrosehill/Aliexpress-Israel-Skills"
       },
-      "description": "AliExpress shopping skills for Israel-based buyers \u2014 Choice-first search in ILS via a local browser, free-shipping filter, Israeli-reviews filter, single-listing landed-cost parse, and a running cart-value VAT-threshold nudge ($75 de-minimis).",
+      "description": "AliExpress shopping skills for Israel-based buyers \u2014 honest deep search that resolves true SKU prices behind anchored and bundle cards, fast-delivery-to-Israel filter, locale preference with drift guard (default EN/USD), Choice-first search, Israeli-reviews filter, landed cost, findings export (JSON/Markdown/PDF) and the $75 de-minimis across listings and cart.",
       "category": "Personal Productivity",
-      "version": "1.8.0",
+      "version": "1.9.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3432,9 +3432,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Site-Skill-Builder-Plugin"
       },
-      "description": "Site skills built by watching a site in your own signed-in Chrome \u2014 observe pages and endpoints, propose a skill roster for approval, then author skills that survive UI changes and probe for drift. Semantic handles only, never pixel coordinates. Every observation is classified publishable, private, or never-recorded, with a stop rule for incidental security findings.",
+      "description": "Site skills built by watching a site in your own signed-in Chrome \u2014 network-first discovery, a surface survey or your own URL list, a skill roster for approval, then skills that survive UI changes, keep the session alive, clean up after themselves and probe for drift. Semantic handles only. Every observation is classified publishable, private, or never-recorded.",
       "category": "Data Discovery",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4317,9 +4317,9 @@
         "source": "github",
         "repo": "danielrosehill/Session-Restore"
       },
-      "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Or pick sessions from a menu.",
+      "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also keeps Konsole asking before a window close kills them.",
       "category": "QA & Agent Sessions",
-      "version": "0.2.1",
+      "version": "0.3.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4333,7 +4333,8 @@
         "crash-recovery",
         "konsole",
         "kde",
-        "terminal"
+        "terminal",
+        "prevention"
       ]
     },
     {
@@ -4386,6 +4387,57 @@
         "backup",
         "tags",
         "transcription"
+      ]
+    },
+    {
+      "name": "agentic-dev-workflows",
+      "displayName": "Agentic Dev Workflows",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Agentic-Dev-Workflows"
+      },
+      "description": "Agent dev workflows: UI friction fixes, release patterns. Any platform: options-then-build for UI friction, sprint or release-to-test release patterns pinned to CLAUDE.md.",
+      "category": "Repo Scaffolding & Retrofitting",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "development",
+        "workflow",
+        "ui",
+        "ux",
+        "releases",
+        "sprints",
+        "ci"
+      ]
+    },
+    {
+      "name": "noise-pollution-analysis",
+      "displayName": "Noise Pollution Analysis",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Noise-Pollution-Analysis"
+      },
+      "description": "Document indoor noise pollution and analyse recordings at the frequency level: hums, tones, low-frequency drone, cycling, with reports per sample.",
+      "category": "Media Editing",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "noise",
+        "noise-pollution",
+        "acoustics",
+        "spectral-analysis",
+        "low-frequency-noise",
+        "audio"
       ]
     }
   ]
