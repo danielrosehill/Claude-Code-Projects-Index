@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-10-29T02:31:01",
-  "total_repos": 336,
+  "last_built": "2026-10-29T02:36:38",
+  "total_repos": 337,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -12,7 +12,7 @@
     "Agent Reference Workflows": "84249bc123e362edad3c10742c0df7f4",
     "Agent-Assisted Purchase Research Index": "a0a3dcfe225e5f6f0d67af3b04f8dca0",
     "Agentic Book Writing": "b784e2fb846e277f67eb8e3201627578",
-    "Agentic Dev Workflows": "33b37739ad1bf5849e916a83de3b1cca",
+    "Agentic Dev Workflows": "a41b912724397a174a7d7cbaa01a73a6",
     "Agentic Purchase Pipeline": "46ed227ea875479d33200d3ea2160293",
     "AI Attribution": "efc292eaf20f427ebddc2edc9ea3a50a",
     "AI Dev Repo Template 1": "9c89ec511fa0e751fdd1dc908bda7832",
@@ -200,6 +200,7 @@
     "Image Production": "2565e454e2cb5552695464cdcc23f726",
     "Israel Agent Skills": "bd393239058b05b3604a30fe8c22d504",
     "Israel Agent Skills Dev Index": "e50519415281a38eafcf12fa2a2ca57d",
+    "Israel Election 2026 Vote Decision": "dde26019e4ee11370d5f1583aa100baf",
     "Israel Medication Research Skills": "b5ce8ba4ec8c4efb3672bd960b03fd28",
     "Israel Mortgage Research Skills": "e1cb503821b107881d56016e4ec2b15c",
     "Israel Opening Hours": "37c39f13d3039319d90a8ddfaf829af2",
@@ -251,7 +252,7 @@
     "New Turn Claude Hook": "69e06775261d47a540621131a3097e03",
     "Nfc Ops": "5544aa35d39ac7d727060b9f01fb74e5",
     "No Wheel Inventions": "614fc5725b5efc3d6fedb8b58a65f35d",
-    "Noise Pollution Analysis": "158fd24c6fa1c56bbf8928a32fd9bc81",
+    "Noise Pollution Analysis": "eb417ec01611a6c494e6d938696edea3",
     "Non-Code Claude Code": "3ba4e338aa928549e7934531a98394db",
     "Novelty Text Editor": "3fb14bc82bd53d49087d05849e53d5fa",
     "Obd Diagnostics": "38855030276e0fe3191602de86e4ff0f",
@@ -341,30 +342,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:23:11",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Claude Pa",
-            "Digital Evidence"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Claude Data Wrangler",
-            "Image Production",
-            "Israel Agent Skills",
-            "Llm Council Creator",
-            "Local Web Capture",
-            "Media Assistant Ops"
-          ]
-        }
-      ],
-      "total_repos": 159
-    },
     {
       "date": "2026-04-30T22:26:43",
       "changes": [
@@ -2584,6 +2561,25 @@
         }
       ],
       "total_repos": 336
+    },
+    {
+      "date": "2026-10-29T02:36:38",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Israel Election 2026 Vote Decision"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Agentic Dev Workflows",
+            "Noise Pollution Analysis"
+          ]
+        }
+      ],
+      "total_repos": 337
     }
   ]
 }

@@ -145,7 +145,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-29",
     "slug": "agentic-dev-workflows",
-    "created_date": "2026-10-29"
+    "created_date": "2026-10-27"
   },
   {
     "name": "Agentic Purchase Pipeline",
@@ -2950,6 +2950,21 @@
     "created_date": "2026-05-06"
   },
   {
+    "name": "Israel Election 2026 Vote Decision",
+    "url": "https://github.com/danielrosehill/Israel-Election-2026-Vote-Decision",
+    "description": "Voting-decision workspace for the October 2026 Knesset election: a voice note of personal priorities becomes a weighted rubric, Claude agents research and score every list on the ballot, and the result ships as ranked PDF reports and an interactive Hugging Face Space.",
+    "tags": [
+      "Agent Workspace",
+      "Research"
+    ],
+    "category": "Research",
+    "category_slug": "research",
+    "category_group": "Research & Ideas",
+    "added_date": "2026-10-29",
+    "slug": "israel-election-2026-vote-decision",
+    "created_date": "2026-10-27"
+  },
+  {
     "name": "Israel Medication Research Skills",
     "url": "https://github.com/danielrosehill/Israel-Medication-Research-Skills",
     "description": "Stub workspace for agent skills that check medication availability in Israel for patients, to be folded into the Israel agent-skills plugin.",
@@ -3715,7 +3730,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-29",
     "slug": "noise-pollution-analysis",
-    "created_date": "2026-10-29"
+    "created_date": "2026-10-28"
   },
   {
     "name": "Non-Code Claude Code",

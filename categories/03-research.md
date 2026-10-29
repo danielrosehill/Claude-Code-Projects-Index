@@ -62,6 +62,13 @@ Ongoing research notebook, built on the Claude research workspace template, on m
 
 ---
 
+### Israel Election 2026 Vote Decision
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Election-2026-Vote-Decision) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square) ![Non-Code](https://img.shields.io/badge/Non--Code-teal?style=flat-square)
+
+Voting-decision workspace for the October 2026 Knesset election: a voice note of personal priorities becomes a weighted rubric, Claude agents research and score every list on the ballot, and the result ships as ranked PDF reports and an interactive Hugging Face Space.
+
+---
+
 ### Israel Research Skills
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Research-Skills)
 

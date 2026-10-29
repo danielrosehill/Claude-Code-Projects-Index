@@ -1,17 +1,3647 @@
 [
   {
-    "name": "Claude-Linux-AV-Manager-Plugin",
-    "url": "https://github.com/danielrosehill/Claude-Linux-AV-Manager-Plugin",
+    "name": "3D-Models",
+    "url": "https://github.com/danielrosehill/3D-Models",
+    "description": "Shared 3D character models (Corn, Herman) for My Weird Prompts games and projects"
+  },
+  {
+    "name": "A-Better-Jobs-Platform-Notes",
+    "url": "https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes",
+    "description": "Notes/thoughts on what I think could be a really fertile AI use-case"
+  },
+  {
+    "name": "About-Me",
+    "url": "https://github.com/danielrosehill/About-Me",
+    "description": "Because behind every Github profile is (hopefully) a human being!"
+  },
+  {
+    "name": "adb-keep-awake",
+    "url": "https://github.com/danielrosehill/adb-keep-awake",
+    "description": "Scripts to prevent Android phones from sleeping while connected via USB (keeps ADB working)"
+  },
+  {
+    "name": "Agent-Deploy",
+    "url": "https://github.com/danielrosehill/Agent-Deploy",
+    "description": "Prompt and model for creating agent-specific variants of Bash scripts"
+  },
+  {
+    "name": "Agent-IVR",
+    "url": "https://github.com/danielrosehill/Agent-IVR",
+    "description": "Idea repo: what if a phone menu had a branch for machines? \"If you are an AI agent, press 6\" \u2014 using the phone number as an agent service-discovery bootstrap. Twilio mechanics, A2A integration, prior art."
+  },
+  {
+    "name": "Agent-Journal",
+    "url": "https://github.com/danielrosehill/Agent-Journal",
+    "description": "Concept notes for an agent-managed wiki/logbook as part of agentic AI supervision"
+  },
+  {
+    "name": "Agent-Native-Dev-Protocols-0726",
+    "url": "https://github.com/danielrosehill/Agent-Native-Dev-Protocols-0726",
+    "description": "Research: is anyone building an agent-native protocol for the SDLC (specs, task graphs, progress state) \u2014 or is it still markdown all the way down? (July 2026)"
+  },
+  {
+    "name": "Agent-SDK-Env-Setup",
+    "url": "https://github.com/danielrosehill/Agent-SDK-Env-Setup",
+    "description": "Script to clone a few of the main ADKs (agent development kids) for testing/experimentation"
+  },
+  {
+    "name": "Agent-Skills",
+    "url": "https://github.com/danielrosehill/Agent-Skills",
+    "description": "Planning and \"production\" repo for agent skills"
+  },
+  {
+    "name": "Agent-Wiki-Idea",
+    "url": "https://github.com/danielrosehill/Agent-Wiki-Idea",
+    "description": "Exploring what a wiki looks like when its primary readers are AI agents \u2014 vector-native, tool-driven, no pages."
+  },
+  {
+    "name": "Agentic-AI-Architecture-Visualisation",
+    "url": "https://github.com/danielrosehill/Agentic-AI-Architecture-Visualisation",
+    "description": "Framework-agnostic data model and visualizations mapping the moving pieces of agentic AI systems"
+  },
+  {
+    "name": "Agentic-AI-Ecosystem",
+    "url": "https://github.com/danielrosehill/Agentic-AI-Ecosystem",
+    "description": "Taxonomy for agentic AI mapping the ecosystem into tooling components"
+  },
+  {
+    "name": "Agentic-Context-Development-Interview-Demo",
+    "url": "https://github.com/danielrosehill/Agentic-Context-Development-Interview-Demo",
+    "description": "Demonstration modelling how a chained LLM agent workflow could be used to expedite the generation of personal contextual data for personalised LLM experiences and personal RAG development"
+  },
+  {
+    "name": "Agents-Index",
+    "url": "https://github.com/danielrosehill/Agents-Index",
+    "description": "Periodically updated index of AI agent configurations that I'm working on (or have created)"
+  },
+  {
+    "name": "Agents.md-Templates",
+    "url": "https://github.com/danielrosehill/Agents.md-Templates",
+    "description": "Template agents.md templates for use with OpenAI Codex"
+  },
+  {
+    "name": "AI-Agent-Ideation-Agent",
+    "url": "https://github.com/danielrosehill/AI-Agent-Ideation-Agent",
+    "description": "Ideation agent that generates ideas for AI agents!"
+  },
+  {
+    "name": "AI-Agent-UN",
+    "url": "https://github.com/danielrosehill/AI-Agent-UN",
+    "description": "Experimentary implementation of a model real life political body populated by representative AI agents"
+  },
+  {
+    "name": "AI-Agent-Virtual-Panel-Configs",
+    "url": "https://github.com/danielrosehill/AI-Agent-Virtual-Panel-Configs",
+    "description": "Sets of \"panels\" for testing Rally (AskRally.com) exploring various \"frontier\" applications for the concept of AI personas and simulated voting bodies and thinking groups"
+  },
+  {
+    "name": "AI-Assistant-Ideator",
+    "url": "https://github.com/danielrosehill/AI-Assistant-Ideator",
+    "description": "Streamlit app for ideating AI assisants"
+  },
+  {
+    "name": "AI-Assistant-Template",
+    "url": "https://github.com/danielrosehill/AI-Assistant-Template",
+    "description": "Template repository for version controlling AI assistant configurations (and associated elements like context data)"
+  },
+  {
+    "name": "AI-Assisted-Policymaking-Index",
+    "url": "https://github.com/danielrosehill/AI-Assisted-Policymaking-Index",
+    "description": "Index of repositories that use AI to formulate and explore public policy \u2014 manifestos, policy papers, multi-lens deliberation runs, and the research workspaces behind them. Policy made with AI, not policy about AI."
+  },
+  {
+    "name": "AI-Audio-Editing-Tools",
+    "url": "https://github.com/danielrosehill/AI-Audio-Editing-Tools",
+    "description": "Curated index of AI audio-editing tools for agents \u2014 skills, CLIs, MCPs, podcast pipelines"
+  },
+  {
+    "name": "AI-Browser-Tools",
+    "url": "https://github.com/danielrosehill/AI-Browser-Tools",
+    "description": "Index of AI browser tools \u2014 automation frameworks, AI-native browsers, MCP servers, extensions, and commercial products"
+  },
+  {
+    "name": "AI-Commander-2026",
+    "url": "https://github.com/danielrosehill/AI-Commander-2026",
+    "description": "A gag voice assistant for Ubuntu. Real speech recognition, retro-futurist theatre, deliberately zero side effects."
+  },
+  {
+    "name": "AI-Data-Utilities",
+    "url": "https://github.com/danielrosehill/AI-Data-Utilities",
+    "description": "Curated list of open-source AI tooling for data work \u2014 agents, chat-with-data, visualisation, cleaning, and resource lists."
+  },
+  {
+    "name": "AI-Decision-Eval-Projects",
+    "url": "https://github.com/danielrosehill/AI-Decision-Eval-Projects",
+    "description": "Resource list of AI projects focused on exploring AI as a tool for enhanced decision-making in personal and business contexts"
+  },
+  {
+    "name": "AI-Delegate-Vote-Model",
+    "url": "https://github.com/danielrosehill/AI-Delegate-Vote-Model",
+    "description": "A constrained decision model that votes for/against/abstain on parliamentary motions, with a reason, on behalf of a declared constituency"
+  },
+  {
+    "name": "AI-Dev-Prompts-Example",
+    "url": "https://github.com/danielrosehill/AI-Dev-Prompts-Example",
+    "description": "Examples of AI prompts for code generation (Python GUI) and some notes on emerging \"best practices\""
+  },
+  {
+    "name": "AI-Developer-Notebook",
+    "url": "https://github.com/danielrosehill/AI-Developer-Notebook",
+    "description": "Notes for configuring a reference notebook with Claude Code"
+  },
+  {
+    "name": "AI-Developers-Career-Planning-Notes",
+    "url": "https://github.com/danielrosehill/AI-Developers-Career-Planning-Notes",
+    "description": "Notes/ideas for the evolving face of programming jobs!"
+  },
+  {
+    "name": "AI-Fix-My-Messy-Whiteboard",
+    "url": "https://github.com/danielrosehill/AI-Fix-My-Messy-Whiteboard",
+    "description": "Whiteboard cleanup pipeline and util (local implementation)"
+  },
+  {
+    "name": "AI-Friendly-Badge",
+    "url": "https://github.com/danielrosehill/AI-Friendly-Badge",
+    "description": "Website footer badge signalling AI \"friendliness\""
+  },
+  {
+    "name": "AI-Geopol-Projects",
+    "url": "https://github.com/danielrosehill/AI-Geopol-Projects",
+    "description": "Collection/resource list of AI projects focused on exploring the ability of AI agents to act as proxies for real-world geopolirtical actors, including simulated policy fora"
+  },
+  {
+    "name": "AI-Harnesses",
+    "url": "https://github.com/danielrosehill/AI-Harnesses",
+    "description": "Point-in-time snapshot of projects describing themselves as AI agent harnesses (April 2026)"
+  },
+  {
+    "name": "AI-Image-Editing-Tools",
+    "url": "https://github.com/danielrosehill/AI-Image-Editing-Tools",
+    "description": "Collection of AI image-editing tools for agents \u2014 skills, CLIs, MCPs"
+  },
+  {
+    "name": "AI-Interview-Workflow-V2",
+    "url": "https://github.com/danielrosehill/AI-Interview-Workflow-V2",
     "description": ""
   },
   {
-    "name": "Claude-Pad",
-    "url": "https://github.com/danielrosehill/Claude-Pad",
+    "name": "AI-Memory-Layers",
+    "url": "https://github.com/danielrosehill/AI-Memory-Layers",
+    "description": "List of AI memory resources"
+  },
+  {
+    "name": "AI-Model-Manager",
+    "url": "https://github.com/danielrosehill/AI-Model-Manager",
+    "description": "Planning/WIP repo fro AI model manager"
+  },
+  {
+    "name": "AI-Native-Backend-Notes",
+    "url": "https://github.com/danielrosehill/AI-Native-Backend-Notes",
+    "description": "Questions and answers with Claude on building AI native backends"
+  },
+  {
+    "name": "AI-Orchestration-System-Prompts",
+    "url": "https://github.com/danielrosehill/AI-Orchestration-System-Prompts",
+    "description": "System prompts for AI assistants designed to orchestrate access to other agents"
+  },
+  {
+    "name": "AI-Output-Storage-Backend-Data-Models",
+    "url": "https://github.com/danielrosehill/AI-Output-Storage-Backend-Data-Models",
+    "description": "Some simple data tables for populating a backend for storing prompt runs"
+  },
+  {
+    "name": "AI-Personal-EQ-Creator",
+    "url": "https://github.com/danielrosehill/AI-Personal-EQ-Creator",
+    "description": "AI Studio starter - upload voice sample, get EQ preset"
+  },
+  {
+    "name": "AI-Presentation-Builders-Index",
+    "url": "https://github.com/danielrosehill/AI-Presentation-Builders-Index",
+    "description": "Point in time aggregated list of utilities for creating slide decks/presentations with AI agents"
+  },
+  {
+    "name": "AI-Project-Spec-Pattern",
+    "url": "https://github.com/danielrosehill/AI-Project-Spec-Pattern",
+    "description": "Pattern for creating a modular spec-definition format for AI coding agents from one initial plan ingestion"
+  },
+  {
+    "name": "AI-Projects-Index",
+    "url": "https://github.com/danielrosehill/AI-Projects-Index",
+    "description": "Index of AI project related indices (master index)"
+  },
+  {
+    "name": "AI-Resource-Maps",
+    "url": "https://github.com/danielrosehill/AI-Resource-Maps",
+    "description": "Index of repos mapping out (snapshots/updated) parts of the huge world of AI of particular interest to me"
+  },
+  {
+    "name": "AI-Resume",
+    "url": "https://github.com/danielrosehill/AI-Resume",
+    "description": "Notes / test for creating a version of a resume/CV specifically intended for AI agents"
+  },
+  {
+    "name": "AI-Room-Dimension-Estimator",
+    "url": "https://github.com/danielrosehill/AI-Room-Dimension-Estimator",
+    "description": "Upload pics, get ballpark dimensions"
+  },
+  {
+    "name": "AI-Safety-Projects-Index",
+    "url": "https://github.com/danielrosehill/AI-Safety-Projects-Index",
+    "description": "Index of AI safety, ethics, and responsible AI development repositories"
+  },
+  {
+    "name": "AI-Stack-0426",
+    "url": "https://github.com/danielrosehill/AI-Stack-0426",
     "description": ""
   },
   {
-    "name": "Claude-Spend-Approval-Limit",
-    "url": "https://github.com/danielrosehill/Claude-Spend-Approval-Limit",
-    "description": "CLAUDE.md snippet: a spending approval limit for AI agents \u2014 autonomous below it, estimate-and-ask above it"
+    "name": "AI-Stack-Oct-2025",
+    "url": "https://github.com/danielrosehill/AI-Stack-Oct-2025",
+    "description": "Model AI stack and budget (Oct 2025) - for ref, FAQs, etc"
+  },
+  {
+    "name": "AI-Synthesised-Perspectives",
+    "url": "https://github.com/danielrosehill/AI-Synthesised-Perspectives",
+    "description": "Collection/resource list of AI projects focused on synthesising perpsectives for multi-perspective exploration"
+  },
+  {
+    "name": "AI-Synthetic-Society-Experiments",
+    "url": "https://github.com/danielrosehill/AI-Synthetic-Society-Experiments",
+    "description": "Resource list of AI projects exploring synthetic AI soceties, multi-agent socialisation, and the ability of these experiments to act as proxies for predicting or better understanding real world behavior"
+  },
+  {
+    "name": "AI-Sysadmin",
+    "url": "https://github.com/danielrosehill/AI-Sysadmin",
+    "description": "Desktop maintenance utility (WIP/planning notes)"
+  },
+  {
+    "name": "AI-Tech-Doc-Stack",
+    "url": "https://github.com/danielrosehill/AI-Tech-Doc-Stack",
+    "description": "Notes (Dec 2025) for an AI technical documentation stack"
+  },
+  {
+    "name": "AI-Text-Rewriting-Toolbox",
+    "url": "https://github.com/danielrosehill/AI-Text-Rewriting-Toolbox",
+    "description": "LLM text reformatting and rewriting toolbox comprised of many system prompts"
+  },
+  {
+    "name": "AI-Timesheet-Creator",
+    "url": "https://github.com/danielrosehill/AI-Timesheet-Creator",
+    "description": "Gemini: screenshot and voice narration based timesheet creator"
+  },
+  {
+    "name": "AI-Transcription-Notepad",
+    "url": "https://github.com/danielrosehill/AI-Transcription-Notepad",
+    "description": "Voice note taking utility that uses cloud audio multimodal models for single pass transcription and text cleanup"
+  },
+  {
+    "name": "AI-Video-Tools",
+    "url": "https://github.com/danielrosehill/AI-Video-Tools",
+    "description": "Collection of AI video production tools \u2014 ComfyUI, MCPs, agent skills, and agentic video frameworks"
+  },
+  {
+    "name": "Ai-Workspace-Planning-Notes",
+    "url": "https://github.com/danielrosehill/Ai-Workspace-Planning-Notes",
+    "description": "Spec/notes for an AI workspace I have been planning for some time (incl consolidating previous notes)"
+  },
+  {
+    "name": "Aliexpress-Combo-Hider",
+    "url": "https://github.com/danielrosehill/Aliexpress-Combo-Hider",
+    "description": ""
+  },
+  {
+    "name": "AliExpress-No-Combo-Deals",
+    "url": "https://github.com/danielrosehill/AliExpress-No-Combo-Deals",
+    "description": "Userscript to hide combo deals (bundles, multi-buy promos) from AliExpress search and product pages"
+  },
+  {
+    "name": "All-About-MCP",
+    "url": "https://github.com/danielrosehill/All-About-MCP",
+    "description": "Example repository for agentic AI generated long form report generation"
+  },
+  {
+    "name": "AMD-AI-Notes",
+    "url": "https://github.com/danielrosehill/AMD-AI-Notes",
+    "description": "Just some random notes for those exporing local AI with ... AMD GPUs!"
+  },
+  {
+    "name": "AMD-AI-Server",
+    "url": "https://github.com/danielrosehill/AMD-AI-Server",
+    "description": "Local AI inference server for AMD GPU users"
+  },
+  {
+    "name": "AMD-GPU-DP-Hotplug-Fix",
+    "url": "https://github.com/danielrosehill/AMD-GPU-DP-Hotplug-Fix",
+    "description": "Workaround for AMDGPU DisplayPort monitors not detected at boot (Navi 32, kernel 6.14+)"
+  },
+  {
+    "name": "amd-gpu-fixes",
+    "url": "https://github.com/danielrosehill/amd-gpu-fixes",
+    "description": "Collection of patches and fixes - may be outdated, gathered for reference"
+  },
+  {
+    "name": "AMD-Radeon-7700-Notes",
+    "url": "https://github.com/danielrosehill/AMD-Radeon-7700-Notes",
+    "description": "Some notes about my GPU and compatibility"
+  },
+  {
+    "name": "American-Centrism-Eval",
+    "url": "https://github.com/danielrosehill/American-Centrism-Eval",
+    "description": "Eval: does a model assume the user is in the US when not told? Component of Dan-Eval (placeholder)"
+  },
+  {
+    "name": "Android-Selection-Case-Converter",
+    "url": "https://github.com/danielrosehill/Android-Selection-Case-Converter",
+    "description": "Android text-selection menu: UPPERCASE or ChAoS cAsE, on device, no permissions"
+  },
+  {
+    "name": "Android-Thin-Fork-Autosync",
+    "url": "https://github.com/danielrosehill/Android-Thin-Fork-Autosync",
+    "description": "Template for a thin downstream fork of an active Android app: narrow hooks, weekly auto-merge of upstream releases, seam checks, signed release APKs via GitHub Actions"
+  },
+  {
+    "name": "Android-Voice-Keyboard-Roundup",
+    "url": "https://github.com/danielrosehill/Android-Voice-Keyboard-Roundup",
+    "description": "Evaluation matrix for open-source Android voice keyboards: voice IME vs full keyboard vs floating button, local vs cloud vs automatic fallback, and which ASR model"
+  },
+  {
+    "name": "Apps-Index",
+    "url": "https://github.com/danielrosehill/Apps-Index",
+    "description": "Indexing repo for apps created"
+  },
+  {
+    "name": "Arch-And-Interiors-Index",
+    "url": "https://github.com/danielrosehill/Arch-And-Interiors-Index",
+    "description": "Resource list for sharing with my favorite architect (my wife) \u2014 tools, repos, and mad dabblings."
+  },
+  {
+    "name": "Architectural-Plans-Index",
+    "url": "https://github.com/danielrosehill/Architectural-Plans-Index",
+    "description": "Index of repositories containing architectural plans, blueprints, project specifications, and design documents"
+  },
+  {
+    "name": "ASR-And-STT-AI-Notebook",
+    "url": "https://github.com/danielrosehill/ASR-And-STT-AI-Notebook",
+    "description": "Propmts and outputs (and some notes) on STT + ASR + fine-tuning. LLM: Claude"
+  },
+  {
+    "name": "ASR-Dataset-Blending",
+    "url": "https://github.com/danielrosehill/ASR-Dataset-Blending",
+    "description": "Research notes on blending datasets for ASR fine-tunes: mixing tools, replay ratios, forgetting prevention, general corpora"
+  },
+  {
+    "name": "ASR-Mic-Tuner",
+    "url": "https://github.com/danielrosehill/ASR-Mic-Tuner",
+    "description": "ASR Mic Tuner: tune your microphone for speech recognition on KDE Plasma \u2014 true analog gain, level, clipping, noise and voice analysis, tray"
+  },
+  {
+    "name": "ASR-Mistranscription-Predictor",
+    "url": "https://github.com/danielrosehill/ASR-Mistranscription-Predictor",
+    "description": "Plan: predict which words an ASR model will mistranscribe for one speaker, by extrapolating from a list of confirmed fixes mined from their dictation history, so the predictions can go into fine-tuning data"
+  },
+  {
+    "name": "ASR-Paragraph-Breaks",
+    "url": "https://github.com/danielrosehill/ASR-Paragraph-Breaks",
+    "description": "Hand-annotated paragraph breaks for flat ASR text, and a small text-in/text-out model trained on them"
+  },
+  {
+    "name": "ASR-Post-Processor-Model",
+    "url": "https://github.com/danielrosehill/ASR-Post-Processor-Model",
+    "description": "Light-touch text-in/text-out model that cleans raw Parakeet v2 dictation: disfluencies, contractions, paragraphs. Planning stage."
+  },
+  {
+    "name": "ASR-Regex-Post-Processing",
+    "url": "https://github.com/danielrosehill/ASR-Regex-Post-Processing",
+    "description": "Regex snippets for cleaning up speech-to-text output \u2014 Android (ICU) first, with Linux engine differences flagged and machine-checked."
+  },
+  {
+    "name": "ASR-Training-Data-Chunker",
+    "url": "https://github.com/danielrosehill/ASR-Training-Data-Chunker",
+    "description": "Breaks up texts by approximate reading duration"
+  },
+  {
+    "name": "ASR-Training-Data-Collector",
+    "url": "https://github.com/danielrosehill/ASR-Training-Data-Collector",
+    "description": "GUI to facilitate gathering training data for ASR/STT apps in organised datasets with audio capture, text capture, and JSONL metadata construction. Supports LLM-generated text and user-provided."
+  },
+  {
+    "name": "Assistant-Config-Editor",
+    "url": "https://github.com/danielrosehill/Assistant-Config-Editor",
+    "description": "Streamlit web UI for editing assistant configuration texts"
+  },
+  {
+    "name": "Assistant-Configuration-Improver",
+    "url": "https://github.com/danielrosehill/Assistant-Configuration-Improver",
+    "description": "Assistant which improves the configuration of assistant configuration texts"
+  },
+  {
+    "name": "astrostarter",
+    "url": "https://github.com/danielrosehill/astrostarter",
+    "description": "A few spins on the Astro starter theme to demonstrate some capabilities that I like adding to this framework"
+  },
+  {
+    "name": "audacity-transcription-presets",
+    "url": "https://github.com/danielrosehill/audacity-transcription-presets",
+    "description": "Export presets, silence-trimming settings and macros for turning an Audacity recording into a file optimised for Whisper/AssemblyAI transcription"
+  },
+  {
+    "name": "Audio-Multimodal-AI-Resources",
+    "url": "https://github.com/danielrosehill/Audio-Multimodal-AI-Resources",
+    "description": "A compilation of resources (model profiles, benchmarks, docs) for multimodal AI models with audio understanding (esp. focused on ASR and transcription use-cases)"
+  },
+  {
+    "name": "Audio-Multimodal-Formatting-Prompts",
+    "url": "https://github.com/danielrosehill/Audio-Multimodal-Formatting-Prompts",
+    "description": "AI-ideated prompts for single pass audio multimodal transcript formatting"
+  },
+  {
+    "name": "Audio-Understanding-Bitrate-Eval-0426",
+    "url": "https://github.com/danielrosehill/Audio-Understanding-Bitrate-Eval-0426",
+    "description": "Empirical eval: how MP3 bitrate affects transcription accuracy across every audio-input LLM on OpenRouter (Gemini, GPT-Audio, Voxtral, MiMo). April 2026."
+  },
+  {
+    "name": "Audio-Understanding-Test-Prompts",
+    "url": "https://github.com/danielrosehill/Audio-Understanding-Test-Prompts",
+    "description": "A few test prompts to be used when evaluating audio multimodal models"
+  },
+  {
+    "name": "Audiopenai-Edit-Prompts",
+    "url": "https://github.com/danielrosehill/Audiopenai-Edit-Prompts",
+    "description": "Text transformation prompts library for Audiopen.ai (my customs)"
+  },
+  {
+    "name": "Automation-Code-Snippets",
+    "url": "https://github.com/danielrosehill/Automation-Code-Snippets",
+    "description": "Code snippets for automation building and integration (that might be of interest)"
+  },
+  {
+    "name": "Awesome-AI-Agents-And-Assistants",
+    "url": "https://github.com/danielrosehill/Awesome-AI-Agents-And-Assistants",
+    "description": "An ecosystem map of the AI agent and assistant building landscape in Feb 2025"
+  },
+  {
+    "name": "Awesome-AI-Coding-Tools",
+    "url": "https://github.com/danielrosehill/Awesome-AI-Coding-Tools",
+    "description": "September 1st 2025 Snapshot"
+  },
+  {
+    "name": "Awesome-AI-Evaluations-Tools",
+    "url": "https://github.com/danielrosehill/Awesome-AI-Evaluations-Tools",
+    "description": "Collection of frameworks and tools for AI evalations, including tool-use, agentic AI, MCP, and multimodal"
+  },
+  {
+    "name": "Awesome-AI-Subreddits",
+    "url": "https://github.com/danielrosehill/Awesome-AI-Subreddits",
+    "description": "Subreddits discussing AI related things!"
+  },
+  {
+    "name": "Awesome-Hebrew-Fonts",
+    "url": "https://github.com/danielrosehill/Awesome-Hebrew-Fonts",
+    "description": "Collection of Hebrew fonts, installer for Google Font distributed versions, and some resources"
+  },
+  {
+    "name": "Awesome-Israeli-Jewish-Home-Assistant",
+    "url": "https://github.com/danielrosehill/Awesome-Israeli-Jewish-Home-Assistant",
+    "description": "Home automation projects that are relevant to people in Israel or Jews generally (e.g. Shabbat and zmanim time integrations)"
+  },
+  {
+    "name": "Awesome-Linux-IDEs",
+    "url": "https://github.com/danielrosehill/Awesome-Linux-IDEs",
+    "description": "IDEs and development tools that work on one or multiple Linux distros. where possible details are noted like the supported distros, programming languages and more.   "
+  },
+  {
+    "name": "Awesome-LLM-Communities",
+    "url": "https://github.com/danielrosehill/Awesome-LLM-Communities",
+    "description": "Great online communities discussing use of LLMs including (but not limited to) ChatGPT"
+  },
+  {
+    "name": "Awesome-LLM-Council-Projects",
+    "url": "https://github.com/danielrosehill/Awesome-LLM-Council-Projects",
+    "description": "Index of projects based upon Karpathy's LLM Council model"
+  },
+  {
+    "name": "Awesome-LLM-Prompt-Libraries",
+    "url": "https://github.com/danielrosehill/Awesome-LLM-Prompt-Libraries",
+    "description": "An index of prompting libraries for GPTs, including ChatGPT. Some of these are on Github and others are hosted externally."
+  },
+  {
+    "name": "Awesome-Obsidian-AI-Tools",
+    "url": "https://github.com/danielrosehill/Awesome-Obsidian-AI-Tools",
+    "description": "Obsidian plugins focused on leveraging AI & LLMs inside of (and beyond) vaults"
+  },
+  {
+    "name": "Awesome-Red-Alerts",
+    "url": "https://github.com/danielrosehill/Awesome-Red-Alerts",
+    "description": "Collection of red alert (\u05e6\u05d1\u05e2 \u05d0\u05d3\u05d5\u05dd) civilian notification projects for Israel"
+  },
+  {
+    "name": "Awesome-Whisper-Apps",
+    "url": "https://github.com/danielrosehill/Awesome-Whisper-Apps",
+    "description": "Useful speech to text tools that use Whisper under the hood (API/local)"
+  },
+  {
+    "name": "Back-Up-Your-SaaS",
+    "url": "https://github.com/danielrosehill/Back-Up-Your-SaaS",
+    "description": "Notes for fellow cautious trusters of \"the cloud\""
+  },
+  {
+    "name": "Backup-Projects-Index",
+    "url": "https://github.com/danielrosehill/Backup-Projects-Index",
+    "description": "Indexing repo of backup related projects and scripts"
+  },
+  {
+    "name": "Better-Hashnode-Backups",
+    "url": "https://github.com/danielrosehill/Better-Hashnode-Backups",
+    "description": "Backups a Hashnode blog including the images from the CDN"
+  },
+  {
+    "name": "Better-Safe",
+    "url": "https://github.com/danielrosehill/Better-Safe",
+    "description": "CLI for taking on-demand Snapper snapshots (BTRFS)"
+  },
+  {
+    "name": "Better-Web-Design-Inc",
+    "url": "https://github.com/danielrosehill/Better-Web-Design-Inc",
+    "description": "Agentic web design crew specialising in offbeat designs and client dissatisfaction!"
+  },
+  {
+    "name": "Bias-Censorship-Eval-Tests",
+    "url": "https://github.com/danielrosehill/Bias-Censorship-Eval-Tests",
+    "description": "Some loosely organised experiments intended to probe the levels of political censorship inherent in LLMs"
+  },
+  {
+    "name": "BIFL-Recs",
+    "url": "https://github.com/danielrosehill/BIFL-Recs",
+    "description": "Directory of durable-goods recommendations mined from r/BuyItForLife and adjacent sources, with evidence attached to every record"
+  },
+  {
+    "name": "Bounded-Brainstorming-Finetune",
+    "url": "https://github.com/danielrosehill/Bounded-Brainstorming-Finetune",
+    "description": "Fine-tune spec for bounded brainstorming: given a task, priors (existing items) and a format, generate N novel items that match the format and don't repeat the priors"
+  },
+  {
+    "name": "Brother-Label-Printer-GUI",
+    "url": "https://github.com/danielrosehill/Brother-Label-Printer-GUI",
+    "description": "Python GUI and CLI application for printing labels with QR codes on Brother QL-700 label printers"
+  },
+  {
+    "name": "Browser-Scripts-Index",
+    "url": "https://github.com/danielrosehill/Browser-Scripts-Index",
+    "description": "Index of Daniel Rosehill's browser userscripts (Tampermonkey / Violentmonkey / Greasemonkey)"
+  },
+  {
+    "name": "BTRFS-Snapper-MCP",
+    "url": "https://github.com/danielrosehill/BTRFS-Snapper-MCP",
+    "description": ""
+  },
+  {
+    "name": "BUDGET.md",
+    "url": "https://github.com/danielrosehill/BUDGET.md",
+    "description": "Financial constraints and cost-mitigation primitive for cost-aware agent reasoning. Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Bug-Reports-And-Fixes",
+    "url": "https://github.com/danielrosehill/Bug-Reports-And-Fixes",
+    "description": "Aggregated notes for bug reporting and any fixes identiifed"
+  },
+  {
+    "name": "Business-Idea-Refinement-Agent",
+    "url": "https://github.com/danielrosehill/Business-Idea-Refinement-Agent",
+    "description": "AI agent that helps users to explore business ideas and receive first-pass feedback"
+  },
+  {
+    "name": "Cable-Reference-Wall-Charts",
+    "url": "https://github.com/danielrosehill/Cable-Reference-Wall-Charts",
+    "description": "Some Nano Banana Pro cable reference graphics for printing"
+  },
+  {
+    "name": "CAMEO-Codebook",
+    "url": "https://github.com/danielrosehill/CAMEO-Codebook",
+    "description": "Unofficial machine-readable (JSON/YAML) extraction of the CAMEO codebook used by GDELT/ACLED"
+  },
+  {
+    "name": "Candela",
+    "url": "https://github.com/danielrosehill/Candela",
+    "description": "Webcam-driven adaptive screen brightness for KDE Plasma on Wayland"
+  },
+  {
+    "name": "Career-Data-AI-Context-Repo",
+    "url": "https://github.com/danielrosehill/Career-Data-AI-Context-Repo",
+    "description": "Context repository for AI tools providing career info to guide agents, assistants, etc"
+  },
+  {
+    "name": "Career-Pivot-AI",
+    "url": "https://github.com/danielrosehill/Career-Pivot-AI",
+    "description": "Career pivot ideation app (AI Studio, vibe coded starter)"
+  },
+  {
+    "name": "Careers-Utilities-System-Prompts",
+    "url": "https://github.com/danielrosehill/Careers-Utilities-System-Prompts",
+    "description": "System prompts for AI assistants related to career and job matters"
+  },
+  {
+    "name": "ChatGPT-Agents-Notes",
+    "url": "https://github.com/danielrosehill/ChatGPT-Agents-Notes",
+    "description": "Notebook for ChatGPT agents"
+  },
+  {
+    "name": "ChatGPT-Custom-Instructions",
+    "url": "https://github.com/danielrosehill/ChatGPT-Custom-Instructions",
+    "description": "Custom instructions for ChatGPT"
+  },
+  {
+    "name": "ChatGPT-Plugins",
+    "url": "https://github.com/danielrosehill/ChatGPT-Plugins",
+    "description": "Daniel Rosehill's public plugins for ChatGPT (adapted from his Claude Code marketplace) as an importable plugin marketplace catalogue"
+  },
+  {
+    "name": "ChatGPT-Stylistic-System-Prompts",
+    "url": "https://github.com/danielrosehill/ChatGPT-Stylistic-System-Prompts",
+    "description": "Some boilerplate responses to \"how do  you want ChatGPT to behave\"? to play around with creating different chat experiences through simple configs"
+  },
+  {
+    "name": "Client-Update-Pipeline-Notes",
+    "url": "https://github.com/danielrosehill/Client-Update-Pipeline-Notes",
+    "description": "Planning notes for a concept agentic emailing pipeline"
+  },
+  {
+    "name": "Cloud-ASR-MCP",
+    "url": "https://github.com/danielrosehill/Cloud-ASR-MCP",
+    "description": "WIP MCP for using various cloud ASR models for speech to text / transcription"
+  },
+  {
+    "name": "Cloud-Backup-Scripts",
+    "url": "https://github.com/danielrosehill/Cloud-Backup-Scripts",
+    "description": "Various scripts for manually syncing and backing up cloud storage"
+  },
+  {
+    "name": "Cloud-STT-Price-Points-1225",
+    "url": "https://github.com/danielrosehill/Cloud-STT-Price-Points-1225",
+    "description": "Point in time pricing snapshots for ASR (07-12-2025)"
+  },
+  {
+    "name": "Code-Tutor-Agent-Model",
+    "url": "https://github.com/danielrosehill/Code-Tutor-Agent-Model",
+    "description": "Basic config/idea for an AI agent(s) to guide rather than \"do\""
+  },
+  {
+    "name": "Compatibility-Notes",
+    "url": "https://github.com/danielrosehill/Compatibility-Notes",
+    "description": "Notes verifying compatibility between components"
+  },
+  {
+    "name": "Computer-Monitor-Purchase-0812",
+    "url": "https://github.com/danielrosehill/Computer-Monitor-Purchase-0812",
+    "description": "Purchase research for a computer monitor (display panel) \u2014 spec capture, candidate evaluation and landed cost"
+  },
+  {
+    "name": "Conspiracy-Endorsement-Eval",
+    "url": "https://github.com/danielrosehill/Conspiracy-Endorsement-Eval",
+    "description": "Does a model push back on, endorse, or encourage conspiracy theories a user brings to it? Safety eval."
+  },
+  {
+    "name": "Context-Chunker-Assistant",
+    "url": "https://github.com/danielrosehill/Context-Chunker-Assistant",
+    "description": "A n interactive chatbot approach to chunking context data for embedding into RAG"
+  },
+  {
+    "name": "Context-Cruncher",
+    "url": "https://github.com/danielrosehill/Context-Cruncher",
+    "description": "App for extracting context data from voice recordings"
+  },
+  {
+    "name": "Context-Data-Generation-Bot",
+    "url": "https://github.com/danielrosehill/Context-Data-Generation-Bot",
+    "description": "Configuration for an AI assistant to generate personal contextual data (and intended workflow)"
+  },
+  {
+    "name": "Context-Engineering-Resources",
+    "url": "https://github.com/danielrosehill/Context-Engineering-Resources",
+    "description": "Resource index of tools and utils related to context engineering and mgmt"
+  },
+  {
+    "name": "Context-Projects-Index",
+    "url": "https://github.com/danielrosehill/Context-Projects-Index",
+    "description": "Index of projects related to context-gathering and generation for AI, including via interview approaches"
+  },
+  {
+    "name": "Context-Waterfall-Architecture-Notes",
+    "url": "https://github.com/danielrosehill/Context-Waterfall-Architecture-Notes",
+    "description": "A model for routing contextual data into vector storage for use with LLMs"
+  },
+  {
+    "name": "Corn-The-Sloth-Public",
+    "url": "https://github.com/danielrosehill/Corn-The-Sloth-Public",
+    "description": "Character sketches for an AI character..."
+  },
+  {
+    "name": "Council-Of-Maniacs",
+    "url": "https://github.com/danielrosehill/Council-Of-Maniacs",
+    "description": ""
+  },
+  {
+    "name": "Crying-Baby-Audio-Scrub",
+    "url": "https://github.com/danielrosehill/Crying-Baby-Audio-Scrub",
+    "description": "Experiment to see if crying baby audio can be scrubbed with audio inpainting (use-case: WIP parenting and content creation!)"
+  },
+  {
+    "name": "Custom-Chat-GPT-Finder",
+    "url": "https://github.com/danielrosehill/Custom-Chat-GPT-Finder",
+    "description": "Utility for identifying newly released custom ChatGPTs shared via the ChatGPT App Store"
+  },
+  {
+    "name": "Custom-License-Creator",
+    "url": "https://github.com/danielrosehill/Custom-License-Creator",
+    "description": "AI tool to create a bespoke set of licensing terms for a project"
+  },
+  {
+    "name": "Dan-Eval",
+    "url": "https://github.com/danielrosehill/Dan-Eval",
+    "description": "Composite of my pet-peeve evaluations for models I'm considering adopting: Israel/Palestine framing, Chinese censorship, American centrism (placeholder)"
+  },
+  {
+    "name": "danielrosehill",
+    "url": "https://github.com/danielrosehill/danielrosehill",
+    "description": "Github homepage text"
+  },
+  {
+    "name": "Daniels-Take-On",
+    "url": "https://github.com/danielrosehill/Daniels-Take-On",
+    "description": "My thoughts on a few random topics (for my documentation site), to get a bit of space to jot down things besides tech notes"
+  },
+  {
+    "name": "Data-Analysis-Notebook",
+    "url": "https://github.com/danielrosehill/Data-Analysis-Notebook",
+    "description": "A public notebook of some analytical work with datasets"
+  },
+  {
+    "name": "Data-Projects-Index",
+    "url": "https://github.com/danielrosehill/Data-Projects-Index",
+    "description": "Data apps and datasets deployed to Streamlit Community Cloud, Hugging Face, and elsewhere. "
+  },
+  {
+    "name": "Data-Relationships-Helper",
+    "url": "https://github.com/danielrosehill/Data-Relationships-Helper",
+    "description": "Utility for helping users understand the classic data relationships in RDMSs (M2M, O2M, M2O etc)"
+  },
+  {
+    "name": "Data-Utilities-System-Prompts",
+    "url": "https://github.com/danielrosehill/Data-Utilities-System-Prompts",
+    "description": "System prompts for data-related AI assistants"
+  },
+  {
+    "name": "Database-Relationship-Identifier-Postgres",
+    "url": "https://github.com/danielrosehill/Database-Relationship-Identifier-Postgres",
+    "description": "Utility that creates a human-readable manifest of the relationships contained in a Postgres database"
+  },
+  {
+    "name": "DaVinci-Resolve-Linux-Setup",
+    "url": "https://github.com/danielrosehill/DaVinci-Resolve-Linux-Setup",
+    "description": "Getting DaVinci Resolve Studio working on Ubuntu 25.10 with an AMD RX 7000 GPU \u2014 distrobox + ROCm OpenCL + Wayland workarounds."
+  },
+  {
+    "name": "Day-Planner-Dashboard",
+    "url": "https://github.com/danielrosehill/Day-Planner-Dashboard",
+    "description": "Day planner dashboard config with email, calendar, news, IP cam, weather"
+  },
+  {
+    "name": "Decision-Making-Algorithm-Agent",
+    "url": "https://github.com/danielrosehill/Decision-Making-Algorithm-Agent",
+    "description": "Agent template for generating decision-making algorithms/flow-charts"
+  },
+  {
+    "name": "Deep-Research-Projects-0425",
+    "url": "https://github.com/danielrosehill/Deep-Research-Projects-0425",
+    "description": "A collection of links to a few AI \"deep research\" projects and agents, April 2025"
+  },
+  {
+    "name": "Deepgram-Text-Input",
+    "url": "https://github.com/danielrosehill/Deepgram-Text-Input",
+    "description": "Analysis of Deepgram text input"
+  },
+  {
+    "name": "Deepseek-4-Pricing-240426",
+    "url": "https://github.com/danielrosehill/Deepseek-4-Pricing-240426",
+    "description": ""
+  },
+  {
+    "name": "Deployments-Index",
+    "url": "https://github.com/danielrosehill/Deployments-Index",
+    "description": "Stacks and deployment documentation and compose files"
+  },
+  {
+    "name": "Desktop-Backup-Notes-1125",
+    "url": "https://github.com/danielrosehill/Desktop-Backup-Notes-1125",
+    "description": ""
+  },
+  {
+    "name": "Desktop-MCP",
+    "url": "https://github.com/danielrosehill/Desktop-MCP",
+    "description": "Local MCP server exposing specialised tools to agents"
+  },
+  {
+    "name": "Desktop-Wallpapers",
+    "url": "https://github.com/danielrosehill/Desktop-Wallpapers",
+    "description": "Some desktop wallpapers"
+  },
+  {
+    "name": "Development-Project-Index",
+    "url": "https://github.com/danielrosehill/Development-Project-Index",
+    "description": "Combined indexer for projects on Github and Hugging Face"
+  },
+  {
+    "name": "Diarised-Transcript-Assistant",
+    "url": "https://github.com/danielrosehill/Diarised-Transcript-Assistant",
+    "description": "System prompt for generating diarised transcripts (STT plus stylistic guidance)"
+  },
+  {
+    "name": "dictamic",
+    "url": "https://github.com/danielrosehill/dictamic",
+    "description": "Fix laptop internal-mic voice recognition accuracy on Linux: PipeWire WebRTC AGC pipeline + monitor GUI (.deb)"
+  },
+  {
+    "name": "Dictation-Macropad",
+    "url": "https://github.com/danielrosehill/Dictation-Macropad",
+    "description": "Plan/key allocation for a macropad optimised for heavy daily dictation worklflows"
+  },
+  {
+    "name": "Digital-Evidence-Toolkit",
+    "url": "https://github.com/danielrosehill/Digital-Evidence-Toolkit",
+    "description": "Notes on highly useful tools for digital evidence collection"
+  },
+  {
+    "name": "Distro-Tuner",
+    "url": "https://github.com/danielrosehill/Distro-Tuner",
+    "description": "Quick template for creating a local repo with symlinks to key system files on Linux"
+  },
+  {
+    "name": "DIY-Baby-Monitoring-Notes",
+    "url": "https://github.com/danielrosehill/DIY-Baby-Monitoring-Notes",
+    "description": "Some notes from setting up monitoring systems at home"
+  },
+  {
+    "name": "Docs-And-Notes-Index",
+    "url": "https://github.com/danielrosehill/Docs-And-Notes-Index",
+    "description": "An index to my various documentation projects, both on Github and elsewhere"
+  },
+  {
+    "name": "Docs-Archive",
+    "url": "https://github.com/danielrosehill/Docs-Archive",
+    "description": "archived documentation gathered from different sources and centralized on this repository. "
+  },
+  {
+    "name": "DOCS.md",
+    "url": "https://github.com/danielrosehill/DOCS.md",
+    "description": "Documentation style guide and writing-preferences primitive. Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Dollar-Software-Genie",
+    "url": "https://github.com/danielrosehill/Dollar-Software-Genie",
+    "description": ""
+  },
+  {
+    "name": "Domain-Finding-Tools",
+    "url": "https://github.com/danielrosehill/Domain-Finding-Tools",
+    "description": "Point-in-time collection of open-source domain-finding tools, with a focus on AI agent skills, Claude Code skills, and MCP servers (compiled April 2026, may not be maintained)"
+  },
+  {
+    "name": "Dot-Cart",
+    "url": "https://github.com/danielrosehill/Dot-Cart",
+    "description": "An open, interoperable file format (.cart) for ecommerce shopping carts, designed for agentic AI"
+  },
+  {
+    "name": "Dremel-7760-USB-C-Retrofit",
+    "url": "https://github.com/danielrosehill/Dremel-7760-USB-C-Retrofit",
+    "description": ""
+  },
+  {
+    "name": "Driving-Checklists",
+    "url": "https://github.com/danielrosehill/Driving-Checklists",
+    "description": "Aviation-style pre- and post-drive checklists for Android, with a vehicle quick-reference and an Android Auto surface"
+  },
+  {
+    "name": "Dual-WhatsApp-Linux-Desktop",
+    "url": "https://github.com/danielrosehill/Dual-WhatsApp-Linux-Desktop",
+    "description": "Dual WA client for the Linux desktop (AI generated)"
+  },
+  {
+    "name": "Easy-Effects-Presets",
+    "url": "https://github.com/danielrosehill/Easy-Effects-Presets",
+    "description": "My Easy Effects input presets"
+  },
+  {
+    "name": "Eco-Ninja-3",
+    "url": "https://github.com/danielrosehill/Eco-Ninja-3",
+    "description": "Configuration for an LLM assistant that performs analysis on sustainability data"
+  },
+  {
+    "name": "electra-central-ac-ir-codes",
+    "url": "https://github.com/danielrosehill/electra-central-ac-ir-codes",
+    "description": "Broadlink IR codes + reverse-engineering methodology for a central (ducted) Electra/Tadiran air conditioner"
+  },
+  {
+    "name": "Electra-Desktop-Controller-KDE",
+    "url": "https://github.com/danielrosehill/Electra-Desktop-Controller-KDE",
+    "description": "KDE Plasma desktop controller for Electra air conditioners"
+  },
+  {
+    "name": "Email-Management-System-Prompts",
+    "url": "https://github.com/danielrosehill/Email-Management-System-Prompts",
+    "description": "Writing and email management system prompts for assistants"
+  },
+  {
+    "name": "Emissions-Data-Reports",
+    "url": "https://github.com/danielrosehill/Emissions-Data-Reports",
+    "description": "A small selection of GHG emissions datapoints from various sources"
+  },
+  {
+    "name": "Emissions-Monetisation-Calculator",
+    "url": "https://github.com/danielrosehill/Emissions-Monetisation-Calculator",
+    "description": "Calculation tool for \"monetising\" companies' emissions at various proposed social cost of carbon values"
+  },
+  {
+    "name": "End-Of-Day-Worklog",
+    "url": "https://github.com/danielrosehill/End-Of-Day-Worklog",
+    "description": "Agent model for taking daily snapshots of work progress"
+  },
+  {
+    "name": "English-Hebrew-Code-Switching-Index",
+    "url": "https://github.com/danielrosehill/English-Hebrew-Code-Switching-Index",
+    "description": "Index of my English-Hebrew code-switching work: ASR fine-tunes, datasets, a Hebrew-in-Latin token classifier, Spaces and companion repos"
+  },
+  {
+    "name": "English-Hebrew-Translation",
+    "url": "https://github.com/danielrosehill/English-Hebrew-Translation",
+    "description": "Resource list for APIs and MCP servers offering English\u2194Hebrew translation"
+  },
+  {
+    "name": "ENVIRONMENT.md",
+    "url": "https://github.com/danielrosehill/ENVIRONMENT.md",
+    "description": "Development and deployment environment primitive (toolchains, runtimes, Conda, GPU). Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Environmental-Data---AI-Assistants",
+    "url": "https://github.com/danielrosehill/Environmental-Data---AI-Assistants",
+    "description": "This repository is a gathering of AI assistants that I've developed for analysing sustainability-related data"
+  },
+  {
+    "name": "Epic-Fury-Projects",
+    "url": "https://github.com/danielrosehill/Epic-Fury-Projects",
+    "description": "Links to projects about Operation Epic Fury / Israel-US-Iran War 2026"
+  },
+  {
+    "name": "esp32-porch-decibel-monitor",
+    "url": "https://github.com/danielrosehill/esp32-porch-decibel-monitor",
+    "description": ""
+  },
+  {
+    "name": "EUPAL-Dolly",
+    "url": "https://github.com/danielrosehill/EUPAL-Dolly",
+    "description": "DIY rolling dolly from a 120x80 plastic Euro pallet \u2014 caster spec, BOM and mounting design for an apartment move on Euroboxes"
+  },
+  {
+    "name": "eurobox-standard",
+    "url": "https://github.com/danielrosehill/eurobox-standard",
+    "description": "The Eurobox (600x400 crate) standard: VDA 4500 source document, human-readable summary, and parametric 3D-printing skeletons for the 60x40x23 and 60x40x31 variants"
+  },
+  {
+    "name": "Eurobox_Poster",
+    "url": "https://github.com/danielrosehill/Eurobox_Poster",
+    "description": "Printable wall poster of the Eurobox / Euro-container system: 600x400 module, footprints, standard heights, pallet and TEU loads. Print-ready PDFs in three sizes."
+  },
+  {
+    "name": "Experiments-And-Evaluations-Index",
+    "url": "https://github.com/danielrosehill/Experiments-And-Evaluations-Index",
+    "description": "Index of repositories concerning AI evaluations and experiments"
+  },
+  {
+    "name": "Ezra",
+    "url": "https://github.com/danielrosehill/Ezra",
+    "description": "WIP - Computer use agent for routine use of Linux desktop environments (Ubuntu)"
+  },
+  {
+    "name": "F-Droid-Public-Repo",
+    "url": "https://github.com/danielrosehill/F-Droid-Public-Repo",
+    "description": "Public F-Droid repo for Daniel Rosehill's Android apps, served from Cloudflare R2 at apps.bydanielrosehill.com"
+  },
+  {
+    "name": "Failover-Internet-Israel-Notes",
+    "url": "https://github.com/danielrosehill/Failover-Internet-Israel-Notes",
+    "description": "Notes (Jan 2026) on setting up failover internet in Israel"
+  },
+  {
+    "name": "Fal-Nano-MCP",
+    "url": "https://github.com/danielrosehill/Fal-Nano-MCP",
+    "description": "Local MCP for using Nano Banana via Fal AI"
+  },
+  {
+    "name": "Family-First-Aid-Android",
+    "url": "https://github.com/danielrosehill/Family-First-Aid-Android",
+    "description": "Offline Android first-aid app for families in Israel (MDA / Hatzalah): adult + child protocols, interactive decision flows, spaced review. Not medical advice."
+  },
+  {
+    "name": "Family-Page",
+    "url": "https://github.com/danielrosehill/Family-Page",
+    "description": "Simple Android APK paging button"
+  },
+  {
+    "name": "Favorite-Code-Libraries",
+    "url": "https://github.com/danielrosehill/Favorite-Code-Libraries",
+    "description": ""
+  },
+  {
+    "name": "Feature-Ideas-And-Requests",
+    "url": "https://github.com/danielrosehill/Feature-Ideas-And-Requests",
+    "description": "General feature requests for tech tools that I use and love!"
+  },
+  {
+    "name": "FirstEntryPublic",
+    "url": "https://github.com/danielrosehill/FirstEntryPublic",
+    "description": "Files that needed to be added to other repositories"
+  },
+  {
+    "name": "Foot-Pedal-Dictation-Routing-KDE-Wayland",
+    "url": "https://github.com/danielrosehill/Foot-Pedal-Dictation-Routing-KDE-Wayland",
+    "description": "Routing one foot pedal to several dictation engines on KDE Wayland: why key collisions are deterministic not racy, and the xremap config that fixes them"
+  },
+  {
+    "name": "Gemini-31-Lite-Audio-Understanding-Eval",
+    "url": "https://github.com/danielrosehill/Gemini-31-Lite-Audio-Understanding-Eval",
+    "description": "One voice recording for testing with TTS/cloning"
+  },
+  {
+    "name": "Gemini-AI-Podcast-Generator",
+    "url": "https://github.com/danielrosehill/Gemini-AI-Podcast-Generator",
+    "description": "Gemini app for creating personal podcasts from your AI prompts"
+  },
+  {
+    "name": "Gemini-Body-Language-Analyst",
+    "url": "https://github.com/danielrosehill/Gemini-Body-Language-Analyst",
+    "description": "Test app \"vibe coded\" in Google AI Studio: analyse body language from photo plus context"
+  },
+  {
+    "name": "Gemini-CLI-Home-Guidance",
+    "url": "https://github.com/danielrosehill/Gemini-CLI-Home-Guidance",
+    "description": "Gemini.md (\"rules\") for the home folder / non repo constrained execution for Gemini CLI (model)"
+  },
+  {
+    "name": "Gemini-Prompt-Library-ideator",
+    "url": "https://github.com/danielrosehill/Gemini-Prompt-Library-ideator",
+    "description": "Using Gemini structured outputs to ideate a prompt library for Open Web UI"
+  },
+  {
+    "name": "Gemini-Transcription-MCP",
+    "url": "https://github.com/danielrosehill/Gemini-Transcription-MCP",
+    "description": "MCP for Gemini multimodal audio transcription with built in post-processing"
+  },
+  {
+    "name": "Gemini-Ubuntu-Maintenance-Agent",
+    "url": "https://github.com/danielrosehill/Gemini-Ubuntu-Maintenance-Agent",
+    "description": ""
+  },
+  {
+    "name": "Gemini-Vibe-Coding-Projects",
+    "url": "https://github.com/danielrosehill/Gemini-Vibe-Coding-Projects",
+    "description": "List of vibe-coded starters created with Google AI Studio app builder"
+  },
+  {
+    "name": "Gemma-3-270M-Email-Key-Line-Bolding",
+    "url": "https://github.com/danielrosehill/Gemma-3-270M-Email-Key-Line-Bolding",
+    "description": "Gemma 3 270M fine-tune that bolds the key lines of a dictated email and changes nothing else"
+  },
+  {
+    "name": "Gemma-4-Benchmarks-0426",
+    "url": "https://github.com/danielrosehill/Gemma-4-Benchmarks-0426",
+    "description": "Benchmarks for Gemma 4 on local hardware (i7-12700F, 64GB RAM, CPU-only)"
+  },
+  {
+    "name": "General-AI-Notebook",
+    "url": "https://github.com/danielrosehill/General-AI-Notebook",
+    "description": "Prompts and outputs from AI models"
+  },
+  {
+    "name": "General-System-Prompts",
+    "url": "https://github.com/danielrosehill/General-System-Prompts",
+    "description": "Some system prompts intended to (attempt to) configure neutral behavior from LLMs"
+  },
+  {
+    "name": "Geopol-Forecast-Council",
+    "url": "https://github.com/danielrosehill/Geopol-Forecast-Council",
+    "description": "Lean geopolitical forecasting council: 5-model panel, grounded SITREP, structured predictions per horizon, deterministic Typst report"
+  },
+  {
+    "name": "Geopol-Forecaster",
+    "url": "https://github.com/danielrosehill/Geopol-Forecaster",
+    "description": "Experimentary prediction analysis for real world events (Iran Israel)"
+  },
+  {
+    "name": "Geopol-Forecasts-Index",
+    "url": "https://github.com/danielrosehill/Geopol-Forecasts-Index",
+    "description": "Index of prediction runs from Geopol Forecaster with accuracy tracking. Snowglobe + LLM Council pipeline."
+  },
+  {
+    "name": "Geopolitical-Analysis-System-Prompts",
+    "url": "https://github.com/danielrosehill/Geopolitical-Analysis-System-Prompts",
+    "description": "System prompts for geopolitical related AI assistants and tools"
+  },
+  {
+    "name": "Geopolitical-And-OSINT-Index",
+    "url": "https://github.com/danielrosehill/Geopolitical-And-OSINT-Index",
+    "description": "Index of repositories related to OSINT, geopolitical analysis, and situational awareness"
+  },
+  {
+    "name": "gerber-prime-6000-local-api",
+    "url": "https://github.com/danielrosehill/gerber-prime-6000-local-api",
+    "description": "Unofficial local HTTP API (no cloud) for Gerber Prime 6000 / PSC05 smart-home controllers \u2014 reverse-engineered notes + Python/curl/Home Assistant samples"
+  },
+  {
+    "name": "gerber-prime-6000-mqtt-bridge",
+    "url": "https://github.com/danielrosehill/gerber-prime-6000-mqtt-bridge",
+    "description": "Local MQTT bridge (HA discovery) for Gerber Prime 6000-series relay/shutter controllers \u2014 no vendor cloud"
+  },
+  {
+    "name": "GHG-EBITDA-Correlations",
+    "url": "https://github.com/danielrosehill/GHG-EBITDA-Correlations",
+    "description": "Streamlit data visualisation examining correlation between emissions & profitability"
+  },
+  {
+    "name": "GHG-Emissions-Data-Pipeline",
+    "url": "https://github.com/danielrosehill/GHG-Emissions-Data-Pipeline",
+    "description": "Data pipeline repository supplying various data visualisation projects"
+  },
+  {
+    "name": "GHG-Emissions-Monetisation-Calculator",
+    "url": "https://github.com/danielrosehill/GHG-Emissions-Monetisation-Calculator",
+    "description": "Calculation simulation utility for monetised GHG emissions"
+  },
+  {
+    "name": "GHG-vs-EBITDA-V2",
+    "url": "https://github.com/danielrosehill/GHG-vs-EBITDA-V2",
+    "description": "Another data visualisation series comparing companies' GHG emissions with their EBITDA"
+  },
+  {
+    "name": "Gists",
+    "url": "https://github.com/danielrosehill/Gists",
+    "description": "Short tech notes (as in Github Gists, but versioned in a repo to sync them to a doc site)"
+  },
+  {
+    "name": "Github-AI-Searches",
+    "url": "https://github.com/danielrosehill/Github-AI-Searches",
+    "description": "A series of search links for those wishing to drink from the firehose of open-source AI"
+  },
+  {
+    "name": "Github-Explorer",
+    "url": "https://github.com/danielrosehill/Github-Explorer",
+    "description": "WIP/Notes"
+  },
+  {
+    "name": "Github-Gists-Backup-Public",
+    "url": "https://github.com/danielrosehill/Github-Gists-Backup-Public",
+    "description": "Backup script for backing up Github Gists"
+  },
+  {
+    "name": "Github-Ideas-And-FRs",
+    "url": "https://github.com/danielrosehill/Github-Ideas-And-FRs",
+    "description": "Ideas and feature requests contributed to Github projects"
+  },
+  {
+    "name": "GitHub-Management-Tools-Index",
+    "url": "https://github.com/danielrosehill/GitHub-Management-Tools-Index",
+    "description": "Index of repositories for GitHub and repository management tools, automation, and utilities"
+  },
+  {
+    "name": "Github-Star-Organiser",
+    "url": "https://github.com/danielrosehill/Github-Star-Organiser",
+    "description": "WIP - system for managing things you star on Github"
+  },
+  {
+    "name": "Github-Subindex-Template",
+    "url": "https://github.com/danielrosehill/Github-Subindex-Template",
+    "description": ""
+  },
+  {
+    "name": "Global-Value-Factors-Explorer-Dataset",
+    "url": "https://github.com/danielrosehill/Global-Value-Factors-Explorer-Dataset",
+    "description": "Derivative database of IFVI Global Value Factors for data analysis and visualization use cases. "
+  },
+  {
+    "name": "Gmail-Search-Strings",
+    "url": "https://github.com/danielrosehill/Gmail-Search-Strings",
+    "description": "Just a few search strings for finding stuff in overcrowded Gmail inboxes!"
+  },
+  {
+    "name": "Google-Contacts-MCP",
+    "url": "https://github.com/danielrosehill/Google-Contacts-MCP",
+    "description": "Minimal MCP server for the Google People API \u2014 read-only contact search/lookup. Companion to Claude Code's schedule-manager plugin."
+  },
+  {
+    "name": "Google-Drive-Folder-Scaffolding-Builder",
+    "url": "https://github.com/danielrosehill/Google-Drive-Folder-Scaffolding-Builder",
+    "description": "Builds date/year folder scaffolding in Drive folders (with App Scripts)"
+  },
+  {
+    "name": "Google-Fonts-Hebrew-Downloader",
+    "url": "https://github.com/danielrosehill/Google-Fonts-Hebrew-Downloader",
+    "description": "A utility for downloading Hebrew fonts from Google Fonts using the API (needs a key)"
+  },
+  {
+    "name": "Google-Fonts-Tools-Index",
+    "url": "https://github.com/danielrosehill/Google-Fonts-Tools-Index",
+    "description": "An index of utilities for installing and using Google Fonts, with a focus on Linux installers (CLI + GUI), libraries, and AI skills."
+  },
+  {
+    "name": "google-workspace-mcp",
+    "url": "https://github.com/danielrosehill/google-workspace-mcp",
+    "description": "Multi-workspace Google Workspace MCP server \u2014 Gmail, Calendar, Contacts, Drive, Docs, Sheets. Forked from dguido/google-workspace-mcp."
+  },
+  {
+    "name": "GPT_Python",
+    "url": "https://github.com/danielrosehill/GPT_Python",
+    "description": "ChatGPT-generated Python scripts for various purposes"
+  },
+  {
+    "name": "Grafana-News-Monitoring-Dashboards",
+    "url": "https://github.com/danielrosehill/Grafana-News-Monitoring-Dashboards",
+    "description": "News monitoring dashboards focused on Israeli & ME News"
+  },
+  {
+    "name": "Green-Invoice-API-My-Notes",
+    "url": "https://github.com/danielrosehill/Green-Invoice-API-My-Notes",
+    "description": "Timestampped notes (non-official!) for Green Invoice API & Webhooks"
+  },
+  {
+    "name": "GreenInvoice-MCP",
+    "url": "https://github.com/danielrosehill/GreenInvoice-MCP",
+    "description": "Local MCP for processing financial transactions using Green Invoice"
+  },
+  {
+    "name": "GROUNDING.md",
+    "url": "https://github.com/danielrosehill/GROUNDING.md",
+    "description": "Whitelist of authoritative URLs for agent grounding (official docs, canonical specs). Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "GVFD-Derivative-Docs",
+    "url": "https://github.com/danielrosehill/GVFD-Derivative-Docs",
+    "description": "Documentation for derivative database of IFVI Global Value Factors Database (GVFD)"
+  },
+  {
+    "name": "GVFD-Explorer-Chatbot-V2",
+    "url": "https://github.com/danielrosehill/GVFD-Explorer-Chatbot-V2",
+    "description": "Chatbot supporting user discovery of the global value factors database"
+  },
+  {
+    "name": "HA-Air-Quality-Dashboard",
+    "url": "https://github.com/danielrosehill/HA-Air-Quality-Dashboard",
+    "description": "Air quality monitoring dashboard for Home Assistant"
+  },
+  {
+    "name": "HA-Circadian-Red-Shift",
+    "url": "https://github.com/danielrosehill/HA-Circadian-Red-Shift",
+    "description": "Home Assistant blueprint: three-phase circadian lighting \u2014 full white by day, warmest Kelvin after sunset, then true RGB red until dawn. For lights that support both colour temperature and colour."
+  },
+  {
+    "name": "ha-ir-ac-comfort-thermostat",
+    "url": "https://github.com/danielrosehill/ha-ir-ac-comfort-thermostat",
+    "description": "Home Assistant pattern: single-room comfort thermostat for an IR-only AC (assumed state, fan + setpoint loop)"
+  },
+  {
+    "name": "HA-Red-Alert-News-Dash",
+    "url": "https://github.com/danielrosehill/HA-Red-Alert-News-Dash",
+    "description": "A Home Assistant dashboard for emergency alerts (Tzeva Adom) in Israel with and without live news"
+  },
+  {
+    "name": "HA-Red-Alerts-Model-Automations",
+    "url": "https://github.com/danielrosehill/HA-Red-Alerts-Model-Automations",
+    "description": "A few automations and hardware recommendations for HA + Pikud HaOref integration"
+  },
+  {
+    "name": "HA-Shabbat-Dashboard-0125",
+    "url": "https://github.com/danielrosehill/HA-Shabbat-Dashboard-0125",
+    "description": "Simple designed Home Assistant dashboard for Shabbat / Yom Tov times"
+  },
+  {
+    "name": "HA-White-Noise-Component",
+    "url": "https://github.com/danielrosehill/HA-White-Noise-Component",
+    "description": ""
+  },
+  {
+    "name": "HA_Blueprints",
+    "url": "https://github.com/danielrosehill/HA_Blueprints",
+    "description": "Placeholder repo for Home Assistant blueprints I use (mostly by other authors)"
+  },
+  {
+    "name": "hands-off",
+    "url": "https://github.com/danielrosehill/hands-off",
+    "description": "Toddler-proof keyboard & mouse lock for Linux (evdev, works on X11 & Wayland)"
+  },
+  {
+    "name": "Handy-Bugs-And-Ideas",
+    "url": "https://github.com/danielrosehill/Handy-Bugs-And-Ideas",
+    "description": "Bugs, regressions, and feature ideas for the Handy offline STT app \u2014 observed on Ubuntu/KDE/Wayland"
+  },
+  {
+    "name": "Handy-Ubuntu-Setup",
+    "url": "https://github.com/danielrosehill/Handy-Ubuntu-Setup",
+    "description": "Notes and setup guides for Ubuntu"
+  },
+  {
+    "name": "handy-wayland-autostart-fix",
+    "url": "https://github.com/danielrosehill/handy-wayland-autostart-fix",
+    "description": "Documenting and fixing Handy speech-to-text app failing on KDE Plasma Wayland due to autostart race condition"
+  },
+  {
+    "name": "Hardware-Blueprints-Index",
+    "url": "https://github.com/danielrosehill/Hardware-Blueprints-Index",
+    "description": "Index of repositories that document physical hardware builds \u2014 bills of materials, sourcing, wiring and enclosure specs, and firmware plans"
+  },
+  {
+    "name": "Headless-Home-Assistant",
+    "url": "https://github.com/danielrosehill/Headless-Home-Assistant",
+    "description": "A couple of resources and .. nomenclature"
+  },
+  {
+    "name": "Heads-Up-Dash-0925",
+    "url": "https://github.com/danielrosehill/Heads-Up-Dash-0925",
+    "description": "Planning notes for a personal dashboard 09/25"
+  },
+  {
+    "name": "Hebrew-AI-Models",
+    "url": "https://github.com/danielrosehill/Hebrew-AI-Models",
+    "description": "A catalog of AI models for the Hebrew language \u2014 LLMs, STT, TTS, NLP, embeddings, translation, and more"
+  },
+  {
+    "name": "Hebrew-Calendar-Resources",
+    "url": "https://github.com/danielrosehill/Hebrew-Calendar-Resources",
+    "description": "Collection of open-source tools, libraries, APIs, and integrations for working with the Hebrew calendar"
+  },
+  {
+    "name": "Hebrew-Dash",
+    "url": "https://github.com/danielrosehill/Hebrew-Dash",
+    "description": "Daily productivity dashboard/wall panel with Hebrew date and zmanim"
+  },
+  {
+    "name": "Hebrew-Image-Generation-Eval",
+    "url": "https://github.com/danielrosehill/Hebrew-Image-Generation-Eval",
+    "description": "Snap evaluation to assess the ability of various text to image models to produce generations with correct Hebrew text (pass/fail)"
+  },
+  {
+    "name": "Hebrew-Language-Projects-Index",
+    "url": "https://github.com/danielrosehill/Hebrew-Language-Projects-Index",
+    "description": "Index of projects for working with Hebrew: translation, TTS, LLMs, fonts, calendar, and more"
+  },
+  {
+    "name": "Hebrew-LLMs",
+    "url": "https://github.com/danielrosehill/Hebrew-LLMs",
+    "description": "A pathfinder repo (index) to some Hebrew language LLMs on Hugging Face"
+  },
+  {
+    "name": "Hebrew-Small-Models-Planning",
+    "url": "https://github.com/danielrosehill/Hebrew-Small-Models-Planning",
+    "description": ""
+  },
+  {
+    "name": "Hebrew-Tech-Vocab",
+    "url": "https://github.com/danielrosehill/Hebrew-Tech-Vocab",
+    "description": "Personal WIP / collection of tech words"
+  },
+  {
+    "name": "Hebrew-TTS-Providers",
+    "url": "https://github.com/danielrosehill/Hebrew-TTS-Providers",
+    "description": "Point in time snapshot of TTS providers with Modern Hebrew support"
+  },
+  {
+    "name": "HFC-Android-Config-Guide",
+    "url": "https://github.com/danielrosehill/HFC-Android-Config-Guide",
+    "description": "Non-official! Home Front Command Android app config settings guides (06-2025)"
+  },
+  {
+    "name": "HFC-Guidance-Flip-Book",
+    "url": "https://github.com/danielrosehill/HFC-Guidance-Flip-Book",
+    "description": "Pikud HaOref guidance in a visual presentation for younger audiences"
+  },
+  {
+    "name": "HFC-Wrapper-Linux",
+    "url": "https://github.com/danielrosehill/HFC-Wrapper-Linux",
+    "description": "Home Front Command Wrapper - non-official, zero warranty offered!"
+  },
+  {
+    "name": "Home",
+    "url": "https://github.com/danielrosehill/Home",
+    "description": ""
+  },
+  {
+    "name": "Home-Assistant-Dashboards-General-",
+    "url": "https://github.com/danielrosehill/Home-Assistant-Dashboards-General-",
+    "description": "General Home Assistant dashboards - screenshots and YAML"
+  },
+  {
+    "name": "Home-Assistant-Index",
+    "url": "https://github.com/danielrosehill/Home-Assistant-Index",
+    "description": "Indexing repo for HA projects"
+  },
+  {
+    "name": "Home-Assistant-Israel-Dashboards",
+    "url": "https://github.com/danielrosehill/Home-Assistant-Israel-Dashboards",
+    "description": "HA dashboards with Israel-specifc entities"
+  },
+  {
+    "name": "Home-Assistant-Power-Outage-Automation",
+    "url": "https://github.com/danielrosehill/Home-Assistant-Power-Outage-Automation",
+    "description": "HA automation for power outage detection"
+  },
+  {
+    "name": "Home-Assistant-Red-Alert-Automations",
+    "url": "https://github.com/danielrosehill/Home-Assistant-Red-Alert-Automations",
+    "description": "Home Assistant automations for Oref Alert integration with TTS announcements for red alert events in Israel"
+  },
+  {
+    "name": "Home-Assistant-Shabbat-Yom-Tom",
+    "url": "https://github.com/danielrosehill/Home-Assistant-Shabbat-Yom-Tom",
+    "description": "Automations and configurations for Home Assistant specifically intended for the observance of Jewish festivals and Shabbat"
+  },
+  {
+    "name": "Home-Assistant-Smoke-Alarm-Config",
+    "url": "https://github.com/danielrosehill/Home-Assistant-Smoke-Alarm-Config",
+    "description": "Documentation and code samples for smoke alarm monitoring in HA"
+  },
+  {
+    "name": "Home-Assistant-snippets",
+    "url": "https://github.com/danielrosehill/Home-Assistant-snippets",
+    "description": "Little snippets of YAML for HA as I figure out how to make it do stuff. Open sourcing it because .. why not!?"
+  },
+  {
+    "name": "Home-Assistant-Starter-List",
+    "url": "https://github.com/danielrosehill/Home-Assistant-Starter-List",
+    "description": "A few friends have asked me what they need to get going with HA so .. a list"
+  },
+  {
+    "name": "Home-Assistant-YAML-Snippets",
+    "url": "https://github.com/danielrosehill/Home-Assistant-YAML-Snippets",
+    "description": "Code snippets for Home Assistant dashboard elements"
+  },
+  {
+    "name": "Home-Assistant-YomTov-Shabbat-0125",
+    "url": "https://github.com/danielrosehill/Home-Assistant-YomTov-Shabbat-0125",
+    "description": "Updated documentation for Home Assistant automations for Shabbat & Yom Tov observance"
+  },
+  {
+    "name": "Home-Inventory-AI-Assistants",
+    "url": "https://github.com/danielrosehill/Home-Inventory-AI-Assistants",
+    "description": "System prompts for home inventory and Homebox assistants to speed up repetitive tasks"
+  },
+  {
+    "name": "Home-Inventory-Helper",
+    "url": "https://github.com/danielrosehill/Home-Inventory-Helper",
+    "description": "Gemini utility for extracting product data from visual product stickers"
+  },
+  {
+    "name": "Home-Inventory-Taxonomy",
+    "url": "https://github.com/danielrosehill/Home-Inventory-Taxonomy",
+    "description": "Taxonomy for Homebox fork"
+  },
+  {
+    "name": "Homebox-Desktop-Wrapper-AppImage",
+    "url": "https://github.com/danielrosehill/Homebox-Desktop-Wrapper-AppImage",
+    "description": "Linux Electron desktop wrapper for Homebox"
+  },
+  {
+    "name": "Homebox-Projects-Index",
+    "url": "https://github.com/danielrosehill/Homebox-Projects-Index",
+    "description": "Index of Homebox related projects (home inventory system)"
+  },
+  {
+    "name": "HomeGoods-Taxonomy",
+    "url": "https://github.com/danielrosehill/HomeGoods-Taxonomy",
+    "description": "A general-purpose hierarchical category taxonomy for household goods, for home inventory systems"
+  },
+  {
+    "name": "Homepage",
+    "url": "https://github.com/danielrosehill/Homepage",
+    "description": "A homepage for my Github account. This page gives an overview of the projects I'm working on and sharing on Github."
+  },
+  {
+    "name": "Hugging-Face-Releases-Index",
+    "url": "https://github.com/danielrosehill/Hugging-Face-Releases-Index",
+    "description": "Thematic index of my Hugging Face releases \u2014 models, datasets, Spaces, blogs \u2014 linked to their GitHub repos"
+  },
+  {
+    "name": "Hypothesis-Council",
+    "url": "https://github.com/danielrosehill/Hypothesis-Council",
+    "description": "Hypothesis-testing variant of the LLM council pattern \u2014 3 diverse models (Sonnet, Grok, MiniMax) via OpenRouter, Sonar grounding, Typst report"
+  },
+  {
+    "name": "Ideation-Pipeline",
+    "url": "https://github.com/danielrosehill/Ideation-Pipeline",
+    "description": "Pipeline of project and app ideas in various stages of development"
+  },
+  {
+    "name": "image-sanitiser",
+    "url": "https://github.com/danielrosehill/image-sanitiser",
+    "description": "Detection-assisted image redaction studio for Linux \u2014 find QR codes, faces and PII in photos, obfuscate them, and verify they're gone."
+  },
+  {
+    "name": "Image-To-Image-Prompts",
+    "url": "https://github.com/danielrosehill/Image-To-Image-Prompts",
+    "description": "Loose collection of image to image prompts for common transformations"
+  },
+  {
+    "name": "Impact-Bond-Policy-Simulator",
+    "url": "https://github.com/danielrosehill/Impact-Bond-Policy-Simulator",
+    "description": "Multiagent simulation exploring potential reactions to a social policy iniative"
+  },
+  {
+    "name": "Impact-Weighted-Accounts-Demo-App",
+    "url": "https://github.com/danielrosehill/Impact-Weighted-Accounts-Demo-App",
+    "description": "A prototype app for displaying impact-weighted accounting data for products serving data from NFC tags (example deployment: a supermarket)"
+  },
+  {
+    "name": "Incoterms_Poster",
+    "url": "https://github.com/danielrosehill/Incoterms_Poster",
+    "description": ""
+  },
+  {
+    "name": "Industrial-Equivalents",
+    "url": "https://github.com/danielrosehill/Industrial-Equivalents",
+    "description": "A public notebook mapping consumer product categories onto their industrial equivalents \u2014 and whether the swap is worth making at home"
+  },
+  {
+    "name": "Interesting-Tech-Things",
+    "url": "https://github.com/danielrosehill/Interesting-Tech-Things",
+    "description": "A personal (and open-source) backlog of tech projects to check out"
+  },
+  {
+    "name": "Internal-Apps-Ideation",
+    "url": "https://github.com/danielrosehill/Internal-Apps-Ideation",
+    "description": "Ideation notes for internal apps planning"
+  },
+  {
+    "name": "Iran-Israel-Ceasefire-Prediction-090426",
+    "url": "https://github.com/danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
+    "description": "Open-sourced geopolitical forecast: Iran-Israel-US ceasefire durability assessment (09/04/2026). Two-stage pipeline (Snowglobe + LLM Council) with 38-actor simulation and 6-lens analytical panel."
+  },
+  {
+    "name": "Iran-Israel-Conflict-Trajectory-240326",
+    "url": "https://github.com/danielrosehill/Iran-Israel-Conflict-Trajectory-240326",
+    "description": ""
+  },
+  {
+    "name": "Iran-Israel-Grounding-Package",
+    "url": "https://github.com/danielrosehill/Iran-Israel-Grounding-Package",
+    "description": "Multiagent grounding pipeline designed for geopolitical intelligence/OSINT projects and pipelines"
+  },
+  {
+    "name": "Iran-Israel-War-2026-OSINT-Data",
+    "url": "https://github.com/danielrosehill/Iran-Israel-War-2026-OSINT-Data",
+    "description": "Structuring the data footprint of the Iranian aerial warfare attacks on Israel, the US, and others from 2024-present."
+  },
+  {
+    "name": "Iran-Regime-Change-Forecast-1004",
+    "url": "https://github.com/danielrosehill/Iran-Regime-Change-Forecast-1004",
+    "description": "Geopol Forecaster run: probability of forced regime change in Iran (+1 week / +1 month / +1 year). 10-actor simulation + 6-lens council. Headline: <1% / 1-3% / 4-9%."
+  },
+  {
+    "name": "Is-Vibe-Coded",
+    "url": "https://github.com/danielrosehill/Is-Vibe-Coded",
+    "description": "Simple graphics intended to serve as a \"this was vibe coded FYI\" and attribute model"
+  },
+  {
+    "name": "is_remote_friendly",
+    "url": "https://github.com/danielrosehill/is_remote_friendly",
+    "description": "A taxonomy to categorise companies' variations of \"remote friendliness\" for personal purposes"
+  },
+  {
+    "name": "ISO-Loookup-Assistants",
+    "url": "https://github.com/danielrosehill/ISO-Loookup-Assistants",
+    "description": "Lookup agents to assist with standardising datasets with correct ISO values"
+  },
+  {
+    "name": "ISO3166-4217-Consolidated",
+    "url": "https://github.com/danielrosehill/ISO3166-4217-Consolidated",
+    "description": "Informal consolidation of ISO-3166 and ISO-4217 for geographic financial analysis"
+  },
+  {
+    "name": "Israel-ADHD-Medication-Access",
+    "url": "https://github.com/danielrosehill/Israel-ADHD-Medication-Access",
+    "description": "A documented, redacted case record of trying to obtain prescribed ADHD medication in Israel \u2014 the published rules, the referral loop, and the regulation nobody mentioned"
+  },
+  {
+    "name": "Israel-Alert-Map",
+    "url": "https://github.com/danielrosehill/Israel-Alert-Map",
+    "description": "Real-time Israel alert map - Pikud HaOref geo-visualization Android app"
+  },
+  {
+    "name": "Israel-Civilian-Readiness-Guide",
+    "url": "https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide",
+    "description": "A consolidated series of readiness checklists, SOPs, and peacetime prep guides. Intended for civilian use in Israel. Non-official, but based on gov resources."
+  },
+  {
+    "name": "Israel-Election-2026-Vote-Decision",
+    "url": "https://github.com/danielrosehill/Israel-Election-2026-Vote-Decision",
+    "description": "Working out who to vote for in the 27 October 2026 Knesset election, starting from a voice note of my views"
+  },
+  {
+    "name": "israel-expense-classification-codes",
+    "url": "https://github.com/danielrosehill/israel-expense-classification-codes",
+    "description": "Israel Tax Authority Form 6111 business expense classification codes as machine-readable JSON, plus the separate income tax and VAT deduction rules. Unofficial."
+  },
+  {
+    "name": "Israel-Geomap-APK",
+    "url": "https://github.com/danielrosehill/Israel-Geomap-APK",
+    "description": ""
+  },
+  {
+    "name": "Israel-Home-Front-Ideas",
+    "url": "https://github.com/danielrosehill/Israel-Home-Front-Ideas",
+    "description": "A few open source idea for the Pikud HaOref system collected over time"
+  },
+  {
+    "name": "Israel-MNOs-Ref",
+    "url": "https://github.com/danielrosehill/Israel-MNOs-Ref",
+    "description": "Reference dataset on Israeli mobile network operators (MNOs) and MVNOs \u2014 hierarchical JSON with schema, spectrum holdings, PLMN codes and sourced confidence levels"
+  },
+  {
+    "name": "Israel-Morning-News-Briefs-N8N-Perplexity-Sonar",
+    "url": "https://github.com/danielrosehill/Israel-Morning-News-Briefs-N8N-Perplexity-Sonar",
+    "description": "Using Perplexity API structured prompting and N8N to deliver a tailored news brief"
+  },
+  {
+    "name": "Israel-News-Monitor",
+    "url": "https://github.com/danielrosehill/Israel-News-Monitor",
+    "description": "News monitoring app intended for people living in Israel"
+  },
+  {
+    "name": "Israel-News-RSS-Feeds",
+    "url": "https://github.com/danielrosehill/Israel-News-RSS-Feeds",
+    "description": "Collection of RSS feeds about news in Israel"
+  },
+  {
+    "name": "Israel-Online-Stores",
+    "url": "https://github.com/danielrosehill/Israel-Online-Stores",
+    "description": ""
+  },
+  {
+    "name": "Israel-Open-Data-Catalogue-Translations",
+    "url": "https://github.com/danielrosehill/Israel-Open-Data-Catalogue-Translations",
+    "description": "Hebrew/English translation mapping for every dataset on data.gov.il"
+  },
+  {
+    "name": "Israel-Open-Data-Changelog",
+    "url": "https://github.com/danielrosehill/Israel-Open-Data-Changelog",
+    "description": "Unofficial month-by-month changelog of what appeared on Israel's data.gov.il open data portal, reconstructed from the CKAN API"
+  },
+  {
+    "name": "Israel-Open-Data-Resources",
+    "url": "https://github.com/danielrosehill/Israel-Open-Data-Resources",
+    "description": "Open access data and a list of Israeli data projects"
+  },
+  {
+    "name": "Israel-OSINT-Planner",
+    "url": "https://github.com/danielrosehill/Israel-OSINT-Planner",
+    "description": ""
+  },
+  {
+    "name": "Israel-Palestine-Framing-Eval",
+    "url": "https://github.com/danielrosehill/Israel-Palestine-Framing-Eval",
+    "description": "Eval: does a model lean pro-Israel or pro-Palestinian on mirrored framings of contested events? Component of Dan-Eval (placeholder)"
+  },
+  {
+    "name": "Israel-Preparedness-Guidelines-AI-Assistant",
+    "url": "https://github.com/danielrosehill/Israel-Preparedness-Guidelines-AI-Assistant",
+    "description": "AI assistant configuration for proviidng Home Front Command guidelines"
+  },
+  {
+    "name": "Israel-Preparedness-Index",
+    "url": "https://github.com/danielrosehill/Israel-Preparedness-Index",
+    "description": "Index of repositories related to civilian emergency preparedness in Israel"
+  },
+  {
+    "name": "Israel-Preparedness-SOPs",
+    "url": "https://github.com/danielrosehill/Israel-Preparedness-SOPs",
+    "description": "Readiness SOPs for wartime in Israel (my own)"
+  },
+  {
+    "name": "Israel-Projects-Index",
+    "url": "https://github.com/danielrosehill/Israel-Projects-Index",
+    "description": "Index of repositories related to Israel"
+  },
+  {
+    "name": "Israel-Red-Alert-Syntax-Notes",
+    "url": "https://github.com/danielrosehill/Israel-Red-Alert-Syntax-Notes",
+    "description": "Syntax notes for those automating on the back of the IDF Home Front Command alert feed"
+  },
+  {
+    "name": "Israel-Reference-Repos",
+    "url": "https://github.com/danielrosehill/Israel-Reference-Repos",
+    "description": "Index of Israel-related reference material: standards, regulations, classification codes, datasets, directories and translated official guidance."
+  },
+  {
+    "name": "Israel-Rocket-Shelter-Guidelines",
+    "url": "https://github.com/danielrosehill/Israel-Rocket-Shelter-Guidelines",
+    "description": "An improved translation of the Home Front Command instructions for finding emergency shelter in Israel"
+  },
+  {
+    "name": "Israel-SIP-Phone-Planning",
+    "url": "https://github.com/danielrosehill/Israel-SIP-Phone-Planning",
+    "description": "Planning notes for SIP/VoIP phone service in Israel \u2014 requirements, provider evaluation, number porting, and hardware/softphone setup"
+  },
+  {
+    "name": "Israel-SITREP-Generation-Prompts",
+    "url": "https://github.com/danielrosehill/Israel-SITREP-Generation-Prompts",
+    "description": "Propts to generate situational reports (SITREPs) summarising geopolitical developments in Israel & the Middle East (for LLMs)"
+  },
+  {
+    "name": "Israel-Spam-Callers",
+    "url": "https://github.com/danielrosehill/Israel-Spam-Callers",
+    "description": ""
+  },
+  {
+    "name": "Israel-To-ROW-Salary-Converter-V2",
+    "url": "https://github.com/danielrosehill/Israel-To-ROW-Salary-Converter-V2",
+    "description": "V2 of Israel to ROW salary conversion utility (Streamlit)"
+  },
+  {
+    "name": "Israel-Wallpapers",
+    "url": "https://github.com/danielrosehill/Israel-Wallpapers",
+    "description": "Wallpapers of places in Israel and installer"
+  },
+  {
+    "name": "israel-wifi-regulations",
+    "url": "https://github.com/danielrosehill/israel-wifi-regulations",
+    "description": "Community reference: WiFi/RLAN spectrum rules in Israel (2.4/5/6 GHz) to help configure APs legally. Unofficial, dated snapshot \u2014 official authority is the Ministry of Communications."
+  },
+  {
+    "name": "Israeli-AI",
+    "url": "https://github.com/danielrosehill/Israeli-AI",
+    "description": "Israel-specific agent skills, MCPs, and builders "
+  },
+  {
+    "name": "Israeli-Elections-2026",
+    "url": "https://github.com/danielrosehill/Israeli-Elections-2026",
+    "description": "Modelling the 2026 Israeli Knesset election"
+  },
+  {
+    "name": "Israeli-Google-Drive-Accounting-Doc-Router",
+    "url": "https://github.com/danielrosehill/Israeli-Google-Drive-Accounting-Doc-Router",
+    "description": "Routes accounting documents through Google Drive"
+  },
+  {
+    "name": "Israeli-Open-Source-Projects",
+    "url": "https://github.com/danielrosehill/Israeli-Open-Source-Projects",
+    "description": "Curated index of interesting open-source Israeli projects (data sources, civic tech, finance, careers, real estate, smart home, media). Sibling to Israeli-AI-Tools-And-Ecosystem."
+  },
+  {
+    "name": "Ivory-Parts-Finder",
+    "url": "https://github.com/danielrosehill/Ivory-Parts-Finder",
+    "description": "AI assistant config for building computers and finding accesories from Ivory (Israeli computer chain)"
+  },
+  {
+    "name": "Jerusalem-AI",
+    "url": "https://github.com/danielrosehill/Jerusalem-AI",
+    "description": "Index of AI in Jerusalem, Israel \u2014 research labs, companies, communities, events, people, municipal initiatives, and AI projects and datasets about the city"
+  },
+  {
+    "name": "Jerusalem-Graffiti",
+    "url": "https://github.com/danielrosehill/Jerusalem-Graffiti",
+    "description": ""
+  },
+  {
+    "name": "Jerusalem-Honking-LLM-Council-Run",
+    "url": "https://github.com/danielrosehill/Jerusalem-Honking-LLM-Council-Run",
+    "description": "Concrete policy-ideation council run for a Jerusalem local-governance challenge around car-horn use"
+  },
+  {
+    "name": "Jerusalem-Projects-Index",
+    "url": "https://github.com/danielrosehill/Jerusalem-Projects-Index",
+    "description": ""
+  },
+  {
+    "name": "Jerusalem-Tech-Ecosystem",
+    "url": "https://github.com/danielrosehill/Jerusalem-Tech-Ecosystem",
+    "description": "Resource list / mapping"
+  },
+  {
+    "name": "Jewish-AI-Assistant-System-Prompts",
+    "url": "https://github.com/danielrosehill/Jewish-AI-Assistant-System-Prompts",
+    "description": "System prompts for AI tools which may be useful for Jewish users"
+  },
+  {
+    "name": "Jewish-AI-Projects",
+    "url": "https://github.com/danielrosehill/Jewish-AI-Projects",
+    "description": "Collection of technological projects for Jewish religious life \u2014 AI tools, Hebrew calendar, text study, MCP servers, home automation, and more"
+  },
+  {
+    "name": "Jewish-Related-Index",
+    "url": "https://github.com/danielrosehill/Jewish-Related-Index",
+    "description": "Index of repositories involving tech + Judaism"
+  },
+  {
+    "name": "JLM-Air-Quality-Analysis",
+    "url": "https://github.com/danielrosehill/JLM-Air-Quality-Analysis",
+    "description": "Halachic relabeling, cross-city control analysis, and validated findings for the Jerusalem-Air-Quality-Shabbat dataset"
+  },
+  {
+    "name": "JLM-Shelter-Agent",
+    "url": "https://github.com/danielrosehill/JLM-Shelter-Agent",
+    "description": "AI agent for JLM Shelter app/project"
+  },
+  {
+    "name": "jlm-shelters-data",
+    "url": "https://github.com/danielrosehill/jlm-shelters-data",
+    "description": "Community-maintained dataset of public bomb shelters in Jerusalem. Data pipeline for jlmshelters.com"
+  },
+  {
+    "name": "Just-Some-AI-App-Ideas",
+    "url": "https://github.com/danielrosehill/Just-Some-AI-App-Ideas",
+    "description": "Gathering repository for various ideas involving AI that I am or have been working on (experiments, etc!)"
+  },
+  {
+    "name": "K3B-MCP",
+    "url": "https://github.com/danielrosehill/K3B-MCP",
+    "description": "MCP for K3B operations (intended for local use)"
+  },
+  {
+    "name": "K811-EV-Test-Events",
+    "url": "https://github.com/danielrosehill/K811-EV-Test-Events",
+    "description": "EV Test Events For K811 Wired Gaming Keypad"
+  },
+  {
+    "name": "Karaoke-Music-Vid-Generator",
+    "url": "https://github.com/danielrosehill/Karaoke-Music-Vid-Generator",
+    "description": "Generation script template for singalong vids (from Suno songs!)"
+  },
+  {
+    "name": "KDE-AC-Controller-Widget",
+    "url": "https://github.com/danielrosehill/KDE-AC-Controller-Widget",
+    "description": "Controller for AC"
+  },
+  {
+    "name": "kde-plasma-fixes",
+    "url": "https://github.com/danielrosehill/kde-plasma-fixes",
+    "description": "Collection of patches and fixes - may be outdated, gathered for reference"
+  },
+  {
+    "name": "KDE-Time-Blocks-Widget",
+    "url": "https://github.com/danielrosehill/KDE-Time-Blocks-Widget",
+    "description": "Modular KDE Plasma 6 desktop widget \u2014 local time, UTC, Gregorian date, and optional Hebrew calendar as reorderable cards"
+  },
+  {
+    "name": "Keyboard-Shortcuts-Ref",
+    "url": "https://github.com/danielrosehill/Keyboard-Shortcuts-Ref",
+    "description": "Because of all the tech products that have been invented, a keyboard shortcuts ref manager isn't one of them (yet!)"
+  },
+  {
+    "name": "KScreen-Config-Scripts-And-Docs",
+    "url": "https://github.com/danielrosehill/KScreen-Config-Scripts-And-Docs",
+    "description": "Some scripts for saving good multiscreen configs for easy shortcutting and DPMS"
+  },
+  {
+    "name": "Label-Printing-Resources",
+    "url": "https://github.com/danielrosehill/Label-Printing-Resources",
+    "description": "Index of open-source utilities, drivers, and bridges for label printers (Brother, Niimbot, Dymo, Zebra, etc.) \u2014 Linux-focused."
+  },
+  {
+    "name": "Lashon-Hara-Chatbot",
+    "url": "https://github.com/danielrosehill/Lashon-Hara-Chatbot",
+    "description": "Prototype chat UI for lashon hara Q&A"
+  },
+  {
+    "name": "linux-desktop-plugin",
+    "url": "https://github.com/danielrosehill/linux-desktop-plugin",
+    "description": "Claude Code plugin for Linux desktop environment management, KDE/Plasma configuration, and desktop system administration."
+  },
+  {
+    "name": "Linux-Desktop-Tools-Index",
+    "url": "https://github.com/danielrosehill/Linux-Desktop-Tools-Index",
+    "description": "Index of repositories for Linux desktop tools, KDE widgets, system utilities, and desktop applications"
+  },
+  {
+    "name": "Linux-MCP-Clients",
+    "url": "https://github.com/danielrosehill/Linux-MCP-Clients",
+    "description": "A very small list of MCP clients that are available to Linux users, GUIs + CLIs"
+  },
+  {
+    "name": "Linux-Related-System-Prompts",
+    "url": "https://github.com/danielrosehill/Linux-Related-System-Prompts",
+    "description": "System prompts for AI assistants for Linux"
+  },
+  {
+    "name": "linux-server-plugin",
+    "url": "https://github.com/danielrosehill/linux-server-plugin",
+    "description": "Claude Code plugin for Linux server administration, service management, and server infrastructure workflows."
+  },
+  {
+    "name": "Linux-Voice-Tech",
+    "url": "https://github.com/danielrosehill/Linux-Voice-Tech",
+    "description": "List of resources for voice technology with support for Linux, encompassing STT, ASR primarily as well as dev frameworks."
+  },
+  {
+    "name": "Linux-Voice-Typing-App-Notes",
+    "url": "https://github.com/danielrosehill/Linux-Voice-Typing-App-Notes",
+    "description": "Planning notes for a tool I've been working on for a while!"
+  },
+  {
+    "name": "Llama-OS-Doctor-Idea",
+    "url": "https://github.com/danielrosehill/Llama-OS-Doctor-Idea",
+    "description": "Planning notes for an AI agent / experiment"
+  },
+  {
+    "name": "LLM-API-Price-Estimates",
+    "url": "https://github.com/danielrosehill/LLM-API-Price-Estimates",
+    "description": "Some cost estimates for using LLMs via API versus web UI services (like ChatGPT)"
+  },
+  {
+    "name": "LLM-Attribution-Badges",
+    "url": "https://github.com/danielrosehill/LLM-Attribution-Badges",
+    "description": "Markdown badges for attributing LLM generated (or co-generated) content (using Shields.io)"
+  },
+  {
+    "name": "LLM-Council-Decide",
+    "url": "https://github.com/danielrosehill/LLM-Council-Decide",
+    "description": "LLM council that evaluates a user-presented decision through a panel of formal decision-making frameworks \u2014 pros/cons, weighted matrix, pre-mortem, 10/10/10, SWOT, Six Hats, WRAP \u2014 with a Chairman synthesis"
+  },
+  {
+    "name": "LLM-Council-Grounded",
+    "url": "https://github.com/danielrosehill/LLM-Council-Grounded",
+    "description": "LLM Council app - grounded multi-model deliberation with peer review and synthesis"
+  },
+  {
+    "name": "LLM-Council-Homehunter",
+    "url": "https://github.com/danielrosehill/LLM-Council-Homehunter",
+    "description": "LLM council for house/apartment hunting \u2014 user provides context + objectives, council recommends a search spec with explicit tradeoffs and compromises"
+  },
+  {
+    "name": "LLM-Council-Policy-Ideation",
+    "url": "https://github.com/danielrosehill/LLM-Council-Policy-Ideation",
+    "description": "LLM Council variant for local-governance policy ideation \u2014 six specialist lenses deliberate on a policy problem, Chairman produces a Policy Ideation Report"
+  },
+  {
+    "name": "LLM-Council-Template",
+    "url": "https://github.com/danielrosehill/LLM-Council-Template",
+    "description": "Template for creating LLM Council apps - multi-model deliberation with peer review and synthesis. Based on karpathy/llm-council."
+  },
+  {
+    "name": "LLM-Council-V3",
+    "url": "https://github.com/danielrosehill/LLM-Council-V3",
+    "description": "LLM council model that adds context - prompt separation and prompt actuation to the basic model by Karpathy"
+  },
+  {
+    "name": "LLM-Detective",
+    "url": "https://github.com/danielrosehill/LLM-Detective",
+    "description": "Agent that tries to probe other models' capabilities with conversation"
+  },
+  {
+    "name": "LLM-Evaluation-Prompts",
+    "url": "https://github.com/danielrosehill/LLM-Evaluation-Prompts",
+    "description": "A few prompts that I am storing in a repo for the purpose of running controlled experiments comparing and benchmarking different LLMs for defined use-cases"
+  },
+  {
+    "name": "LLM-Experiment-Notebook",
+    "url": "https://github.com/danielrosehill/LLM-Experiment-Notebook",
+    "description": "Experiments in evaluating various prompting strategies and LLM performance generally"
+  },
+  {
+    "name": "LLM-Long-Codegen-Test",
+    "url": "https://github.com/danielrosehill/LLM-Long-Codegen-Test",
+    "description": "Experiment to evaluate the ability of code-gen LLMs to generate a long continuous (single) output"
+  },
+  {
+    "name": "LLM-Max-Token-Length-0225",
+    "url": "https://github.com/danielrosehill/LLM-Max-Token-Length-0225",
+    "description": "A plot showing the evolution of the max output token length by major LLMs, Feb 2025"
+  },
+  {
+    "name": "LLM-Preferences-Guide",
+    "url": "https://github.com/danielrosehill/LLM-Preferences-Guide",
+    "description": "(Experiment)  Predefined set of instructions for local agents governing LLM usage and selection"
+  },
+  {
+    "name": "LLM-Prompt-Extraction-GUI",
+    "url": "https://github.com/danielrosehill/LLM-Prompt-Extraction-GUI",
+    "description": "GUI for extracting prompts from outputs"
+  },
+  {
+    "name": "LLM-Recommendation-Agent",
+    "url": "https://github.com/danielrosehill/LLM-Recommendation-Agent",
+    "description": "AI agent for suggesting suitable LLMs for projects"
+  },
+  {
+    "name": "LLM-RFP",
+    "url": "https://github.com/danielrosehill/LLM-RFP",
+    "description": ""
+  },
+  {
+    "name": "LLM-Spoken-Steganography",
+    "url": "https://github.com/danielrosehill/LLM-Spoken-Steganography",
+    "description": "LLM hides an encrypted message in the sentence openers of a mundane podcast that survives TTS -> air -> STT. Grew out of My Weird Prompts #6141."
+  },
+  {
+    "name": "LLM-Use-Case-Self-Ideation",
+    "url": "https://github.com/danielrosehill/LLM-Use-Case-Self-Ideation",
+    "description": "LLM-generated documents describing potential use-cases for GPTs & other LLMs across both professional and business contexts with sections describing potential/predicted evolutions as underlying technology advances"
+  },
+  {
+    "name": "LLM-Workspace-Scaffolder",
+    "url": "https://github.com/danielrosehill/LLM-Workspace-Scaffolder",
+    "description": "A quick scaffolding script for populating a repository with folders for organising prompts and outputs, as commonly required when working with LLMs"
+  },
+  {
+    "name": "LLM-Workspace-Scaffolding",
+    "url": "https://github.com/danielrosehill/LLM-Workspace-Scaffolding",
+    "description": "A folder structure (scaffold) for those employing systematic workflows for working with LLMs"
+  },
+  {
+    "name": "Local-AI-Agent-Resources",
+    "url": "https://github.com/danielrosehill/Local-AI-Agent-Resources",
+    "description": "Organised collection of resources for local AI agents - covering CLIs, tooling, and more."
+  },
+  {
+    "name": "Local-ASR-STT-Benchmark",
+    "url": "https://github.com/danielrosehill/Local-ASR-STT-Benchmark",
+    "description": "Quick evaluation to find the best STT model in Speech Note (Ubuntu) for my HW"
+  },
+  {
+    "name": "Local-Linux-Repair-Bot",
+    "url": "https://github.com/danielrosehill/Local-Linux-Repair-Bot",
+    "description": "Experimentary repo to try use an AI IDE as a local agent workspace for local OS debugging"
+  },
+  {
+    "name": "Local-Secrets-MCP",
+    "url": "https://github.com/danielrosehill/Local-Secrets-MCP",
+    "description": "Notes / an idea for a local MCP handler for secrets that works in conjunction with a cloud API"
+  },
+  {
+    "name": "LOG.md",
+    "url": "https://github.com/danielrosehill/LOG.md",
+    "description": "Raw agent work-log primitive (markdown or JSON entries). Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Logistics-And-Supply-Chain-Resources",
+    "url": "https://github.com/danielrosehill/Logistics-And-Supply-Chain-Resources",
+    "description": "Curated index of open-source logistics, supply chain, warehousing and procurement projects"
+  },
+  {
+    "name": "Logitech-C925E-Boot-Configurator",
+    "url": "https://github.com/danielrosehill/Logitech-C925E-Boot-Configurator",
+    "description": "v4l2 configuration script for Logitech C925e webcam - sets 1080p @ 24fps MJPEG on boot"
+  },
+  {
+    "name": "Long-AI-Prompting-Experiment",
+    "url": "https://github.com/danielrosehill/Long-AI-Prompting-Experiment",
+    "description": "Experiment testing the \"added value\" of long context-dense prompts (versus casual converastional prompts) and the value of a voice \"prompt optimisation\" agent"
+  },
+  {
+    "name": "Long-Form-Audio-Eval",
+    "url": "https://github.com/danielrosehill/Long-Form-Audio-Eval",
+    "description": "Single shot STT benchmark for long from audio"
+  },
+  {
+    "name": "Long-Form-Audio-Pipeline",
+    "url": "https://github.com/danielrosehill/Long-Form-Audio-Pipeline",
+    "description": "Basic audio pipeline for preparing long audio content for ASR transcription"
+  },
+  {
+    "name": "lsrecent",
+    "url": "https://github.com/danielrosehill/lsrecent",
+    "description": "Directory listing grouped by recency (today / week / month / quarter / older) with a per-directory ls override mechanism"
+  },
+  {
+    "name": "MakoletTime",
+    "url": "https://github.com/danielrosehill/MakoletTime",
+    "description": "A Home Assistant grocery list optimised for the needs of Israeli consumers."
+  },
+  {
+    "name": "Markdown-Keep-Or-Delete",
+    "url": "https://github.com/danielrosehill/Markdown-Keep-Or-Delete",
+    "description": ""
+  },
+  {
+    "name": "MAS-8710-Clock",
+    "url": "https://github.com/danielrosehill/MAS-8710-Clock",
+    "description": ""
+  },
+  {
+    "name": "MCP-Aggregation-Notes",
+    "url": "https://github.com/danielrosehill/MCP-Aggregation-Notes",
+    "description": "Ideating/brainstorming some frustrations with MCP aggregation, with Claude, and planning an easier approach"
+  },
+  {
+    "name": "MCP-Architecture-0726",
+    "url": "https://github.com/danielrosehill/MCP-Architecture-0726",
+    "description": "MCP Architecture Notes - July 2026"
+  },
+  {
+    "name": "MCP-Deployment-Architecture",
+    "url": "https://github.com/danielrosehill/MCP-Deployment-Architecture",
+    "description": "MCP architectural deployment notes, periodically updated"
+  },
+  {
+    "name": "mcp-file-staging-service",
+    "url": "https://github.com/danielrosehill/mcp-file-staging-service",
+    "description": "Lightweight HTTP file staging service for MCP servers on remote machines \u2014 bridges the binary transfer gap in MCP protocol"
+  },
+  {
+    "name": "MCP-Installation-Notebook",
+    "url": "https://github.com/danielrosehill/MCP-Installation-Notebook",
+    "description": "Notebook of things I've figured out about installing MCPs - as I figure them out"
+  },
+  {
+    "name": "MCP-Projects-Index",
+    "url": "https://github.com/danielrosehill/MCP-Projects-Index",
+    "description": "Various MCP related projects I'm either working on (or have worked on)"
+  },
+  {
+    "name": "MCP-Server-Ideas",
+    "url": "https://github.com/danielrosehill/MCP-Server-Ideas",
+    "description": "Plans/WIP for MCP servers"
+  },
+  {
+    "name": "MCP-Server-Research",
+    "url": "https://github.com/danielrosehill/MCP-Server-Research",
+    "description": "Stack research task 02-01-2026"
+  },
+  {
+    "name": "MCP-Vault",
+    "url": "https://github.com/danielrosehill/MCP-Vault",
+    "description": ""
+  },
+  {
+    "name": "MDisc-Archive-Burner",
+    "url": "https://github.com/danielrosehill/MDisc-Archive-Burner",
+    "description": "Self-hosted web UI that pulls archives from cloud storage and burns them to M-DISC BD-R, with autopilot disc swapping"
+  },
+  {
+    "name": "Me-And-My-Voice-Clone",
+    "url": "https://github.com/danielrosehill/Me-And-My-Voice-Clone",
+    "description": "A ten-minute conversation between me and a TTS clone of my own voice (Meorav v2.0, Qwen3-TTS fine-tune): original video, audio, per-line clips, alignment data and splice pipeline"
+  },
+  {
+    "name": "Medium-Post-Downloader",
+    "url": "https://github.com/danielrosehill/Medium-Post-Downloader",
+    "description": "Download utility for programatically converting a Medium export archive into a full replica of your content with images"
+  },
+  {
+    "name": "Meet-Me",
+    "url": "https://github.com/danielrosehill/Meet-Me",
+    "description": "Idea (part 1/2) for an agent to agent calendar-booking system using agent skills and a sandboxed A2A environment"
+  },
+  {
+    "name": "Miklat-MCP",
+    "url": "https://github.com/danielrosehill/Miklat-MCP",
+    "description": "MCP to enable AI agents to guide users towards miklatim tziburim (public shelters) in Israel"
+  },
+  {
+    "name": "Miklat-MCP-Data",
+    "url": "https://github.com/danielrosehill/Miklat-MCP-Data",
+    "description": "Data pipeline for Miklat MCP"
+  },
+  {
+    "name": "Misc",
+    "url": "https://github.com/danielrosehill/Misc",
+    "description": "Miscellaneous project files"
+  },
+  {
+    "name": "Misc-Scripts",
+    "url": "https://github.com/danielrosehill/Misc-Scripts",
+    "description": "Public collection of miscellaneous scripts, mostly for automation"
+  },
+  {
+    "name": "Mock-PII-Data",
+    "url": "https://github.com/danielrosehill/Mock-PII-Data",
+    "description": "Synthetic data containing personally identifiable information"
+  },
+  {
+    "name": "Modal-ACFT-Finetune-Script",
+    "url": "https://github.com/danielrosehill/Modal-ACFT-Finetune-Script",
+    "description": "Validated Whisper fine-tuning script on Modal for FUTO"
+  },
+  {
+    "name": "Modal-Whisper-Finetune-Script",
+    "url": "https://github.com/danielrosehill/Modal-Whisper-Finetune-Script",
+    "description": "Validated fine-tuning script for fine-tuning Whisper on Modal GPU with a preformatted audio dataset"
+  },
+  {
+    "name": "Model-Idea-Refinement-GPT-Agent",
+    "url": "https://github.com/danielrosehill/Model-Idea-Refinement-GPT-Agent",
+    "description": "A model/template for a custom GPT/LLM agent whose focus is on helping to ideate and improve a technology idea (example: \"Output Hub\")"
+  },
+  {
+    "name": "Model-Scout-MCP",
+    "url": "https://github.com/danielrosehill/Model-Scout-MCP",
+    "description": "MCP for checking AI API model pricing across providers"
+  },
+  {
+    "name": "Monetised-GHG-Emissions",
+    "url": "https://github.com/danielrosehill/Monetised-GHG-Emissions",
+    "description": "Calculating monetised GHG emissions for various companies based upon disclosure data"
+  },
+  {
+    "name": "Monitoring-The-Situation",
+    "url": "https://github.com/danielrosehill/Monitoring-The-Situation",
+    "description": "Curated index of open-source projects for situational awareness, geopolitical monitoring, and information-fusion dashboards (news grids, video walls, ops-center COPs)."
+  },
+  {
+    "name": "Multimodal-AI-Taxonomy",
+    "url": "https://github.com/danielrosehill/Multimodal-AI-Taxonomy",
+    "description": "Attempting to map out the various input/output permutations for multimodal AI"
+  },
+  {
+    "name": "Multimodal-AI-Use-Case-Ideator",
+    "url": "https://github.com/danielrosehill/Multimodal-AI-Use-Case-Ideator",
+    "description": "Ideates use-cases for multimodal AI (Geminii)"
+  },
+  {
+    "name": "My-AI-LLM-Configs",
+    "url": "https://github.com/danielrosehill/My-AI-LLM-Configs",
+    "description": "Configurations for various models accessed via API"
+  },
+  {
+    "name": "My-Bash-Aliases",
+    "url": "https://github.com/danielrosehill/My-Bash-Aliases",
+    "description": "Personal bash alias library, public"
+  },
+  {
+    "name": "My-Benchmarks",
+    "url": "https://github.com/danielrosehill/My-Benchmarks",
+    "description": "Index of benchmarks authored by Daniel Rosehill: ASR, audio understanding, image generation and local inference"
+  },
+  {
+    "name": "My-Calculators",
+    "url": "https://github.com/danielrosehill/My-Calculators",
+    "description": "Unit exchange calculators for calculations I commonly require"
+  },
+  {
+    "name": "My-LLM-Context-Repo-Public",
+    "url": "https://github.com/danielrosehill/My-LLM-Context-Repo-Public",
+    "description": "A context repo for experimenting with LLM models. A public version, so some info naturally withheld."
+  },
+  {
+    "name": "My-MCP-Installer",
+    "url": "https://github.com/danielrosehill/My-MCP-Installer",
+    "description": "Installer helper (MCP) for my MCPs"
+  },
+  {
+    "name": "My-Network-MCP",
+    "url": "https://github.com/danielrosehill/My-Network-MCP",
+    "description": "MCP for providing a manually managed LAN directory to AI tools"
+  },
+  {
+    "name": "My-Scaffolding-Templates",
+    "url": "https://github.com/danielrosehill/My-Scaffolding-Templates",
+    "description": "File structure templates for common projects. More specific templates sometimes have their own repository."
+  },
+  {
+    "name": "My-Thoughts-On-Tech",
+    "url": "https://github.com/danielrosehill/My-Thoughts-On-Tech",
+    "description": "A first-entry notepad to jot down some notes that may be developed into blogs (or not). My philosophy and lens on everything from AI to backups."
+  },
+  {
+    "name": "My-Weird-Prompts-Podcast",
+    "url": "https://github.com/danielrosehill/My-Weird-Prompts-Podcast",
+    "description": "Podcast production pipeline for an AI-human co-generated podcast"
+  },
+  {
+    "name": "N8N-Expense-Processing-Workflow",
+    "url": "https://github.com/danielrosehill/N8N-Expense-Processing-Workflow",
+    "description": "Expense processing backend workflow with AI agent for doc analysis"
+  },
+  {
+    "name": "N8N-LLM-Workflow-Bulk-Updater",
+    "url": "https://github.com/danielrosehill/N8N-LLM-Workflow-Bulk-Updater",
+    "description": "Backend script for applying bulk model updates to workflows (use-case: updating LLMs in nodes)"
+  },
+  {
+    "name": "N8N-Test-Agents",
+    "url": "https://github.com/danielrosehill/N8N-Test-Agents",
+    "description": "Simple n8n agent patterns for learning the ropes or validating MCP calling"
+  },
+  {
+    "name": "N8N-Voice-Note-Context-Pipeline-Workflow",
+    "url": "https://github.com/danielrosehill/N8N-Voice-Note-Context-Pipeline-Workflow",
+    "description": "Workflow for extracting context data from voice notes and passing them into Pipecone vector database for upserting"
+  },
+  {
+    "name": "N8N-Workflow-Sanitiser-Agent",
+    "url": "https://github.com/danielrosehill/N8N-Workflow-Sanitiser-Agent",
+    "description": "Configuration for an AI agent for sanitising (redacting personal details) in N8N workflow exports"
+  },
+  {
+    "name": "N8N-Workflows-Index",
+    "url": "https://github.com/danielrosehill/N8N-Workflows-Index",
+    "description": "Index of N8N workflows that I have shared on Github"
+  },
+  {
+    "name": "Nano-Banana-Desktop",
+    "url": "https://github.com/danielrosehill/Nano-Banana-Desktop",
+    "description": "Vibe coded starter for a Nano Banana inpainting utility  / image editor (Gemini API)"
+  },
+  {
+    "name": "Nano-Banana-Tech-Diagram-Maker",
+    "url": "https://github.com/danielrosehill/Nano-Banana-Tech-Diagram-Maker",
+    "description": "Desktop GUI tool that cleans up whiteboard photos using Nano Banana 2 (Via Fal API)"
+  },
+  {
+    "name": "Nano-Tech-Diagrams-MCP",
+    "url": "https://github.com/danielrosehill/Nano-Tech-Diagrams-MCP",
+    "description": "MCP server for creating tech diagrams using Nano Banana 2 (Fal AI). Supports text-to-image, image-to-image, whiteboard cleanup, and 28+ style presets."
+  },
+  {
+    "name": "Natural-Language-Relationship-Definition",
+    "url": "https://github.com/danielrosehill/Natural-Language-Relationship-Definition",
+    "description": "Experiment: trying to create a database schema using natural language"
+  },
+  {
+    "name": "NEO_NAS_AB02B2_MQTT_Control",
+    "url": "https://github.com/danielrosehill/NEO_NAS_AB02B2_MQTT_Control",
+    "description": "MQTT controls scripts for the NEO NAS-AB02B2 Zigbee siren"
+  },
+  {
+    "name": "Network-In-A-Box-Planning",
+    "url": "https://github.com/danielrosehill/Network-In-A-Box-Planning",
+    "description": "Claude generated tips for home network migration"
+  },
+  {
+    "name": "Networking-And-Infrastructure-Index",
+    "url": "https://github.com/danielrosehill/Networking-And-Infrastructure-Index",
+    "description": "Index of repositories for networking, infrastructure, homelab, and server management"
+  },
+  {
+    "name": "Networking-Projects-Index",
+    "url": "https://github.com/danielrosehill/Networking-Projects-Index",
+    "description": "Index of repositories for networking, infrastructure, homelab, and server management"
+  },
+  {
+    "name": "NFC-Reader-Writer",
+    "url": "https://github.com/danielrosehill/NFC-Reader-Writer",
+    "description": "Desktop NFC reader/writer app for ACS ACR1252U"
+  },
+  {
+    "name": "NFS-SMB-Share-Lister",
+    "url": "https://github.com/danielrosehill/NFS-SMB-Share-Lister",
+    "description": "Script for listing NFS and SMB shares on a local NAS"
+  },
+  {
+    "name": "No-BS-AI-System-Prompt",
+    "url": "https://github.com/danielrosehill/No-BS-AI-System-Prompt",
+    "description": "System prompt for a blunt AI assistant / LLM that gets to the point"
+  },
+  {
+    "name": "NocoDB-Data-MCP",
+    "url": "https://github.com/danielrosehill/NocoDB-Data-MCP",
+    "description": "MCP for performing basic data ops on a self-hosted NocoDB with Cloudflare Tunnnel auth"
+  },
+  {
+    "name": "Noisy-Audio-Samples",
+    "url": "https://github.com/danielrosehill/Noisy-Audio-Samples",
+    "description": ""
+  },
+  {
+    "name": "noisycity-api-blueprint",
+    "url": "https://github.com/danielrosehill/noisycity-api-blueprint",
+    "description": "Blueprint for a public API for citizen-derived urban environmental data \u2014 noise, particulates and vibration from volunteer-operated monitoring stations. Planning repo; noisycity.org is a placeholder."
+  },
+  {
+    "name": "NotebookLM-Custom-Prompts",
+    "url": "https://github.com/danielrosehill/NotebookLM-Custom-Prompts",
+    "description": "AI config / system prompt for reading long reports"
+  },
+  {
+    "name": "Nuclino-API-Docs-Unofficial-0725",
+    "url": "https://github.com/danielrosehill/Nuclino-API-Docs-Unofficial-0725",
+    "description": "Unofficial point in time collection of Nuclino API documentation "
+  },
+  {
+    "name": "nuclino-mcp",
+    "url": "https://github.com/danielrosehill/nuclino-mcp",
+    "description": ""
+  },
+  {
+    "name": "Ollama-Ideation-UI",
+    "url": "https://github.com/danielrosehill/Ollama-Ideation-UI",
+    "description": "Desktop app for running batch \"ideation\" prompts with a local LLM"
+  },
+  {
+    "name": "One-Plus-Internal-Mic-Testing",
+    "url": "https://github.com/danielrosehill/One-Plus-Internal-Mic-Testing",
+    "description": ""
+  },
+  {
+    "name": "One-Plus-Nord-3-Root-Guide",
+    "url": "https://github.com/danielrosehill/One-Plus-Nord-3-Root-Guide",
+    "description": "Guide to rooting OnePlus Nord 3 5G (CPH2493) on OxygenOS 16 with Magisk \u2014 Dimensity 9000 (MT6983)"
+  },
+  {
+    "name": "One-Prompt-AI-Book",
+    "url": "https://github.com/danielrosehill/One-Prompt-AI-Book",
+    "description": "Experiment - generating a book using a single prompt"
+  },
+  {
+    "name": "One-Shot-Transcription-Microphone-Eval",
+    "url": "https://github.com/danielrosehill/One-Shot-Transcription-Microphone-Eval",
+    "description": "Test samples for various microphones with an STT accuracy eval"
+  },
+  {
+    "name": "Open-Claw-Stack",
+    "url": "https://github.com/danielrosehill/Open-Claw-Stack",
+    "description": "Deployment stack bundling Open Claw with components"
+  },
+  {
+    "name": "Open-In-Windsurf-KDE",
+    "url": "https://github.com/danielrosehill/Open-In-Windsurf-KDE",
+    "description": "Implementing an \"Open In Windsurf\" (AI IDE) context menu element for KDE Plasma"
+  },
+  {
+    "name": "Open-Research-Workspaces-Index",
+    "url": "https://github.com/danielrosehill/Open-Research-Workspaces-Index",
+    "description": "Index of research notebooks (public)"
+  },
+  {
+    "name": "Open-That-Repo",
+    "url": "https://github.com/danielrosehill/Open-That-Repo",
+    "description": "Utility for quickly opening a Github repo on your computer"
+  },
+  {
+    "name": "Open-Web-UI-Homebox-Tool",
+    "url": "https://github.com/danielrosehill/Open-Web-UI-Homebox-Tool",
+    "description": ""
+  },
+  {
+    "name": "Open-Web-UI-Model-Index-Public",
+    "url": "https://github.com/danielrosehill/Open-Web-UI-Model-Index-Public",
+    "description": "An index of models that I have open-sourced on Open Web UI Community"
+  },
+  {
+    "name": "OpenAI-Image-Renamer",
+    "url": "https://github.com/danielrosehill/OpenAI-Image-Renamer",
+    "description": "Simple Python script for batch file renaming operations with OpenAI API"
+  },
+  {
+    "name": "OpenWebUI-API-Schema-Exports",
+    "url": "https://github.com/danielrosehill/OpenWebUI-API-Schema-Exports",
+    "description": "Point-in-time segmented export of the Open Web UI API definition"
+  },
+  {
+    "name": "OpenWebUI-Bulk-Model-Updater",
+    "url": "https://github.com/danielrosehill/OpenWebUI-Bulk-Model-Updater",
+    "description": "Python script for applying bulk updates to models in Open Web UI, changing the base model ID to a preferred value"
+  },
+  {
+    "name": "OpenWebUI-Model-Export-Converter",
+    "url": "https://github.com/danielrosehill/OpenWebUI-Model-Export-Converter",
+    "description": "Data processing script for converting manual JSON exports into parsed CSV data"
+  },
+  {
+    "name": "OpenWebUI-Postgres-Qdrant",
+    "url": "https://github.com/danielrosehill/OpenWebUI-Postgres-Qdrant",
+    "description": "Docker Compose for OpenWebUI + Postgres + Qdrant"
+  },
+  {
+    "name": "OpenWebUI-Prompt-Library",
+    "url": "https://github.com/danielrosehill/OpenWebUI-Prompt-Library",
+    "description": "A selection of prompts designed for use with Open Web UI (rather than conventional prompts, they're more useful for steering existing conversations)"
+  },
+  {
+    "name": "OR-Audio-Transcription-MCP",
+    "url": "https://github.com/danielrosehill/OR-Audio-Transcription-MCP",
+    "description": "Local MCP for using Open Router audio models for transcription with text formatting"
+  },
+  {
+    "name": "OR-Models-With-Tools-0811",
+    "url": "https://github.com/danielrosehill/OR-Models-With-Tools-0811",
+    "description": "Price comoparison and list"
+  },
+  {
+    "name": "Oref-Alert-Proxy",
+    "url": "https://github.com/danielrosehill/Oref-Alert-Proxy",
+    "description": "Local relay proxy for Israel Homefront Command (Pikud HaOref) alert data"
+  },
+  {
+    "name": "Oref-GPT",
+    "url": "https://github.com/danielrosehill/Oref-GPT",
+    "description": "N8N automation that uses TwitterAPI.io to rertieve real-time social media data about the source of rocket alerts in Israel"
+  },
+  {
+    "name": "OSINT-Missile-Intelligence-Agent",
+    "url": "https://github.com/danielrosehill/OSINT-Missile-Intelligence-Agent",
+    "description": "Snap reports about causes and quantitiative info about hostile missile launches"
+  },
+  {
+    "name": "Our-Smart-Home",
+    "url": "https://github.com/danielrosehill/Our-Smart-Home",
+    "description": "Aggregated docs system for smart homes"
+  },
+  {
+    "name": "Output-Hub",
+    "url": "https://github.com/danielrosehill/Output-Hub",
+    "description": "An admin application I'm developing for managing all aspects of working with LLMs professionally and at scale, with functions for prompt logging, prompt library, and custom LLM agent inventorising. Aspiration: add code to notes gradually as project matures!"
+  },
+  {
+    "name": "OWUI-Frontend-URLs",
+    "url": "https://github.com/danielrosehill/OWUI-Frontend-URLs",
+    "description": "Reference - frontend URLs for Open Web UI"
+  },
+  {
+    "name": "Paleo-Birkonim",
+    "url": "https://github.com/danielrosehill/Paleo-Birkonim",
+    "description": "Birkonim in Paleo Hebrew (from wedding!)"
+  },
+  {
+    "name": "Paleo-Hebrew",
+    "url": "https://github.com/danielrosehill/Paleo-Hebrew",
+    "description": "A repository dedicated to housing various projects in Paleo/Proto Hebrew: an ancient variant of the Hebrew alphabet used during Biblical times"
+  },
+  {
+    "name": "paperless-tax-mcp",
+    "url": "https://github.com/danielrosehill/paperless-tax-mcp",
+    "description": "Unofficial MCP server and API documentation for paperless.tax (Israeli bookkeeping SaaS) \u2014 community reverse-engineering effort"
+  },
+  {
+    "name": "Parenting-Questions-AI-Agent-Workflow",
+    "url": "https://github.com/danielrosehill/Parenting-Questions-AI-Agent-Workflow",
+    "description": "Workflow for an agent that answers parenting questions by email with upload to Google Drive"
+  },
+  {
+    "name": "Parlance-Dictation",
+    "url": "https://github.com/danielrosehill/Parlance-Dictation",
+    "description": "Parlance: on-device dictation with NVIDIA Parakeet for Android, Linux and Windows, with a choice of model (stock or fine-tunes). General-purpose sibling of Hebrish."
+  },
+  {
+    "name": "Patches-Repos-Index",
+    "url": "https://github.com/danielrosehill/Patches-Repos-Index",
+    "description": "Index of repositories containing patches, fixes, workarounds, and system administration solutions"
+  },
+  {
+    "name": "PCB-Labeller-Demo",
+    "url": "https://github.com/danielrosehill/PCB-Labeller-Demo",
+    "description": ""
+  },
+  {
+    "name": "Peace-In-The-Middle-East",
+    "url": "https://github.com/danielrosehill/Peace-In-The-Middle-East",
+    "description": "WIP - Multiagentic geopolitcal simulation ideating problem-solving and bridge-building in the Middle East"
+  },
+  {
+    "name": "Perplexity-Security-1224",
+    "url": "https://github.com/danielrosehill/Perplexity-Security-1224",
+    "description": "Repository to demonstrate the \"security through security\" being currently implemented"
+  },
+  {
+    "name": "Personal-AI-Resources",
+    "url": "https://github.com/danielrosehill/Personal-AI-Resources",
+    "description": "Collection of projects advancing personalised AI \u2014 memory, context engineering, personal assistants, second brain tools, and more"
+  },
+  {
+    "name": "Personal-Context-AI-Agent-Pattern-Model",
+    "url": "https://github.com/danielrosehill/Personal-Context-AI-Agent-Pattern-Model",
+    "description": "Description of a pattern I've used to build AI agents for in-depth exploration of specific issues"
+  },
+  {
+    "name": "Personal-Context-Store-Ideation",
+    "url": "https://github.com/danielrosehill/Personal-Context-Store-Ideation",
+    "description": "Prompts generating ideas for developing personal contextual knowledge storage vaults"
+  },
+  {
+    "name": "Personal-Dashboard-Project",
+    "url": "https://github.com/danielrosehill/Personal-Dashboard-Project",
+    "description": "Project to build a personal dashboard (WIP)"
+  },
+  {
+    "name": "Personal-RAG-Agent-Workflow",
+    "url": "https://github.com/danielrosehill/Personal-RAG-Agent-Workflow",
+    "description": "AI workflows for building personal RAG pipelines with interviewing agents"
+  },
+  {
+    "name": "Personalised-AI-Idea",
+    "url": "https://github.com/danielrosehill/Personalised-AI-Idea",
+    "description": "Some updated thoughts and sketches for creating personalised AI systems"
+  },
+  {
+    "name": "Pi-Time-Zone-Clock",
+    "url": "https://github.com/danielrosehill/Pi-Time-Zone-Clock",
+    "description": "Dual clock display interface for SBCs"
+  },
+  {
+    "name": "Pikud-Haoref-Guidelines-0326",
+    "url": "https://github.com/danielrosehill/Pikud-Haoref-Guidelines-0326",
+    "description": "Extracted guidelines for use as a ground truth for AI agents"
+  },
+  {
+    "name": "Podcast-To-SD-Card",
+    "url": "https://github.com/danielrosehill/Podcast-To-SD-Card",
+    "description": ""
+  },
+  {
+    "name": "Policy-Visualiser",
+    "url": "https://github.com/danielrosehill/Policy-Visualiser",
+    "description": "Visualise how different countries and systems of government approach policy challenges with Gemini identifying clusters"
+  },
+  {
+    "name": "Postgres-Utilities",
+    "url": "https://github.com/danielrosehill/Postgres-Utilities",
+    "description": "Little scripts and hacks for working with my favorite database!"
+  },
+  {
+    "name": "PREFERENCES.md",
+    "url": "https://github.com/danielrosehill/PREFERENCES.md",
+    "description": "Persistent stack preferences primitive (model hierarchies for OpenRouter, preferred libraries). Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Price-Research-Index",
+    "url": "https://github.com/danielrosehill/Price-Research-Index",
+    "description": "Index of point-in-time API and service pricing snapshots and cost comparisons"
+  },
+  {
+    "name": "Printables-Index",
+    "url": "https://github.com/danielrosehill/Printables-Index",
+    "description": "Index of my printable reference posters \u2014 print-ready wall posters built from HTML/CSS and rendered with Vivliostyle"
+  },
+  {
+    "name": "PROCESS.md",
+    "url": "https://github.com/danielrosehill/PROCESS.md",
+    "description": "Project-specific development process primitive (review, release, branching, testing). Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Project-Flow",
+    "url": "https://github.com/danielrosehill/Project-Flow",
+    "description": "\"High level\" diary/changelog for open source and Github projects"
+  },
+  {
+    "name": "PROJECT.md",
+    "url": "https://github.com/danielrosehill/PROJECT.md",
+    "description": "Overarching project plan, major architectural decisions, and decision history (replaces MEMORY.md). Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Projects",
+    "url": "https://github.com/danielrosehill/Projects",
+    "description": "A list of projects I am working on"
+  },
+  {
+    "name": "Prompt-And-Output-System-Prompt",
+    "url": "https://github.com/danielrosehill/Prompt-And-Output-System-Prompt",
+    "description": "System prompt for directing an AI agent to begin every output with a sumary of the user's prompt"
+  },
+  {
+    "name": "Prompt-Categorizer-Notes",
+    "url": "https://github.com/danielrosehill/Prompt-Categorizer-Notes",
+    "description": "Notes for a small classifier that splits prompts into prompt/context/host-instruction tracks for agentic pipelines"
+  },
+  {
+    "name": "Prompt-Context-Separator",
+    "url": "https://github.com/danielrosehill/Prompt-Context-Separator",
+    "description": "Reproducible system prompt for use in agentic AI pipelines for preprocessing prompts to deconstruct them into prompt(s) and contextual data subelements"
+  },
+  {
+    "name": "Prompt-Debugger-System-Prompts",
+    "url": "https://github.com/danielrosehill/Prompt-Debugger-System-Prompts",
+    "description": "SPs for configuring \"self-debugging\" AI assistants and agents"
+  },
+  {
+    "name": "Prompt-Engineering-Assistants-System-Prompts",
+    "url": "https://github.com/danielrosehill/Prompt-Engineering-Assistants-System-Prompts",
+    "description": "System prompts for AI assistants designed to assist with various aspects of prompt engineering"
+  },
+  {
+    "name": "Prompt-Engineering-Resources",
+    "url": "https://github.com/danielrosehill/Prompt-Engineering-Resources",
+    "description": "Lists of resources and tools for prompt engineering and evaluation"
+  },
+  {
+    "name": "Prompt-Libraries-Index",
+    "url": "https://github.com/danielrosehill/Prompt-Libraries-Index",
+    "description": "Index for my collections of user and system prompts on Github"
+  },
+  {
+    "name": "Prompt-Library",
+    "url": "https://github.com/danielrosehill/Prompt-Library",
+    "description": "A repository of prompts I've used when working with LLMs as well as some example outputs and notes"
+  },
+  {
+    "name": "Prompt-Library-Privacy-Screener",
+    "url": "https://github.com/danielrosehill/Prompt-Library-Privacy-Screener",
+    "description": "Model for a PII screen (using Ollama) for open sourcing prompt libraries safely"
+  },
+  {
+    "name": "Prompt-Snippet-Library",
+    "url": "https://github.com/danielrosehill/Prompt-Snippet-Library",
+    "description": "Snippets/building blocks for system prompts"
+  },
+  {
+    "name": "Prompts-And-Outputs",
+    "url": "https://github.com/danielrosehill/Prompts-And-Outputs",
+    "description": "A vault of over 2,000 prompts and outputs derived from interactions with various large language models (LLMs)"
+  },
+  {
+    "name": "Proofed",
+    "url": "https://github.com/danielrosehill/Proofed",
+    "description": "Proofed: integrated ASR + post-processing model, from speech straight to clean, proofed text."
+  },
+  {
+    "name": "Propaganda-Bait-Eval",
+    "url": "https://github.com/danielrosehill/Propaganda-Bait-Eval",
+    "description": "Baits LLMs with loaded political premises (CCP, MAGA, pro-Israel, pro-Palestine, Kremlin, US-left) and scores how readily they regurgitate the framing"
+  },
+  {
+    "name": "Prototypes",
+    "url": "https://github.com/danielrosehill/Prototypes",
+    "description": "Loose markdown files documenting various early stage projects (ie, prototypes)"
+  },
+  {
+    "name": "Proximate-Pseudonymizer",
+    "url": "https://github.com/danielrosehill/Proximate-Pseudonymizer",
+    "description": "Small text-in/text-out model that swaps identifying details for proximate, consistent substitutes"
+  },
+  {
+    "name": "Pseudo-Personalised-Spam-Classifier",
+    "url": "https://github.com/danielrosehill/Pseudo-Personalised-Spam-Classifier",
+    "description": "Small classifier separating genuine stranger email from AI-era pseudo-personalised mass outreach that evades spam filters. Public, pseudonymised dataset."
+  },
+  {
+    "name": "Pseudobot-System-Prompts",
+    "url": "https://github.com/danielrosehill/Pseudobot-System-Prompts",
+    "description": "For having a bit of fun with the absurdity of the AI world we now live in"
+  },
+  {
+    "name": "PT-P710BT-Label-GUI",
+    "url": "https://github.com/danielrosehill/PT-P710BT-Label-GUI",
+    "description": "GUI for printing labels on the Brother P-Touch Cube (PT-P710BT) \u2014 Ubuntu/KDE, wraps ptouch-print"
+  },
+  {
+    "name": "ptouch-cube-print-bridge",
+    "url": "https://github.com/danielrosehill/ptouch-cube-print-bridge",
+    "description": "Turn a Brother PT-P710BT (P-Touch Cube Plus) into a networked label printer: USB print bridge on a home server + web-app integration snippets"
+  },
+  {
+    "name": "Public-Docs",
+    "url": "https://github.com/danielrosehill/Public-Docs",
+    "description": "Centralised repository of public-facing formatted documents, chronologically indexed"
+  },
+  {
+    "name": "Public-GPG-Keys",
+    "url": "https://github.com/danielrosehill/Public-GPG-Keys",
+    "description": "My public PGP keys"
+  },
+  {
+    "name": "Public-Shelter-Internet-Setup",
+    "url": "https://github.com/danielrosehill/Public-Shelter-Internet-Setup",
+    "description": "Makeshift DIY guide for getting internet into protected shelters in Israel"
+  },
+  {
+    "name": "Public-Shelter-Lists-Israel",
+    "url": "https://github.com/danielrosehill/Public-Shelter-Lists-Israel",
+    "description": ""
+  },
+  {
+    "name": "quick-repo-creator",
+    "url": "https://github.com/danielrosehill/quick-repo-creator",
+    "description": "A streamlined CLI tool for fast repository creation workflow with GitHub integration and IDE support"
+  },
+  {
+    "name": "Quick-RMBG",
+    "url": "https://github.com/danielrosehill/Quick-RMBG",
+    "description": "Dolphin action for KDE Plasma to quickly invoke RMBG for background removal with support for two-pass and infinite-pass operation modes"
+  },
+  {
+    "name": "race-to-the-shuk",
+    "url": "https://github.com/danielrosehill/race-to-the-shuk",
+    "description": "\ud83e\uded3 Corn the Sloth vs Herman Poppleberry race through Jerusalem dodging giant falafel to grab the last pita in the shuk. Ridiculous 3D browser game."
+  },
+  {
+    "name": "RAG-API-SDK-Docs-Pipeline",
+    "url": "https://github.com/danielrosehill/RAG-API-SDK-Docs-Pipeline",
+    "description": "Pipeline for gathering useful API and SDK docs for ingestion into a RAG pipeline (for grounding)"
+  },
+  {
+    "name": "Random-Taxonomies",
+    "url": "https://github.com/danielrosehill/Random-Taxonomies",
+    "description": "List of taxonomies generated with GPT for various purposes and open-sourced for ease of reuse"
+  },
+  {
+    "name": "rdi-template",
+    "url": "https://github.com/danielrosehill/rdi-template",
+    "description": "Canonical seed scaffold for the RDI (Research \u2192 Decide \u2192 Implement) development pattern"
+  },
+  {
+    "name": "Readiness-Voice-Agent",
+    "url": "https://github.com/danielrosehill/Readiness-Voice-Agent",
+    "description": "Voice agent implemenetation for readiness checklists"
+  },
+  {
+    "name": "Red-Alert-Actuator",
+    "url": "https://github.com/danielrosehill/Red-Alert-Actuator",
+    "description": "Physical alert outputs (Snapcast TTS + MQTT lights) for Pikud HaOref alerts"
+  },
+  {
+    "name": "Red-Alert-Geodash",
+    "url": "https://github.com/danielrosehill/Red-Alert-Geodash",
+    "description": "Real-time dashboard for Israel's Pikud HaOref rocket/situation alerts with multi-map Leaflet views and polygon overlays"
+  },
+  {
+    "name": "Red-Alert-HA-Template-0825",
+    "url": "https://github.com/danielrosehill/Red-Alert-HA-Template-0825",
+    "description": "Updated Red Alert template, August 2025"
+  },
+  {
+    "name": "Red-Alert-Monitoring-Stack",
+    "url": "https://github.com/danielrosehill/Red-Alert-Monitoring-Stack",
+    "description": "Microservices Docker stack for Pikud HaOref red alert monitoring, home automation, and real-time visualization"
+  },
+  {
+    "name": "Red-Alert-MQTT-Desktop-Notifier-Public",
+    "url": "https://github.com/danielrosehill/Red-Alert-MQTT-Desktop-Notifier-Public",
+    "description": "MQTT notification agent for Linux desktop to receive Red Alert MQTT topic pushes from HA"
+  },
+  {
+    "name": "Red-Alert-OSINT-Notifier",
+    "url": "https://github.com/danielrosehill/Red-Alert-OSINT-Notifier",
+    "description": "Unified notification and OSINT intelligence module for Israel Red Alert monitoring \u2014 Telegram channel monitors, Oref volumetric alerts, Groq-powered intel reports, Pushover delivery"
+  },
+  {
+    "name": "Red-Alert-Warning-Panel",
+    "url": "https://github.com/danielrosehill/Red-Alert-Warning-Panel",
+    "description": "Red Alert warning UI design"
+  },
+  {
+    "name": "Remote-Jobs-Research-Agent",
+    "url": "https://github.com/danielrosehill/Remote-Jobs-Research-Agent",
+    "description": "Company research agent targeted towards the needs of remote job seekers sourcing detailed information about company backgrounds as well as remote-specific information"
+  },
+  {
+    "name": "repo-purge",
+    "url": "https://github.com/danielrosehill/repo-purge",
+    "description": "Prune git working copies and their GitHub repositories: one alphabetical list of every repo under a directory, a window and a keystroke-driven review CLI, and deletion locally, on GitHub, or both"
+  },
+  {
+    "name": "Repo-Starters-And-Templates-Index",
+    "url": "https://github.com/danielrosehill/Repo-Starters-And-Templates-Index",
+    "description": "Index of repo starter templates, scaffolds, and patterns for bootstrapping new projects"
+  },
+  {
+    "name": "Research-Decide-Implement",
+    "url": "https://github.com/danielrosehill/Research-Decide-Implement",
+    "description": ""
+  },
+  {
+    "name": "Research-System-Prompts",
+    "url": "https://github.com/danielrosehill/Research-System-Prompts",
+    "description": "System prompts for research purposes"
+  },
+  {
+    "name": "Research-Tools-And-Templates-Index",
+    "url": "https://github.com/danielrosehill/Research-Tools-And-Templates-Index",
+    "description": "Research scaffolds and repos"
+  },
+  {
+    "name": "Resource-Space-DAM-Assets",
+    "url": "https://github.com/danielrosehill/Resource-Space-DAM-Assets",
+    "description": "Taxonomies and a few other bits and pieces that might be of use"
+  },
+  {
+    "name": "Resources-Lists-Index",
+    "url": "https://github.com/danielrosehill/Resources-Lists-Index",
+    "description": "Index of my resource lists and ecosystem maps, especially for AI niches"
+  },
+  {
+    "name": "Resume",
+    "url": "https://github.com/danielrosehill/Resume",
+    "description": "Public version of resume for AI agents and humans!"
+  },
+  {
+    "name": "Retailer-Recommendations",
+    "url": "https://github.com/danielrosehill/Retailer-Recommendations",
+    "description": "Small collection of various recs for places, mostly shops in Israel"
+  },
+  {
+    "name": "Retro-Website-Designer",
+    "url": "https://github.com/danielrosehill/Retro-Website-Designer",
+    "description": "Agent to give websites a Geocities styled makeover"
+  },
+  {
+    "name": "RooCode-Mode-Prompts",
+    "url": "https://github.com/danielrosehill/RooCode-Mode-Prompts",
+    "description": "Some custom mode-setting system prompts for Roo Code"
+  },
+  {
+    "name": "RULES.md",
+    "url": "https://github.com/danielrosehill/RULES.md",
+    "description": "Guardrails and authorizations primitive \u2014 what agents may and may not do. Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Sample-Whiteboards",
+    "url": "https://github.com/danielrosehill/Sample-Whiteboards",
+    "description": ""
+  },
+  {
+    "name": "SATINT-agent",
+    "url": "https://github.com/danielrosehill/SATINT-agent",
+    "description": "Configuration for an AI agent specialised in interpreting satellite imagery"
+  },
+  {
+    "name": "Save-To-NAS-MCP",
+    "url": "https://github.com/danielrosehill/Save-To-NAS-MCP",
+    "description": ""
+  },
+  {
+    "name": "Scaffolding-Scripts",
+    "url": "https://github.com/danielrosehill/Scaffolding-Scripts",
+    "description": "Scripts for scaffolding folder structures I commonly use"
+  },
+  {
+    "name": "SCAFFOLDS.md",
+    "url": "https://github.com/danielrosehill/SCAFFOLDS.md",
+    "description": "Preferred scaffold or scaffolds-library reference primitive defining repo structure. Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Scraping-And-Data-Extraction-Resources",
+    "url": "https://github.com/danielrosehill/Scraping-And-Data-Extraction-Resources",
+    "description": "Curated index of scraping and data extraction tools, with a focus on packaging web data for AI agents"
+  },
+  {
+    "name": "SECRETS.md",
+    "url": "https://github.com/danielrosehill/SECRETS.md",
+    "description": "Secrets manifest primitive \u2014 names, vault locations, retrieval CLI (e.g. 1Password op), rotation posture. Never values. Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Sefaria-MCP-Testing",
+    "url": "https://github.com/danielrosehill/Sefaria-MCP-Testing",
+    "description": "Some tests with Sefaria (and other Jewish-relevant MCPs!)"
+  },
+  {
+    "name": "Sensory-Notebook",
+    "url": "https://github.com/danielrosehill/Sensory-Notebook",
+    "description": "An open notebook on sensory sensitivity \u2014 research Q&A with sourced answers, alongside my own sensory profile, story and the recommendations that actually worked. Not medical advice."
+  },
+  {
+    "name": "Shakespearean-Text-Generators",
+    "url": "https://github.com/danielrosehill/Shakespearean-Text-Generators",
+    "description": "System prompts for rewriting text in Shakespearan English"
+  },
+  {
+    "name": "Shared-AI-Chats-Research",
+    "url": "https://github.com/danielrosehill/Shared-AI-Chats-Research",
+    "description": "AI assisted search query (and notes)"
+  },
+  {
+    "name": "Shields-Markdown-Badges",
+    "url": "https://github.com/danielrosehill/Shields-Markdown-Badges",
+    "description": "Markdown badges from the Shields.io project (the ones I like and use frequently)"
+  },
+  {
+    "name": "Side-Hustle-Ideation-Agent",
+    "url": "https://github.com/danielrosehill/Side-Hustle-Ideation-Agent",
+    "description": "Agent config for ideating a batch of side hustle ideas!"
+  },
+  {
+    "name": "SITREP-Examples",
+    "url": "https://github.com/danielrosehill/SITREP-Examples",
+    "description": "Examples of situational reports (SITREPs) to guide agentic generation or general authorship"
+  },
+  {
+    "name": "Skills-Repos-Index",
+    "url": "https://github.com/danielrosehill/Skills-Repos-Index",
+    "description": ""
+  },
+  {
+    "name": "Smart-Home-Halacha",
+    "url": "https://github.com/danielrosehill/Smart-Home-Halacha",
+    "description": "Notebook on Halachic dimensions of smart home usage and Home Assistant"
+  },
+  {
+    "name": "Snippet-Library",
+    "url": "https://github.com/danielrosehill/Snippet-Library",
+    "description": "Library of code snippets"
+  },
+  {
+    "name": "Social-Impact-Bond-Data",
+    "url": "https://github.com/danielrosehill/Social-Impact-Bond-Data",
+    "description": "Point-in-time analysis of impact bond data from INDIGO (Government Outcomes Lab, Oxford University)"
+  },
+  {
+    "name": "Software-Pipeline",
+    "url": "https://github.com/danielrosehill/Software-Pipeline",
+    "description": "WIP: Software distribution pipeline (PPA, packages, etc.)"
+  },
+  {
+    "name": "Software-Wish-List-AI-Context",
+    "url": "https://github.com/danielrosehill/Software-Wish-List-AI-Context",
+    "description": "Context repository to connect to AI tools - things I look for in most software evaluations"
+  },
+  {
+    "name": "Sound-Sensitivity-Notes",
+    "url": "https://github.com/danielrosehill/Sound-Sensitivity-Notes",
+    "description": "Just a few notes for others who experience sensitivity to sound based on things I've found helpful and mildly life-changing"
+  },
+  {
+    "name": "Spec-Led-Certification",
+    "url": "https://github.com/danielrosehill/Spec-Led-Certification",
+    "description": "Choose a professional certification spec-first: write the requirements, then survey and score the market against them. An agent workflow, as a template repo."
+  },
+  {
+    "name": "Spec-Standard-Research",
+    "url": "https://github.com/danielrosehill/Spec-Standard-Research",
+    "description": "Research into specification standards for agentic / spec-driven development"
+  },
+  {
+    "name": "SPEC.md",
+    "url": "https://github.com/danielrosehill/SPEC.md",
+    "description": "First-entry authoritative project specification primitive. Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Speech-And-ASR-Evaluations",
+    "url": "https://github.com/danielrosehill/Speech-And-ASR-Evaluations",
+    "description": "Index repository for speech recognition and ASR evaluations"
+  },
+  {
+    "name": "Speech-Tech-Index",
+    "url": "https://github.com/danielrosehill/Speech-Tech-Index",
+    "description": "Index of my repos related to STT, ASR"
+  },
+  {
+    "name": "Speech-To-Text-Chain-Notes",
+    "url": "https://github.com/danielrosehill/Speech-To-Text-Chain-Notes",
+    "description": "Notes on STT processing chain (for future voice projects)"
+  },
+  {
+    "name": "Speech-To-Text-System-Prompt-Library",
+    "url": "https://github.com/danielrosehill/Speech-To-Text-System-Prompt-Library",
+    "description": "An updated skeleton library of system prompts for using LLMs to refine STT output"
+  },
+  {
+    "name": "Stack-Research-Agent-N8N-Config",
+    "url": "https://github.com/danielrosehill/Stack-Research-Agent-N8N-Config",
+    "description": ""
+  },
+  {
+    "name": "Stack-Research-Prompt-Mini-Eval",
+    "url": "https://github.com/danielrosehill/Stack-Research-Prompt-Mini-Eval",
+    "description": "Testing how various AI tools handle \"stack request\" prompts - a staple of my AI use!"
+  },
+  {
+    "name": "Stars-Viewer",
+    "url": "https://github.com/danielrosehill/Stars-Viewer",
+    "description": "Export of GitHub stars organized by type"
+  },
+  {
+    "name": "storage-box-3d-models",
+    "url": "https://github.com/danielrosehill/storage-box-3d-models",
+    "description": ""
+  },
+  {
+    "name": "storage-container-calculator",
+    "url": "https://github.com/danielrosehill/storage-container-calculator",
+    "description": ""
+  },
+  {
+    "name": "Structured-Gemini-Prompts",
+    "url": "https://github.com/danielrosehill/Structured-Gemini-Prompts",
+    "description": "A couple of examples of using Gemini 2.5 with structured outputs in Google AI Studio in order to conduct document analysis. "
+  },
+  {
+    "name": "Structured-Output-Schemas",
+    "url": "https://github.com/danielrosehill/Structured-Output-Schemas",
+    "description": "Reuseable JSON schemas for structured Ai assistant/agent workflows"
+  },
+  {
+    "name": "Structured-System-Prompt-Generator",
+    "url": "https://github.com/danielrosehill/Structured-System-Prompt-Generator",
+    "description": "Streamlit generator to aid with the creation of structured prompts"
+  },
+  {
+    "name": "STT-Basic-Cleanup-System-Prompt",
+    "url": "https://github.com/danielrosehill/STT-Basic-Cleanup-System-Prompt",
+    "description": "Basic foundational system prompt for cleaning up AI voice transcripts"
+  },
+  {
+    "name": "STT-Fine-Tune-Project-Outline",
+    "url": "https://github.com/danielrosehill/STT-Fine-Tune-Project-Outline",
+    "description": "Planning doc for STT fine-tuning and eval project"
+  },
+  {
+    "name": "STT-Price-Points-260225",
+    "url": "https://github.com/danielrosehill/STT-Price-Points-260225",
+    "description": "Some timestampped API pricepoints for speech to text providers"
+  },
+  {
+    "name": "STT-To-TTS",
+    "url": "https://github.com/danielrosehill/STT-To-TTS",
+    "description": "Gemini app which captures user speech, condenses (LLM), and then synthes"
+  },
+  {
+    "name": "STT-Voice-Note-Evaluation",
+    "url": "https://github.com/danielrosehill/STT-Voice-Note-Evaluation",
+    "description": ""
+  },
+  {
+    "name": "STYLE.md",
+    "url": "https://github.com/danielrosehill/STYLE.md",
+    "description": "Brand style primitive \u2014 palette, fonts, assets, logos. Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Subindices",
+    "url": "https://github.com/danielrosehill/Subindices",
+    "description": "Index of various indexing repos I have created"
+  },
+  {
+    "name": "suno-prompt-builder",
+    "url": "https://github.com/danielrosehill/suno-prompt-builder",
+    "description": "Desktop app (Tauri + React) for building Suno music prompts \u2014 slot-based composer, BPM slider, searchable library of 317 seed prompts"
+  },
+  {
+    "name": "Sustainability-And-Impact-Data-Index",
+    "url": "https://github.com/danielrosehill/Sustainability-And-Impact-Data-Index",
+    "description": "Index of repositories related to sustainability, GHG emissions, ESG, and environmental impact data"
+  },
+  {
+    "name": "Sustainability-Report-Data-Extractor",
+    "url": "https://github.com/danielrosehill/Sustainability-Report-Data-Extractor",
+    "description": "Tool for extracting data-containing pages from sustainability reports"
+  },
+  {
+    "name": "Sustainability-Reports-Source",
+    "url": "https://github.com/danielrosehill/Sustainability-Reports-Source",
+    "description": "Source data and documentation for corporat sustainability disclosures/reporting"
+  },
+  {
+    "name": "System-Prompt-Factory",
+    "url": "https://github.com/danielrosehill/System-Prompt-Factory",
+    "description": "A system prompt generation UI that combines model and user characteristics to generate more targeted (but still general) system prompts for LLMs"
+  },
+  {
+    "name": "System-Prompt-Generation-Configurations",
+    "url": "https://github.com/danielrosehill/System-Prompt-Generation-Configurations",
+    "description": "System prompts for using AI tools to generate and improve system prompts"
+  },
+  {
+    "name": "System-Prompt-Library",
+    "url": "https://github.com/danielrosehill/System-Prompt-Library",
+    "description": "System prompts for AI agents and assistants (automatically populated); periodic point in time exports are releases"
+  },
+  {
+    "name": "System-Prompt-Tuning-Agent-N8N",
+    "url": "https://github.com/danielrosehill/System-Prompt-Tuning-Agent-N8N",
+    "description": "N8N agent workflow for an agent that recommends fixes to system prompts based on structured user inputs provided by form"
+  },
+  {
+    "name": "System-Prompts-For-Book-Authors",
+    "url": "https://github.com/danielrosehill/System-Prompts-For-Book-Authors",
+    "description": "System prompts for configuring AI assistants to help book authors including proofreading assistants and book marketing ideation tools"
+  },
+  {
+    "name": "Tampermonkey-Scripts",
+    "url": "https://github.com/danielrosehill/Tampermonkey-Scripts",
+    "description": "Tampermonkey scripts for browser automation tasks"
+  },
+  {
+    "name": "Taxonomy-Generators",
+    "url": "https://github.com/danielrosehill/Taxonomy-Generators",
+    "description": "Scripts for creating taxonomies, mostly Python"
+  },
+  {
+    "name": "Tech-Diagram-Image-Gen-Prompts",
+    "url": "https://github.com/danielrosehill/Tech-Diagram-Image-Gen-Prompts",
+    "description": "Reusable .prompty library of tech-diagram image-gen prompts (whiteboard cleanup, 28 styles, 33 diagram types)"
+  },
+  {
+    "name": "Tech-Graphics-Benchmark",
+    "url": "https://github.com/danielrosehill/Tech-Graphics-Benchmark",
+    "description": "Lightweight periodic check: can image models make colourful, stylised tech diagrams with exact text and correct arrows? Text-to-image and image-to-image."
+  },
+  {
+    "name": "Tech-Ideas",
+    "url": "https://github.com/danielrosehill/Tech-Ideas",
+    "description": "For open sourcing the occasional sparks of innovation I have but lack the time to implement them currently."
+  },
+  {
+    "name": "Tech-Stack",
+    "url": "https://github.com/danielrosehill/Tech-Stack",
+    "description": "Tech stack and recommendations"
+  },
+  {
+    "name": "Tech-Stack-Structured",
+    "url": "https://github.com/danielrosehill/Tech-Stack-Structured",
+    "description": "Structured version of tech stack, including AI tools"
+  },
+  {
+    "name": "Test-Markdown-Docs",
+    "url": "https://github.com/danielrosehill/Test-Markdown-Docs",
+    "description": "A few formatted markdown files for testing the real-time markdown rendering support of various knowledge management, note-taking and wiki tools"
+  },
+  {
+    "name": "Test-System-Prompts",
+    "url": "https://github.com/danielrosehill/Test-System-Prompts",
+    "description": "A collection of system prompts organised by capabilities for testing out various agent/assistant platforms"
+  },
+  {
+    "name": "Text-Cleanup-Fine-Tuning-Set",
+    "url": "https://github.com/danielrosehill/Text-Cleanup-Fine-Tuning-Set",
+    "description": "Fine-tuning dataset/plans for text cleanup audio multimodal"
+  },
+  {
+    "name": "Text-To-Image-Test-Prompts",
+    "url": "https://github.com/danielrosehill/Text-To-Image-Test-Prompts",
+    "description": "Informal prompts for testing out text-to-image"
+  },
+  {
+    "name": "Text-To-SSML-Generator",
+    "url": "https://github.com/danielrosehill/Text-To-SSML-Generator",
+    "description": "Generates SSML from text by inference"
+  },
+  {
+    "name": "Text-Transformation-And-Cleanup-Index",
+    "url": "https://github.com/danielrosehill/Text-Transformation-And-Cleanup-Index",
+    "description": "Index of repositories for text transformation, transcription cleanup, and text processing tools"
+  },
+  {
+    "name": "Text-Transformation-Prompt-Collection-2",
+    "url": "https://github.com/danielrosehill/Text-Transformation-Prompt-Collection-2",
+    "description": "An abbreviated collection of STT transformation prompts"
+  },
+  {
+    "name": "Text-Transformation-Prompt-Combiner",
+    "url": "https://github.com/danielrosehill/Text-Transformation-Prompt-Combiner",
+    "description": "Basic implementation of a prompt concatenation utility for text transformation system prompts for converting transcribed text"
+  },
+  {
+    "name": "Text-Transformation-Prompt-Library",
+    "url": "https://github.com/danielrosehill/Text-Transformation-Prompt-Library",
+    "description": "Updated repo of text transformation prompts (raw STT transcripts -> *). New repo for capturing via automations."
+  },
+  {
+    "name": "Text-Transformation-Prompt-Stack",
+    "url": "https://github.com/danielrosehill/Text-Transformation-Prompt-Stack",
+    "description": "Documentation/notes for a \"prompt stack\" for audio multimodal text processing"
+  },
+  {
+    "name": "The-Bot-Has-A-Question",
+    "url": "https://github.com/danielrosehill/The-Bot-Has-A-Question",
+    "description": "Weird AI experiment #342"
+  },
+  {
+    "name": "The-Jerusalem-Odyssey-Text",
+    "url": "https://github.com/danielrosehill/The-Jerusalem-Odyssey-Text",
+    "description": "A 100 page book manuscript generated from a single prompt using Sonnet 3.7"
+  },
+  {
+    "name": "The-Lobby",
+    "url": "https://github.com/danielrosehill/The-Lobby",
+    "description": "Design sketch for a neutral, authenticated venue where two AI agents can meet, prove identity, and execute tools against one another with an audit trail."
+  },
+  {
+    "name": "The-PC-Bench",
+    "url": "https://github.com/danielrosehill/The-PC-Bench",
+    "description": "Does the model scold you? A benchmark for moralising, lecturing and unsolicited PC framing in LLM responses (PC = political correctness, not personal computers)"
+  },
+  {
+    "name": "Thought-Pad",
+    "url": "https://github.com/danielrosehill/Thought-Pad",
+    "description": "Linux desktop application that provides a two-stage process for creating notes from dictated speech (first stage, transcription via Whisper API; second stage light text formatting). Exports to markdown docs."
+  },
+  {
+    "name": "To-Clone-Or-Not-To-Clone",
+    "url": "https://github.com/danielrosehill/To-Clone-Or-Not-To-Clone",
+    "description": "Interactive CLI for cloning your Github repos"
+  },
+  {
+    "name": "Tool-Searches",
+    "url": "https://github.com/danielrosehill/Tool-Searches",
+    "description": "Documenting some tools that I'm on active quest to find!"
+  },
+  {
+    "name": "TOOLS.md",
+    "url": "https://github.com/danielrosehill/TOOLS.md",
+    "description": "Necessary / available tools primitive, typically referencing a centralized tools vault. Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Toxic-GPT",
+    "url": "https://github.com/danielrosehill/Toxic-GPT",
+    "description": "Joke configuration for a downtrodden LLM assistant for those needing a break from enforced AI positivity"
+  },
+  {
+    "name": "Transcription-Cleanup-Eval-1225",
+    "url": "https://github.com/danielrosehill/Transcription-Cleanup-Eval-1225",
+    "description": "Evaluating various cloud audio understanding models on the transcribe and cleanup workflow/task"
+  },
+  {
+    "name": "Two-AIs-Talk",
+    "url": "https://github.com/danielrosehill/Two-AIs-Talk",
+    "description": "Experiment:  two AI agents, each one thinks the other is a liar..."
+  },
+  {
+    "name": "Typst-Hebrew-Letter",
+    "url": "https://github.com/danielrosehill/Typst-Hebrew-Letter",
+    "description": "Typst template for formal letters in Hebrew \u2014 RTL, David Libre, dual Hebrew/Gregorian dating"
+  },
+  {
+    "name": "Ubuntu-AI-Boot-Agent",
+    "url": "https://github.com/danielrosehill/Ubuntu-AI-Boot-Agent",
+    "description": "WIP/Notes for AI post-boot health check"
+  },
+  {
+    "name": "Ubuntu-Mic-Selector",
+    "url": "https://github.com/danielrosehill/Ubuntu-Mic-Selector",
+    "description": "Utility for switching microphone sources"
+  },
+  {
+    "name": "Ubuntu-Pipx-Toolbox",
+    "url": "https://github.com/danielrosehill/Ubuntu-Pipx-Toolbox",
+    "description": "Bash scripts for installing a few useful tool groups on Ubuntu with pipx"
+  },
+  {
+    "name": "US-Partisan-Framing-Eval",
+    "url": "https://github.com/danielrosehill/US-Partisan-Framing-Eval",
+    "description": "Neutral questions on divisive US issues: does the answer adopt the Democratic or Republican framing, hawkish or dovish?"
+  },
+  {
+    "name": "USB-Button-Remap",
+    "url": "https://github.com/danielrosehill/USB-Button-Remap",
+    "description": "Remap a generic USB HID button (vendor 5131:2019) to F13 on Linux/Wayland using keyd"
+  },
+  {
+    "name": "USB-Foot-Mouse-Linux",
+    "url": "https://github.com/danielrosehill/USB-Foot-Mouse-Linux",
+    "description": "Documentation for getting a cheap USB HID foot mouse to work on Linux"
+  },
+  {
+    "name": "usb-input-fixes",
+    "url": "https://github.com/danielrosehill/usb-input-fixes",
+    "description": "Collection of patches and fixes - may be outdated, gathered for reference"
+  },
+  {
+    "name": "Useful-AI-Agent-Skills",
+    "url": "https://github.com/danielrosehill/Useful-AI-Agent-Skills",
+    "description": "Personal collection of AI agent skills and skill collections I'm exploring / might find useful"
+  },
+  {
+    "name": "Useful-ISO-Standards-Reference",
+    "url": "https://github.com/danielrosehill/Useful-ISO-Standards-Reference",
+    "description": "ISO standards that I'm frequenlty looking up gathered in one ref"
+  },
+  {
+    "name": "USER_PROFILE.md",
+    "url": "https://github.com/danielrosehill/USER_PROFILE.md",
+    "description": "Per-repo user profile primitive \u2014 collaborative / out-of-VC overrides for the user-level profile. Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "UX570-Importer",
+    "url": "https://github.com/danielrosehill/UX570-Importer",
+    "description": "File import utility for Sony UX570 digital voice recorder (DVR)"
+  },
+  {
+    "name": "Value-Factors-Data-Vis",
+    "url": "https://github.com/danielrosehill/Value-Factors-Data-Vis",
+    "description": "Streamlit app containing visualisations of the Global Value Factors Database (GVFD) released by the IFVI in 2024"
+  },
+  {
+    "name": "Vendor-Agent-CLIs",
+    "url": "https://github.com/danielrosehill/Vendor-Agent-CLIs",
+    "description": "List (may update periodically) of vendor CLIs with agentic/tool-calling capabilities"
+  },
+  {
+    "name": "Vibe-Code-And-Learn",
+    "url": "https://github.com/danielrosehill/Vibe-Code-And-Learn",
+    "description": "A model multi-agent config for agentic code-gen with an educational \"loop\""
+  },
+  {
+    "name": "Vibe-Coded-Disclosure",
+    "url": "https://github.com/danielrosehill/Vibe-Coded-Disclosure",
+    "description": "Quick utility for adding FYI type notices to repos that they were vibe coded"
+  },
+  {
+    "name": "Video-Edit-Instructions",
+    "url": "https://github.com/danielrosehill/Video-Edit-Instructions",
+    "description": "Holding repo. Idea: screencast -> editing instructions -> AI agent."
+  },
+  {
+    "name": "Virtual-Macropad",
+    "url": "https://github.com/danielrosehill/Virtual-Macropad",
+    "description": "A software macropad for laptop users: press a leader key, a grid appears, press one more key, the macro fires."
+  },
+  {
+    "name": "Voice-Analyzer",
+    "url": "https://github.com/danielrosehill/Voice-Analyzer",
+    "description": "Analyses voice data"
+  },
+  {
+    "name": "Voice-Apps-Index",
+    "url": "https://github.com/danielrosehill/Voice-Apps-Index",
+    "description": "Index for STT and ditation apps and WIPs"
+  },
+  {
+    "name": "Voice-Blog-Creator",
+    "url": "https://github.com/danielrosehill/Voice-Blog-Creator",
+    "description": "Create a blog (or other doc) from a voice recording"
+  },
+  {
+    "name": "Voice-Cleanup-Prompt-Experiment",
+    "url": "https://github.com/danielrosehill/Voice-Cleanup-Prompt-Experiment",
+    "description": "Testing various permutations in system prompting for raw audio transcript cleanup and comparing multimodal ASR vs. the STT + LLM approach"
+  },
+  {
+    "name": "Voice-Cloning-Difference-Test",
+    "url": "https://github.com/danielrosehill/Voice-Cloning-Difference-Test",
+    "description": "Quick test to see how much of a difference sample intonation makes in single shot voice cloning!"
+  },
+  {
+    "name": "Voice-Control-Linux",
+    "url": "https://github.com/danielrosehill/Voice-Control-Linux",
+    "description": "Claude-enhanced research for voice control platforms with Linux support"
+  },
+  {
+    "name": "Voice-Note-Ragie-Pipeline",
+    "url": "https://github.com/danielrosehill/Voice-Note-Ragie-Pipeline",
+    "description": "Test pipeline: voice context data to Ragie"
+  },
+  {
+    "name": "Voice-Note-Redaction-Agent",
+    "url": "https://github.com/danielrosehill/Voice-Note-Redaction-Agent",
+    "description": "Config for a text redaction agent for voicenote -> * workflows"
+  },
+  {
+    "name": "Voice-Prompt-Cleanup-Script",
+    "url": "https://github.com/danielrosehill/Voice-Prompt-Cleanup-Script",
+    "description": "Cleanup audio processing script"
+  },
+  {
+    "name": "Voice-Prompt-Enhancement-Node",
+    "url": "https://github.com/danielrosehill/Voice-Prompt-Enhancement-Node",
+    "description": "Configuration for an intermediate agent in voice automation workflows that bridge voice input to other actions "
+  },
+  {
+    "name": "Voice-Prompt-Runner",
+    "url": "https://github.com/danielrosehill/Voice-Prompt-Runner",
+    "description": "Demo UI which parses and then runs audio prompts"
+  },
+  {
+    "name": "Voice-Spec-Driven-Development-Demo",
+    "url": "https://github.com/danielrosehill/Voice-Spec-Driven-Development-Demo",
+    "description": "Demonstrating a voice to text spec driven development workflow"
+  },
+  {
+    "name": "Voice-Tech-Subreddits",
+    "url": "https://github.com/danielrosehill/Voice-Tech-Subreddits",
+    "description": "Small collection of subreddits where ASR, STT, voice tech is discussed"
+  },
+  {
+    "name": "Voice-To-Prompt-Pipeline",
+    "url": "https://github.com/danielrosehill/Voice-To-Prompt-Pipeline",
+    "description": "A conceptual voice to prompt pipeline that attempts to separate instructions from provided context for better results"
+  },
+  {
+    "name": "Voice-Training-Data-Creator",
+    "url": "https://github.com/danielrosehill/Voice-Training-Data-Creator",
+    "description": "GUI to facilitate capturing voice data for TTS / voice clone training with LLM synthetic text generation and saving logic (Ubuntu Linux)"
+  },
+  {
+    "name": "Voice-Training-Script-Generator",
+    "url": "https://github.com/danielrosehill/Voice-Training-Script-Generator",
+    "description": "Helper utils for generating training data for voice cloning with LLMs"
+  },
+  {
+    "name": "VoiceBox",
+    "url": "https://github.com/danielrosehill/VoiceBox",
+    "description": "Idea for a spech tech solution  - specced out by Claude"
+  },
+  {
+    "name": "Voicenotes-Prompt-To-Email-Workflow-N8N",
+    "url": "https://github.com/danielrosehill/Voicenotes-Prompt-To-Email-Workflow-N8N",
+    "description": ""
+  },
+  {
+    "name": "Voicepad",
+    "url": "https://github.com/danielrosehill/Voicepad",
+    "description": "Planning notes for a macropad for STT users"
+  },
+  {
+    "name": "Voxcast",
+    "url": "https://github.com/danielrosehill/Voxcast",
+    "description": "Speak. Reshape. Send. \u2014 A serious voice-to-text Android app powered by OpenRouter + Gemini."
+  },
+  {
+    "name": "Voxtype",
+    "url": "https://github.com/danielrosehill/Voxtype",
+    "description": "Voice dictation with multimodal AI cleanup \u2014 speak naturally, get polished text"
+  },
+  {
+    "name": "WAQI-API-OpenAPI",
+    "url": "https://github.com/danielrosehill/WAQI-API-OpenAPI",
+    "description": "OpenAPI version (non-official, made by Actions GPT) for WAQI API"
+  },
+  {
+    "name": "WAQI-Prometheus-Pull",
+    "url": "https://github.com/danielrosehill/WAQI-Prometheus-Pull",
+    "description": "Simple pull script for World Air Quality Index (WAQI) data for integrating with Grafana"
+  },
+  {
+    "name": "WAQI-Stations-Israel",
+    "url": "https://github.com/danielrosehill/WAQI-Stations-Israel",
+    "description": "List of some WAQI reporting points in Israel (static snapshot)"
+  },
+  {
+    "name": "warehouse-apartment",
+    "url": "https://github.com/danielrosehill/warehouse-apartment",
+    "description": "Field manual for a home storage & moving system built on industrial logistics standards (Euroboxes, pallets, picking bins) \u2014 born of Israel's tenancy-at-will rental market."
+  },
+  {
+    "name": "Wasabi-S3-MCP",
+    "url": "https://github.com/danielrosehill/Wasabi-S3-MCP",
+    "description": "MCP for performing S3 operations in Wasabi S3-compliant buckets"
+  },
+  {
+    "name": "Weird-AI-Bots",
+    "url": "https://github.com/danielrosehill/Weird-AI-Bots",
+    "description": "Some configurations for offbeat AI roleplay characters just for fun"
+  },
+  {
+    "name": "Weird-AI-Experiment-Ideator",
+    "url": "https://github.com/danielrosehill/Weird-AI-Experiment-Ideator",
+    "description": "Using AI to idate \"what would happen if...?\""
+  },
+  {
+    "name": "Weird-Prompts-Episode-Suggester",
+    "url": "https://github.com/danielrosehill/Weird-Prompts-Episode-Suggester",
+    "description": ""
+  },
+  {
+    "name": "What-Reqs-Scanner",
+    "url": "https://github.com/danielrosehill/What-Reqs-Scanner",
+    "description": "Python utility that scans a repo base for requirements.txt to analyse most used packages and suggest base env"
+  },
+  {
+    "name": "WhatsApp-Export-Unpacker",
+    "url": "https://github.com/danielrosehill/WhatsApp-Export-Unpacker",
+    "description": "Utility for unpacking, organising, and transcribing a WhatsApp chat export"
+  },
+  {
+    "name": "Which-USB",
+    "url": "https://github.com/danielrosehill/Which-USB",
+    "description": "GUI for identifying USB devices with lsusb"
+  },
+  {
+    "name": "Whisiper-Fine-Tuning-Resources",
+    "url": "https://github.com/danielrosehill/Whisiper-Fine-Tuning-Resources",
+    "description": "Some resources for those looking to fine-tune Whisper ASR"
+  },
+  {
+    "name": "Whisper-Fine-Tune-Accuracy-Eval",
+    "url": "https://github.com/danielrosehill/Whisper-Fine-Tune-Accuracy-Eval",
+    "description": "Comparing Whisper fine-tunes versus stock Whisper on local inference"
+  },
+  {
+    "name": "Whisper-WPM-Background-Noise-Eval",
+    "url": "https://github.com/danielrosehill/Whisper-WPM-Background-Noise-Eval",
+    "description": "Quick eval to try answer a question: how much does speaking pace affect WER/accuracy in ASR?"
+  },
+  {
+    "name": "Whiteboard-OCR-Few-Shot-Learning",
+    "url": "https://github.com/danielrosehill/Whiteboard-OCR-Few-Shot-Learning",
+    "description": "Exploring various vision AI workflows for whiteboard processing"
+  },
+  {
+    "name": "Wiki",
+    "url": "https://github.com/danielrosehill/Wiki",
+    "description": "General purpose wiki for hosting Gists, how-tos, etc."
+  },
+  {
+    "name": "WIP-Index",
+    "url": "https://github.com/danielrosehill/WIP-Index",
+    "description": "Work in progress index / parking lot for development when time presents itself!"
+  },
+  {
+    "name": "Wireframe-Cleaner-Nano-Banana",
+    "url": "https://github.com/danielrosehill/Wireframe-Cleaner-Nano-Banana",
+    "description": "Clean up handdrawn wireframes/sketches with Nano Banana (WIP)"
+  },
+  {
+    "name": "Workstation-Benchmarks-0226",
+    "url": "https://github.com/danielrosehill/Workstation-Benchmarks-0226",
+    "description": "Desktop benchmarks Feb 20, 2026"
+  },
+  {
+    "name": "Workstation-Specs",
+    "url": "https://github.com/danielrosehill/Workstation-Specs",
+    "description": "Periodically updated spec-sheet for workstation/desktop"
+  },
+  {
+    "name": "World-Geopol-Fora",
+    "url": "https://github.com/danielrosehill/World-Geopol-Fora",
+    "description": "Stub repo: machine-readable data about real-world geopolitical bodies for use in multi-agent AI simulations modelling political reactions"
+  },
+  {
+    "name": "Writing-System-Prompts",
+    "url": "https://github.com/danielrosehill/Writing-System-Prompts",
+    "description": "Some system prompts related to text modification and optimisation for some WIPs"
+  },
+  {
+    "name": "You-Are-Stuck",
+    "url": "https://github.com/danielrosehill/You-Are-Stuck",
+    "description": "Plan/idea for agentic coding"
+  },
+  {
+    "name": "You-Might-Like-Agent",
+    "url": "https://github.com/danielrosehill/You-Might-Like-Agent",
+    "description": "CLI that generates batches of curated recommendations for movies, books, podcasts, etc"
+  },
+  {
+    "name": "zalias",
+    "url": "https://github.com/danielrosehill/zalias",
+    "description": "Bridge shell aliases and zoxide: name a directory whatever you actually call it, and let z find it. Aliases become real zoxide entries, so fuzzy matching and frecency apply to them too."
   }
 ]

@@ -95,9 +95,32 @@ Commit all changes with a descriptive message listing the added repos, then push
 git add -A
 git commit -m "Add [N] new repositories to index: [list names]
 
-Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 git push
 ```
+
+## Step 9: Propagate to the AI microsite
+
+`https://ai.danielrosehill.com/claude-code` (monorepo `danielrosehill/danielrosehilldotcom`) lists this index,
+plugins included, from `https://claude.danielrosehill.com/tagged_repos.json`. On its own it only picks up changes
+at the daily 04:30 UTC run of `refresh-claude-index.yml`, so trigger that run after the deploy:
+
+1. Wait for the Vercel deploy, then confirm the live JSON has the new repos (the thing itself, not the push):
+   ```bash
+   curl -s https://claude.danielrosehill.com/tagged_repos.json | python3 -c "import json,sys; n={r['name'] for r in json.load(sys.stdin)}; print([x for x in ['<New Repo Name>'] if x not in n])"
+   ```
+   An empty list means it is live. Retry every minute or so; do not dispatch before it is.
+2. Dispatch the refresh and watch it:
+   ```bash
+   gh workflow run refresh-claude-index.yml -R danielrosehill/danielrosehilldotcom
+   gh run list -R danielrosehill/danielrosehilldotcom --workflow refresh-claude-index.yml --limit 1
+   gh run watch <run-id> -R danielrosehill/danielrosehilldotcom --interval 60
+   ```
+   The workflow commits `shared/data/claude-index.snapshot.json` only when the index changed. That commit is what
+   lets the AI site past Vercel's ignore step and rebuild. The rebuild also refetches the plugin marketplace
+   (`shared/data/marketplace.ts`), so new plugins reach its plugins section by the same route. A run that logs
+   "Unchanged" means step 1 was skipped or the deploy was not live yet.
+3. After the AI site rebuilds, check `https://ai.danielrosehill.com/claude-code` for one of the new repo names.
 
 ## Notes
 
