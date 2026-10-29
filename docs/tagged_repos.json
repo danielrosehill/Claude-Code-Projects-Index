@@ -3706,10 +3706,9 @@
   {
     "name": "Noise Pollution Analysis",
     "url": "https://github.com/danielrosehill/Noise-Pollution-Analysis",
-    "description": "Document indoor noise pollution and analyse recordings at the frequency level: hums, tones, low-frequency drone, cycling, with reports per sample.",
+    "description": "Document indoor noise pollution and analyse recordings with ffmpeg, sox and aubio: hums, tones, drone, impacts, isolation from background.",
     "tags": [
-      "Plugin",
-      "Tool"
+      "Plugin"
     ],
     "category": "Plugins",
     "category_slug": "plugins",
@@ -4041,6 +4040,22 @@
     "added_date": "2026-10-22",
     "slug": "pseudospam-filter",
     "created_date": "2026-10-21"
+  },
+  {
+    "name": "Rclone Manager",
+    "url": "https://github.com/danielrosehill/Rclone-Manager",
+    "description": "Routine rclone admin: install/update, add/list/edit/delete remotes, add/list/edit/remove mounts as systemd user units, config backup (one-off or automatic to a private git repo on a timer), migrate config between machines with path rewriting, and docs lookup.",
+    "tags": [
+      "Agent Workspace",
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-10-29",
+    "slug": "rclone-manager",
+    "created_date": "2026-10-29"
   },
   {
     "name": "Repo To Content",

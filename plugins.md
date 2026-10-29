@@ -296,6 +296,15 @@ Author and maintain unofficial MCP servers for third-party APIs that don't ship 
 
 ---
 
+## Acoustics
+
+### Noise Pollution Analysis
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Noise-Pollution-Analysis) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Document indoor noise pollution and analyse recordings with ffmpeg, sox and aubio: hums, tones, drone, impacts, isolation from background.
+
+---
+
 ## Adb
 
 ### Adb Ops
@@ -1004,15 +1013,6 @@ Skills for analyzing large text corpora — topic modeling (BERTopic with tempor
 
 ---
 
-## Noise
-
-### Noise Pollution Analysis
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Noise-Pollution-Analysis) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Document indoor noise pollution and analyse recordings at the frequency level: hums, tones, low-frequency drone, cycling, with reports per sample.
-
----
-
 ## Obd
 
 ### Obd Diagnostics
@@ -1278,6 +1278,15 @@ Jump to Daniel Rosehill's public work from Claude Code — profiles (LinkedIn, X
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Proxmox-Mgmt-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Manage a Proxmox VE host via SSH and the Proxmox API — guided first-run onboarding, VM/CT lifecycle, storage and ZFS inspection, log review, and update workflows. Per-host config is stored outside the plugin so the same install works across multiple Proxmox environments.
+
+---
+
+## Rclone
+
+### Rclone Manager
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Rclone-Manager) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Routine rclone admin: install/update, add/list/edit/delete remotes, add/list/edit/remove mounts as systemd user units, config backup (one-off or automatic to a private git repo on a timer), migrate config between machines with path rewriting, and docs lookup.
 
 ---
 

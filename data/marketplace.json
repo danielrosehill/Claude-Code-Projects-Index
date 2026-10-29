@@ -4422,8 +4422,35 @@
         "source": "github",
         "repo": "danielrosehill/Noise-Pollution-Analysis"
       },
-      "description": "Document indoor noise pollution and analyse recordings at the frequency level: hums, tones, low-frequency drone, cycling, with reports per sample.",
+      "description": "Document indoor noise pollution and analyse recordings with ffmpeg, sox and aubio: hums, tones, drone, impacts, isolation from background.",
       "category": "Media Editing",
+      "version": "0.2.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "acoustics",
+        "aubio",
+        "audio",
+        "low-frequency-noise",
+        "noise",
+        "noise-pollution",
+        "sox",
+        "spectral-analysis"
+      ]
+    },
+    {
+      "name": "rclone-manager",
+      "displayName": "Rclone Manager",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Rclone-Manager"
+      },
+      "description": "Routine rclone admin: install/update, add/list/edit/delete remotes, add/list/edit/remove mounts as systemd user units, config backup (one-off or automatic to a private git repo on a timer), migrate config between machines with path rewriting, and docs lookup.",
+      "category": "Linux Sysadmin",
       "version": "0.1.0",
       "author": {
         "name": "Daniel Rosehill",
@@ -4432,12 +4459,13 @@
       },
       "license": "MIT",
       "tags": [
-        "noise",
-        "noise-pollution",
-        "acoustics",
-        "spectral-analysis",
-        "low-frequency-noise",
-        "audio"
+        "rclone",
+        "cloud-storage",
+        "remotes",
+        "mounts",
+        "systemd",
+        "backup",
+        "linux"
       ]
     }
   ]
