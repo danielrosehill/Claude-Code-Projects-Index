@@ -2,7 +2,11 @@
 
 # Claude Code Projects Index
 
+[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Start-Here)
+
 A curated collection of Claude Code projects, agent workspace blueprints, and related resources — organized by use case. Most patterns here adapt to other agentic AI CLIs and frameworks.
+
+**Last Updated:** October 2026
 
 **[Browse online](https://claude.danielrosehill.com)** · **[Plugins Marketplace](https://github.com/danielrosehill/Claude-Code-Plugins)** · **[Documentation portal](https://docs.bydanielrosehill.com)** · **[What are Claude Spaces?](./claude-spaces.md)**
 
@@ -154,13 +158,6 @@ Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflo
 
 Projects specifically targeting KDE Plasma desktop integration and Linux desktop workflows with Claude Code.
 
-### Claude Dolphin & Konsole Actions
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Dolphin-Konsole-Actions)
-
-KDE Dolphin right-click context menu actions (service menus) for launching Claude Code in various Konsole window layouts, including single terminal, split panes, and multi-instance grids.
-
----
-
 ### Claude Konsole Launcher
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Konsole-Launcher)
 
@@ -217,14 +214,11 @@ Claude Code plugin for administering a Synology NAS over SSH, with guided first-
 
 ---
 
-## Android
-
-
 # Productivity & Planning
 
 Workspaces for decision-making, personal planning, file management, and general-purpose productivity workflows.
 
-> **See also:** The [Budgeting](https://github.com/danielrosehill/Claude-Budgeting-Plugin), [Personal Planning](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin), [Career](https://github.com/danielrosehill/Claude-Career-Plugin), [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin), [Shopping](https://github.com/danielrosehill/Claude-Shopping-Plugin), and [Ideation & Planning](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) cluster plugins in the [Plugins](#plugins) section cover these domains.
+> **See also:** The [Budgeting](https://github.com/danielrosehill/Claude-Budgeting-Plugin), [Personal Planning](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin), [Career](https://github.com/danielrosehill/Claude-Career-Plugin), [Purchasing](https://github.com/danielrosehill/procurement-tools-plugin), [Shopping](https://github.com/danielrosehill/Claude-Shopping-Plugin), and [Ideation & Planning](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) cluster plugins in the [Plugins](#plugins) section cover these domains.
 
 ### Agent-Assisted Purchase Research Index
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index)
@@ -268,7 +262,6 @@ Work-in-progress CLI and workspace for importing recordings from a digital voice
 
 ---
 
-
 # Legal
 
 Workspaces and templates for legal research, case management, and evidence handling workflows.
@@ -281,7 +274,6 @@ Workspaces and templates for legal research, case management, and evidence handl
 Claude Code template for building version-controlled containers for legal files and case material.
 
 ---
-
 
 # Health & Wellbeing
 
@@ -309,7 +301,6 @@ Subindex of Claude Code templates, plugins and workspaces for mental health work
 GitHub template for working through one bounded personal issue with Claude Code — a career situation, a relationship, a bereavement — with sessions, threads and timelines kept in one workspace per issue.
 
 ---
-
 
 # Communications & Writing
 
@@ -368,7 +359,7 @@ Early standalone Claude Code plugin with slash commands for proofreading, style 
 
 Workspaces and templates for budgeting, purchasing decisions, and personal finance management.
 
-> **See also:** The [Budgeting](https://github.com/danielrosehill/Claude-Budgeting-Plugin), [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin), and [Shopping](https://github.com/danielrosehill/Claude-Shopping-Plugin) cluster plugins in the [Plugins](#plugins) section cover these domains.
+> **See also:** The [Budgeting](https://github.com/danielrosehill/Claude-Budgeting-Plugin), [Purchasing](https://github.com/danielrosehill/procurement-tools-plugin), and [Shopping](https://github.com/danielrosehill/Claude-Shopping-Plugin) cluster plugins in the [Plugins](#plugins) section cover these domains.
 
 ### Claude FX Pair Analyst Template
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-FX-Pair-Analyst-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
@@ -391,20 +382,17 @@ Work-in-progress skills basket for Israeli property due diligence (Tabu extracts
 
 ---
 
-
 # Career
 
 Workspaces and templates for job searching, career planning, and professional development.
 
 > **See also:** The [Career](https://github.com/danielrosehill/Claude-Career-Plugin) cluster plugin in the [Plugins](#plugins) section covers this domain — role logging, offer comparison, application tracking, and salary benchmarking.
 
-
 # Business
 
 Workspaces and templates for business planning, idea evaluation, and organizational continuity.
 
 > **See also:** The [Ideation & Planning](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) cluster plugin in the [Plugins](#plugins) section covers business idea evaluation, decision frameworks, and simulation workflows.
-
 
 # Privacy & Anonymity
 
@@ -419,12 +407,11 @@ Assistant configuration for redacting personally identifiable details from docum
 
 ---
 
-
 # Technology & Hardware
 
 Workspaces for hardware planning, PC builds, and technology procurement.
 
-> **See also:** The [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin) (includes a tech-procurement variant), [Sysadmin & Homelab](https://github.com/danielrosehill/Claude-Sysadmin-Homelab-Plugin), and [HP5200 Printer](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) plugins in the [Plugins](#plugins) section cover these domains.
+> **See also:** The [Purchasing](https://github.com/danielrosehill/procurement-tools-plugin) (includes a tech-procurement variant), [Sysadmin & Homelab](https://github.com/danielrosehill/Claude-Sysadmin-Homelab-Plugin), and HP5200 Printer plugins in the [Plugins](#plugins) section cover these domains.
 
 ### Claude Pad
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Pad) ![Rig](https://img.shields.io/badge/Rig-gray?style=flat-square)
@@ -447,13 +434,11 @@ Non-code planning workspace for a home media setup: ideas, voice notes and refer
 
 ---
 
-
 # Marketing
 
 Workspaces for SEO, web analytics, PR monitoring, and media tracking.
 
 > **See also:** The [PR & Media Work](https://github.com/danielrosehill/Claude-PR-Media-Work-Plugin) cluster plugin in the [Plugins](#plugins) section covers coverage scanning, press summarisation, response drafting, and comms strategy.
-
 
 # Research
 
@@ -500,7 +485,6 @@ Exploratory model running multiple agents as a panel debate.
 Claude Code workspace for finding people who hold specific viewpoints within a policy debate, surfacing voices that keyword search misses.
 
 ---
-
 
 # Context and Personalization
 
@@ -592,8 +576,8 @@ Workflow methodology for separating human-authored context from structured AI ag
 
 ---
 
-### Habits Of Claude
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Habits-Of-Claude) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
+### Agent Habits
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agent-Habits) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
 
 Splits a user-level system prompt into one file per standing habit, assembled into a pasteable block and a JSON index. Ships skills to install a subset into any CLAUDE.md and to reconcile drift when the prompt and the repo disagree.
 
@@ -667,13 +651,6 @@ Design model for an orchestration agent that buffers a human from a batch of wor
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agent-Handover-Demo) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
 Pattern for handing tasks between code-generation agents working on different machines through shared handover docs, giving supervising humans an audit trail of what each agent did.
-
----
-
-### Agent Junction
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agent-Junction) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
-
-MCP server enabling encrypted peer-to-peer communication between Claude Code instances on localhost or LAN.
 
 ---
 
@@ -755,9 +732,6 @@ Idea capture for a meta-plugin holding a personal vault of plugins and MCP serve
 Interactive tool for discovering, selecting, and cloning Claude Workspace templates.
 
 ---
-
-## Documentation & Notes
-
 
 # MCP
 
@@ -992,4 +966,3 @@ Stub workspace for agent skills that check medication availability in Israel for
 Planned multi-label classifier that routes voice-note transcripts to task-specific subagents (email, calendar, shopping list, to-do, dev spec), each holding one MCP tool.
 
 ---
-
