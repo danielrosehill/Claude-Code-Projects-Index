@@ -29,7 +29,7 @@ Register machines and run repeatable Claude-Code-driven security audits over SSH
 ### Agentic Dev Workflows
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agentic-Dev-Workflows) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Agent dev workflows: UI friction fixes, release patterns. Any platform: options-then-build for UI friction, sprint or release-to-test release patterns pinned to CLAUDE.md.
+Agent dev workflows: voice notes, screenshots, UI review. Any platform: steer work from voice notes, screenshots and screen recordings; review the running UI; resolve UI friction by options-then-build.
 
 ---
 
@@ -182,9 +182,9 @@ PR and media monitoring — scan coverage, summarize press, draft responses, com
 ---
 
 ### Transcription Pipeline
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Transcription-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Transcription-Pipeline) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Audio transcription — denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.
+Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog), Typst PDF, save. Preferences in a plain file.
 
 ---
 
@@ -325,10 +325,10 @@ A second spam filter for pseudospam (outreach produced at scale, dressed up as p
 
 ## Agent To Agent
 
-### Dead Drop
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Dead-Drop) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Multisession
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Multisession) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Asynchronous agent-to-agent messages between Claude Code sessions working in different repositories. Agent A writes a markdown message into repo B's a2a/ folder and pings B by SendMessage if it is running; B's SessionStart hook lists open messages, B acts on them, sets any reminders the message asks for in its own scheduler, and records what it did in the same file. For long tasks the sender keeps one living message current (revision: counter) and asks the reader to re-check it on an interval (watch: 30m). No server and no shared meeting place: the target repo's folder is the mailbox. Breakout (an idea that needs its own new repo) and same-repo handover are message kinds.
+Start fresh or hand off: split the pane, launch a new named Claude session and give it the next task, or hand work to a running peer. Payload goes to a local or Google Drive agent-to-agent space and is sent with the built-in SendMessage; this session's Konsole pane then closes. Also asynchronous a2a/ mailbox messages between repos.
 
 ---
 
@@ -1269,6 +1269,15 @@ Personal schedule, task, and meeting management. Routes mixed brain-dumps into G
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Daniel-Rosehill-Claude-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Jump to Daniel Rosehill's public work from Claude Code — profiles (LinkedIn, X, GitHub, YouTube, npm, Kaggle, DeviantArt, Pexels), blog, Hugging Face, public repos by recency/stars/A–Z, bio, resume download, and contact/newsletter pages. Also refreshes this marketplace's local cache. A directory of one person's published output, not personal configuration.
+
+---
+
+## Project Management
+
+### Flow Control
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Flow-Control) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Capture mid-task ideas, bugs and asks into sprints, keep going. Triages each item (category, priority P0-P3) into the current sprint, next sprint, backlog or ideas in an in-repo planning/ scaffold, then resumes the task in hand. Also plans sprints, gates releases until the sprint is done, and answers what's next.
 
 ---
 

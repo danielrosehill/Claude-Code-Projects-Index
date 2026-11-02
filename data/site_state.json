@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-10-29T02:36:38",
-  "total_repos": 337,
+  "last_built": "2026-11-02T13:58:05",
+  "total_repos": 338,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -12,7 +12,7 @@
     "Agent Reference Workflows": "84249bc123e362edad3c10742c0df7f4",
     "Agent-Assisted Purchase Research Index": "a0a3dcfe225e5f6f0d67af3b04f8dca0",
     "Agentic Book Writing": "b784e2fb846e277f67eb8e3201627578",
-    "Agentic Dev Workflows": "a41b912724397a174a7d7cbaa01a73a6",
+    "Agentic Dev Workflows": "ea537b5934bc48b01a32c188e51b9e9b",
     "Agentic Purchase Pipeline": "46ed227ea875479d33200d3ea2160293",
     "AI Attribution": "efc292eaf20f427ebddc2edc9ea3a50a",
     "AI Dev Repo Template 1": "9c89ec511fa0e751fdd1dc908bda7832",
@@ -144,7 +144,6 @@
     "Data Annotation": "5a29664b94aed82804d16bf7a5c4830e",
     "Data Visualisation And Publishing": "df8495ad6f5f3ae65685ba67aa574826",
     "Data Wrangler": "6adc5a7c8d88b06511d4c43a8d99cacd",
-    "Dead Drop": "5f795dc4132a6653485a9b8943ae4795",
     "Debugging": "e7e1b5067a5cd1a87b08bb4f65c473da",
     "Decision Evaluation Framework": "4b92ef13f512620aab55a9d67077b4c7",
     "Declaude": "d65e21c47285dc215b1898443438bb31",
@@ -169,6 +168,7 @@
     "Favorite Plugins Installers": "37d8b975768462a89afc0f122599194e",
     "Filesystem Organisation": "13e52dfd2650c299703844b69ec26659",
     "Filesystem Organiser": "77017bd64020cd801ec153cb8bd43b8f",
+    "Flow Control": "f6783249f885fe3169d386933d23bc54",
     "Freight Vol Calculator": "dceb7d9ec335154216e610eb7c3078b9",
     "General Dev Plugin": "32455802bf42d53b19c150a64bff59e1",
     "Geopol Sim": "589e6ae39300a3bb2e510a966eb92d0e",
@@ -243,6 +243,7 @@
     "MK Claude": "a7ba7b9fd43daa7f056510d6e762ebf8",
     "Modular Research": "38619c642fadef3a76e4bcb4bc019db8",
     "Mqtt Observability": "601c8a99f859321120a053c7a00b63d2",
+    "Multisession": "c1e694d8e8b3261b16f1a18f2ca223e7",
     "My Tone Of Voice": "f650c30dbe7652b88ec9bd3bf99ebfab",
     "Nano Tech Diagrams": "871043c43dd20d766119f7c13be34ef5",
     "Netek Disconnect": "c2a61c0ac564fed716bfe90307d9fd75",
@@ -323,7 +324,7 @@
     "The User Voice Types": "eaea4f805e8773944cb9e351263b44b6",
     "Therapy Tracking": "6f1c5276dc6adec577b8cb2b25894717",
     "Timemark": "78b7750184830d33b851a392d3339dae",
-    "Transcription Pipeline": "80c8b549bea8fc5a6a597948967b624e",
+    "Transcription Pipeline": "a4385b2ae2375d7a218cc64ec2e2392f",
     "Travel Packing": "cc8d06af178d31ad9565332773198ede",
     "Ubuntu Admin": "f9a393fac4497641a4e57d35eeee9d86",
     "Ubuntu Security": "46380e726f3d2125a95488cc10217940",
@@ -342,24 +343,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:26:43",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Donetick"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Repo Mgmt"
-          ]
-        }
-      ],
-      "total_repos": 160
-    },
     {
       "date": "2026-04-30T22:37:01",
       "changes": [
@@ -2580,6 +2563,32 @@
         }
       ],
       "total_repos": 337
+    },
+    {
+      "date": "2026-11-02T13:58:05",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Flow Control",
+            "Multisession"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Dead Drop"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Agentic Dev Workflows",
+            "Transcription Pipeline"
+          ]
+        }
+      ],
+      "total_repos": 338
     }
   ]
 }

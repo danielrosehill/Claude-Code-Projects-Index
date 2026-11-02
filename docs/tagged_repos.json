@@ -135,7 +135,7 @@
   {
     "name": "Agentic Dev Workflows",
     "url": "https://github.com/danielrosehill/Agentic-Dev-Workflows",
-    "description": "Agent dev workflows: UI friction fixes, release patterns. Any platform: options-then-build for UI friction, sprint or release-to-test release patterns pinned to CLAUDE.md.",
+    "description": "Agent dev workflows: voice notes, screenshots, UI review. Any platform: steer work from voice notes, screenshots and screen recordings; review the running UI; resolve UI friction by options-then-build.",
     "tags": [
       "Automation",
       "Plugin"
@@ -2116,20 +2116,6 @@
     "created_date": "2026-04-23"
   },
   {
-    "name": "Dead Drop",
-    "url": "https://github.com/danielrosehill/Claude-Dead-Drop",
-    "description": "Asynchronous agent-to-agent messages between Claude Code sessions working in different repositories. Agent A writes a markdown message into repo B's a2a/ folder and pings B by SendMessage if it is running; B's SessionStart hook lists open messages, B acts on them, sets any reminders the message asks for in its own scheduler, and records what it did in the same file. For long tasks the sender keeps one living message current (revision: counter) and asks the reader to re-check it on an interval (watch: 30m). No server and no shared meeting place: the target repo's folder is the mailbox. Breakout (an idea that needs its own new repo) and same-repo handover are message kinds.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-22",
-    "slug": "dead-drop",
-    "created_date": "2026-08-12"
-  },
-  {
     "name": "Debugging",
     "url": "https://github.com/danielrosehill/Claude-Debugging-Plugin",
     "description": "Debugging \u2014 capture logs, isolate issue, diagnose error, track bugs, with code/system/issue variants. Includes a KDE hotkey utility for capturing live system bugs.",
@@ -2489,6 +2475,20 @@
     "added_date": "2026-04-19",
     "slug": "filesystem-organiser",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Flow Control",
+    "url": "https://github.com/danielrosehill/Flow-Control",
+    "description": "Capture mid-task ideas, bugs and asks into sprints, keep going. Triages each item (category, priority P0-P3) into the current sprint, next sprint, backlog or ideas in an in-repo planning/ scaffold, then resumes the task in hand. Also plans sprints, gates releases until the sprint is done, and answers what's next.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-02",
+    "slug": "flow-control",
+    "created_date": "2026-11-02"
   },
   {
     "name": "Freight Vol Calculator",
@@ -3587,6 +3587,20 @@
     "added_date": "2026-10-08",
     "slug": "mqtt-observability",
     "created_date": "2026-04-18"
+  },
+  {
+    "name": "Multisession",
+    "url": "https://github.com/danielrosehill/Multisession",
+    "description": "Start fresh or hand off: split the pane, launch a new named Claude session and give it the next task, or hand work to a running peer. Payload goes to a local or Google Drive agent-to-agent space and is sent with the built-in SendMessage; this session's Konsole pane then closes. Also asynchronous a2a/ mailbox messages between repos.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-02",
+    "slug": "multisession",
+    "created_date": "2026-11-02"
   },
   {
     "name": "My Tone Of Voice",
@@ -4774,8 +4788,8 @@
   },
   {
     "name": "Transcription Pipeline",
-    "url": "https://github.com/danielrosehill/Claude-Transcription-Plugin",
-    "description": "Audio transcription \u2014 denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends.",
+    "url": "https://github.com/danielrosehill/Transcription-Pipeline",
+    "description": "Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog), Typst PDF, save. Preferences in a plain file.",
     "tags": [
       "Documentation",
       "Plugin"
@@ -4785,7 +4799,7 @@
     "category_group": "Technical",
     "added_date": "2026-10-19",
     "slug": "transcription-pipeline",
-    "created_date": "2026-04-19"
+    "created_date": "2026-11-02"
   },
   {
     "name": "Travel Packing",
