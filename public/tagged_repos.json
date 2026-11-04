@@ -238,6 +238,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "AI Eval",
+    "url": "https://github.com/danielrosehill/AI-Eval",
+    "description": "Evaluate AI models for a real job: define the objective and the workload's requirements, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Also authors standalone evals (one repo plus Hugging Face datasets), runs third-party frameworks, and takes results through to findings and articles.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "ai-eval",
+    "created_date": "2026-11-04"
+  },
+  {
     "name": "AI Ideation Runs",
     "url": "https://github.com/danielrosehill/AI-Ideation-Runs",
     "description": "Public archive of structured AI ideation sessions run via Claude Code \u2014 each `/run` takes a topic and saves a dated batch of ideas with name, summary, category, feasibility/impact ratings, considerations, and next steps.",
@@ -2414,22 +2428,6 @@
     "added_date": "2026-10-08",
     "slug": "eml-toolkit",
     "created_date": "2026-09-01"
-  },
-  {
-    "name": "Eval Runner",
-    "url": "https://github.com/danielrosehill/Claude-Eval-Runner-Plugin",
-    "description": "Scaffolding, running, documenting, and publishing AI evaluations. Ships skills and commands for setting up eval workspaces, creating custom evals (or adapting existing frameworks/benchmarks), running them, and publishing evals or datasets. Bundles a curated ground-truth list of open-source eval tools and benchmarks as a reference data source.",
-    "tags": [
-      "Agent Workspace",
-      "Documentation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-08",
-    "slug": "eval-runner",
-    "created_date": "2026-04-24"
   },
   {
     "name": "Favorite Plugins Installers",
@@ -4730,7 +4728,7 @@
   {
     "name": "Tech Comms Diagrams",
     "url": "https://github.com/danielrosehill/Tech-Comms-Diagrams",
-    "description": "Tech diagrams for blogs and docs: Mermaid, text-to-image and whiteboard-to-diagram on fal or Replicate, with label and arrow checks.",
+    "description": "Tech diagrams for blogs and docs: Mermaid, text-to-image and image-to-image on fal, Replicate, ComfyUI or your own route, with label and arrow checks.",
     "tags": [
       "Plugin"
     ],

@@ -1489,7 +1489,7 @@ Apply 20+ classical decision-making frameworks (cost-benefit, pre-mortem, MCDA, 
 ### Tech Comms Diagrams
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Tech-Comms-Diagrams) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Tech diagrams for blogs and docs: Mermaid, text-to-image and whiteboard-to-diagram on fal or Replicate, with label and arrow checks.
+Tech diagrams for blogs and docs: Mermaid, text-to-image and image-to-image on fal, Replicate, ComfyUI or your own route, with label and arrow checks.
 
 ---
 
@@ -2002,6 +2002,13 @@ Plan and burn batch M-Disc / BD-R / DVD archives from a source directory on Ubun
 
 ## Other
 
+### AI Eval
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Eval) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Evaluate AI models for a real job: define the objective and the workload's requirements, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Also authors standalone evals (one repo plus Hugging Face datasets), runs third-party frameworks, and takes results through to findings and articles.
+
+---
+
 ### Aliexpress Shopper
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Aliexpress-Shopper) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -2055,13 +2062,6 @@ Slash commands and subagents for managing Docker containers, Compose stacks, vol
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Eml-Toolkit) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Process .eml email exports — reconstruct a thread from loose .eml files, render the chain to a single PDF with correct right-to-left handling for Hebrew and Arabic, extract attachments, export Markdown, redact before sharing, and build numbered evidence bundles.
-
----
-
-### Eval Runner
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Eval-Runner-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Scaffolding, running, documenting, and publishing AI evaluations. Ships skills and commands for setting up eval workspaces, creating custom evals (or adapting existing frameworks/benchmarks), running them, and publishing evals or datasets. Bundles a curated ground-truth list of open-source eval tools and benchmarks as a reference data source.
 
 ---
 

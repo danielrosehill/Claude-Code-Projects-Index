@@ -20,7 +20,7 @@
       },
       "description": "Start here: browse these plugins by theme, find one for a task, see what's new. Reads the live manifest.",
       "category": "AI & Context",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -221,7 +221,7 @@
       },
       "description": "Image production \u2014 editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.",
       "category": "Media Editing",
-      "version": "2.3.2",
+      "version": "2.3.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -722,7 +722,7 @@
       },
       "description": "Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.",
       "category": "Documentation & Writing",
-      "version": "1.1.0",
+      "version": "1.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1786,7 +1786,7 @@
       },
       "description": "Evaluate, refine, and develop business ideas through structured lenses \u2014 VC review, TAM, B2B/B2C fit, assumptions, objections, hardware feasibility, dev specs, timelines, social impact \u2014 plus an LLM council pattern (subagents or Karpathy clone), synthesis, and Typst PDF outputs for internal and public-facing docs.",
       "category": "Personal Productivity",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2487,9 +2487,9 @@
         "source": "github",
         "repo": "danielrosehill/Tech-Comms-Diagrams"
       },
-      "description": "Tech diagrams for blogs and docs: Mermaid, text-to-image and whiteboard-to-diagram on fal or Replicate, with label and arrow checks.",
+      "description": "Tech diagrams for blogs and docs: Mermaid, text-to-image and image-to-image on fal, Replicate, ComfyUI or your own route, with label and arrow checks.",
       "category": "Media Editing",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2503,7 +2503,8 @@
         "technical-writing",
         "fal-ai",
         "replicate",
-        "image-generation"
+        "image-generation",
+        "comfyui"
       ]
     },
     {
@@ -3639,15 +3640,15 @@
       "license": "MIT"
     },
     {
-      "name": "eval-runner",
-      "displayName": "Eval Runner",
+      "name": "ai-eval",
+      "displayName": "AI Eval",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Eval-Runner-Plugin"
+        "repo": "danielrosehill/AI-Eval"
       },
-      "description": "Scaffolding, running, documenting, and publishing AI evaluations. Ships skills and commands for setting up eval workspaces, creating custom evals (or adapting existing frameworks/benchmarks), running them, and publishing evals or datasets. Bundles a curated ground-truth list of open-source eval tools and benchmarks as a reference data source.",
+      "description": "Evaluate AI models for a real job: define the objective and the workload's requirements, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Also authors standalone evals (one repo plus Hugging Face datasets), runs third-party frameworks, and takes results through to findings and articles.",
       "category": "QA & Agent Sessions",
-      "version": "0.1.0",
+      "version": "0.7.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4556,7 +4557,7 @@
       },
       "description": "Typst PDFs: docs, briefings, screenplays + your own private formats. Built-in templates (personal, public, business, client-confidential, briefing sheet, spec screenplay) with a private overlay folder for your identity, logo and custom formats, so you extend it without forking.",
       "category": "Documentation & Writing",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

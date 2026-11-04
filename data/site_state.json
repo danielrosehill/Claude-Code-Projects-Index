@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-11-04T13:41:24",
+  "last_built": "2026-11-04T13:49:22",
   "total_repos": 345,
   "total_tags": 22,
   "repo_manifest": {
@@ -19,6 +19,7 @@
     "AI Dev Repo Template Oct 2025": "f162b9d18e2c1302975bfa71897406c8",
     "AI Dev Workspace Primitives": "c799b2ea3fc6816bd260a4ae28b9838b",
     "AI Engineering": "20b7851e3856d0169723c13ad66e145a",
+    "AI Eval": "d359fcc80f1320a3cf9175838c544f6b",
     "AI Ideation Runs": "17b4c53b21b64df832783c7e2e5096cd",
     "AI Memory Planning 0426": "f146329ba0aca22fa2f180de117094a5",
     "AI Model Research": "6b50e6942e70fe8703de81a581acce2d",
@@ -164,7 +165,6 @@
     "DVR Transcriber": "b8e132362f3601df5b13e571d16940af",
     "Easy Effects Manager": "f7646779759e8bea474f21ab13acb235",
     "Eml Toolkit": "007568b2e974f006f7707d5cf88fd7d9",
-    "Eval Runner": "a335625df8fe7491375eee3983aad893",
     "Favorite Plugins Installers": "37d8b975768462a89afc0f122599194e",
     "Filesystem Organisation": "13e52dfd2650c299703844b69ec26659",
     "Filesystem Organiser": "77017bd64020cd801ec153cb8bd43b8f",
@@ -320,7 +320,7 @@
     "Task Queuer": "72bc01386d56ff7202b305be7a5ed115",
     "Taxonomy Creation": "e057e1a0d53bc9ee8ecb3404080856ea",
     "Teach This Repo": "96067f394d2e0e3ee6b11024123477e0",
-    "Tech Comms Diagrams": "ad09f5a80acd6a5d9cd4a2733c1dfad9",
+    "Tech Comms Diagrams": "5ef58478bc63851f99488770ca936e05",
     "Tech Research": "edf69781a6976e09d2cc7f9d74454ec9",
     "Technical Docs": "183c03734fa45acd796bd453af3293cd",
     "Test Project Ideator": "dc073bb52b5224043f0d1895151a92f2",
@@ -350,18 +350,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:38:33",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Nano Tech Diagrams"
-          ]
-        }
-      ],
-      "total_repos": 162
-    },
     {
       "date": "2026-04-30T22:43:09",
       "changes": [
@@ -2600,6 +2588,30 @@
           "type": "modified",
           "repos": [
             "Transcription Pipeline"
+          ]
+        }
+      ],
+      "total_repos": 345
+    },
+    {
+      "date": "2026-11-04T13:49:22",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "AI Eval"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Eval Runner"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Tech Comms Diagrams"
           ]
         }
       ],
