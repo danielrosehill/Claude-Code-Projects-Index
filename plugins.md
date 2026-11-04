@@ -651,7 +651,7 @@ Two-way file exchange between you and Claude: from-human/ and from-agent/ folder
 ### Custom Model Planning
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Custom-Model-Planning-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.
+Plan small custom models and fine-tunes, then save training recipes privately and run them on Modal, RunPod or local Unsloth.
 
 ---
 
@@ -953,6 +953,13 @@ Recommend, generate, and populate software/content licenses. Reads from a user-m
 
 ## Linux
 
+### Device Sync
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Device-Sync) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Keep your computers in step. A git-backed task queue carries installs from one machine to the other, and an SSH comparison finds what has drifted. Successor to os-sync-agent.
+
+---
+
 ### Easy Effects Manager
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Easy-Effects-Manager) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -995,19 +1002,12 @@ Performance and space optimisation for Linux desktops — hardware-aware CPU/GPU
 
 ---
 
-### Os Sync Agent
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-OS-Sync-Agent) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Hardware-aware desktop-to-laptop environment sync for Ubuntu/Debian. Snapshots packages (apt/snap/flatpak/pip/conda/ollama) and dotfiles from a base machine and a remote machine over SSH, then produces an incremental install/remove/sync plan rather than a perfect clone. Ships /sync-os command and sync-environments skill.
-
----
-
 ## Llm
 
-### Llm Ops
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/LLM-Ops-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Batch Inference
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Batch-Inference) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Bulk LLM jobs: batch vs sync cost, OpenRouter model lists, screening, and batch and parallel sync runners with real cost tracking and spend caps.
+Batch inference, cloud or local: Ollama and vLLM backends, batch vs sync cost, OpenRouter model lists, model evals, and runners with spend caps.
 
 ---
 

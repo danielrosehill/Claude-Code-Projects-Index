@@ -584,6 +584,20 @@
     "created_date": "2025-10-26"
   },
   {
+    "name": "Batch Inference",
+    "url": "https://github.com/danielrosehill/Batch-Inference",
+    "description": "Batch inference, cloud or local: Ollama and vLLM backends, batch vs sync cost, OpenRouter model lists, model evals, and runners with spend caps.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "batch-inference",
+    "created_date": "2026-11-04"
+  },
+  {
     "name": "Batch Optical Archivist",
     "url": "https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
     "description": "Plan and burn batch M-Disc / BD-R / DVD archives from a source directory on Ubuntu, with copy multipliers for offsite duplicates. Wraps growisofs, xorriso, and dvd+rw-mediainfo; optional K3B handoff for manual fallback.",
@@ -2044,10 +2058,9 @@
   {
     "name": "Custom Model Planning",
     "url": "https://github.com/danielrosehill/Claude-Custom-Model-Planning-Plugin",
-    "description": "Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.",
+    "description": "Plan small custom models and fine-tunes, then save training recipes privately and run them on Modal, RunPod or local Unsloth.",
     "tags": [
-      "Plugin",
-      "Research"
+      "Plugin"
     ],
     "category": "Plugins",
     "category_slug": "plugins",
@@ -2248,6 +2261,20 @@
     "added_date": "2026-04-19",
     "slug": "dev-tools",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Device Sync",
+    "url": "https://github.com/danielrosehill/Device-Sync",
+    "description": "Keep your computers in step. A git-backed task queue carries installs from one machine to the other, and an SSH comparison finds what has drifted. Successor to os-sync-agent.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "device-sync",
+    "created_date": "2026-11-04"
   },
   {
     "name": "Diary Planner",
@@ -3443,20 +3470,6 @@
     "created_date": "2026-04-23"
   },
   {
-    "name": "Llm Ops",
-    "url": "https://github.com/danielrosehill/LLM-Ops-Plugin",
-    "description": "Bulk LLM jobs: batch vs sync cost, OpenRouter model lists, screening, and batch and parallel sync runners with real cost tracking and spend caps.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-11-04",
-    "slug": "llm-ops",
-    "created_date": "2026-11-04"
-  },
-  {
     "name": "Local Claude Plugin Install Research",
     "url": "https://github.com/danielrosehill/Local-Claude-Plugin-Install-Research",
     "description": "Research and notes on installing Claude Code plugins locally rather than through the marketplace.",
@@ -3893,20 +3906,6 @@
     "added_date": "2026-04-28",
     "slug": "opnsense-mgmt",
     "created_date": "2026-04-27"
-  },
-  {
-    "name": "Os Sync Agent",
-    "url": "https://github.com/danielrosehill/Claude-OS-Sync-Agent",
-    "description": "Hardware-aware desktop-to-laptop environment sync for Ubuntu/Debian. Snapshots packages (apt/snap/flatpak/pip/conda/ollama) and dotfiles from a base machine and a remote machine over SSH, then produces an incremental install/remove/sync plan rather than a perfect clone. Ships /sync-os command and sync-environments skill.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-30",
-    "slug": "os-sync-agent",
-    "created_date": "2025-10-22"
   },
   {
     "name": "Panel Of Claude",

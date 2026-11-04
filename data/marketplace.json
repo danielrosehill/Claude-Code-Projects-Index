@@ -2237,15 +2237,15 @@
       ]
     },
     {
-      "name": "os-sync-agent",
-      "displayName": "OS Sync Agent",
+      "name": "device-sync",
+      "displayName": "Device Sync",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-OS-Sync-Agent"
+        "repo": "danielrosehill/Device-Sync"
       },
-      "description": "Hardware-aware desktop-to-laptop environment sync for Ubuntu/Debian. Snapshots packages (apt/snap/flatpak/pip/conda/ollama) and dotfiles from a base machine and a remote machine over SSH, then produces an incremental install/remove/sync plan rather than a perfect clone. Ships /sync-os command and sync-environments skill.",
+      "description": "Keep your computers in step. A git-backed task queue carries installs from one machine to the other, and an SSH comparison finds what has drifted. Successor to os-sync-agent.",
       "category": "Linux Sysadmin",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2254,11 +2254,11 @@
       "license": "MIT",
       "tags": [
         "linux",
-        "sysadmin",
         "sync",
-        "ssh",
-        "ubuntu",
-        "debian"
+        "devices",
+        "queue",
+        "packages",
+        "dotfiles"
       ]
     },
     {
@@ -3922,9 +3922,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Custom-Model-Planning-Plugin"
       },
-      "description": "Plan small custom models and fine-tunes: check the Hub, research options, write the spec in a planning repo.",
+      "description": "Plan small custom models and fine-tunes, then save training recipes privately and run them on Modal, RunPod or local Unsloth.",
       "category": "AI & Context",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4651,15 +4651,15 @@
       ]
     },
     {
-      "name": "llm-ops",
-      "displayName": "LLM Ops",
+      "name": "batch-inference",
+      "displayName": "Batch Inference",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/LLM-Ops-Plugin"
+        "repo": "danielrosehill/Batch-Inference"
       },
-      "description": "Bulk LLM jobs: batch vs sync cost, OpenRouter model lists, screening, and batch and parallel sync runners with real cost tracking and spend caps.",
+      "description": "Batch inference, cloud or local: Ollama and vLLM backends, batch vs sync cost, OpenRouter model lists, model evals, and runners with spend caps.",
       "category": "AI & Context",
-      "version": "1.1.0",
+      "version": "1.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

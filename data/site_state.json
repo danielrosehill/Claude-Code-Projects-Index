@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-11-04T14:09:28",
+  "last_built": "2026-11-04T22:44:51",
   "total_repos": 345,
   "total_tags": 22,
   "repo_manifest": {
@@ -42,6 +42,7 @@
     "Backup Planner": "6d71b5559a4988abc7d0ef406089c001",
     "Bash Alias Manager Claude": "22b7f92646f7baf85170424537d3512b",
     "Batch ClaudeMD Repo Creator": "16273bde7f75761a1b3c815888174e4a",
+    "Batch Inference": "41ab8c871c39eb5790da095430680a45",
     "Batch Optical Archivist": "3ce648eb6dfdedb1088c7042334862a7",
     "Brainstorm Solutions": "048f6cc8691ffb572ae11688908ffc1e",
     "Browser Data Capture": "bd7083920f101b9f308f5d04399ce8a1",
@@ -139,7 +140,7 @@
     "CONTEXT.md": "ce976b6647ab119eaa221a75c948adfb",
     "Cool Claude Code Stuff": "2f55aa29b1e2494720692bbabf23be78",
     "Copyq Scripting": "1b01a6b99355e7331f07f721e87c2a10",
-    "Custom Model Planning": "4b8d90ffb216550e8ae4cd8745c0e21f",
+    "Custom Model Planning": "3aaef70a07f9ac3e7caa8aa33f2697ce",
     "Daniel Rosehill": "0c766ca41941ad8745889686e07a1835",
     "Data Analyst": "14abaa41fb1aab6cceba71b0e93d5b9c",
     "Data Annotation": "5a29664b94aed82804d16bf7a5c4830e",
@@ -153,6 +154,7 @@
     "Desktop Ops Workspace Template": "915e1aa7b93c309d0c111c919caaf066",
     "Dev Debugger": "0be9c835b4a28ae9caf3339484f88b41",
     "Dev Tools": "eba628b060b8232b41c874cd1e6b6733",
+    "Device Sync": "2850820aa1dfc39c2d9e3434100f765c",
     "Diary Planner": "7dae68420dbd45dfbfac32baeb52fc0b",
     "Digital Evidence": "4747a8d9a0d7fc6f19b1b7dabcfdf63e",
     "Digital Printing": "014d0f450aef3bb1b52a24f7931e3f6a",
@@ -233,7 +235,6 @@
     "Linux System Optimisation": "753434f9e8d8c961837da1edea87f9e8",
     "Live Typing UX Research": "ead4a1a68cdd3ef89caf5903880f7b04",
     "Llm Council Creator": "1ea05f6d60d0af2bfd4a0b1e6b2f1301",
-    "Llm Ops": "2f1458f94755864b3ddbac2b05005c88",
     "Local Claude Plugin Install Research": "c4d3d6b075a1e0e64aa01facd746ceae",
     "Local Tts": "cef688e04100a8198ad914e49c72131a",
     "Local Web Capture": "f93ea164638e9ea4c27ab98dba3ff81d",
@@ -264,7 +265,6 @@
     "Obs Mgmt": "291a8e8da5ff6a10742e760d9b317134",
     "Obsidian Research Vault Template": "d5a19744fe579b919417bf2c03155cda",
     "Opnsense Mgmt": "89c7b8fbf6e6ff6dd6cfe2ea4a45aa11",
-    "Os Sync Agent": "f7a275ef525ad89bd6e4cf4f19d565c1",
     "Panel Of Claude": "1b6d7bf8a1abef8eee45423b4c389f7e",
     "Passive Aggressive Pa": "1bc6bba608737dc37ecaba218a5e6419",
     "Personal Context": "d399681cd615db1e2b4d9a4445e82d8f",
@@ -350,18 +350,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:50:57",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Synthetic Data"
-          ]
-        }
-      ],
-      "total_repos": 165
-    },
     {
       "date": "2026-04-30T22:51:10",
       "changes": [
@@ -2612,6 +2600,32 @@
           "type": "modified",
           "repos": [
             "Israel Agent Skills"
+          ]
+        }
+      ],
+      "total_repos": 345
+    },
+    {
+      "date": "2026-11-04T22:44:51",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Batch Inference",
+            "Device Sync"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Llm Ops",
+            "Os Sync Agent"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Custom Model Planning"
           ]
         }
       ],
