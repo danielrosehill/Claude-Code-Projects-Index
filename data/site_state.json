@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-11-02T13:58:05",
-  "total_repos": 338,
+  "last_built": "2026-11-04T13:41:24",
+  "total_repos": 345,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -42,13 +42,13 @@
     "Bash Alias Manager Claude": "22b7f92646f7baf85170424537d3512b",
     "Batch ClaudeMD Repo Creator": "16273bde7f75761a1b3c815888174e4a",
     "Batch Optical Archivist": "3ce648eb6dfdedb1088c7042334862a7",
-    "Book Writing": "ac69d4a524375c161795b12eb3094f70",
     "Brainstorm Solutions": "048f6cc8691ffb572ae11688908ffc1e",
     "Browser Data Capture": "bd7083920f101b9f308f5d04399ce8a1",
     "Budgeting": "2193f4976f2a4df7f415553d39fb508a",
     "Business Idea Eval": "f4b53e0bfca42c28d3362909339dd11b",
     "Buttondown Mgmt": "8daa989cbe344cb51805b8af1654d62e",
     "Career": "90ccb9cf37d363a0cfb9a0b33a4d3afe",
+    "Chatgpt Agent Builder": "7edd646d6397c0795bff23ee0e57eace",
     "Chatgpt Importer": "97f0f22433e69649bcf2e1fa1b64b890",
     "Claude A2A Research": "6596d56c6b9ed7294e44fdf593209b79",
     "Claude ADHD Research Workspace": "d3c8e95baef2d2ee90c23b1304d641c0",
@@ -183,6 +183,7 @@
     "Gpg Ops": "6de7fedde850480ce5555fc272982baa",
     "Grainger": "d840e099d570ed7b27caf8200c8e35a2",
     "Greeninvoice Ops": "43f54468e0caf3feadd51f14a415d201",
+    "Guava Health": "5c16bc13a264cd04d3ca906c9e5d1bca",
     "Habits": "197480381c7131c2228c7160b7a51911",
     "Habits Of Claude": "b9becd956f1b4daf203e4016ff339617",
     "Hardware Id Annotation": "9a7fea455678d47632e1ce0da185919f",
@@ -220,6 +221,7 @@
     "Kdp Publishing": "4b822c7a227ca1d88dfef735e378167e",
     "Keyboard Scanner": "36957e387aa9fbf773cf44a542bf3aec",
     "Knowledge Documentation": "1fe7a5449377b3d49396171fa3425400",
+    "Konsole Setup": "ac062743fe1570745632fe1025a58551",
     "Label Printer": "e41a01294c0ebe2d9c9cd5b8fb52d72b",
     "LAN Manager Plugin": "924cb9c87c6a8466b34df6e994b05767",
     "Learning": "bdd5fc3bf3541fd8ce6c699c6bbd7dcc",
@@ -233,7 +235,9 @@
     "Live Typing UX Research": "ead4a1a68cdd3ef89caf5903880f7b04",
     "Llm Council Creator": "1ea05f6d60d0af2bfd4a0b1e6b2f1301",
     "Local Claude Plugin Install Research": "c4d3d6b075a1e0e64aa01facd746ceae",
+    "Local Tts": "cef688e04100a8198ad914e49c72131a",
     "Local Web Capture": "f93ea164638e9ea4c27ab98dba3ff81d",
+    "Long Form Content": "4b9533c0479677073c683382b91cb332",
     "Loose Tasks": "a5d3f1f6d47787d9fb53dd86dcd529f5",
     "Maccabi Online Skills": "cb02af098f5efdbf0f6d471b4962fd9f",
     "Marketplace Guide": "ee78ee2f74c3a7581e557102755aed71",
@@ -245,9 +249,9 @@
     "Mqtt Observability": "601c8a99f859321120a053c7a00b63d2",
     "Multisession": "c1e694d8e8b3261b16f1a18f2ca223e7",
     "My Tone Of Voice": "f650c30dbe7652b88ec9bd3bf99ebfab",
-    "Nano Tech Diagrams": "871043c43dd20d766119f7c13be34ef5",
     "Netek Disconnect": "c2a61c0ac564fed716bfe90307d9fd75",
     "Network Cups": "db99001e9330e0478bef1f76a0545e98",
+    "Network Forensics": "e0980f6bfbfcd1856469a56295b39175",
     "Network Tmp": "65119529dd414d25393e0cb889bcd850",
     "New Task Split": "16701e40983b56501306530b94681ee7",
     "New Turn Claude Hook": "69e06775261d47a540621131a3097e03",
@@ -316,6 +320,7 @@
     "Task Queuer": "72bc01386d56ff7202b305be7a5ed115",
     "Taxonomy Creation": "e057e1a0d53bc9ee8ecb3404080856ea",
     "Teach This Repo": "96067f394d2e0e3ee6b11024123477e0",
+    "Tech Comms Diagrams": "ad09f5a80acd6a5d9cd4a2733c1dfad9",
     "Tech Research": "edf69781a6976e09d2cc7f9d74454ec9",
     "Technical Docs": "183c03734fa45acd796bd453af3293cd",
     "Test Project Ideator": "dc073bb52b5224043f0d1895151a92f2",
@@ -324,11 +329,13 @@
     "The User Voice Types": "eaea4f805e8773944cb9e351263b44b6",
     "Therapy Tracking": "6f1c5276dc6adec577b8cb2b25894717",
     "Timemark": "78b7750184830d33b851a392d3339dae",
-    "Transcription Pipeline": "a4385b2ae2375d7a218cc64ec2e2392f",
+    "Transcription Pipeline": "5a00f8fa5b3d206b7f494b8dd0e91302",
     "Travel Packing": "cc8d06af178d31ad9565332773198ede",
+    "Typst Document Generator": "5e0685a3987891a3cff1545b5d887224",
     "Ubuntu Admin": "f9a393fac4497641a4e57d35eeee9d86",
     "Ubuntu Security": "46380e726f3d2125a95488cc10217940",
     "Unofficial MCP Builder": "48c02b5797a3f35b1a981eae86f7d984",
+    "Useful User Manuals": "4de5195625b1c21561bca7c88ff0d37b",
     "User Context File": "be91631aa141bcb4b5c3c43cef1c198b",
     "User Manual": "034955400a0aca14580b1248ca4f1d2b",
     "User Memory": "911261b9942daebab26c7ee291a10244",
@@ -343,31 +350,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:37:01",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "AI Model Research",
-            "Network Cups"
-          ]
-        },
-        {
-          "type": "removed",
-          "repos": [
-            "Open Router Model Research"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Data Visualisation And Publishing"
-          ]
-        }
-      ],
-      "total_repos": 161
-    },
     {
       "date": "2026-04-30T22:38:33",
       "changes": [
@@ -2589,6 +2571,39 @@
         }
       ],
       "total_repos": 338
+    },
+    {
+      "date": "2026-11-04T13:41:24",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Chatgpt Agent Builder",
+            "Guava Health",
+            "Konsole Setup",
+            "Local Tts",
+            "Long Form Content",
+            "Network Forensics",
+            "Tech Comms Diagrams",
+            "Typst Document Generator",
+            "Useful User Manuals"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Book Writing",
+            "Nano Tech Diagrams"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Transcription Pipeline"
+          ]
+        }
+      ],
+      "total_repos": 345
     }
   ]
 }

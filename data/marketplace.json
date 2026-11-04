@@ -198,7 +198,7 @@
       },
       "description": "Audio production \u2014 normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
       "category": "Media Editing",
-      "version": "1.10.0",
+      "version": "1.11.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -354,7 +354,7 @@
       },
       "description": "Career planning \u2014 log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
       "category": "Staging",
-      "version": "2.3.2",
+      "version": "2.3.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -517,7 +517,7 @@
       },
       "description": "Ideation and planning \u2014 capture, generate, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants and Typst PDF deliverables.",
       "category": "Personal Productivity",
-      "version": "1.2.1",
+      "version": "1.4.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -693,9 +693,9 @@
         "source": "github",
         "repo": "danielrosehill/Transcription-Pipeline"
       },
-      "description": "Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog), Typst PDF, save. Preferences in a plain file.",
+      "description": "Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog, 206 bundled text-transformation prompts), Typst PDF, save. Batch mode runs several files concurrently. Preferences in a plain file.",
       "category": "Media Editing",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1786,7 +1786,7 @@
       },
       "description": "Evaluate, refine, and develop business ideas through structured lenses \u2014 VC review, TAM, B2B/B2C fit, assumptions, objections, hardware feasibility, dev specs, timelines, social impact \u2014 plus an LLM council pattern (subagents or Karpathy clone), synthesis, and Typst PDF outputs for internal and public-facing docs.",
       "category": "Personal Productivity",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2481,15 +2481,15 @@
       ]
     },
     {
-      "name": "nano-tech-diagrams",
-      "displayName": "Nano-Tech-Diagrams",
+      "name": "tech-comms-diagrams",
+      "displayName": "Tech-Comms-Diagrams",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Nano-Tech-Diagrams-Plugin"
+        "repo": "danielrosehill/Tech-Comms-Diagrams"
       },
-      "description": "Generate, transform, and clean up tech diagrams and whiteboard photos via the Nano Banana 2 model (Fal AI). Wraps the nano-tech-diagrams MCP server with a curated prompt library across 5 diagram families and 28+ visual styles.",
+      "description": "Tech diagrams for blogs and docs: Mermaid, text-to-image and whiteboard-to-diagram on fal or Replicate, with label and arrow checks.",
       "category": "Media Editing",
-      "version": "1.1.0",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2498,11 +2498,12 @@
       "license": "MIT",
       "tags": [
         "diagrams",
+        "mermaid",
         "whiteboard",
+        "technical-writing",
         "fal-ai",
-        "image-generation",
-        "tech-diagrams",
-        "visual-communication"
+        "replicate",
+        "image-generation"
       ]
     },
     {
@@ -3357,15 +3358,15 @@
       ]
     },
     {
-      "name": "book-writing",
-      "displayName": "Book Writing",
+      "name": "long-form-content",
+      "displayName": "Long-Form Content",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Book-Writing-Plugin"
+        "repo": "danielrosehill/Long-Form-Content-Plugin"
       },
-      "description": "Write a full-length reference or instructional book with teams of subagents \u2014 definition, planning, research, parallel chapter drafting, review, graphics and publication. Organised so no single agent is ever handed the whole book, because quality degrades long before a context window fills; consistency is carried by a style guide, per-chapter briefs and a continuity ledger instead of by shared context. Authorship only \u2014 print geometry hands off to kdp-publishing.",
+      "description": "Produce books, long-form research reports, screenplays and audiobooks with teams of subagents. One pipeline (definition, planning, parallel unit drafting, review), then a production stage per type: print handoff, PDF, Fountain, or spoken script + per-chapter TTS + chaptered m4b. Consistency is carried by a style guide, per-unit briefs and a continuity ledger, and a seam reviewer checks every join between units. Successor to book-writing.",
       "category": "Publishing & CMS",
-      "version": "1.0.0",
+      "version": "2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4323,7 +4324,7 @@
       },
       "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also keeps Konsole asking before a window close kills them.",
       "category": "QA & Agent Sessions",
-      "version": "0.3.1",
+      "version": "0.5.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4496,6 +4497,179 @@
         "systemd",
         "backup",
         "linux"
+      ]
+    },
+    {
+      "name": "konsole-setup",
+      "displayName": "Konsole Setup",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Konsole-Setup"
+      },
+      "description": "Konsole tuned for many agent sessions: window close asks, tab close doesn't; split layout and a Hack-font profile, applied by script.",
+      "category": "Linux Sysadmin",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "konsole",
+        "kde",
+        "terminal",
+        "profile",
+        "close-guard"
+      ]
+    },
+    {
+      "name": "useful-user-manuals",
+      "displayName": "Useful User Manuals",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Useful-User-Manuals"
+      },
+      "description": "Product manuals cut to what you need: your language, no warranty boilerplate, or a one-task how-to PDF. Fetches the official PDF, trims pages, rewrites via OCR, and cites the original in every output.",
+      "category": "Documentation & Writing",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "user-manual",
+        "pdf",
+        "how-to",
+        "ocr",
+        "typst"
+      ]
+    },
+    {
+      "name": "typst-document-generator",
+      "displayName": "Typst Document Generator",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/typst-document-generator-plugin"
+      },
+      "description": "Typst PDFs: docs, briefings, screenplays + your own private formats. Built-in templates (personal, public, business, client-confidential, briefing sheet, spec screenplay) with a private overlay folder for your identity, logo and custom formats, so you extend it without forking.",
+      "category": "Documentation & Writing",
+      "version": "0.6.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "typst",
+        "pdf",
+        "templates",
+        "screenplay",
+        "document-generation"
+      ]
+    },
+    {
+      "name": "local-tts",
+      "displayName": "Local TTS",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Local-TTS-Plugin"
+      },
+      "description": "Local text-to-speech: Kokoro, NeuTTS Air, Chatterbox. Installs to fit your hardware (CPU or ROCm/CUDA GPU), one-shot voice cloning with stored embeddings, read-aloud and audio files.",
+      "category": "Media Editing",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "tts",
+        "text-to-speech",
+        "kokoro",
+        "chatterbox",
+        "voice-cloning",
+        "rocm"
+      ]
+    },
+    {
+      "name": "guava-health",
+      "displayName": "Guava Health (unofficial)",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Guava-Health-Plugin"
+      },
+      "description": "Unofficial Guava Health API client: log meds, symptoms and readings, review data, for you and dependents on a family plan. CLI + optional MCP server; DIY NFC tags as a side feature. Not made by Guava.",
+      "category": "Health",
+      "version": "0.3.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "guava",
+        "health",
+        "medication",
+        "fhir",
+        "family",
+        "mcp",
+        "nfc"
+      ]
+    },
+    {
+      "name": "network-forensics",
+      "displayName": "Network Forensics",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Network-Forensics-Plugin"
+      },
+      "description": "Trace an IoT device's cloud egress, document it, lock it down: IP cameras, OPNsense, packet capture, whois, block rules, verify.",
+      "category": "Privacy & Security",
+      "version": "0.3.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "network-forensics",
+        "iot",
+        "ip-camera",
+        "egress",
+        "firewall",
+        "opnsense",
+        "packet-capture"
+      ]
+    },
+    {
+      "name": "chatgpt-agent-builder",
+      "displayName": "ChatGPT Agent Builder",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/ChatGPT-Workspace-Agents-Claude-Plugin"
+      },
+      "description": "ChatGPT Workspace Agents: build, update, inspect, list and share them by driving chatgpt.com/agents/studio in a browser (there is no API for editing agents). Sets instructions, files, skills (one zip per skill; re-upload duplicates, so remove first) and apps. Browser automation: expect breakage when the UI changes; the mechanics doc is dated so drift is easy to fix.",
+      "category": "AI & Context",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "chatgpt",
+        "workspace-agents",
+        "agent-skills",
+        "browser-automation",
+        "openai"
       ]
     }
   ]

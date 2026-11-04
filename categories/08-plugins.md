@@ -182,7 +182,7 @@ PR and media monitoring — scan coverage, summarize press, draft responses, com
 ### Transcription Pipeline
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Transcription-Pipeline) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog), Typst PDF, save. Preferences in a plain file.
+Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog, 206 bundled text-transformation prompts), Typst PDF, save. Batch mode runs several files concurrently. Preferences in a plain file.
 
 ---
 
@@ -395,10 +395,10 @@ Bluetooth on Linux from the command line, because the desktop pairing dialogs ar
 
 ## Book
 
-### Book Writing
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Book-Writing-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Long Form Content
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Long-Form-Content-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Write a full-length reference or instructional book with teams of subagents — definition, planning, research, parallel chapter drafting, review, graphics and publication. Organised so no single agent is ever handed the whole book, because quality degrades long before a context window fills; consistency is carried by a style guide, per-chapter briefs and a continuity ledger instead of by shared context. Authorship only — print geometry hands off to kdp-publishing.
+Produce books, long-form research reports, screenplays and audiobooks with teams of subagents. One pipeline (definition, planning, parallel unit drafting, review), then a production stage per type: print handoff, PDF, Fountain, or spoken script + per-chapter TTS + chaptered m4b. Consistency is carried by a style guide, per-unit briefs and a continuity ledger, and a seam reviewer checks every join between units. Successor to book-writing.
 
 ---
 
@@ -439,6 +439,13 @@ Choose a professional certification specification-first rather than market-first
 ---
 
 ## Chatgpt
+
+### Chatgpt Agent Builder
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/ChatGPT-Workspace-Agents-Claude-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+ChatGPT Workspace Agents: build, update, inspect, list and share them by driving chatgpt.com/agents/studio in a browser (there is no API for editing agents). Sets instructions, files, skills (one zip per skill; re-upload duplicates, so remove first) and apps. Browser automation: expect breakage when the UI changes; the mechanics doc is dated so drift is easy to fix.
+
+---
 
 ### Chatgpt Importer
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-ChatGPT-Importer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
@@ -569,10 +576,10 @@ Apply 20+ classical decision-making frameworks (cost-benefit, pre-mortem, MCDA, 
 
 ## Diagrams
 
-### Nano Tech Diagrams
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Nano-Tech-Diagrams-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Tech Comms Diagrams
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Tech-Comms-Diagrams) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Generate, transform, and clean up tech diagrams and whiteboard photos via the Nano Banana 2 model (Fal AI). Wraps the nano-tech-diagrams MCP server with a curated prompt library across 5 diagram families and 28+ visual styles.
+Tech diagrams for blogs and docs: Mermaid, text-to-image and whiteboard-to-diagram on fal or Replicate, with label and arrow checks.
 
 ---
 
@@ -720,6 +727,15 @@ GPG operations: generate keypairs, export public keys, encrypt, decrypt, sign, a
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Green-Invoice-Ops-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Operational commands and a skill for working with the Green Invoice MCP server — invoices, clients, expenses, and monthly summaries.
+
+---
+
+## Guava
+
+### Guava Health
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Guava-Health-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Unofficial Guava Health API client: log meds, symptoms and readings, review data, for you and dependents on a family plan. CLI + optional MCP server; DIY NFC tags as a side feature. Not made by Guava.
 
 ---
 
@@ -897,6 +913,15 @@ Amazon KDP paperback production with Typst — choose a standard trim, typeset t
 
 ---
 
+## Konsole
+
+### Konsole Setup
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Konsole-Setup) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Konsole tuned for many agent sessions: window close asks, tab close doesn't; split layout and a Hack-font profile, applied by script.
+
+---
+
 ## Label Printer
 
 ### Label Printer
@@ -990,6 +1015,15 @@ Scaffold new LLM Council projects from existing templates (Template, Grounded, D
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Media-Assistant-Ops-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.
+
+---
+
+## Network Forensics
+
+### Network Forensics
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Network-Forensics-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Trace an IoT device's cloud egress, document it, lock it down: IP cameras, OPNsense, packet capture, whois, block rules, verify.
 
 ---
 
@@ -1470,6 +1504,13 @@ Make optimal use of a baggage allowance on an international itinerary — resear
 
 ## Tts
 
+### Local Tts
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Local-TTS-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Local text-to-speech: Kokoro, NeuTTS Air, Chatterbox. Installs to fit your hardware (CPU or ROCm/CUDA GPU), one-shot voice cloning with stored embeddings, read-aloud and audio files.
+
+---
+
 ### Text To Speech Toolkit
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Text-To-Speech-Toolkit-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1486,6 +1527,13 @@ Build programmatic document generation pipelines — Typst templates for local b
 
 ---
 
+### Typst Document Generator
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/typst-document-generator-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Typst PDFs: docs, briefings, screenplays + your own private formats. Built-in templates (personal, public, business, client-confidential, briefing sheet, spec screenplay) with a private overlay folder for your identity, logo and custom formats, so you extend it without forking.
+
+---
+
 ## Ubuntu
 
 ### Ubuntu Admin
@@ -1499,6 +1547,15 @@ Administer Ubuntu machines, desktop or server, locally or over SSH: health and d
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Ubuntu-Security) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, YubiKey and fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.
+
+---
+
+## User Manual
+
+### Useful User Manuals
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Useful-User-Manuals) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Product manuals cut to what you need: your language, no warranty boilerplate, or a one-task how-to PDF. Fetches the official PDF, trims pages, rewrites via OCR, and cites the original in every output.
 
 ---
 

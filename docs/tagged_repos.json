@@ -583,24 +583,6 @@
     "created_date": "2025-12-05"
   },
   {
-    "name": "Book Writing",
-    "url": "https://github.com/danielrosehill/Claude-Book-Writing-Plugin",
-    "description": "Write a full-length reference or instructional book with teams of subagents \u2014 definition, planning, research, parallel chapter drafting, review, graphics and publication. Organised so no single agent is ever handed the whole book, because quality degrades long before a context window fills; consistency is carried by a style guide, per-chapter briefs and a continuity ledger instead of by shared context. Authorship only \u2014 print geometry hands off to kdp-publishing.",
-    "tags": [
-      "Documentation",
-      "Multi-Agent",
-      "Plugin",
-      "Research",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-08-20",
-    "slug": "book-writing",
-    "created_date": "2026-08-19"
-  },
-  {
     "name": "Brainstorm Solutions",
     "url": "https://github.com/danielrosehill/brainstorm-solutions-plugin",
     "description": "When you hit a wall, spin up a research workspace to brainstorm solutions \u2014 captures the blocker, what you tried, and kicks off deep research",
@@ -687,6 +669,22 @@
     "added_date": "2026-04-19",
     "slug": "career",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Chatgpt Agent Builder",
+    "url": "https://github.com/danielrosehill/ChatGPT-Workspace-Agents-Claude-Plugin",
+    "description": "ChatGPT Workspace Agents: build, update, inspect, list and share them by driving chatgpt.com/agents/studio in a browser (there is no API for editing agents). Sets instructions, files, skills (one zip per skill; re-upload duplicates, so remove first) and apps. Browser automation: expect breakage when the UI changes; the mechanics doc is dated so drift is easy to fix.",
+    "tags": [
+      "Agent Workspace",
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "chatgpt-agent-builder",
+    "created_date": "2026-11-04"
   },
   {
     "name": "Chatgpt Importer",
@@ -2699,6 +2697,22 @@
     "created_date": "2026-04-20"
   },
   {
+    "name": "Guava Health",
+    "url": "https://github.com/danielrosehill/Guava-Health-Plugin",
+    "description": "Unofficial Guava Health API client: log meds, symptoms and readings, review data, for you and dependents on a family plan. CLI + optional MCP server; DIY NFC tags as a side feature. Not made by Guava.",
+    "tags": [
+      "MCP",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "guava-health",
+    "created_date": "2026-11-04"
+  },
+  {
     "name": "Habits",
     "url": "https://github.com/danielrosehill/Agent-Habits",
     "description": "Habits (rules, always-on or triggered) and SOPs (procedures) as one markdown file each, in a private folder, with one small CLAUDE.md block. Library of example habits to adopt. Replaces sop-library.",
@@ -3253,6 +3267,21 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Konsole Setup",
+    "url": "https://github.com/danielrosehill/Claude-Konsole-Setup",
+    "description": "Konsole tuned for many agent sessions: window close asks, tab close doesn't; split layout and a Hack-font profile, applied by script.",
+    "tags": [
+      "Configuration",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "konsole-setup",
+    "created_date": "2026-11-04"
+  },
+  {
     "name": "Label Printer",
     "url": "https://github.com/danielrosehill/label-printer-plugin",
     "description": "Print labels from Claude Code on Brother QL and P-touch label printers on Linux. Discovers printers over mDNS, USB and CUPS and keeps a machine-local registry so later prints can name one; renders text and QR labels to the pixel canvas of the loaded DK or TZe media; previews without touching the printer, because brother_ql converts and transmits in a single step with no dry run. Ships a media catalogue of DK and TZe product codes, reusable label templates in the user's data directory, and a Linux driver-install skill covering brother_ql, ptouch-print, mDNS and CUPS. Zebra and DYMO are discovered and registered but not yet printable. Also bundles the original streamable-HTTP MCP server for P-touch setups built around a USB print bridge.",
@@ -3446,6 +3475,20 @@
     "created_date": "2026-04-10"
   },
   {
+    "name": "Local Tts",
+    "url": "https://github.com/danielrosehill/Local-TTS-Plugin",
+    "description": "Local text-to-speech: Kokoro, NeuTTS Air, Chatterbox. Installs to fit your hardware (CPU or ROCm/CUDA GPU), one-shot voice cloning with stored embeddings, read-aloud and audio files.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "local-tts",
+    "created_date": "2026-11-04"
+  },
+  {
     "name": "Local Web Capture",
     "url": "https://github.com/danielrosehill/Claude-Local-Web-Capture-Plugin",
     "description": "Capture geo-restricted web content (articles, prices) via the user's own localhost so requests exit via the user's IP. Headless-first escalation ladder (Scrapling static -> stealth -> Playwright -> real Chrome via bb-browser). Project-local save (in-repo captures/) with global fallback. Batch capture with human + agent summaries, Typst PDF compilation, and arbitrary-language capture+translate (default Hebrew -> English).",
@@ -3458,6 +3501,25 @@
     "added_date": "2026-04-23",
     "slug": "local-web-capture",
     "created_date": "2026-04-23"
+  },
+  {
+    "name": "Long Form Content",
+    "url": "https://github.com/danielrosehill/Long-Form-Content-Plugin",
+    "description": "Produce books, long-form research reports, screenplays and audiobooks with teams of subagents. One pipeline (definition, planning, parallel unit drafting, review), then a production stage per type: print handoff, PDF, Fountain, or spoken script + per-chapter TTS + chaptered m4b. Consistency is carried by a style guide, per-unit briefs and a continuity ledger, and a seam reviewer checks every join between units. Successor to book-writing.",
+    "tags": [
+      "Automation",
+      "Documentation",
+      "Multi-Agent",
+      "Plugin",
+      "Research",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "long-form-content",
+    "created_date": "2026-11-04"
   },
   {
     "name": "Loose Tasks",
@@ -3618,21 +3680,6 @@
     "created_date": "2026-03-25"
   },
   {
-    "name": "Nano Tech Diagrams",
-    "url": "https://github.com/danielrosehill/Nano-Tech-Diagrams-Plugin",
-    "description": "Generate, transform, and clean up tech diagrams and whiteboard photos via the Nano Banana 2 model (Fal AI). Wraps the nano-tech-diagrams MCP server with a curated prompt library across 5 diagram families and 28+ visual styles.",
-    "tags": [
-      "MCP",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-30",
-    "slug": "nano-tech-diagrams",
-    "created_date": "2026-04-30"
-  },
-  {
     "name": "Netek Disconnect",
     "url": "https://github.com/danielrosehill/netek-disconnect-plugin",
     "description": "Cancel Israeli service subscriptions (\u05e0\u05d9\u05ea\u05d5\u05e7) through netek.co.il \u2014 mobile, internet, landline, TV, international calling, water bars, newspapers and credit cards across 55 providers. Resolves the provider and exact Hebrew service string, validates the Israeli ID checksum and address, shows the exact request before sending, and submits only on explicit confirmation. Falls back to filling the form in Chrome when the API changes. Uses Netek's own private, undocumented backend \u2014 not a published API.",
@@ -3660,6 +3707,20 @@
     "added_date": "2026-04-30",
     "slug": "network-cups",
     "created_date": "2026-04-30"
+  },
+  {
+    "name": "Network Forensics",
+    "url": "https://github.com/danielrosehill/Network-Forensics-Plugin",
+    "description": "Trace an IoT device's cloud egress, document it, lock it down: IP cameras, OPNsense, packet capture, whois, block rules, verify.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "network-forensics",
+    "created_date": "2026-11-04"
   },
   {
     "name": "Network Tmp",
@@ -4667,6 +4728,20 @@
     "created_date": "2026-04-20"
   },
   {
+    "name": "Tech Comms Diagrams",
+    "url": "https://github.com/danielrosehill/Tech-Comms-Diagrams",
+    "description": "Tech diagrams for blogs and docs: Mermaid, text-to-image and whiteboard-to-diagram on fal or Replicate, with label and arrow checks.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "tech-comms-diagrams",
+    "created_date": "2026-11-04"
+  },
+  {
     "name": "Tech Research",
     "url": "https://github.com/danielrosehill/tech-research-plugin",
     "description": "Technology research \u2014 competitive analysis, technical documentation retrieval and research workflows.",
@@ -4789,7 +4864,7 @@
   {
     "name": "Transcription Pipeline",
     "url": "https://github.com/danielrosehill/Transcription-Pipeline",
-    "description": "Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog), Typst PDF, save. Preferences in a plain file.",
+    "description": "Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog, 206 bundled text-transformation prompts), Typst PDF, save. Batch mode runs several files concurrently. Preferences in a plain file.",
     "tags": [
       "Documentation",
       "Plugin"
@@ -4816,6 +4891,21 @@
     "added_date": "2026-08-20",
     "slug": "travel-packing",
     "created_date": "2026-08-16"
+  },
+  {
+    "name": "Typst Document Generator",
+    "url": "https://github.com/danielrosehill/typst-document-generator-plugin",
+    "description": "Typst PDFs: docs, briefings, screenplays + your own private formats. Built-in templates (personal, public, business, client-confidential, briefing sheet, spec screenplay) with a private overlay folder for your identity, logo and custom formats, so you extend it without forking.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "typst-document-generator",
+    "created_date": "2026-11-04"
   },
   {
     "name": "Ubuntu Admin",
@@ -4859,6 +4949,20 @@
     "added_date": "2026-08-03",
     "slug": "unofficial-mcp-builder",
     "created_date": "2026-07-25"
+  },
+  {
+    "name": "Useful User Manuals",
+    "url": "https://github.com/danielrosehill/Useful-User-Manuals",
+    "description": "Product manuals cut to what you need: your language, no warranty boilerplate, or a one-task how-to PDF. Fetches the official PDF, trims pages, rewrites via OCR, and cites the original in every output.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "useful-user-manuals",
+    "created_date": "2026-11-04"
   },
   {
     "name": "User Context File",
