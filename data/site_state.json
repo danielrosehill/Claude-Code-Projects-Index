@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-11-04T14:08:35",
+  "last_built": "2026-11-04T14:09:28",
   "total_repos": 345,
   "total_tags": 22,
   "repo_manifest": {
@@ -198,7 +198,7 @@
     "Ikea Israel": "6007b18ce7c9d22d95a9bc53178871ee",
     "Image Annotation": "b47aed5ace3de158afeb66fd7ac16da8",
     "Image Production": "2565e454e2cb5552695464cdcc23f726",
-    "Israel Agent Skills": "bd393239058b05b3604a30fe8c22d504",
+    "Israel Agent Skills": "a3d394e8cd027a3d4b944cd54a2021a9",
     "Israel Agent Skills Dev Index": "e50519415281a38eafcf12fa2a2ca57d",
     "Israel Election 2026 Vote Decision": "dde26019e4ee11370d5f1583aa100baf",
     "Israel Medication Research Skills": "b5ce8ba4ec8c4efb3672bd960b03fd28",
@@ -350,26 +350,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:47:21",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Background Removal"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Daniel Rosehill",
-            "Resource List Builder",
-            "Text Corpus Analysis"
-          ]
-        }
-      ],
-      "total_repos": 164
-    },
     {
       "date": "2026-04-30T22:50:57",
       "changes": [
@@ -2620,6 +2600,18 @@
           "type": "modified",
           "repos": [
             "AI Eval"
+          ]
+        }
+      ],
+      "total_repos": 345
+    },
+    {
+      "date": "2026-11-04T14:09:28",
+      "changes": [
+        {
+          "type": "modified",
+          "repos": [
+            "Israel Agent Skills"
           ]
         }
       ],

@@ -2919,7 +2919,7 @@
   {
     "name": "Israel Agent Skills",
     "url": "https://github.com/danielrosehill/Claude-Israel-Agent-Skills-Plugin",
-    "description": "Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the hebrew-correspondence plugin.",
+    "description": "Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the rtl-skills plugin.",
     "tags": [
       "Automation",
       "Plugin"
