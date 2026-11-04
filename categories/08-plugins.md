@@ -628,10 +628,10 @@ Design and build responsive HTML email templates using Foundation for Emails, Ma
 
 ---
 
-### Rtl Email
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-RTL-Email) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Rtl Skills
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/RTL-Skills) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Send email in right-to-left scripts (Hebrew, Arabic, Farsi, Urdu) that actually renders RTL. Plain-text email carries no direction metadata, so RTL bodies render LTR in many clients and multi-part numbers like account references reorder. Ships dir=rtl HTML templates, separate personal and business send skills inheriting saved signature profiles, and one-time signature setup. Works with Google Workspace MCP or Resend.
+Everything right-to-left in one plugin: Hebrew, Arabic, Farsi and Urdu email, Typst PDFs and formal Hebrew letters, HTML marketing newsletters, Google Docs and Sheets, calendar events, Word and Excel files, and render checks. Your signatures, brands and house styles stay in a private user-data folder.
 
 ---
 
@@ -1000,6 +1000,15 @@ Hardware-aware desktop-to-laptop environment sync for Ubuntu/Debian. Snapshots p
 
 ---
 
+## Llm
+
+### Llm Ops
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/LLM-Ops-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Bulk LLM jobs: batch vs sync cost, OpenRouter model lists, screening, and batch and parallel sync runners with real cost tracking and spend caps.
+
+---
+
 ## Llm Council
 
 ### Llm Council Creator
@@ -1095,7 +1104,7 @@ Plan and burn batch M-Disc / BD-R / DVD archives from a source directory on Ubun
 ### AI Eval
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Eval) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Evaluate AI models for a real job: define the objective and the workload's requirements, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Also authors standalone evals (one repo plus Hugging Face datasets), runs third-party frameworks, and takes results through to findings and articles.
+Evaluate AI models for a real job, starting from start-eval: define the objective and workload, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Covers in-repo and agent-run eval spaces, framework CLIs, image, RAG, agent, speech and regression evals, private annotation and human feedback Spaces, and findings through to articles.
 
 ---
 
@@ -1173,13 +1182,6 @@ Research existing GitHub repositories before building — search, rank, and eval
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Grainger-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Grainger.com (US industrial MRO) product research — typeahead and category discovery from a script, price and spec verification from the signed-in browser. Encodes the mapped /ta/v3, /tap/v2 and __PRELOADED_STATE__ surfaces, the facet grammar that filters a category, per-branch stock counts across ~325 branches, and the three distinct ways Grainger refuses a request while returning HTTP 200.
-
----
-
-### Hebrew Correspondence
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Hebrew-Correspondence-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-One home for correspondence in Hebrew — send RTL email that renders correctly in every client, typeset formal letters to PDF with David Libre via Typst, turn incoming .eml threads into readable PDFs, and verify a render before it goes out.
 
 ---
 

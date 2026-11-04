@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-11-04T13:49:22",
+  "last_built": "2026-11-04T14:08:35",
   "total_repos": 345,
   "total_tags": 22,
   "repo_manifest": {
@@ -19,7 +19,7 @@
     "AI Dev Repo Template Oct 2025": "f162b9d18e2c1302975bfa71897406c8",
     "AI Dev Workspace Primitives": "c799b2ea3fc6816bd260a4ae28b9838b",
     "AI Engineering": "20b7851e3856d0169723c13ad66e145a",
-    "AI Eval": "d359fcc80f1320a3cf9175838c544f6b",
+    "AI Eval": "f2ce50cb87266f955392526077358812",
     "AI Ideation Runs": "17b4c53b21b64df832783c7e2e5096cd",
     "AI Memory Planning 0426": "f146329ba0aca22fa2f180de117094a5",
     "AI Model Research": "6b50e6942e70fe8703de81a581acce2d",
@@ -188,7 +188,6 @@
     "Habits Of Claude": "b9becd956f1b4daf203e4016ff339617",
     "Hardware Id Annotation": "9a7fea455678d47632e1ce0da185919f",
     "Hardware Spec Assembly": "e1f98860f643a9b5f5dafe20dc6c2ce9",
-    "Hebrew Correspondence": "5c5fcfdc36a92fe008fce104eb7543f4",
     "Home Assistant Mgmt": "e0969d8c4b1ed27ce6d7e2e381d0078a",
     "Home Folder Claude MD": "8e7493a949dd49650b312776b34a557f",
     "Home Media Planner": "fdb3bf5ea0542063d6a49b710970b326",
@@ -234,6 +233,7 @@
     "Linux System Optimisation": "753434f9e8d8c961837da1edea87f9e8",
     "Live Typing UX Research": "ead4a1a68cdd3ef89caf5903880f7b04",
     "Llm Council Creator": "1ea05f6d60d0af2bfd4a0b1e6b2f1301",
+    "Llm Ops": "2f1458f94755864b3ddbac2b05005c88",
     "Local Claude Plugin Install Research": "c4d3d6b075a1e0e64aa01facd746ceae",
     "Local Tts": "cef688e04100a8198ad914e49c72131a",
     "Local Web Capture": "f93ea164638e9ea4c27ab98dba3ff81d",
@@ -288,7 +288,7 @@
     "Responsible Agent Skill Development": "efca386d81f037f3534af186f330f11e",
     "Resume Typesetter": "f0db6df6f52fa69e1b908a0a81769d59",
     "RTL Conformity Skills": "0fb282403cd2149356d59733059ef71e",
-    "Rtl Email": "40eebf0f82f3242f836b7c87a3ab6513",
+    "Rtl Skills": "1edae05a9b582e1c85af4836da38eaf3",
     "Rudder": "7377247197757a93bf4bd1d7ac641e6d",
     "Schedule Manager": "cfd91d0ed938158ef83ea6914df3da31",
     "Security Auditor": "77317fdc048c7c0e5682c6980b34894a",
@@ -350,24 +350,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:43:09",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Nfc Ops"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Claude Data Analyst"
-          ]
-        }
-      ],
-      "total_repos": 163
-    },
     {
       "date": "2026-04-30T22:47:21",
       "changes": [
@@ -2612,6 +2594,32 @@
           "type": "modified",
           "repos": [
             "Tech Comms Diagrams"
+          ]
+        }
+      ],
+      "total_repos": 345
+    },
+    {
+      "date": "2026-11-04T14:08:35",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Llm Ops",
+            "Rtl Skills"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Hebrew Correspondence",
+            "Rtl Email"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "AI Eval"
           ]
         }
       ],

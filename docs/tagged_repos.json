@@ -240,9 +240,10 @@
   {
     "name": "AI Eval",
     "url": "https://github.com/danielrosehill/AI-Eval",
-    "description": "Evaluate AI models for a real job: define the objective and the workload's requirements, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Also authors standalone evals (one repo plus Hugging Face datasets), runs third-party frameworks, and takes results through to findings and articles.",
+    "description": "Evaluate AI models for a real job, starting from start-eval: define the objective and workload, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Covers in-repo and agent-run eval spaces, framework CLIs, image, RAG, agent, speech and regression evals, private annotation and human feedback Spaces, and findings through to articles.",
     "tags": [
-      "Plugin"
+      "Plugin",
+      "Tool"
     ],
     "category": "Plugins",
     "category_slug": "plugins",
@@ -2768,21 +2769,6 @@
     "created_date": "2026-04-30"
   },
   {
-    "name": "Hebrew Correspondence",
-    "url": "https://github.com/danielrosehill/Claude-Hebrew-Correspondence-Plugin",
-    "description": "One home for correspondence in Hebrew \u2014 send RTL email that renders correctly in every client, typeset formal letters to PDF with David Libre via Typst, turn incoming .eml threads into readable PDFs, and verify a render before it goes out.",
-    "tags": [
-      "Plugin",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-08",
-    "slug": "hebrew-correspondence",
-    "created_date": "2026-09-01"
-  },
-  {
     "name": "Home Assistant Mgmt",
     "url": "https://github.com/danielrosehill/Home-Assistant-Mgmt-Plugin",
     "description": "Manage a Home Assistant instance via SSH and the HA REST API \u2014 guided first-run onboarding, automation/entity authoring, service calls, TTS testing, and log review. Per-host config is stored outside the plugin so the same install works across multiple Home Assistant environments.",
@@ -3455,6 +3441,20 @@
     "added_date": "2026-04-23",
     "slug": "llm-council-creator",
     "created_date": "2026-04-23"
+  },
+  {
+    "name": "Llm Ops",
+    "url": "https://github.com/danielrosehill/LLM-Ops-Plugin",
+    "description": "Bulk LLM jobs: batch vs sync cost, OpenRouter model lists, screening, and batch and parallel sync runners with real cost tracking and spend caps.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-04",
+    "slug": "llm-ops",
+    "created_date": "2026-11-04"
   },
   {
     "name": "Local Claude Plugin Install Research",
@@ -4247,21 +4247,18 @@
     "created_date": "2026-10-16"
   },
   {
-    "name": "Rtl Email",
-    "url": "https://github.com/danielrosehill/Claude-RTL-Email",
-    "description": "Send email in right-to-left scripts (Hebrew, Arabic, Farsi, Urdu) that actually renders RTL. Plain-text email carries no direction metadata, so RTL bodies render LTR in many clients and multi-part numbers like account references reorder. Ships dir=rtl HTML templates, separate personal and business send skills inheriting saved signature profiles, and one-time signature setup. Works with Google Workspace MCP or Resend.",
+    "name": "Rtl Skills",
+    "url": "https://github.com/danielrosehill/RTL-Skills",
+    "description": "Everything right-to-left in one plugin: Hebrew, Arabic, Farsi and Urdu email, Typst PDFs and formal Hebrew letters, HTML marketing newsletters, Google Docs and Sheets, calendar events, Word and Excel files, and render checks. Your signatures, brands and house styles stay in a private user-data folder.",
     "tags": [
-      "Agent Workspace",
-      "Documentation",
-      "Plugin",
-      "Tool"
+      "Plugin"
     ],
     "category": "Plugins",
     "category_slug": "plugins",
     "category_group": "Technical",
-    "added_date": "2026-08-10",
-    "slug": "rtl-email",
-    "created_date": "2026-08-05"
+    "added_date": "2026-11-04",
+    "slug": "rtl-skills",
+    "created_date": "2026-11-04"
   },
   {
     "name": "Rudder",
