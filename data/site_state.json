@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-11-05T17:48:21",
-  "total_repos": 343,
+  "last_built": "2026-11-05T22:16:43",
+  "total_repos": 335,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -136,7 +136,6 @@
     "Conda Manager": "dc83e93ec47ae42783dfe55004c19d5e",
     "Contact Support": "e89313bf35f3be344e51b02f5f23f2f6",
     "Content Writing": "ca04e748822a52daccd217f2c345b0fd",
-    "Context File Tester": "982361ee7e1baaf556e3cd55ef6c113d",
     "CONTEXT.md": "ce976b6647ab119eaa221a75c948adfb",
     "Cool Claude Code Stuff": "2f55aa29b1e2494720692bbabf23be78",
     "Copyq Scripting": "1b01a6b99355e7331f07f721e87c2a10",
@@ -150,7 +149,6 @@
     "Decision Evaluation Framework": "4b92ef13f512620aab55a9d67077b4c7",
     "Declaude": "d65e21c47285dc215b1898443438bb31",
     "Declutter Genie": "77ffe2a78edf5647183771fa3968ea35",
-    "Desktop Manager": "a06c18a4db2d683981a1992641082ed5",
     "Desktop Ops Workspace Template": "915e1aa7b93c309d0c111c919caaf066",
     "Dev Debugger": "0be9c835b4a28ae9caf3339484f88b41",
     "Dev Project Docs": "8e4ad1249919d520b43176771154e82a",
@@ -169,7 +167,6 @@
     "Easy Effects Manager": "f7646779759e8bea474f21ab13acb235",
     "Eml Toolkit": "007568b2e974f006f7707d5cf88fd7d9",
     "Favorite Plugins Installers": "37d8b975768462a89afc0f122599194e",
-    "Filesystem Organisation": "13e52dfd2650c299703844b69ec26659",
     "Filesystem Organiser": "77017bd64020cd801ec153cb8bd43b8f",
     "Flow Control": "f6783249f885fe3169d386933d23bc54",
     "Freight Vol Calculator": "dceb7d9ec335154216e610eb7c3078b9",
@@ -182,7 +179,6 @@
     "Github Explorer": "a9530d8b20f5936104bb80d1f750ad5d",
     "Github Index Maintainer": "fc20f8222734e4a78fb6efdbeaed1ec3",
     "Github Repo Org Question": "1d5822a132a2d1d3411b0106e4400438",
-    "Github Research": "6255b332af22f01d7ba22dba4fc41418",
     "Gpg Ops": "6de7fedde850480ce5555fc272982baa",
     "Grainger": "d840e099d570ed7b27caf8200c8e35a2",
     "Greeninvoice Ops": "43f54468e0caf3feadd51f14a415d201",
@@ -212,16 +208,14 @@
     "Israel Property Research Skills": "88ce078357d5850cb071ee0b22c7e34c",
     "Israel Research Skills": "a6eb328bce649ef1e9c3516e0d451450",
     "Israel Shopping": "1c7296b2061da51bcb7746a65f0d7b85",
-    "Jewish Texts Reference": "a77b35c5be6b4073d067055660c66e72",
-    "Jewish Utilities": "27378f97a5a4123851b15dde88976153",
+    "Jewish Texts Reference": "c21fa42033876f7dff243b19c9bb1048",
+    "Jewish Utilities": "c2e1de5b4b64159c3bceadc6e5e7fde9",
     "Kaizen": "167068d1bd01adc2c1a544c1f811e290",
     "Kaizen Please": "bc08d46e68f569835dbcbe84c6c94b6a",
     "Kde Agent Workspace": "25d5a6eeb039b042d7c299f41ec81e3a",
     "KDE Claude Runner": "4f9e1b5182bbc9c1a360e8585d71dc0e",
     "Kde Plasma": "26e1381701d7284bf4bd447131c8345c",
-    "Kde Plasmoid Dev": "889a56701582aa93f4e588a09c205e67",
     "Kdp Publishing": "4b822c7a227ca1d88dfef735e378167e",
-    "Keyboard Scanner": "36957e387aa9fbf773cf44a542bf3aec",
     "Knowledge Documentation": "1fe7a5449377b3d49396171fa3425400",
     "Label Printer": "e41a01294c0ebe2d9c9cd5b8fb52d72b",
     "LAN Manager Plugin": "924cb9c87c6a8466b34df6e994b05767",
@@ -239,7 +233,6 @@
     "Local Tts": "cef688e04100a8198ad914e49c72131a",
     "Local Web Capture": "f93ea164638e9ea4c27ab98dba3ff81d",
     "Long Form Content": "4b9533c0479677073c683382b91cb332",
-    "Loose Tasks": "a5d3f1f6d47787d9fb53dd86dcd529f5",
     "Maccabi Online Skills": "cb02af098f5efdbf0f6d471b4962fd9f",
     "Marketplace Guide": "ee78ee2f74c3a7581e557102755aed71",
     "MCPM Claude Code Docs": "fa5fab7f544ebc1eadb07ea4723e0010",
@@ -296,7 +289,7 @@
     "Site Skill Builder": "3e2174a83c1a8818efaa688ae19b2136",
     "Skill Creation Research": "88f0c50ab8e90e60823d055a1fcf2523",
     "Skill Or Not": "ef63156c7c7e6aa9f687ce1f52237d8a",
-    "Skill This": "f09379c71e85e3e38518d68a15794b09",
+    "Skill This": "a1edf9cda231b9391c1200f441a1965b",
     "Smart Home": "7b09f9bd419aae845ed47c4cb3eb93e3",
     "Smithery Claude Code MCP Jumpstarter": "01f067df002274e3998e42b9d019b8f5",
     "Snap It": "8870924ec11cff9758a741ae306599c0",
@@ -319,7 +312,6 @@
     "Taxonomy Creation": "e057e1a0d53bc9ee8ecb3404080856ea",
     "Teach This Repo": "96067f394d2e0e3ee6b11024123477e0",
     "Tech Comms Diagrams": "5ef58478bc63851f99488770ca936e05",
-    "Tech Research": "edf69781a6976e09d2cc7f9d74454ec9",
     "Technical Docs": "183c03734fa45acd796bd453af3293cd",
     "Test Project Ideator": "dc073bb52b5224043f0d1895151a92f2",
     "Text Corpus Analysis": "58308cb1cded69bccdb3356173af9693",
@@ -348,24 +340,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:54:54",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Novelty Text Editor"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Kde Plasmoid Dev"
-          ]
-        }
-      ],
-      "total_repos": 166
-    },
     {
       "date": "2026-04-30T22:58:21",
       "changes": [
@@ -2644,6 +2618,33 @@
         }
       ],
       "total_repos": 343
+    },
+    {
+      "date": "2026-11-05T22:16:43",
+      "changes": [
+        {
+          "type": "removed",
+          "repos": [
+            "Context File Tester",
+            "Desktop Manager",
+            "Filesystem Organisation",
+            "Github Research",
+            "Kde Plasmoid Dev",
+            "Keyboard Scanner",
+            "Loose Tasks",
+            "Tech Research"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Jewish Texts Reference",
+            "Jewish Utilities",
+            "Skill This"
+          ]
+        }
+      ],
+      "total_repos": 335
     }
   ]
 }

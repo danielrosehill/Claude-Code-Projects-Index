@@ -1996,20 +1996,6 @@
     "created_date": "2026-04-19"
   },
   {
-    "name": "Context File Tester",
-    "url": "https://github.com/danielrosehill/Claude-MD-Tester",
-    "description": "Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only restore that does not depend on the Claude harness, so a hostile test config can never trap you.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-19",
-    "slug": "context-file-tester",
-    "created_date": "2026-04-29"
-  },
-  {
     "name": "CONTEXT.md",
     "url": "https://github.com/danielrosehill/CONTEXT.md",
     "description": "Workflow methodology for separating human-authored context from structured AI agent briefings.",
@@ -2199,21 +2185,6 @@
     "added_date": "2026-04-28",
     "slug": "declutter-genie",
     "created_date": "2026-04-28"
-  },
-  {
-    "name": "Desktop Manager",
-    "url": "https://github.com/danielrosehill/Claude-Desktop-Manager-Plugin",
-    "description": "Linux desktop management \u2014 auto-profiles the local machine on first run and persists it to user data, then runs system checks, package install/remove, config application, hardware troubleshooting, service/log inspection against that profile.",
-    "tags": [
-      "Agent Workspace",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-19",
-    "slug": "desktop-manager",
-    "created_date": "2026-04-19"
   },
   {
     "name": "Desktop Ops Workspace Template",
@@ -2486,21 +2457,6 @@
     "created_date": "2026-04-30"
   },
   {
-    "name": "Filesystem Organisation",
-    "url": "https://github.com/danielrosehill/filesystem-org-plugin",
-    "description": "File system organisation \u2014 folder structure optimisation and file management automation.",
-    "tags": [
-      "Automation",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "filesystem-organisation",
-    "created_date": "2025-11-15"
-  },
-  {
     "name": "Filesystem Organiser",
     "url": "https://github.com/danielrosehill/Claude-Filesystem-Organiser-Plugin",
     "description": "Filesystem organisation \u2014 scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants. Includes organise-filesystem (modular modes) and super-organise (comprehensive single-pass) skills.",
@@ -2674,22 +2630,6 @@
     "added_date": "2026-10-19",
     "slug": "github-repo-org-question",
     "created_date": "2026-04-09"
-  },
-  {
-    "name": "Github Research",
-    "url": "https://github.com/danielrosehill/github-research-plugin",
-    "description": "Research existing GitHub repositories before building \u2014 search, rank, and evaluate candidate tools via gh CLI with careful attention to stars, recency, and maintenance quality",
-    "tags": [
-      "Plugin",
-      "Research",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-08",
-    "slug": "github-research",
-    "created_date": "2026-04-16"
   },
   {
     "name": "Gpg Ops",
@@ -3133,10 +3073,9 @@
   {
     "name": "Jewish Texts Reference",
     "url": "https://github.com/danielrosehill/Jewish-Texts-Reference-Plugin",
-    "description": "Look up Jewish texts and references via the Sefaria MCP server \u2014 Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).",
+    "description": "Look up Jewish texts and references through Sefaria's public REST API (no key, no MCP) \u2014 Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).",
     "tags": [
       "Documentation",
-      "MCP",
       "Plugin"
     ],
     "category": "Plugins",
@@ -3149,7 +3088,7 @@
   {
     "name": "Jewish Utilities",
     "url": "https://github.com/danielrosehill/Claude-Jewish-Utilities-Plugin",
-    "description": "Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR\"A + MG\"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Wraps zmanim-mcp-server and hebcal MCP. Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.",
+    "description": "Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR\"A + MG\"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Calls the public Hebcal REST API (no key, no MCP). Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.",
     "tags": [
       "Documentation",
       "Plugin",
@@ -3235,20 +3174,6 @@
     "created_date": "2026-04-30"
   },
   {
-    "name": "Kde Plasmoid Dev",
-    "url": "https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin",
-    "description": "Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) \u2014 scaffold, debug, package, install, and migrate Plasma 5 \u2192 6.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-27",
-    "slug": "kde-plasmoid-dev",
-    "created_date": "2026-04-27"
-  },
-  {
     "name": "Kdp Publishing",
     "url": "https://github.com/danielrosehill/KDP-Publishing-Plugin",
     "description": "Amazon KDP paperback production with Typst \u2014 choose a standard trim, typeset the interior with gutter-aware margins and an even page count, build the full-wrap cover last from the interior's measured extent, pre-flight for silent glyph substitution and stale spines, and assemble the upload folder. Production only; it does not write the book.",
@@ -3261,20 +3186,6 @@
     "added_date": "2026-08-20",
     "slug": "kdp-publishing",
     "created_date": "2026-08-12"
-  },
-  {
-    "name": "Keyboard Scanner",
-    "url": "https://github.com/danielrosehill/Claude-Keyboard-Scanner",
-    "description": "Profile Linux keyboards, scan keycodes, and surface underused keys for remapping. Walks intake \u2192 keycode dump (xmodmap/XKB/evdev/libinput, X11 + Wayland) \u2192 tailored remap suggestions referencing keyd, kmonad, xremap, xmodmap, xbindkeys, input-remapper, autokey.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-30",
-    "slug": "keyboard-scanner",
-    "created_date": "2026-03-14"
   },
   {
     "name": "Knowledge Documentation",
@@ -3530,20 +3441,6 @@
     "added_date": "2026-11-04",
     "slug": "long-form-content",
     "created_date": "2026-11-04"
-  },
-  {
-    "name": "Loose Tasks",
-    "url": "https://github.com/danielrosehill/Loose-Tasks-Plugin",
-    "description": "Loose skills that will be migrated into other plugins later. Recommended not to enable/use this!",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-28",
-    "slug": "loose-tasks",
-    "created_date": "2026-04-28"
   },
   {
     "name": "Maccabi Online Skills",
@@ -4367,7 +4264,7 @@
   {
     "name": "Skill This",
     "url": "https://github.com/danielrosehill/Skill-This",
-    "description": "Turn the workflow just completed into a reusable skill: checks your catalogue, picks the plugin, builds and publishes it.",
+    "description": "Turn a workflow into a reusable skill, or improve an existing one with what you just learned, and publish it.",
     "tags": [
       "Automation",
       "Plugin"
@@ -4705,23 +4602,6 @@
     "added_date": "2026-11-04",
     "slug": "tech-comms-diagrams",
     "created_date": "2026-11-04"
-  },
-  {
-    "name": "Tech Research",
-    "url": "https://github.com/danielrosehill/tech-research-plugin",
-    "description": "Technology research \u2014 competitive analysis, technical documentation retrieval and research workflows.",
-    "tags": [
-      "Automation",
-      "Documentation",
-      "Plugin",
-      "Research"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-16",
-    "slug": "tech-research",
-    "created_date": "2025-11-15"
   },
   {
     "name": "Technical Docs",

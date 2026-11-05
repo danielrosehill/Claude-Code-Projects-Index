@@ -918,13 +918,6 @@ All plugins registered in the [danielrosehill marketplace](https://github.com/da
 
 ## Systems Administration
 
-### Desktop Manager
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Desktop-Manager-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Linux desktop management — auto-profiles the local machine on first run and persists it to user data, then runs system checks, package install/remove, config application, hardware troubleshooting, service/log inspection against that profile.
-
----
-
 ### Security Auditor
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Security-Auditor-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1382,13 +1375,6 @@ Persona-recipe library for swapping Claude into themed personalities (Daredevil,
 
 ## Claude MD
 
-### Context File Tester
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-MD-Tester) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only restore that does not depend on the Claude harness, so a hostile test config can never trap you.
-
----
-
 ### User Context File
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/User-Claude-MD-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1773,14 +1759,14 @@ Cancel Israeli service subscriptions (ניתוק) through netek.co.il — mobile
 ### Jewish Texts Reference
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Jewish-Texts-Reference-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Look up Jewish texts and references via the Sefaria MCP server — Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).
+Look up Jewish texts and references through Sefaria's public REST API (no key, no MCP) — Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).
 
 ---
 
 ### Jewish Utilities
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Jewish-Utilities-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR"A + MG"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Wraps zmanim-mcp-server and hebcal MCP. Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.
+Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR"A + MG"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Calls the public Hebcal REST API (no key, no MCP). Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.
 
 ---
 
@@ -1797,13 +1783,6 @@ Give Claude its own KDE Plasma virtual desktop, or a headless sandbox KWin on a 
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-KDE-Plasma-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 KDE Plasma (Wayland) runtime utilities — KWin scripting, plasmoid management, panel layout backup, virtual desktops & activities, KGlobalAccel shortcuts, theme/look-and-feel switching, KDE Connect, Klipper, Baloo, kwriteconfig safe-edit, plasma-restart helpers, qdbus introspection, kscreen save/apply, KWallet ops. Complements generic Linux desktop-management plugins.
-
----
-
-### Kde Plasmoid Dev
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) — scaffold, debug, package, install, and migrate Plasma 5 → 6.
 
 ---
 
@@ -1863,13 +1842,6 @@ Manage Easy Effects on Linux: maintain a preset library, install/export presets,
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Ubuntu-Hotkey-Builder) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Free-key finder + shortcut builder for Ubuntu: probe keys, audit bindings, bind text macros. Checks and installs ydotool/input-remapper, records lsusb IDs, finds non-conflicting keys across KDE, GNOME, input-remapper, keyd and hwdb, and binds by the route that works on X11 or Wayland, then verifies.
-
----
-
-### Keyboard Scanner
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Keyboard-Scanner) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Profile Linux keyboards, scan keycodes, and surface underused keys for remapping. Walks intake → keycode dump (xmodmap/XKB/evdev/libinput, X11 + Wayland) → tailored remap suggestions referencing keyd, kmonad, xremap, xmodmap, xbindkeys, input-remapper, autokey.
 
 ---
 
@@ -2058,20 +2030,6 @@ Process .eml email exports — reconstruct a thread from loose .eml files, rende
 
 ---
 
-### Filesystem Organisation
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/filesystem-org-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-File system organisation — folder structure optimisation and file management automation.
-
----
-
-### Github Research
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/github-research-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Research existing GitHub repositories before building — search, rank, and evaluate candidate tools via gh CLI with careful attention to stars, recency, and maintenance quality
-
----
-
 ### Grainger
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Grainger-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -2097,13 +2055,6 @@ Observe and interact with an MQTT broker — monitor all payloads, watch a speci
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Stack-Search-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Spawn a new stack search workspace from the Claude-Stack-Research-Workspace template — clone, name, create GitHub repo, and kick off the structured intake interview
-
----
-
-### Tech Research
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/tech-research-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Technology research — competitive analysis, technical documentation retrieval and research workflows.
 
 ---
 
@@ -2266,7 +2217,7 @@ Ask 'should this become a skill?' before every task: a five-step checklist (repe
 ### Skill This
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Skill-This) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Turn the workflow just completed into a reusable skill: checks your catalogue, picks the plugin, builds and publishes it.
+Turn a workflow into a reusable skill, or improve an existing one with what you just learned, and publish it.
 
 ---
 
@@ -2294,15 +2245,6 @@ Spec-driven development workflow for Claude Code: turn unstructured project brie
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/stack-evaluator-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Component-level review of a project's technology stack, not its code — records the stack to docs/stack/ with the run date, checks each component for end-of-life and currency, finds architectural gaps (caching, backups, queues, rate limiting, observability), flags redundancy and over-engineering against the real workload, then emits a sequenced revision proposal and an execution brief. Re-runnable per repo with persistent decisions and finding history.
-
----
-
-## Staging
-
-### Loose Tasks
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Loose-Tasks-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Loose skills that will be migrated into other plugins later. Recommended not to enable/use this!
 
 ---
 

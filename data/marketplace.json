@@ -8,7 +8,7 @@
   },
   "metadata": {
     "description": "A consolidated collection of Claude Code plugins for workflows across research, media, sysadmin, personal planning, dev tools, and more. Each plugin bundles primitives + a provisioning skill for domain-specific workspaces.",
-    "version": "2.0.2"
+    "version": "2.0.3"
   },
   "plugins": [
     {
@@ -42,7 +42,7 @@
       },
       "description": "Filesystem organisation \u2014 scan, dedupe, cleanup, rename, sort for local directories and Google Drive, with local/gdrive variants. Includes organise-filesystem (modular modes) and super-organise (comprehensive single-pass) skills.",
       "category": "Linux Sysadmin",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -53,28 +53,6 @@
         "filesystem",
         "organisation",
         "cleanup"
-      ]
-    },
-    {
-      "name": "desktop-manager",
-      "displayName": "Desktop Manager",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Desktop-Manager-Plugin"
-      },
-      "description": "Linux desktop management \u2014 auto-profiles the local machine on first run and persists it to user data, then runs system checks, package install/remove, config application, hardware troubleshooting, service/log inspection against that profile.",
-      "category": "Linux Sysadmin",
-      "version": "2.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "sysadmin",
-        "desktop",
-        "linux"
       ]
     },
     {
@@ -403,7 +381,7 @@
       },
       "description": "Research \u2014 source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor/purchasing/general-research-workspace/obsidian-vault variants. The obsidian-vault variant scaffolds the research loop as a working Obsidian vault (committed .obsidian/ config, frontmatter schema, wikilinks, templates, canvas). Includes a 30-agent tech research team for hardware/software stack evaluations (folded in from Claude-Tech-Research-Team).",
       "category": "Research & Learning",
-      "version": "1.3.1",
+      "version": "1.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -821,7 +799,7 @@
       },
       "description": "Semantic GitHub repo discovery for reusable components. Search, rank, overview, evaluate, and recommend open-source repos \u2014 Claude parses gh API results, weighing stars, activity, maintenance, license, and stack fit.",
       "category": "Git & GitHub",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -966,7 +944,7 @@
       },
       "description": "Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory \u2014 audit, chunk, list, and edit global Claude Code user context for token efficiency.",
       "category": "AI & Context",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1083,7 +1061,7 @@
       },
       "description": "Data cleaning, enrichment, restructuring, packaging, and documentation skills for tabular and JSON datasets (no visualisation). 31 skills covering ISO standardisation, PII detection/synthesis, data dictionaries, SQL/graph/vector/HF/GeoJSON/API targets, date & Unicode hygiene, header & numeric-precision standardisation, multilingual header localisation, incremental upstream sync, and Typst-rendered PDF documents of the data.",
       "category": "Data & Datasets",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1236,7 +1214,7 @@
       },
       "description": "Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export. Ships fal.ai/Replicate/MiniMax MCP servers and fal-js + WaveSpeed Python SDK runners.",
       "category": "Media Editing",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1254,30 +1232,6 @@
         "minimax",
         "hailuo",
         "elevenlabs"
-      ]
-    },
-    {
-      "name": "kde-plasmoid-dev",
-      "displayName": "KDE Plasmoid Dev",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-KDE-Plasmoid-Dev-Plugin"
-      },
-      "description": "Skill for developing KDE Plasma plasmoids (QML/Plasma 6 desktop and panel widgets) \u2014 scaffold, debug, package, install, and migrate Plasma 5 \u2192 6.",
-      "category": "Linux Sysadmin",
-      "version": "1.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "kde",
-        "plasma",
-        "plasmoid",
-        "qml",
-        "linux"
       ]
     },
     {
@@ -1556,7 +1510,7 @@
         "source": "github",
         "repo": "danielrosehill/Jewish-Texts-Reference-Plugin"
       },
-      "description": "Look up Jewish texts and references via the Sefaria MCP server \u2014 Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).",
+      "description": "Look up Jewish texts and references through Sefaria's public REST API (no key, no MCP) \u2014 Tanakh, Talmud, Mishnah, Halakha, Kabbalah, commentary, dictionaries, and topics. Includes nikkud add/strip skills (Dicta nakdan + removenikud APIs, offline regex, unikud fallback).",
       "category": "Research & Learning",
       "version": "1.1.0",
       "author": {
@@ -1607,7 +1561,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Jewish-Utilities-Plugin"
       },
-      "description": "Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR\"A + MG\"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Wraps zmanim-mcp-server and hebcal MCP. Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.",
+      "description": "Misc Jewish utility skills: shabbat candle-lighting/havdalah, zmanim (GR\"A + MG\"A), parsha-of-the-week, Hebrew/Gregorian date conversion (sunset-aware), upcoming holidays (IL/diaspora), and daf yomi. Calls the public Hebcal REST API (no key, no MCP). Onboarding captures location for halachic-time skills. Companion to jewish-texts-reference.",
       "category": "Research & Learning",
       "version": "1.0.0",
       "author": {
@@ -1779,28 +1733,6 @@
       ]
     },
     {
-      "name": "loose-tasks",
-      "displayName": "Loose Tasks",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Loose-Tasks-Plugin"
-      },
-      "description": "Loose skills that will be migrated into other plugins later. Recommended not to enable/use this!",
-      "category": "Staging",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "staging",
-        "wip",
-        "miscellaneous"
-      ]
-    },
-    {
       "name": "plugin-vault",
       "displayName": "Claude Vault",
       "source": {
@@ -1855,7 +1787,7 @@
       },
       "description": "Publish content to GitHub gists with clear AI authorship \u2014 Claude-authored solution gists and collaborative debug write-ups, both with model+date attribution, environment context, and a PII pre-flight scrub for public publishes. Visibility is a per-call parameter with a configurable default.",
       "category": "Git & GitHub",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1890,29 +1822,6 @@
         "audio",
         "linux",
         "easyeffects"
-      ]
-    },
-    {
-      "name": "context-file-tester",
-      "displayName": "CLAUDE.md Tester",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-MD-Tester"
-      },
-      "description": "Safely swap ~/.claude/CLAUDE.md for test/joke configs via symlink. Terminal-only restore that does not depend on the Claude harness, so a hostile test config can never trap you.",
-      "category": "AI & Context",
-      "version": "0.2.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "claude-md",
-        "testing",
-        "config",
-        "symlink"
       ]
     },
     {
@@ -2047,7 +1956,7 @@
       },
       "description": "KDE Plasma (Wayland) runtime utilities \u2014 KWin scripting, plasmoid management, panel layout backup, virtual desktops & activities, KGlobalAccel shortcuts, theme/look-and-feel switching, KDE Connect, Klipper, Baloo, kwriteconfig safe-edit, plasma-restart helpers, qdbus introspection, kscreen save/apply, KWallet ops. Complements generic Linux desktop-management plugins.",
       "category": "Linux Sysadmin",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2238,31 +2147,6 @@
       ]
     },
     {
-      "name": "keyboard-scanner",
-      "displayName": "Keyboard Scanner",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Keyboard-Scanner"
-      },
-      "description": "Profile Linux keyboards, scan keycodes, and surface underused keys for remapping. Walks intake \u2192 keycode dump (xmodmap/XKB/evdev/libinput, X11 + Wayland) \u2192 tailored remap suggestions referencing keyd, kmonad, xremap, xmodmap, xbindkeys, input-remapper, autokey.",
-      "category": "Linux Sysadmin",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "linux",
-        "keyboard",
-        "keycodes",
-        "xkb",
-        "remap",
-        "input"
-      ]
-    },
-    {
       "name": "system-recovery-mode",
       "displayName": "System Recovery Mode",
       "source": {
@@ -2417,7 +2301,7 @@
       },
       "description": "Companion plugin for the donetick-mcp server. Bundles the MCP and adds skills for chore management against a self-hosted Donetick instance \u2014 daily brief, list/create/complete chores, label management.",
       "category": "Personal Productivity",
-      "version": "0.1.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3067,7 +2951,7 @@
       },
       "description": "Print labels from Claude Code on Brother QL and P-touch label printers on Linux. Discovers printers over mDNS, USB and CUPS and keeps a machine-local registry so later prints can name one; renders text and QR labels to the pixel canvas of the loaded DK or TZe media; previews without touching the printer, because brother_ql converts and transmits in a single step with no dry run. Ships a media catalogue of DK and TZe product codes, reusable label templates in the user's data directory, and a Linux driver-install skill covering brother_ql, ptouch-print, mDNS and CUPS. Zebra and DYMO are discovered and registered but not yet printable. Also bundles the original streamable-HTTP MCP server for P-touch setups built around a USB print bridge.",
       "category": "Hardware & Maker",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3372,7 +3256,7 @@
       },
       "description": "Run many Claude sessions: handover, layouts, crash restore, notify and remote machines. Start sessions, hand work over with a confirmed receipt, tile Konsole, restore after a crash, guard against losing windows, reach the user by desktop or phone, and work on other machines.",
       "category": "QA & Agent Sessions",
-      "version": "0.12.0",
+      "version": "0.13.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3610,40 +3494,6 @@
       "license": "MIT"
     },
     {
-      "name": "filesystem-organisation",
-      "displayName": "Filesystem Organisation",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/filesystem-org-plugin"
-      },
-      "description": "File system organisation \u2014 folder structure optimisation and file management automation.",
-      "category": "Linux Sysadmin",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT"
-    },
-    {
-      "name": "github-research",
-      "displayName": "GitHub Research",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/github-research-plugin"
-      },
-      "description": "Research existing GitHub repositories before building \u2014 search, rank, and evaluate candidate tools via gh CLI with careful attention to stars, recency, and maintenance quality",
-      "category": "Git & GitHub",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT"
-    },
-    {
       "name": "grainger",
       "displayName": "Grainger",
       "source": {
@@ -3712,23 +3562,6 @@
       "license": "MIT"
     },
     {
-      "name": "tech-research",
-      "displayName": "Tech Research",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/tech-research-plugin"
-      },
-      "description": "Technology research \u2014 competitive analysis, technical documentation retrieval and research workflows.",
-      "category": "Research & Learning",
-      "version": "1.0.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT"
-    },
-    {
       "name": "ubuntu-admin",
       "displayName": "Ubuntu Admin",
       "source": {
@@ -3737,7 +3570,7 @@
       },
       "description": "Administer Ubuntu machines, desktop or server, locally or over SSH: health and diagnosis, packages (apt/snap/flatpak), systemd services and logs, Docker, storage and backups, networking, hardware and GPU drivers, displays, fonts, codecs, shell and dev environments. Supersedes linux-desktop-mgmt, linux-server-mgmt and sysadmin-homelab.",
       "category": "Linux Sysadmin",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4125,7 +3958,7 @@
       },
       "description": "Free-key finder + shortcut builder for Ubuntu: probe keys, audit bindings, bind text macros. Checks and installs ydotool/input-remapper, records lsusb IDs, finds non-conflicting keys across KDE, GNOME, input-remapper, keyd and hwdb, and binds by the route that works on X11 or Wayland, then verifies.",
       "category": "Linux Sysadmin",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4607,9 +4440,9 @@
         "source": "github",
         "repo": "danielrosehill/Skill-This"
       },
-      "description": "Turn the workflow just completed into a reusable skill: checks your catalogue, picks the plugin, builds and publishes it.",
+      "description": "Turn a workflow into a reusable skill, or improve an existing one with what you just learned, and publish it.",
       "category": "AI & Context",
-      "version": "0.3.0",
+      "version": "0.5.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
