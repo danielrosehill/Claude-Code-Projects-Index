@@ -1236,7 +1236,7 @@ A second spam filter for pseudospam (outreach produced at scale, dressed up as p
 ### Multisession
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Multisession) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Start fresh or hand off: split the pane, launch a new named Claude session and give it the next task, or hand work to a running peer. Payload goes to a local or Google Drive agent-to-agent space and is sent with the built-in SendMessage; this session's Konsole pane then closes. Also asynchronous a2a/ mailbox messages between repos.
+Run many Claude sessions: handover, layouts, crash restore, notify and remote machines. Start sessions, hand work over with a confirmed receipt, tile Konsole, restore after a crash, guard against losing windows, reach the user by desktop or phone, and work on other machines.
 
 ---
 
@@ -1370,13 +1370,6 @@ Import a ChatGPT conversation into local files via the browser. Captures the ful
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Rudder) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)
-
----
-
-### Session Hopper
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Hopper) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Claude-Hopper — skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.
 
 ---
 
@@ -1823,15 +1816,6 @@ Amazon KDP paperback production with Typst — choose a standard trim, typeset t
 
 ---
 
-## Konsole
-
-### Konsole Setup
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Konsole-Setup) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Konsole tuned for many agent sessions: window close asks, tab close doesn't; split layout and a Hack-font profile, applied by script.
-
----
-
 ## Label Printer
 
 ### Label Printer
@@ -2157,17 +2141,17 @@ Claude Code skills for taming Pipewire/Wireplumber audio on Linux — manage def
 
 ## Planning
 
+### Dev Project Docs
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Dev-Project-Docs) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Debug retrospectives, decision logs and lean plans in the repo: internal docs for development projects, so the next agent or person reads what broke, what was decided and the live state, not the history.
+
+---
+
 ### Document Nudge
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Document-Nudge) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Nudges Claude to document decisions, todos, sprints, and handovers into a structured planning/ tree by default — without being asked each turn. Ships a home-level CLAUDE.md snippet plus /nudge-install and /nudge-scaffold slash commands.
-
----
-
-### Planning Docs
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Planning-Docs-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Keep a repo's decision log and plans lean: record numbered decisions, and compact old decisions and plans into in-place summaries so agents read the live state, not the history.
 
 ---
 
@@ -2270,21 +2254,19 @@ Capture geo-restricted web content (articles, prices) via the user's own localho
 
 ---
 
-## Session
-
-### Session Restore
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Session-Restore) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also keeps Konsole asking before a window close kills them.
-
----
-
 ## Skills
 
 ### Skill Or Not
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/To-Skill-Or-Not-To-Skill) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it) plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.
+
+---
+
+### Skill This
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Skill-This) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Turn the workflow just completed into a reusable skill: checks your catalogue, picks the plugin, builds and publishes it.
 
 ---
 

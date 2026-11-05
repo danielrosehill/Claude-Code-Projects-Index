@@ -2248,6 +2248,20 @@
     "created_date": "2026-04-18"
   },
   {
+    "name": "Dev Project Docs",
+    "url": "https://github.com/danielrosehill/Dev-Project-Docs",
+    "description": "Debug retrospectives, decision logs and lean plans in the repo: internal docs for development projects, so the next agent or person reads what broke, what was decided and the live state, not the history.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-05",
+    "slug": "dev-project-docs",
+    "created_date": "2026-11-05"
+  },
+  {
     "name": "Dev Tools",
     "url": "https://github.com/danielrosehill/Claude-Dev-Tools-Plugin",
     "description": "Dev-tools \u2014 scaffold repos, multi-agent QA review, templatize. Session-handover commands and agent moved to claude-hopper in 1.2.0.",
@@ -3278,21 +3292,6 @@
     "created_date": "2026-04-19"
   },
   {
-    "name": "Konsole Setup",
-    "url": "https://github.com/danielrosehill/Claude-Konsole-Setup",
-    "description": "Konsole tuned for many agent sessions: window close asks, tab close doesn't; split layout and a Hack-font profile, applied by script.",
-    "tags": [
-      "Configuration",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-11-04",
-    "slug": "konsole-setup",
-    "created_date": "2026-11-04"
-  },
-  {
     "name": "Label Printer",
     "url": "https://github.com/danielrosehill/label-printer-plugin",
     "description": "Print labels from Claude Code on Brother QL and P-touch label printers on Linux. Discovers printers over mDNS, USB and CUPS and keeps a machine-local registry so later prints can name one; renders text and QR labels to the pixel canvas of the loaded DK or TZe media; previews without touching the printer, because brother_ql converts and transmits in a single step with no dry run. Ships a media catalogue of DK and TZe product codes, reusable label templates in the user's data directory, and a Linux driver-install skill covering brother_ql, ptouch-print, mDNS and CUPS. Zebra and DYMO are discovered and registered but not yet printable. Also bundles the original streamable-HTTP MCP server for P-touch setups built around a USB print bridge.",
@@ -3664,7 +3663,7 @@
   {
     "name": "Multisession",
     "url": "https://github.com/danielrosehill/Multisession",
-    "description": "Start fresh or hand off: split the pane, launch a new named Claude session and give it the next task, or hand work to a running peer. Payload goes to a local or Google Drive agent-to-agent space and is sent with the built-in SendMessage; this session's Konsole pane then closes. Also asynchronous a2a/ mailbox messages between repos.",
+    "description": "Run many Claude sessions: handover, layouts, crash restore, notify and remote machines. Start sessions, hand work over with a confirmed receipt, tile Konsole, restore after a crash, guard against losing windows, reach the user by desktop or phone, and work on other machines.",
     "tags": [
       "Plugin"
     ],
@@ -4010,20 +4009,6 @@
     "created_date": "2026-04-29"
   },
   {
-    "name": "Planning Docs",
-    "url": "https://github.com/danielrosehill/Claude-Planning-Docs-Plugin",
-    "description": "Keep a repo's decision log and plans lean: record numbered decisions, and compact old decisions and plans into in-place summaries so agents read the live state, not the history.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-22",
-    "slug": "planning-docs",
-    "created_date": "2026-10-22"
-  },
-  {
     "name": "Plugin Vault",
     "url": "https://github.com/danielrosehill/Claude-Vault",
     "description": "Meta-plugin for per-project activation of dormant plugins and MCP servers from a personal vault. Mitigates user-level eager skill description loading.",
@@ -4320,35 +4305,6 @@
     "created_date": "2025-11-15"
   },
   {
-    "name": "Session Hopper",
-    "url": "https://github.com/danielrosehill/Claude-Hopper",
-    "description": "Claude-Hopper \u2014 skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.",
-    "tags": [
-      "Plugin",
-      "Tool"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-19",
-    "slug": "session-hopper",
-    "created_date": "2026-04-29"
-  },
-  {
-    "name": "Session Restore",
-    "url": "https://github.com/danielrosehill/Session-Restore",
-    "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also keeps Konsole asking before a window close kills them.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-25",
-    "slug": "session-restore",
-    "created_date": "2026-10-25"
-  },
-  {
     "name": "Shopping",
     "url": "https://github.com/danielrosehill/Claude-Shopping-Plugin",
     "description": "Region-specific consumer shopping primitives \u2014 find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon US, AliExpress Israel) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.",
@@ -4407,6 +4363,21 @@
     "added_date": "2026-10-22",
     "slug": "skill-or-not",
     "created_date": "2026-10-21"
+  },
+  {
+    "name": "Skill This",
+    "url": "https://github.com/danielrosehill/Skill-This",
+    "description": "Turn the workflow just completed into a reusable skill: checks your catalogue, picks the plugin, builds and publishes it.",
+    "tags": [
+      "Automation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-05",
+    "slug": "skill-this",
+    "created_date": "2026-11-05"
   },
   {
     "name": "Smart Home",

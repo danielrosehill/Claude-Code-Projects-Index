@@ -605,7 +605,7 @@
       },
       "description": "Claude-Rudder \u2014 collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
       "category": "QA & Agent Sessions",
-      "version": "2.9.0",
+      "version": "2.9.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -616,30 +616,6 @@
         "claude-code",
         "context-management",
         "mcp",
-        "ux"
-      ]
-    },
-    {
-      "name": "session-hopper",
-      "displayName": "Claude Hopper",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Hopper"
-      },
-      "description": "Claude-Hopper \u2014 skills for hopping between discrete terminal-bound Claude Code sessions on Linux. Spawn new instances (Konsole), hand off context (full / clipboard / with-tasks), resume from handovers, and pick up leftover work.",
-      "category": "QA & Agent Sessions",
-      "version": "1.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "claude-code",
-        "session-handover",
-        "terminal",
-        "linux",
         "ux"
       ]
     },
@@ -2245,7 +2221,7 @@
       },
       "description": "Keep your computers in step. A git-backed task queue carries installs from one machine to the other, and an SSH comparison finds what has drifted. Successor to os-sync-agent.",
       "category": "Linux Sysadmin",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3394,9 +3370,9 @@
         "source": "github",
         "repo": "danielrosehill/Multisession"
       },
-      "description": "Start fresh or hand off: split the pane, launch a new named Claude session and give it the next task, or hand work to a running peer. Payload goes to a local or Google Drive agent-to-agent space and is sent with the built-in SendMessage; this session's Konsole pane then closes. Also asynchronous a2a/ mailbox messages between repos.",
+      "description": "Run many Claude sessions: handover, layouts, crash restore, notify and remote machines. Start sessions, hand work over with a confirmed receipt, tile Konsole, restore after a crash, guard against losing windows, reach the user by desktop or phone, and work on other machines.",
       "category": "QA & Agent Sessions",
-      "version": "0.6.0",
+      "version": "0.12.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4195,15 +4171,15 @@
       "category": "Media Editing"
     },
     {
-      "name": "planning-docs",
-      "displayName": "Planning Docs",
+      "name": "dev-project-docs",
+      "displayName": "Dev Project Docs",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Planning-Docs-Plugin"
+        "repo": "danielrosehill/Dev-Project-Docs"
       },
-      "description": "Keep a repo's decision log and plans lean: record numbered decisions, and compact old decisions and plans into in-place summaries so agents read the live state, not the history.",
+      "description": "Debug retrospectives, decision logs and lean plans in the repo: internal docs for development projects, so the next agent or person reads what broke, what was decided and the live state, not the history.",
       "category": "Documentation & Writing",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4294,33 +4270,6 @@
       ]
     },
     {
-      "name": "session-restore",
-      "displayName": "Session Restore",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Session-Restore"
-      },
-      "description": "Terminal crashed? Reopen the lost Claude Code sessions: finds the ones that died together and resumes each in its repo, in one Konsole window of split panes (or tabs, or windows). Also keeps Konsole asking before a window close kills them.",
-      "category": "QA & Agent Sessions",
-      "version": "0.5.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "session",
-        "restore",
-        "resume",
-        "crash-recovery",
-        "konsole",
-        "kde",
-        "terminal",
-        "prevention"
-      ]
-    },
-    {
       "name": "israel-post",
       "displayName": "Israel Post",
       "source": {
@@ -4381,7 +4330,7 @@
       },
       "description": "Agent dev workflows: voice notes, screenshots, UI review. Any platform: steer work from voice notes, screenshots and screen recordings; review the running UI; resolve UI friction by options-then-build.",
       "category": "Repo Scaffolding & Retrofitting",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4475,30 +4424,6 @@
         "systemd",
         "backup",
         "linux"
-      ]
-    },
-    {
-      "name": "konsole-setup",
-      "displayName": "Konsole Setup",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-Konsole-Setup"
-      },
-      "description": "Konsole tuned for many agent sessions: window close asks, tab close doesn't; split layout and a Hack-font profile, applied by script.",
-      "category": "Linux Sysadmin",
-      "version": "0.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "konsole",
-        "kde",
-        "terminal",
-        "profile",
-        "close-guard"
       ]
     },
     {
@@ -4673,6 +4598,29 @@
         "anthropic",
         "deepseek",
         "inference"
+      ]
+    },
+    {
+      "name": "skill-this",
+      "displayName": "Skill-This",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Skill-This"
+      },
+      "description": "Turn the workflow just completed into a reusable skill: checks your catalogue, picks the plugin, builds and publishes it.",
+      "category": "AI & Context",
+      "version": "0.3.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "skills",
+        "plugins",
+        "workflow-capture",
+        "authoring"
       ]
     }
   ]

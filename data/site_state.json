@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-11-04T22:44:51",
-  "total_repos": 345,
+  "last_built": "2026-11-05T17:48:21",
+  "total_repos": 343,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -153,6 +153,7 @@
     "Desktop Manager": "a06c18a4db2d683981a1992641082ed5",
     "Desktop Ops Workspace Template": "915e1aa7b93c309d0c111c919caaf066",
     "Dev Debugger": "0be9c835b4a28ae9caf3339484f88b41",
+    "Dev Project Docs": "8e4ad1249919d520b43176771154e82a",
     "Dev Tools": "eba628b060b8232b41c874cd1e6b6733",
     "Device Sync": "2850820aa1dfc39c2d9e3434100f765c",
     "Diary Planner": "7dae68420dbd45dfbfac32baeb52fc0b",
@@ -222,7 +223,6 @@
     "Kdp Publishing": "4b822c7a227ca1d88dfef735e378167e",
     "Keyboard Scanner": "36957e387aa9fbf773cf44a542bf3aec",
     "Knowledge Documentation": "1fe7a5449377b3d49396171fa3425400",
-    "Konsole Setup": "ac062743fe1570745632fe1025a58551",
     "Label Printer": "e41a01294c0ebe2d9c9cd5b8fb52d72b",
     "LAN Manager Plugin": "924cb9c87c6a8466b34df6e994b05767",
     "Learning": "bdd5fc3bf3541fd8ce6c699c6bbd7dcc",
@@ -248,7 +248,7 @@
     "MK Claude": "a7ba7b9fd43daa7f056510d6e762ebf8",
     "Modular Research": "38619c642fadef3a76e4bcb4bc019db8",
     "Mqtt Observability": "601c8a99f859321120a053c7a00b63d2",
-    "Multisession": "c1e694d8e8b3261b16f1a18f2ca223e7",
+    "Multisession": "1abca013ffc23b61298cc6b257d0b6c8",
     "My Tone Of Voice": "f650c30dbe7652b88ec9bd3bf99ebfab",
     "Netek Disconnect": "c2a61c0ac564fed716bfe90307d9fd75",
     "Network Cups": "db99001e9330e0478bef1f76a0545e98",
@@ -272,7 +272,6 @@
     "Perspective Finder Prompt": "4d4cfbac30d8f064e291934e8e32ca4a",
     "Pii Scanner": "3fc6f5713c1b4d3a89e965e6df4c2c6f",
     "Pipewire Audio": "579c0230ef9b687b967a9619063c1e00",
-    "Planning Docs": "fe3fde7f7a1a2588bcdb2b48f090e88c",
     "Plugin Vault": "f087cc7a66bec4e08c1e3f63b1d52a97",
     "PR & Media Work": "344e9495f091a75a7ee98f8813a8cf07",
     "Private And Public Claude MD": "9ce45ac8195ae67866f3328dcbcc0797",
@@ -293,12 +292,11 @@
     "Schedule Manager": "cfd91d0ed938158ef83ea6914df3da31",
     "Security Auditor": "77317fdc048c7c0e5682c6980b34894a",
     "Server Management Plugin": "f1f0f1f09e8834f41cb0a8e80657c04a",
-    "Session Hopper": "0dc2f0ecb995ba5319ab83c4e971d2e4",
-    "Session Restore": "41e92ade4ef95891738cb899563be10b",
     "Shopping": "bd1b20741df42f76d9702be42ee56d87",
     "Site Skill Builder": "3e2174a83c1a8818efaa688ae19b2136",
     "Skill Creation Research": "88f0c50ab8e90e60823d055a1fcf2523",
     "Skill Or Not": "ef63156c7c7e6aa9f687ce1f52237d8a",
+    "Skill This": "f09379c71e85e3e38518d68a15794b09",
     "Smart Home": "7b09f9bd419aae845ed47c4cb3eb93e3",
     "Smithery Claude Code MCP Jumpstarter": "01f067df002274e3998e42b9d019b8f5",
     "Snap It": "8870924ec11cff9758a741ae306599c0",
@@ -350,18 +348,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:51:10",
-      "changes": [
-        {
-          "type": "modified",
-          "repos": [
-            "AI Video Producer"
-          ]
-        }
-      ],
-      "total_repos": 165
-    },
     {
       "date": "2026-04-30T22:54:54",
       "changes": [
@@ -2630,6 +2616,34 @@
         }
       ],
       "total_repos": 345
+    },
+    {
+      "date": "2026-11-05T17:48:21",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Dev Project Docs",
+            "Skill This"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Konsole Setup",
+            "Planning Docs",
+            "Session Hopper",
+            "Session Restore"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Multisession"
+          ]
+        }
+      ],
+      "total_repos": 343
     }
   ]
 }
