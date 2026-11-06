@@ -983,6 +983,15 @@ Interface with a Music Assistant server via its local API — onboard a deployme
 
 ---
 
+## Network Documentation
+
+### Network Playbook
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Network-Playbook) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Document a home network so it can be rebuilt after a move: scan and probe it, then keep a printable PDF playbook and an agent-readable JSON definition.
+
+---
+
 ## Network Forensics
 
 ### Network Forensics
@@ -1071,13 +1080,6 @@ Browser-driven AliExpress shopping assistant for Claude in Chrome. Bundles users
 
 ---
 
-### Anonymisation Assistant
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Anonymisation-Assistant-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Anonymise sensitive documents (whistleblower disclosures, harassment diaries, incident reports) by replacing identifying details while preserving narrative integrity.
-
----
-
 ### Audio Voice Id
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/audio-voice-id-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1138,6 +1140,13 @@ Learning resources, skill development, educational content creation and knowledg
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/mqtt-observability-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Observe and interact with an MQTT broker — monitor all payloads, watch a specific topic, and publish messages. Stores broker credentials once and reuses them.
+
+---
+
+### Obfuscation Tools
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Obfuscation-Tools) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Obfuscate logs, bug reports and sensitive documents: swap identifying details for plausible stand-ins at a chosen closeness.
 
 ---
 

@@ -944,7 +944,7 @@
       },
       "description": "Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ directory \u2014 audit, chunk, list, and edit global Claude Code user context for token efficiency.",
       "category": "AI & Context",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3375,15 +3375,15 @@
       ]
     },
     {
-      "name": "anonymisation-assistant",
-      "displayName": "Anonymisation Assistant",
+      "name": "obfuscation-tools",
+      "displayName": "Obfuscation Tools",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Anonymisation-Assistant-Plugin"
+        "repo": "danielrosehill/Obfuscation-Tools"
       },
-      "description": "Anonymise sensitive documents (whistleblower disclosures, harassment diaries, incident reports) by replacing identifying details while preserving narrative integrity.",
+      "description": "Obfuscate logs, bug reports and sensitive documents: swap identifying details for plausible stand-ins at a chosen closeness.",
       "category": "Privacy & Security",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3958,7 +3958,7 @@
       },
       "description": "Free-key finder + shortcut builder for Ubuntu: probe keys, audit bindings, bind text macros. Checks and installs ydotool/input-remapper, records lsusb IDs, finds non-conflicting keys across KDE, GNOME, input-remapper, keyd and hwdb, and binds by the route that works on X11 or Wayland, then verifies.",
       "category": "Linux Sysadmin",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4454,6 +4454,32 @@
         "plugins",
         "workflow-capture",
         "authoring"
+      ]
+    },
+    {
+      "name": "network-playbook",
+      "displayName": "Network Playbook",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Network-Playbook"
+      },
+      "description": "Document a home network so it can be rebuilt after a move: scan and probe it, then keep a printable PDF playbook and an agent-readable JSON definition.",
+      "category": "Network & Smart Home",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "network-documentation",
+        "home-network",
+        "homelab",
+        "arp-scan",
+        "typst",
+        "port-map",
+        "disaster-recovery"
       ]
     }
   ]

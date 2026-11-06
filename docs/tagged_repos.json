@@ -467,20 +467,6 @@
     "created_date": "2026-05-01"
   },
   {
-    "name": "Anonymisation Assistant",
-    "url": "https://github.com/danielrosehill/Claude-Anonymisation-Assistant-Plugin",
-    "description": "Anonymise sensitive documents (whistleblower disclosures, harassment diaries, incident reports) by replacing identifying details while preserving narrative integrity.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-10-08",
-    "slug": "anonymisation-assistant",
-    "created_date": "2024-12-16"
-  },
-  {
     "name": "Audio Production",
     "url": "https://github.com/danielrosehill/Claude-Audio-Production-Plugin",
     "description": "Audio production \u2014 normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
@@ -3630,6 +3616,20 @@
     "created_date": "2026-11-04"
   },
   {
+    "name": "Network Playbook",
+    "url": "https://github.com/danielrosehill/Network-Playbook",
+    "description": "Document a home network so it can be rebuilt after a move: scan and probe it, then keep a printable PDF playbook and an agent-readable JSON definition.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-06",
+    "slug": "network-playbook",
+    "created_date": "2026-11-06"
+  },
+  {
     "name": "Network Tmp",
     "url": "https://github.com/danielrosehill/Claude-Network-Tmp-Plugin",
     "description": "Overflow /tmp to a capped, self-wiping NFS share on a home server. For laptops whose /tmp is a small tmpfs (RAM) or whose disk is tight: an ext4 image exported over NFS, mounted on demand with a local-disk fallback, expired hourly after 24 h. Skills to set it up, route large temporary files there, and report and clean it.",
@@ -3756,6 +3756,20 @@
     "added_date": "2026-08-20",
     "slug": "obd-diagnostics",
     "created_date": "2026-08-16"
+  },
+  {
+    "name": "Obfuscation Tools",
+    "url": "https://github.com/danielrosehill/Obfuscation-Tools",
+    "description": "Obfuscate logs, bug reports and sensitive documents: swap identifying details for plausible stand-ins at a chosen closeness.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-06",
+    "slug": "obfuscation-tools",
+    "created_date": "2026-11-06"
   },
   {
     "name": "Obs Mgmt",

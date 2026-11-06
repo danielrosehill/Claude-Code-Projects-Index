@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-11-05T22:16:43",
-  "total_repos": 335,
+  "last_built": "2026-11-06T15:26:40",
+  "total_repos": 336,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -34,7 +34,6 @@
     "Amazon": "d8ca80f97f2ed4338619ff7338aa09e4",
     "An Ode To Claude": "422143d78a3227a2cbee891c66497559",
     "Android Media Importer": "8e39489e4c31953e345bf93f4311c05d",
-    "Anonymisation Assistant": "e597173846d1bb39612647c5b49e9e6a",
     "Audio Production": "cf30b214be46f858a187eec9108eff26",
     "Audio Voice Id": "842dbb86ff21e351f1acf9ea183080ba",
     "Avp Music Video": "611250c44dacf459e91673e4a98fc4c2",
@@ -246,6 +245,7 @@
     "Netek Disconnect": "c2a61c0ac564fed716bfe90307d9fd75",
     "Network Cups": "db99001e9330e0478bef1f76a0545e98",
     "Network Forensics": "e0980f6bfbfcd1856469a56295b39175",
+    "Network Playbook": "8c751f8b9ce9c5bcad4728ee13fc72a5",
     "Network Tmp": "65119529dd414d25393e0cb889bcd850",
     "New Task Split": "16701e40983b56501306530b94681ee7",
     "New Turn Claude Hook": "69e06775261d47a540621131a3097e03",
@@ -255,6 +255,7 @@
     "Non-Code Claude Code": "3ba4e338aa928549e7934531a98394db",
     "Novelty Text Editor": "3fb14bc82bd53d49087d05849e53d5fa",
     "Obd Diagnostics": "38855030276e0fe3191602de86e4ff0f",
+    "Obfuscation Tools": "f193dfd6cd26013d559716965ab83a88",
     "Obs Mgmt": "291a8e8da5ff6a10742e760d9b317134",
     "Obsidian Research Vault Template": "d5a19744fe579b919417bf2c03155cda",
     "Opnsense Mgmt": "89c7b8fbf6e6ff6dd6cfe2ea4a45aa11",
@@ -340,26 +341,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:58:21",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Gpg Ops",
-            "Report Analyst",
-            "Taxonomy Creation"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Digital Printing"
-          ]
-        }
-      ],
-      "total_repos": 169
-    },
     {
       "date": "2026-04-30T22:58:35",
       "changes": [
@@ -2645,6 +2626,25 @@
         }
       ],
       "total_repos": 335
+    },
+    {
+      "date": "2026-11-06T15:26:40",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Network Playbook",
+            "Obfuscation Tools"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Anonymisation Assistant"
+          ]
+        }
+      ],
+      "total_repos": 336
     }
   ]
 }
