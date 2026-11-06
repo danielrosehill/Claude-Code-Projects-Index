@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-11-06T15:26:40",
-  "total_repos": 336,
+  "last_built": "2026-11-06T15:27:27",
+  "total_repos": 335,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -57,7 +57,6 @@
     "Claude Agent Workspace Generator": "ec3520a6b51d7a238fefeb4967e7a25c",
     "Claude AI Conference": "c2dc95c8df716755d56f821c6cc94ed1",
     "Claude Air Traffic Control": "4a40d11971c6c50b9b234ded935ea219",
-    "Claude Anonymisation Assistant Plugin": "8de6dc43c7bfb76b906a5860728fb091",
     "Claude App Optimiser": "efc30e1ac47ec8776755224f341ae566",
     "Claude Background Hook Planner": "e31fe988ab6a894e185078922672894c",
     "Claude Book Workspace Template": "77462f3f7b74ef018a6dafca52a3b018",
@@ -255,7 +254,7 @@
     "Non-Code Claude Code": "3ba4e338aa928549e7934531a98394db",
     "Novelty Text Editor": "3fb14bc82bd53d49087d05849e53d5fa",
     "Obd Diagnostics": "38855030276e0fe3191602de86e4ff0f",
-    "Obfuscation Tools": "f193dfd6cd26013d559716965ab83a88",
+    "Obfuscation Tools": "7761ea79d6079450e3c1ea765b39df55",
     "Obs Mgmt": "291a8e8da5ff6a10742e760d9b317134",
     "Obsidian Research Vault Template": "d5a19744fe579b919417bf2c03155cda",
     "Opnsense Mgmt": "89c7b8fbf6e6ff6dd6cfe2ea4a45aa11",
@@ -341,18 +340,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:58:35",
-      "changes": [
-        {
-          "type": "modified",
-          "repos": [
-            "Programmatic Doc Generation"
-          ]
-        }
-      ],
-      "total_repos": 169
-    },
     {
       "date": "2026-04-30T22:58:52",
       "changes": [
@@ -2645,6 +2632,24 @@
         }
       ],
       "total_repos": 336
+    },
+    {
+      "date": "2026-11-06T15:27:27",
+      "changes": [
+        {
+          "type": "removed",
+          "repos": [
+            "Claude Anonymisation Assistant Plugin"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Obfuscation Tools"
+          ]
+        }
+      ],
+      "total_repos": 335
     }
   ]
 }

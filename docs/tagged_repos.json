@@ -808,22 +808,6 @@
     "created_date": "2026-08-19"
   },
   {
-    "name": "Claude Anonymisation Assistant Plugin",
-    "url": "https://github.com/danielrosehill/Claude-Anonymisation-Assistant-Plugin",
-    "description": "Assistant configuration for redacting personally identifiable details from documents.",
-    "tags": [
-      "Configuration",
-      "Plugin",
-      "Privacy"
-    ],
-    "category": "Privacy & Anonymity",
-    "category_slug": "privacy",
-    "category_group": "Non-Code",
-    "added_date": "2026-08-10",
-    "slug": "claude-anonymisation-assistant-plugin",
-    "created_date": "2024-12-16"
-  },
-  {
     "name": "Claude App Optimiser",
     "url": "https://github.com/danielrosehill/Claude-App-Optimiser",
     "description": "Slash command deploying a sub-agent for codebase optimization and dead code removal.",
@@ -3760,13 +3744,13 @@
   {
     "name": "Obfuscation Tools",
     "url": "https://github.com/danielrosehill/Obfuscation-Tools",
-    "description": "Obfuscate logs, bug reports and sensitive documents: swap identifying details for plausible stand-ins at a chosen closeness.",
+    "description": "Agent skills that obfuscate logs, bug reports and sensitive documents with plausible stand-ins at a chosen closeness.",
     "tags": [
-      "Plugin"
+      "Privacy"
     ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
+    "category": "Privacy & Anonymity",
+    "category_slug": "privacy",
+    "category_group": "Non-Code",
     "added_date": "2026-11-06",
     "slug": "obfuscation-tools",
     "created_date": "2026-11-06"
