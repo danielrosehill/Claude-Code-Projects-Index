@@ -1400,15 +1400,6 @@ Foundational advanced clipboard scripting skills for CopyQ on Ubuntu Linux — C
 
 ---
 
-## Cups
-
-### Network Cups
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Network-CUPS-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Discover, diagnose, and print to networked CUPS printers from Claude Code. Wraps the lan-mcp-cups MCP server and adds LAN discovery (avahi/Bonjour, arp-scan) plus ufw firewall sanity checks.
-
----
-
 ## Data Analysis
 
 ### Data Analyst
@@ -1680,17 +1671,17 @@ Remove image backgrounds via rembg — single-pass, two-pass cleanup, batch mode
 
 ---
 
-### Image Annotation
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Image-Annotation-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, blur/redaction) on Linux via Pillow + ImageMagick, with batch WebP conversion and PDF bundling. Originals are never modified.
-
----
-
 ### Image Production
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Image-Production-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Image production — editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.
+
+---
+
+### Screenshotting
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Screenshotting) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Linux screenshots from the CLI: capture, annotate, OCR, pixel redaction, and spoofing live web pages with stand-in data before capture.
 
 ---
 
@@ -2130,6 +2121,15 @@ Site skills built by watching a site in your own signed-in Chrome — network-fi
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Favorite-Plugins-Installers-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Curated batches of third-party Claude Code plugins, grouped by type/theme, installable in one command.
+
+---
+
+## Printing
+
+### LAN Print Scan
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/LAN-Print-Scan-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Print and scan on a local network: discover printers, keep a registry, add driverless CUPS queues, typeset Typst printouts, scan over eSCL, and share it all from one server.
 
 ---
 

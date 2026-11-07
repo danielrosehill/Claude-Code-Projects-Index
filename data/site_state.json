@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-11-06T15:27:27",
+  "last_built": "2026-11-07T13:39:02",
   "total_repos": 335,
   "total_tags": 22,
   "repo_manifest": {
@@ -193,7 +193,6 @@
     "Html Email Designer": "7c0eceb8bde7d5bc3c6c4bb1e6fdf094",
     "Ideation Planning": "cce213dee7e20f23ecf74b51ace6c18b",
     "Ikea Israel": "6007b18ce7c9d22d95a9bc53178871ee",
-    "Image Annotation": "b47aed5ace3de158afeb66fd7ac16da8",
     "Image Production": "2565e454e2cb5552695464cdcc23f726",
     "Israel Agent Skills": "a3d394e8cd027a3d4b944cd54a2021a9",
     "Israel Agent Skills Dev Index": "e50519415281a38eafcf12fa2a2ca57d",
@@ -217,6 +216,7 @@
     "Knowledge Documentation": "1fe7a5449377b3d49396171fa3425400",
     "Label Printer": "e41a01294c0ebe2d9c9cd5b8fb52d72b",
     "LAN Manager Plugin": "924cb9c87c6a8466b34df6e994b05767",
+    "LAN Print Scan": "c77bc84713aa58ca3dc9d64f2be7c9a7",
     "Learning": "bdd5fc3bf3541fd8ce6c699c6bbd7dcc",
     "Legal Investigative": "81e63590037a6a40de7d2185dfcc215b",
     "License Populator": "fcf20414f2c6e6a22d4f0ca60aa0915b",
@@ -242,7 +242,6 @@
     "Multisession": "1abca013ffc23b61298cc6b257d0b6c8",
     "My Tone Of Voice": "f650c30dbe7652b88ec9bd3bf99ebfab",
     "Netek Disconnect": "c2a61c0ac564fed716bfe90307d9fd75",
-    "Network Cups": "db99001e9330e0478bef1f76a0545e98",
     "Network Forensics": "e0980f6bfbfcd1856469a56295b39175",
     "Network Playbook": "8c751f8b9ce9c5bcad4728ee13fc72a5",
     "Network Tmp": "65119529dd414d25393e0cb889bcd850",
@@ -283,6 +282,7 @@
     "Rtl Skills": "1edae05a9b582e1c85af4836da38eaf3",
     "Rudder": "7377247197757a93bf4bd1d7ac641e6d",
     "Schedule Manager": "cfd91d0ed938158ef83ea6914df3da31",
+    "Screenshotting": "8a35390e7ce29d2337ffa579d5c16d90",
     "Security Auditor": "77317fdc048c7c0e5682c6980b34894a",
     "Server Management Plugin": "f1f0f1f09e8834f41cb0a8e80657c04a",
     "Shopping": "bd1b20741df42f76d9702be42ee56d87",
@@ -340,20 +340,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T22:58:52",
-      "changes": [
-        {
-          "type": "modified",
-          "repos": [
-            "Claude Rudder",
-            "Data Annotation",
-            "Repo To Content"
-          ]
-        }
-      ],
-      "total_repos": 169
-    },
     {
       "date": "2026-04-30T23:00:26",
       "changes": [
@@ -2646,6 +2632,26 @@
           "type": "modified",
           "repos": [
             "Obfuscation Tools"
+          ]
+        }
+      ],
+      "total_repos": 335
+    },
+    {
+      "date": "2026-11-07T13:39:02",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "LAN Print Scan",
+            "Screenshotting"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Image Annotation",
+            "Network Cups"
           ]
         }
       ],

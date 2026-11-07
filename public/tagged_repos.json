@@ -2840,20 +2840,6 @@
     "created_date": "2026-09-17"
   },
   {
-    "name": "Image Annotation",
-    "url": "https://github.com/danielrosehill/Claude-Image-Annotation-Plugin",
-    "description": "Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, blur/redaction) on Linux via Pillow + ImageMagick, with batch WebP conversion and PDF bundling. Originals are never modified.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-28",
-    "slug": "image-annotation",
-    "created_date": "2026-04-28"
-  },
-  {
     "name": "Image Production",
     "url": "https://github.com/danielrosehill/Claude-Image-Production-Plugin",
     "description": "Image production \u2014 editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.",
@@ -3202,6 +3188,20 @@
     "added_date": "2026-10-19",
     "slug": "lan-manager-plugin",
     "created_date": "2025-11-15"
+  },
+  {
+    "name": "LAN Print Scan",
+    "url": "https://github.com/danielrosehill/LAN-Print-Scan-Plugin",
+    "description": "Print and scan on a local network: discover printers, keep a registry, add driverless CUPS queues, typeset Typst printouts, scan over eSCL, and share it all from one server.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-07",
+    "slug": "lan-print-scan",
+    "created_date": "2026-11-07"
   },
   {
     "name": "Learning",
@@ -3569,21 +3569,6 @@
     "added_date": "2026-08-03",
     "slug": "netek-disconnect",
     "created_date": "2026-07-30"
-  },
-  {
-    "name": "Network Cups",
-    "url": "https://github.com/danielrosehill/Claude-Network-CUPS-Plugin",
-    "description": "Discover, diagnose, and print to networked CUPS printers from Claude Code. Wraps the lan-mcp-cups MCP server and adds LAN discovery (avahi/Bonjour, arp-scan) plus ufw firewall sanity checks.",
-    "tags": [
-      "MCP",
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-30",
-    "slug": "network-cups",
-    "created_date": "2026-04-30"
   },
   {
     "name": "Network Forensics",
@@ -4168,6 +4153,21 @@
     "added_date": "2026-04-28",
     "slug": "schedule-manager",
     "created_date": "2026-04-28"
+  },
+  {
+    "name": "Screenshotting",
+    "url": "https://github.com/danielrosehill/Screenshotting",
+    "description": "Linux screenshots from the CLI: capture, annotate, OCR, pixel redaction, and spoofing live web pages with stand-in data before capture.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-07",
+    "slug": "screenshotting",
+    "created_date": "2026-11-07"
   },
   {
     "name": "Security Auditor",

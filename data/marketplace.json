@@ -1630,15 +1630,15 @@
       ]
     },
     {
-      "name": "image-annotation",
-      "displayName": "Image Annotation",
+      "name": "screenshotting",
+      "displayName": "Screenshotting",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Image-Annotation-Plugin"
+        "repo": "danielrosehill/Screenshotting"
       },
-      "description": "Capture screenshots and apply annotations (arrows, callouts, boxes, highlights, blur/redaction) on Linux via Pillow + ImageMagick, with batch WebP conversion and PDF bundling. Originals are never modified.",
+      "description": "Linux screenshots from the CLI: capture, annotate, OCR, pixel redaction, and spoofing live web pages with stand-in data before capture.",
       "category": "Media Editing",
-      "version": "1.1.0",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2317,15 +2317,15 @@
       ]
     },
     {
-      "name": "network-cups",
+      "name": "lan-print-scan",
       "displayName": "Network CUPS",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Network-CUPS-Plugin"
+        "repo": "danielrosehill/LAN-Print-Scan-Plugin"
       },
-      "description": "Discover, diagnose, and print to networked CUPS printers from Claude Code. Wraps the lan-mcp-cups MCP server and adds LAN discovery (avahi/Bonjour, arp-scan) plus ufw firewall sanity checks.",
+      "description": "Print and scan on a local network: discover printers, keep a registry, add driverless CUPS queues, typeset Typst printouts, scan over eSCL, and share it all from one server.",
       "category": "Network & Smart Home",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2333,11 +2333,11 @@
       },
       "license": "MIT",
       "tags": [
-        "cups",
         "printing",
-        "homelab",
-        "mcp",
-        "network-discovery"
+        "scanning",
+        "cups",
+        "escl",
+        "homelab"
       ]
     },
     {
