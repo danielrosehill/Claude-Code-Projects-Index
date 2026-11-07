@@ -1636,9 +1636,9 @@
         "source": "github",
         "repo": "danielrosehill/Screenshotting"
       },
-      "description": "Linux screenshots from the CLI: capture, annotate, OCR, pixel redaction, and spoofing live web pages with stand-in data before capture.",
+      "description": "Linux screenshots from the CLI: capture, annotate, OCR, scan for PII and secrets, then redact or spoof live pages with stand-in data.",
       "category": "Media Editing",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4442,7 +4442,7 @@
       },
       "description": "Turn a workflow into a reusable skill, or improve an existing one with what you just learned, and publish it.",
       "category": "AI & Context",
-      "version": "0.5.1",
+      "version": "0.6.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",

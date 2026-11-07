@@ -773,7 +773,7 @@ Image production — editing, format conversion, batch ops, and filesystem organ
 ### Screenshotting
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Screenshotting) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Linux screenshots from the CLI: capture, annotate, OCR, pixel redaction, and spoofing live web pages with stand-in data before capture.
+Linux screenshots from the CLI: capture, annotate, OCR, scan for PII and secrets, then redact or spoof live pages with stand-in data.
 
 ---
 

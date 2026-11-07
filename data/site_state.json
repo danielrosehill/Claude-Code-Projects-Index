@@ -1,5 +1,5 @@
 {
-  "last_built": "2026-11-07T13:39:02",
+  "last_built": "2026-11-07T13:44:53",
   "total_repos": 335,
   "total_tags": 22,
   "repo_manifest": {
@@ -282,7 +282,7 @@
     "Rtl Skills": "1edae05a9b582e1c85af4836da38eaf3",
     "Rudder": "7377247197757a93bf4bd1d7ac641e6d",
     "Schedule Manager": "cfd91d0ed938158ef83ea6914df3da31",
-    "Screenshotting": "8a35390e7ce29d2337ffa579d5c16d90",
+    "Screenshotting": "d8f4493555a179b5ac785e8c0abd844b",
     "Security Auditor": "77317fdc048c7c0e5682c6980b34894a",
     "Server Management Plugin": "f1f0f1f09e8834f41cb0a8e80657c04a",
     "Shopping": "bd1b20741df42f76d9702be42ee56d87",
@@ -340,18 +340,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T23:00:26",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Document To Markdown"
-          ]
-        }
-      ],
-      "total_repos": 170
-    },
     {
       "date": "2026-04-30T23:02:03",
       "changes": [
@@ -2652,6 +2640,18 @@
           "repos": [
             "Image Annotation",
             "Network Cups"
+          ]
+        }
+      ],
+      "total_repos": 335
+    },
+    {
+      "date": "2026-11-07T13:44:53",
+      "changes": [
+        {
+          "type": "modified",
+          "repos": [
+            "Screenshotting"
           ]
         }
       ],

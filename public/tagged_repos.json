@@ -4157,7 +4157,7 @@
   {
     "name": "Screenshotting",
     "url": "https://github.com/danielrosehill/Screenshotting",
-    "description": "Linux screenshots from the CLI: capture, annotate, OCR, pixel redaction, and spoofing live web pages with stand-in data before capture.",
+    "description": "Linux screenshots from the CLI: capture, annotate, OCR, scan for PII and secrets, then redact or spoof live pages with stand-in data.",
     "tags": [
       "Plugin",
       "Tool"
