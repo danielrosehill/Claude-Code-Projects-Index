@@ -30,8 +30,8 @@ JSON. It has no website of its own any more (see "Where the index is published")
 | Surface | URL | Source |
 | --- | --- | --- |
 | Web listing | https://ai.danielrosehill.com/claude-code | monorepo `danielrosehill/danielrosehilldotcom`, `site-ai/` |
-| Repo detail pages | https://ai.danielrosehill.com/claude-code/<slug>/ | same; one per entry in `tagged_repos.json`, plugins included |
-| Ideas / About | https://ai.danielrosehill.com/claude-code/ideas/…, /claude-code/about/ | same; ported from this repo's old Astro site |
+| Repo detail pages | https://ai.danielrosehill.com/claude-code/<slug> | same; one per entry in `tagged_repos.json`, plugins included |
+| Ideas / About | https://ai.danielrosehill.com/claude-code/ideas/…, /claude-code/about | same; ported from this repo's old Astro site |
 | Data | https://raw.githubusercontent.com/danielrosehill/Claude-Code-Projects-Index/main/data/tagged_repos.json | this repo, `npm run build` |
 | GitHub views | `README.md` (by category), `newest.md` (newest first) | this repo |
 
