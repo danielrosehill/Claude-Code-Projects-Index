@@ -1,3 +1,58 @@
 {
-  "outputDirectory": "docs"
+  "outputDirectory": "redirect",
+  "buildCommand": "echo \"data-only repo: redirects only\"",
+  "redirects": [
+    {
+      "source": "/repos/:slug/",
+      "destination": "https://ai.danielrosehill.com/claude-code/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/repos/:slug",
+      "destination": "https://ai.danielrosehill.com/claude-code/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/ideas/:path*",
+      "destination": "https://ai.danielrosehill.com/claude-code/ideas/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/about/?",
+      "destination": "https://ai.danielrosehill.com/claude-code/about",
+      "permanent": true
+    },
+    {
+      "source": "/plugins/?",
+      "destination": "https://ai.danielrosehill.com/plugins",
+      "permanent": true
+    },
+    {
+      "source": "/tagged_repos.json",
+      "destination": "https://raw.githubusercontent.com/danielrosehill/Claude-Code-Projects-Index/main/data/tagged_repos.json",
+      "permanent": false
+    },
+    {
+      "source": "/categories.json",
+      "destination": "https://raw.githubusercontent.com/danielrosehill/Claude-Code-Projects-Index/main/data/categories.json",
+      "permanent": false
+    },
+    {
+      "source": "/repos.json",
+      "destination": "https://raw.githubusercontent.com/danielrosehill/Claude-Code-Projects-Index/main/data/repos.json",
+      "permanent": false
+    },
+    {
+      "source": "/llms.txt",
+      "destination": "https://ai.danielrosehill.com/llms.txt",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://ai.danielrosehill.com/claude-code",
+      "permanent": true
+    }
+  ],
+  "framework": null,
+  "installCommand": "echo skip"
 }

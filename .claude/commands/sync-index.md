@@ -4,14 +4,16 @@ Sync the index by discovering and adding new repositories, then giving the whole
 
 | Surface | URL | Updated by |
 | --- | --- | --- |
-| Index site | https://claude.danielrosehill.com | Vercel, on push to `main` (committed `docs/`) |
-| AI microsite listing | https://ai.danielrosehill.com/claude-code | `refresh-claude-index.yml` in `danielrosehill/danielrosehilldotcom` (Step 9) |
+| Web listing (the only web home) | https://ai.danielrosehill.com/claude-code | `refresh-claude-index.yml` in `danielrosehill/danielrosehilldotcom` (Step 9) |
+| Repo detail pages | https://ai.danielrosehill.com/claude-code/<slug>/ | same |
+| Data | `data/tagged_repos.json` on raw.githubusercontent.com | `npm run build` + push |
 | GitHub README (by category) | `README.md` | `npm run build` |
 | GitHub newest-first view | `newest.md` | `npm run build` (`build_newest_page` in `scripts/build_site.py`) |
 
-The site has three views on the home page: **Newest** (default, by `created_date`), **A–Z**, and **By category**
-(grouped under headings in `categories.json` order). The README/`newest.md` pair mirrors that in markdown.
-Every finished sync report to the user ends with links to both the index site and the AI microsite page.
+claude.danielrosehill.com was retired on 2026-11-13 and only redirects to the AI site (see CLAUDE.md). The AI
+listing has three views: **Newest** (default, by `created_date`), **A–Z**, and **By category** (in
+`data/categories.json` order). The README/`newest.md` pair mirrors that in markdown.
+Every finished sync report to the user ends with the link https://ai.danielrosehill.com/claude-code.
 
 ## Step 1: Discover new repos
 
@@ -110,52 +112,51 @@ with a fabricated value, so do this *before* building:
 python3 scripts/fetch_created_dates.py
 ```
 
-## Step 7: Build and deploy
+## Step 7: Build
 
 ```bash
 npm run build
 ```
 
-This runs the data pipeline, then Astro, then `scripts/check_links.py` — which
-fails the build if any internal link points at a page that was not generated.
+This is the Python data pipeline only (`scripts/build_site.py`): README, split pages, `newest.md` and `data/*.json`.
+
+For bulk edits (several adds, renames, deletions, description fixes) write a JSON ops file and run
+`python3 scripts/index_entries.py ops.json` instead of hand-editing; it re-sorts each section alphabetically.
 
 ## Step 8: Commit and push
 
 Commit all changes with a descriptive message listing the added repos, then push:
 
 ```bash
-git add -A
+git add categories/ data/ README.md newest.md research.md plugins.md misc.md
 git commit -m "Add [N] new repositories to index: [list names]
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 git push
 ```
 
-## Step 9: Propagate to the AI microsite
+## Step 9: Publish on the AI site
 
-`https://ai.danielrosehill.com/claude-code` (monorepo `danielrosehill/danielrosehilldotcom`) lists this index,
-plugins included, from `https://claude.danielrosehill.com/tagged_repos.json`. On its own it only picks up changes
-at the daily 04:30 UTC run of `refresh-claude-index.yml`, so trigger that run after the deploy:
+`https://ai.danielrosehill.com/claude-code` (monorepo `danielrosehill/danielrosehilldotcom`, `site-ai/`) reads
+`https://raw.githubusercontent.com/danielrosehill/Claude-Code-Projects-Index/main/data/tagged_repos.json` at build
+time. It only rebuilds on its own pushes (daily 04:30 UTC run of `refresh-claude-index.yml`), so trigger it:
 
-1. Wait for the Vercel deploy, then confirm the live JSON has the new repos (the thing itself, not the push):
+1. Confirm the pushed data is live on raw GitHub (the thing itself, not the push; the CDN can lag a minute or two):
    ```bash
-   curl -s https://claude.danielrosehill.com/tagged_repos.json | python3 -c "import json,sys; n={r['name'] for r in json.load(sys.stdin)}; print([x for x in ['<New Repo Name>'] if x not in n])"
+   curl -s https://raw.githubusercontent.com/danielrosehill/Claude-Code-Projects-Index/main/data/tagged_repos.json | python3 -c "import json,sys; n={r['name'] for r in json.load(sys.stdin)}; print([x for x in ['<New Repo Name>'] if x not in n])"
    ```
-   An empty list means it is live. Retry every minute or so; do not dispatch before it is.
+   An empty list means it is live. Do not dispatch before it is.
 2. Dispatch the refresh and watch it:
    ```bash
    gh workflow run refresh-claude-index.yml -R danielrosehill/danielrosehilldotcom
    gh run list -R danielrosehill/danielrosehilldotcom --workflow refresh-claude-index.yml --limit 1
    gh run watch <run-id> -R danielrosehill/danielrosehilldotcom --interval 60
    ```
-   The workflow commits `shared/data/claude-index.snapshot.json` only when the index changed. That commit is what
-   lets the AI site past Vercel's ignore step and rebuild. The rebuild also refetches the plugin marketplace
-   (`shared/data/marketplace.ts`), so new plugins reach its plugins section by the same route. A run that logs
-   "Unchanged" means step 1 was skipped or the deploy was not live yet.
-3. After the AI site rebuilds, check `https://ai.danielrosehill.com/claude-code` for one of the new repo names.
-4. Finish the report to the user with both deployed links:
-   - https://claude.danielrosehill.com
-   - https://ai.danielrosehill.com/claude-code
+   The workflow commits `shared/data/claude-index.snapshot.json` only when the index changed; that commit triggers
+   the AI site's Vercel rebuild (which also refetches the plugin marketplace). "No change" means step 1 was skipped.
+3. After the rebuild, check `https://ai.danielrosehill.com/claude-code` and one new
+   `https://ai.danielrosehill.com/claude-code/<slug>/` page for the new repos.
+4. Finish the report to the user with the link https://ai.danielrosehill.com/claude-code.
 
 ## Notes
 

@@ -13,9 +13,9 @@ echo "[pre-push] Running site build pipeline..."
 python3 "$REPO_ROOT/scripts/build_site.py"
 
 # Check if the build produced any uncommitted changes
-if ! git diff --quiet -- README.md docs/ data/; then
+if ! git diff --quiet -- README.md newest.md data/; then
     echo "[pre-push] Build produced changes — auto-committing..."
-    git add README.md docs/ data/
+    git add README.md newest.md data/
     git commit -m "Rebuild site data for deployment
 
 Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"

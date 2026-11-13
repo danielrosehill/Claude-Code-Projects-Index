@@ -4,7 +4,7 @@
 
 A curated collection of Claude Code projects, agent workspace blueprints, and related resources — organized by use case. Most patterns here adapt to other agentic AI CLIs and frameworks.
 
-**[Browse online](https://claude.danielrosehill.com)** · **[On ai.danielrosehill.com](https://ai.danielrosehill.com/claude-code)** · **[Newest first](./newest.md)** · **[Plugins Marketplace](https://github.com/danielrosehill/Claude-Code-Plugins)** · **[Documentation portal](https://docs.bydanielrosehill.com)** · **[What are Claude Spaces?](./claude-spaces.md)**
+**[Browse online](https://ai.danielrosehill.com/claude-code)** · **[Newest first](./newest.md)** · **[Plugins Marketplace](https://github.com/danielrosehill/Claude-Code-Plugins)** · **[Documentation portal](https://docs.bydanielrosehill.com)** · **[What are Claude Spaces?](./claude-spaces.md)**
 
 > 🧭 **Start here: [Marketplace Guide](https://github.com/danielrosehill/Claude-Marketplace-Guide-Plugin)**. This is the suggested way into my [Claude Code Plugins Marketplace](https://github.com/danielrosehill/Claude-Code-Plugins). Install it (`/plugin install marketplace-guide@danielrosehill`) and ask Claude *"what's in the marketplace?"* or *"is there a plugin for X?"*. It browses every plugin by theme (Israel & Hebrew, homelab, Linux desktop, Claude Code tooling, shopping, writing…), recommends plugins for a task and shows what's new, all read live from the marketplace manifest.
 

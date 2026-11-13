@@ -22,13 +22,13 @@ Run the complete index maintenance pipeline: update charts, review README, sync 
    ```bash
    npm run build
    ```
-2. Cross-check that repo counts match across: category files, `data/repos.json`, `docs/tagged_repos.json`, and `data/site_state.json`.
-3. Verify every repo appears in `docs/tagged_repos.json` with valid tags and categories.
-4. Verify `docs/repos/` has detail pages for all repos.
+2. Cross-check that repo counts match across: category files, `data/repos.json`, `data/tagged_repos.json`, and `data/site_state.json`.
+3. Verify every repo appears in `data/tagged_repos.json` with valid tags and categories.
+4. Spot-check that new repos have pages at https://ai.danielrosehill.com/claude-code/<slug>/ (after the AI site refresh).
 
 ## Phase 4: Review Frontend Quality
 
-1. Check `docs/tagged_repos.json` for:
+1. Check `data/tagged_repos.json` for:
    - Repos with missing/generic descriptions
    - Repos with only fallback tags
    - Correct category assignments
@@ -39,7 +39,7 @@ Run the complete index maintenance pipeline: update charts, review README, sync 
 
 1. Stage all changed files:
    ```bash
-   git add categories/ data/ docs/ charts/ README.md
+   git add categories/ data/ charts/ README.md newest.md
    ```
 2. Commit with a descriptive message summarizing what was fixed/updated.
 3. Push to remote:
