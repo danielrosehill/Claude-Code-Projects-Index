@@ -21,7 +21,7 @@ Workspace for challenging personal beliefs through AI-generated counterarguments
 ### Panel Of Claude
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Panel-Of-Claude) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
-Exploratory model running multiple agents as a panel debate.
+Runs several agent personas as a panel that debates a question and returns the range of views.
 
 ---
 
@@ -31,4 +31,3 @@ Exploratory model running multiple agents as a panel debate.
 Claude Code workspace for finding people who hold specific viewpoints within a policy debate, surfacing voices that keyword search misses.
 
 ---
-

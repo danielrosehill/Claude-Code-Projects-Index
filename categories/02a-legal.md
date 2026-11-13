@@ -10,4 +10,3 @@ Workspaces and templates for legal research, case management, and evidence handl
 Claude Code template for building version-controlled containers for legal files and case material.
 
 ---
-

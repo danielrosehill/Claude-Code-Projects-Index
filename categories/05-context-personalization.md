@@ -88,13 +88,6 @@ Workflow methodology for separating human-authored context from structured AI ag
 
 ---
 
-### Habits Of Claude
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Habits-Of-Claude) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
-
-Splits a user-level system prompt into one file per standing habit, assembled into a pasteable block and a JSON index. Ships skills to install a subset into any CLAUDE.md and to reconcile drift when the prompt and the repo disagree.
-
----
-
 ### Home Folder Claude MD
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Home-Folder-Claude-MD) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
 

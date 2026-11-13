@@ -11,10 +11,10 @@ Early standalone Claude Code plugin with slash commands for AI tool management a
 
 ---
 
-### Claude Code MCP Command Generator
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-MCP-Command-Generator)
+### Canopy
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Canopy)
 
-Generator for creating MCP server configuration commands for Claude Code.
+Self-hosted progressive discovery for AI agents: one connector through which skills, plugins and MCP tools are searched and loaded on demand from a home server, so a large library doesn't flood the agent's context. Extends MCPJungle.
 
 ---
 
@@ -29,13 +29,6 @@ Curated index of MCP servers organized into 14+ categories for extending Claude 
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-MCP-Guidelines) ![Light Touch](https://img.shields.io/badge/Light-Touch-lightgray?style=flat-square)
 
 Home-folder CLAUDE.md snippet giving an agent guidance on which MCP server to reach for.
-
----
-
-### Claude Meta MCP Slash
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Meta-MCP-Slash) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
-
-Template `/install-mcp` slash command that routes MCP server installations across multiple MetaMCP instances using a tiered preference system.
 
 ---
 

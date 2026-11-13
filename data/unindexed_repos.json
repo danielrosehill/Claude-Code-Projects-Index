@@ -70,6 +70,11 @@
     "description": "Demonstration modelling how a chained LLM agent workflow could be used to expedite the generation of personal contextual data for personalised LLM experiences and personal RAG development"
   },
   {
+    "name": "Agentic-Long-Form-Content",
+    "url": "https://github.com/danielrosehill/Agentic-Long-Form-Content",
+    "description": "Pattern spec: producing long-form content with teams of agents \u2014 delegation, documents as consistency, seam review, per-type production."
+  },
+  {
     "name": "Agents-Index",
     "url": "https://github.com/danielrosehill/Agents-Index",
     "description": "Periodically updated index of AI agent configurations that I'm working on (or have created)"
@@ -103,6 +108,11 @@
     "name": "AI-Assistant-Template",
     "url": "https://github.com/danielrosehill/AI-Assistant-Template",
     "description": "Template repository for version controlling AI assistant configurations (and associated elements like context data)"
+  },
+  {
+    "name": "AI-Assistant-Triage",
+    "url": "https://github.com/danielrosehill/AI-Assistant-Triage",
+    "description": ""
   },
   {
     "name": "AI-Assisted-Policymaking-Index",
@@ -360,6 +370,11 @@
     "description": "Template for a thin downstream fork of an active Android app: narrow hooks, weekly auto-merge of upstream releases, seam checks, signed release APKs via GitHub Actions"
   },
   {
+    "name": "Android-USB-C-Microphones",
+    "url": "https://github.com/danielrosehill/Android-USB-C-Microphones",
+    "description": "Open dataset: how USB microphones behave on Android phones, by mic, phone and connection method"
+  },
+  {
     "name": "Android-Voice-Keyboard-Roundup",
     "url": "https://github.com/danielrosehill/Android-Voice-Keyboard-Roundup",
     "description": "Evaluation matrix for open-source Android voice keyboards: voice IME vs full keyboard vs floating button, local vs cloud vs automatic fallback, and which ASR model"
@@ -410,6 +425,11 @@
     "description": "Light-touch text-in/text-out model that cleans raw Parakeet v2 dictation: disfluencies, contractions, paragraphs. Planning stage."
   },
   {
+    "name": "ASR-Recursive-Improvement-Loop",
+    "url": "https://github.com/danielrosehill/ASR-Recursive-Improvement-Loop",
+    "description": "Idea documentation: a playbook and Claude Code skill for improving a personal ASR model from its own transcript history"
+  },
+  {
     "name": "ASR-Regex-Post-Processing",
     "url": "https://github.com/danielrosehill/ASR-Regex-Post-Processing",
     "description": "Regex snippets for cleaning up speech-to-text output \u2014 Android (ICU) first, with Linux engine differences flagged and machine-checked."
@@ -443,6 +463,11 @@
     "name": "audacity-transcription-presets",
     "url": "https://github.com/danielrosehill/audacity-transcription-presets",
     "description": "Export presets, silence-trimming settings and macros for turning an Audacity recording into a file optimised for Whisper/AssemblyAI transcription"
+  },
+  {
+    "name": "Audio-Dataset-Backup",
+    "url": "https://github.com/danielrosehill/Audio-Dataset-Backup",
+    "description": "Gathers Daniel's Hugging Face audio datasets into a pinned, checksummed, disc-sized point-in-time archive (M-DISC / cloud)"
   },
   {
     "name": "Audio-Multimodal-AI-Resources",
@@ -550,6 +575,11 @@
     "description": "Indexing repo of backup related projects and scripts"
   },
   {
+    "name": "Batch-Run-Costs",
+    "url": "https://github.com/danielrosehill/Batch-Run-Costs",
+    "description": "Record of batch inference runs: data size, model, API cost and how well each did"
+  },
+  {
     "name": "Better-Hashnode-Backups",
     "url": "https://github.com/danielrosehill/Better-Hashnode-Backups",
     "description": "Backups a Hashnode blog including the images from the CDN"
@@ -625,6 +655,21 @@
     "description": "Webcam-driven adaptive screen brightness for KDE Plasma on Wayland"
   },
   {
+    "name": "Canopy",
+    "url": "https://github.com/danielrosehill/Canopy",
+    "description": "Self-hosted progressive discovery for AI agents: search and load skills, plugins and tools on demand. Extends MCPJungle."
+  },
+  {
+    "name": "Canopy-Planning",
+    "url": "https://github.com/danielrosehill/Canopy-Planning",
+    "description": "Notes and ideas: bringing Canopy (self-hosted progressive discovery for skills and tools) together with an agent-to-agent layer (Claude-Net)"
+  },
+  {
+    "name": "Canopy-Recommended",
+    "url": "https://github.com/danielrosehill/Canopy-Recommended",
+    "description": "Claude Code plugins for an agent working on your local network, for Canopy users. Pinned to reviewed commits."
+  },
+  {
     "name": "Career-Data-AI-Context-Repo",
     "url": "https://github.com/danielrosehill/Career-Data-AI-Context-Repo",
     "description": "Context repository for AI tools providing career info to guide agents, assistants, etc"
@@ -660,14 +705,29 @@
     "description": "Some boilerplate responses to \"how do  you want ChatGPT to behave\"? to play around with creating different chat experiences through simple configs"
   },
   {
+    "name": "Chrome-Omnibox-Search-Strings",
+    "url": "https://github.com/danielrosehill/Chrome-Omnibox-Search-Strings",
+    "description": ""
+  },
+  {
+    "name": "Claude-Horn",
+    "url": "https://github.com/danielrosehill/Claude-Horn",
+    "description": "Agent needs you? It toots a horn on your desktop, then escalates to a louder horn on your other machines. MQTT server + Linux tray client."
+  },
+  {
+    "name": "Claude-Net",
+    "url": "https://github.com/danielrosehill/Claude-Net",
+    "description": "Agent-to-agent messaging between two people's Claude Code sessions over a tailnet relay"
+  },
+  {
+    "name": "Claude-Transcription-Plugin",
+    "url": "https://github.com/danielrosehill/Claude-Transcription-Plugin",
+    "description": "Claude Code plugin: audio transcription workflow \u2014 denoise, VAD, transcribe (Gemini/AssemblyAI/Whisper), clean, structure, export, with cloud and local engine backends."
+  },
+  {
     "name": "Client-Update-Pipeline-Notes",
     "url": "https://github.com/danielrosehill/Client-Update-Pipeline-Notes",
     "description": "Planning notes for a concept agentic emailing pipeline"
-  },
-  {
-    "name": "Cloud-ASR-MCP",
-    "url": "https://github.com/danielrosehill/Cloud-ASR-MCP",
-    "description": "WIP MCP for using various cloud ASR models for speech to text / transcription"
   },
   {
     "name": "Cloud-Backup-Scripts",
@@ -688,11 +748,6 @@
     "name": "Compatibility-Notes",
     "url": "https://github.com/danielrosehill/Compatibility-Notes",
     "description": "Notes verifying compatibility between components"
-  },
-  {
-    "name": "Computer-Monitor-Purchase-0812",
-    "url": "https://github.com/danielrosehill/Computer-Monitor-Purchase-0812",
-    "description": "Purchase research for a computer monitor (display panel) \u2014 spec capture, candidate evaluation and landed cost"
   },
   {
     "name": "Conspiracy-Endorsement-Eval",
@@ -758,6 +813,16 @@
     "name": "Dan-Eval",
     "url": "https://github.com/danielrosehill/Dan-Eval",
     "description": "Composite of my pet-peeve evaluations for models I'm considering adopting: Israel/Palestine framing, Chinese censorship, American centrism (placeholder)"
+  },
+  {
+    "name": "Daniel-ASR-Notes",
+    "url": "https://github.com/danielrosehill/Daniel-ASR-Notes",
+    "description": "Daniel's working notes on ASR models: quirks, limits and findings"
+  },
+  {
+    "name": "Daniel-Handwriting-Recognition",
+    "url": "https://github.com/danielrosehill/Daniel-Handwriting-Recognition",
+    "description": "Fine-tuning a handwriting recognition (HTR) model on Daniel's handwriting: data collection plan, ground truth, training"
   },
   {
     "name": "danielrosehill",
@@ -845,9 +910,9 @@
     "description": "Some desktop wallpapers"
   },
   {
-    "name": "Development-Project-Index",
-    "url": "https://github.com/danielrosehill/Development-Project-Index",
-    "description": "Combined indexer for projects on Github and Hugging Face"
+    "name": "Device-Mappings",
+    "url": "https://github.com/danielrosehill/Device-Mappings",
+    "description": "Index of Linux input-device identifications and button mappings (gamepads, macro pads, pedals, buttons)"
   },
   {
     "name": "Diarised-Transcript-Assistant",
@@ -858,6 +923,11 @@
     "name": "dictamic",
     "url": "https://github.com/danielrosehill/dictamic",
     "description": "Fix laptop internal-mic voice recognition accuracy on Linux: PipeWire WebRTC AGC pipeline + monitor GUI (.deb)"
+  },
+  {
+    "name": "Dictation-Format-Adapters",
+    "url": "https://github.com/danielrosehill/Dictation-Format-Adapters",
+    "description": "Bounded catalogue of LoRA format adapters (shopping list, emails, blog outline, calendar JSON) on a 0.6B dictation cleanup model"
   },
   {
     "name": "Dictation-Macropad",
@@ -1035,14 +1105,14 @@
     "description": "Local MCP for using Nano Banana via Fal AI"
   },
   {
+    "name": "Falafel-Wyoming-STT",
+    "url": "https://github.com/danielrosehill/Falafel-Wyoming-STT",
+    "description": "Wyoming speech-to-text server for the Falafel voice-command ASR model (sherpa-onnx), for Home Assistant Assist"
+  },
+  {
     "name": "Family-First-Aid-Android",
     "url": "https://github.com/danielrosehill/Family-First-Aid-Android",
     "description": "Offline Android first-aid app for families in Israel (MDA / Hatzalah): adult + child protocols, interactive decision flows, spaced review. Not medical advice."
-  },
-  {
-    "name": "Family-Page",
-    "url": "https://github.com/danielrosehill/Family-Page",
-    "description": "Simple Android APK paging button"
   },
   {
     "name": "Favorite-Code-Libraries",
@@ -1050,9 +1120,14 @@
     "description": ""
   },
   {
-    "name": "Feature-Ideas-And-Requests",
-    "url": "https://github.com/danielrosehill/Feature-Ideas-And-Requests",
-    "description": "General feature requests for tech tools that I use and love!"
+    "name": "FeedCoin",
+    "url": "https://github.com/danielrosehill/FeedCoin",
+    "description": "Idea documentation: a standard credit vendors issue to people who improve their paid products, applied against the subscription fee"
+  },
+  {
+    "name": "Firehose",
+    "url": "https://github.com/danielrosehill/Firehose",
+    "description": "Daily digest of public GitHub, Hugging Face and blog activity, with links to the original sources"
   },
   {
     "name": "FirstEntryPublic",
@@ -1063,6 +1138,11 @@
     "name": "Foot-Pedal-Dictation-Routing-KDE-Wayland",
     "url": "https://github.com/danielrosehill/Foot-Pedal-Dictation-Routing-KDE-Wayland",
     "description": "Routing one foot pedal to several dictation engines on KDE Wayland: why key collisions are deterministic not racy, and the xremap config that fixes them"
+  },
+  {
+    "name": "Gefilte-TTS",
+    "url": "https://github.com/danielrosehill/Gefilte-TTS",
+    "description": "Personal Hebrew TTS voice from a non-native speaker's read sentences"
   },
   {
     "name": "Gemini-31-Lite-Audio-Understanding-Eval",
@@ -1088,11 +1168,6 @@
     "name": "Gemini-Prompt-Library-ideator",
     "url": "https://github.com/danielrosehill/Gemini-Prompt-Library-ideator",
     "description": "Using Gemini structured outputs to ideate a prompt library for Open Web UI"
-  },
-  {
-    "name": "Gemini-Transcription-MCP",
-    "url": "https://github.com/danielrosehill/Gemini-Transcription-MCP",
-    "description": "MCP for Gemini multimodal audio transcription with built in post-processing"
   },
   {
     "name": "Gemini-Ubuntu-Maintenance-Agent",
@@ -1190,6 +1265,11 @@
     "description": "A series of search links for those wishing to drink from the firehose of open-source AI"
   },
   {
+    "name": "GitHub-Discovery",
+    "url": "https://github.com/danielrosehill/GitHub-Discovery",
+    "description": "Android app for discovering GitHub repos: browse topics, use desktop-grade advanced search operators on mobile, sort by newest or most starred, and star repos into Lists. Read-only apart from starring."
+  },
+  {
     "name": "Github-Explorer",
     "url": "https://github.com/danielrosehill/Github-Explorer",
     "description": "WIP/Notes"
@@ -1198,11 +1278,6 @@
     "name": "Github-Gists-Backup-Public",
     "url": "https://github.com/danielrosehill/Github-Gists-Backup-Public",
     "description": "Backup script for backing up Github Gists"
-  },
-  {
-    "name": "Github-Ideas-And-FRs",
-    "url": "https://github.com/danielrosehill/Github-Ideas-And-FRs",
-    "description": "Ideas and feature requests contributed to Github projects"
   },
   {
     "name": "GitHub-Management-Tools-Index",
@@ -1260,6 +1335,11 @@
     "description": "ChatGPT-generated Python scripts for various purposes"
   },
   {
+    "name": "GPU-Research-Notebook",
+    "url": "https://github.com/danielrosehill/GPU-Research-Notebook",
+    "description": "A mini notebook for researching GPUs: specs, comparisons, pricing and notes."
+  },
+  {
     "name": "Grafana-News-Monitoring-Dashboards",
     "url": "https://github.com/danielrosehill/Grafana-News-Monitoring-Dashboards",
     "description": "News monitoring dashboards focused on Israeli & ME News"
@@ -1278,6 +1358,11 @@
     "name": "GROUNDING.md",
     "url": "https://github.com/danielrosehill/GROUNDING.md",
     "description": "Whitelist of authoritative URLs for agent grounding (official docs, canonical specs). Part of AI-Dev-Workspace-Primitives."
+  },
+  {
+    "name": "Guava-HA-Integration",
+    "url": "https://github.com/danielrosehill/Guava-HA-Integration",
+    "description": "Unofficial Home Assistant integration for logging medication doses to Guava Health: buttons, an action, and multi-profile support"
   },
   {
     "name": "GVFD-Derivative-Docs",
@@ -1303,6 +1388,11 @@
     "name": "ha-ir-ac-comfort-thermostat",
     "url": "https://github.com/danielrosehill/ha-ir-ac-comfort-thermostat",
     "description": "Home Assistant pattern: single-room comfort thermostat for an IR-only AC (assumed state, fan + setpoint loop)"
+  },
+  {
+    "name": "HA-Light-Capability-Groups",
+    "url": "https://github.com/danielrosehill/HA-Light-Capability-Groups",
+    "description": "Home Assistant blueprint: auto-sort every light into on/off, dimmable, tunable-white and colour groups by its capabilities"
   },
   {
     "name": "HA-Red-Alert-News-Dash",
@@ -1575,6 +1665,11 @@
     "description": "Ideation notes for internal apps planning"
   },
   {
+    "name": "IP-Cam-Lockdown",
+    "url": "https://github.com/danielrosehill/IP-Cam-Lockdown",
+    "description": "Forensics and a playbook for running cheap AliExpress IP cameras local-only: how they reach the vendor cloud, and how to cut it"
+  },
+  {
     "name": "Iran-Israel-Ceasefire-Prediction-090426",
     "url": "https://github.com/danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "description": "Open-sourced geopolitical forecast: Iran-Israel-US ceasefire durability assessment (09/04/2026). Two-stage pipeline (Snowglobe + LLM Council) with 38-actor simulation and 6-lens analytical panel."
@@ -1633,11 +1728,6 @@
     "name": "Israel-Civilian-Readiness-Guide",
     "url": "https://github.com/danielrosehill/Israel-Civilian-Readiness-Guide",
     "description": "A consolidated series of readiness checklists, SOPs, and peacetime prep guides. Intended for civilian use in Israel. Non-official, but based on gov resources."
-  },
-  {
-    "name": "Israel-Election-2026-Vote-Decision",
-    "url": "https://github.com/danielrosehill/Israel-Election-2026-Vote-Decision",
-    "description": "Working out who to vote for in the 27 October 2026 Knesset election, starting from a voice note of my views"
   },
   {
     "name": "israel-expense-classification-codes",
@@ -1795,6 +1885,11 @@
     "description": "AI assistant config for building computers and finding accesories from Ivory (Israeli computer chain)"
   },
   {
+    "name": "Jabra-Headset-Button-Hook",
+    "url": "https://github.com/danielrosehill/Jabra-Headset-Button-Hook",
+    "description": "Capture Jabra Evolve 30 II center call button on Linux via hidraw and map to a hotkey"
+  },
+  {
     "name": "Jerusalem-AI",
     "url": "https://github.com/danielrosehill/Jerusalem-AI",
     "description": "Index of AI in Jerusalem, Israel \u2014 research labs, companies, communities, events, people, municipal initiatives, and AI projects and datasets about the city"
@@ -1890,6 +1985,11 @@
     "description": "Because of all the tech products that have been invented, a keyboard shortcuts ref manager isn't one of them (yet!)"
   },
   {
+    "name": "Keyclick-Detector",
+    "url": "https://github.com/danielrosehill/Keyclick-Detector",
+    "description": "Detects keyboard and mouse clicks at the start and end of voice-training recordings so they can be trimmed. Trained on real recorder takes."
+  },
+  {
     "name": "KScreen-Config-Scripts-And-Docs",
     "url": "https://github.com/danielrosehill/KScreen-Config-Scripts-And-Docs",
     "description": "Some scripts for saving good multiscreen configs for easy shortcutting and DPMS"
@@ -1898,6 +1998,11 @@
     "name": "Label-Printing-Resources",
     "url": "https://github.com/danielrosehill/Label-Printing-Resources",
     "description": "Index of open-source utilities, drivers, and bridges for label printers (Brother, Niimbot, Dymo, Zebra, etc.) \u2014 Linux-focused."
+  },
+  {
+    "name": "Laptop-Search-1126",
+    "url": "https://github.com/danielrosehill/Laptop-Search-1126",
+    "description": "Laptop search, November 2026: requirements, spec notes and voice-note transcripts."
   },
   {
     "name": "Lashon-Hara-Chatbot",
@@ -2070,6 +2175,11 @@
     "description": "Notes / an idea for a local MCP handler for secrets that works in conjunction with a cloud API"
   },
   {
+    "name": "Local-UTC-Widget",
+    "url": "https://github.com/danielrosehill/Local-UTC-Widget",
+    "description": "Android home-screen widget: local time and UTC side by side, 24-hour, with optional date, UTC offset and font choice"
+  },
+  {
     "name": "LOG.md",
     "url": "https://github.com/danielrosehill/LOG.md",
     "description": "Raw agent work-log primitive (markdown or JSON entries). Part of AI-Dev-Workspace-Primitives."
@@ -2085,6 +2195,11 @@
     "description": "v4l2 configuration script for Logitech C925e webcam - sets 1080p @ 24fps MJPEG on boot"
   },
   {
+    "name": "Logitech-F310-Gamepad-Linux-Profile",
+    "url": "https://github.com/danielrosehill/Logitech-F310-Gamepad-Linux-Profile",
+    "description": "Logitech F310 gamepad on Linux (046d:c21d, xpad): every button press-verified to evdev codes and browser Gamepad API indexes"
+  },
+  {
     "name": "Long-AI-Prompting-Experiment",
     "url": "https://github.com/danielrosehill/Long-AI-Prompting-Experiment",
     "description": "Experiment testing the \"added value\" of long context-dense prompts (versus casual converastional prompts) and the value of a voice \"prompt optimisation\" agent"
@@ -2098,6 +2213,11 @@
     "name": "Long-Form-Audio-Pipeline",
     "url": "https://github.com/danielrosehill/Long-Form-Audio-Pipeline",
     "description": "Basic audio pipeline for preparing long audio content for ASR transcription"
+  },
+  {
+    "name": "Long-Form-Content-Workspace-Template",
+    "url": "https://github.com/danielrosehill/Long-Form-Content-Workspace-Template",
+    "description": "Workspace template for long-form content projects (book, report, screenplay, audiobook) built with the long-form-content Claude Code plugin."
   },
   {
     "name": "lsrecent",
@@ -2340,11 +2460,6 @@
     "description": "Desktop GUI tool that cleans up whiteboard photos using Nano Banana 2 (Via Fal API)"
   },
   {
-    "name": "Nano-Tech-Diagrams-MCP",
-    "url": "https://github.com/danielrosehill/Nano-Tech-Diagrams-MCP",
-    "description": "MCP server for creating tech diagrams using Nano Banana 2 (Fal AI). Supports text-to-image, image-to-image, whiteboard cleanup, and 28+ style presets."
-  },
-  {
     "name": "Natural-Language-Relationship-Definition",
     "url": "https://github.com/danielrosehill/Natural-Language-Relationship-Definition",
     "description": "Experiment: trying to create a database schema using natural language"
@@ -2420,6 +2535,11 @@
     "description": "Desktop app for running batch \"ideation\" prompts with a local LLM"
   },
   {
+    "name": "Olympus-RS27H-Foot-Switch",
+    "url": "https://github.com/danielrosehill/Olympus-RS27H-Foot-Switch",
+    "description": "Olympus RS-27H USB foot switch on Linux (07b4:0218): identity, connector, evdev and mapping notes"
+  },
+  {
     "name": "One-Plus-Internal-Mic-Testing",
     "url": "https://github.com/danielrosehill/One-Plus-Internal-Mic-Testing",
     "description": ""
@@ -2475,6 +2595,11 @@
     "description": "Simple Python script for batch file renaming operations with OpenAI API"
   },
   {
+    "name": "OpenRouter-Batch-Notes",
+    "url": "https://github.com/danielrosehill/OpenRouter-Batch-Notes",
+    "description": "Research notebook on batch inference via OpenRouter: Batch API mechanics, batch vs sync pricing, traps. Written by Claude Opus 5.5, 2026-10-31."
+  },
+  {
     "name": "OpenWebUI-API-Schema-Exports",
     "url": "https://github.com/danielrosehill/OpenWebUI-API-Schema-Exports",
     "description": "Point-in-time segmented export of the Open Web UI API definition"
@@ -2500,9 +2625,9 @@
     "description": "A selection of prompts designed for use with Open Web UI (rather than conventional prompts, they're more useful for steering existing conversations)"
   },
   {
-    "name": "OR-Audio-Transcription-MCP",
-    "url": "https://github.com/danielrosehill/OR-Audio-Transcription-MCP",
-    "description": "Local MCP for using Open Router audio models for transcription with text formatting"
+    "name": "Ops-Notebook-Template",
+    "url": "https://github.com/danielrosehill/Ops-Notebook-Template",
+    "description": "Template for a private, Obsidian-ready ops notebook: dated entries, host profiles, network, runbooks, reference"
   },
   {
     "name": "OR-Models-With-Tools-0811",
@@ -2625,6 +2750,11 @@
     "description": "Extracted guidelines for use as a ground truth for AI agents"
   },
   {
+    "name": "Podcast-Light-Edit-Chain",
+    "url": "https://github.com/danielrosehill/Podcast-Light-Edit-Chain",
+    "description": "One-command light edit for spoken-word recordings: cut ums with the Uhm frame classifier (no ASR), shorten long pauses, voice-fitted EQ, -16 LUFS. With a measured demo."
+  },
+  {
     "name": "Podcast-To-SD-Card",
     "url": "https://github.com/danielrosehill/Podcast-To-SD-Card",
     "description": ""
@@ -2662,7 +2792,7 @@
   {
     "name": "Project-Flow",
     "url": "https://github.com/danielrosehill/Project-Flow",
-    "description": "\"High level\" diary/changelog for open source and Github projects"
+    "description": "Abandoned: replaced by danielrosehill/Firehose, the automated daily digest"
   },
   {
     "name": "PROJECT.md",
@@ -2780,6 +2910,11 @@
     "description": "My public PGP keys"
   },
   {
+    "name": "Public-Plugin-Private-Overlay",
+    "url": "https://github.com/danielrosehill/Public-Plugin-Private-Overlay",
+    "description": "The standard for agent plugins (Claude Code and similar): one public, generic plugin; everything about the user in a private overlay folder; a private workspace repo for the work. How to build one, and how to convert a private plugin."
+  },
+  {
     "name": "Public-Shelter-Internet-Setup",
     "url": "https://github.com/danielrosehill/Public-Shelter-Internet-Setup",
     "description": "Makeshift DIY guide for getting internet into protected shelters in Israel"
@@ -2845,11 +2980,6 @@
     "description": "Microservices Docker stack for Pikud HaOref red alert monitoring, home automation, and real-time visualization"
   },
   {
-    "name": "Red-Alert-MQTT-Desktop-Notifier-Public",
-    "url": "https://github.com/danielrosehill/Red-Alert-MQTT-Desktop-Notifier-Public",
-    "description": "MQTT notification agent for Linux desktop to receive Red Alert MQTT topic pushes from HA"
-  },
-  {
     "name": "Red-Alert-OSINT-Notifier",
     "url": "https://github.com/danielrosehill/Red-Alert-OSINT-Notifier",
     "description": "Unified notification and OSINT intelligence module for Israel Red Alert monitoring \u2014 Telegram channel monitors, Oref volumetric alerts, Groq-powered intel reports, Pushover delivery"
@@ -2877,6 +3007,11 @@
   {
     "name": "Research-Decide-Implement",
     "url": "https://github.com/danielrosehill/Research-Decide-Implement",
+    "description": ""
+  },
+  {
+    "name": "Research-Pack",
+    "url": "https://github.com/danielrosehill/Research-Pack",
     "description": ""
   },
   {
@@ -3643,5 +3778,15 @@
     "name": "zalias",
     "url": "https://github.com/danielrosehill/zalias",
     "description": "Bridge shell aliases and zoxide: name a directory whatever you actually call it, and let z find it. Aliases become real zoxide entries, so fuzzy matching and frecency apply to them too."
+  },
+  {
+    "name": "Zigbee2MQTT-Coordinator-Auto-Recovery",
+    "url": "https://github.com/danielrosehill/Zigbee2MQTT-Coordinator-Auto-Recovery",
+    "description": "Home Assistant automation that restarts Zigbee2MQTT after a network coordinator outage, once the Supervisor watchdog has given up"
+  },
+  {
+    "name": "Zmanim-Shabbat-HA-Integration",
+    "url": "https://github.com/danielrosehill/Zmanim-Shabbat-HA-Integration",
+    "description": "Simple Home Assistant custom integration: today's zmanim, and whether Shabbat or Yom Tov is in effect"
   }
 ]

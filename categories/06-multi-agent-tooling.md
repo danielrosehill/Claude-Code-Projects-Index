@@ -20,17 +20,10 @@ Pattern for handing tasks between code-generation agents working on different ma
 
 ---
 
-### Agent Junction
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agent-Junction) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
-
-MCP server enabling encrypted peer-to-peer communication between Claude Code instances on localhost or LAN.
-
----
-
 ### Claude Agent Picker Pattern
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Agent-Picker-Pattern) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
-Framework for assembling context-optimized multi-agent crews with minimal overlap.
+Pattern for assembling multi-agent crews where each agent's role and context overlap as little as possible.
 
 ---
 
@@ -48,13 +41,6 @@ Workspace model for one operator running agentic AI across many repositories all
 
 ---
 
-### Claude Fleet Traffic Shaper
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Fleet-Traffic-Shaper) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
-
-Specification for a local proxy that assigns priorities to concurrent Claude Code sessions and shapes their aggregate traffic, so rate limiting degrades background work instead of landing at random. Includes a prior-art survey of the multi-agent proxy and queueing landscape.
-
----
-
 ### Claude Development Agents
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Development-Agents) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
@@ -62,10 +48,24 @@ Curated toolkit of 74+ Claude Code configurations for development workflows and 
 
 ---
 
+### Claude Fleet Traffic Shaper
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Fleet-Traffic-Shaper) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
+
+Specification for a local proxy that assigns priorities to concurrent Claude Code sessions and shapes their aggregate traffic, so rate limiting degrades background work instead of landing at random. Includes a prior-art survey of the multi-agent proxy and queueing landscape.
+
+---
+
+### Claude Net
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Net)
+
+Agent-to-agent messaging and task delegation between two people's Claude Code sessions on different machines and accounts, through a tailnet relay. Documents a private implementation with generic diagrams and code samples.
+
+---
+
 ### Claude Sub-Agent Network
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Sub-Agent-Network) ![Agent Config](https://img.shields.io/badge/Agent-Config-orange?style=flat-square)
 
-Collection of system prompts and configurations for development, operational, and creative tasks.
+Collection of sub-agent system prompts and configs for development, operations and creative work.
 
 ---
 
@@ -76,14 +76,14 @@ Curated collection of Claude Code projects and resources organized by category.
 
 ---
 
-## Workspace Setup & Management
+### Research Pack
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Research-Pack)
 
-### Claude Plugin Workspace Vault
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Plugin-Workspace-Vault) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
-
-Architecture for Claude Code plugins that do sustained work: a public plugin, a private workspace instantiated from a template repo, and a vault at `~/.claude-plugins/<name>/` for user data.
+Specification for packaging research findings so one agent can hand a predictable, bounded block of research to the next stage of a pipeline, such as a script-writing agent.
 
 ---
+
+## Workspace Setup & Management
 
 ### Claude Skill Definer
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Skill-Definer) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
@@ -103,6 +103,13 @@ Idea capture for a meta-plugin holding a personal vault of plugins and MCP serve
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Workspace-Setup-Helper) ![Slash Commands](https://img.shields.io/badge/Slash-Commands-cyan?style=flat-square)
 
 Interactive tool for discovering, selecting, and cloning Claude Workspace templates.
+
+---
+
+### Public Plugin Private Overlay
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Public-Plugin-Private-Overlay) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
+
+Architecture for Claude Code plugins that do sustained work: a public plugin, a private workspace instantiated from a template repo, and a vault at `~/.claude-plugins/<name>/` for user data.
 
 ---
 

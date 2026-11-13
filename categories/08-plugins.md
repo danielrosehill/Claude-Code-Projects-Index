@@ -591,6 +591,13 @@ Uses a real code repository in reverse for developer education: assesses the lea
 
 ## Email
 
+### Email Batcher
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/EmailBatcher) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Batch client email updates into one daily/weekly digest: a team queues updates, a server sends them on schedule, urgent ones go at once.
+
+---
+
 ### Html Email Designer
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-HTML-Email-Designer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -749,6 +756,22 @@ Manage a Home Assistant instance via SSH and the HA REST API — guided first-ru
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/New-Task-Split) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Auto-/clear on a new task: local ONNX classifier moves unrelated prompts to a fresh session. claudehook trial launcher, install, toggle, update-model, remove.
+
+---
+
+## Huggingface
+
+### Hf Publisher Tools
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/HF-Publisher-Tools-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Unofficial Hugging Face publisher skills for AI agents: create datasets, models and Spaces (static, Gradio, Docker), set visibility, build explainer Spaces from templates you can override, keep collections, review and decide access requests on gated repos (only the users you name), mint DOIs, take a Hub inventory, convert loose audio datasets to parquet, curate sentence-dataset lists, use Storage Buckets over S3, and contact support. Your account, orgs, naming style and policies live in a private profile outside the plugin (setup). Companion: hf-research.
+
+---
+
+### Hf Research
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/HF-Research-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Unofficial Hugging Face research skills for AI agents, task first. task-directory has every Hub task with its page and model-listing URL built in (no fetch), and hf-tasks re-reads the live huggingface.co/tasks taxonomy on request and shows what changed. task-model-research goes from a need to its task(s) to a vetted shortlist. transcription-model-research searches ASR, audio-text-to-text and any-to-any together. Also candidate base-model and dataset research, gated-access (pre-fills gate forms from your saved answers and asks before submitting), bundle-collection and model-notebook. Your details live in a private profile outside the plugin (setup).
 
 ---
 
@@ -926,6 +949,13 @@ Free-key finder + shortcut builder for Ubuntu: probe keys, audit bindings, bind 
 
 ---
 
+### Input Device Mapper
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Input-Device-Mapper-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Identify a Linux input device (gamepad, macro pad, pedal, remote), map each button to its evdev code one press at a time, and look devices up in a shared mapping library.
+
+---
+
 ### Linux Debugging
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Linux-Debugging-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1024,7 +1054,7 @@ Read OBD-II data from an ELM327-class adapter, normalise it to JSON, and use it 
 ### Obs Mgmt
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-OBS-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Manage OBS Studio on Linux from Claude Code: detect install type (native/Flatpak/Snap/AppImage), enable and validate obs-websocket, ship a bundled obs-mcp MCP server for programmatic OBS control, back up configs to a user-defined folder, and install third-party OBS plugins.
+Manage OBS Studio on Linux: detect install type, enable obs-websocket, bundled obs-mcp server, config backups, third-party plugin installs, declarative scenes and hotkeys (KDE global shortcuts on Wayland), health and update checks, one multi-machine config workspace.
 
 ---
 
@@ -1214,21 +1244,19 @@ Curated batches of third-party Claude Code plugins, grouped by type/theme, insta
 
 ---
 
+### Public Private Overlay
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Public-Plugin-Private-Overlay) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+The Public Plugin, Private Overlay standard for agent plugins, aligned with Anthropic's plugin and skill guidance: one public generic plugin, the user's own content in a consistent overlay folder outside ~/.claude, caches in CLAUDE_PLUGIN_DATA, secrets in sensitive userConfig. audit-plugins audits a publisher's marketplaces and plugins against it (leaks of personal particulars or secrets, storage rules, overlay conformance, skill limits, version drift) and brings them into line in approved batches. check-guidance re-reads the Anthropic docs the standard quotes and proposes updates when they change.
+
+---
+
 ## Printing
 
 ### LAN Print Scan
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/LAN-Print-Scan-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Print and scan on a local network: discover printers, keep a registry, add driverless CUPS queues, typeset Typst printouts, scan over eSCL, and share it all from one server.
-
----
-
-## Privacy
-
-### Pii Scanner
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-PII-Scanner-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Scan files, directories, or git repositories for personally identifiable information — credentials (gitleaks), generic PII (Microsoft Presidio), and matches against a user-maintained personal PII inventory (names, addresses, family, IDs) stored locally.
 
 ---
 
@@ -1306,10 +1334,10 @@ Capture geo-restricted web content (articles, prices) via the user's own localho
 
 ## Skills
 
-### Skill Or Not
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/To-Skill-Or-Not-To-Skill) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Skill Genie
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Skill-Genie) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it) plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.
+Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default, writing delegated to a subagent), a reindex skill that makes a new skill available at once, plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.
 
 ---
 
@@ -1344,15 +1372,6 @@ Spec-driven development workflow for Claude Code: turn unstructured project brie
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/stack-evaluator-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Component-level review of a project's technology stack, not its code — records the stack to docs/stack/ with the run date, checks each component for end-of-life and currency, finds architectural gaps (caching, backups, queues, rate limiting, observability), flags redundancy and over-engineering against the real workload, then emits a sequenced revision proposal and an execution brief. Re-runnable per repo with persistent decisions and finding history.
-
----
-
-## Support
-
-### Contact Support
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/contact-support-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Contact a vendor's support desk from a registry of verified, dated contact routes rather than recalled ones — ticket URLs and which support plans can reach them, abuse and fraud addresses taken from mailto hrefs rather than page text, per-tier response windows, priority vocabulary, escalation ladders with SLA claim deadlines, pre-contact checks, and the plausible routes that turn out to be dead. Records the user's account identity and where credentials live (a pointer, never the secret), drafts the request with the identifiers the desk will demand, sends it through whichever channel is actually reachable, logs the ticket and chases it when the window elapses. Ships verified for Twilio only; extend with support-add-service. Work in progress — concept stage.
 
 ---
 
@@ -1509,6 +1528,15 @@ Develop, test, and publish Tampermonkey userscripts — scaffolding, in-browser 
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Vendor-Liaison) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Report bugs, request features, disclose security to vendors: per-vendor channel data with routing rules, a private overlay for your preferred channels and personal contacts, duplicate checks before filing. Vendors: Claude Code, 1Password, Whisperian.
+
+---
+
+## Video Editing
+
+### Remote Video Editing
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Remote-Video-Editing) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Video editing and rendering on rented cloud GPUs (Modal): offload heavy jobs like AI voice cleanup from a local machine.
 
 ---
 

@@ -24,4 +24,3 @@ Subindex of Claude Code templates, plugins and workspaces for mental health work
 GitHub template for working through one bounded personal issue with Claude Code — a career situation, a relationship, a bereavement — with sessions, threads and timelines kept in one workspace per issue.
 
 ---
-

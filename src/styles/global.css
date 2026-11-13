@@ -571,6 +571,15 @@ a:hover { color: var(--link-hover); }
 .sidebar-link:hover { color: var(--brand); }
 
 /* === Repo Grid === */
+.repo-group-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.15rem;
+  margin: 1.75rem 0 0.75rem;
+}
+.repo-group-heading:first-child { margin-top: 0; }
+
 .repo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));

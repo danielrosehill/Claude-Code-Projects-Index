@@ -222,7 +222,7 @@
       },
       "description": "Video editing, transcoding, video processing, and multimedia workflow automation. Two-tier workspace (index + project), per-user data store, and a growing set of ffmpeg/MLT/Kdenlive primitives.",
       "category": "Media Editing",
-      "version": "1.14.0",
+      "version": "1.15.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1880,9 +1880,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-OBS-Plugin"
       },
-      "description": "Manage OBS Studio on Linux from Claude Code: detect install type (native/Flatpak/Snap/AppImage), enable and validate obs-websocket, ship a bundled obs-mcp MCP server for programmatic OBS control, back up configs to a user-defined folder, and install third-party OBS plugins.",
+      "description": "Manage OBS Studio on Linux: detect install type, enable obs-websocket, bundled obs-mcp server, config backups, third-party plugin installs, declarative scenes and hotkeys (KDE global shortcuts on Wayland), health and update checks, one multi-machine config workspace.",
       "category": "Media Editing",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2673,32 +2673,6 @@
       ]
     },
     {
-      "name": "pii-scanner",
-      "displayName": "PII Scanner",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/Claude-PII-Scanner-Plugin"
-      },
-      "description": "Scan files, directories, or git repositories for personally identifiable information \u2014 credentials (gitleaks), generic PII (Microsoft Presidio), and matches against a user-maintained personal PII inventory (names, addresses, family, IDs) stored locally.",
-      "category": "Privacy & Security",
-      "version": "0.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "privacy",
-        "security",
-        "pii",
-        "secrets",
-        "gitleaks",
-        "presidio",
-        "redaction"
-      ]
-    },
-    {
       "name": "userscript-development",
       "displayName": "Userscript Development",
       "source": {
@@ -3024,33 +2998,6 @@
       ]
     },
     {
-      "name": "contact-support",
-      "displayName": "Contact Support",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/contact-support-plugin"
-      },
-      "description": "Contact a vendor's support desk from a registry of verified, dated contact routes rather than recalled ones \u2014 ticket URLs and which support plans can reach them, abuse and fraud addresses taken from mailto hrefs rather than page text, per-tier response windows, priority vocabulary, escalation ladders with SLA claim deadlines, pre-contact checks, and the plausible routes that turn out to be dead. Records the user's account identity and where credentials live (a pointer, never the secret), drafts the request with the identifiers the desk will demand, sends it through whichever channel is actually reachable, logs the ticket and chases it when the window elapses. Ships verified for Twilio only; extend with support-add-service. Work in progress \u2014 concept stage.",
-      "category": "Personal Productivity",
-      "version": "0.2.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "support",
-        "helpdesk",
-        "vendor",
-        "tickets",
-        "escalation",
-        "sla",
-        "twilio",
-        "work-in-progress"
-      ]
-    },
-    {
       "name": "netek-disconnect",
       "displayName": "Netek Disconnect",
       "source": {
@@ -3256,7 +3203,7 @@
       },
       "description": "Run many Claude sessions: handover, layouts, crash restore, notify and remote machines. Start sessions, hand work over with a confirmed receipt, tile Konsole, restore after a crash, guard against losing windows, reach the user by desktop or phone, and work on other machines.",
       "category": "QA & Agent Sessions",
-      "version": "0.13.0",
+      "version": "0.15.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3926,14 +3873,14 @@
       ]
     },
     {
-      "name": "skill-or-not",
-      "displayName": "To Skill Or Not To Skill",
+      "name": "skill-genie",
+      "displayName": "Skill Genie",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/To-Skill-Or-Not-To-Skill"
+        "repo": "danielrosehill/Skill-Genie"
       },
-      "description": "Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it) plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
-      "version": "0.1.1",
+      "description": "Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default, writing delegated to a subagent), a reindex skill that makes a new skill available at once, plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4480,6 +4427,167 @@
         "typst",
         "port-map",
         "disaster-recovery"
+      ]
+    },
+    {
+      "name": "email-batcher",
+      "displayName": "EmailBatcher",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/EmailBatcher"
+      },
+      "description": "Batch client email updates into one daily/weekly digest: a team queues updates, a server sends them on schedule, urgent ones go at once.",
+      "category": "Personal Productivity",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "email",
+        "batching",
+        "outbound-queue",
+        "digest",
+        "client-updates",
+        "teams"
+      ]
+    },
+    {
+      "name": "input-device-mapper",
+      "displayName": "Input Device Mapper",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Input-Device-Mapper-Plugin"
+      },
+      "description": "Identify a Linux input device (gamepad, macro pad, pedal, remote), map each button to its evdev code one press at a time, and look devices up in a shared mapping library.",
+      "category": "Linux Sysadmin",
+      "version": "0.2.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "linux",
+        "evdev",
+        "udev",
+        "gamepad",
+        "macropad",
+        "input",
+        "button-mapping"
+      ]
+    },
+    {
+      "name": "remote-video-editing",
+      "displayName": "Remote Video Editing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Remote-Video-Editing"
+      },
+      "description": "Video editing and rendering on rented cloud GPUs (Modal): offload heavy jobs like AI voice cleanup from a local machine.",
+      "category": "Media Editing",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "video-editing",
+        "cloud-gpu",
+        "modal",
+        "speech-enhancement",
+        "media-editing"
+      ]
+    },
+    {
+      "name": "hf-research",
+      "displayName": "HF Research",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/HF-Research-Plugin"
+      },
+      "description": "Unofficial Hugging Face research skills for AI agents, task first. task-directory has every Hub task with its page and model-listing URL built in (no fetch), and hf-tasks re-reads the live huggingface.co/tasks taxonomy on request and shows what changed. task-model-research goes from a need to its task(s) to a vetted shortlist. transcription-model-research searches ASR, audio-text-to-text and any-to-any together. Also candidate base-model and dataset research, gated-access (pre-fills gate forms from your saved answers and asks before submitting), bundle-collection and model-notebook. Your details live in a private profile outside the plugin (setup).",
+      "category": "Research & Learning",
+      "version": "1.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "huggingface",
+        "hugging-face",
+        "tasks",
+        "model-search",
+        "model-research",
+        "asr",
+        "transcription",
+        "gated-models",
+        "datasets",
+        "base-model"
+      ]
+    },
+    {
+      "name": "hf-publisher-tools",
+      "displayName": "HF Publisher Tools",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/HF-Publisher-Tools-Plugin"
+      },
+      "description": "Unofficial Hugging Face publisher skills for AI agents: create datasets, models and Spaces (static, Gradio, Docker), set visibility, build explainer Spaces from templates you can override, keep collections, review and decide access requests on gated repos (only the users you name), mint DOIs, take a Hub inventory, convert loose audio datasets to parquet, curate sentence-dataset lists, use Storage Buckets over S3, and contact support. Your account, orgs, naming style and policies live in a private profile outside the plugin (setup). Companion: hf-research.",
+      "category": "Data & Datasets",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "huggingface",
+        "hugging-face",
+        "hub",
+        "publishing",
+        "datasets",
+        "models",
+        "spaces",
+        "collections",
+        "gated-access",
+        "access-requests"
+      ]
+    },
+    {
+      "name": "public-private-overlay",
+      "displayName": "Public Plugin, Private Overlay",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Public-Plugin-Private-Overlay"
+      },
+      "description": "The Public Plugin, Private Overlay standard for agent plugins, aligned with Anthropic's plugin and skill guidance: one public generic plugin, the user's own content in a consistent overlay folder outside ~/.claude, caches in CLAUDE_PLUGIN_DATA, secrets in sensitive userConfig. audit-plugins audits a publisher's marketplaces and plugins against it (leaks of personal particulars or secrets, storage rules, overlay conformance, skill limits, version drift) and brings them into line in approved batches. check-guidance re-reads the Anthropic docs the standard quotes and proposes updates when they change.",
+      "category": "Repo Scaffolding & Retrofitting",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "plugins",
+        "skills",
+        "marketplace",
+        "audit",
+        "overlay",
+        "user-data",
+        "standards",
+        "privacy",
+        "claude-code"
       ]
     }
   ]

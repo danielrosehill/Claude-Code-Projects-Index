@@ -68,6 +68,7 @@ const schema = {
     <div class="sort-toggle">
       <button class="sort-btn active" id="sort-newest" onclick="setSort('newest')">Newest</button>
       <button class="sort-btn" id="sort-az" onclick="setSort('az')">A&ndash;Z</button>
+      <button class="sort-btn" id="sort-category" onclick="setSort('category')">By category</button>
     </div>
     <div class="result-count" id="result-count" role="status" aria-live="polite"></div>
   </div>
@@ -277,14 +278,21 @@ function render() {
 
   if (sortMode === 'newest') {
     filtered.sort((a, b) => (b.created_date || '').localeCompare(a.created_date || '') || a.name.localeCompare(b.name));
+  } else if (sortMode === 'category') {
+    const order = categoryOrder();
+    const rank = c => (c in order ? order[c] : 9999);
+    filtered.sort((a, b) => rank(a.category_slug) - rank(b.category_slug) || a.name.localeCompare(b.name));
   } else {
     filtered.sort((a, b) => a.name.localeCompare(b.name));
   }
 
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  // "By category" shows every match grouped under headings, unpaginated:
+  // splitting a category across pages defeats the point of the view.
+  const grouped = sortMode === 'category';
+  const totalPages = grouped ? 1 : Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   if (currentPage > totalPages) currentPage = totalPages;
   const start = (currentPage - 1) * PAGE_SIZE;
-  const pageRepos = filtered.slice(start, start + PAGE_SIZE);
+  const pageRepos = grouped ? filtered : filtered.slice(start, start + PAGE_SIZE);
 
   const countEl = document.getElementById('result-count');
   if (searchQuery || activeTags.size > 0 || activeCategory) {
@@ -298,8 +306,16 @@ function render() {
     return;
   }
 
-  let html = '<div class="repo-grid">';
+  let html = grouped ? '' : '<div class="repo-grid">';
+  let lastCat = null;
   pageRepos.forEach(repo => {
+    if (grouped && repo.category !== lastCat) {
+      const n = pageRepos.filter(r => r.category === repo.category).length;
+      if (lastCat !== null) html += '</div>';
+      html += '<h2 class="repo-group-heading">' + (CATEGORY_ICONS[repo.category] || '') + ' ' + esc(repo.category) +
+        ' <span class="tag-count">' + n + '</span></h2><div class="repo-grid">';
+      lastCat = repo.category;
+    }
     const detailUrl = '/repos/' + esc(repo.slug) + '/';
     const dateLabel = repo.created_date ? '<span class="repo-card-date">Created ' + esc(repo.created_date) + '</span>' : '';
     html += '<div class="repo-card">' +
@@ -335,6 +351,13 @@ function render() {
   }
 
   area.innerHTML = html;
+}
+
+function categoryOrder() {
+  const order = {};
+  let i = 0;
+  catHierarchy.groups.forEach(g => g.categories.forEach(c => { order[c.slug] = i++; }));
+  return order;
 }
 
 function paginationRange(current, total) {
@@ -375,6 +398,7 @@ window.setSort = function(mode) {
   currentPage = 1;
   document.getElementById('sort-newest').classList.toggle('active', mode === 'newest');
   document.getElementById('sort-az').classList.toggle('active', mode === 'az');
+  document.getElementById('sort-category').classList.toggle('active', mode === 'category');
   render();
 }
 

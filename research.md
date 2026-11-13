@@ -8,10 +8,17 @@ Projects using Claude and agentic systems for deep research, report generation, 
 
 > **See also:** The [Research Space](https://github.com/danielrosehill/Claude-Research-Space-Plugin) cluster plugin in the [Plugins](#plugins) section covers deep research, technical research, OSINT, geo-reaction, stack, ecosystem, and competitor research workflows.
 
-### Claude A2A Research
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-A2A-Research)
+### AI Assistant Triage
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Assistant-Triage)
 
-Research notes on Agent-to-Agent (A2A) protocols and how they relate to Claude.
+Point-in-time scorecards for chat-first AI assistants, judged on how well they integrate with external tools (MCP servers, plugins, connectors), to decide which are worth investing time in.
+
+---
+
+### Batch Run Costs
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Batch-Run-Costs)
+
+Running JSONL record of batch inference jobs (task, data size, model, route, tokens, cost and outcome) to answer which model and route worked for a given kind of job.
 
 ---
 
@@ -40,13 +47,6 @@ AI-assisted municipal platform for a candidate who doesn't exist: a researched, 
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-For-OS-Mgmt-Research) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
 
 Research workspace on using Claude and Claude Code for operating system management.
-
----
-
-### Claude Open Router Model Research Plugin
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Open-Router-Model-Research-Plugin)
-
-Claude Code plugin for researching, filtering, comparing, and evaluating models on OpenRouter, pulling the live catalogue without an API key.
 
 ---
 
@@ -96,5 +96,12 @@ AI-assisted political platform experiment for Israel: a detailed, researched and
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Obsidian-Research-Vault-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square) ![Agent Workspace](https://img.shields.io/badge/Agent-Workspace-purple?style=flat-square)
 
 GitHub template for AI-assisted research that produces a working Obsidian vault: frontmatter and wikilink conventions are set up so the agent's notes populate the graph, backlinks and properties.
+
+---
+
+### OpenRouter Batch Notes
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/OpenRouter-Batch-Notes)
+
+Agent-written research notebook on batch inference via OpenRouter: Batch API mechanics, batch versus sync pricing and known traps.
 
 ---

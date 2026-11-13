@@ -45,4 +45,3 @@ Demo of Claude Code as a consumer purchasing assistant: a written spec plus reta
 Work-in-progress CLI and workspace for importing recordings from a digital voice recorder, organising them into dated folders, classifying them with AI and transcribing them.
 
 ---
-

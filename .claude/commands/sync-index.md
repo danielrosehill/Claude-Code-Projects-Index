@@ -1,4 +1,17 @@
-Sync the index by discovering and adding new repositories. This is the automated index sync workflow.
+Sync the index by discovering and adding new repositories, then giving the whole index a light editorial pass. This is the automated index sync workflow.
+
+## Where the index is published
+
+| Surface | URL | Updated by |
+| --- | --- | --- |
+| Index site | https://claude.danielrosehill.com | Vercel, on push to `main` (committed `docs/`) |
+| AI microsite listing | https://ai.danielrosehill.com/claude-code | `refresh-claude-index.yml` in `danielrosehill/danielrosehilldotcom` (Step 9) |
+| GitHub README (by category) | `README.md` | `npm run build` |
+| GitHub newest-first view | `newest.md` | `npm run build` (`build_newest_page` in `scripts/build_site.py`) |
+
+The site has three views on the home page: **Newest** (default, by `created_date`), **A–Z**, and **By category**
+(grouped under headings in `categories.json` order). The README/`newest.md` pair mirrors that in markdown.
+Every finished sync report to the user ends with links to both the index site and the AI microsite page.
 
 ## Step 1: Discover new repos
 
@@ -9,6 +22,9 @@ python3 scripts/discover_new_repos.py
 ```
 
 If the user specified `--all`, pass that flag to scan all public repos.
+
+When the user asks for "recent" projects ("the last couple of weeks"), run `--all` and filter
+`data/unindexed_repos.json` by creation date: the default name pattern misses repos without "claude" in the name.
 
 ## Step 2: Review the list
 
@@ -45,6 +61,22 @@ For each repo to add, in parallel:
    - Miscellaneous (`10-misc.md`)
 3. Write a **concise 1-2 sentence description** based on the README
 4. If no existing category fits, suggest creating a new one
+
+## Step 3b: Light editorial pass over the existing index
+
+Adding repos is half the job. With the new entries in mind, re-read every category file and fix what has drifted.
+Keep it light: tidy, don't rewrite.
+
+- **Descriptions:** tighten any that are stale (repo renamed, scope changed), over two sentences, or start with
+  "A tool for…" / "This repository…". Spot-check against the live repo only where you suspect drift.
+- **Order:** strict alphabetical within each file; fix any slips.
+- **Organisation:** flag entries that now sit better in another category, categories that have grown too big to
+  scan (candidate for a split or subcategory), and near-empty ones that should fold into a neighbour.
+- **Dead entries:** a repo that 404s, was archived or was renamed (resolve `.full_name`; renames redirect silently).
+- Never hand-edit `08-plugins.md`; plugin descriptions are fixed in the marketplace repo.
+
+Report the proposed edits alongside the new-repo table in Step 4. Pure wording and ordering fixes can just be made;
+moving entries between categories or restructuring categories needs the user's yes.
 
 ## Step 4: Present categorization for approval
 
@@ -121,6 +153,9 @@ at the daily 04:30 UTC run of `refresh-claude-index.yml`, so trigger that run af
    (`shared/data/marketplace.ts`), so new plugins reach its plugins section by the same route. A run that logs
    "Unchanged" means step 1 was skipped or the deploy was not live yet.
 3. After the AI site rebuilds, check `https://ai.danielrosehill.com/claude-code` for one of the new repo names.
+4. Finish the report to the user with both deployed links:
+   - https://claude.danielrosehill.com
+   - https://ai.danielrosehill.com/claude-code
 
 ## Notes
 

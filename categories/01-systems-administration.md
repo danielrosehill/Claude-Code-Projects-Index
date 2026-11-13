@@ -13,17 +13,17 @@ Workspace for managing bash aliases with YADM synchronization support.
 
 ---
 
+### Canopy Recommended
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Canopy-Recommended)
+
+Plugin marketplace of Claude Code plugins for agents working on a local network (networking, remote access, servers, smart home), each pinned to a reviewed commit; installable directly or searchable through a Canopy server.
+
+---
+
 ### Claude Code Bash Aliases
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Bash-Aliases)
 
 Collection of bash aliases for common Claude Code operations on Linux.
-
----
-
-### Claude LAN Manager 0126
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-LAN-Manager-0126)
-
-GUI concept for Claude-driven LAN management, covering device discovery and network operations.
 
 ---
 
@@ -69,16 +69,16 @@ Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflo
 
 ---
 
+### Ops Notebook Template
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Ops-Notebook-Template) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
+
+Template for a private, Obsidian-ready ops notebook that agents write to: dated change entries, host profiles, network state, runbooks and decision research. Pairs with Canopy's ops-notebook skills.
+
+---
+
 ## Linux - KDE Plasma
 
 Projects specifically targeting KDE Plasma desktop integration and Linux desktop workflows with Claude Code.
-
-### Claude Dolphin & Konsole Actions
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Dolphin-Konsole-Actions)
-
-KDE Dolphin right-click context menu actions (service menus) for launching Claude Code in various Konsole window layouts, including single terminal, split panes, and multi-instance grids.
-
----
 
 ### Claude Konsole Launcher
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Konsole-Launcher)
@@ -112,13 +112,6 @@ KDE Dolphin right-click service menus that open the selected directory in Claude
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/KDE-Claude-Runner)
 
 Plan for a KDE-native runner that starts and supervises Claude Code sessions from the desktop.
-
----
-
-### LAN Manager Plugin
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/lan-manager-plugin) ![LAN Manager](https://img.shields.io/badge/LAN-Manager-blue?style=flat-square) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
-
-Claude Code plugin that turns a LAN into working memory: devices, services, operating systems, ports and topology captured in a greppable knowledge store that grows as you and Claude discover things.
 
 ---
 

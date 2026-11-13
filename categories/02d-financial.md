@@ -24,4 +24,3 @@ Work-in-progress skills basket for buyer-side Israeli residential mortgage resea
 Work-in-progress skills basket for Israeli property due diligence (Tabu extracts, building files, usage permits, comparables), aimed at non-professional buyers and tenants.
 
 ---
-

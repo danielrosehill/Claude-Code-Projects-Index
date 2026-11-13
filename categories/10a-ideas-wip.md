@@ -9,6 +9,13 @@ Idea: a per-turn router that sends each message to the current task, an existing
 
 ---
 
+### Canopy Planning
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Canopy-Planning)
+
+Planning notes for combining Canopy and Claude-Net into one home gateway that gives each person's agent the same tool surface plus a direct line to the other agents.
+
+---
+
 ### Claude Background Hook Planner
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Background-Hook-Planner)
 
@@ -30,10 +37,10 @@ Stub for planning notes on the plugins and skills mechanism (May 2026).
 
 ---
 
-### Claude Voice Notifier
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Voice-Notifier)
+### FeedCoin
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/FeedCoin)
 
-Planning repo for Claude placing a real outbound phone call to deliver a one-time, task-specific spoken message on the user's behalf.
+Idea documentation: a standard credit that vendors issue to people who improve their paid products (bug reports, fixes), redeemable against the subscription, prompted by heavy Claude Code use.
 
 ---
 
@@ -50,4 +57,3 @@ Stub workspace for agent skills that check medication availability in Israel for
 Planned multi-label classifier that routes voice-note transcripts to task-specific subagents (email, calendar, shopping list, to-do, dev spec), each holding one MCP tool.
 
 ---
-

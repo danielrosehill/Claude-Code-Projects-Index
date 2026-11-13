@@ -32,13 +32,6 @@ Staging repo for AliExpress skills (Israel buyer focus) before they ship in the 
 
 ---
 
-### Aliexpress Shopper
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Aliexpress-Shopper)
-
-Claude Code plugin for browser-driven AliExpress shopping via Claude in Chrome — search, read listings, compare tabs, filter, and find similar, plus bundled userscripts.
-
----
-
 ### An Ode To Claude
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/An-Ode-To-Claude) ![Non-Code](https://img.shields.io/badge/Non--Code-teal?style=flat-square)
 
@@ -53,6 +46,13 @@ Claude Code plugin for moving or copying media off a connected Android phone usi
 
 ---
 
+### ASR Recursive Improvement Loop
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/ASR-Recursive-Improvement-Loop)
+
+Playbook and Claude Code skill for improving a personal speech-to-text model from its own transcript history: find what it gets wrong, build training data and fine-tune.
+
+---
+
 ### Claude Code Bugs And FRs
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Bugs-And-FRs)
 
@@ -64,6 +64,13 @@ Staging area for Claude Code bug reports and feature requests before filing upst
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Changelog-Notes)
 
 Ad-hoc close readings of selected entries from the upstream Claude Code changelog, with generated PDFs and categorised JSON per version.
+
+---
+
+### Claude Code Context Feature Requests
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Context-Feature-Requests)
+
+Feature requests for improving Claude Code's context handling capabilities.
 
 ---
 
@@ -95,17 +102,17 @@ Centralized marketplace for discovering and installing Claude Code plugins — s
 
 ---
 
-### Claude Code Context Feature Requests
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Context-Feature-Requests)
-
-Feature requests for improving Claude Code's context handling capabilities.
-
----
-
 ### Claude Friction Points
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Friction-Points)
 
 Dated public notebook of friction points encountered across Claude Code, the desktop and web apps, and the API, with point-in-time documentation snapshots used as grounding.
+
+---
+
+### Claude Horn
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Horn)
+
+Desktop alerts for when an agent needs you: a horn sounds on your machine over MQTT, then escalates to a louder horn on your other computers until acknowledged. Stripped-down successor to Claude-PA.
 
 ---
 
@@ -140,21 +147,14 @@ Agent-readable search manifests documenting advanced URL parameters for websites
 ### Claude Repo Jumper
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Repo-Jumper)
 
-System prompt and skill notes for keeping repository boundaries clean during agentic development.
+System prompt and skill notes that stop an agent from editing outside the repo it was started in.
 
 ---
 
 ### Claude Spec Starter
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Spec-Starter) ![Template](https://img.shields.io/badge/Template-Ready-green?style=flat-square)
 
-Pattern for AI-assisted development that starts from a single long user prompt and refines it into a spec.
-
----
-
-### Claude User Manual
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-User-Manual)
-
-Plugin for generating personalized user manuals and private documentation for codebases.
+Pattern for turning one long user prompt into a refined spec before development starts.
 
 ---
 
@@ -211,6 +211,13 @@ Tool that determines whether to continue an AI conversation or start fresh for o
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Non-Code-Claude-Code)
 
 Showcase of creative Claude Code applications beyond traditional software development.
+
+---
+
+### Podcast Light Edit Chain
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Podcast-Light-Edit-Chain)
+
+One-command light edit for spoken-word recordings (cut ums with a frame classifier, shorten long pauses), run end to end by the light-edit skill in the audio-production Claude Code plugin.
 
 ---
 
