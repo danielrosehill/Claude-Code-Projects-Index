@@ -136,9 +136,9 @@
           "description": "Research notebook investigating ADHD medication access, structured for sustained Claude-assisted enquiry."
         },
         {
-          "name": "Claude Mental Health Templates Index",
-          "url": "https://github.com/danielrosehill/Claude-Mental-Health-Templates-Index",
-          "description": "Subindex of Claude Code templates, plugins and workspaces for mental health work a person does on their own material: organising events, tracking therapy, preparing for appointments."
+          "name": "Mental Health AI Index",
+          "url": "https://github.com/danielrosehill/Mental-Health-AI-Index",
+          "description": "Subindex of AI tools, Claude Code and other platforms, for mental health work a person does on their own material: family-system mapping, tracking therapy, preparing for appointments."
         },
         {
           "name": "Claude Therapy Workspace Template",
