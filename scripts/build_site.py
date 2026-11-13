@@ -423,6 +423,10 @@ def copy_assets():
     # Also copy tagged_repos.json to public/ for runtime fetch
     if TAGGED_REPOS_PATH.exists():
         shutil.copy2(TAGGED_REPOS_PATH, PUBLIC_DIR / "tagged_repos.json")
+    # data/tagged_repos.json is the published contract: ai.danielrosehill.com
+    # reads it from raw.githubusercontent.com at build time (2026-11-13).
+    if TAGGED_REPOS_PATH.exists():
+        shutil.copy2(TAGGED_REPOS_PATH, DATA_DIR / "tagged_repos.json")
     # Keep docs/ copies for backward compatibility during transition
     DOCS_DIR.mkdir(exist_ok=True)
     if REPOS_JSON_PATH.exists():
