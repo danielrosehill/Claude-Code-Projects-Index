@@ -14,7 +14,7 @@ Research notebook investigating ADHD medication access, structured for sustained
 ### Mental Health AI Index
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Mental-Health-AI-Index) ![Health](https://img.shields.io/badge/Health-red?style=flat-square)
 
-Subindex of Claude Code templates, plugins and workspaces for mental health work a person does on their own material: organising events, tracking therapy, preparing for appointments.
+Subindex of AI tools, Claude Code and other platforms, for mental health work a person does on their own material: family-system mapping, tracking therapy, preparing for appointments.
 
 ---
 
