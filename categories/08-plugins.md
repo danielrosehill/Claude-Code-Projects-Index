@@ -158,6 +158,13 @@ Audio production — normalize, VAD, transcribe, diarize, podcast assembly, with
 
 ---
 
+### Home Audio
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Home-Audio) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Network speakers and multi-room audio across backends (Music Assistant, Lyrion/Squeezelite, Snapcast): install servers and clients, inventory, set speakers, debug, drive the MA and Home Assistant APIs. Your installation lives in a private overlay.
+
+---
+
 ### Media Library
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Media-Library-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -265,7 +272,7 @@ Organising therapy reflections — pre/post-session notes, goal tracking, and tu
 ### Smart Home
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Smart-Home-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Smart home — Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.
+Smart home — Home Assistant and Plex media server ops, with HA/media-server workspace variants. Multi-room audio is in home-audio.
 
 ---
 
@@ -768,13 +775,6 @@ Unofficial Hugging Face publisher skills for AI agents: create datasets, models 
 
 ---
 
-### Hf Research
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/HF-Research-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Unofficial Hugging Face research skills for AI agents, task first. task-directory has every Hub task with its page and model-listing URL built in (no fetch), and hf-tasks re-reads the live huggingface.co/tasks taxonomy on request and shows what changed. task-model-research goes from a need to its task(s) to a vetted shortlist. transcription-model-research searches ASR, audio-text-to-text and any-to-any together. Also candidate base-model and dataset research, gated-access (pre-fills gate forms from your saved answers and asks before submitting), bundle-collection and model-notebook. Your details live in a private profile outside the plugin (setup).
-
----
-
 ## Image
 
 ### Background Removal
@@ -995,12 +995,12 @@ Scaffold new LLM Council projects from existing templates (Template, Grounded, D
 
 ---
 
-## Music Assistant
+## Mental Health
 
-### Media Assistant Ops
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Media-Assistant-Ops-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Family Systems Context
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Family-Systems-Context-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Interface with a Music Assistant server via its local API — onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.
+Map a toxic family system: one file per person, roles grounded in family-systems research, printable relationship diagram, therapy intake pack, aliases for names that hurt, private git repo plus optional vector store.
 
 ---
 
@@ -1061,9 +1061,9 @@ Manage OBS Studio on Linux: detect install type, enable obs-websocket, bundled o
 ## Openrouter
 
 ### AI Model Research
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Model-Research-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Research, discover, compare, and evaluate AI models on OpenRouter — backed by the bundled Model-Scout MCP server for live catalog data with caching. Subsumes the standalone open-router-model-research plugin and the Model-Scout-MCP server. 11 skills cover lookup, capability filtering (tools, vision, audio), recommendation, head-to-head comparison, deep evaluation, workload cost projection, and finding cheaper alternatives.
+Research AI models: discover, filter, compare and evaluate, across OpenRouter and the Hugging Face Hub. Built on small unofficial read-only CLIs: orexplorer for OpenRouter (capabilities, batch support, prices, providers, new and trending models, benchmarks) and hubexplorer for the Hugging Face Hub (task-first discovery filtered by format, language, local app, inference provider, model type, size and licence, with every sort order). Skills cover lookup, capability filtering, recommendation, comparison, deep evaluation, cost projection, alternatives, task-first HF model research, transcription models, base models and datasets, gated access, collections and a model notebook.
 
 ---
 
@@ -1332,6 +1332,15 @@ Capture geo-restricted web content (articles, prices) via the user's own localho
 
 ---
 
+## Setup
+
+### Tooling
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Tooling) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Seed a machine with Daniel Rosehill's public channels: Claude Code marketplaces, APT repo, F-Droid repos, CLIs, Hugging Face and GitHub projects. Ships the danielrosehill TUI.
+
+---
+
 ## Skills
 
 ### Skill Genie
@@ -1469,6 +1478,13 @@ Local text-to-speech: Kokoro, NeuTTS Air, Chatterbox. Installs to fit your hardw
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Text-To-Speech-Toolkit-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Skills for preprocessing text for TTS engines — SSML conversion, ElevenLabs markup (grounded in live ElevenLabs prompting docs), TTS safety review, and manual prosody addition. Non-destructive by default: edits land in an edited/ folder alongside an unchanged original/ copy.
+
+---
+
+### Tts Tools
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/TTS-Tools) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+TTS listening pages: compare clips side by side, save picks. Voice candidates, original vs processed, EQ chains, checkpoints, blind A/B; choices saved as JSON.
 
 ---
 

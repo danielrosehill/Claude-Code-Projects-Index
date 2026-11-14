@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-11-13T18:47:41",
-  "total_repos": 344,
+  "last_built": "2026-11-14T18:53:26",
+  "total_repos": 346,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -22,7 +22,7 @@
     "AI Eval": "5afdb6512cb5ecbbaaccd417b5cfecc1",
     "AI Ideation Runs": "17b4c53b21b64df832783c7e2e5096cd",
     "AI Memory Planning 0426": "f146329ba0aca22fa2f180de117094a5",
-    "AI Model Research": "6b50e6942e70fe8703de81a581acce2d",
+    "AI Model Research": "9c45e1524394a7002ed5e6b137964a43",
     "AI Tools Plugin": "8dac6c3c880ed76d7e7ec09085dd540b",
     "AI Video Producer": "f360ddf9c185712e37f73232c54498ff",
     "AI Video Production Template": "bc1ecd83e42589f143acdaefbbfcaf7d",
@@ -97,7 +97,6 @@
     "Claude MCP Guidelines": "ba8336f3e31c76f08b26e68789465cc6",
     "Claude MD Chunk": "0fd98cddb2e996ebb054051738eddbc5",
     "Claude MD Experiments": "a01e2875dc92e2dfd3b2bc6a595d271f",
-    "Mental Health AI Index": "e742c0104bca7972dabcaf816e2abed7",
     "Claude Meta Dorker": "520625f84b78fe6280faaa66e56939ea",
     "Claude Model Identifier": "3073be49b8b220af340933111fa11b00",
     "Claude Monitor Research": "e73b15959d2eb25b19f8564f8a1a6897",
@@ -162,6 +161,7 @@
     "Easy Effects Manager": "f7646779759e8bea474f21ab13acb235",
     "Email Batcher": "18e0487f5d4f178234ca040344461a27",
     "Eml Toolkit": "007568b2e974f006f7707d5cf88fd7d9",
+    "Family Systems Context": "3839bfa4566af747df7a1c0bf22b6673",
     "Favorite Plugins Installers": "37d8b975768462a89afc0f122599194e",
     "FeedCoin": "c1ff917c1bd23bb4cb3ddb2a1ae237fa",
     "Filesystem Organiser": "77017bd64020cd801ec153cb8bd43b8f",
@@ -185,8 +185,8 @@
     "Hardware Id Annotation": "9a7fea455678d47632e1ce0da185919f",
     "Hardware Spec Assembly": "e1f98860f643a9b5f5dafe20dc6c2ce9",
     "Hf Publisher Tools": "8f0be6c4708ef035d8167509b1f28310",
-    "Hf Research": "91870a2380a76ae605591b8674b0e170",
     "Home Assistant Mgmt": "e0969d8c4b1ed27ce6d7e2e381d0078a",
+    "Home Audio": "31790a5c24db5abda4504bb02b9b438f",
     "Home Folder Claude MD": "8e7493a949dd49650b312776b34a557f",
     "Home Media Planner": "fdb3bf5ea0542063d6a49b710970b326",
     "Hotkey Builder": "c5746ef6a6025ff47a8ebdc9d32533b3",
@@ -238,8 +238,8 @@
     "Maccabi Online Skills": "cb02af098f5efdbf0f6d471b4962fd9f",
     "Marketplace Guide": "ee78ee2f74c3a7581e557102755aed71",
     "MCPM Claude Code Docs": "fa5fab7f544ebc1eadb07ea4723e0010",
-    "Media Assistant Ops": "8b742ae3eb8c4cb36ddd847846bd2fa9",
     "Media Library": "86137205a6409fac1303a8bb2aeed276",
+    "Mental Health AI Index": "0c97ee4321dfed03c9b37b569ad45809",
     "MK Claude": "a7ba7b9fd43daa7f056510d6e762ebf8",
     "Modular Research": "38619c642fadef3a76e4bcb4bc019db8",
     "Mqtt Observability": "601c8a99f859321120a053c7a00b63d2",
@@ -299,7 +299,7 @@
     "Skill Creation Research": "88f0c50ab8e90e60823d055a1fcf2523",
     "Skill Genie": "bf6498e1e9566c4a4190d3f554575eb1",
     "Skill This": "a1edf9cda231b9391c1200f441a1965b",
-    "Smart Home": "7b09f9bd419aae845ed47c4cb3eb93e3",
+    "Smart Home": "ec370eebfe2043dd5a25133b334a01cf",
     "Smithery Claude Code MCP Jumpstarter": "01f067df002274e3998e42b9d019b8f5",
     "Snap It": "8870924ec11cff9758a741ae306599c0",
     "Social Feedback": "3eca5fe20d7b8de6a4c5ddbe4bbf0e10",
@@ -328,8 +328,10 @@
     "The User Voice Types": "eaea4f805e8773944cb9e351263b44b6",
     "Therapy Tracking": "6f1c5276dc6adec577b8cb2b25894717",
     "Timemark": "78b7750184830d33b851a392d3339dae",
+    "Tooling": "c02af55bd8d666253b178673631c5448",
     "Transcription Pipeline": "5a00f8fa5b3d206b7f494b8dd0e91302",
     "Travel Packing": "cc8d06af178d31ad9565332773198ede",
+    "Tts Tools": "ff7b52c3e54ba6e8ec92b81fa55f183c",
     "Typst Document Generator": "27140972f6bef7e57ccf498058f77e07",
     "Ubuntu Admin": "f9a393fac4497641a4e57d35eeee9d86",
     "Ubuntu Security": "46380e726f3d2125a95488cc10217940",
@@ -349,29 +351,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T23:11:35",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Air Quality Toolkit"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Claude Code Feedback",
-            "Geopol Sim",
-            "Home Assistant Mgmt",
-            "Opnsense Mgmt",
-            "Proxmox Mgmt",
-            "Synology Mgmt"
-          ]
-        }
-      ],
-      "total_repos": 173
-    },
     {
       "date": "2026-04-30T23:31:18",
       "changes": [
@@ -2743,6 +2722,36 @@
         }
       ],
       "total_repos": 344
+    },
+    {
+      "date": "2026-11-14T18:53:26",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Family Systems Context",
+            "Home Audio",
+            "Tooling",
+            "Tts Tools"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Hf Research",
+            "Media Assistant Ops"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "AI Model Research",
+            "Mental Health AI Index",
+            "Smart Home"
+          ]
+        }
+      ],
+      "total_repos": 346
     }
   ]
 }

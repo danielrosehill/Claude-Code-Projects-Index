@@ -1,0 +1,600 @@
+{
+  "metadata": {
+    "title": "Claude Code Repos Index",
+    "description": "Curated index of Claude Code-related resources and projects",
+    "master_index_url": "https://github.com/danielrosehill/Start-Here",
+    "generated_date": "2026-11-14"
+  },
+  "categories": [
+    {
+      "name": "Systems Administration",
+      "description": "Projects involving using Claude for local or remote systems administration as distinct from development-related projects.",
+      "repositories": [
+        {
+          "name": "Bash Alias Manager Claude",
+          "url": "https://github.com/danielrosehill/Bash-Alias-Manager-Claude",
+          "description": "Workspace for managing bash aliases with YADM synchronization support."
+        },
+        {
+          "name": "Canopy Recommended",
+          "url": "https://github.com/danielrosehill/Canopy-Recommended",
+          "description": "Plugin marketplace of Claude Code plugins for agents working on a local network (networking, remote access, servers, smart home), each pinned to a reviewed commit; installable directly or searchable through a Canopy server."
+        },
+        {
+          "name": "Claude Code Bash Aliases",
+          "url": "https://github.com/danielrosehill/Claude-Code-Bash-Aliases",
+          "description": "Collection of bash aliases for common Claude Code operations on Linux."
+        },
+        {
+          "name": "Claude Linux Desktop Manager Notes 0426",
+          "url": "https://github.com/danielrosehill/Claude-Linux-Desktop-Manager-Notes-0426",
+          "description": "Planning workspace for managing a Linux desktop with an agentic CLI, running raw notes through a refine/analyse/workflow pipeline."
+        },
+        {
+          "name": "Claude OS",
+          "url": "https://github.com/danielrosehill/Claude-OS",
+          "description": "Multi-plugin installation and setup utility for orchestrating everyday Linux desktop use through Claude Code."
+        },
+        {
+          "name": "Claude OS Playbook",
+          "url": "https://github.com/danielrosehill/Claude-OS-Playbook",
+          "description": "Template using Claude Code as an Ansible stand-in for repetitive environment setup and supervision."
+        },
+        {
+          "name": "Claude Rescue",
+          "url": "https://github.com/danielrosehill/Claude-Rescue",
+          "description": "Concept for deploying Claude Code into recovery shell environments for AI-assisted system repair."
+        },
+        {
+          "name": "Claude Rescue Pi",
+          "url": "https://github.com/danielrosehill/Claude-Rescue-Pi",
+          "description": "Raspberry Pi jump host running the Claude Code CLI over Cloudflare Access and Tailscale as an emergency recovery surface for a Linux workstation."
+        },
+        {
+          "name": "Claude System Recovery Mode",
+          "url": "https://github.com/danielrosehill/Claude-System-Recovery-Mode",
+          "description": "Custom GRUB boot entry integrating Claude CLI into Linux system recovery workflows."
+        },
+        {
+          "name": "Ops Notebook Template",
+          "url": "https://github.com/danielrosehill/Ops-Notebook-Template",
+          "description": "Template for a private, Obsidian-ready ops notebook that agents write to: dated change entries, host profiles, network state, runbooks and decision research. Pairs with Canopy's ops-notebook skills. Projects specifically targeting KDE Plasma desktop integration and Linux desktop workflows with Claude Code."
+        },
+        {
+          "name": "Claude Konsole Launcher",
+          "url": "https://github.com/danielrosehill/Claude-Konsole-Launcher",
+          "description": "Launch utility for pairing Claude Code with Konsole on KDE Plasma."
+        },
+        {
+          "name": "Conda Management Plugin",
+          "url": "https://github.com/danielrosehill/conda-management-plugin",
+          "description": "Early standalone Claude Code plugin with slash commands for managing Conda environments and packages."
+        },
+        {
+          "name": "Desktop Ops Workspace Template",
+          "url": "https://github.com/danielrosehill/desktop-ops-workspace-template",
+          "description": "Per-machine, local-first SQLite log of everything the agent installed, fixed or diagnosed on a Linux desktop, so later sessions can query history before acting. Pairs with `linux-desktop-plugin`."
+        },
+        {
+          "name": "Dolphin AI Actions",
+          "url": "https://github.com/danielrosehill/Dolphin-AI-Actions",
+          "description": "KDE Dolphin right-click service menus that open the selected directory in Claude Code or Codex, in normal or permissive mode."
+        },
+        {
+          "name": "KDE Claude Runner",
+          "url": "https://github.com/danielrosehill/KDE-Claude-Runner",
+          "description": "Plan for a KDE-native runner that starts and supervises Claude Code sessions from the desktop."
+        },
+        {
+          "name": "Server Management Plugin",
+          "url": "https://github.com/danielrosehill/server-management-plugin",
+          "description": "Early standalone Claude Code plugin with slash commands for server monitoring, deployment and administration."
+        },
+        {
+          "name": "Synology Manager Plugin",
+          "url": "https://github.com/danielrosehill/synology-manager-plugin",
+          "description": "Claude Code plugin for administering a Synology NAS over SSH, with guided first-run setup, persistent context and commands for shares, volumes, mounts and storage monitoring. Workspaces for decision-making, personal planning, file management, and general-purpose productivity workflows. > **See also:** The [Budgeting](https://github.com/danielrosehill/Claude-Budgeting-Plugin), [Personal Planning](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin), [Career](https://github.com/danielrosehill/Claude-Career-Plugin), [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin), [Shopping](https://github.com/danielrosehill/Claude-Shopping-Plugin), and [Ideation & Planning](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) cluster plugins in the [Plugins](#plugins) section cover these domains."
+        },
+        {
+          "name": "Agent-Assisted Purchase Research Index",
+          "url": "https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index",
+          "description": "Index of templates, skills and demos for agent-driven purchase research, built on decoupling the requirements spec from the current market."
+        },
+        {
+          "name": "Agentic Purchase Pipeline",
+          "url": "https://github.com/danielrosehill/Agentic-Purchase-Pipeline",
+          "description": "Staged, agent-supported process for evaluating any purchase over about $50: capture the spec, find the requirements, survey the market, then score candidates against the spec."
+        },
+        {
+          "name": "Claude Decision Mapper",
+          "url": "https://github.com/danielrosehill/Claude-Decision-Mapper",
+          "description": "Codifies the iterative spec-refinement loop used with Claude for builds, hardware purchases and home-lab decisions \u2014 draft spec, correction, refinement \u2014 as reusable skills."
+        },
+        {
+          "name": "Claude Shopping Demo 2",
+          "url": "https://github.com/danielrosehill/Claude-Shopping-Demo--2",
+          "description": "Model workspace for a Claude shopping research tool customised by shop whitelist and task, with input and output folders."
+        },
+        {
+          "name": "Claude Shopping Eval Demo",
+          "url": "https://github.com/danielrosehill/Claude-Shopping-Eval-Demo",
+          "description": "Demo of Claude Code as a consumer purchasing assistant: a written spec plus retailer catalogue screenshots go in, a ranked recommendation report comes out (worked example: a portable Bluetooth speaker)."
+        },
+        {
+          "name": "DVR Transcriber",
+          "url": "https://github.com/danielrosehill/DVR-Transcriber",
+          "description": "Work-in-progress CLI and workspace for importing recordings from a digital voice recorder, organising them into dated folders, classifying them with AI and transcribing them. Workspaces and templates for legal research, case management, and evidence handling workflows. > **See also:** The [Legal & Investigative](https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin) cluster plugin in the [Plugins](#plugins) section covers this domain \u2014 evidence logging, document analysis, redaction, and brief generation."
+        },
+        {
+          "name": "Claude Case File",
+          "url": "https://github.com/danielrosehill/Claude-Case-File",
+          "description": "Claude Code template for building version-controlled containers for legal files and case material. Workspaces and templates for health documentation, medical visit management, therapy tracking, and health-related research. > **See also:** The [Personal Planning](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin) cluster plugin in the [Plugins](#plugins) section covers this domain \u2014 diary, health, therapy, preparedness, and personal development variants."
+        },
+        {
+          "name": "Claude ADHD Research Workspace",
+          "url": "https://github.com/danielrosehill/Claude-ADHD-Research-Workspace",
+          "description": "Research notebook investigating ADHD medication access, structured for sustained Claude-assisted enquiry."
+        },
+        {
+          "name": "Mental Health AI Index",
+          "url": "https://github.com/danielrosehill/Mental-Health-AI-Index",
+          "description": "Subindex of AI tools, Claude Code and other platforms, for mental health work a person does on their own material: family-system mapping, tracking therapy, preparing for appointments."
+        },
+        {
+          "name": "Claude Therapy Workspace Template",
+          "url": "https://github.com/danielrosehill/Claude-Therapy-Workspace-Template",
+          "description": "GitHub template for working through one bounded personal issue with Claude Code \u2014 a career situation, a relationship, a bereavement \u2014 with sessions, threads and timelines kept in one workspace per issue. Workspaces and templates for content creation, blog management, writing workflows, and communications strategy."
+        },
+        {
+          "name": "Agentic Long Form Content",
+          "url": "https://github.com/danielrosehill/Agentic-Long-Form-Content",
+          "description": "Pattern spec for writing full-length reference and instructional books with Claude Code, using teams of subagents and the repository as shared memory, through to a print-on-demand paperback."
+        },
+        {
+          "name": "AI Video Production Template",
+          "url": "https://github.com/danielrosehill/AI-Video-Production-Template",
+          "description": "Per-project workspace skeleton for producing one AI-generated video; the state half of a pair whose operational half is the `ai-video-producer` plugin (scripting, image-to-video and lip-sync pipelines)."
+        },
+        {
+          "name": "Claude Website Update Sender",
+          "url": "https://github.com/danielrosehill/Claude-Website-Update-Sender",
+          "description": "Automated workflow for sending polished update emails about website changes via Resend MCP."
+        },
+        {
+          "name": "Declaude",
+          "url": "https://github.com/danielrosehill/Declaude",
+          "description": "Personalized text rewriting rules that consolidate into a slash command for refining AI-generated documentation."
+        },
+        {
+          "name": "Long Form Content Workspace Template",
+          "url": "https://github.com/danielrosehill/Long-Form-Content-Workspace-Template",
+          "description": "Workspace scaffold implementing the Agentic Book Writing pattern: a `book.toml` manifest, spec and interview folders, binding prose and graphics style guides, and a status script for subagent-driven drafting."
+        },
+        {
+          "name": "Writing Editing Plugin",
+          "url": "https://github.com/danielrosehill/writing-editing-plugin",
+          "description": "Early standalone Claude Code plugin with slash commands for proofreading, style editing and text transformation. Workspaces and templates for budgeting, purchasing decisions, and personal finance management. > **See also:** The [Budgeting](https://github.com/danielrosehill/Claude-Budgeting-Plugin), [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin), and [Shopping](https://github.com/danielrosehill/Claude-Shopping-Plugin) cluster plugins in the [Plugins](#plugins) section cover these domains."
+        },
+        {
+          "name": "Claude FX Pair Analyst Template",
+          "url": "https://github.com/danielrosehill/Claude-FX-Pair-Analyst-Template",
+          "description": "Claude Code workspace for FX pair analysis \u2014 historical data, quant and vol modelling, geopolitical context, and Typst PDF reports."
+        },
+        {
+          "name": "Israel Mortgage Research Skills",
+          "url": "https://github.com/danielrosehill/Israel-Mortgage-Research-Skills",
+          "description": "Work-in-progress skills basket for buyer-side Israeli residential mortgage research \u2014 track mix, Bank of Israel rules, DSR/LTV limits and bank quirks \u2014 before verified skills are folded into the Israel agent-skills plugin."
+        },
+        {
+          "name": "Israel Property Research Skills",
+          "url": "https://github.com/danielrosehill/Israel-Property-Research-Skills",
+          "description": "Work-in-progress skills basket for Israeli property due diligence (Tabu extracts, building files, usage permits, comparables), aimed at non-professional buyers and tenants. Workspaces and templates for job searching, career planning, and professional development. > **See also:** The [Career](https://github.com/danielrosehill/Claude-Career-Plugin) cluster plugin in the [Plugins](#plugins) section covers this domain \u2014 role logging, offer comparison, application tracking, and salary benchmarking. Workspaces and templates for business planning, idea evaluation, and organizational continuity. > **See also:** The [Ideation & Planning](https://github.com/danielrosehill/Claude-Ideation-Planning-Plugin) cluster plugin in the [Plugins](#plugins) section covers business idea evaluation, decision frameworks, and simulation workflows. Workspaces and templates for document redaction, identity protection, and PII obfuscation. > **See also:** The [Legal & Investigative](https://github.com/danielrosehill/Claude-Legal-Investigative-Plugin) cluster plugin in the [Plugins](#plugins) section includes redaction and document-obfuscation workflows. For broader system hardening see the [Security Checkup](https://github.com/danielrosehill/Claude-Security-Checkup-Plugin) plugin."
+        },
+        {
+          "name": "IP Cam Lockdown",
+          "url": "https://github.com/danielrosehill/IP-Cam-Lockdown",
+          "description": "Forensics and playbook for running cheap IP cameras local-only: how they reach the vendor cloud and how to cut it off, investigated with the Network Forensics Claude Code plugin's skills. Workspaces for hardware planning, PC builds, and technology procurement. > **See also:** The [Purchasing](https://github.com/danielrosehill/Claude-Purchasing-Plugin) (includes a tech-procurement variant), [Sysadmin & Homelab](https://github.com/danielrosehill/Claude-Sysadmin-Homelab-Plugin), and [HP5200 Printer](https://github.com/danielrosehill/Claude-HP5200-Skill-plugin) plugins in the [Plugins](#plugins) section cover these domains."
+        },
+        {
+          "name": "Claude Monitor Research",
+          "url": "https://github.com/danielrosehill/Claude-Monitor-Research",
+          "description": "Ergonomic and geometric research into a display for running a grid of at least eight concurrent Claude Code sessions, measured in text cells rather than inches, plus the software layer for navigating the grid."
+        },
+        {
+          "name": "Claude Pad",
+          "url": "https://github.com/danielrosehill/Claude-Pad",
+          "description": "Dedicated macropad for driving Claude Code \u2014 approve, stop, new session, transcript navigation \u2014 with a host-driven status LED that lights when Claude is waiting on you."
+        },
+        {
+          "name": "Device Mappings",
+          "url": "https://github.com/danielrosehill/Device-Mappings",
+          "description": "Machine-readable library of Linux input-device identifications and button-to-evdev mappings (gamepads, macro pads, pedals), looked up by the Input Device Mapper Claude Code plugin."
+        },
+        {
+          "name": "GPU Research Notebook",
+          "url": "https://github.com/danielrosehill/GPU-Research-Notebook",
+          "description": "Workspace for researching GPUs, with a bundled skill that runs research end to end into a dated CSV and Typst PDF report scored on a four-tier VRAM, cost and scarcity rubric."
+        },
+        {
+          "name": "Home Media Planner",
+          "url": "https://github.com/danielrosehill/Home-Media-Planner",
+          "description": "Non-code planning workspace for a home media setup: ideas, voice notes and reference material refined into requirements and decisions."
+        },
+        {
+          "name": "Laptop Search 1126",
+          "url": "https://github.com/danielrosehill/Laptop-Search-1126",
+          "description": "Public demo of a hardware-buying pipeline: voice note to transcript, extracted requirements, parallel agent research and an executive PDF shortlist for replacing a laptop (November 2026). Workspaces for SEO, web analytics, PR monitoring, and media tracking. > **See also:** The [PR & Media Work](https://github.com/danielrosehill/Claude-PR-Media-Work-Plugin) cluster plugin in the [Plugins](#plugins) section covers coverage scanning, press summarisation, response drafting, and comms strategy."
+        }
+      ]
+    },
+    {
+      "name": "Argument and Perspective Exploration",
+      "description": "Projects using AI for synthesized debate to explore various perspectives, including policy modeling and analysis.",
+      "repositories": [
+        {
+          "name": "Claude AI Conference",
+          "url": "https://github.com/danielrosehill/Claude-AI-Conference",
+          "description": "Simulated conference in which agentic personas (HR leads, CEOs, doctors, artists, sceptics) each deliver a three-minute talk on \"AI in 2026\", rendered with TTS."
+        },
+        {
+          "name": "Claude Change My View",
+          "url": "https://github.com/danielrosehill/Claude-Change-My-View",
+          "description": "Workspace for challenging personal beliefs through AI-generated counterarguments and rebuttals."
+        },
+        {
+          "name": "Panel Of Claude",
+          "url": "https://github.com/danielrosehill/Panel-Of-Claude",
+          "description": "Runs several agent personas as a panel that debates a question and returns the range of views."
+        },
+        {
+          "name": "Perspective Finder Prompt",
+          "url": "https://github.com/danielrosehill/Perspective-Finder-Prompt",
+          "description": "Claude Code workspace for finding people who hold specific viewpoints within a policy debate, surfacing voices that keyword search misses."
+        }
+      ]
+    },
+    {
+      "name": "Context and Personalization",
+      "description": "Projects exploring using Claude and related tooling for personalized user engagement, including through RAG, interviewing methods, and context injection.",
+      "repositories": [
+        {
+          "name": "AI Dev Repo Template 1",
+          "url": "https://github.com/danielrosehill/AI-Dev-Repo-Template-1",
+          "description": "GitHub template repository pre-seeded with every AI Dev Workspace Primitive as a stub, with instructions for the user or agent to fill each one in."
+        },
+        {
+          "name": "AI Dev Repo Template Oct 2025",
+          "url": "https://github.com/danielrosehill/AI-Dev-Repo-Template-Oct-2025",
+          "description": "October 2025 template for AI-assisted development with a layered `CLAUDE.md` hierarchy that guides the agent through project stages."
+        },
+        {
+          "name": "AI Dev Workspace Primitives",
+          "url": "https://github.com/danielrosehill/AI-Dev-Workspace-Primitives",
+          "description": "Index of root-level `UPPERCASE.md` context primitives for AI-assisted repos (`SPEC.md`, `RULES.md`, `TOOLS.md`, `SECRETS.md`, `GROUNDING.md` and more), each published as its own repo and injectable via `CLAUDE.md`/`AGENTS.md`."
+        },
+        {
+          "name": "Batch ClaudeMD Repo Creator",
+          "url": "https://github.com/danielrosehill/Batch-ClaudeMD-Repo-Creator",
+          "description": "Automation workspace for batch-adding CLAUDE.md files across multiple GitHub repositories."
+        },
+        {
+          "name": "Claude Code Repo Managers ClaudeMD",
+          "url": "https://github.com/danielrosehill/Claude-Code-Repo-Managers-ClaudeMD",
+          "description": "Pre-configured CLAUDE.md templates for managing different repository types."
+        },
+        {
+          "name": "Claude Context Analysis 0526",
+          "url": "https://github.com/danielrosehill/Claude-Context-Analysis-0526",
+          "description": "Redacted point-in-time dump of `/context` from a heavily-pluginned Claude Code session, analysing where the context budget actually goes and what is eagerly versus lazily loaded."
+        },
+        {
+          "name": "Claude Foundations",
+          "url": "https://github.com/danielrosehill/Claude-Foundations",
+          "description": "Index of the user-level layer of a Claude Code setup, treated as one system \u2014 entrypoint, reference context, habits and discovery \u2014 covering what loads before any task is known."
+        },
+        {
+          "name": "Claude Model Identifier",
+          "url": "https://github.com/danielrosehill/Claude-Model-Identifier",
+          "description": "Prompt template for verifying the correct Claude model variant at conversation start."
+        },
+        {
+          "name": "Claude Spend Approval Limit",
+          "url": "https://github.com/danielrosehill/Claude-Spend-Approval-Limit",
+          "description": "Paste-ready CLAUDE.md / AGENTS.md snippet that gives an agent a spending approval limit: it spends freely on paid APIs below a tunable threshold, and above it must estimate the cost, offer a cheaper route and wait for approval."
+        },
+        {
+          "name": "Claude User Context Pattern",
+          "url": "https://github.com/danielrosehill/Claude-User-Context-Pattern",
+          "description": "Depersonalised reference pattern for organising user-level `~/.claude/` context: a lean top-level `CLAUDE.md` that routes to topical `context/*.md` files (system environment, git rules, MCP usage, file organisation, etc.) loaded only when relevant."
+        },
+        {
+          "name": "ClaudeMD Turnstile",
+          "url": "https://github.com/danielrosehill/ClaudeMD-Turnstile",
+          "description": "Pattern for maintaining separate CLAUDE.md files for developers and for end users of the same repository."
+        },
+        {
+          "name": "CONTEXT.md",
+          "url": "https://github.com/danielrosehill/CONTEXT.md",
+          "description": "Workflow methodology for separating human-authored context from structured AI agent briefings."
+        },
+        {
+          "name": "Home Folder Claude MD",
+          "url": "https://github.com/danielrosehill/Home-Folder-Claude-MD",
+          "description": "Working CLAUDE.md for a home directory on an Ubuntu Linux desktop."
+        },
+        {
+          "name": "Linux Desktop ClaudeMD Seeder",
+          "url": "https://github.com/danielrosehill/Linux-Desktop-ClaudeMD-Seeder",
+          "description": "Automatically generates contextual CLAUDE.md files across a Linux desktop filesystem."
+        },
+        {
+          "name": "My Tone Of Voice",
+          "url": "https://github.com/danielrosehill/My-Tone-Of-Voice",
+          "description": "Annotated corpus of writing samples used as ground truth for a personal writing style, with reusable methodology for building a tone-of-voice reference for AI agents."
+        },
+        {
+          "name": "Private And Public Claude MD",
+          "url": "https://github.com/danielrosehill/Private-And-Public-Claude-MD",
+          "description": "Tools for managing public and private CLAUDE.md files with security-focused git configuration."
+        },
+        {
+          "name": "Split Claude MD Pattern",
+          "url": "https://github.com/danielrosehill/Split-Claude-MD-Pattern",
+          "description": "Pattern for splitting a home-level CLAUDE.md into directives plus on-demand context files, optimised for context handling."
+        },
+        {
+          "name": "State Of Claude Context 0426",
+          "url": "https://github.com/danielrosehill/State-Of-Claude-Context-0426",
+          "description": "Q&A notes on where context bloat accrues given the current shape of the Claude Code harness and its primitives."
+        },
+        {
+          "name": "The User Voice Types",
+          "url": "https://github.com/danielrosehill/The-User-Voice-Types",
+          "description": "CLAUDE.md snippets and slash commands telling Claude to silently infer around transcription errors from voice typing and stray keystrokes from one-handed or distracted typing."
+        }
+      ]
+    },
+    {
+      "name": "Multi-Agent Tooling",
+      "description": "Components and tooling for multi-agent development and orchestration frameworks.",
+      "repositories": [
+        {
+          "name": "Agent Briefing Gateway",
+          "url": "https://github.com/danielrosehill/Agent-Briefing-Gateway",
+          "description": "Design model for an orchestration agent that buffers a human from a batch of working sub-agents \u2014 one consolidated brief per cycle, a budgeted override channel, and resumable approval gates."
+        },
+        {
+          "name": "Agent Handover Demo",
+          "url": "https://github.com/danielrosehill/Agent-Handover-Demo",
+          "description": "Pattern for handing tasks between code-generation agents working on different machines through shared handover docs, giving supervising humans an audit trail of what each agent did."
+        },
+        {
+          "name": "Claude Agent Picker Pattern",
+          "url": "https://github.com/danielrosehill/Claude-Agent-Picker-Pattern",
+          "description": "Pattern for assembling multi-agent crews where each agent's role and context overlap as little as possible."
+        },
+        {
+          "name": "Claude Agent Workspace Generator",
+          "url": "https://github.com/danielrosehill/Claude-Agent-Workspace-Generator",
+          "description": "Launchpad for creating standardized workspace templates conforming to the Agent Workspace Model v1.1 spec, with slash commands to generate, validate, and publish new workspaces."
+        },
+        {
+          "name": "Claude Air Traffic Control",
+          "url": "https://github.com/danielrosehill/Claude-Air-Traffic-Control",
+          "description": "Workspace model for one operator running agentic AI across many repositories all day, borrowed from air traffic control: a voice-first shift manager routes work across concurrent Claude Code sessions. Published as a 26-page typeset document."
+        },
+        {
+          "name": "Claude Development Agents",
+          "url": "https://github.com/danielrosehill/Claude-Development-Agents",
+          "description": "Curated toolkit of 74+ Claude Code configurations for development workflows and multi-agent coordination."
+        },
+        {
+          "name": "Claude Fleet Traffic Shaper",
+          "url": "https://github.com/danielrosehill/Claude-Fleet-Traffic-Shaper",
+          "description": "Specification for a local proxy that assigns priorities to concurrent Claude Code sessions and shapes their aggregate traffic, so rate limiting degrades background work instead of landing at random. Includes a prior-art survey of the multi-agent proxy and queueing landscape."
+        },
+        {
+          "name": "Claude Net",
+          "url": "https://github.com/danielrosehill/Claude-Net",
+          "description": "Agent-to-agent messaging and task delegation between two people's Claude Code sessions on different machines and accounts, through a tailnet relay. Documents a private implementation with generic diagrams and code samples."
+        },
+        {
+          "name": "Claude Sub-Agent Network",
+          "url": "https://github.com/danielrosehill/Claude-Sub-Agent-Network",
+          "description": "Collection of sub-agent system prompts and configs for development, operations and creative work."
+        },
+        {
+          "name": "Cool Claude Code Stuff",
+          "url": "https://github.com/danielrosehill/Cool-Claude-Code-Stuff",
+          "description": "Curated collection of Claude Code projects and resources organized by category."
+        },
+        {
+          "name": "Research Pack",
+          "url": "https://github.com/danielrosehill/Research-Pack",
+          "description": "Specification for packaging research findings so one agent can hand a predictable, bounded block of research to the next stage of a pipeline, such as a script-writing agent."
+        },
+        {
+          "name": "Claude Skill Definer",
+          "url": "https://github.com/danielrosehill/Claude-Skill-Definer",
+          "description": "Multimodal workspace for defining Claude Code skills from voice notes, videos, images and text, or written specs."
+        },
+        {
+          "name": "Claude Vault Idea",
+          "url": "https://github.com/danielrosehill/Claude-Vault-Idea",
+          "description": "Idea capture for a meta-plugin holding a personal vault of plugins and MCP servers, activated selectively per project to mitigate eager plugin description loading at user level."
+        },
+        {
+          "name": "Claude Workspace Setup Helper",
+          "url": "https://github.com/danielrosehill/Claude-Workspace-Setup-Helper",
+          "description": "Interactive tool for discovering, selecting, and cloning Claude Workspace templates."
+        },
+        {
+          "name": "Public Plugin Private Overlay",
+          "url": "https://github.com/danielrosehill/Public-Plugin-Private-Overlay",
+          "description": "Architecture for Claude Code plugins that do sustained work: a public plugin, a private workspace instantiated from a template repo, and a vault at `~/.claude-plugins/<name>/` for user data."
+        }
+      ]
+    },
+    {
+      "name": "MCP",
+      "description": "Projects related to Claude and MCP tooling and setup.",
+      "repositories": [
+        {
+          "name": "AI Tools Plugin",
+          "url": "https://github.com/danielrosehill/ai-tools-plugin",
+          "description": "Early standalone Claude Code plugin with slash commands for AI tool management and MCP server configuration."
+        },
+        {
+          "name": "Canopy",
+          "url": "https://github.com/danielrosehill/Canopy",
+          "description": "Self-hosted progressive discovery for AI agents: one connector through which skills, plugins and MCP tools are searched and loaded on demand from a home server, so a large library doesn't flood the agent's context. Extends MCPJungle."
+        },
+        {
+          "name": "Claude Code MCP List",
+          "url": "https://github.com/danielrosehill/Claude-Code-MCP-List",
+          "description": "Curated index of MCP servers organized into 14+ categories for extending Claude Code."
+        },
+        {
+          "name": "Claude MCP Guidelines",
+          "url": "https://github.com/danielrosehill/Claude-MCP-Guidelines",
+          "description": "Home-folder CLAUDE.md snippet giving an agent guidance on which MCP server to reach for."
+        },
+        {
+          "name": "How-To-MCP",
+          "url": "https://github.com/danielrosehill/How-To-MCP",
+          "description": "Guide for instructing AI agents on how to provision and manage MCP server connections according to user-specific preferences, with a tiered decision matrix."
+        },
+        {
+          "name": "MCPM Claude Code Docs",
+          "url": "https://github.com/danielrosehill/MCPM-Claude-Code-Docs",
+          "description": "Documentation for integrating Claude Code with MCPM external MCP server manager."
+        },
+        {
+          "name": "Smithery Claude Code MCP Jumpstarter",
+          "url": "https://github.com/danielrosehill/Smithery-Claude-Code-MCP-Jumpstarter",
+          "description": "Curated collection of 35+ MCP servers with interactive installer across 15+ categories. <!-- GENERATED FROM data/marketplace.json \u2014 do not edit by hand. Run scripts/sync_marketplace.py or npm run build. -->"
+        }
+      ]
+    },
+    {
+      "name": "Slash Commands",
+      "description": "Individual slash commands, sometimes integrated into other plugins or sometimes just for use at the user level.",
+      "repositories": [
+        {
+          "name": "AI-Human Attribution Adder",
+          "url": "https://github.com/danielrosehill/AI-Human-Attribution-Adder",
+          "description": "Adds AI/human attribution sections to README files for transparent tool usage documentation."
+        },
+        {
+          "name": "Claude App Optimiser",
+          "url": "https://github.com/danielrosehill/Claude-App-Optimiser",
+          "description": "Slash command deploying a sub-agent for codebase optimization and dead code removal."
+        },
+        {
+          "name": "Claude Calls The Shots",
+          "url": "https://github.com/danielrosehill/Claude-Calls-The-Shots",
+          "description": "Flips Claude Code into autonomous, action-first mode \u2014 ships a per-session `/calls-the-shots` slash command plus an optional always-on snippet injected into `~/.claude/CLAUDE.md`."
+        },
+        {
+          "name": "Claude Code Linux Desktop Slash Commands",
+          "url": "https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+          "description": "System administration slash commands for Linux desktop environments."
+        },
+        {
+          "name": "Claude MD Chunk",
+          "url": "https://github.com/danielrosehill/Claude-MD-Chunk",
+          "description": "Slash command that condenses bloated CLAUDE.md files to essentials and organizes supplementary context into a structured `agent-context/` folder."
+        },
+        {
+          "name": "Claude Slash Commands",
+          "url": "https://github.com/danielrosehill/Claude-Slash-Commands",
+          "description": "General-purpose slash command library for various Claude Code workflows."
+        },
+        {
+          "name": "Document As You Go",
+          "url": "https://github.com/danielrosehill/Document-As-You-Go",
+          "description": "Drop-in system prompt and slash command that make coding agents capture what they discover \u2014 undocumented APIs, auth flows, dead ends \u2014 instead of losing it when the session ends."
+        },
+        {
+          "name": "General Dev Plugin",
+          "url": "https://github.com/danielrosehill/general-dev-plugin",
+          "description": "Early standalone Claude Code plugin with slash commands and agents for code generation, refactoring and general development."
+        },
+        {
+          "name": "Git GitHub Plugin",
+          "url": "https://github.com/danielrosehill/git-github-plugin",
+          "description": "Early standalone Claude Code plugin with slash commands and agents for Git version control and GitHub repository management."
+        },
+        {
+          "name": "No Wheel Inventions",
+          "url": "https://github.com/danielrosehill/No-Wheel-Inventions",
+          "description": "Slash commands encouraging use of existing libraries instead of building custom solutions."
+        },
+        {
+          "name": "Split Context Setup",
+          "url": "https://github.com/danielrosehill/Split-Context-Setup",
+          "description": "Slash command that prunes a repo's `CLAUDE.md` to essentials and scaffolds a topic-based `context/` store, an ingestion pipeline for raw materials, and subagents for context maintenance."
+        }
+      ]
+    },
+    {
+      "name": "Misc",
+      "description": "Other projects including meta-resources, feedback, and utilities that span multiple categories.",
+      "repositories": [
+        {
+          "name": "Agent Context Harness",
+          "url": "https://github.com/danielrosehill/Agent-Context-Harness",
+          "description": "Idea: a per-turn router that sends each message to the current task, an existing parallel worker or a new session, keeping unrelated tasks out of one agent's context."
+        },
+        {
+          "name": "Canopy Planning",
+          "url": "https://github.com/danielrosehill/Canopy-Planning",
+          "description": "Planning notes for combining Canopy and Claude-Net into one home gateway that gives each person's agent the same tool surface plus a direct line to the other agents."
+        },
+        {
+          "name": "Claude Background Hook Planner",
+          "url": "https://github.com/danielrosehill/Claude-Background-Hook-Planner",
+          "description": "Placeholder for planning a Claude Code background hook."
+        },
+        {
+          "name": "Claude MD Experiments",
+          "url": "https://github.com/danielrosehill/Claude-MD-Experiments",
+          "description": "Empty placeholder for experiments with `CLAUDE.md` structure."
+        },
+        {
+          "name": "Claude Skills Model 0526",
+          "url": "https://github.com/danielrosehill/Claude-Skills-Model-0526",
+          "description": "Stub for planning notes on the plugins and skills mechanism (May 2026)."
+        },
+        {
+          "name": "FeedCoin",
+          "url": "https://github.com/danielrosehill/FeedCoin",
+          "description": "Idea documentation: a standard credit that vendors issue to people who improve their paid products (bug reports, fixes), redeemable against the subscription, prompted by heavy Claude Code use."
+        },
+        {
+          "name": "Israel Medication Research Skills",
+          "url": "https://github.com/danielrosehill/Israel-Medication-Research-Skills",
+          "description": "Stub workspace for agent skills that check medication availability in Israel for patients, to be folded into the Israel agent-skills plugin."
+        },
+        {
+          "name": "Voice Note Task Classifier",
+          "url": "https://github.com/danielrosehill/Voice-Note-Task-Classifier",
+          "description": "Planned multi-label classifier that routes voice-note transcripts to task-specific subagents (email, calendar, shopping list, to-do, dev spec), each holding one MCP tool."
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_categories": 7,
+    "total_repositories": 107,
+    "repositories_by_category": {
+      "Systems Administration": 43,
+      "Argument and Perspective Exploration": 4,
+      "Context and Personalization": 19,
+      "Multi-Agent Tooling": 15,
+      "MCP": 7,
+      "Slash Commands": 11,
+      "Misc": 8
+    }
+  }
+}

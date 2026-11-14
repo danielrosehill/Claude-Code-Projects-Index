@@ -86,7 +86,7 @@
       },
       "description": "Region-specific consumer shopping primitives \u2014 find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon US, AliExpress Israel) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.",
       "category": "Marketing & Shopping",
-      "version": "2.0.2",
+      "version": "2.0.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -176,7 +176,7 @@
       },
       "description": "Audio production \u2014 normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
       "category": "Media Editing",
-      "version": "1.11.1",
+      "version": "1.11.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -199,7 +199,7 @@
       },
       "description": "Image production \u2014 editing, format conversion, batch ops, and filesystem organisation by resolution, aspect ratio, orientation, format, EXIF time, camera, plus dedupe and metadata scrubbing.",
       "category": "Media Editing",
-      "version": "2.3.4",
+      "version": "2.4.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -222,7 +222,7 @@
       },
       "description": "Video editing, transcoding, video processing, and multimedia workflow automation. Two-tier workspace (index + project), per-user data store, and a growing set of ffmpeg/MLT/Kdenlive primitives.",
       "category": "Media Editing",
-      "version": "1.15.0",
+      "version": "1.15.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -265,7 +265,7 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Smart-Home-Plugin"
       },
-      "description": "Smart home \u2014 Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.",
+      "description": "Smart home \u2014 Home Assistant and Plex media server ops, with HA/media-server workspace variants. Multi-room audio is in home-audio.",
       "category": "Staging",
       "version": "1.0.0",
       "author": {
@@ -332,7 +332,7 @@
       },
       "description": "Career planning \u2014 log roles, compare offers, track applications, salary benchmark, with planning/job-search/salary variants.",
       "category": "Staging",
-      "version": "2.3.4",
+      "version": "2.4.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -353,7 +353,7 @@
       },
       "description": "Product research and procurement skills with a particular focus on technical specification conformance \u2014 does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
       "category": "Marketing & Shopping",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -381,7 +381,7 @@
       },
       "description": "Research \u2014 source log, summarize, deep-dive, export, with deep-research/technical/osint/georeaction/stack/ecosystem/competitor/purchasing/general-research-workspace/obsidian-vault variants. The obsidian-vault variant scaffolds the research loop as a working Obsidian vault (committed .obsidian/ config, frontmatter schema, wikilinks, templates, canvas). Includes a 30-agent tech research team for hardware/software stack evaluations (folded in from Claude-Tech-Research-Team).",
       "category": "Research & Learning",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -495,7 +495,7 @@
       },
       "description": "Ideation and planning \u2014 capture, generate, evaluate, rank, simulate, and plan ideas, with ideation/single-idea-eval/multi-idea-ranking/feature-ideas/simulation/idea-capture variants and Typst PDF deliverables.",
       "category": "Personal Productivity",
-      "version": "1.4.1",
+      "version": "1.4.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -583,7 +583,7 @@
       },
       "description": "Claude-Rudder \u2014 collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
       "category": "QA & Agent Sessions",
-      "version": "2.9.2",
+      "version": "2.9.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -649,7 +649,7 @@
       },
       "description": "Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog, 206 bundled text-transformation prompts), Typst PDF, save. Batch mode runs several files concurrently. Preferences in a plain file.",
       "category": "Media Editing",
-      "version": "3.1.0",
+      "version": "3.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -676,7 +676,7 @@
       },
       "description": "Convert GitHub repos into polished content (PDF, white paper, internal doc, public-docs publication) via Typst, with optional AI banner generation and multi-target publishing.",
       "category": "Documentation & Writing",
-      "version": "1.1.2",
+      "version": "1.1.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -701,7 +701,7 @@
       },
       "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).",
       "category": "Personal Productivity",
-      "version": "1.4.0",
+      "version": "1.5.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -748,7 +748,7 @@
       },
       "description": "Uses a real code repository in reverse for developer education: assesses the learner's profile, builds a teaching plan grounded in the repo, writes lessons and file-by-file analyses with code samples drawn from the source, supports interactive Q&A, and typesets any of it as a PDF via Typst.",
       "category": "Research & Learning",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -872,7 +872,7 @@
       },
       "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.",
       "category": "Network & Smart Home",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -960,15 +960,15 @@
       ]
     },
     {
-      "name": "media-assistant-ops",
-      "displayName": "Media Assistant Ops",
+      "name": "home-audio",
+      "displayName": "Home Audio",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Media-Assistant-Ops-Plugin"
+        "repo": "danielrosehill/Home-Audio"
       },
-      "description": "Interface with a Music Assistant server via its local API \u2014 onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.",
+      "description": "Network speakers and multi-room audio across backends (Music Assistant, Lyrion/Squeezelite, Snapcast): install servers and clients, inventory, set speakers, debug, drive the MA and Home Assistant APIs. Your installation lives in a private overlay.",
       "category": "Network & Smart Home",
-      "version": "1.1.0",
+      "version": "1.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -976,11 +976,13 @@
       },
       "license": "MIT",
       "tags": [
+        "audio",
+        "multi-room",
         "music-assistant",
-        "home-audio",
-        "smart-home",
-        "dsp",
-        "automation"
+        "squeezelite",
+        "snapcast",
+        "home-assistant",
+        "speakers"
       ]
     },
     {
@@ -1039,7 +1041,7 @@
       },
       "description": "Claude Code agent skills for Israel-specific workflows: emergency readiness utilities, medicine and drug registry lookups, Kol Zchut rights lookups, municipal and transport information, and regional lookups. For Hebrew correspondence and typography see the rtl-skills plugin.",
       "category": "Regional",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1214,7 +1216,7 @@
       },
       "description": "Drive an AI-generated video project end-to-end: creative brief, model selection, character sheets, script, storyboard, generation pipelines (text-to-image-to-video, voice-to-lip-sync, text-to-video, upscale), clip assembly, and final export. Ships fal.ai/Replicate/MiniMax MCP servers and fal-js + WaveSpeed Python SDK runners.",
       "category": "Media Editing",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1243,7 +1245,7 @@
       },
       "description": "Skills and an orchestrator agent for preparing PDFs for digital printing \u2014 resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.",
       "category": "Documentation & Writing",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1287,11 +1289,11 @@
       "displayName": "AI Model Research",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-AI-Model-Research-Plugin"
+        "repo": "danielrosehill/AI-Model-Research-Plugin"
       },
-      "description": "Research, discover, compare, and evaluate AI models on OpenRouter \u2014 backed by the bundled Model-Scout MCP server for live catalog data with caching. Subsumes the standalone open-router-model-research plugin and the Model-Scout-MCP server. 11 skills cover lookup, capability filtering (tools, vision, audio), recommendation, head-to-head comparison, deep evaluation, workload cost projection, and finding cheaper alternatives.",
+      "description": "Research AI models: discover, filter, compare and evaluate, across OpenRouter and the Hugging Face Hub. Built on small unofficial read-only CLIs: orexplorer for OpenRouter (capabilities, batch support, prices, providers, new and trending models, benchmarks) and hubexplorer for the Hugging Face Hub (task-first discovery filtered by format, language, local app, inference provider, model type, size and licence, with every sort order). Skills cover lookup, capability filtering, recommendation, comparison, deep evaluation, cost projection, alternatives, task-first HF model research, transcription models, base models and datasets, gated access, collections and a model notebook.",
       "category": "AI & Context",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1317,7 +1319,7 @@
       },
       "description": "End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.",
       "category": "Data & Datasets",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1342,7 +1344,7 @@
       },
       "description": "Check what people are actually saying about a topic, product, or provider by searching curated social-discourse sources (Reddit, Hacker News, Stack Exchange, Trustpilot, YouTube, Lobsters).",
       "category": "Research & Learning",
-      "version": "1.0.0",
+      "version": "1.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1538,7 +1540,7 @@
       },
       "description": "Personal schedule, task, and meeting management. Routes mixed brain-dumps into Google Calendar (events) and Todoist (tasks); manages agenda/minutes Google Docs linked to events; produces wrapup logs and morning briefs. 22 skills covering Calendar/Todoist CRUD, firehose routing, task<->event migration, priority/date hygiene, and agenda/minutes lifecycle.",
       "category": "Personal Productivity",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1716,7 +1718,7 @@
       },
       "description": "Evaluate, refine, and develop business ideas through structured lenses \u2014 VC review, TAM, B2B/B2C fit, assumptions, objections, hardware feasibility, dev specs, timelines, social impact \u2014 plus an LLM council pattern (subagents or Karpathy clone), synthesis, and Typst PDF outputs for internal and public-facing docs.",
       "category": "Personal Productivity",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1787,7 +1789,7 @@
       },
       "description": "Publish content to GitHub gists with clear AI authorship \u2014 Claude-authored solution gists and collaborative debug write-ups, both with model+date attribution, environment context, and a PII pre-flight scrub for public publishes. Visibility is a per-call parameter with a configurable default.",
       "category": "Git & GitHub",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1956,7 +1958,7 @@
       },
       "description": "KDE Plasma (Wayland) runtime utilities \u2014 KWin scripting, plasmoid management, panel layout backup, virtual desktops & activities, KGlobalAccel shortcuts, theme/look-and-feel switching, KDE Connect, Klipper, Baloo, kwriteconfig safe-edit, plasma-restart helpers, qdbus introspection, kscreen save/apply, KWallet ops. Complements generic Linux desktop-management plugins.",
       "category": "Linux Sysadmin",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2226,7 +2228,7 @@
       },
       "description": "Plan and prompt-engineer AI-generated visuals (images, diagrams, video) for whitepapers, blog posts, and long-form content. Six skills cover project onboarding, visual ideation, prompt generation, project listing, fal-ai execution, and a resolution/style reference.",
       "category": "Media Editing",
-      "version": "1.1.0",
+      "version": "1.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2250,7 +2252,7 @@
       },
       "description": "Passive-aggressive PA system. Claude barks status updates over a speaker; if ignored, escalates across the house via Home Assistant or MQTT. Includes pre-recorded voice packs, RGB signal bulb, full-screen flash overlay, and a quiet-mode skill that translates natural-language pause/schedule requests.",
       "category": "QA & Agent Sessions",
-      "version": "0.3.1",
+      "version": "0.3.3",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2301,7 +2303,7 @@
       },
       "description": "Companion plugin for the donetick-mcp server. Bundles the MCP and adds skills for chore management against a self-hosted Donetick instance \u2014 daily brief, list/create/complete chores, label management.",
       "category": "Personal Productivity",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2852,7 +2854,7 @@
       },
       "description": "AliExpress shopping skills for Israel-based buyers \u2014 honest deep search that resolves true SKU prices behind anchored and bundle cards, fast-delivery-to-Israel filter, locale preference with drift guard (default EN/USD), Choice-first search, Israeli-reviews filter, landed cost, findings export (JSON/Markdown/PDF) and the $75 de-minimis across listings and cart.",
       "category": "Personal Productivity",
-      "version": "1.9.0",
+      "version": "1.10.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2925,7 +2927,7 @@
       },
       "description": "Print labels from Claude Code on Brother QL and P-touch label printers on Linux. Discovers printers over mDNS, USB and CUPS and keeps a machine-local registry so later prints can name one; renders text and QR labels to the pixel canvas of the loaded DK or TZe media; previews without touching the printer, because brother_ql converts and transmits in a single step with no dry run. Ships a media catalogue of DK and TZe product codes, reusable label templates in the user's data directory, and a Linux driver-install skill covering brother_ql, ptouch-print, mDNS and CUPS. Zebra and DYMO are discovered and registered but not yet printable. Also bundles the original streamable-HTTP MCP server for P-touch setups built around a USB print bridge.",
       "category": "Hardware & Maker",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3156,7 +3158,7 @@
       },
       "description": "Make optimal use of a baggage allowance on an international itinerary \u2014 research each carrier's real checked, cabin and personal-item allowance per segment with a source and a confidence level for every figure, compute the binding limit that governs the journey, inventory what is carried by weight, reconcile scale readings against the inventory, solve the allocation to bags and packing cubes, price every way out of being over, and rank an emergency leave-behind list by cost per kilogram saved. Renders a one-page airport counter card and a per-bag packing list as PDF via Typst and as Markdown. One trip workspace per itinerary.",
       "category": "Personal Productivity",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3179,7 +3181,7 @@
       },
       "description": "Produce books, long-form research reports, screenplays and audiobooks with teams of subagents. One pipeline (definition, planning, parallel unit drafting, review), then a production stage per type: print handoff, PDF, Fountain, or spoken script + per-chapter TTS + chaptered m4b. Consistency is carried by a style guide, per-unit briefs and a continuity ledger, and a seam reviewer checks every join between units. Successor to book-writing.",
       "category": "Publishing & CMS",
-      "version": "2.0",
+      "version": "2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3302,7 +3304,7 @@
       },
       "description": "Process .eml email exports \u2014 reconstruct a thread from loose .eml files, render the chain to a single PDF with correct right-to-left handling for Hebrew and Arabic, extract attachments, export Markdown, redact before sharing, and build numbered evidence bundles.",
       "category": "Documentation & Writing",
-      "version": "0.1.0",
+      "version": "0.1.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3330,7 +3332,7 @@
       },
       "description": "Obfuscate logs, bug reports and sensitive documents: swap identifying details for plausible stand-ins at a chosen closeness.",
       "category": "Privacy & Security",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3415,7 +3417,7 @@
       },
       "description": "Slash commands and subagents for managing Docker containers, Compose stacks, volumes, networks, and multi-environment deployments.",
       "category": "Linux Sysadmin",
-      "version": "0.1.0",
+      "version": "0.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3517,7 +3519,7 @@
       },
       "description": "Administer Ubuntu machines, desktop or server, locally or over SSH: health and diagnosis, packages (apt/snap/flatpak), systemd services and logs, Docker, storage and backups, networking, hardware and GPU drivers, displays, fonts, codecs, shell and dev environments. Supersedes linux-desktop-mgmt, linux-server-mgmt and sysadmin-homelab.",
       "category": "Linux Sysadmin",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3607,7 +3609,7 @@
       },
       "description": "Stock counts, aisle/bin and prices across IKEA Israel's 5 branches.",
       "category": "Regional",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3680,7 +3682,7 @@
       },
       "description": "Plan small custom models and fine-tunes, then save training recipes privately and run them on Modal, RunPod or local Unsloth.",
       "category": "AI & Context",
-      "version": "1.6.0",
+      "version": "1.7.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3705,7 +3707,7 @@
       },
       "description": "Modular research task: brief in, PDF + podcast out. Takes a (dictated) brief through a GitHub repo as research notebook, parallel-subagent research with a source log, a Typst PDF report and a two-host educational podcast (Gemini TTS), then Google Drive and email. Every output module is optional and runs alone; the repo can stay a one-off or keep growing in follow-up rounds.",
       "category": "Research & Learning",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3983,7 +3985,7 @@
       },
       "description": "Habits (rules, always-on or triggered) and SOPs (procedures) as one markdown file each, in a private folder, with one small CLAUDE.md block. Library of example habits to adopt. Replaces sop-library.",
       "category": "AI & Context",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4489,7 +4491,7 @@
       },
       "description": "Video editing and rendering on rented cloud GPUs (Modal): offload heavy jobs like AI voice cleanup from a local machine.",
       "category": "Media Editing",
-      "version": "1.0.0",
+      "version": "1.4.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4502,35 +4504,6 @@
         "modal",
         "speech-enhancement",
         "media-editing"
-      ]
-    },
-    {
-      "name": "hf-research",
-      "displayName": "HF Research",
-      "source": {
-        "source": "github",
-        "repo": "danielrosehill/HF-Research-Plugin"
-      },
-      "description": "Unofficial Hugging Face research skills for AI agents, task first. task-directory has every Hub task with its page and model-listing URL built in (no fetch), and hf-tasks re-reads the live huggingface.co/tasks taxonomy on request and shows what changed. task-model-research goes from a need to its task(s) to a vetted shortlist. transcription-model-research searches ASR, audio-text-to-text and any-to-any together. Also candidate base-model and dataset research, gated-access (pre-fills gate forms from your saved answers and asks before submitting), bundle-collection and model-notebook. Your details live in a private profile outside the plugin (setup).",
-      "category": "Research & Learning",
-      "version": "1.1.0",
-      "author": {
-        "name": "Daniel Rosehill",
-        "email": "public@danielrosehill.com",
-        "url": "https://danielrosehill.com"
-      },
-      "license": "MIT",
-      "tags": [
-        "huggingface",
-        "hugging-face",
-        "tasks",
-        "model-search",
-        "model-research",
-        "asr",
-        "transcription",
-        "gated-models",
-        "datasets",
-        "base-model"
       ]
     },
     {
@@ -4589,6 +4562,83 @@
         "privacy",
         "claude-code"
       ]
+    },
+    {
+      "name": "family-systems-context",
+      "displayName": "Family Systems Context",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Family-Systems-Context-Plugin"
+      },
+      "description": "Map a toxic family system: one file per person, roles grounded in family-systems research, printable relationship diagram, therapy intake pack, aliases for names that hurt, private git repo plus optional vector store.",
+      "category": "Health",
+      "version": "1.0.1",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "mental-health",
+        "family-systems",
+        "therapy",
+        "abuse-recovery",
+        "genogram",
+        "context",
+        "voice-notes",
+        "vector-store"
+      ]
+    },
+    {
+      "name": "tooling",
+      "displayName": "Tooling",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Tooling"
+      },
+      "description": "Seed a machine with Daniel Rosehill's public channels: Claude Code marketplaces, APT repo, F-Droid repos, CLIs, Hugging Face and GitHub projects. Ships the danielrosehill TUI.",
+      "category": "Linux Sysadmin",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "setup",
+        "bootstrap",
+        "apt",
+        "f-droid",
+        "marketplace",
+        "huggingface",
+        "github",
+        "tui"
+      ]
+    },
+    {
+      "name": "tts-tools",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/TTS-Tools"
+      },
+      "description": "TTS listening pages: compare clips side by side, save picks. Voice candidates, original vs processed, EQ chains, checkpoints, blind A/B; choices saved as JSON.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "tts",
+        "audio",
+        "listening-test",
+        "ab-test"
+      ],
+      "displayName": "TTS Tools",
+      "category": "Media Editing"
     }
   ]
 }

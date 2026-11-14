@@ -283,12 +283,13 @@
   },
   {
     "name": "AI Model Research",
-    "url": "https://github.com/danielrosehill/Claude-AI-Model-Research-Plugin",
-    "description": "Research, discover, compare, and evaluate AI models on OpenRouter \u2014 backed by the bundled Model-Scout MCP server for live catalog data with caching. Subsumes the standalone open-router-model-research plugin and the Model-Scout-MCP server. 11 skills cover lookup, capability filtering (tools, vision, audio), recommendation, head-to-head comparison, deep evaluation, workload cost projection, and finding cheaper alternatives.",
+    "url": "https://github.com/danielrosehill/AI-Model-Research-Plugin",
+    "description": "Research AI models: discover, filter, compare and evaluate, across OpenRouter and the Hugging Face Hub. Built on small unofficial read-only CLIs: orexplorer for OpenRouter (capabilities, batch support, prices, providers, new and trending models, benchmarks) and hubexplorer for the Hugging Face Hub (task-first discovery filtered by format, language, local app, inference provider, model type, size and licence, with every sort order). Skills cover lookup, capability filtering, recommendation, comparison, deep evaluation, cost projection, alternatives, task-first HF model research, transcription models, base models and datasets, gated access, collections and a model notebook.",
     "tags": [
-      "MCP",
+      "Documentation",
       "Plugin",
-      "Research"
+      "Research",
+      "Tool"
     ],
     "category": "Plugins",
     "category_slug": "plugins",
@@ -1397,23 +1398,6 @@
     "created_date": "2026-04-27"
   },
   {
-    "name": "Mental Health AI Index",
-    "url": "https://github.com/danielrosehill/Mental-Health-AI-Index",
-    "description": "Subindex of AI tools, Claude Code and other platforms, for mental health work a person does on their own material: family-system mapping, tracking therapy, preparing for appointments.",
-    "tags": [
-      "Agent Workspace",
-      "Health",
-      "Plugin",
-      "Template"
-    ],
-    "category": "Health & Wellbeing",
-    "category_slug": "health",
-    "category_group": "Non-Code",
-    "added_date": "2026-10-19",
-    "slug": "claude-mental-health-templates-index",
-    "created_date": "2026-08-14"
-  },
-  {
     "name": "Claude Meta Dorker",
     "url": "https://github.com/danielrosehill/Claude-Meta-Dorker",
     "description": "Agent-readable search manifests documenting advanced URL parameters for websites, written for AI agents rather than human readers.",
@@ -2372,6 +2356,21 @@
     "created_date": "2026-09-01"
   },
   {
+    "name": "Family Systems Context",
+    "url": "https://github.com/danielrosehill/Family-Systems-Context-Plugin",
+    "description": "Map a toxic family system: one file per person, roles grounded in family-systems research, printable relationship diagram, therapy intake pack, aliases for names that hurt, private git repo plus optional vector store.",
+    "tags": [
+      "Plugin",
+      "Research"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-14",
+    "slug": "family-systems-context",
+    "created_date": "2026-11-14"
+  },
+  {
     "name": "Favorite Plugins Installers",
     "url": "https://github.com/danielrosehill/Claude-Favorite-Plugins-Installers-Plugin",
     "description": "Curated batches of third-party Claude Code plugins, grouped by type/theme, installable in one command.",
@@ -2711,22 +2710,6 @@
     "created_date": "2026-11-13"
   },
   {
-    "name": "Hf Research",
-    "url": "https://github.com/danielrosehill/HF-Research-Plugin",
-    "description": "Unofficial Hugging Face research skills for AI agents, task first. task-directory has every Hub task with its page and model-listing URL built in (no fetch), and hf-tasks re-reads the live huggingface.co/tasks taxonomy on request and shows what changed. task-model-research goes from a need to its task(s) to a vetted shortlist. transcription-model-research searches ASR, audio-text-to-text and any-to-any together. Also candidate base-model and dataset research, gated-access (pre-fills gate forms from your saved answers and asks before submitting), bundle-collection and model-notebook. Your details live in a private profile outside the plugin (setup).",
-    "tags": [
-      "Documentation",
-      "Plugin",
-      "Research"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-11-13",
-    "slug": "hf-research",
-    "created_date": "2026-11-13"
-  },
-  {
     "name": "Home Assistant Mgmt",
     "url": "https://github.com/danielrosehill/Home-Assistant-Mgmt-Plugin",
     "description": "Manage a Home Assistant instance via SSH and the HA REST API \u2014 guided first-run onboarding, automation/entity authoring, service calls, TTS testing, and log review. Per-host config is stored outside the plugin so the same install works across multiple Home Assistant environments.",
@@ -2742,6 +2725,21 @@
     "added_date": "2026-04-28",
     "slug": "home-assistant-mgmt",
     "created_date": "2026-04-27"
+  },
+  {
+    "name": "Home Audio",
+    "url": "https://github.com/danielrosehill/Home-Audio",
+    "description": "Network speakers and multi-room audio across backends (Music Assistant, Lyrion/Squeezelite, Snapcast): install servers and clients, inventory, set speakers, debug, drive the MA and Home Assistant APIs. Your installation lives in a private overlay.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-14",
+    "slug": "home-audio",
+    "created_date": "2026-11-14"
   },
   {
     "name": "Home Folder Claude MD",
@@ -3512,20 +3510,6 @@
     "created_date": "2025-12-09"
   },
   {
-    "name": "Media Assistant Ops",
-    "url": "https://github.com/danielrosehill/Claude-Media-Assistant-Ops-Plugin",
-    "description": "Interface with a Music Assistant server via its local API \u2014 onboard a deployment, control players, snapshot speaker rosters, save/update per-player DSP presets, and apply a curated podcast EQ preset.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-23",
-    "slug": "media-assistant-ops",
-    "created_date": "2026-04-21"
-  },
-  {
     "name": "Media Library",
     "url": "https://github.com/danielrosehill/Claude-Media-Library-Plugin",
     "description": "Media library \u2014 catalog, tag, search, sort, dedupe assets.",
@@ -3538,6 +3522,20 @@
     "added_date": "2026-04-19",
     "slug": "media-library",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Mental Health AI Index",
+    "url": "https://github.com/danielrosehill/Mental-Health-AI-Index",
+    "description": "Subindex of AI tools, Claude Code and other platforms, for mental health work a person does on their own material: family-system mapping, tracking therapy, preparing for appointments.",
+    "tags": [
+      "Health"
+    ],
+    "category": "Health & Wellbeing",
+    "category_slug": "health",
+    "category_group": "Non-Code",
+    "added_date": "2026-10-19",
+    "slug": "mental-health-ai-index",
+    "created_date": "2026-08-14"
   },
   {
     "name": "MK Claude",
@@ -4414,8 +4412,9 @@
   {
     "name": "Smart Home",
     "url": "https://github.com/danielrosehill/Claude-Smart-Home-Plugin",
-    "description": "Smart home \u2014 Home Assistant, Snapcast multi-room audio, Plex media server ops, with HA/audio/media-server variants.",
+    "description": "Smart home \u2014 Home Assistant and Plex media server ops, with HA/media-server workspace variants. Multi-room audio is in home-audio.",
     "tags": [
+      "Agent Workspace",
       "Plugin"
     ],
     "category": "Plugins",
@@ -4842,6 +4841,21 @@
     "created_date": "2026-09-01"
   },
   {
+    "name": "Tooling",
+    "url": "https://github.com/danielrosehill/Tooling",
+    "description": "Seed a machine with Daniel Rosehill's public channels: Claude Code marketplaces, APT repo, F-Droid repos, CLIs, Hugging Face and GitHub projects. Ships the danielrosehill TUI.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-14",
+    "slug": "tooling",
+    "created_date": "2026-11-14"
+  },
+  {
     "name": "Transcription Pipeline",
     "url": "https://github.com/danielrosehill/Transcription-Pipeline",
     "description": "Transcription in stages: collect (local, Drive, S3, URL), preprocess (EQ, denoise, silence trim), transcribe (OpenRouter/Gemini Flash, AssemblyAI, Gemini, local Whisper/Parakeet), clean, label speakers, reshape (spec, minutes, to-do, blog, 206 bundled text-transformation prompts), Typst PDF, save. Batch mode runs several files concurrently. Preferences in a plain file.",
@@ -4871,6 +4885,21 @@
     "added_date": "2026-08-20",
     "slug": "travel-packing",
     "created_date": "2026-08-16"
+  },
+  {
+    "name": "Tts Tools",
+    "url": "https://github.com/danielrosehill/TTS-Tools",
+    "description": "TTS listening pages: compare clips side by side, save picks. Voice candidates, original vs processed, EQ chains, checkpoints, blind A/B; choices saved as JSON.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-14",
+    "slug": "tts-tools",
+    "created_date": "2026-11-14"
   },
   {
     "name": "Typst Document Generator",
