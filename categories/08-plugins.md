@@ -402,6 +402,15 @@ Produce books, long-form research reports, screenplays and audiobooks with teams
 
 ---
 
+## Browser
+
+### Claude Agent Browsers
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Agent-Browsers-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Give Claude its own browsers without it taking over your screen. A typed registry of agent browsers (local, LAN server, VPS) with addresses, MCP endpoints, viewers and login sources in your own config; skills to pick, drive and clean up after a browser, hand sign-ins and CAPTCHAs to you, check status and install Xpra viewer launchers. On KDE Plasma 6 the local agent browser stays on its own virtual desktop, never steals focus, stays out of your panel, and is shown to you only when you say yes.
+
+---
+
 ## Btrfs
 
 ### Snap It
@@ -904,7 +913,7 @@ Amazon KDP paperback production with Typst — choose a standard trim, typeset t
 ### Label Printer
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/label-printer-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Print labels from Claude Code on Brother QL and P-touch label printers on Linux. Discovers printers over mDNS, USB and CUPS and keeps a machine-local registry so later prints can name one; renders text and QR labels to the pixel canvas of the loaded DK or TZe media; previews without touching the printer, because brother_ql converts and transmits in a single step with no dry run. Ships a media catalogue of DK and TZe product codes, reusable label templates in the user's data directory, and a Linux driver-install skill covering brother_ql, ptouch-print, mDNS and CUPS. Zebra and DYMO are discovered and registered but not yet printable. Also bundles the original streamable-HTTP MCP server for P-touch setups built around a USB print bridge.
+Design and print labels from Claude Code. Turns "four labels for the wine bottles with a wine icon" into a finished label: Iconify icon search (filled icons first), fonts by name with automatic download (IBM Plex Sans Bold by default), auto two-line wrap, icon-left/icon-top/QR layouts and saved styles, sized to the loaded media (Brother DK and TZe, NIIMBOT die-cut; live tape detection on bridge and hub printers). Prints through pluggable backends: CUPS, ptouch-print, brother_ql, a USB print bridge (P-touch or niimblue-node for NIIMBOT) or a LAN Print Hub. Printers, styles and templates live in the user's own Label-Templates repo, created from a public template. Also bundles the original P-touch MCP server.
 
 ---
 
@@ -1001,6 +1010,15 @@ Scaffold new LLM Council projects from existing templates (Template, Grounded, D
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Family-Systems-Context-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Map a toxic family system: one file per person, roles grounded in family-systems research, printable relationship diagram, therapy intake pack, aliases for names that hurt, private git repo plus optional vector store.
+
+---
+
+## Multi Agent
+
+### Agent Deconfliction
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agent-Deconfliction) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Two agents in one repo? Message the other, agree who owns which files and git ops before anything collides.
 
 ---
 

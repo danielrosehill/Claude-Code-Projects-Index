@@ -1,11 +1,12 @@
 {
-  "last_built": "2026-11-14T18:53:26",
-  "total_repos": 346,
+  "last_built": "2026-11-15T17:24:26",
+  "total_repos": 348,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
     "Agent Briefing Gateway": "cc9e87f4bfb30ef852462d6bf06460eb",
     "Agent Context Harness": "ee2f630bc3b45e3f9bf4349aac74eef0",
+    "Agent Deconfliction": "369df1d0fe49e9f9148881eee9f329d6",
     "Agent Exchange": "2478749de36b824f1a2004ee277c8696",
     "Agent Handover Demo": "29a6e948debe2bc8324f8dfb9205a2a7",
     "Agent Reference Workflows": "84249bc123e362edad3c10742c0df7f4",
@@ -57,6 +58,7 @@
     "Chatgpt Agent Builder": "80f7baada86a0ecd81522b13d1ab53a1",
     "Chatgpt Importer": "97f0f22433e69649bcf2e1fa1b64b890",
     "Claude ADHD Research Workspace": "d3c8e95baef2d2ee90c23b1304d641c0",
+    "Claude Agent Browsers": "29569c6ef3f2667c9237a01a975b55af",
     "Claude Agent Picker Pattern": "8bef7e103914ba9e495bfdd3e37fd771",
     "Claude Agent Workspace Generator": "ec3520a6b51d7a238fefeb4967e7a25c",
     "Claude AI Conference": "c2dc95c8df716755d56f821c6cc94ed1",
@@ -217,7 +219,7 @@
     "Kde Plasma": "26e1381701d7284bf4bd447131c8345c",
     "Kdp Publishing": "4b822c7a227ca1d88dfef735e378167e",
     "Knowledge Documentation": "1fe7a5449377b3d49396171fa3425400",
-    "Label Printer": "e41a01294c0ebe2d9c9cd5b8fb52d72b",
+    "Label Printer": "4f80a3346288cbc2b63f04eaca1c4d66",
     "LAN Print Scan": "24d1505198fbcebc12722f5e1f49846e",
     "Laptop Search 1126": "c9049229df39f4595ea929f193a87abe",
     "Learning": "bdd5fc3bf3541fd8ce6c699c6bbd7dcc",
@@ -351,24 +353,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-04-30T23:31:18",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Spamhole"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Jewish Texts Reference"
-          ]
-        }
-      ],
-      "total_repos": 174
-    },
     {
       "date": "2026-05-01T00:46:46",
       "changes": [
@@ -2752,6 +2736,25 @@
         }
       ],
       "total_repos": 346
+    },
+    {
+      "date": "2026-11-15T17:24:26",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Agent Deconfliction",
+            "Claude Agent Browsers"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Label Printer"
+          ]
+        }
+      ],
+      "total_repos": 348
     }
   ]
 }
