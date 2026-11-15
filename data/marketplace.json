@@ -4688,6 +4688,29 @@
       ],
       "displayName": "Agent Deconfliction",
       "category": "QA & Agent Sessions"
+    },
+    {
+      "name": "cf-domain-reg-ops",
+      "displayName": "CF Domain Reg Ops",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/CF-Domain-Reg-Ops"
+      },
+      "description": "Cloudflare domains: search, live price check, buy, audit expiry. Registrar API with a price guard on every purchase.",
+      "category": "Network & Smart Home",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "cloudflare",
+        "domains",
+        "registrar",
+        "dns"
+      ]
     }
   ]
 }

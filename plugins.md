@@ -490,6 +490,15 @@ Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ dir
 
 ---
 
+## Cloudflare
+
+### Cf Domain Reg Ops
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/CF-Domain-Reg-Ops) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Cloudflare domains: search, live price check, buy, audit expiry. Registrar API with a price guard on every purchase.
+
+---
+
 ## Comparison
 
 ### Comparison Artifacts

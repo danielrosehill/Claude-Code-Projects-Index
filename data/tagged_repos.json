@@ -774,6 +774,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Cf Domain Reg Ops",
+    "url": "https://github.com/danielrosehill/CF-Domain-Reg-Ops",
+    "description": "Cloudflare domains: search, live price check, buy, audit expiry. Registrar API with a price guard on every purchase.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-15",
+    "slug": "cf-domain-reg-ops",
+    "created_date": "2026-11-15"
+  },
+  {
     "name": "Chatgpt Agent Builder",
     "url": "https://github.com/danielrosehill/ChatGPT-Workspace-Agents-Claude-Plugin",
     "description": "ChatGPT Workspace Agents: build, update, inspect, list and share them by driving chatgpt.com/agents/studio in a browser (there is no API for editing agents). Sets instructions, files, skills (one zip per skill; re-upload duplicates, so remove first) and apps. Browser automation: expect breakage when the UI changes; the mechanics doc is dated so drift is easy to fix.",
