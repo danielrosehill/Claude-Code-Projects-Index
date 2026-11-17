@@ -4792,8 +4792,8 @@
         "source": "github",
         "repo": "danielrosehill/Matrix-Client-Plugin"
       },
-      "description": "Matrix chat setup: install Element and the matrix-commander CLI, log the CLI in (password or SSO) and verify it, check which accounts and devices are signed in. Groundwork for sending and reading Matrix messages from an agent.",
-      "version": "1.0.0",
+      "description": "Matrix chat from an agent: install Element and the matrix-commander CLI, log in (password or SSO), list rooms, send and read messages, check which accounts and devices are signed in.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
