@@ -872,7 +872,7 @@
       },
       "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.",
       "category": "Network & Smart Home",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1237,15 +1237,15 @@
       ]
     },
     {
-      "name": "digital-printing",
-      "displayName": "Digital Printing",
+      "name": "print-shop",
+      "displayName": "Print Shop",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Digital-Printing-Plugin"
+        "repo": "danielrosehill/Print-Shop-Plugin"
       },
-      "description": "Skills and an orchestrator agent for preparing PDFs for digital printing \u2014 resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.",
+      "description": "Print shops from your agent: PDF prep, a printing folder by date/subject/printer, a printer registry, and sending jobs by Drive share or email.",
       "category": "Documentation & Writing",
-      "version": "1.0.3",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -1293,7 +1293,7 @@
       },
       "description": "Research AI models: discover, filter, compare and evaluate, across OpenRouter and the Hugging Face Hub. Built on small unofficial read-only CLIs: orexplorer for OpenRouter (capabilities, batch support, prices, providers, new and trending models, benchmarks) and hubexplorer for the Hugging Face Hub (task-first discovery filtered by format, language, local app, inference provider, model type, size and licence, with every sort order). Skills cover lookup, capability filtering, recommendation, comparison, deep evaluation, cost projection, alternatives, task-first HF model research, transcription models, base models and datasets, gated access, collections and a model notebook.",
       "category": "AI & Context",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3159,9 +3159,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-ChatGPT-Importer-Plugin"
       },
-      "description": "Import a ChatGPT conversation into local files via the browser. Captures the full thread from a chatgpt.com URL, a shared link, or an official export archive, then normalizes it to JSON and renders Markdown or a styled Typst PDF with user and assistant turns marked, artifacts (canvas docs, images, code) extracted, cited sources collected, and conversation metadata recorded. Includes a two-pass redaction skill and a conversation-to-context workflow that writes transcripts into a repo's context/ folder.",
+      "description": "Import a ChatGPT conversation into local files via the browser. Captures the full thread from a chatgpt.com URL, a shared link, or an official export archive, then normalizes it to JSON and renders Markdown or a styled Typst PDF with user and assistant turns marked, artifacts (canvas docs, images, code) extracted, cited sources collected, and conversation metadata recorded. Includes a two-pass redaction skill a conversation-to-context workflow that writes transcripts into a repo's context/ folder, and start-repo-from-thread, which creates a new public or private repo seeded with one or more threads.",
       "category": "AI & Context",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3908,8 +3908,8 @@
         "source": "github",
         "repo": "danielrosehill/Skill-Genie"
       },
-      "description": "Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default, writing delegated to a subagent), a reindex skill that makes a new skill available at once, plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
-      "version": "0.3.0",
+      "description": "Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default, writing delegated to a subagent), a reindex skill that makes a new skill available at once, a go-out-then-in skill (take private skills public as a generic plugin, then graft your details back as an overlay), plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
+      "version": "0.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4696,9 +4696,9 @@
         "source": "github",
         "repo": "danielrosehill/CF-Domain-Reg-Ops"
       },
-      "description": "Cloudflare domains: search, live price check, buy, audit expiry. Registrar API with a price guard on every purchase.",
+      "description": "Cloudflare domains: search, buy, audit; CSV, expiry PDF, calendar reminders, WHOIS and PII scans, scan workspace.",
       "category": "Network & Smart Home",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4711,6 +4711,103 @@
         "registrar",
         "dns"
       ]
+    },
+    {
+      "name": "folder-tree-templates",
+      "displayName": "Folder Tree Templates",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Folder-Tree-Templates"
+      },
+      "description": "Dated folder-tree templates (months, year/month, year/month/day, flat DDMMYY, current-and-past): seed them, restructure existing trees into them, sort files by metadata date. Your own templates live in a private overlay.",
+      "category": "Linux Sysadmin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "filesystem",
+        "folders",
+        "organisation",
+        "dates",
+        "exif",
+        "templates"
+      ]
+    },
+    {
+      "name": "macro-deck",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Macro-Deck-Plugin"
+      },
+      "description": "Turn a phone into a macropad for host operations with Macro Deck 3: install the host, connect its MCP server, build decks from a spec, and keep decks in a private git repo.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "macro-deck",
+        "macropad",
+        "android",
+        "linux",
+        "mcp"
+      ],
+      "displayName": "Macro Deck",
+      "category": "Hardware & Maker"
+    },
+    {
+      "name": "whatsapp-waha",
+      "displayName": "WhatsApp via WAHA",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-WhatsApp-WAHA-Plugin"
+      },
+      "description": "Personal WhatsApp via self-hosted WAHA: send, groups, health. Text and photos to contacts and groups, first message to a new number with the contact saved (placeholder name if unknown), create and manage groups, archive or leave chats, check the link for capping and reach-out locks. Per-user profiles, so one install serves several accounts.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "whatsapp",
+        "waha",
+        "messaging",
+        "groups",
+        "mcp"
+      ],
+      "category": "Personal Productivity"
+    },
+    {
+      "name": "matrix-client",
+      "displayName": "Matrix Client",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Matrix-Client-Plugin"
+      },
+      "description": "Matrix chat setup: install Element and the matrix-commander CLI, log the CLI in (password or SSO) and verify it, check which accounts and devices are signed in. Groundwork for sending and reading Matrix messages from an agent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "matrix",
+        "element",
+        "matrix-commander",
+        "messaging",
+        "chat"
+      ],
+      "category": "Personal Productivity"
     }
   ]
 }

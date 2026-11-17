@@ -776,8 +776,9 @@
   {
     "name": "Cf Domain Reg Ops",
     "url": "https://github.com/danielrosehill/CF-Domain-Reg-Ops",
-    "description": "Cloudflare domains: search, live price check, buy, audit expiry. Registrar API with a price guard on every purchase.",
+    "description": "Cloudflare domains: search, buy, audit; CSV, expiry PDF, calendar reminders, WHOIS and PII scans, scan workspace.",
     "tags": [
+      "Agent Workspace",
       "Plugin"
     ],
     "category": "Plugins",
@@ -806,7 +807,7 @@
   {
     "name": "Chatgpt Importer",
     "url": "https://github.com/danielrosehill/Claude-ChatGPT-Importer-Plugin",
-    "description": "Import a ChatGPT conversation into local files via the browser. Captures the full thread from a chatgpt.com URL, a shared link, or an official export archive, then normalizes it to JSON and renders Markdown or a styled Typst PDF with user and assistant turns marked, artifacts (canvas docs, images, code) extracted, cited sources collected, and conversation metadata recorded. Includes a two-pass redaction skill and a conversation-to-context workflow that writes transcripts into a repo's context/ folder.",
+    "description": "Import a ChatGPT conversation into local files via the browser. Captures the full thread from a chatgpt.com URL, a shared link, or an official export archive, then normalizes it to JSON and renders Markdown or a styled Typst PDF with user and assistant turns marked, artifacts (canvas docs, images, code) extracted, cited sources collected, and conversation metadata recorded. Includes a two-pass redaction skill a conversation-to-context workflow that writes transcripts into a repo's context/ folder, and start-repo-from-thread, which creates a new public or private repo seeded with one or more threads.",
     "tags": [
       "Automation",
       "Documentation",
@@ -2233,20 +2234,6 @@
     "created_date": "2026-04-30"
   },
   {
-    "name": "Digital Printing",
-    "url": "https://github.com/danielrosehill/Claude-Digital-Printing-Plugin",
-    "description": "Skills and an orchestrator agent for preparing PDFs for digital printing \u2014 resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-04-27",
-    "slug": "digital-printing",
-    "created_date": "2026-04-27"
-  },
-  {
     "name": "Docker Manager",
     "url": "https://github.com/danielrosehill/docker-manager-plugin",
     "description": "Slash commands and subagents for managing Docker containers, Compose stacks, volumes, networks, and multi-environment deployments.",
@@ -2468,6 +2455,21 @@
     "added_date": "2026-11-02",
     "slug": "flow-control",
     "created_date": "2026-10-31"
+  },
+  {
+    "name": "Folder Tree Templates",
+    "url": "https://github.com/danielrosehill/Folder-Tree-Templates",
+    "description": "Dated folder-tree templates (months, year/month, year/month/day, flat DDMMYY, current-and-past): seed them, restructure existing trees into them, sort files by metadata date. Your own templates live in a private overlay.",
+    "tags": [
+      "Plugin",
+      "Template"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-17",
+    "slug": "folder-tree-templates",
+    "created_date": "2026-11-17"
   },
   {
     "name": "Freight Vol Calculator",
@@ -3524,6 +3526,21 @@
     "created_date": "2026-10-21"
   },
   {
+    "name": "Macro Deck",
+    "url": "https://github.com/danielrosehill/Macro-Deck-Plugin",
+    "description": "Turn a phone into a macropad for host operations with Macro Deck 3: install the host, connect its MCP server, build decks from a spec, and keep decks in a private git repo.",
+    "tags": [
+      "MCP",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-17",
+    "slug": "macro-deck",
+    "created_date": "2026-11-17"
+  },
+  {
     "name": "Marketplace Guide",
     "url": "https://github.com/danielrosehill/Claude-Marketplace-Guide-Plugin",
     "description": "Start here: browse these plugins by theme, find one for a task, see what's new. Reads the live manifest.",
@@ -3536,6 +3553,21 @@
     "added_date": "2026-10-21",
     "slug": "marketplace-guide",
     "created_date": "2026-10-21"
+  },
+  {
+    "name": "Matrix Client",
+    "url": "https://github.com/danielrosehill/Matrix-Client-Plugin",
+    "description": "Matrix chat setup: install Element and the matrix-commander CLI, log the CLI in (password or SSO) and verify it, check which accounts and devices are signed in. Groundwork for sending and reading Matrix messages from an agent.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-17",
+    "slug": "matrix-client",
+    "created_date": "2026-11-17"
   },
   {
     "name": "MCPM Claude Code Docs",
@@ -4048,6 +4080,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Print Shop",
+    "url": "https://github.com/danielrosehill/Print-Shop-Plugin",
+    "description": "Print shops from your agent: PDF prep, a printing folder by date/subject/printer, a printer registry, and sending jobs by Drive share or email.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-17",
+    "slug": "print-shop",
+    "created_date": "2026-11-17"
+  },
+  {
     "name": "Private And Public Claude MD",
     "url": "https://github.com/danielrosehill/Private-And-Public-Claude-MD",
     "description": "Tools for managing public and private CLAUDE.md files with security-focused git configuration.",
@@ -4424,7 +4470,7 @@
   {
     "name": "Skill Genie",
     "url": "https://github.com/danielrosehill/Skill-Genie",
-    "description": "Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default, writing delegated to a subagent), a reindex skill that makes a new skill available at once, plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
+    "description": "Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default, writing delegated to a subagent), a reindex skill that makes a new skill available at once, a go-out-then-in skill (take private skills public as a generic plugin, then graft your details back as an overlay), plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
     "tags": [
       "Automation",
       "Multi-Agent",
@@ -5148,6 +5194,20 @@
     "added_date": "2026-10-25",
     "slug": "voicenotes",
     "created_date": "2026-10-25"
+  },
+  {
+    "name": "Whatsapp Waha",
+    "url": "https://github.com/danielrosehill/Claude-WhatsApp-WAHA-Plugin",
+    "description": "Personal WhatsApp via self-hosted WAHA: send, groups, health. Text and photos to contacts and groups, first message to a new number with the contact saved (placeholder name if unknown), create and manage groups, archive or leave chats, check the link for capping and reach-out locks. Per-user profiles, so one install serves several accounts.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-17",
+    "slug": "whatsapp-waha",
+    "created_date": "2026-11-17"
   },
   {
     "name": "Workspace Foundational",

@@ -285,6 +285,13 @@ Filesystem organisation — scan, dedupe, cleanup, rename, sort for local direct
 
 ---
 
+### Folder Tree Templates
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Folder-Tree-Templates) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Dated folder-tree templates (months, year/month, year/month/day, flat DDMMYY, current-and-past): seed them, restructure existing trees into them, sort files by metadata date. Your own templates live in a private overlay.
+
+---
+
 ## MCP & Infrastructure
 
 ### Unofficial MCP Builder
@@ -459,7 +466,7 @@ ChatGPT Workspace Agents: build, update, inspect, list and share them by driving
 ### Chatgpt Importer
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-ChatGPT-Importer-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Import a ChatGPT conversation into local files via the browser. Captures the full thread from a chatgpt.com URL, a shared link, or an official export archive, then normalizes it to JSON and renders Markdown or a styled Typst PDF with user and assistant turns marked, artifacts (canvas docs, images, code) extracted, cited sources collected, and conversation metadata recorded. Includes a two-pass redaction skill and a conversation-to-context workflow that writes transcripts into a repo's context/ folder.
+Import a ChatGPT conversation into local files via the browser. Captures the full thread from a chatgpt.com URL, a shared link, or an official export archive, then normalizes it to JSON and renders Markdown or a styled Typst PDF with user and assistant turns marked, artifacts (canvas docs, images, code) extracted, cited sources collected, and conversation metadata recorded. Includes a two-pass redaction skill a conversation-to-context workflow that writes transcripts into a repo's context/ folder, and start-repo-from-thread, which creates a new public or private repo seeded with one or more threads.
 
 ---
 
@@ -493,7 +500,7 @@ Manage the user-level ~/.claude/CLAUDE.md and its chunked ~/.claude/context/ dir
 ### Cf Domain Reg Ops
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/CF-Domain-Reg-Ops) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Cloudflare domains: search, live price check, buy, audit expiry. Registrar API with a price guard on every purchase.
+Cloudflare domains: search, buy, audit; CSV, expiry PDF, calendar reminders, WHOIS and PII scans, scan workspace.
 
 ---
 
@@ -1013,6 +1020,24 @@ Scaffold new LLM Council projects from existing templates (Template, Grounded, D
 
 ---
 
+## Macro Deck
+
+### Macro Deck
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Macro-Deck-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Turn a phone into a macropad for host operations with Macro Deck 3: install the host, connect its MCP server, build decks from a spec, and keep decks in a private git repo.
+
+---
+
+## Matrix
+
+### Matrix Client
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Matrix-Client-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Matrix chat setup: install Element and the matrix-commander CLI, log the CLI in (password or SSO) and verify it, check which accounts and devices are signed in. Groundwork for sending and reading Matrix messages from an agent.
+
+---
+
 ## Mental Health
 
 ### Family Systems Context
@@ -1214,17 +1239,17 @@ Personal user manuals and private documentation for codebases, with PDF output.
 
 ## Pdf
 
-### Digital Printing
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Digital-Printing-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
-
-Skills and an orchestrator agent for preparing PDFs for digital printing — resize, grayscale, font embedding, transparency flattening, image downsampling, color normalization, watermarks, footer burn-ins, cover pages, bleed-safety check, job folders, formal print orders, and email/Drive share.
-
----
-
 ### Document To Markdown
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/document-to-markdown-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Convert PDFs to clean Markdown, chunk into logical sections (chapters, indexes, appendices), and extract embedded tables to CSV. Local-first via marker/docling/pymupdf4llm + camelot/tabula, with TOON manifests.
+
+---
+
+### Print Shop
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Print-Shop-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Print shops from your agent: PDF prep, a printing folder by date/subject/printer, a printer registry, and sending jobs by Drive share or email.
 
 ---
 
@@ -1373,7 +1398,7 @@ Seed a machine with Daniel Rosehill's public channels: Claude Code marketplaces,
 ### Skill Genie
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Skill-Genie) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default, writing delegated to a subagent), a reindex skill that makes a new skill available at once, plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.
+Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default, writing delegated to a subagent), a reindex skill that makes a new skill available at once, a go-out-then-in skill (take private skills public as a generic plugin, then graft your details back as an overlay), plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.
 
 ---
 
@@ -1607,6 +1632,15 @@ Passive-aggressive PA system. Claude barks status updates over a speaker; if ign
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Voicenotes-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Voicenotes.com: search, read, create; unofficial text and date-range export, tags, audio import. Not affiliated.
+
+---
+
+## Whatsapp
+
+### Whatsapp Waha
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-WhatsApp-WAHA-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Personal WhatsApp via self-hosted WAHA: send, groups, health. Text and photos to contacts and groups, first message to a new number with the contact saved (placeholder name if unknown), create and manage groups, archive or leave chats, check the link for capping and reach-out locks. Per-user profiles, so one install serves several accounts.
 
 ---
 
