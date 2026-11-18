@@ -109,7 +109,7 @@
       },
       "description": "Amazon.com marketplace research \u2014 verified price, stock, rating, seller and specs read from the listing rather than the search grid; Prime-aware delivery dates checked against the ZIP they were actually rendered for; filtered signed-in search with tested extractors, a marketplace profile and a durable brand allowlist.",
       "category": "Marketing & Shopping",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -872,7 +872,7 @@
       },
       "description": "ADB (Android Debug Bridge) operations \u2014 onboard a phone, map folders, import media, capture screenshots, manage bloatware with a persistent log, and connect over Wi-Fi with automatic reconnect.",
       "category": "Network & Smart Home",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -884,6 +884,27 @@
         "android",
         "automation",
         "device-management"
+      ]
+    },
+    {
+      "name": "tasker-adb",
+      "displayName": "Tasker over ADB",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Tasker-ADB-Plugin"
+      },
+      "description": "Tasker on Android over ADB: build profiles via its editor",
+      "category": "Network & Smart Home",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "android",
+        "automation"
       ]
     },
     {
@@ -1166,9 +1187,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Resource-List-Builder-Plugin"
       },
-      "description": "Build, maintain, and audit curated GitHub resource lists (Awesome-style indexes) with AI-driven categorisation, alphabetised tables, and dynamic shields.io badges.",
+      "description": "Build and maintain curated resource lists of GitHub repos, Hugging Face models/datasets and links: AI categorisation, table or card layouts, scope files, hubs, private overlay for your house style.",
       "category": "Staging",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3909,7 +3930,7 @@
         "repo": "danielrosehill/Skill-Genie"
       },
       "description": "Proactive skill development inside a live workflow. Ask 'should this become a skill?' before every task: a five-step checklist (repeatable, automatable, already ours, already someone else's, else create and validate it), an order of operations when skill and task are asked for together (task first by default, writing delegated to a subagent), a reindex skill that makes a new skill available at once, a go-out-then-in skill (take private skills public as a generic plugin, then graft your details back as an overlay), plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4162,9 +4183,9 @@
         "source": "github",
         "repo": "danielrosehill/Flow-Control"
       },
-      "description": "Capture mid-task ideas, bugs and asks into sprints, keep going. Triages each item (category, priority P0-P3) into the current sprint, next sprint, backlog or ideas in an in-repo planning/ scaffold, then resumes the task in hand. Also plans sprints, gates releases until the sprint is done, and answers what's next.",
+      "description": "Capture mid-task ideas, bugs and asks into sprints, keep going. Triages each item (category, priority P0-P3) into the current sprint, next sprint, backlog or ideas in an in-repo planning/ scaffold, then resumes the task in hand. Also plans sprints, gates releases until the sprint is done, answers what's next and resumes the latest sprint in a fresh session.",
       "category": "Repo Scaffolding & Retrofitting",
-      "version": "0.1.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4808,6 +4829,56 @@
         "chat"
       ],
       "category": "Personal Productivity"
+    },
+    {
+      "name": "bios-tuning",
+      "displayName": "BIOS Tuning",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/BIOS-Tuning"
+      },
+      "description": "BIOS/UEFI tuning and flashing over an IP-KVM: profile the board, role-based setting plans, verified changes, safe updates. Your machines live in a private overlay.",
+      "category": "Hardware & Maker",
+      "version": "1.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "bios",
+        "uefi",
+        "firmware",
+        "ip-kvm",
+        "pikvm",
+        "picokvm",
+        "homelab"
+      ]
+    },
+    {
+      "name": "hf3d",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/HF3D-Plugin"
+      },
+      "description": "Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset with previews and metadata; optional Sketchfab mirror.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "3d",
+        "glb",
+        "hugging-face",
+        "dataset",
+        "sketchfab"
+      ],
+      "displayName": "HF3D",
+      "category": "Data & Datasets"
     }
   ]
 }

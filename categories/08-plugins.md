@@ -301,6 +301,15 @@ Author and maintain unofficial MCP servers for third-party APIs that don't ship 
 
 ---
 
+## 3d
+
+### Hf3d
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/HF3D-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset with previews and metadata; optional Sketchfab mirror.
+
+---
+
 ## Acoustics
 
 ### Noise Pollution Analysis
@@ -364,6 +373,15 @@ Skeptical analyst toolkit for long reports — READ/SKIM/SKIP verdicts, structur
 
 ---
 
+## Android
+
+### Tasker Adb
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Tasker-ADB-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Tasker on Android over ADB: build profiles via its editor
+
+---
+
 ## Avp
 
 ### Avp Music Video
@@ -378,7 +396,7 @@ Audio → branded music video (avp): waveform, logo, karaoke. Install audio-visu
 ### Resource List Builder
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Resource-List-Builder-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Build, maintain, and audit curated GitHub resource lists (Awesome-style indexes) with AI-driven categorisation, alphabetised tables, and dynamic shields.io badges.
+Build and maintain curated resource lists of GitHub repos, Hugging Face models/datasets and links: AI categorisation, table or card layouts, scope files, hubs, private overlay for your house style.
 
 ---
 
@@ -388,6 +406,15 @@ Build, maintain, and audit curated GitHub resource lists (Awesome-style indexes)
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Backup-Planner-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Plan, document, and implement a backup and data-protection strategy for the current project — from architecture discovery through script generation and restore drills.
+
+---
+
+## Bios
+
+### Bios Tuning
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/BIOS-Tuning) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+BIOS/UEFI tuning and flashing over an IP-KVM: profile the board, role-based setting plans, verified changes, safe updates. Your machines live in a private overlay.
 
 ---
 
@@ -1335,7 +1362,7 @@ Jump to Daniel Rosehill's public work from Claude Code — profiles (LinkedIn, X
 ### Flow Control
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Flow-Control) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Capture mid-task ideas, bugs and asks into sprints, keep going. Triages each item (category, priority P0-P3) into the current sprint, next sprint, backlog or ideas in an in-repo planning/ scaffold, then resumes the task in hand. Also plans sprints, gates releases until the sprint is done, and answers what's next.
+Capture mid-task ideas, bugs and asks into sprints, keep going. Triages each item (category, priority P0-P3) into the current sprint, next sprint, backlog or ideas in an in-repo planning/ scaffold, then resumes the task in hand. Also plans sprints, gates releases until the sprint is done, answers what's next and resumes the latest sprint in a fresh session.
 
 ---
 
