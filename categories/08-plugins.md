@@ -172,6 +172,13 @@ Media library — catalog, tag, search, sort, dedupe assets.
 
 ---
 
+### Narrated Video Context
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Narrated-Video-To-Agent-Context) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Narrated phone video to agent context: transcript with stills inline at marked or spoken moments (e.g. home fix list).
+
+---
+
 ### PR & Media Work
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-PR-Media-Work-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 

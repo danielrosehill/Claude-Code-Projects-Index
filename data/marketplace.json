@@ -5096,6 +5096,31 @@
         "israel",
         "voice-assistant"
       ]
+    },
+    {
+      "name": "narrated-video-context",
+      "displayName": "Narrated Video Context",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Narrated-Video-To-Agent-Context"
+      },
+      "description": "Narrated phone video to agent context: transcript with stills inline at marked or spoken moments (e.g. home fix list).",
+      "category": "Media Editing",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "video",
+        "transcription",
+        "word-timestamps",
+        "frame-extraction",
+        "agent-context",
+        "walkthrough"
+      ]
     }
   ]
 }

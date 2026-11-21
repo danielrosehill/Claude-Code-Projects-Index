@@ -3817,6 +3817,21 @@
     "created_date": "2026-03-25"
   },
   {
+    "name": "Narrated Video Context",
+    "url": "https://github.com/danielrosehill/Narrated-Video-To-Agent-Context",
+    "description": "Narrated phone video to agent context: transcript with stills inline at marked or spoken moments (e.g. home fix list).",
+    "tags": [
+      "Documentation",
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "narrated-video-context",
+    "created_date": "2026-11-21"
+  },
+  {
     "name": "Netek Disconnect",
     "url": "https://github.com/danielrosehill/netek-disconnect-plugin",
     "description": "Cancel Israeli service subscriptions (\u05e0\u05d9\u05ea\u05d5\u05e7) through netek.co.il \u2014 mobile, internet, landline, TV, international calling, water bars, newspapers and credit cards across 55 providers. Resolves the provider and exact Hebrew service string, validates the Israeli ID checksum and address, shows the exact request before sending, and submits only on explicit confirmation. Falls back to filling the form in Chrome when the API changes. Uses Netek's own private, undocumented backend \u2014 not a published API.",

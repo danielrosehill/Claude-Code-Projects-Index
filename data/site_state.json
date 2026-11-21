@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-11-21T13:21:52",
-  "total_repos": 365,
+  "last_built": "2026-11-21T19:22:03",
+  "total_repos": 366,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -259,6 +259,7 @@
     "Mqtt Observability": "601c8a99f859321120a053c7a00b63d2",
     "Multisession": "a1a8bc1f211591f9d3e4c2001d2e2d58",
     "My Tone Of Voice": "f650c30dbe7652b88ec9bd3bf99ebfab",
+    "Narrated Video Context": "ce81a65184d73a2e1f3e93b1490789a0",
     "Netek Disconnect": "c2a61c0ac564fed716bfe90307d9fd75",
     "Network Forensics": "662c53320d1bbd8854399cabb8e5d959",
     "Network Playbook": "7e7602d79205e777440a764bbc56101a",
@@ -370,24 +371,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-05-03T21:31:41",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Agent Relay"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Linux Debugging"
-          ]
-        }
-      ],
-      "total_repos": 181
-    },
     {
       "date": "2026-05-04T11:07:23",
       "changes": [
@@ -2420,6 +2403,18 @@
         }
       ],
       "total_repos": 365
+    },
+    {
+      "date": "2026-11-21T19:22:03",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Narrated Video Context"
+          ]
+        }
+      ],
+      "total_repos": 366
     }
   ]
 }
