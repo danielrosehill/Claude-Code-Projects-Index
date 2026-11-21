@@ -227,6 +227,13 @@ Amazon.com marketplace research — verified price, stock, rating, seller and sp
 
 ---
 
+### Bh Photo
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/BH-Photo-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+B&H Photo (bhphotovideo.com) marketplace research — verified price, stock, B&H #, cable/kit contents and used offers through the routes that get past its Cloudflare wall (Exa, then real Chrome with rate-limit spacing), stale discontinued-page rules, and international shipping and duties.
+
+---
+
 ### Budgeting
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Budgeting-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -258,7 +265,14 @@ Product research and procurement skills with a particular focus on technical spe
 ### Shopping
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Shopping-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Region-specific consumer shopping primitives — find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon US, AliExpress Israel) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.
+Region-specific consumer shopping primitives — find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon, AliExpress, B&H Photo, Sweetwater, Grainger) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.
+
+---
+
+### Sweetwater
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Sweetwater-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Sweetwater (sweetwater.com) marketplace research — price, stock, item ID, Certified Open Box and Gear Exchange offers read from Exa's cache because live pages sit behind a HUMAN/PerimeterX wall, with parsers for its spaced price markup, financing traps and discontinued pages, and cache-age warnings on every figure.
 
 ---
 
@@ -308,7 +322,7 @@ Author and maintain unofficial MCP servers for third-party APIs that don't ship 
 ### Hf3d
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/HF3D-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset with previews and metadata; optional Sketchfab mirror.
+Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset, build a 3D viewer Space, optional Sketchfab mirror.
 
 ---
 
@@ -590,9 +604,9 @@ Create static and interactive data visualisations for reports, repos, and data s
 ## Datasets
 
 ### Data Annotation
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Data-Annotation-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Data-Annotation-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.
+General-purpose data labelling and annotation: design annotation schemas, set up annotation UIs (Label Studio, private Hugging Face Spaces), set up individual jobs, run human, model or voice annotation, and pull results back. Private settings live in a user overlay.
 
 ---
 
@@ -802,7 +816,30 @@ Define hardware project BOMs with ESP32-first focus — onboarding captures loca
 
 ---
 
+## Hebrew
+
+### Hebrew AI Tools
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Hebrew-AI-Tools) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Hebrew AI builders' kit: Hebrew LLM evaluation, Hebrew dataset discovery, and a router to the Hebrew AI models, datasets, benchmarks and community indexes.
+
+---
+
 ## Home Assistant
+
+### Ha Alarmo
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/HA-Alarmo-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Alarmo alarm for HA: sensors, sirens, users, arm
+
+---
+
+### Ha Device Metadata
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/HA-Device-Metadata-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+HA device inventory: install, auto-scan, fill metadata
+
+---
 
 ### Home Assistant Mgmt
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Home-Assistant-Mgmt-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
@@ -877,10 +914,24 @@ Claude Code agent skills for Israel-specific workflows: emergency readiness util
 
 ---
 
+### Israel Open Data
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Open-Data-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+data.gov.il and CBS statistics: search Israel's open data portal in English, query datasets, list new ones, pull CPI and other Central Bureau of Statistics series. Known API quirks built in.
+
+---
+
 ### Israel Opening Hours
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Israel-Opening-Hours-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Check opening hours for Israeli businesses, including hours stated relative to Shabbat and yom tov. Combines Google Business and easy.co.il for stated hours with Hebcal candle-lighting/havdalah times, resolving phrasing like 'reopens an hour after Shabbat' into concrete clock times. Bundles 56 Israeli locations with verified per-city candle-lighting customs.
+
+---
+
+### Israel Osint
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-OSINT) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Israeli company and amuta lookups from public records: registry status, breach flags, strike-off notices and registered charges. Open-source intelligence on Israeli organisations.
 
 ---
 
@@ -894,7 +945,7 @@ Israel Post (דואר ישראל) appointments, branch search and parcel trackin
 ### Israel Shopping
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Israeli shopping workflows — tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).
+Israeli shopping workflows — find-product orchestrator that runs every channel at once (Zap vendor tables, trusted vendors per category, .co.il search, Amazon-to-Israel and AliExpress landed cost, KSP/Ivory branch stock); tech retailers (Ivory, KSP, Bug, TMS, Plonter), pro-audio specialists (KZPro, Speed of Sound, Halilit, Kley Zemer), Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and compare-to-local for AliExpress items (AliExpress itself: companion plugin aliexpress-israel-skills).
 
 ---
 
@@ -1036,7 +1087,7 @@ Performance and space optimisation for Linux desktops — hardware-aware CPU/GPU
 ### Batch Inference
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Batch-Inference) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Batch inference, cloud or local: Ollama and vLLM backends, batch vs sync cost, OpenRouter model lists, model evals, and runners with spend caps.
+Batch inference for bulk LLM jobs across cloud and local backends: read OpenRouter's model lists, compare batch vs sync cost, evaluate models, and run Anthropic and OpenRouter batches, parallel sync calls or local models (Ollama, vLLM, llama.cpp) by your own routing guide.
 
 ---
 
@@ -1100,6 +1151,15 @@ Document a home network so it can be rebuilt after a move: scan and probe it, th
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Network-Forensics-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Trace an IoT device's cloud egress, document it, lock it down: IP cameras, OPNsense, packet capture, whois, block rules, verify.
+
+---
+
+## News
+
+### News Brief
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/News-Brief) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Daily, breaking and SITREP news briefs from RSS whitelists. Ships the Israel Breaking package; build packages for any geography.
 
 ---
 
@@ -1171,7 +1231,7 @@ Plan and burn batch M-Disc / BD-R / DVD archives from a source directory on Ubun
 ### AI Eval
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/AI-Eval) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Evaluate AI models for a real job, starting from start-eval: define the objective and workload, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Covers in-repo and agent-run eval spaces, framework CLIs, image, RAG, agent, speech and regression evals, private annotation and human feedback Spaces, and findings through to articles.
+Evaluate AI models for a real job, starting from start-eval: define the objective and workload, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Covers in-repo and agent-run eval spaces, framework CLIs, image, RAG, agent, speech and regression evals, private annotation and human feedback Spaces, and findings through to articles. Keeps a private index of the user's own evals with their eval-specific skills (my-evals, eval-skill).
 
 ---
 
@@ -1221,6 +1281,13 @@ Slash commands and subagents for managing Docker containers, Compose stacks, vol
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Eml-Toolkit) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Process .eml email exports — reconstruct a thread from loose .eml files, render the chain to a single PDF with correct right-to-left handling for Hebrew and Arabic, extract attachments, export Markdown, redact before sharing, and build numbered evidence bundles.
+
+---
+
+### Feedback
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Feedback) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Voice-first feedback on a PDF, list or diagram: talk, get anchored, structured feedback. Click a spot on a document and speak (or type); comments are pinned to page, line and paragraph, transcribed through any OpenAI-compatible ASR endpoint (self-hosted Whisper/Parakeet or hosted) and returned to the agent in reading order, with per-comment outcomes and rounds. Also list forms (one answer per item, notes, autosave) and clickable Graphviz diagram review. Formerly feedback-panel.
 
 ---
 
@@ -1477,9 +1544,9 @@ Manage a Synology NAS via SSH — guided first-run onboarding, share/volume insp
 ## Synthetic Data
 
 ### Synthetic Data
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Synthetic-Data-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Synthetic-Data-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Generate synthetic datasets from schemas, real data, or LLM-driven personas. Tabular fit-and-sample (SDV: GaussianCopula, CTGAN, TVAE), Faker/Mimesis schema generation, deterministic PII swap, LLM-driven real-to-synth conversion for unstructured records, and SDMetrics-based quality/privacy evaluation (plus embedding-based leakage checks for text).
+General-purpose synthetic data generation: varied LLM-written text (training pairs, eval inputs, personas, records, read-aloud sentences) on any model route, plus tabular fit-and-sample, schema generation, PII swap, real-to-synthetic conversion, diversity and quality checks. Private preferences live in a user-data overlay.
 
 ---
 

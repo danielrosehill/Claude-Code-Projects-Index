@@ -255,7 +255,7 @@
   {
     "name": "AI Eval",
     "url": "https://github.com/danielrosehill/AI-Eval",
-    "description": "Evaluate AI models for a real job, starting from start-eval: define the objective and workload, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Covers in-repo and agent-run eval spaces, framework CLIs, image, RAG, agent, speech and regression evals, private annotation and human feedback Spaces, and findings through to articles.",
+    "description": "Evaluate AI models for a real job, starting from start-eval: define the objective and workload, draw candidates from the live OpenRouter catalogue, and run wide and shallow (many models, about two outputs each). Covers in-repo and agent-run eval spaces, framework CLIs, image, RAG, agent, speech and regression evals, private annotation and human feedback Spaces, and findings through to articles. Keeps a private index of the user's own evals with their eval-specific skills (my-evals, eval-skill).",
     "tags": [
       "Plugin",
       "Tool"
@@ -602,9 +602,11 @@
   {
     "name": "Batch Inference",
     "url": "https://github.com/danielrosehill/Batch-Inference",
-    "description": "Batch inference, cloud or local: Ollama and vLLM backends, batch vs sync cost, OpenRouter model lists, model evals, and runners with spend caps.",
+    "description": "Batch inference for bulk LLM jobs across cloud and local backends: read OpenRouter's model lists, compare batch vs sync cost, evaluate models, and run Anthropic and OpenRouter batches, parallel sync calls or local models (Ollama, vLLM, llama.cpp) by your own routing guide.",
     "tags": [
-      "Plugin"
+      "Documentation",
+      "Plugin",
+      "Tool"
     ],
     "category": "Plugins",
     "category_slug": "plugins",
@@ -640,6 +642,21 @@
     "added_date": "2026-11-13",
     "slug": "batch-run-costs",
     "created_date": "2026-11-07"
+  },
+  {
+    "name": "Bh Photo",
+    "url": "https://github.com/danielrosehill/BH-Photo-Plugin",
+    "description": "B&H Photo (bhphotovideo.com) marketplace research \u2014 verified price, stock, B&H #, cable/kit contents and used offers through the routes that get past its Cloudflare wall (Exa, then real Chrome with rate-limit spacing), stale discontinued-page rules, and international shipping and duties.",
+    "tags": [
+      "Plugin",
+      "Research"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "bh-photo",
+    "created_date": "2026-11-21"
   },
   {
     "name": "Bios Tuning",
@@ -2026,9 +2043,10 @@
   },
   {
     "name": "Data Annotation",
-    "url": "https://github.com/danielrosehill/Claude-Data-Annotation-Plugin",
-    "description": "End-to-end data annotation toolkit. Prep raw data, design annotation schemas, annotate interactively with Claude (small scale) or scaffold Gemini batch inference (large scale), and publish to Hugging Face.",
+    "url": "https://github.com/danielrosehill/Data-Annotation-Plugin",
+    "description": "General-purpose data labelling and annotation: design annotation schemas, set up annotation UIs (Label Studio, private Hugging Face Spaces), set up individual jobs, run human, model or voice annotation, and pull results back. Private settings live in a user overlay.",
     "tags": [
+      "Configuration",
       "Plugin"
     ],
     "category": "Plugins",
@@ -2428,6 +2446,21 @@
     "created_date": "2026-04-30"
   },
   {
+    "name": "Feedback",
+    "url": "https://github.com/danielrosehill/Feedback",
+    "description": "Voice-first feedback on a PDF, list or diagram: talk, get anchored, structured feedback. Click a spot on a document and speak (or type); comments are pinned to page, line and paragraph, transcribed through any OpenAI-compatible ASR endpoint (self-hosted Whisper/Parakeet or hosted) and returned to the agent in reading order, with per-comment outcomes and rounds. Also list forms (one answer per item, notes, autosave) and clickable Graphviz diagram review. Formerly feedback-panel.",
+    "tags": [
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "feedback",
+    "created_date": "2026-11-21"
+  },
+  {
     "name": "FeedCoin",
     "url": "https://github.com/danielrosehill/FeedCoin",
     "description": "Idea documentation: a standard credit that vendors issue to people who improve their paid products (bug reports, fixes), redeemable against the subscription, prompted by heavy Claude Code use.",
@@ -2710,6 +2743,34 @@
     "created_date": "2026-11-03"
   },
   {
+    "name": "Ha Alarmo",
+    "url": "https://github.com/danielrosehill/HA-Alarmo-Plugin",
+    "description": "Alarmo alarm for HA: sensors, sirens, users, arm",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "ha-alarmo",
+    "created_date": "2026-11-21"
+  },
+  {
+    "name": "Ha Device Metadata",
+    "url": "https://github.com/danielrosehill/HA-Device-Metadata-Plugin",
+    "description": "HA device inventory: install, auto-scan, fill metadata",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "ha-device-metadata",
+    "created_date": "2026-11-21"
+  },
+  {
     "name": "Habits",
     "url": "https://github.com/danielrosehill/Agent-Habits",
     "description": "Habits (rules, always-on or triggered) and SOPs (procedures) as one markdown file each, in a private folder, with one small CLAUDE.md block. Library of example habits to adopt. Replaces sop-library.",
@@ -2753,6 +2814,20 @@
     "created_date": "2026-04-30"
   },
   {
+    "name": "Hebrew AI Tools",
+    "url": "https://github.com/danielrosehill/Hebrew-AI-Tools",
+    "description": "Hebrew AI builders' kit: Hebrew LLM evaluation, Hebrew dataset discovery, and a router to the Hebrew AI models, datasets, benchmarks and community indexes.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "hebrew-ai-tools",
+    "created_date": "2026-11-21"
+  },
+  {
     "name": "Hf Publisher Tools",
     "url": "https://github.com/danielrosehill/HF-Publisher-Tools-Plugin",
     "description": "Unofficial Hugging Face publisher skills for AI agents: create datasets, models and Spaces (static, Gradio, Docker), set visibility, build explainer Spaces from templates you can override, keep collections, review and decide access requests on gated repos (only the users you name), mint DOIs, take a Hub inventory, convert loose audio datasets to parquet, curate sentence-dataset lists, use Storage Buckets over S3, and contact support. Your account, orgs, naming style and policies live in a private profile outside the plugin (setup). Companion: hf-research.",
@@ -2770,7 +2845,7 @@
   {
     "name": "Hf3d",
     "url": "https://github.com/danielrosehill/HF3D-Plugin",
-    "description": "Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset with previews and metadata; optional Sketchfab mirror.",
+    "description": "Publish 3D assets (GLB/glTF/OBJ/STL) to Hugging Face as a browsable dataset, build a 3D viewer Space, optional Sketchfab mirror.",
     "tags": [
       "Plugin"
     ],
@@ -3040,6 +3115,20 @@
     "created_date": "2026-05-06"
   },
   {
+    "name": "Israel Open Data",
+    "url": "https://github.com/danielrosehill/Israel-Open-Data-Plugin",
+    "description": "data.gov.il and CBS statistics: search Israel's open data portal in English, query datasets, list new ones, pull CPI and other Central Bureau of Statistics series. Known API quirks built in.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "israel-open-data",
+    "created_date": "2026-11-21"
+  },
+  {
     "name": "Israel Opening Hours",
     "url": "https://github.com/danielrosehill/Claude-Israel-Opening-Hours-Plugin",
     "description": "Check opening hours for Israeli businesses, including hours stated relative to Shabbat and yom tov. Combines Google Business and easy.co.il for stated hours with Hebcal candle-lighting/havdalah times, resolving phrasing like 'reopens an hour after Shabbat' into concrete clock times. Bundles 56 Israeli locations with verified per-city candle-lighting customs.",
@@ -3052,6 +3141,20 @@
     "added_date": "2026-08-03",
     "slug": "israel-opening-hours",
     "created_date": "2026-07-30"
+  },
+  {
+    "name": "Israel Osint",
+    "url": "https://github.com/danielrosehill/Israel-OSINT",
+    "description": "Israeli company and amuta lookups from public records: registry status, breach flags, strike-off notices and registered charges. Open-source intelligence on Israeli organisations.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "israel-osint",
+    "created_date": "2026-11-21"
   },
   {
     "name": "Israel Phonebook Manager",
@@ -3119,7 +3222,7 @@
   {
     "name": "Israel Shopping",
     "url": "https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin",
-    "description": "Israeli shopping workflows \u2014 tech retailers (Ivory, KSP, Bug, TMS), Zap price comparison, Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and AliExpress IL-context search (ILS/Hebrew, IL reviews, free-shipping, combo exclusion, local-vs-import compare).",
+    "description": "Israeli shopping workflows \u2014 find-product orchestrator that runs every channel at once (Zap vendor tables, trusted vendors per category, .co.il search, Amazon-to-Israel and AliExpress landed cost, KSP/Ivory branch stock); tech retailers (Ivory, KSP, Bug, TMS, Plonter), pro-audio specialists (KZPro, Speed of Sound, Halilit, Kley Zemer), Hebrew term resolution, ILS conversion, RRP checks, PN cross-reference, brand identification, and compare-to-local for AliExpress items (AliExpress itself: companion plugin aliexpress-israel-skills).",
     "tags": [
       "Automation",
       "Documentation",
@@ -3799,6 +3902,20 @@
     "created_date": "2025-12-31"
   },
   {
+    "name": "News Brief",
+    "url": "https://github.com/danielrosehill/News-Brief",
+    "description": "Daily, breaking and SITREP news briefs from RSS whitelists. Ships the Israel Breaking package; build packages for any geography.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "news-brief",
+    "created_date": "2026-11-21"
+  },
+  {
     "name": "Nfc Ops",
     "url": "https://github.com/danielrosehill/Claude-NFC-Ops-Plugin",
     "description": "NFC tag operations using libnfc \u2014 read, write, inspect, password-protect, and bulk-write from CSV with manual tag-by-tag feed.",
@@ -4453,7 +4570,7 @@
   {
     "name": "Shopping",
     "url": "https://github.com/danielrosehill/Claude-Shopping-Plugin",
-    "description": "Region-specific consumer shopping primitives \u2014 find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon US, AliExpress Israel) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.",
+    "description": "Region-specific consumer shopping primitives \u2014 find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region and a provisioning skill for fresh shopping workspaces. Marketplace-specific research (Amazon, AliExpress, B&H Photo, Sweetwater, Grainger) now lives in dedicated per-marketplace plugins; the marketplace-plugins skill is the roster.",
     "tags": [
       "Agent Workspace",
       "Plugin",
@@ -4734,6 +4851,21 @@
     "created_date": "2026-04-29"
   },
   {
+    "name": "Sweetwater",
+    "url": "https://github.com/danielrosehill/Sweetwater-Plugin",
+    "description": "Sweetwater (sweetwater.com) marketplace research \u2014 price, stock, item ID, Certified Open Box and Gear Exchange offers read from Exa's cache because live pages sit behind a HUMAN/PerimeterX wall, with parsers for its spaced price markup, financing traps and discontinued pages, and cache-age warnings on every figure.",
+    "tags": [
+      "Plugin",
+      "Research"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "sweetwater",
+    "created_date": "2026-11-21"
+  },
+  {
     "name": "Synology Manager Plugin",
     "url": "https://github.com/danielrosehill/synology-manager-plugin",
     "description": "Claude Code plugin for administering a Synology NAS over SSH, with guided first-run setup, persistent context and commands for shares, volumes, mounts and storage monitoring.",
@@ -4769,9 +4901,10 @@
   },
   {
     "name": "Synthetic Data",
-    "url": "https://github.com/danielrosehill/Claude-Synthetic-Data-Plugin",
-    "description": "Generate synthetic datasets from schemas, real data, or LLM-driven personas. Tabular fit-and-sample (SDV: GaussianCopula, CTGAN, TVAE), Faker/Mimesis schema generation, deterministic PII swap, LLM-driven real-to-synth conversion for unstructured records, and SDMetrics-based quality/privacy evaluation (plus embedding-based leakage checks for text).",
+    "url": "https://github.com/danielrosehill/Synthetic-Data-Plugin",
+    "description": "General-purpose synthetic data generation: varied LLM-written text (training pairs, eval inputs, personas, records, read-aloud sentences) on any model route, plus tabular fit-and-sample, schema generation, PII swap, real-to-synthetic conversion, diversity and quality checks. Private preferences live in a user-data overlay.",
     "tags": [
+      "Documentation",
       "Plugin"
     ],
     "category": "Plugins",
