@@ -2023,15 +2023,15 @@
       ]
     },
     {
-      "name": "claude-agent-browsers",
-      "displayName": "Claude Agent Browsers",
+      "name": "agent-browsers",
+      "displayName": "Agent Browsers",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/Claude-Agent-Browsers-Plugin"
+        "repo": "danielrosehill/Agent-Browsers-Plugin"
       },
-      "description": "Give Claude its own browsers without it taking over your screen. A typed registry of agent browsers (local, LAN server, VPS) with addresses, MCP endpoints, viewers and login sources in your own config; skills to pick, drive and clean up after a browser, hand sign-ins and CAPTCHAs to you, check status and install Xpra viewer launchers. On KDE Plasma 6 the local agent browser stays on its own virtual desktop, never steals focus, stays out of your panel, and is shown to you only when you say yes.",
+      "description": "Give the agent its own browsers: a typed registry (local, LAN, VPS), on its own virtual desktop on KDE.",
       "category": "QA & Agent Sessions",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -5120,6 +5120,57 @@
         "frame-extraction",
         "agent-context",
         "walkthrough"
+      ]
+    },
+    {
+      "name": "imagemeter",
+      "displayName": "ImageMeter",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/ImageMeter-Plugin"
+      },
+      "description": "ImageMeter photos on Drive: find dimensions, export JSON/CSV, tidy sync folders.",
+      "category": "Hardware & Maker",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "imagemeter",
+        "measurements",
+        "dimensions",
+        "floor-plan",
+        "google-drive",
+        "rclone"
+      ]
+    },
+    {
+      "name": "agent-ready-website",
+      "displayName": "Agent-Ready Website",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Agent-Ready-Website"
+      },
+      "description": "Website AI-agent readiness: WebMCP, llms.txt, AI crawlers",
+      "category": "Repo Scaffolding & Retrofitting",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "webmcp",
+        "llms-txt",
+        "agent-readiness",
+        "ai-crawlers",
+        "robots-txt",
+        "structured-data",
+        "geo"
       ]
     }
   ]

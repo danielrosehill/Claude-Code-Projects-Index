@@ -29,6 +29,20 @@
     "created_date": "2026-07-30"
   },
   {
+    "name": "Agent Browsers",
+    "url": "https://github.com/danielrosehill/Agent-Browsers-Plugin",
+    "description": "Give the agent its own browsers: a typed registry (local, LAN, VPS), on its own virtual desktop on KDE.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "agent-browsers",
+    "created_date": "2026-11-21"
+  },
+  {
     "name": "Agent Context Harness",
     "url": "https://github.com/danielrosehill/Agent-Context-Harness",
     "description": "Idea: a per-turn router that sends each message to the current task, an existing parallel worker or a new session, keeping unrelated tasks out of one agent's context.",
@@ -83,6 +97,20 @@
     "added_date": "2026-10-19",
     "slug": "agent-handover-demo",
     "created_date": "2025-08-11"
+  },
+  {
+    "name": "Agent Ready Website",
+    "url": "https://github.com/danielrosehill/Agent-Ready-Website",
+    "description": "Website AI-agent readiness: WebMCP, llms.txt, AI crawlers",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "agent-ready-website",
+    "created_date": "2026-11-21"
   },
   {
     "name": "Agent Reference Workflows",
@@ -866,20 +894,6 @@
     "added_date": "2026-03-06",
     "slug": "claude-adhd-research-workspace",
     "created_date": "2025-11-07"
-  },
-  {
-    "name": "Claude Agent Browsers",
-    "url": "https://github.com/danielrosehill/Claude-Agent-Browsers-Plugin",
-    "description": "Give Claude its own browsers without it taking over your screen. A typed registry of agent browsers (local, LAN server, VPS) with addresses, MCP endpoints, viewers and login sources in your own config; skills to pick, drive and clean up after a browser, hand sign-ins and CAPTCHAs to you, check status and install Xpra viewer launchers. On KDE Plasma 6 the local agent browser stays on its own virtual desktop, never steals focus, stays out of your panel, and is shown to you only when you say yes.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-11-15",
-    "slug": "claude-agent-browsers",
-    "created_date": "2026-11-15"
   },
   {
     "name": "Claude Agent Picker Pattern",
@@ -3004,6 +3018,20 @@
     "added_date": "2026-04-23",
     "slug": "image-production",
     "created_date": "2025-11-15"
+  },
+  {
+    "name": "Imagemeter",
+    "url": "https://github.com/danielrosehill/ImageMeter-Plugin",
+    "description": "ImageMeter photos on Drive: find dimensions, export JSON/CSV, tidy sync folders.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-21",
+    "slug": "imagemeter",
+    "created_date": "2026-11-21"
   },
   {
     "name": "Input Device Mapper",

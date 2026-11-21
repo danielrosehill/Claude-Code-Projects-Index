@@ -461,10 +461,10 @@ Produce books, long-form research reports, screenplays and audiobooks with teams
 
 ## Browser
 
-### Claude Agent Browsers
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Agent-Browsers-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Agent Browsers
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agent-Browsers-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Give Claude its own browsers without it taking over your screen. A typed registry of agent browsers (local, LAN server, VPS) with addresses, MCP endpoints, viewers and login sources in your own config; skills to pick, drive and clean up after a browser, hand sign-ins and CAPTCHAs to you, check status and install Xpra viewer launchers. On KDE Plasma 6 the local agent browser stays on its own virtual desktop, never steals focus, stays out of your panel, and is shown to you only when you say yes.
+Give the agent its own browsers: a typed registry (local, LAN, VPS), on its own virtual desktop on KDE.
 
 ---
 
@@ -893,6 +893,15 @@ Image production — editing, format conversion, batch ops, and filesystem organ
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Screenshotting) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Linux screenshots from the CLI: capture, annotate, OCR, scan for PII and secrets, then redact or spoof live pages with stand-in data.
+
+---
+
+## Imagemeter
+
+### Imagemeter
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/ImageMeter-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+ImageMeter photos on Drive: find dimensions, export JSON/CSV, tidy sync folders.
 
 ---
 
@@ -1735,6 +1744,15 @@ Passive-aggressive PA system. Claude barks status updates over a speaker; if ign
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Voicenotes-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Voicenotes.com: search, read, create; unofficial text and date-range export, tags, audio import. Not affiliated.
+
+---
+
+## Webmcp
+
+### Agent Ready Website
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Agent-Ready-Website) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Website AI-agent readiness: WebMCP, llms.txt, AI crawlers
 
 ---
 
