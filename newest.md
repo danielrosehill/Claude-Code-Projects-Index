@@ -6,6 +6,8 @@ Every repository in the index, ordered by GitHub creation date (newest first). F
 
 | Created | Repository | Category | Description |
 | --- | --- | --- | --- |
+| 2026-11-22 | [Saas Data Export](https://github.com/danielrosehill/SaaS-Data-Export-Plugin) | Plugins | Request your data exports from SaaS providers like ChatGPT, by browser or guided steps, and track them until the download link arrives. |
+| 2026-11-22 | [Google Photos](https://github.com/danielrosehill/Claude-Google-Photos-Plugin) | Plugins | Google Photos: albums, picker downloads, album backup. Create albums and upload into them (Library API), download photos the user picks (Picker API), drive a signed-in Chrome for what the APIs dropped in 2025 (download or share any album, add to app-made albums), and incremental deduplicated album backup to disk, NAS or rclone with add-only offsite and M-Disc volumes. Per-account profiles. |
 | 2026-11-21 | [Sweetwater](https://github.com/danielrosehill/Sweetwater-Plugin) | Plugins | Sweetwater (sweetwater.com) marketplace research — price, stock, item ID, Certified Open Box and Gear Exchange offers read from Exa's cache because live pages sit behind a HUMAN/PerimeterX wall, with parsers for its spaced price markup, financing traps and discontinued pages, and cache-age warnings on every figure. |
 | 2026-11-21 | [News Brief](https://github.com/danielrosehill/News-Brief) | Plugins | Daily, breaking and SITREP news briefs from RSS whitelists. Ships the Israel Breaking package; build packages for any geography. |
 | 2026-11-21 | [Narrated Video Context](https://github.com/danielrosehill/Narrated-Video-To-Agent-Context) | Plugins | Narrated phone video to agent context: transcript with stills inline at marked or spoken moments (e.g. home fix list). |

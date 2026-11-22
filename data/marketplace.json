@@ -5172,6 +5172,54 @@
         "structured-data",
         "geo"
       ]
+    },
+    {
+      "name": "google-photos",
+      "displayName": "Google Photos",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Claude-Google-Photos-Plugin"
+      },
+      "description": "Google Photos: albums, picker downloads, album backup. Create albums and upload into them (Library API), download photos the user picks (Picker API), drive a signed-in Chrome for what the APIs dropped in 2025 (download or share any album, add to app-made albums), and incremental deduplicated album backup to disk, NAS or rclone with add-only offsite and M-Disc volumes. Per-account profiles.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "google-photos",
+        "photos-library-api",
+        "photos-picker-api",
+        "album",
+        "backup"
+      ],
+      "category": "Media Editing"
+    },
+    {
+      "name": "saas-data-export",
+      "displayName": "SaaS Data Export",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/SaaS-Data-Export-Plugin"
+      },
+      "description": "Request your data exports from SaaS providers like ChatGPT, by browser or guided steps, and track them until the download link arrives.",
+      "category": "Privacy & Security",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "data-export",
+        "gdpr",
+        "privacy-request",
+        "takeout",
+        "backup"
+      ]
     }
   ]
 }

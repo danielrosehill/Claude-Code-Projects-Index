@@ -588,6 +588,15 @@ Data cleaning, enrichment, restructuring, packaging, and documentation skills fo
 
 ---
 
+## Data Export
+
+### Saas Data Export
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/SaaS-Data-Export-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Request your data exports from SaaS providers like ChatGPT, by browser or guided steps, and track them until the download link arrives.
+
+---
+
 ## Data Ingestion
 
 ### Browser Data Capture
@@ -766,6 +775,15 @@ Semantic GitHub repo discovery for reusable components. Search, rank, overview, 
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Start-Here) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Find, navigate and download Daniel Rosehill's GitHub repositories: search all 1,000+ public repos, find the curated topic index for a subject, and clone one repo or a filtered set. Reads the Start-Here index JSON instead of crawling GitHub.
+
+---
+
+## Google Photos
+
+### Google Photos
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Google-Photos-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Google Photos: albums, picker downloads, album backup. Create albums and upload into them (Library API), download photos the user picks (Picker API), drive a signed-in Chrome for what the APIs dropped in 2025 (download or share any album, add to app-made albums), and incremental deduplicated album backup to disk, NAS or rclone with add-only offsite and M-Disc volumes. Per-account profiles.
 
 ---
 

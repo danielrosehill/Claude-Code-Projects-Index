@@ -2680,6 +2680,20 @@
     "created_date": "2026-04-09"
   },
   {
+    "name": "Google Photos",
+    "url": "https://github.com/danielrosehill/Claude-Google-Photos-Plugin",
+    "description": "Google Photos: albums, picker downloads, album backup. Create albums and upload into them (Library API), download photos the user picks (Picker API), drive a signed-in Chrome for what the APIs dropped in 2025 (download or share any album, add to app-made albums), and incremental deduplicated album backup to disk, NAS or rclone with add-only offsite and M-Disc volumes. Per-account profiles.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-22",
+    "slug": "google-photos",
+    "created_date": "2026-11-22"
+  },
+  {
     "name": "Gpg Ops",
     "url": "https://github.com/danielrosehill/Claude-GPG-Ops-Plugin",
     "description": "GPG operations: generate keypairs, export public keys, encrypt, decrypt, sign, and verify files or text using the local GnuPG keyring.",
@@ -4549,6 +4563,22 @@
     "added_date": "2026-10-19",
     "slug": "rudder",
     "created_date": "2026-04-19"
+  },
+  {
+    "name": "Saas Data Export",
+    "url": "https://github.com/danielrosehill/SaaS-Data-Export-Plugin",
+    "description": "Request your data exports from SaaS providers like ChatGPT, by browser or guided steps, and track them until the download link arrives.",
+    "tags": [
+      "Documentation",
+      "Plugin",
+      "Tool"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-22",
+    "slug": "saas-data-export",
+    "created_date": "2026-11-22"
   },
   {
     "name": "Schedule Manager",
