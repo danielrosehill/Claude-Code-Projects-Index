@@ -1175,7 +1175,7 @@ Personal life planning — log entries, review progress, set goals, with diary/h
 ### Procurement Tools
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/procurement-tools-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Product research and procurement skills with a particular focus on technical specification conformance — does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.
+Product research and procurement skills with a particular focus on technical specification conformance — does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. A seller quote loop: identify vendors and workshops, shortlist reputable sellers, message them by WhatsApp or email (with a reference photo when fit matters), check replies, compare quotes. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.
 
 ---
 
@@ -1505,7 +1505,7 @@ Data cleaning, enrichment, restructuring, packaging, and documentation skills fo
 ### Saas Data Export
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/SaaS-Data-Export-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Request your data exports from SaaS providers like ChatGPT, by browser or guided steps, and track them until the download link arrives.
+Request your data exports from SaaS providers (ChatGPT, Reddit, X, Facebook, LinkedIn) by browser or guided steps, and track them until the download arrives.
 
 ---
 
@@ -1645,7 +1645,7 @@ Thin orchestrator for geopolitical forecasting simulations. Scaffolds, runs, bun
 ### Digital Evidence
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-General-purpose digital-evidence processing: capture, hash, OpenTimestamps, ExifTool/MediaInfo metadata, BagIt packaging, immutable sync. Layers with legal-investigative for full chain-of-custody workflows.
+General-purpose digital-evidence processing: capture (web pages, Android devices over ADB), hash, OpenTimestamps, ExifTool/MediaInfo metadata, BagIt packaging, immutable sync. Layers with legal-investigative for full chain-of-custody workflows.
 
 ---
 
@@ -1858,6 +1858,13 @@ Claude Code agent skills for Israel-specific workflows: emergency readiness util
 
 ---
 
+### Israel Foi
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-FOI-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Israeli FOI requests (חופש המידע): right authority, Hebrew draft, filing, deadline. Starts with the Jerusalem Municipality online form.
+
+---
+
 ### Israel Open Data
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Open-Data-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1882,7 +1889,7 @@ Israeli company and amuta lookups from public records: registry status, breach f
 ### Israel Post
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Post-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Israel Post (דואר ישראל) appointments, branch search and parcel tracking: book, check or cancel a counter slot.
+Israel Post (דואר ישראל) operations: send registered letters online (מכתב דיגיטלי), book, check and cancel branch appointments, add them to your calendar, track parcels.
 
 ---
 

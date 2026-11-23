@@ -2267,7 +2267,7 @@
   {
     "name": "Digital Evidence",
     "url": "https://github.com/danielrosehill/Claude-Digital-Evidence-Plugin",
-    "description": "General-purpose digital-evidence processing: capture, hash, OpenTimestamps, ExifTool/MediaInfo metadata, BagIt packaging, immutable sync. Layers with legal-investigative for full chain-of-custody workflows.",
+    "description": "General-purpose digital-evidence processing: capture (web pages, Android devices over ADB), hash, OpenTimestamps, ExifTool/MediaInfo metadata, BagIt packaging, immutable sync. Layers with legal-investigative for full chain-of-custody workflows.",
     "tags": [
       "Automation",
       "Plugin"
@@ -3123,6 +3123,20 @@
     "created_date": "2026-10-27"
   },
   {
+    "name": "Israel Foi",
+    "url": "https://github.com/danielrosehill/Israel-FOI-Plugin",
+    "description": "Israeli FOI requests (\u05d7\u05d5\u05e4\u05e9 \u05d4\u05de\u05d9\u05d3\u05e2): right authority, Hebrew draft, filing, deadline. Starts with the Jerusalem Municipality online form.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-23",
+    "slug": "israel-foi",
+    "created_date": "2026-11-23"
+  },
+  {
     "name": "Israel Medication Research Skills",
     "url": "https://github.com/danielrosehill/Israel-Medication-Research-Skills",
     "description": "Stub workspace for agent skills that check medication availability in Israel for patients, to be folded into the Israel agent-skills plugin.",
@@ -3217,7 +3231,7 @@
   {
     "name": "Israel Post",
     "url": "https://github.com/danielrosehill/Israel-Post-Plugin",
-    "description": "Israel Post (\u05d3\u05d5\u05d0\u05e8 \u05d9\u05e9\u05e8\u05d0\u05dc) appointments, branch search and parcel tracking: book, check or cancel a counter slot.",
+    "description": "Israel Post (\u05d3\u05d5\u05d0\u05e8 \u05d9\u05e9\u05e8\u05d0\u05dc) operations: send registered letters online (\u05de\u05db\u05ea\u05d1 \u05d3\u05d9\u05d2\u05d9\u05d8\u05dc\u05d9), book, check and cancel branch appointments, add them to your calendar, track parcels.",
     "tags": [
       "Plugin"
     ],
@@ -4312,7 +4326,7 @@
   {
     "name": "Procurement Tools",
     "url": "https://github.com/danielrosehill/procurement-tools-plugin",
-    "description": "Product research and procurement skills with a particular focus on technical specification conformance \u2014 does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
+    "description": "Product research and procurement skills with a particular focus on technical specification conformance \u2014 does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. A seller quote loop: identify vendors and workshops, shortlist reputable sellers, message them by WhatsApp or email (with a reference photo when fit matters), check replies, compare quotes. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
     "tags": [
       "Documentation",
       "Plugin",
@@ -4567,7 +4581,7 @@
   {
     "name": "Saas Data Export",
     "url": "https://github.com/danielrosehill/SaaS-Data-Export-Plugin",
-    "description": "Request your data exports from SaaS providers like ChatGPT, by browser or guided steps, and track them until the download link arrives.",
+    "description": "Request your data exports from SaaS providers (ChatGPT, Reddit, X, Facebook, LinkedIn) by browser or guided steps, and track them until the download arrives.",
     "tags": [
       "Documentation",
       "Plugin",
