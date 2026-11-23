@@ -1865,6 +1865,13 @@ Israeli FOI requests (חופש המידע): right authority, Hebrew draft, filin
 
 ---
 
+### Israel Gis
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-GIS-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Israeli GIS: query Jerusalem's open map layers, and find the GIS for any Israeli city or national body.
+
+---
+
 ### Israel Open Data
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-Open-Data-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1882,7 +1889,7 @@ Check opening hours for Israeli businesses, including hours stated relative to S
 ### Israel Osint
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Israel-OSINT) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Israeli company and amuta lookups from public records: registry status, breach flags, strike-off notices and registered charges. Open-source intelligence on Israeli organisations.
+Israeli company research from public records: registry, court cases, media, filings, parcels and permits in one dossier.
 
 ---
 

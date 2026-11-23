@@ -3137,6 +3137,20 @@
     "created_date": "2026-11-23"
   },
   {
+    "name": "Israel Gis",
+    "url": "https://github.com/danielrosehill/Israel-GIS-Plugin",
+    "description": "Israeli GIS: query Jerusalem's open map layers, and find the GIS for any Israeli city or national body.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-23",
+    "slug": "israel-gis",
+    "created_date": "2026-11-23"
+  },
+  {
     "name": "Israel Medication Research Skills",
     "url": "https://github.com/danielrosehill/Israel-Medication-Research-Skills",
     "description": "Stub workspace for agent skills that check medication availability in Israel for patients, to be folded into the Israel agent-skills plugin.",
@@ -3201,9 +3215,10 @@
   {
     "name": "Israel Osint",
     "url": "https://github.com/danielrosehill/Israel-OSINT",
-    "description": "Israeli company and amuta lookups from public records: registry status, breach flags, strike-off notices and registered charges. Open-source intelligence on Israeli organisations.",
+    "description": "Israeli company research from public records: registry, court cases, media, filings, parcels and permits in one dossier.",
     "tags": [
-      "Plugin"
+      "Plugin",
+      "Research"
     ],
     "category": "Plugins",
     "category_slug": "plugins",

@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-11-23T17:47:33",
-  "total_repos": 371,
+  "last_built": "2026-11-23T18:46:55",
+  "total_repos": 372,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -214,11 +214,12 @@
     "Israel Agent Skills Dev Index": "e50519415281a38eafcf12fa2a2ca57d",
     "Israel Election 2026 Vote Decision": "dde26019e4ee11370d5f1583aa100baf",
     "Israel Foi": "50d42c4dc3fe94127665f4d86cca4004",
+    "Israel Gis": "87529a0ca866563a2d1945e13c42d4c7",
     "Israel Medication Research Skills": "b5ce8ba4ec8c4efb3672bd960b03fd28",
     "Israel Mortgage Research Skills": "e1cb503821b107881d56016e4ec2b15c",
     "Israel Open Data": "a6e1773e02f610ecf6d441483fe1f4f9",
     "Israel Opening Hours": "37c39f13d3039319d90a8ddfaf829af2",
-    "Israel Osint": "7cd7227c2cb21251c88fad848281780d",
+    "Israel Osint": "ae0ec60aa86b323a34231d80a1c79f7f",
     "Israel Phonebook Manager": "4167d8dd7283b2849d8bfc589ce6b3a1",
     "Israel Post": "9f491d0aea21042f4f0bf704db788d72",
     "Israel Property Research Skills": "88ce078357d5850cb071ee0b22c7e34c",
@@ -376,25 +377,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-08-03T21:34:59",
-      "changes": [
-        {
-          "type": "removed",
-          "repos": [
-            "Habits Of Claude"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Loose Tasks",
-            "Therapy Tracking"
-          ]
-        }
-      ],
-      "total_repos": 193
-    },
     {
       "date": "2026-08-03T21:35:08",
       "changes": [
@@ -2023,6 +2005,24 @@
         }
       ],
       "total_repos": 371
+    },
+    {
+      "date": "2026-11-23T18:46:55",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Israel Gis"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Israel Osint"
+          ]
+        }
+      ],
+      "total_repos": 372
     }
   ]
 }

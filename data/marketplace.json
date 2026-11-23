@@ -3080,7 +3080,7 @@
       },
       "description": "Everything right-to-left in one plugin: Hebrew, Arabic, Farsi and Urdu email, Typst PDFs and formal Hebrew letters, HTML marketing newsletters, Google Docs and Sheets, calendar events, Word and Excel files, and render checks. Your signatures, brands and house styles stay in a private user-data folder.",
       "category": "Regional",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -4109,7 +4109,7 @@
       },
       "description": "Israel Post (\u05d3\u05d5\u05d0\u05e8 \u05d9\u05e9\u05e8\u05d0\u05dc) operations: send registered letters online (\u05de\u05db\u05ea\u05d1 \u05d3\u05d9\u05d2\u05d9\u05d8\u05dc\u05d9), book, check and cancel branch appointments, add them to your calendar, track parcels.",
       "category": "Regional",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -5028,15 +5028,37 @@
       ]
     },
     {
+      "name": "israel-gis",
+      "displayName": "Israel GIS",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Israel-GIS-Plugin"
+      },
+      "description": "Israeli GIS: query Jerusalem's open map layers, and find the GIS for any Israeli city or national body.",
+      "category": "Research & Learning",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "israel",
+        "gis",
+        "jerusalem"
+      ]
+    },
+    {
       "name": "israel-osint",
       "displayName": "Israel OSINT",
       "source": {
         "source": "github",
         "repo": "danielrosehill/Israel-OSINT"
       },
-      "description": "Israeli company and amuta lookups from public records: registry status, breach flags, strike-off notices and registered charges. Open-source intelligence on Israeli organisations.",
+      "description": "Israeli company research from public records: registry, court cases, media, filings, parcels and permits in one dossier.",
       "category": "Research & Learning",
-      "version": "0.1.0",
+      "version": "0.4.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -5231,7 +5253,7 @@
       },
       "description": "Israeli FOI requests (\u05d7\u05d5\u05e4\u05e9 \u05d4\u05de\u05d9\u05d3\u05e2): right authority, Hebrew draft, filing, deadline. Starts with the Jerusalem Municipality online form.",
       "category": "Regional",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
