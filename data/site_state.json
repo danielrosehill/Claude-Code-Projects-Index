@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-11-23T18:46:55",
-  "total_repos": 372,
+  "last_built": "2026-11-23T19:46:57",
+  "total_repos": 373,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -135,6 +135,7 @@
     "Conda Management Plugin": "43511558236a55fe52e344633432abb5",
     "Conda Manager": "dc83e93ec47ae42783dfe55004c19d5e",
     "Content Writing": "ca04e748822a52daccd217f2c345b0fd",
+    "Context Mgmt": "c1181889f668d6523e8727cbb122cf5c",
     "CONTEXT.md": "ce976b6647ab119eaa221a75c948adfb",
     "Cool Claude Code Stuff": "2f55aa29b1e2494720692bbabf23be78",
     "Copyq Scripting": "1b01a6b99355e7331f07f721e87c2a10",
@@ -311,7 +312,7 @@
     "Responsible Agent Skill Development": "efca386d81f037f3534af186f330f11e",
     "Resume Typesetter": "f0db6df6f52fa69e1b908a0a81769d59",
     "Rtl Skills": "7a8a3a16dc1f6620aec03bab9b922261",
-    "Rudder": "7377247197757a93bf4bd1d7ac641e6d",
+    "Rudder": "43c12814f1ab0ac1c717bfbfe3a2e812",
     "Saas Data Export": "03f4613884d474f89728d2303623af35",
     "Schedule Manager": "cfd91d0ed938158ef83ea6914df3da31",
     "Screenshotting": "9dfd927e8551ae151da6a2e5dbff9b01",
@@ -377,25 +378,6 @@
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-08-03T21:35:08",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Habits Of Claude"
-          ]
-        },
-        {
-          "type": "modified",
-          "repos": [
-            "Claude Hopper",
-            "Claude Vault"
-          ]
-        }
-      ],
-      "total_repos": 194
-    },
     {
       "date": "2026-08-10T18:41:27",
       "changes": [
@@ -2023,6 +2005,24 @@
         }
       ],
       "total_repos": 372
+    },
+    {
+      "date": "2026-11-23T19:46:57",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Context Mgmt"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Rudder"
+          ]
+        }
+      ],
+      "total_repos": 373
     }
   ]
 }

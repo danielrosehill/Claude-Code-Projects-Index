@@ -581,9 +581,9 @@
         "source": "github",
         "repo": "danielrosehill/Claude-Rudder"
       },
-      "description": "Claude-Rudder \u2014 collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
+      "description": "Collection of utilities to smoothen Claude Code UX: log/blocker capture, plugin/MCP primitives, repo and docs spawning, and the canonical user-data storage convention. (Context skills moved to Context-Mgmt, session-hopping skills to Claude-Hopper.)",
       "category": "QA & Agent Sessions",
-      "version": "2.9.4",
+      "version": "2.10.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -592,7 +592,6 @@
       "license": "MIT",
       "tags": [
         "claude-code",
-        "context-management",
         "mcp",
         "ux"
       ]
@@ -5058,7 +5057,7 @@
       },
       "description": "Israeli company research from public records: registry, court cases, media, filings, parcels and permits in one dossier.",
       "category": "Research & Learning",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -5267,6 +5266,28 @@
         "jerusalem",
         "municipality",
         "hebrew"
+      ]
+    },
+    {
+      "name": "context-mgmt",
+      "displayName": "Context Mgmt",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Context-Mgmt"
+      },
+      "description": "Measure and trim what a fresh agent session loads, checkpoint cluttered sessions, chunk CLAUDE.md, and sync CONTEXT.md with CLAUDE.md.",
+      "category": "AI & Context",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "context-management",
+        "tokens",
+        "claude-md"
       ]
     }
   ]

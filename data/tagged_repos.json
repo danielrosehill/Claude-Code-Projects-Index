@@ -1967,6 +1967,20 @@
     "created_date": "2026-04-19"
   },
   {
+    "name": "Context Mgmt",
+    "url": "https://github.com/danielrosehill/Context-Mgmt",
+    "description": "Measure and trim what a fresh agent session loads, checkpoint cluttered sessions, chunk CLAUDE.md, and sync CONTEXT.md with CLAUDE.md.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-23",
+    "slug": "context-mgmt",
+    "created_date": "2026-11-23"
+  },
+  {
     "name": "CONTEXT.md",
     "url": "https://github.com/danielrosehill/CONTEXT.md",
     "description": "Workflow methodology for separating human-authored context from structured AI agent briefings.",
@@ -4581,9 +4595,8 @@
   {
     "name": "Rudder",
     "url": "https://github.com/danielrosehill/Claude-Rudder",
-    "description": "Claude-Rudder \u2014 collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)",
+    "description": "Collection of utilities to smoothen Claude Code UX: log/blocker capture, plugin/MCP primitives, repo and docs spawning, and the canonical user-data storage convention. (Context skills moved to Context-Mgmt, session-hopping skills to Claude-Hopper.)",
     "tags": [
-      "Automation",
       "Plugin"
     ],
     "category": "Plugins",

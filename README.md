@@ -1435,7 +1435,7 @@ Import a ChatGPT conversation into local files via the browser. Captures the ful
 ### Rudder
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Rudder) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Claude-Rudder — collection of utilities to smoothen Claude Code UX. Context-gate workflow, log/blocker capture, plugin/MCP primitives, repo & docs spawning, and the canonical user-data storage convention. (Session-hopping skills moved to Claude-Hopper.)
+Collection of utilities to smoothen Claude Code UX: log/blocker capture, plugin/MCP primitives, repo and docs spawning, and the canonical user-data storage convention. (Context skills moved to Context-Mgmt, session-hopping skills to Claude-Hopper.)
 
 ---
 
@@ -1470,6 +1470,15 @@ Cloudflare domains: search, buy, audit; CSV, expiry PDF, calendar reminders, WHO
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Comparison-Artifacts) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Software evaluation tables, scoring and quadrants: tick/cross or short-descriptor feature tables, weighted scoring from your stated priorities, and 2x2 quadrant charts, rendered to Markdown, Typst or SVG from one data file and written into the document you're drafting.
+
+---
+
+## Context Management
+
+### Context Mgmt
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Context-Mgmt) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Measure and trim what a fresh agent session loads, checkpoint cluttered sessions, chunk CLAUDE.md, and sync CONTEXT.md with CLAUDE.md.
 
 ---
 
