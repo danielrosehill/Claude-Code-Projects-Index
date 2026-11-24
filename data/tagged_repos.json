@@ -2355,6 +2355,20 @@
     "created_date": "2026-04-30"
   },
   {
+    "name": "Docx Redline",
+    "url": "https://github.com/danielrosehill/Docx-Redline-Plugin",
+    "description": "Word .docx tracked changes and comments without Word: read, redline, accept/reject, render to PDF. Keeps Hebrew and Arabic right-to-left.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-24",
+    "slug": "docx-redline",
+    "created_date": "2026-11-24"
+  },
+  {
     "name": "Dolphin AI Actions",
     "url": "https://github.com/danielrosehill/Dolphin-AI-Actions",
     "description": "KDE Dolphin right-click service menus that open the selected directory in Claude Code or Codex, in normal or permissive mode.",
@@ -5312,7 +5326,7 @@
   {
     "name": "Ubuntu Security",
     "url": "https://github.com/danielrosehill/Ubuntu-Security",
-    "description": "Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, YubiKey and fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.",
+    "description": "Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.",
     "tags": [
       "Plugin"
     ],
@@ -5529,6 +5543,20 @@
     "added_date": "2026-10-19",
     "slug": "writing-editing-plugin",
     "created_date": "2025-11-15"
+  },
+  {
+    "name": "Yubikey",
+    "url": "https://github.com/danielrosehill/YubiKey-Toolkit",
+    "description": "YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV and OpenPGP.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-24",
+    "slug": "yubikey",
+    "created_date": "2026-11-24"
   },
   {
     "name": "Zigbee Home Maintenance",

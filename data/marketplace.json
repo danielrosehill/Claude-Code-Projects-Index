@@ -1486,7 +1486,7 @@
       },
       "description": "Manage a Home Assistant instance via SSH and the HA REST API \u2014 guided first-run onboarding, automation/entity authoring, service calls, TTS testing, and log review. Per-host config is stored outside the plugin so the same install works across multiple Home Assistant environments.",
       "category": "Network & Smart Home",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3593,9 +3593,9 @@
         "source": "github",
         "repo": "danielrosehill/Ubuntu-Security"
       },
-      "description": "Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, YubiKey and fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.",
+      "description": "Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.",
       "category": "Privacy & Security",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3612,6 +3612,31 @@
         "ssh",
         "fail2ban",
         "audit"
+      ]
+    },
+    {
+      "name": "yubikey",
+      "displayName": "YubiKey",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/YubiKey-Toolkit"
+      },
+      "description": "YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV and OpenPGP.",
+      "category": "Privacy & Security",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "yubikey",
+        "fido2",
+        "webauthn",
+        "pam",
+        "ssh",
+        "totp"
       ]
     },
     {
@@ -5277,7 +5302,7 @@
       },
       "description": "Measure and trim what a fresh agent session loads, checkpoint cluttered sessions, chunk CLAUDE.md, and sync CONTEXT.md with CLAUDE.md.",
       "category": "AI & Context",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -5288,6 +5313,31 @@
         "context-management",
         "tokens",
         "claude-md"
+      ]
+    },
+    {
+      "name": "docx-redline",
+      "displayName": "Docx Redline",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Docx-Redline-Plugin"
+      },
+      "description": "Word .docx tracked changes and comments without Word: read, redline, accept/reject, render to PDF. Keeps Hebrew and Arabic right-to-left.",
+      "category": "Documentation & Writing",
+      "version": "1.1.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "docx",
+        "word",
+        "track-changes",
+        "redline",
+        "rtl",
+        "hebrew"
       ]
     }
   ]

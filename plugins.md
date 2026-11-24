@@ -1334,6 +1334,13 @@ Slash commands and subagents for managing Docker containers, Compose stacks, vol
 
 ---
 
+### Docx Redline
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Docx-Redline-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Word .docx tracked changes and comments without Word: read, redline, accept/reject, render to PDF. Keeps Hebrew and Arabic right-to-left.
+
+---
+
 ### Eml Toolkit
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Eml-Toolkit) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
@@ -1721,7 +1728,7 @@ Administer Ubuntu machines, desktop or server, locally or over SSH: health and d
 ### Ubuntu Security
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Ubuntu-Security) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, YubiKey and fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.
+Host security for Ubuntu desktops and servers: ufw firewall (setup, status, scoped allows, removal, diagnosing blocks), ClamAV/rkhunter/Lynis/AIDE scanning and schedules, security audits and updates, SSH keys and sshd config, fail2ban, fingerprint login, TLS certificate checks. Supersedes linux-av-manager and security-checkup.
 
 ---
 
@@ -1803,6 +1810,15 @@ Website AI-agent readiness: WebMCP, llms.txt, AI crawlers
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-WhatsApp-WAHA-Plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
 Personal WhatsApp via self-hosted WAHA: send, groups, health. Text and photos to contacts and groups, first message to a new number with the contact saved (placeholder name if unknown), create and manage groups, archive or leave chats, check the link for capping and reach-out locks. Per-user profiles, so one install serves several accounts.
+
+---
+
+## Yubikey
+
+### Yubikey
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/YubiKey-Toolkit) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV and OpenPGP.
 
 ---
 
