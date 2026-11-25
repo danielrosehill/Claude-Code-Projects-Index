@@ -351,9 +351,9 @@
         "source": "github",
         "repo": "danielrosehill/procurement-tools-plugin"
       },
-      "description": "Product research and procurement skills with a particular focus on technical specification conformance \u2014 does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. A seller quote loop: identify vendors and workshops, shortlist reputable sellers, message them by WhatsApp or email (with a reference photo when fit matters), check replies, compare quotes. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
+      "description": "Product research and procurement skills with a particular focus on technical specification conformance \u2014 does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, UPC/EAN/GTIN lookup from a trading name, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. A seller quote loop: identify vendors and workshops, shortlist reputable sellers, message them by WhatsApp or email (with a reference photo when fit matters), check replies, compare quotes. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
       "category": "Marketing & Shopping",
-      "version": "2.6.0",
+      "version": "2.7.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -2324,7 +2324,7 @@
       },
       "description": "General-purpose digital-evidence processing: capture (web pages, Android devices over ADB), hash, OpenTimestamps, ExifTool/MediaInfo metadata, BagIt packaging, immutable sync. Layers with legal-investigative for full chain-of-custody workflows.",
       "category": "Privacy & Security",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -3615,15 +3615,15 @@
       ]
     },
     {
-      "name": "yubikey",
-      "displayName": "YubiKey",
+      "name": "hardware-auth-keys",
+      "displayName": "Hardware Auth Keys",
       "source": {
         "source": "github",
-        "repo": "danielrosehill/YubiKey-Toolkit"
+        "repo": "danielrosehill/Hardware-Auth-Keys"
       },
-      "description": "YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV and OpenPGP.",
+      "description": "Hardware authentication keys on Linux, YubiKey and Thetis: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets; plus YubiKey TOTP, PIV, OpenPGP and 1Password transfers.",
       "category": "Privacy & Security",
-      "version": "0.1.0",
+      "version": "0.3.0",
       "author": {
         "name": "Daniel Rosehill",
         "email": "public@danielrosehill.com",
@@ -5338,6 +5338,32 @@
         "redline",
         "rtl",
         "hebrew"
+      ]
+    },
+    {
+      "name": "report-writing",
+      "displayName": "Report Writing",
+      "source": {
+        "source": "github",
+        "repo": "danielrosehill/Report-Writing"
+      },
+      "description": "Write and refine informational briefs: situation reports, pre-meeting, company and person briefs. Profiles, review, research audit, Typst PDF, Drive and email.",
+      "category": "Documentation & Writing",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Rosehill",
+        "email": "public@danielrosehill.com",
+        "url": "https://danielrosehill.com"
+      },
+      "license": "MIT",
+      "tags": [
+        "reports",
+        "briefs",
+        "sitrep",
+        "pdb",
+        "meeting-prep",
+        "company-research",
+        "typst"
       ]
     }
   ]

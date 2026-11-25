@@ -265,7 +265,7 @@ Personal life planning — log entries, review progress, set goals, with diary/h
 ### Procurement Tools
 [![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/procurement-tools-plugin) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-Product research and procurement skills with a particular focus on technical specification conformance — does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. A seller quote loop: identify vendors and workshops, shortlist reputable sellers, message them by WhatsApp or email (with a reference photo when fit matters), check replies, compare quotes. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.
+Product research and procurement skills with a particular focus on technical specification conformance — does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, UPC/EAN/GTIN lookup from a trading name, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. A seller quote loop: identify vendors and workshops, shortlist reputable sellers, message them by WhatsApp or email (with a reference photo when fit matters), check replies, compare quotes. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.
 
 ---
 
@@ -1526,6 +1526,15 @@ AI-assisted Linux system recovery — slash commands and agents (diagnose, logs,
 
 ---
 
+## Reports
+
+### Report Writing
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Report-Writing) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+
+Write and refine informational briefs: situation reports, pre-meeting, company and person briefs. Profiles, review, research audit, Typst PDF, Drive and email.
+
+---
+
 ## Resume
 
 ### Resume Typesetter
@@ -1815,10 +1824,10 @@ Personal WhatsApp via self-hosted WAHA: send, groups, health. Text and photos to
 
 ## Yubikey
 
-### Yubikey
-[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/YubiKey-Toolkit) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
+### Hardware Auth Keys
+[![View Repo](https://img.shields.io/badge/View%20Repo-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Hardware-Auth-Keys) ![Plugin](https://img.shields.io/badge/Plugin-purple?style=flat-square)
 
-YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV and OpenPGP.
+Hardware authentication keys on Linux, YubiKey and Thetis: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets; plus YubiKey TOTP, PIV, OpenPGP and 1Password transfers.
 
 ---
 

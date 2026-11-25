@@ -1,6 +1,6 @@
 {
-  "last_built": "2026-11-24T13:51:08",
-  "total_repos": 375,
+  "last_built": "2026-11-25T13:08:47",
+  "total_repos": 376,
   "total_tags": 22,
   "repo_manifest": {
     "Adb Ops": "eac6b257680fdf22edc3aab5756d5735",
@@ -194,6 +194,7 @@
     "Ha Alarmo": "75dbb0bb62af15a385463a4e05ccb336",
     "Ha Device Metadata": "dc5e65ae21985eaa8ac15ba905d90d32",
     "Habits": "197480381c7131c2228c7160b7a51911",
+    "Hardware Auth Keys": "0a82445576d87c69881febeab5e50ebb",
     "Hardware Id Annotation": "9a7fea455678d47632e1ce0da185919f",
     "Hardware Spec Assembly": "e1f98860f643a9b5f5dafe20dc6c2ce9",
     "Hebrew AI Tools": "c8acb0a39924db0d1985b35ed9685eac",
@@ -297,7 +298,7 @@
     "PR & Media Work": "344e9495f091a75a7ee98f8813a8cf07",
     "Print Shop": "e97833e3c365c843a577404c8288c39d",
     "Private And Public Claude MD": "9ce45ac8195ae67866f3328dcbcc0797",
-    "Procurement Tools": "d33cc77316a345147a258eafc5f6315b",
+    "Procurement Tools": "ee6d5b844c3dcb870b4a5964d27c73cc",
     "Programmatic Doc Generation": "213cb643413b00dc56f68d2af85f0a3e",
     "Proxmox Mgmt": "8352d6cf5ebe933848c0d9e107058874",
     "Pseudospam Filter": "7ef17e205ea12c83e0dd7f4f41e8d666",
@@ -307,6 +308,7 @@
     "Remote Video Editing": "f9665796235a87a57f253bd402baca49",
     "Repo To Content": "d11de6b0fa6f92c5f90fbbe171d9301c",
     "Report Analyst": "9a8dcbe58d47d4d6c27e2b1b1c97ec2a",
+    "Report Writing": "024f3aae0c2627684bae9c8bdaf84d28",
     "Research Pack": "83b67b096fe963e7c091c2a1b8292e22",
     "Research Space": "213a469c75ea32deae4bfa1a6a300212",
     "Resource List Builder": "2e1b2be52b33ed9dc04f81ee1a401d1e",
@@ -376,22 +378,9 @@
     "Whatsapp Waha": "0c3f0d6dd0b1e4b7abfdcff6befcbed2",
     "Workspace Foundational": "e10ca849234383a171682b63de278d23",
     "Writing Editing Plugin": "a9cfbaaecb10f5014e1ea1add4a6cc04",
-    "Yubikey": "7035eb152c7f6013efae081d72651c97",
     "Zigbee Home Maintenance": "ba03f10b0b08bea540fa518f15073dc5"
   },
   "history": [
-    {
-      "date": "2026-08-10T19:13:22",
-      "changes": [
-        {
-          "type": "added",
-          "repos": [
-            "Claude Fleet Traffic Shaper"
-          ]
-        }
-      ],
-      "total_repos": 237
-    },
     {
       "date": "2026-08-10T19:24:14",
       "changes": [
@@ -1846,6 +1835,31 @@
         }
       ],
       "total_repos": 375
+    },
+    {
+      "date": "2026-11-25T13:08:47",
+      "changes": [
+        {
+          "type": "added",
+          "repos": [
+            "Hardware Auth Keys",
+            "Report Writing"
+          ]
+        },
+        {
+          "type": "removed",
+          "repos": [
+            "Yubikey"
+          ]
+        },
+        {
+          "type": "modified",
+          "repos": [
+            "Procurement Tools"
+          ]
+        }
+      ],
+      "total_repos": 376
     }
   ]
 }

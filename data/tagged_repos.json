@@ -2841,6 +2841,20 @@
     "created_date": "2026-08-03"
   },
   {
+    "name": "Hardware Auth Keys",
+    "url": "https://github.com/danielrosehill/Hardware-Auth-Keys",
+    "description": "Hardware authentication keys on Linux, YubiKey and Thetis: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets; plus YubiKey TOTP, PIV, OpenPGP and 1Password transfers.",
+    "tags": [
+      "Plugin"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-25",
+    "slug": "hardware-auth-keys",
+    "created_date": "2026-11-25"
+  },
+  {
     "name": "Hardware Id Annotation",
     "url": "https://github.com/danielrosehill/Claude-Hardware-ID-Annotation-Plugin",
     "description": "Identify and annotate hardware components from photos \u2014 circuit boards, motherboards, ICs \u2014 with overlays, datasheet cross-checks, and structured BOMs.",
@@ -4369,7 +4383,7 @@
   {
     "name": "Procurement Tools",
     "url": "https://github.com/danielrosehill/procurement-tools-plugin",
-    "description": "Product research and procurement skills with a particular focus on technical specification conformance \u2014 does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. A seller quote loop: identify vendors and workshops, shortlist reputable sellers, message them by WhatsApp or email (with a reference photo when fit matters), check replies, compare quotes. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
+    "description": "Product research and procurement skills with a particular focus on technical specification conformance \u2014 does this part actually meet the requirement, and can you show your working. Marketplace-agnostic: spec definition from a vague want or a photograph, annotated search vocabulary, versioned spec-as-code, manufacturer datasheet retrieval, UPC/EAN/GTIN lookup from a trading name, cross-region part-number equivalence, conformance evaluation matrices, bills of materials and RFQ packages. A seller quote loop: identify vendors and workshops, shortlist reputable sellers, message them by WhatsApp or email (with a reference photo when fit matters), check replies, compare quotes. Plus the surrounding process: intake, research, compare, evaluate, recommend, market-check, spec-driven market landscape surveys, live price/delivery scanning through your own VPN egress, preference memory and hardware-rig profiling. Hands off to the marketplace-specific plugins (shopping, israel-shopping, amazon, aliexpress-israel-skills) once a question becomes about a particular shop.",
     "tags": [
       "Documentation",
       "Plugin",
@@ -4516,6 +4530,21 @@
     "added_date": "2026-04-30",
     "slug": "report-analyst",
     "created_date": "2026-04-30"
+  },
+  {
+    "name": "Report Writing",
+    "url": "https://github.com/danielrosehill/Report-Writing",
+    "description": "Write and refine informational briefs: situation reports, pre-meeting, company and person briefs. Profiles, review, research audit, Typst PDF, Drive and email.",
+    "tags": [
+      "Plugin",
+      "Research"
+    ],
+    "category": "Plugins",
+    "category_slug": "plugins",
+    "category_group": "Technical",
+    "added_date": "2026-11-25",
+    "slug": "report-writing",
+    "created_date": "2026-11-25"
   },
   {
     "name": "Research Pack",
@@ -5543,20 +5572,6 @@
     "added_date": "2026-10-19",
     "slug": "writing-editing-plugin",
     "created_date": "2025-11-15"
-  },
-  {
-    "name": "Yubikey",
-    "url": "https://github.com/danielrosehill/YubiKey-Toolkit",
-    "description": "YubiKey setup and troubleshooting on Linux: detection, Chrome/WebAuthn prompts, sudo and login via PAM, SSH keys, PINs and resets, TOTP codes, PIV and OpenPGP.",
-    "tags": [
-      "Plugin"
-    ],
-    "category": "Plugins",
-    "category_slug": "plugins",
-    "category_group": "Technical",
-    "added_date": "2026-11-24",
-    "slug": "yubikey",
-    "created_date": "2026-11-24"
   },
   {
     "name": "Zigbee Home Maintenance",
